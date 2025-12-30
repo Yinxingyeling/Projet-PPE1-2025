@@ -1,0 +1,184 @@
+Model loaded succeed
+May 9 , 2017
+README . md
+THULAC ： 一个 高效 的 中文 词法 分析 工具 包
+目录
+
+项目 介绍
+编译 和 安装
+使用 方式
+各类 分词 的 性能 对比
+词性 解释
+THULAC 模型 介绍
+注意 事项
+其他 语言 实现
+历史
+开源 协议
+相关 论文
+作者
+
+项目 介绍
+
+THULAC （ THU Lexical Analyzer for Chinese ） 由 清华大学 自然 语言 处理 与 社会 人文 计算 实验室 研制 推出 的 一 套 中文 词法 分析 工具 包 ， 具有 中文 分词 和 词性 标注 功能 。 THULAC 具有 如下 几 个 特点 ：
+
+能力 强 。 利用 我们 集成 的 目前 世界 上规模 最 大 的 人工 分词 和 词性 标注 中文 语料库 （ 约 含 5800万 字 ） 训练 而 成 ， 模型 标注 能力 强大 。
+准确率 高 。 该 工具包 在 标准 数据集 Chinese Treebank （ CTB 5 ） 上 分词 的 F1值 可 达 97 . 3％ ， 词性 标注 的 F1值 可 达到 92 . 9％ ， 与 该 数据 集上 最 好 方法 效果 相当 。
+速度 较 快 。 同时 进行 分词 和 词性 标注 速度 为 300 KB / s ， 每 秒 可 处理 约 15万 字 。 只 进行 分词 速度 可 达到 1 . 3 MB / s 。
+
+编译 和 安装
+
+python版 ( 兼容python 2 . x版 和 python 3 . x版 )
+
+从 github 下载 ( 需 下载 模型 文件 ， 见 获取 模型 )
+
+将 thulac文件 放 到 目录 下 ， 通过 import thulac 来 引用
+thulac 需要 模型 的 支持 ， 需要 将 下载 的 模型 放到 thulac 目录 下 。
+
+pip 下载 ( 自 带 模型 文件 )
+
+sudo pip install thulac
+通过 import thulac 来 引用
+
+使用 方式 ( 新增 fast 接口 )
+1 . 分词 和 词性 标注 程序
+1 . 1 . 接口 使用 示例
+
+python版
+
+代码 示例 1
+import thulac	
+
+thu 1 = thula c . thulac ( ) # 默认 模式
+text = thu 1 . cut ( " 我 爱 北京 天安门 " , text = True ) # 进行 一 句 话 分词
+print ( text )
+
+代码 示例 2
+thu 1 = thula c . thulac ( seg _ onl y = True ) # 只 进行 分词 ， 不 进行 词性 标注
+thu 1 . cut _ f ( " input . txt " , " output . txt " ) # 对 input . txt文件 内容 进行 分词 ， 输出 到 output . txt
+
+1 . 2 . 接口 参数
+
+thulac ( user _ dict = None , model _ path = None , T2 S = False , seg _ onl y = False , filt = False , deli = ' _ ' ) 初始化 程序 ， 进行 自 定义 设置
+
+user _ dict	 	 设置 用户 词典 ， 用户 词典 中 的 词 会 被 打 上 uw 标签 。 词典 中 每 一个 词 一行 ， UTF8编码
+T2 S		 		 	默 认False , 是 否 将 句子 从 繁体 转化 为 简体
+seg _ onl y	 		 默认 False , 时候 只 进行 分词 ， 不 进行 词性 标注
+filt		 		 默认 False , 是 否 使用 过滤器 去除 一些 没有 意义 的 词语 ， 例如 “ 可以 ” 。
+model _ path	 	 设置 模型 文件 所 在 文件 夹 ， 默 认为 models /
+deli	 	 	默 认为 ‘ _ ’ , 设置词 与 词性 之间 的 分隔 符
+
+rm _ space 默 认为 False , 是 否 去 掉原 文本 中 的 空格 后 再 进行 分词 `` `
+
+cut ( 文本 , text = False ) 对 一 句 话 进行 分词
+
+text 	 		 	默 认为 False , 是 否 返回 文本 ， 不 返回 文本 则 返回 一个 二维数 组 ( [ [ word , tag ] .. ] ) , seg _ only 模式 下tag 为 空 字符 。
+
+cut _ f ( 输入 文件 , 输出 文件 ) 对 文件 进行 分词
+
+run ( ) 命令 行 交互式 分词 ( 屏幕 输入 、 屏幕 输出 )
+
+1 . 3 . 命令 行 运行 ( 限pip 安装 使用 )
+
+直接 调用
+
+python - m thulac input . txt output . txt
+# 从 input . txt 读入 ， 并 将 分词 和 词性 标注 结果 输出 到 ouptu t . txt 中
+
+# 如果 只 需要 分词 功能 ， 可 在 增加 参数 " seg _ onl y "
+python - m thulac input . txt output . txt seg _ onl y
+
+1 . 4 . fast 接口
+
+( 请 下 载make 后 将 得到 的 libthula c . so 放 入 models 文件 夹同 目录 下 )
+
+有 两 个 函数 实现 了 fast接口 ， 仅 函数 名 改变 ， 参数 使用 同 普通 函数
+
+cut - > fast _ cut , cut _ f - > fast _ cut _ f
+
+2 . 获取 模型
+
+THULAC 需要 分词 和 词性 标注 模型 的 支持 ， 获取 下载 好 的 模型 用户 可以 登录thula c . thunl p . org网站 填写 个人 信息 进行 下载 ， 并 放 到 THULAC 的 根 目录 即可 ， 或者 使用 参数 model _ path 指定 模型 的 位置 。
+代表 分词 软件 的 性能 对比
+
+我们 选择 LTP 、 ICTCLAS 、 结巴 分词 等 国内 代表 分词 软件 与 THULAC 做 性能 比较 。 我们 选择 Windows 作为 测试 环境 ， 根据 第二 届 国际 汉语 分词 测评 发布 的 国际 中文 分词 测评 标准 ， 对 不 同 软件 进行 了 速度 和 准确率 测试 。
+
+在 第二 届 国际 汉语 分词 测评 中 ， 共有 四 家 单位 提供 的 测试 语料 （ Academia Sinica 、 City University 、 Peking University 、 Microsoft Research ） , 在 评测 提供 的 资源icwb2 - data 中 包含 了 来自 这 四 家 单位 的 训练集 （ training ） 、 测试集 （ testing ） , 以及 根据 各自 分词 标准 而 提供 的 相应 测试集 的 标准 答案 （ icwb2 - data / scripts / gold ） ．在icwb2 - data / scripts 目录 下 含有 对 分词 进行 自动 评分 的 perl脚 本score 。
+
+我们 在 统一 测试 环境 下 ， 对 若干 流行 分词 软件 和 THULAC 进行 了 测试 ， 使用 的 模型 为 各 分词 软件 自 带 模型 。 THULAC 使用 的 是 随 软件 提供 的 简单 模型 Model _ 1 。 评测 环境 为 Intel Core i 5 2 . 4 GHz 评测 结果 如下 ：
+
+msr _ test （ 560 KB ）
+Algorithm 	Time 	Precision 	Recall
+LTP - 3 . 2 . 0 	 3 . 21 s 	0 . 86 7 	0 . 89 6
+ICTCLAS ( 2015 版 ) 	0 . 55 s 	0 . 86 9 	0 . 91 4
+jieba 	0 . 26 s 	0 . 81 4 	0 . 809
+THULAC 	0 . 62 s 	0 . 87 7 	0 . 89 9
+
+pku _ test （ 510 KB ）
+Algorithm 	Time 	Precision 	Recall
+LTP - 3 . 2 . 0 	 3 . 83 s 	0 . 960 	0 . 947
+ICTCLAS ( 2015 版 ) 	0 . 53 s 	0 . 93 9 	0 . 94 4
+jieba 	0 . 23 s 	0 . 850 	0 . 784
+THULAC 	0 . 51 s 	0 . 94 4 	0 . 908
+
+除 了 以上 在 标准 测试 集上 的 评测 ， 我们 也 对 各个 分词 工具 在 大 数据 上 的 速度 进行 了 评测 ， 结果 如下 ：
+
+CNKI _ journa l . txt （ 51 MB ）
+Algorithm 	Time 	Speed
+LTP - 3 . 2 . 0 	 34 8 . 624 s 	 14 9 . 80 KB / s
+ICTCLAS ( 2015 版 ) 	 106 . 46 1 s 	 490 . 59 KB / s
+jieba 	 22 . 5583 s 	 2314 . 89 KB / s
+THULAC 	 42 . 625 s 	 1221 . 05 KB / s
+词性 解释
+
+n / 名词 np / 人名 ns / 地名 ni / 机构 名 nz / 其它 专名
+m / 数 词 q / 量词 mq / 数量 词 t / 时间 词 f / 方位 词 s / 处 所 词
+v / 动词 a / 形容词 d / 副词 h / 前接 成分 k / 后接 成分
+i / 习语 j / 简称 r / 代词 c / 连 词 p / 介词 u / 助词 y / 语气 助词
+e / 叹词 o / 拟 声词 g / 语素 w / 标点 x / 其它
+
+THULAC 模型 介绍
+
+我们 随THULAC源 代码 附带 了 简单 的 分词 模型 Model _ 1 ， 仅 支持 分词 功能 。 该 模型 由 人民日报 分词 语料库 训练 得到 。
+
+我们 随THULAC源 代码 附带 了 分词 和 词性 标注 联合 模型 Model _ 2 ， 支持 同时 分词 和 词性 标注 功能 。 该 模型 由 人民日报 分词 和 词性 标注 语料库 训练 得到 。
+
+我们 还 提供 更 复杂 、 完善 和 精确 的 分词 和 词性 标注 联合 模型 Model _ 3 和 分词 词表 。 该 模型 是 由 多 语料 联合 训练 训练 得到 （ 语料 包括 来 自 多 文体 的 标注 文本 和 人民日报 标注 文本 等 ） 。 由于 模型 较 大 ， 如 有 机构 或 个人 需要 ， 请 填写 “ doc / 资源 申请 表 . doc ” ， 并 发送 至 thunl p @ gmail . com ， 通过 审核 后 我们 会 将 相关 资源 发送 给 联系人 。
+
+注意 事项
+
+该 工具 目前 仅 处理 UTF8编码 中文 文本 ， 之后 会 逐渐 增加 支持 其他 编码 的 功能 ， 敬请 期待 。
+其他 语言 实现
+THULAC （ C + + 版 ）
+
+https : // githu b . com / thunlp / THULAC
+THULAC （ Java 版 ）
+
+https : // githu b . com / thunlp / THULAC - Java
+THULAC （ so版 ）
+
+https : // githu b . com / thunlp / THULA C . so
+历史
+更新 时间 	 更新 内容
+2017 - 0 1 - 17 	 在 pip 上 发布 THULAC 分词 python 版本 。
+2016 - 0 9 - 29 	 增加 THULAC 分词 s o 版本 。
+2016 - 0 3 - 3 1 	 增加 THULAC 分词 python 版本 。
+2016 - 0 1 - 20 	 增加 THULAC 分词 Java 版本 。
+2016 - 0 1 - 10 	 开源THULAC 分词 工具C + + 版本 。
+开源 协议
+
+THULAC 面向 国内外 大学 、 研究所 、 企业 以及 个人 用于 研究目 的 免费 开放 源 代码 。
+如 有 机构 或 个人 拟 将 THULAC 用于 商业目 的 ， 请 发 邮件 至 thunl p @ gmail . com 洽谈 技术 许可 协议 。
+欢迎 对 该 工具 包 提出 任何 宝贵 意见 和 建议 。 请 发 邮件 至 thunl p @ gmail . com 。
+如果 您 在 THULAC 基础 上 发表 论文 或 取得 科研 成果 ， 请 您 在 发表 论文 和 申报 成果 时 声明 “ 使用 了 清华大学 THULAC ” ， 并 按 如下 格式 引用 ：
+
+中文 ： 孙茂松 , 陈新雄 , 张开旭 , 郭志芃 , 刘知 远 . THULAC ： 一个 高效 的 中文 词法 分析 工具 包 . 2016 .
+
+英文 ： Maosong Sun , Xinxiong Chen , Kaixu Zhang , Zhipeng Guo , Zhiyuan Liu . THULAC : A n Efficient Lexical Analyzer for Chines e . 2016 .
+
+相关 论文
+
+Zhong guo Li , Maosong Sun . Punctuation as Implicit Annotations for Chinese Word Segment ation .  Computational Linguistics , v o l . 35 , n o . 4 , p p . 505 - 512 , 2009 .
+
+作者
+
+Maosong Sun （ 孙茂松 ， 导师 ） , Xinxiong Chen （ 陈新雄 ， 博士生 ） , Kaixu Zhang ( 张开旭 ， 硕士生 ） , Zhipeng Guo （ 郭志芃 ， 本科生 ） , Junhua Ma （ 马骏骅 ， 访问 学生 ） , Zhiyuan Liu （ 刘知远 ， 助理 教授 ） .
