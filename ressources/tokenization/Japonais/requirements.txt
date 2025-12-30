@@ -1,2 +1,0 @@
-sudachipy
-sudachidict_core
