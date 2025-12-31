@@ -1,0 +1,7 @@
+
+   [125]Accueil Visualiser les résultats d'une analyse de texte à l'aide
+   de nuages de mots
+
+Visualisation des résultats de l'analyse de texte à l'aide de nuages de mots
+
+   Sommaire

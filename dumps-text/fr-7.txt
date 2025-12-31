@@ -1,0 +1,304 @@
+   #[1]alternate [2]alternate [3]alternate [4]alternate [5]alternate
+   [6]alternate [7]alternate
+
+   [8]Passer au contenu principal
+
+   [9]Centre d'aide de Wooclap
+   (BUTTON)
+   (BUTTON)
+
+   [Français_.]
+   Français
+
+   [Français_.]
+   Français
+
+   Rechercher un article... ____________________
+
+   Table des matières
+
+   [10]Toutes les collections
+   [11]Fonctionnalités et paramètres de l'événement
+   [12]Types de questions
+   Nuage de mots
+
+Nuage de mots
+
+   Apprenez-en plus sur le fonctionnement et les différentes règles du
+   nuage de mots.
+   Mis à jour il y a plus de 4 mois
+   Table des matières
+
+Créer un nuage de mots interactif dans Wooclap pour des présentations
+dynamiques
+
+   Le [13]Nuage de mot est une fonctionnalité dynamique qui permet
+   d'attirer l'attention et de faire apparaître les mots essentiels qui
+   caractérisent une notion ou un concept. Plus un terme revient, plus il
+   sera mis en valeur.
+   ​
+   [14][Cloud_1.gif?expires=1767151800&amp;signature=a0188d53043cb3db9b7d0
+   1edf6d62b5804a0eca4c36f4ebd21f1335ae367f17d&amp;req=dSEmFst8lYNdW%2FMW1
+   HO4zVhfR0mcvjiGmqwJEpv2M0tU0Kr75Qlf5b%2FkZMP0%0As15X5JVBmG%2BRGKt86Ec%3
+   D%0A]
+
+   Attention : Le Nuage de mots est affiché uniquement sur l’écran de
+   présentateur et non sur le dispositif de vos participants. Ces derniers
+   peuvent seulement envoyer leur(s) réponse(s). Nous vous conseillons
+   alors, en présentiel ou à distance, de partager votre écran avec eux
+   afin qu’ils puissent également voir le nuage de mots se construire au
+   fur et à mesure.
+
+   [15][FR+How+does+it+work.png?expires=1767151800&amp;signature=550d95913
+   0c546fe12acc00e9ac6ad7286e6d352c061c63073f1bf85f3eda23c&amp;req=dSEmFst
+   9n4lYXPMW1HO4zf7Gd%2BLLkIXqa2sTv4E5OkvhaxYgfTW%2BIb73zSFg%0AZ1SHO2bRoLX
+   3y9YxVa8%3D%0A]
+
+Créer un Nuage de mots
+
+   Commencez par ouvrir l'événement auquel vous souhaitez ajouter un nuage
+   de mots. Vous pouvez également partir de zéro en créant un tout nouvel
+   événement.
+
+   Une fois dans votre événement, cliquez sur Nouvelle question et
+   sélectionnez Nuage de mots sous Recueillir des feedbacks.
+
+   [16][2025-08-05_14-48-51+%281%29.gif?expires=1767151800&amp;signature=d
+   33c37b33ce74c37460f76a86646651ca5e4bdba13c4090599a51942f88f3594&amp;req
+   =dSYiEs92nIBbXPMW1HO4zfEQmp0QkeFdkn3PQ4755f3HHOjGV%2F9FbC6pkKFS%0AYMbL3
+   q4ATO%2FvfgTnJaw%3D%0A]
+
+   Vous cherchez de l'inspiration ? Rendez-vous sur la [17]page des
+   modèles et téléchargez l'un des modèles existants pour le type de
+   question Nuage de mots !
+
+Personnalisez le Nuage de mots
+
+   Une fois que vous avez ouvert votre Nuage de mots, vous pouvez le
+   personnaliser et l'adapter à vos besoins. Commencez par ajouter votre
+   question pour vos participants (1).
+
+   Vous pouvez éventuellement ajouter une ou plusieurs réponses correctes
+   au Nuage de mots (2). Si tel est le cas, les participants seront notés
+   en fonction de leur(s) réponse(s).
+
+   [18][2025-07-09_14-38-03.png?expires=1767151800&amp;signature=34ddaa304
+   bf630e4880c7fa9db736168f95f46dcf706ba15ff6d96fccdd65886&amp;req=dSYmF8p
+   5noZcWPMW1HO4zVBA%2FS3hLHJ4ly2XrSF8uV6ae9pn5v2pVgj%2Bzp9S%0AQ4y0KHLahbl
+   %2BzqqtcKg%3D%0A]
+
+   Vous disposez de plusieurs options à droite pour personnaliser
+   davantage votre question :
+     * Nombre maximum de caractères
+     * [19]Réponses multiples
+     * [20]Modérateur
+     * Liker les réponses
+     * Envoi d'images
+       Veuillez noter que les images n'apparaîtront pas sous forme de
+       nuage, comme c'est le cas pour les mots. Vous devrez afficher les
+       résultats sous forme de grille ou de liste pour voir les images
+       envoyées.
+     * Ignorer les petites erreurs
+     * [21]Mots cachés
+     * Fusionner les accents
+     * [22]Compte à rebours
+
+Afficher le nuage de mots
+
+   Une fois que vous avez cliqué sur « Afficher maintenant » ou « Afficher
+   », la question que vous avez préparée apparaîtra sur votre écran. Vous
+   pouvez ensuite inviter vos participants à rejoindre votre événement et
+   à répondre.
+
+   Par défaut, les résultats s'affichent sous forme de nuage de mots (1).
+   Il est également possible d'afficher les résultats sous forme de liste
+   (2) ou de grille (3).
+
+   [23][2025-07-09_14-51-36.png?expires=1767151800&amp;signature=cf88d04a1
+   dcdfddea8b3861518d0a0659ebdf40dc9f355c411b92b8cfe068091&amp;req=dSYmF8p
+   5lINXXfMW1HO4zR7Si1Ul6jSLOcc9P2cdreSVRvNcsa%2B2K89JLwUM%0AYEcCNHEhyaEsn
+   aRqWJs%3D%0A]
+
+Les transformations que nous appliquons
+
+   Pour que le nuage de mots reste propre et bien structuré, nous
+   appliquons certaines règles et transformations à son affichage.
+     * La ponctuation (, ; . ? ! :) est remplacée par des espaces.
+     * Les espaces excessifs (plus d'un) sont supprimés.
+     * Les accents sont fusionnés par défaut.
+
+   La version la plus courante d'un mot sera affichée dans le nuage de
+   mots. Par conséquent, si une personne envoie "Beyoncé" et que deux
+   personnes envoient "beyonce", c'est cette dernière (beyonce) qui sera
+   affichée.
+   ​
+   S'il n'y a pas de majorité, l'itération la plus récente sera affichée.
+   Si la première personne envoie "BEYONCE" et que la deuxième personne
+   envoie "beyoncé", c'est cette deuxième itération qui sera affichée.
+   ​
+
+   Veuillez noter que vous pouvez également choisir de fusionner les
+   accents (ou non !) à partir des paramètres de votre question Word
+   Cloud. Si l'option Fusionner les accents a été activée, les mots
+   "Beyoncé" et "Beyonce" seront considérés comme un seul et même mot et
+   affichés comme décrit précédemment. Si l'option Fusionner les accents
+   n'a pas été activée, "Beyoncé" et "Beyonce" seront considérés comme
+   deux mots différents et apparaîtront comme tels dans le nuage de mots.
+   ​
+
+Les règles d'affichage
+
+     * Une expression est conservée dans son intégralité si elle comporte
+       moins de 30 caractères. Sinon, elle est coupée au niveau des
+       espaces (ou de la ponctuation, comme indiqué ci-dessus).
+     * Les mots les plus fréquents sont affichés en plus grand.
+     * Au maximum, 50 mots seront affichés à l'écran (par ordre de
+       récurrence) ;
+     * Si l'option "Liker les réponses" est active, chaque "Like" comptera
+       comme si la réponse avait été envoyée une fois de plus. Ainsi, par
+       exemple, 10 likes seront comptabilisés comme 10 réponses identiques
+       supplémentaires.
+     * Si l'option "Mots cachés" est activée, un mot (ou une expression)
+       ne sera pas affiché s'il fait partie de la liste des "mots d'arrêt"
+       (voir [24]cet article pour plus d'informations). Cela permet
+       d'éviter que des mots comme "en" soient affichés seuls. Notez
+       qu'une expression telle que "arc-en-ciel" sera affichée si elle
+       contient le "en", car il fait partie du mot composé.
+       Si ces mots d'arrêt sont précédés ou suivis d'autres mots, ils
+       seront également affichés. Ainsi, si quelqu'un envoie "les" seul,
+       il ne sera pas affiché. Si l'apprenant envoie "les Pays-Bas", cela
+       sera affiché en tant que tel.
+     * Outre les transformations décrites ci-dessus (concernant les
+       majuscules et les accents), deux mots écrits différemment seront
+       affichés individuellement dans le nuage de mots. Ainsi, des mots
+       comme "école" et "écoles" seront affichés séparément.
+     * Si l'option "Modérateur" est activée, les réponses de vos
+       participants arriveront dans la petite enveloppe en bas à droite de
+       l'écran du présentateur. De là, vous pouvez voir les réponses et
+       choisir de les afficher sur l'écran du présentateur ou de les
+       supprimer.
+     * Notez qu'il est également possible pour votre public d'envoyer des
+       emojis !
+       ​
+
+Nos recommandations
+
+    1. Activez l'option "Réponses multiples" : cela permettra aux
+       participants d'envoyer autant de réponses qu'ils le souhaitent, ce
+       qui est généralement utile pour afficher les différents concepts
+       sous forme de nuage de mots.
+    2. Activez l'affichage "Nuage de mots" : dans ce cas, les réponses
+       seront immédiatement affichées sous forme de nuage de mots.
+    3. Activez l'option "Liker les réponses" : les participants pourront
+       alors voir les réponses des autres et cliquer sur un petit cœur
+       pour donner un "like" à la réponse d'un de leurs pairs. D'un point
+       de vue fonctionnel, cela revient à envoyer la même réponse.
+       L'avantage est d'éviter les fautes d'orthographe qui pourraient se
+       produire si la réponse est envoyée plusieurs fois, ce qui aurait
+       pour effet d'afficher ces réponses séparément.
+    4. Ajoutez une limite de 30 caractères, ce qui empêchera toute réponse
+       d'être divisée en deux.
+    5. Formulez votre question de manière à limiter la forme de la réponse
+       du participant. Par exemple, en posant la question sous la forme
+       "L'humain d'aujourd'hui est...", vous pouvez influencer la forme
+       des réponses et éviter que la même réponse soit orthographiée
+       différemment.
+    6. Encouragez les participants à envoyer un mot à la fois (sans
+       prépositions, etc.) pour éviter que deux réponses similaires ne
+       soient considérées séparément (comme "les écoles" et "les écoles"),
+       et rappelez-leur de "liker" les réponses au lieu d'envoyer la leur
+       si elle a déjà été mentionnée.
+       ​
+
+   Les options "Réponses multiples" et "Afficher le nuage de mots" sont
+   activées par défaut lors de la création de la question.
+
+   [25][FR+Want+to+dive+deeper.png?expires=1767151800&amp;signature=900638
+   dc18cb3e2d9fbf55df9019eedeff2e411e06c5bfde3c8036604d88f258&amp;req=dSEm
+   Fst9n4hWUPMW1HO4zXnrhKtxWHr98E5vpwu8Nf0T7fbIleTgEmN279de%0A%2BQ5YqGq5lZ
+   djpI5eF0o%3D%0A]
+
+   Ces ressources peuvent également vous aider 👇
+     __________________________________________________________________
+
+   Articles connexes
+
+   [26]
+   Comment supprimer des réponses indésirables dans Wooclap ?
+   [27]
+   Comment utiliser les Questions rapides
+   [28]
+   Comment afficher les noms des participants en direct ?
+   [29]
+   Matrice
+   [30]
+   Question ouverte
+   Avez-vous trouvé la réponse à votre question ?
+   (BUTTON) 😞 (BUTTON) 😐 (BUTTON) 😃
+
+   [31]Centre d'aide de Wooclap
+     *
+     *
+     *
+
+Références
+
+   Liens visibles :
+   1. https://docs.wooclap.com/nl/articles/2824395-woordwolk
+   2. https://docs.wooclap.com/en/articles/2824395-word-cloud
+   3. https://docs.wooclap.com/fr/articles/2824395-nuage-de-mots
+   4. https://docs.wooclap.com/de/articles/2824395-wortwolke
+   5. https://docs.wooclap.com/it/articles/2824395-nuvola-di-parole
+   6. https://docs.wooclap.com/es/articles/2824395-nube-de-palabras
+   7. https://docs.wooclap.com/en/articles/2824395-word-cloud
+   8. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#main-content
+   9. file:///fr/
+  10. file:///fr/
+  11. https://docs.wooclap.com/fr/collections/2357545-fonctionnalites-et-parametres-de-l-evenement
+  12. https://docs.wooclap.com/fr/collections/2357551-types-de-questions
+  13. https://www.wooclap.com/fr/nuage-de-mots-collaboratif/
+  14. https://downloads.intercomcdn.com/i/o/1110228222/b77ab2f3dc474e22afe6a9e7/Cloud_1.gif?expires=1767151800&signature=a0188d53043cb3db9b7d01edf6d62b5804a0eca4c36f4ebd21f1335ae367f17d&req=dSEmFst8lYNdW/MW1HO4zVhfR0mcvjiGmqwJEpv2M0tU0Kr75Qlf5b/kZMP0
+s15X5JVBmG+RGKt86Ec=
+
+  15. https://downloads.intercomcdn.com/i/o/1110232875/12fff42da9c3cd2b94d7bd33/FR+How+does+it+work.png?expires=1767151800&signature=550d959130c546fe12acc00e9ac6ad7286e6d352c061c63073f1bf85f3eda23c&req=dSEmFst9n4lYXPMW1HO4zf7Gd+LLkIXqa2sTv4E5OkvhaxYgfTW+Ib73zSFg
+Z1SHO2bRoLX3y9YxVa8=
+
+  16. https://downloads.intercomcdn.com/i/o/uw5zb74r/1654681145/d414eb0a67f68198d8ee13f6a092/2025-08-05_14-48-51+(1).gif?expires=1767151800&signature=d33c37b33ce74c37460f76a86646651ca5e4bdba13c4090599a51942f88f3594&req=dSYiEs92nIBbXPMW1HO4zfEQmp0QkeFdkn3PQ4755f3HHOjGV/9FbC6pkKFS
+YMbL3q4ATO/vfgTnJaw=
+
+  17. https://www.wooclap.com/en/templates/
+  18. https://downloads.intercomcdn.com/i/o/uw5zb74r/1611373731/b003ea15aa4eb245775fc5db0383/2025-07-09_14-38-03.png?expires=1767151800&signature=34ddaa304bf630e4880c7fa9db736168f95f46dcf706ba15ff6d96fccdd65886&req=dSYmF8p5noZcWPMW1HO4zVBA/S3hLHJ4ly2XrSF8uV6ae9pn5v2pVgj+zp9S
+Q4y0KHLahbl+zqqtcKg=
+
+  19. https://docs.wooclap.com/fr/articles/674932-les-participants-peuvent-ils-repondre-plusieurs-fois-a-la-meme-question
+  20. https://docs.wooclap.com/fr/articles/3096187-comment-supprimer-des-reponses-indesirables-dans-wooclap
+  21. https://github.com/Alir3z4/stop-words/blob/master/english.txt
+  22. https://docs.wooclap.com/fr/articles/674942-puis-je-ajouter-un-compte-a-rebours
+  23. https://downloads.intercomcdn.com/i/o/uw5zb74r/1611379284/69faa5828d2e77ae7a7946b2766b/2025-07-09_14-51-36.png?expires=1767151800&signature=cf88d04a1dcdfddea8b3861518d0a0659ebdf40dc9f355c411b92b8cfe068091&req=dSYmF8p5lINXXfMW1HO4zR7Si1Ul6jSLOcc9P2cdreSVRvNcsa+2K89JLwUM
+YEcCNHEhyaEsnaRqWJs=
+
+  24. https://github.com/Alir3z4/stop-words/blob/master/english.txt
+  25. https://downloads.intercomcdn.com/i/o/1110232999/73e864e3cdb63062e4fe9f84/FR+Want+to+dive+deeper.png?expires=1767151800&signature=900638dc18cb3e2d9fbf55df9019eedeff2e411e06c5bfde3c8036604d88f258&req=dSEmFst9n4hWUPMW1HO4zXnrhKtxWHr98E5vpwu8Nf0T7fbIleTgEmN279de
++Q5YqGq5lZdjpI5eF0o=
+
+  26. https://docs.wooclap.com/fr/articles/3096187-comment-supprimer-des-reponses-indesirables-dans-wooclap
+  27. https://docs.wooclap.com/fr/articles/3548119-comment-utiliser-les-questions-rapides
+  28. https://docs.wooclap.com/fr/articles/4142092-comment-afficher-les-noms-des-participants-en-direct
+  29. https://docs.wooclap.com/fr/articles/8312233-matrice
+  30. https://docs.wooclap.com/fr/articles/8336932-question-ouverte
+  31. file:///fr/
+
+   Liens cachés :
+  33. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_de86bbb5e8
+  34. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_f4dd21a8b8
+  35. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_4b0425dea7
+  36. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_b81e69b7d8
+  37. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_c862212d07
+  38. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_de86bbb5e8
+  39. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_f4dd21a8b8
+  40. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_4b0425dea7
+  41. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_b81e69b7d8
+  42. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-7.html#h_c862212d07
+  43. https://www.facebook.com/wooclap
+  44. https://www.twitter.com/@wooclap
+  45. https://www.linkedin.com/company/wooclap/

@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>La tête dans les nuages | ECHOSCIENCES - Occitanie</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script charset="utf-8">
+      window.settings = {
+        websocket_url: 'ws://www.sciences-en-occitanie.fr:28080',
+        main_color: "#e0001d",
+        facebook_app_id: "203242130081595",
+        rails_env: 'production',
+        lightGalleryLicenseKey: "E84516FB-24544ED8-A98E2E9F-D8483FAA"
+      };
+      window.urls = {
+        ads_path: '/annonces',
+        documents_path: '/ressources',
+        api_marks_path: '/api/marks',
+        count_api_notifications_path: '/api/notifications/count',
+        places_path: '/lieux',
+        admin_places_path: '/admin/places',
+        projects_path: '/projets',
+        api_permissions_path: '/api/permissions',
+        body_images_path: '/body_images'
+      };
+      window.i18n = {
+        date: {
+          month_names: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+          day_names: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+          abbr_day_names: ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"]
+        }
+      };
+    </script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&v=3.45&key=AIzaSyDEloKZoUhbyTO3557YU7sIbDVLzRjk4Ss"></script>
+    <link rel="stylesheet" media="all" href="/assets/application-5cf69704f9282c6c6805176bb2b10d09e2d8239bc2e0aa2f1c75bb4fe5688fc4.css" data-turbolinks-track="true" />
+    <script src="/assets/application-8bec93b9065640aaee5fd72f1dde412d6e2a6cbb65282a9208ad5f4a7bada9aa.js" data-turbolinks-track="true"></script>
+
+    <link href="/tenants/2/stylesheet.css" rel="stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/uploads/settings/images/favicon/1062405676/favicon.png" />
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="n5m3HLBjLTnfgkrOMWIEspFgTt66NOPNE85yy3JkHURUDKZFyVHRih+7wEu1/OG0DrCf/jhFJjt8yHQE3xkSBg==" />
+
+    
+
+      <meta property="fb:app_id" content="203242130081595" />
+<meta property="og:title" content="La tête dans les nuages" />
+  <meta property="og:image" content="https://www.sciences-en-occitanie.fr/uploads/document/image/23337982/lg_fille_rousse_avec_nuage_1311659867.png" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Allongés dans l’herbe, certains reconnaissent des formes dans les nuages. Saviez-vous que cette forme de contemplation s&#39;appelle paréidolie ? Ou..." />
+<meta property="description" content="Allongés dans l’herbe, certains reconnaissent des formes dans les nuages. Saviez-vous que cette forme de contemplation s&#39;appelle paréidolie ? Ou..." />
+
+
+
+
+    
+
+    <!-- loading typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/pfm3vmo.css">
+
+    <script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.echosciences.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '7']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+  (function() {
+    var previousPageUrl = null;
+    addEventListener('page:load', function(event) {
+      if (previousPageUrl) {
+        _paq.push(['setReferrerUrl', previousPageUrl]);
+        _paq.push(['setCustomUrl', window.location.href]);
+        _paq.push(['setDocumentTitle', document.title]);
+        if (event.data && event.data.timing) {
+          _paq.push(['setGenerationTimeMs', event.data.timing.visitEnd - event.data.timing.visitStart]);
+        }
+        _paq.push(['trackPageView']);
+      }
+      previousPageUrl = window.location.href;
+    });
+  })();
+</script>
+  </head>
+  <body data-controller="documents" data-action="show">
+    <div class="wrap-content ">
+
+          <ul id="echo_header_link" class="headerLink">
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences.com/">Echosciences.com</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-auvergne.fr/">Auvergne</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-bfc.fr/">Bourgogne-Franche-Comté</a></li>
+      <li class="headerLink__item"><a target="_blank" href="http://www.echosciences-bretagne.bzh/">Bretagne</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-centre-valdeloire.fr/">Centre Val-de-Loire</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-corse.corsica/">Corse</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-drome.fr/">Drôme</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-grandest.fr/">Grand Est</a></li>
+      <li class="headerLink__item"><a target="_blank" href="http://www.echosciences-grenoble.fr/">Grenoble </a></li>
+      <li class="headerLink__item"><a target="_blank" href="http://www.echosciences-hauts-de-france.fr/">Hauts-de-France</a></li>
+      <li class="headerLink__item"><a target="_blank" href="http://www.echosciences-loire.fr/">Loire</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-nantesmetropole.fr/">Nantes</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-normandie.fr/">Normandie</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://echosciences.nouvelle-aquitaine.science">Nouvelle-Aquitaine</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-paysdelaloire.fr/">Pays de la Loire</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-savoie-mont-blanc.fr/">Savoie Mont-Blanc</a></li>
+      <li class="headerLink__item"><a target="_blank" href="https://www.echosciences-paca.fr/">Sud-PACA</a></li>
+  </ul>
+
+
+      
+
+        
+  
+<nav class="slide-menu" id="slide-menu">
+  <div class="slide-menu__logo">
+    <a href="/"><img alt="Echosciences" src="/uploads/settings/images/main_logo/406875499/md_main_logo.png" /></a>
+  </div>
+  <div class="slide-menu__menu menu">
+    <ul class="menu__list">
+      <li class="menu__item"><a class="menu__link" href="/articles">Articles</a></li>
+      <li class="menu__item"><a class="menu__link" href="/evenements">Agenda</a></li>
+      <li class="menu__item"><a class="menu__link" href="/annonces">Annonces</a></li>
+      <li class="menu__item"><a class="menu__link" href="/dossiers">Dossiers</a></li>
+      <li class="menu__item"><a class="menu__link" href="/projets">Projets</a></li>
+      <li class="menu__item"><a class="menu__link" href="/ressources">Ressources</a></li>
+      <li class="menu__item"><a class="menu__link" href="/communautes">Communautés</a></li>
+      <li class="menu__item"><a class="menu__link" href="/lieux">Annuaire des acteurs</a></li>
+      <li class="menu__item"><a class="menu__link" href="/carte-des-echosciences">Carte des Echosciences</a></li>
+    </ul>
+  </div>
+  <span data-behaviour="hide_if_user_signed_in">
+    <div class="slide-menu__notes">
+      <h4>Inscrivez-vous</h4>
+      <p>
+        Rejoignez les passionnés de sciences et technologies de votre territoire. Cela ne vous prendra que quelques instants.
+      </p>
+      <div class="text-center">
+        <a class="button button--primary button--rounded m-t-md" href="/users/sign_up">Inscription</a>
+      </div>
+    </div>
+  </span>
+</nav>
+
+<header class="header " id="echo_main_navbar">
+  <div class="header__menu">
+    <button class="button button--neutral upper" id="slideMenuToggle">
+      <div class="button__icon--burger">
+        <span class="bar bar--top"></span>
+        <span class="bar bar--mid"></span>
+        <span class="bar bar--bot"></span>
+      </div>
+      <span class="button__label">Menu</span>
+    </button>
+  </div>
+
+  <div class="header__logo">
+    <a href="/"><img alt="Echosciences" class="img-responsive inline-block" src="/uploads/settings/images/main_logo/406875499/md_main_logo.png" /></a>
+  </div>
+
+  <div class="header__mobilenav hidden-tablet-up popover">
+    <button class="mobilenav__profile button button--neutral popover__toggle">
+      <i class="fa fa-ellipsis-h button__icon"></i>
+    </button>
+    <div class="popover__box wrapper">
+      <ul class="menu__list">
+        <li class="menu__item hidden-tablet-up">
+          <a class="menu__link" href="/recherche">
+            <i class="fa fa-search button__icon m-r-sm fa-lg"></i>
+            <span class="button__label">Rechercher</span>
+</a>        </li>
+        <li class="menu__item hidden-smdesktop-up">
+          <a class="menu__link" href="/nouvelle-contribution">
+            <i class="fa fa-pencil button__icon m-r-sm fa-lg"></i>
+            <span class="button__label">Contribuer</span>
+</a>        </li>
+        <div class="divider divider--center"></div>
+        <li class="menu__item hidden-smdesktop-up">
+          <a class="menu__link" href="/users/sign_up">
+            <i class="fa fa-list button__icon m-r-sm fa-lg"></i>
+            <span class="button__label">S'inscrire</span>
+</a>        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/users/sign_in">
+            <i class="fa fa-user button__icon m-r-sm fa-lg"></i>
+            <span class="button__label">Se connecter</span>
+</a>        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="header__rightnav menu menu--horizontal">
+    <ul class="menu__list">
+      <form data-turbolinks-form="" class="hidden-phone-down form menu__item m-r-sm" action="/recherche" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="text" name="q" id="q" placeholder="Recherche" class="pure__input--rounded" />
+        <button type="submit" class="search-icon"><i class="fa fa-search "></i></button>
+</form>
+      <span data-behaviour="show_if_user_signed_in" class="hidden">
+        <li class="menu__item">
+          <a class="hidden-tablet-down button button--rounded upper font-sbold button--primary" title="Je contribue" href="/nouvelle-contribution">
+            <i class="fa fa-pencil button__icon m-r-none"></i>
+            <span class="button__label ">Je contribue</span>
+</a>        </li>
+        <li class="menu__item popover">
+          <button class="button button--neutral button--avatar popover__toggle hidden-phone-down">
+            <span id="notifications_count" data-turbolinks-temporary class="notifications-counter hidden"></span>
+            <img class="avatar avatar--md avatar--shadow avatar--border-primary" alt="Avatar" id="navbar_avatar_img" src="" />
+          </button>
+
+          <button class="mobilenav-profile-placeholder button button--neutral popover__toggle hidden-tablet-up"><i class="fa button__icon"></i></button>
+
+          <div class="popover__box wrapper">
+            <ul class="menu__list">
+              <li class="menu__item hidden-tablet-up">
+                <a class="menu__link" href="/recherche">
+                  <i class="fa fa-search button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Rechercher</span>
+</a>              </li>
+              <li class="menu__item hidden-smdesktop-up">
+                <a class="menu__link" href="/nouvelle-contribution">
+                  <i class="fa fa-pencil button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Je contribue</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/mon-espace">
+                  <i class="fa fa-list button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Mon Echosciences</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/mes-publications">
+                  <i class="fa fa-book button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Mes publications</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/mon-reseau">
+                  <i class="fa fa-share-alt button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Mon réseau</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/mes-favoris">
+                  <i class="fa fa-thumbs-o-up button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Mes favoris</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/mon-profil">
+                  <i class="fa fa-user button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Mon profil</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/notifications">
+                  <i class="fa fa-bell button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Mes notifications</span>
+</a>              </li>
+              <div class="divider divider--center"></div>
+              <li class="menu__item">
+                <a class="menu__link" href="/mon-compte">
+                  <i class="fa fa-pencil button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Mon compte</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link hidden" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Tenant&quot;,&quot;_action&quot;:&quot;admin&quot;,&quot;id&quot;:2}" href="/admin/parametres">
+                  <i class="fa fa-dashboard button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Administration</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link hidden" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Tenant&quot;,&quot;_action&quot;:&quot;index&quot;}" href="/super_admin/tenants">
+                  <i class="fa fa-cloud button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Super-admin</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link hidden" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Tenant&quot;,&quot;_action&quot;:&quot;stats&quot;}" href="/stats/publications">
+                  <i class="fa fa-bar-chart button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Statistiques</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link hidden" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Tenant&quot;,&quot;_action&quot;:&quot;open_data_coordinator&quot;,&quot;id&quot;:2}" href="/open_data/imports">
+                  <i class="fa fa-cubes button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Open Data</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link hidden" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Role&quot;,&quot;_action&quot;:&quot;multi_publisher&quot;}" href="/multi_publisher/publications">
+                  <i class="fa fa-edit button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Multi-publications</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link hidden" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Role&quot;,&quot;_action&quot;:&quot;global_tenant_editor&quot;}" href="/global_tenant_editor/publications">
+                  <i class="fa fa-flag button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Echosciences France</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" rel="nofollow" data-method="delete" href="/users/sign_out">
+                  <i class="fa fa-sign-out button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Se déconnecter</span>
+</a>              </li>
+            </ul>
+          </div>
+        </li>
+      </span>
+
+      <span data-behaviour="hide_if_user_signed_in" class="hidden-phone-down">
+        <li class="menu__item hidden-tablet-down">
+          <a class="button button--rounded upper font-sbold button--primary" title="Je contribue" href="/nouvelle-contribution">
+            <i class="fa fa-pencil button__icon m-r-none"></i>
+            <span class="button__label ">Je contribue</span>
+</a>        </li>
+        <li class="menu__item popover hidden-desktop-up">
+          <button class="button button--circle button--primary popover__toggle">
+            <i class="fa fa-ellipsis-h hidden-smdesktop-up"></i>
+            <i class="fa fa-user hidden-tablet-down"></i>
+          </button>
+          <div class="popover__box wrapper">
+            <ul class="menu__list">
+              <li class="menu__item hidden-smdesktop-up">
+                <a class="menu__link" href="/nouvelle-contribution">
+                  <i class="fa fa-pencil button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Contribuer</span>
+</a>              </li>
+              <div class="divider divider--center hidden-smdesktop-up"></div>
+              <li class="menu__item">
+                <a class="menu__link" href="/users/sign_up">
+                  <i class="fa fa-list button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">S'inscrire</span>
+</a>              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/users/sign_in">
+                  <i class="fa fa-user button__icon m-r-sm fa-lg"></i>
+                  <span class="button__label">Se connecter</span>
+</a>              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu__item hidden-smdesktop-down"><a class="button primary-color button--outline button--outline-primary button--rounded upper" href="/users/sign_in">Connectez-vous</a></li>
+        <li class="menu__item hidden-smdesktop-down"><a class="button button--neutral primary-color" href="/users/sign_up">Inscrivez-vous</a></li>
+      </span>
+    </ul>
+  </div>
+</header>
+
+
+
+      <div class="main-content">
+
+        
+
+
+
+  <div class="subbar">
+  <div class="container-fluid">
+    
+    <ul class="breadcrumbs" vocab="http://schema.org/" typeof="BreadcrumbList">
+    <li property="itemListElement" typeof="ListItem">
+      <a property="item" typeof="WebPage" href="/">
+        <span property="name">Accueil</span>
+</a>      <meta property="position" content="1">
+    </li>
+    <li property="itemListElement" typeof="ListItem">
+      <a property="item" typeof="WebPage" href="/ressources">
+        <span property="name">Les ressources</span>
+</a>      <meta property="position" content="2">
+    </li>
+    <li property="itemListElement" typeof="ListItem">
+      <a property="item" typeof="WebPage" href="/ressources/la-tete-dans-les-nuages">
+        <span property="name">La tête dans les nuages</span>
+</a>      <meta property="position" content="3">
+    </li>
+</ul>
+
+
+  </div>
+</div>
+
+
+
+<div id="document:23337982" class="container-fluid grid_1-3-2 m-t-xl m-b-lg">
+  <main>
+    <h1 class="m-t-none">La tête dans les nuages</h1>
+
+    <div class="publication__body">
+      <p>Allongés dans l’herbe, certains reconnaissent des formes dans les nuages. Saviez-vous que cette forme de contemplation s'appelle paréidolie ? Ou qu'un cirrus, nuage fin et étiré, parfois enroulé sur lui même, tire son nom du latin 'boucle de cheveux' ? Savez-vous ce qu'est un noyau de condensation ? La différence entre un stratus et un stratocumulus ?<br></p>
+<p>L'animation <a href="https://ecolotheque.montpellier3m.fr/pedagotheque/tete-dans-les-nuages" target="_blank">"La tête dans les nuages"</a>﻿, conçue par l'Écolothèque et l'Éducation Nationale, apporte des notions scientifiques sur la formation de ces amas visibles de gouttelettes d’eau, leurs<br>caractéristiques et des astuces permettant de les nommer. Rêveurs, scientifiques et artistes devraient tous avoir la tête dans les nuages…</p>
+<p><i>Objectifs pédagogiques :</i></p>
+<ul>
+<li><i>Savoir comment se forme un nuage
+</i></li>
+<li><i>Comprendre qu’il y a plusieurs types de nuages avec leurs particularités propres
+</i></li>
+<li><i>Pouvoir citer quelques noms de nuages et les reconnaître</i></li>
+</ul>
+<p>Rendez-vous sur la <a href="https://ecolotheque.montpellier3m.fr/pedagotheque" target="_blank">pédagothèque de l'Écolothèque</a> de Montpellier Méditerranée Métropole pour découvrir d'autres jeux et outils pédagogiques sur les thèmes de la nature, de la biodiversité et <br>du développement durable !</p>
+<p></p>
+<p><i>Crédits iconographiques : © Olga1818 / Shutterstock.com, © He2 / Fotolia</i><br></p>
+    </div>
+  </main>
+
+  <aside>
+    <img class="img-responsive" src="/uploads/document/image/23337982/xl_fille_rousse_avec_nuage_1311659867.png" />
+
+      <div class="m-t-lg">
+        <h5 class="primary-color m-b-xs">Informations pratiques :</h5>
+        <p class="m-t-none font-size-small">
+          <span>Âge : 8 - 12 ans et plus
+<br />Durée : 2h</span>
+        </p>
+      </div>
+
+      <div class="m-t-lg">
+        <h5 class="primary-color m-b-xs">Contact :</h5>
+        <p class="m-t-none font-size-small">
+          <span>Ecolothèque</span>
+        </p>
+      </div>
+
+
+      <div class="m-t-lg">
+        <a class="text-14 underline text-black-light" target="_blank" href="https://ecolotheque.montpellier3m.fr/pedagotheque/tete-dans-les-nuages">Lien externe <i class='fa fa-external-link'></i></a>
+      </div>
+
+    <div id="author:1018344391" class="m-t-lg">
+      <h6 class="font-sbold text-primary upper m-t-lg m-b-xs">Publié par</h6>
+      
+<div class="profile">
+  <a class="profile__picture" href="/membres/ecolotheque-montpellier-mediterranee-metropole">
+    <img class="avatar avatar--sm avatar--border-white avatar--shadow" src="/uploads/user/1018344391/avatar/sm_avatar.png" />
+</a>    <div class="profile__aside">
+      <div class="profile__name upper"><a class="third-color" href="/membres/ecolotheque-montpellier-mediterranee-metropole">Ecolothèque Montpellier Méditerranée Métropole</a></div>
+    </div>
+</div>
+
+      <span data-locator="author_follow_buttons" class="hidden">
+        
+
+<form class="new_follow" id="new_follow" action="/follows?change=author%3A1018344391&amp;redirect_to=%2Fressources%2Fla-tete-dans-les-nuages" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WuP4bxQChb/6kfoiGxwuPLvyeNKcQY9zI2tudSmzyXKRduk2bTB5DDqocKefgss6JCKp8h4wSoVMbWi6hM7GMA==" />
+  <input value="1018344391" type="hidden" name="follow[followable_id]" id="follow_followable_id" />
+  <input value="User" type="hidden" name="follow[followable_type]" id="follow_followable_type" />
+  <input type="submit" name="commit" value="Suivre" class="hidden button button--primary button--rounded" data-behaviour="start_follow" data-disable-with="Suivre" />
+</form>
+        
+<form class="button_to" method="post" action="/follows/stop_follow?change=author%3A1018344391&amp;followable_id=1018344391&amp;followable_type=User&amp;redirect_to=%2Fressources%2Fla-tete-dans-les-nuages" data-remote="true"><input type="hidden" name="_method" value="delete" /><input class="hidden button primary-color button--outline button--outline-primary button--rounded" data-behaviour="stop_follow" type="submit" value="Ne plus suivre" /><input type="hidden" name="authenticity_token" value="NGtAOrTHERx06arwIXyj9/Syt4tdUJZxXfPebmbh46v//lFjzfXtr7TQIHWl4kbxa2Jmq98hU4cy9dihy5zs6Q==" /></form>
+
+      </span>
+    </div>
+  </aside>
+
+  <div class="infos text-center p-t-md">
+    <h2 class="h6 upper text-primary">Supports d&#39;animations</h2>
+
+      <div class="publication__tags">
+        
+<ul class="tag__list">
+    <li class="tag__item"><a class="button button--tag" title="nuage" href="https://www.sciences-en-occitanie.fr/tags/nuage">nuage</a></li>
+    <li class="tag__item"><a class="button button--tag" title="meteo" href="https://www.sciences-en-occitanie.fr/tags/meteo">meteo</a></li>
+    <li class="tag__item"><a class="button button--tag" title="determination" href="https://www.sciences-en-occitanie.fr/tags/determination">determination</a></li>
+    <li class="tag__item"><a class="button button--tag" title="eau" href="https://www.sciences-en-occitanie.fr/tags/eau">eau</a></li>
+</ul>
+
+      </div>
+
+    <div class="text-center m-t-md">
+      <div class="social-counters m-b-md">
+        <span class="primary-color m-r-md"> </span>
+        <span class="primary-color">  <i class="fa fa-eye "></i>&nbsp;
+  2.3k
+</span>
+      <!--
+        <span class="primary-color m-r-md"><i class="fa fa-eye "></i>&nbsp;2287</span>
+        <span class="primary-color"><i class="fa fa-hand-o-right "></i>&nbsp;0</span>
+        -->
+      </div>
+
+      <div class="m-t-md m-b-md">
+        <div class="popover popover--bottom m-b">
+          <button class="button popover__toggle button--outline button--circle tooltip-custom tooltip--top tooltip--center" data-tooltip="Je partage">
+            <i class="button__icon fa fa-share fa-lg"></i>
+          </button>
+          <div class="popover__box wrapper text-left">
+            <div class="m-b-sm"><a data-behaviour="twitter-tweet-link" href="https://twitter.com/intent/tweet?url=https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages&text=La tête dans les nuages" class="third-color"><i class="fa fa-twitter m-r-sm"></i>Partager sur twitter</a>
+</div>
+            <div><a data-behaviour="facebook-share-link" href="https://www.facebook.com/share.php?u=https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages" class="third-color"><i class="fa fa-facebook m-l-xs m-r-sm"></i>Partager sur facebook</a>
+
+
+
+</div>
+          </div>
+        </div>
+
+        <div data-locator="document_like_buttons" class="m-b-md m-l-sm inline-block">
+          
+
+<form class="new_like" id="new_like" action="/likes?change=document%3A23337982&amp;redirect_to=%2Fressources%2Fla-tete-dans-les-nuages" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DIu24KBWU1MAtP3pN2R3YlbM5+I/lmxkQwUBgexz6IfHHqe52WSv4MCNd2yz+pJkyRw2wr3nqZIsAwdOQQ7nxQ==" />
+  <input value="23337982" type="hidden" name="like[likeable_id]" id="like_likeable_id" />
+  <input value="Document" type="hidden" name="like[likeable_type]" id="like_likeable_type" />
+  <button name="button" type="submit" class="button button--outline button--circle hidden tooltip--top tooltip--center" title="Recommander" data-behaviour="like">
+    <i class="button__icon fa fa-heart-o fa-lg"></i>
+</button></form>
+          
+
+<form class="button_to" method="post" action="/likes/unlike?change=document%3A23337982&amp;likeable_id=23337982&amp;likeable_type=Document&amp;redirect_to=%2Fressources%2Fla-tete-dans-les-nuages" data-remote="true"><input type="hidden" name="_method" value="delete" /><button class="button button--outline button--circle primary-color hidden tooltip--top tooltip--center" title="Ne plus recommander" data-behaviour="unlike" rel="nofollow" type="submit">
+  <i class="button__icon fa fa-heart fa-lg"></i>
+</button><input type="hidden" name="authenticity_token" value="ARThL2nCwTosTMZqvROdkZ009xn20WXSm/FCOdIccXXKgfB2EPA9iex1TO85jXiXAuQmOXSgoCT090T2f2F+Nw==" /></form>
+        </div>
+
+        
+<a style="display: none;" class="button button--neutral tooltip--top tooltip--center" title="Repérer" data-behaviour="show_if_current_user" data-tooltip="Repérer la publication" data-remote="true" href="/marks?id=23337982&amp;type=Document">
+  <span class="button button--outline button--circle m-l-sm">
+    <i class="button__icon fa fa-binoculars fa-lg"></i>
+  </span>
+</a>
+      </div>
+
+      <div class="m-b-sm"><a class="button button--neutral hidden" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Document&quot;,&quot;id&quot;:23337982,&quot;_action&quot;:&quot;edit&quot;}" href="/ressources/la-tete-dans-les-nuages/edition"><i class="fa fa-edit m-r-xs"></i> Éditer</a>
+
+<a class="button button--neutral hidden m-l-md" data-behaviour="show-if-permitted" data-show-if-permitted="{&quot;type&quot;:&quot;Document&quot;,&quot;id&quot;:23337982,&quot;_action&quot;:&quot;destroy&quot;}" data-confirm="Êtes-vous sûr de vouloir supprimer cette publication ?" rel="nofollow" data-method="delete" href="/ressources/la-tete-dans-les-nuages?redirect_to=%2F"><i class="fa fa-trash-o m-r-xs"></i> Supprimer</a></div>
+      <div class=""><div class="text-center inline-block">
+  <small><button class="button button--neutral" onclick="setRedirectCookieAndOpenLoginRequiredModal()" data-toggle="modal" data-target=""><i class="fa fa-warning m-r-xs"></i> Signaler</button></small>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+
+  <div class="divider divider--full divider--light divider--gray"></div>
+
+  <section class="container-fluid m-t-xl m-b-xl">
+    <div class="row">
+      <div class="col-tablet-8 col-tablet-offset-2">
+          <div id="disqus_thread" data-subject-type="Document" data-subject-id="23337982" data-disqus-title="La tête dans les nuages" data-disqus-url="https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages"></div>
+
+  <script type="text/javascript" data-turbolinks-eval="always">
+    if (window.axeptioSDK) {
+        init_disqus();          
+      }
+    else {
+      window.addEventListener('axeptio:cookies:complete', function(){
+        init_disqus();
+      }, { once: true });
+    }    
+
+    function init_disqus(){
+      if (window.axeptioSDK.userPreferencesManager.choices.disqus) {
+        if (!window.DISQUS){
+          var disqus_shortname = 'echosciencessud';
+          var disqus_identifier = $("#disqus_thread").data('subject-type').toLowerCase() + '-' + $("#disqus_thread").data('subject-id');
+          var disqus_title = $("#disqus_thread").data('disqus-title');
+          var disqus_url = $("#disqus_thread").data('disqus-url');
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        } else {
+          DISQUS.reset({
+              reload: true,
+              config: function () {
+                this.page.identifier = $("#disqus_thread").data('subject-type').toLowerCase() + '-' + $("#disqus_thread").data('subject-id');
+                this.page.url = $("#disqus_thread").data('disqus-url');
+                this.page.title = $("#disqus_thread").data('disqus-title');
+              }
+          });
+        }
+      } else {
+        $("#disqus_thread").html('<a href="javascript:axeptioSDK.openCookies()">Acceptez le cookie <b>Disqus</b></a> afin de profiter du module de commentaires.');
+      }
+    }
+
+    function disqus_config(){
+      this.callbacks.onNewComment = [function(comment){
+        var type = $("#disqus_thread").data('subject-type');
+        var id = $("#disqus_thread").data('subject-id');
+
+        authorIdMatch = $('[id^=author]').attr("id").match(/author\:(\d+)/);
+
+        if(!authorIdMatch || (authorIdMatch && (authorIdMatch[1] != window.currentUserId()))){
+          $.ajax({
+            type: 'POST',
+            url: '/callbacks/new_disqus_comment',
+            data: { subject: { type: type, id: id } },
+            dataType: 'json',
+            success: function(data){
+              console.log(data);
+              },
+            error: function(data){
+              console.log(data);
+            }
+          })
+        }
+      }]
+    }
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      </div>
+    </div>
+  </section>
+
+<section class="publication__connexion">
+  <div class="container-fluid">
+    <div class="row m-b-o">
+      <div class="col-tablet-8 col-tablet-offset-2 p-t-lg p-b-xl">
+
+        <div class="clearfix">
+          <div class="pull-right">
+            
+<div class="profile">
+  <a class="profile__picture" href="/membres/ecolotheque-montpellier-mediterranee-metropole">
+    <img class="avatar avatar--sm avatar--border-white avatar--shadow" src="/uploads/user/1018344391/avatar/sm_avatar.png" />
+</a></div>
+
+          </div>
+          <h4 class="h6 upper p-t-md">Du même auteur</h4>
+        </div>
+
+        <div class="divider divider--full divider--light divider--gray"></div>
+        <div class="posts">
+          
+
+
+    <div class="post post--medium " id="document:23338156">
+        <div class="post__head">
+          <div class="post__tags">
+            
+<ul class="tag__list">
+    <li class="tag__item"><a class="button button--tag" title="dechets" href="https://www.sciences-en-occitanie.fr/tags/dechets">dechets</a></li>
+    <li class="tag__item"><a class="button button--tag" title="reduction-des-dechets" href="https://www.sciences-en-occitanie.fr/tags/reduction-des-dechets">reduction-des-dechets</a></li>
+</ul>
+
+          </div>
+          <div class="post__author">
+            <div class="profile">
+              <div class="profile__image">
+                <a class="profile__picture" href="https://www.sciences-en-occitanie.fr/membres/ecolotheque-montpellier-mediterranee-metropole">
+                  <img class="avatar avatar--sm avatar--border-white avatar--shadow" src="/uploads/user/1018344391/avatar/sm_avatar.png" />
+</a>              </div>
+              <div class="profile__aside">
+                <a class="primary-color" href="https://www.sciences-en-occitanie.fr/membres/ecolotheque-montpellier-mediterranee-metropole">Ecolothèque Montpellier Méditerranée Métropole</a>
+                <span class="marked-label m-l-sm tooltip-custom tooltip--top tooltip--center" data-behaviour="show_if_marked_by_blog" style="display: none;" data-tooltip="Repéré par la communauté">
+  <i class="fa fa-binoculars m-r-xs"></i><span>Repéré</span>
+</span>
+
+                <div class="profile__sub light-grey-color"><span class="font-sbold">ressource</span> publiée le
+                  <span class="profile__date">21/01/2022</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="post__img">
+            <a href="https://www.sciences-en-occitanie.fr/ressources/la-course-aux-dechets">
+              <img src="/uploads/document/image/23338156/lg_course_aux_dechets_1717159699_vignette.png" />
+</a>          </div>
+
+        <div class="post__body">
+            <div class="post__view-counter pull-right">
+              <span class="primary-color m-r-md"><i class="fa fa-eye "></i>&nbsp;1806</span>
+              
+            </div>
+          <a href="https://www.sciences-en-occitanie.fr/ressources/la-course-aux-dechets">
+            <h2 class="post__title h3">La course aux déchets</h2>
+            <p class="post__text">Découvrez « La course aux déchets »﻿, un grand jeu de 8 missions pour aborder différents thèmes liés aux déchets : matières premières, tri,...</p>
+</a>        </div>
+    </div>
+    <div class="post post--medium " id="document:23338139">
+        <div class="post__head">
+          <div class="post__tags">
+            
+<ul class="tag__list">
+    <li class="tag__item"><a class="button button--tag" title="reduction-des-dechets" href="https://www.sciences-en-occitanie.fr/tags/reduction-des-dechets">reduction-des-dechets</a></li>
+    <li class="tag__item"><a class="button button--tag" title="dechets" href="https://www.sciences-en-occitanie.fr/tags/dechets">dechets</a></li>
+</ul>
+
+          </div>
+          <div class="post__author">
+            <div class="profile">
+              <div class="profile__image">
+                <a class="profile__picture" href="https://www.sciences-en-occitanie.fr/membres/ecolotheque-montpellier-mediterranee-metropole">
+                  <img class="avatar avatar--sm avatar--border-white avatar--shadow" src="/uploads/user/1018344391/avatar/sm_avatar.png" />
+</a>              </div>
+              <div class="profile__aside">
+                <a class="primary-color" href="https://www.sciences-en-occitanie.fr/membres/ecolotheque-montpellier-mediterranee-metropole">Ecolothèque Montpellier Méditerranée Métropole</a>
+                <span class="marked-label m-l-sm tooltip-custom tooltip--top tooltip--center" data-behaviour="show_if_marked_by_blog" style="display: none;" data-tooltip="Repéré par la communauté">
+  <i class="fa fa-binoculars m-r-xs"></i><span>Repéré</span>
+</span>
+
+                <div class="profile__sub light-grey-color"><span class="font-sbold">ressource</span> publiée le
+                  <span class="profile__date">05/01/2022</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="post__img">
+            <a href="https://www.sciences-en-occitanie.fr/ressources/vers-le-zero-dechet">
+              <img src="/uploads/document/image/23338139/lg_logo_z%C3%A9ro_d%C3%A9chets_1084010651.png" />
+</a>          </div>
+
+        <div class="post__body">
+            <div class="post__view-counter pull-right">
+              <span class="primary-color m-r-md"><i class="fa fa-eye "></i>&nbsp;2163</span>
+              
+            </div>
+          <a href="https://www.sciences-en-occitanie.fr/ressources/vers-le-zero-dechet">
+            <h2 class="post__title h3">Vers le zéro déchet</h2>
+            <p class="post__text">Défi 2022 : tendre vers le zéro déchet !  Pour accompagner de façon ludique l’engagement dans la démarche du zéro déchet, découvrez le nouvel outil...</p>
+</a>        </div>
+    </div>
+    <div class="post post--medium " id="document:23338073">
+        <div class="post__head">
+          <div class="post__tags">
+            
+<ul class="tag__list">
+    <li class="tag__item"><a class="button button--tag" title="cucurbitacees" href="https://www.sciences-en-occitanie.fr/tags/cucurbitacees">cucurbitacees</a></li>
+    <li class="tag__item"><a class="button button--tag" title="courge" href="https://www.sciences-en-occitanie.fr/tags/courge">courge</a></li>
+</ul>
+
+          </div>
+          <div class="post__author">
+            <div class="profile">
+              <div class="profile__image">
+                <a class="profile__picture" href="https://www.sciences-en-occitanie.fr/membres/ecolotheque-montpellier-mediterranee-metropole">
+                  <img class="avatar avatar--sm avatar--border-white avatar--shadow" src="/uploads/user/1018344391/avatar/sm_avatar.png" />
+</a>              </div>
+              <div class="profile__aside">
+                <a class="primary-color" href="https://www.sciences-en-occitanie.fr/membres/ecolotheque-montpellier-mediterranee-metropole">Ecolothèque Montpellier Méditerranée Métropole</a>
+                <span class="marked-label m-l-sm tooltip-custom tooltip--top tooltip--center" data-behaviour="show_if_marked_by_blog" style="display: none;" data-tooltip="Repéré par la communauté">
+  <i class="fa fa-binoculars m-r-xs"></i><span>Repéré</span>
+</span>
+
+                <div class="profile__sub light-grey-color"><span class="font-sbold">ressource</span> publiée le
+                  <span class="profile__date">05/11/2021</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="post__img">
+            <a href="https://www.sciences-en-occitanie.fr/ressources/espece-de-cucurbitacee">
+              <img src="/uploads/document/image/23338073/lg_brouette_de_courges_82348024.png" />
+</a>          </div>
+
+        <div class="post__body">
+            <div class="post__view-counter pull-right">
+              <span class="primary-color m-r-md"><i class="fa fa-eye "></i>&nbsp;1579</span>
+              
+            </div>
+          <a href="https://www.sciences-en-occitanie.fr/ressources/espece-de-cucurbitacee">
+            <h2 class="post__title h3">Espèce de cucurbitacée !</h2>
+            <p class="post__text">C&#39;est la saison idéale pour jouer avec ces drôles de légumes ! Avec leur nom amusant, qui sont exactement ces cucurbitacées ? Il est vrai qu’on s’y...</p>
+</a>        </div>
+    </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="report-abuse-modal" class="modal fade text-left" tabindex="-1" role="dialog" aria-labelledby="modal_report_abuse_title" aria-hidden="true" data-behaviour="focus_on_shown" data-focus-on-shown="#abuse_report_name">
+  <div class="modal-dialog modal-md m-t-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="modal_report_abuse_title">Signalement du contenu</h4>
+      </div>
+      <div class="modal-body p-b-lg">
+        <form id="form_new_abuse_report" class="form form--stacked" action="/abuse_reports" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LCdOOnL60Yp+MthehNRNugHKypEIlifM6AMgNjezSpPnsl9jC8gtOb4LUtsASqi8nhobsYrn4jqHBSb5ms5F0Q==" />
+          <input type="hidden" name="abuse_report[subject_type]" id="abuse_report_subject_type" value="Document" />
+          <input type="hidden" name="abuse_report[subject_id]" id="abuse_report_subject_id" value="23337982" />
+          <label for="Votre_message">Votre message</label>
+          <textarea name="abuse_report[text]" id="abuse_report_text" placeholder="Explications..." required="required">
+</textarea>
+
+          <div class="text-center m-t-md">
+            <button name="button" type="submit" class="button button--rounded button--primary" id="report-abuse-submit-btn">Signaler</button>
+          </div>
+</form>        </div>
+    </div>
+  </div>
+</div>
+
+
+          <script>
+//<![CDATA[
+
+            window.currentUser = {
+              id: ""
+            };
+            window.currentTenant = {
+              id: 2
+            };
+
+//]]>
+</script>      </div>
+
+
+      
+
+          <footer class="footer">
+
+    <div class="footer__socials">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-tablet-6">
+          </div>
+          <div class="col-tablet-6 footer__socials-icons">
+            <span class="follow-us-label hidden-tablet-down font-sbold text-black-light">Suivez-nous</span>
+              <a class="button button--neutral" href="https://www.facebook.com/Echosciences-Occitanie-190864297933303/" target="_blank">
+                <span class="button button--primary button--circle">
+                  <i class="button__icon fa fa-facebook"></i>
+                </span>
+                <!-- <span class="button__label m-l-xs">Facebook</span> -->
+              </a>
+
+
+              <a class="button button--neutral m-l-md" href="https://www.youtube.com/channel/UCpEyYNURmOYtz5aIpfZ7eZw" target="_blank">
+                <span class="button button--primary button--circle">
+                  <i class="button__icon fa fa-youtube"></i>
+                </span>
+                <!-- <span class="button__label m-l-xs">Youtube</span> -->
+              </a>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer__logos text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-tablet-12">
+            <h4 class="text-black-light"></h4>
+
+              <a class="no-hover" href="http://www.europe-en-occitanie.eu/web/Europe/3469-obligation-de-publicite-modeles-et-fichiers.php#tousprojets">
+                <img src="/uploads/logo/attachment/132371481/p3469_9f9a375e9d5c8e0eba85c15a7fe230f7UE_75dpi.jpg" />
+</a>              <a class="no-hover" href="https://www.enseignementsup-recherche.gouv.fr/fr">
+                <img src="/uploads/logo/attachment/132371732/1_MESRI_RVB.png" />
+</a>              <a class="no-hover" href="https://www.laregion.fr/">
+                <img src="/uploads/logo/attachment/132371725/OC-1702-instit-logo_rectangle-RVB-225x100-300dpi.png" />
+</a>              <a class="no-hover" href="https://www.echosciences-sud.fr/communautes/pole-territorial-de-reference-en-occitanie">
+                <img src="/uploads/logo/attachment/132371733/Logo_SEO-01.png" />
+</a>              <a class="no-hover" href="http://www.gouvernement.fr/investissements-d-avenir-cgi">
+                <img src="/uploads/logo/attachment/132371457/SIG_Investissements_Davenir_HD.png" />
+</a>          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__legals">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-tablet-6">
+            <p class="">
+              La plateforme Science(s) en Occitanie est le média social des amateurs de sciences et de technologies du territoire. 
+Elle est propulsée par Instant Science, avec la participation et le soutien de nombreux acteurs locaux.  Ce projet est cofinancé par les Investissements d'avenir, la Région Occitanie et l’Union européenne via les fonds européen de développement régional.
+Science(s) en Occitanie est une plateforme Echosciences by Amcsti.
+            </p>
+          </div>
+          <div class="col-tablet-6">
+            <p class="fl-right">
+              <a href="/mentions-legales">Mentions légales</a>
+              &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/politique-de-confidentialite">Politique de confidentialité</a>
+              &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target="_blank" href="/uploads/settings/pdf/198568769/echosciences_sud_charte_utilisation.pdf">CGU</a>
+              &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target="_blank" href="/Ligne_editoriale_Echosciences_2025.pdf">Ligne éditoriale</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    </div>
+
+
+    <div id="modal-login-required" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalloginrequired" aria-hidden="true">
+      <div class="modal-dialog modal-md m-t-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="modalloginrequired">Vous devez être connecté</h4>
+          </div>
+          <div class="modal-body text-center p-b-lg">
+            <p class="m-b-lg">Identifiez-vous pour profiter de toutes les fonctionnalités d'Echosciences</p>
+            <a class="button primary-color button--outline button--outline-primary button--rounded" href="/users/sign_in">Connectez-vous</a>
+            <p><strong>OU</strong></p>
+            <a class="button button--info button--rounded m-b-lg" href="/users/sign_up">Inscrivez-vous</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-container"></div>
+
+      <script type="text/javascript" data-turbolinks-eval="always">
+    var windowVars = [
+      'axeptioSDK',
+      '__axeptioSDK',
+      '_axcb',
+      'axeptioSettings',
+      'axeptioBuildTimestamp',
+      'axeptioHandleVendors',
+      'openAxeptioCookies',
+      'showAxeptioButton',
+      'hideAxeptioButton',
+      'sdkSingletonInstance'
+    ];
+
+    windowVars.forEach(function(varName) {
+    delete window[varName];
+    });
+
+    window.axeptioSettings = {
+      clientId: "60d02886c1e7697dcd1e28a0",
+      cookiesVersion: "echosciences-sud"
+    };
+
+    (function(d, s) {
+      var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+      e.async = true; e.src = "//static.axept.io/sdk.js";
+      t.parentNode.insertBefore(e, t);
+    })(document, "script");
+
+    void 0 === window._axcb && (window._axcb = []);
+
+    window._axcb.push(function(axeptio) {
+      axeptio.on("cookies:complete", function(choices) {
+        window.dispatchEvent(new Event('axeptio:cookies:complete'));
+      });
+    });
+
+    // window._axcb.push(function(axeptio) {
+    //   axeptio.on("consent:saved", function(choices) {
+    //     console.log('consent:saved');
+    //   });
+    // });
+
+    window._axcb.push(function(axeptio) {
+      axeptio.on("close", function(choices) {
+        window.location.reload();
+      });
+    });
+  </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72189622-1" data-turbolinks-eval="always"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    if (window.axeptioSDK) {
+      init_ga();          
+    }
+    else {
+      window.addEventListener('axeptio:cookies:complete', function(){
+        init_ga();
+      }, { once: true });
+    }    
+
+    function init_ga() {
+      if (window.axeptioSDK.userPreferencesManager.choices.google_analytics) {
+        gtag('config', 'UA-72189622-1');
+      } 
+    }
+  </script>
+
+
+    <script src="https://www.recaptcha.net/recaptcha/api.js?onload=onRecaptchaLoadCallback&render=explicit" async="" defer=""></script>
+  </body>
+</html>

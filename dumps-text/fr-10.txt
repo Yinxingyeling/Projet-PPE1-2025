@@ -1,0 +1,141 @@
+   #[1]TIPS n' LEARN » Flux [2]TIPS n' LEARN » Flux des commentaires
+   [3]TIPS n' LEARN » Nuage de Mots, dans la boîte à outils de TIPS n’
+   LEARN Flux des commentaires [4]JSON [5]oEmbed (JSON) [6]oEmbed (XML)
+
+[7]logo
+
+   [8]icon-close
+     * [9]Notre offre
+     * [10]Services inclus
+     * [11]Packs à emporter
+     * [12]Notre méthodo
+     * [13]La team
+     * [14]Régalez-vous
+     * [15]Blog
+     * [16]Contact
+     * [17]icon-search
+
+   [18]icon-search
+   [19]icon-menu-bars
+
+   ____________________ Submit
+
+   Nuage de Mots, dans la boîte à outils de TIPS n’ LEARN
+
+   [outilToi-aussi.png] [outil_clef_moderne.png]
+
+   Vous reprendrez bien un petit nuage… de mots !
+
+
+   Et oui, parce qu’on fait la pluie et le beau temps même en formation,
+   on se met sur un fond vert et on annonce du soleil avec quelques
+   nuages. Ok, notre métaphore filée s’arrête ici, Alain si tu nous
+   entends !
+
+
+   Reprenons… voici un outil très pratique et simplissime qui, en à peine
+   2 minutes, crée des… nuages de mots. Pas besoin de mode d’emploi : il
+   suffit de copier-coller un texte (probablement la plus looooongue étape
+   de cette prise en main), puis d’en déterminer la forme, l’orientation,
+   la police, la couleur : on clique, on clique, on reclique et tadaaaaa,
+   un joli nuage apparaît.
+
+
+   Un ultime clic sur “téléchargement” et voilà notre nuage de mots prêt à
+   voler de ses propres ailes !
+
+
+   Le lien :  [20]https://nuagedemots.co/
+
+   Zoom sur les + et les –
+   [outil_ampoule.png] [outil_echelle.png]
+
+   Les [outil_PLUS.png]
+
+   Nuage de mots est gratuit, c’est ultrarapide donc très performant, bref
+   un outil comme on les aime !
+
+   Les [outil_MOINS.png]
+
+   Pas de moins. Bon, s’il fallait en trouver : un plus grand choix de
+   formes, de polices et surtout de couleurs serait le bienvenu…
+
+   [outil_compas.png]
+
+   A vous de jouer [outil_trombone.png] [1-nuage-de-mots_tipsnlearn.png] 1
+
+   Intégrez le texte que vous souhaitez envoyer en l’air.
+   [outil_cle_molette.png] [2-nuage-de-mots_tipsnlearn.png] 2
+
+   Définissez sa forme, sa couleur, sa police…
+   [outil_taille_crayon.png] [outil_cle_oeil.png]
+   [3-nuage-de-mots_tipsnlearn.png] 3
+
+   Et voilà le résultat, à télécharger gratuitement.
+   [outil_ote_agraphe.png] [outil_bateau.png]
+
+Commentaires (0 )
+
+Laisser un commentaire [21]Annuler la réponse
+
+   Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont
+   indiqués avec *
+
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   Ajoutez une image                     
+   ______________________________
+   ______________________________
+
+   (BUTTON) Commenter
+
+   Δ
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+
+   chef
+
+   ©2018 [22]TIPS n’ LEARN | Tous droits réservés
+
+   TIPS n’ LEARN 9 Chemin des bouillants 77700 CHESSY
+
+   SIRET : 828.682.021.00013 | [23]Mentions-Régals | [24]CGV
+
+Références
+
+   1. https://tipsnlearn.fr/feed/
+   2. https://tipsnlearn.fr/comments/feed/
+   3. https://tipsnlearn.fr/outil/nuage-de-mots/feed/
+   4. https://tipsnlearn.fr/wp-json/wp/v2/outil/15742
+   5. https://tipsnlearn.fr/wp-json/oembed/1.0/embed?url=https://tipsnlearn.fr/outil/nuage-de-mots/
+   6. https://tipsnlearn.fr/wp-json/oembed/1.0/embed?url=https://tipsnlearn.fr/outil/nuage-de-mots/&format=xml
+   7. https://tipsnlearn.fr/
+   8. javascript:;
+   9. https://tipsnlearn.fr/#notre-offre
+  10. https://tipsnlearn.fr/#nos-services
+  11. https://tipsnlearn.fr/#nos-packs
+  12. https://tipsnlearn.fr/#notre-methode
+  13. https://tipsnlearn.fr/#team
+  14. https://tipsnlearn.fr/#nos-demos
+  15. https://tipsnlearn.fr/blog/
+  16. https://tipsnlearn.fr/#contact
+  17. javascript:;
+  18. javascript:;
+  19. javascript:;
+  20. https://nuagedemots.co/
+  21. file:///outil/nuage-de-mots/#respond
+  22. https://tipsnlearn.fr/
+  23. https://tipsnlearn.fr/mentions-regals
+  24. https://tipsnlearn.fr/conditions-generales-de-vente/

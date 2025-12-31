@@ -1,0 +1,11 @@
+Exemples d'utilisation d’un nuage de mots
+
+   Les nuages de mots peuvent être utilisés dans de nombreux contextes
+   pour analyser des réponses ouvertes :
+     * Feedback et avis clients : faire ressortir les points forts/faibles
+--
+   fonctionnalité innovante permet d'analyser automatiquement le sentiment
+   exprimé dans les réponses textuelles des participants. Une fois les
+   verbatims classifiés, Drag'n Survey génère deux nuages de mots clés
+   distincts : l'un pour les retours positifs et l'autre pour les retours
+   négatifs. Cette visualisation permet d'identifier en un clin d'œil les

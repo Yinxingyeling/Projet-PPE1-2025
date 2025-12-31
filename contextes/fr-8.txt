@@ -1,0 +1,25 @@
+   façon qui lui est propre…
+
+   Alors que certains nuages feront par exemple ressortir les idées les
+   plus populaires, d’autres vont simplement classer les mots par ordre
+   alphabétique. Le plus souvent, la taille de la typographie indique
+--
+   – Nuage de mots
+
+Les deux grands groupes de nuages de mots
+
+   On distingue deux types principaux de nuages de mots-clés. La première
+   catégorie répertorie les concepts en fonction du nombre de fois où ils
+   sont apparus dans un article. Cette donnée permet ainsi de matérialiser
+--
+   peut retrouver sur Internet, le nuage permet donc d’avoir très
+   rapidement un aperçu des tendances actuelles, via les expressions et
+   formules qui auront été les plus employées. Certains nuages de
+   mots-clés peuvent aussi tout simplement faire apparaître les résultats
+   à une question ouverte ou bien un sondage : pour mettre en avant de
+--
+   apparaissent le plus fréquemment dans le contenu qu’on aura saisi au
+   préalable. Certaines applications en ligne permettent également de
+   générer des nuages de mots-clefs à partir d’une URL ou de tout autre
+   document source, que l’on va pouvoir télécharger soi-même.
+
