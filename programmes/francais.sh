@@ -16,12 +16,47 @@ echo -e "<html>
         href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
     </head>
     <body class=\"tableau\">
-        <div class=\"centrer\">
-            <a href=\"../../index.html\" class=\"button accueil\">Accueil</a>
-            <a class=\"button script\">Script</a>
-            <a class=\"button tablo is-focus\">Tableau</a>
-            <a href=\"../concordances/fr-final.html\" class=\"button concordance\">Concordance</a>
-        </div>
+        <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">
+            <div class=\"navbar-brand\">
+                <img class=\"navbar-item\" src=\"../assets/img/PPE.png\" alt=\"Logo PPE\">
+
+                <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
+                <span aria-hidden=\"true\"></span>
+                <span aria-hidden=\"true\"></span>
+                <span aria-hidden=\"true\"></span>
+                <span aria-hidden=\"true\"></span>
+                </a>
+            </div>
+
+            <div id=\"navbarBasicExample\" class=\"navbar-menu\">
+                <div class=\"navbar-start\">
+                    <a class=\"navbar-item\" href=\"../index.html\">
+                        Home
+                    </a>
+
+                    <a class=\"navbar-item\">
+                        Script
+                    </a>
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                    <a class=\"navbar-link\">Tableau</a>
+
+                    <div class=\"navbar-dropdown\">
+                        <a class=\"navbar-item is-selected\" href=\"../tableaux/tableau-fr.html\">Français</a>
+                        <a class=\"navbar-item\" href=\"../tableaux/tableau-zh.html\">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Menu 2 : Concordances -->
+                <div class=\"navbar-item has-dropdown is-hoverable\">
+                    <a class=\"navbar-link\">Concordances</a>
+
+                    <div class=\"navbar-dropdown\">
+                        <a class=\"navbar-item\" href=\"../concordances/fr-final.html\">Français</a>
+                        <a class=\"navbar-item\" href=\"../concordances/zh-final.html\">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+        </nav>
         <section class=\"section has-text-centered\">
             <h1 class=\"title is-1\">Links table</h1>
             <div class=\"columns-is-centered\">
@@ -52,7 +87,58 @@ echo -e "<html>
         <section class=\"hero is-primary\">
             <div class=\"hero-body\">
                 <div class=\"container\">
-                <h1 class=\"title\">Tableau des concordances</h1>
+                    <h1 class=\"title\">Tableau des concordances</h1>
+                </div>
+                <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">
+            <div class=\"navbar-brand\">
+                <img class=\"navbar-item\" src=\"../assets/img/PPE.png\" alt=\"Logo PPE\">
+
+                <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
+                <span aria-hidden=\"true\"></span>
+                <span aria-hidden=\"true\"></span>
+                <span aria-hidden=\"true\"></span>
+                <span aria-hidden=\"true\"></span>
+                </a>
+            </div>
+
+            <div id=\"navbarBasicExample\" class=\"navbar-menu\">
+                <div class=\"navbar-start\">
+                    <a class=\"navbar-item\" href=\"../index.html\">
+                        Home
+                    </a>
+
+                    <a class=\"navbar-item\">
+                        Script
+                    </a>
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                    <a class=\"navbar-link\">Tableau</a>
+
+                    <div class=\"navbar-dropdown\">
+                        <a class=\"navbar-item\" href=\"../tableaux/tableau-fr.html\">Français</a>
+                        <a class=\"navbar-item\" href=\"../tableaux/tableau-zh.html\">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Menu 2 : Concordances -->
+                <div class=\"navbar-item has-dropdown is-hoverable\">
+                    <a class=\"navbar-link\">Concordances</a>
+
+                    <div class=\"navbar-dropdown\">
+                        <a class=\"navbar-item is-selected\" href=\"../concordances/fr-final.html\">Français</a>
+                        <a class=\"navbar-item\" href=\"../concordances/zh-final.html\">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class=\"navbar-end\">
+                <div class=\"navbar-item\">
+                    <div class=\"buttons\">
+                        <button class=\"button is-primary\" onclick=\"history.back();\">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+                <div class=\"centrer\">
+                    <a href=\"../../index.html\" class=\"button accueil\">Accueil</a>
                 </div>
             </div>
         </section>
@@ -108,7 +194,7 @@ do
     DUMP="../dumps-text/fr-${COUNT}.txt" # Texte brut de la page
     CTXT="../contextes/fr-${COUNT}.txt" # Contexte autour du mot
     TEMPO="../tmp/concord.txt" # Facilite la tâche pour le tableau des concordances
-    REWORD="nuages"
+    REWORD="nuages?"
 
     mkdir -p ../tmp/ # Crée un répertoire temporaire
 
