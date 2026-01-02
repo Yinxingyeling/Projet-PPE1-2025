@@ -7,16 +7,16 @@ COUNT=0
 # Fichier de sortie
 OUTFILE="../PALS/${DOSSIER}-${NOM}.txt"
 
-# Vider le fichier de sortie 
+# Vider le fichier de sortie
 > ${OUTFILE}
 
 # Test du dossier
-if [ ! -n ${DOSSIER} ];then
+if [ -z ${DOSSIER} ];then
     echo "Le dossier n'est pas correct"
     exit
 fi
 
-TOTAL=$(ls ../${DOSSIER}/${NOM}* | wc -l)
+TOTAL=$(ls ../${DOSSIER}/${NOM}-*.txt | wc -l)
 RE='A-Za-zÀ-ÖØ-öø-ÿ0-9\.!?'
 
 # Tokeniser fichier
@@ -32,8 +32,19 @@ do
         echo "Traitement de ${FICHIER}"
 
         # Découpage en mots et phrases
-        cat "$FICHIER" | tr -cs 'A-Za-zÀ-ÖØ-öø-ÿ0-9.!?' '\n' | \
-            sed 's/\([.!?]\)/\n\1\n/g' | sed '/^$/d' > "$FILEBYFILE"
+        if [ "$NOM" = "fr" ]; then
+        # Tokenisation française
+            cat "$FICHIER" | tr -cs 'A-Za-zÀ-ÖØ-öø-ÿ0-9.!?' '\n' | \
+                sed 's/\([.!?]\)/\n\1\n/g' | sed '/^$/d' > "$FILEBYFILE"
+
+        elif [ "$NOM" = "zh" ]; then
+        # Tokenisation chinoise via Python
+            if ! python3 ../ressources/tokenization/Chinois/tokenize_chinese.py "$FICHIER" | tr " " "\n" | sed '/^$/d' > "$FILEBYFILE" 2>/dev/null
+            then
+                echo "Tokenisation chinoise échouée: $FICHIER"
+                continue
+            fi
+        fi
 
         # Vérifier si le fichier est en UTF-8
         ENCODAGE=$(file -b "$FILEBYFILE")   # -b pour ne pas afficher le nom du fichier
