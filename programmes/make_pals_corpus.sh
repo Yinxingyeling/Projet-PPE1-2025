@@ -16,7 +16,7 @@ if [ ! -n ${DOSSIER} ];then
     exit
 fi
 
-TOTAL=$(ls ../${DOSSIER}/ | wc -l)
+TOTAL=$(ls ../${DOSSIER}/${NOM}* | wc -l)
 RE='A-Za-zÀ-ÖØ-öø-ÿ0-9\.!?'
 
 # Tokeniser fichier
@@ -28,15 +28,40 @@ do
     FILEBYFILE="../PALS/${DOSSIER}/${DOSSIER}-${NOM}-${COUNT}.txt"
 
     # Tokenisation
-    if [ -f ${FICHIER} ]; then
+    if [ -f "$FICHIER" ]; then
         echo "Traitement de ${FICHIER}"
 
-        cat ${FICHIER} | tr -cs 'A-Za-zÀ-ÖØ-öø-ÿ0-9.!?' '\n' | sed 's/\([.!?]\)/\n\1\n/g' | sed '/^$/d' > ${FILEBYFILE}
-        cat ${FILEBYFILE} >> ${OUTFILE} # Copie 
-        echo -e "\n" >> ${OUTFILE} # Saut de ligne pour séparer les fichiers 
+        # Découpage en mots et phrases
+        cat "$FICHIER" | tr -cs 'A-Za-zÀ-ÖØ-öø-ÿ0-9.!?' '\n' | \
+            sed 's/\([.!?]\)/\n\1\n/g' | sed '/^$/d' > "$FILEBYFILE"
+
+        # Vérifier si le fichier est en UTF-8
+        ENCODAGE=$(file -b "$FILEBYFILE")   # -b pour ne pas afficher le nom du fichier
+        UTF8FILE="../PALS/${DOSSIER}/${NOM}-${COUNT}-utf8.txt"
+
+        if [[ "$ENCODAGE" != *"UTF-8"* ]]; then
+            # Cas Non-ISO extended-ASCII
+            if [[ "$ENCODAGE" == *"Non-ISO extended-ASCII text"* ]]; then
+                iconv -f windows-1252 -t utf-8//IGNORE "$FILEBYFILE" > "$UTF8FILE"
+                rm "$FILEBYFILE"
+            else
+                # Détection automatique d’encodage (prend le 1er mot comme encodage source)
+                ENCODAGE_SRC=$(echo "$ENCODAGE" | awk '{print $1}')
+                iconv -f "$ENCODAGE_SRC" -t utf-8//IGNORE "$FILEBYFILE" > "$UTF8FILE"
+                rm "$FILEBYFILE"
+            fi
+        else
+            # Si déjà UTF-8
+            cp "$FILEBYFILE" "$UTF8FILE"
+        fi
+
+        # Copie dans le fichier final
+        cat "$UTF8FILE" >> "$OUTFILE"
+        echo -e "\n" >> "$OUTFILE"  # Saut de ligne pour séparer les fichiers
 
     else
         echo "${FICHIER} manquant"
     fi
 
 done
+
