@@ -1,0 +1,18 @@
+centraliser {
+    padding: 5px 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+pre.bashHtml {
+    background:#a19f9f;
+    color:#eaeaea;
+    padding:15px;
+    border-radius:8px;
+    overflow-x:auto;
+}
+
+code.scriptHtml { 
+    font-family: monospace; 
+}

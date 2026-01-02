@@ -1,4 +1,136 @@
-Page d'accueil
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Home</title>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
+    <body class="is-info has-background-info-light">
+        <section class="hero is-medium is-info">
+            <div class="hero-body container has-text-centered">
+                <h1 class="title is-1">Projet PPE 1 : nuage / 云</h1>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class="navbar-item is-size-4" style="cursor: default;">☁️</p>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
 
-Mot choisi : Intelligence Artificielle
-Langue : Chinois (Alice L), Anglais (Hongrui), Français (Alice M) 
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item has-background-link-light is-selected" href="index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="fr_script.html">Français</a>
+                            <a class="navbar-item" href="zh_script.html">Chinois</a>
+                            <a class="navbar-item" href="blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <!-- Menu déroulant de Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Tableau</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="tableaux/tableau-zh.html">Chinois</a>
+                        </div>
+                    </div>
+                    <!-- Concordances -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Contenu -->
+        <section class="section">
+            <div class="has-text-centered">
+                <h1 class="title is-2">Présentation</h1>
+            </div>
+            <div class="content-block section">
+                <h1 class="subtitle is-4 has-text-centered">Choix du mot </h1>
+                <div class="block centraliser has-text-justify">
+                    <p>Avant de définir le mot nuage, nous avons eu l'idée de travailler sur le mot <em>maîtresse</em> qui avait pas mal de polysémie que ce soit en chinois ou en français.
+                        Cepandant, après nous être lancées dans la recherche de corpus, nous avons malheureusement eu beaucoup de mal à trouver des pages pouvons attester ces polysémies, surtout en chinois, car le sens
+                        de maîtresse en tant qu'amant n'était plus du tout utilisé dans les textes modernes. De ce fait, nous avons décidé de changer de mot.
+                    </p>
+                    <p>
+                        Après plusieurs recherche de mot dont nous pouvons analyser la polysémie, nous avons finalement décidé de prendre <strong>nuage</strong>. 
+                    </p>
+                    <p>
+                        Le sens le plus connu, au premier degrès de <em>nuage</em> est bien évidemment celui qui réfère à la météo. Les nuages dans le ciel, une chose dont nous
+                        pouvons voir à l'oeil nu. 
+                    </p>
+                    <p>
+                        La polysémie que nous avons trouvé pour ce mot est encore moderne, elle a fait naissance avec l'évolution de la technologie, plus précisément avec l'arrivée les données numériques.
+                        Dérivé de l'anglais <em>cloud</em>, le mot nuage désigne la base de sauvegarde en ligne des données. Une attention à porter sur le caractère chinois 云 (<em>yun</em>)
+                        qui à lui seul signifie nuage, comme ceux dans le ciel. Pour que son sens devient nuage numérique, nous avons besoin de deux caractères 云端 (<em>yun duang</em>), 
+                        pouvant aussi signifier "haut dans le ciel"
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us -->
+        <section class="block container section">
+            <div class="has-text-centered">
+                <h1 class="subtitle is-4 has-text-centered">Membres du projet</h1>
+            </div>
+            <div class="has-text-justify centraliser">
+                <div class="section">
+                    <div class="block">
+                        <button class="button is-primary has-background-link-light" style="cursor: default;">Alice</button>
+                    </div>
+                    <div class="box">
+                        <p>
+                            "Je suis Alice LIN, actuellement étudiante en première année de Master en Traitement Automatique des Langues à INALCO.
+                            <br>
+                            Je m'occupe de la partie français pour le projet."
+                        </p>
+                    </div>
+                    <div class="block">
+                        <button class="button is-primary has-background-link-light" style="cursor: default;">Hongrui</button>
+                    </div>
+                    <div class="box">
+                        <p>
+                            ""
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
