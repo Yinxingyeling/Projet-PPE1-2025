@@ -1,0 +1,27 @@
+User-agent: *
+Allow:    /local/cache-css/
+Allow:    /local/cache-js/
+Allow:    /local/cache-gd2/
+Allow: 	  /local/cache-vignettes/
+Disallow: /local/
+Disallow: /ecrire/
+Disallow: /plugins-dist/
+Disallow: /lib/
+Disallow: /prive/
+Disallow: /squelettes-dist/
+Disallow: *page=spipdf*
+Disallow: /spip.php?page=article_print*
+Disallow: *page=recherche*
+Disallow: /images/CP2020/*
+Disallow: */b8ea209081db4f7ae6c1cb58f2569a.jpg
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://reporterre.net/sitemap.xml

@@ -1,0 +1,142 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: JoobleBot
+Disallow: /
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password
+Disallow: /index.php/user/register
+Disallow: /index.php/user/login
+Disallow: /index.php/user/logout
+
+#Admin urls
+Disallow: /admin/
+Disallow: /au/en-au/admin/
+Disallow: /belgium/en/admin/
+Disallow: /canada/en-ca/admin/
+Disallow: /canada/fr-ca/admin/
+Disallow: /ceska-republika/cs/admin/
+Disallow: /de/admin/
+Disallow: /dk/da/admin/
+Disallow: /en/admin/
+Disallow: /en/hong-kong/admin/
+Disallow: /et/admin/
+Disallow: /fi/fi/admin/
+Disallow: /fr/admin/
+Disallow: /france/fr-fr/admin/
+Disallow: /india/en/admin/
+Disallow: /italy/en/admin/
+Disallow: /latviesu/lv/admin/
+Disallow: /lietuviskai/lt/admin/
+Disallow: /luxembourg/fr-fr/admin/
+Disallow: /magyarorszag/hu/admin/
+Disallow: /malaysia/en/admin/
+Disallow: /maroc/fr-fr/admin/
+Disallow: /nl/admin/
+Disallow: /no/nb/admin/
+Disallow: /philippines/en/admin/
+Disallow: /polska/pl/admin/
+Disallow: /portugal/pt-pt/admin/
+Disallow: /romania/en/admin/
+Disallow: /romania/fr/admin/
+Disallow: /se/sv/admin/
+Disallow: /slovensko/sk/admin/
+Disallow: /spain/es/admin/
+Disallow: /uk/en-gb/admin/
+Disallow: /uk/en-gb/scotland/admin/
+Disallow: /uk/en-gb/wales/admin/
+Disallow: /us/en-us/admin/
+
+# Admin domains
+Disallow: admin.cgi.com/*
+Disallow: admin.cgi.com.au/*
+Disallow: admin.cgi.dk/*
+Disallow: admin.cgi.ee/*
+Disallow: admin.cgi.fi/*
+Disallow: admin.cgi.fr/*
+Disallow: admin.cgi-group.co.uk/*
+Disallow: admin.cgi.se/*
+Disallow: admin.cginederland.nl/*
+Disallow: admin.de.cgi.com/*
+
+Sitemap: https://www.cgi.com/sitemap.xml
+Sitemap: https://www.cgi.com/au/sitemap.xml
+Sitemap: https://www.cgi.com/dk/sitemap.xml
+Sitemap: https://www.cgi.com/ee/sitemap.xml
+Sitemap: https://www.cgi.com/fi/sitemap.xml
+Sitemap: https://www.cgi.com/france/sitemap.xml
+Sitemap: https://www.cgi.com/de/sitemap.xml
+Sitemap: https://www.cgi.com/nl/sitemap.xml
+Sitemap: https://www.cgi.com/se/sitemap.xml
+Sitemap: https://www.cgi.com/uk/sitemap.xml
+Sitemap: https://www.cgi.com/canada/sitemap.xml
+Sitemap: https://www.cgi.com/belgium/sitemap.xml
+Sitemap: https://www.cgi.com/ceska-republika/sitemap.xml
+Sitemap: https://www.cgi.com/spain/sitemap.xml
+Sitemap: https://www.cgi.com/india/sitemap.xml
+Sitemap: https://www.cgi.com/italy/sitemap.xml
+Sitemap: https://www.cgi.com/luxembourg/sitemap.xml
+Sitemap: https://www.cgi.com/magyarorszag/sitemap.xml
+Sitemap: https://www.cgi.com/malaysia/sitemap.xml
+Sitemap: https://www.cgi.com/maroc/sitemap.xml
+Sitemap: https://www.cgi.com/philippines/sitemap.xml
+Sitemap: https://www.cgi.com/polska/sitemap.xml
+Sitemap: https://www.cgi.com/portugal/sitemap.xml
+Sitemap: https://www.cgi.com/slovensko/sitemap.xml
+Sitemap: https://www.cgi.com/us/sitemap.xml
+Sitemap: https://www.cgi.com/no/sitemap.xml
+Sitemap: https://www.cgi.com/lietuviskai/sitemap.xml
+Sitemap: https://www.cgi.com/latviesu/sitemap.xml

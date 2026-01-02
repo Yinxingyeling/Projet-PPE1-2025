@@ -1,0 +1,208 @@
+User-Agent: *
+Disallow: /wp-admin
+Disallow: /wp-login.php
+Allow: /wp-admin/admin-ajax.php
+Disallow: */trackback
+Disallow: /*/feed
+Disallow: /*/comments
+Disallow: /cgi-bin
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz
+Disallow: /*.cgi
+Disallow: /auteurs/*/page/
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: AmazonBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: Archive-It
+Disallow: /
+
+User-agent: BaiduSpider
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: BLP_bbot
+Disallow: /
+
+User-agent: Brandwatch
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: carbon-umbrella-bot/1.0
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Cision
+Disallow: /
+
+User-agent: Claude
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Deepseek
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Gigabot
+Disallow: /
+
+User-agent: Gnowit
+Disallow: /
+
+User-agent: GnowitNewsbot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Grok
+Disallow: /
+
+User-agent: heritrix
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: HTTrack 3.0
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: IbouBot
+Disallow: /
+
+User-agent: linkfluence
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: Mediatoolkitbot
+Disallow: /
+
+User-agent: Meltwater
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: MuckRack
+Disallow: /
+
+User-agent: news-api.org
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: Observer/1.0 (+https://obsrvr.net/about; crawler@obsrvr.net)
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: Opoint
+Disallow: /
+
+User-agent: OTMedia
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: PressEngineBot
+Disallow: /
+
+User-agent: scoop.it
+Disallow: /
+
+User-agent: semantic-visions.com
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SentiBot
+Disallow: /
+
+User-agent: Sindup
+Disallow: /
+
+User-agent: Squidbot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: trendictionbot
+Disallow: /
+
+User-agent: Turnitin
+Disallow: /
+
+User-agent: Webzio
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+Sitemap: https://lactualite.com/sitemap.xml
+Sitemap: https://lactualite.com/post_google_news.xml

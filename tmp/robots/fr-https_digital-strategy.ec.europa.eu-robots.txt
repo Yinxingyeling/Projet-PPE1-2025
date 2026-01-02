@@ -1,0 +1,108 @@
+# This is version 3 from 25 May 2021, uploaded in production for testing on 19 July 2021
+# test comment by Alexis this 6 August at 10:04
+# test Irina 6 August at 11:57
+#update 10 September 08:48 Irina
+#update 13 April Irina
+#update 28 July Irina
+#update august 2022Irina
+#update March 2023 (multilingualism)
+#update February 2024 (Irina)
+#update for test archive crawl 2 September 2024 - allow access to CSS and images (Irina)
+
+User-agent: *
+Disallow: /newsletters/*
+Disallow: /themes/
+Disallow: /news-redirect/*
+Disallow: /profiles/
+Disallow: /sites/*
+Disallow: /core/
+Disallow: /admin/*
+Disallow: /events?
+Disallow: /related-content?
+Disallow: /news?
+Disallow: /consultations?
+Disallow: /funding?
+Disallow: /library?
+Disallow: /search?s=*
+Disallow: /taxonomy/*
+Disallow: /en/newsletters/*
+Disallow: /en/themes/
+Disallow: /en/news-redirect/*
+Disallow: /en/profiles/
+Disallow: /en/sites/*
+Disallow: /en/core/
+Disallow: /en/admin/*
+Disallow: /en/events?
+Disallow: /en/related-content?
+Disallow: /en/news?
+Disallow: /en/consultations?
+Disallow: /en/funding?
+Disallow: /en/library?
+Disallow: /en/search?s=*
+Disallow: /en/taxonomy/*
+Disallow: /printable/pdf
+Disallow: /node/*
+
+# CSS, JS, Images, Pdf
+User-agent: *
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+Allow: /themes/*.css$
+Allow: /themes/*.css?
+Allow: /themes/*.js$
+Allow: /themes/*.js?
+Allow: /themes/*.gif
+Allow: /themes/*.jpg
+Allow: /themes/*.jpeg
+Allow: /themes/*.png
+Disallow: /*pdf$
+Disallow: /*.pdf$
+
+#General
+Disallow: /*?
+
+# Files
+User-agent: *
+Disallow: /README.txt
+Disallow: /web.config
+
+User-agent: *
+Disallow: /comment/*
+Disallow: /comment/reply/
+Disallow: /filter/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /user/*
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+
+# Paths (no clean URLs)
+User-agent: *
+Disallow: /index.php/
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password/
+Disallow: /index.php/user/register/
+Disallow: /index.php/user/login/
+Disallow: /index.php/user/logout/

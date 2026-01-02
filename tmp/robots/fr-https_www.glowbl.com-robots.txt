@@ -1,0 +1,45 @@
+# ======================================================
+# Glowbl - Robots.txt
+# Objectif : SEO classique + IA
+# ======================================================
+
+# Common Crawl (dataset ouvert utilisé par de nombreuses IA et moteurs)
+User-agent: CCBot
+Disallow:
+
+# OpenAI (ChatGPT / GPT-4 / GPT-5)
+User-agent: GPTBot
+Disallow:
+
+# ChatGPT (navigation & plugins)
+User-agent: ChatGPT-User
+Disallow:
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Disallow:
+
+# Perplexity (moteur IA conversationnel)
+User-agent: PerplexityBot
+Disallow:
+
+# Google - autorisation explicite pour Bard / Gemini et IA associées
+User-agent: Google-Extended
+Disallow:
+
+# Autres crawlers IA connus
+User-agent: OAI-SearchBot
+Disallow:
+User-agent: FacebookBot
+Disallow:
+User-agent: Applebot
+Disallow:
+
+# Moteurs de recherche classiques (Google, Bing, Yahoo, etc.)
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# Sitemaps pour guider tous les crawlers
+Sitemap: https://www.glowbl.com/sitemap_index.xml
+Sitemap: https://www.glowbl.com/blog/sitemap_index.xml

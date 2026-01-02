@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /mentions-legales
+Disallow: /politique-de-confidentialite
+Disallow: /users/sign_in
+Disallow: /admin
+Disallow: /super_admin
+Disallow: /api
+Disallow: /open_api

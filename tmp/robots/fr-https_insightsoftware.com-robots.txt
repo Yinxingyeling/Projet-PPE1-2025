@@ -1,0 +1,68 @@
+#.__              .__       .__     __                _____  __                                 
+#|__| ____   _____|__| ____ |  |___/  |_  ___________/ ____\/  |___  _  _______ _______   ____  
+#|  |/    \ /  ___/  |/ ___\|  |  \   __\/  ___/  _ \   __\\   __\ \/ \/ /\__  \\_  __ \_/ __ \ 
+#|  |   |  \\___ \|  / /_/  >   Y  \  |  \___ (   )  |   |  |  \     /  / __ \|  | \/\  ___/ 
+#|__|___|  /____  >__\___  /|___|  /__| /____  >____/|__|   |__|   \/\_/  (____  /__|    \___  >
+#        \/     \/  /_____/      \/          \/                                \/            \/ 
+#__________        __      ___ ___                                      __                      
+#\______   \ _____/  |_   /   |   \_____    ____    ____   ____  __ ___/  |_                    
+# |    |  _//  _ \   __\ /    ~    \__  \  /    \  / ___\ /  _ \|  |  \   __\                   
+# |    |   (   )  |   \    Y    // __ \|   |  \/ /_/  >   )  |  /|  |                     
+# |______  /\____/|__|    \___|_  /(____  /___|  /\___  / \____/|____/ |__|                     
+#        \/                     \/      \/     \//_____/                                                   
+# Robots.txt for insightsoftware.com
+Sitemap: https://insightsoftware.com/sitemap_index.xml
+
+# Global rules for all user agents
+User-agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /*?h=*
+Disallow: /*?dlm_download_category=*
+Disallow: /*resource-success*
+Disallow: /*inquiry-success*
+Disallow: /*?scriptPath=
+Disallow: /*?preview_key=
+Disallow: /*&preview_key=
+Disallow: /page/
+Disallow: /*?s=*
+Disallow: /*?isw_search=*
+Disallow: /wp-content/uploads/2020/06/Bizview365-SaaS-Terms-and-Conditions.pdf
+Disallow: /wp-content/uploads/2020/06/Bizview365-Privacy-Policy.pdf
+Disallow: /wp-content/uploads/2020/06/Bizview365-Service-Level-Appendix.pdf
+Disallow: /wp-content/uploads/2020/06/Bizview365-Data-Processor-Agreement.pdf
+
+# Allow specific paths for major bots
+User-agent: Googlebot
+Allow: /page/
+Allow: /blog/tag/success-webinar/
+
+User-agent: Bingbot
+Allow: /page/
+Allow: /blog/tag/success-webinar/
+
+User-agent: DuckDuckBot
+Allow: /page/
+Allow: /blog/tag/success-webinar/
+
+User-agent: Baiduspider
+Allow: /page/
+Allow: /blog/tag/success-webinar/
+
+User-agent: SearchGPT
+Allow: /page/
+Allow: /blog/tag/success-webinar/
+
+# Allow agentic-AI users
+User-agent: Claude-User
+User-agent: Claude-Web
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+
+Disallow:

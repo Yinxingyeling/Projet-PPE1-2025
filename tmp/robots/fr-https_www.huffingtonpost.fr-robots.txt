@@ -1,0 +1,490 @@
+User-agent: *
+Disallow: /preview/*
+
+# Robots exclus de toute indexation.
+User-agent: Meltwater
+Disallow: /
+
+User-agent: Cision
+Disallow: /
+
+User-agent: Talkwater
+Disallow: /
+
+User-agent: Jetbot
+Disallow: /
+
+User-agent: kbcrawl
+Disallow: /
+
+User-agent: Newzbin
+Disallow: /
+
+User-agent: Qwam content intelligence
+Disallow: /
+
+User-agent: flipboard
+Disallow: /
+
+User-agent: Youmag
+Disallow: /
+
+User-agent: Synthesio
+Disallow: /
+
+User-agent: trendybuzz
+Disallow: /
+
+User-agent: scoop.it
+Disallow: /
+
+User-agent: linkfluence
+Disallow: /
+
+User-agent: grub-client
+Disallow: /
+
+User-agent: ia_archiver-web.archive.org
+Allow: /$
+Disallow: /*
+
+User-agent: k2spider
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: 5erue
+Disallow: /
+
+User-agent: adequat
+Disallow: /
+
+User-agent: adequat-systems
+Disallow: /
+
+User-agent: coexel
+Disallow: /
+
+User-agent: leadbox
+Disallow: /
+
+User-agent: mention
+Disallow: /
+
+User-agent: mytwip
+Disallow: /
+
+User-agent: opinion-tracker
+Disallow: /
+
+User-agent: proxem
+Disallow: /
+
+User-agent: score3
+Disallow: /
+
+User-agent: vecteurplus
+Disallow: /
+
+User-agent: verticalsearch
+Disallow: /
+
+User-agent: vsw
+Disallow: /
+
+User-agent: winello
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+User-agent: infoseek
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: asknread.com
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: DuckAssistBot
+Disallow: /
+
+User-agent: Kangaroo Bot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: PanguBot
+Disallow: /
+
+# LISTEROBOTS1802
+User-agent: 5emeRue
+Disallow: /
+User-agent: ACQUIRE MEDIA
+Disallow: /
+User-agent: ACTIV Financial (CME Group)
+Disallow: /
+User-agent: AlphaSense
+Disallow: /
+User-agent: AmiSoftware
+Disallow: /
+User-agent: archive.org_bot
+Disallow: /
+User-agent: Archive-It
+Disallow: /
+User-agent: ArgClrInt
+Disallow: /
+User-agent: Ask n read
+Disallow: /
+User-agent: Augure
+Disallow: /
+User-agent: auramundi
+Disallow: /
+User-agent: AwarioRssBot
+Disallow: /
+User-agent: AwarioSmartBot
+Disallow: /
+User-agent: Barchart.com
+Disallow: /
+User-agent: BattleFin
+Disallow: /
+User-agent: Bernin IT
+Disallow: /
+User-agent: Blackboard Safeassign
+Disallow: /
+User-agent: BLP_bbot
+Disallow: /
+User-agent: bluematrix
+Disallow: /
+User-agent: Brandwatch
+Disallow: /
+User-agent: Briefcase.news
+Disallow: /
+User-agent: Buck
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: CCBo
+Disallow: /
+User-agent: CikisiBot
+Disallow: /
+User-agent: Coexel
+Disallow: /
+User-agent: cohere-ai
+Disallow: /
+User-agent: Comtex News Network
+Disallow: /
+User-agent: ConveraCrawler
+Disallow: /
+User-agent: Copyright Licensing Agency
+Disallow: /
+User-agent: Corporama
+Disallow: /
+User-agent: D&B Hoovers
+Disallow: /
+User-agent: Data Expression
+Disallow: /
+User-agent: Data Observer
+Disallow: /
+User-agent: Dataminr
+Disallow: /
+User-agent: Dealogic
+Disallow: /
+User-agent: Diffbot
+Disallow: /
+User-agent: Digimind
+Disallow: /
+User-agent: DirectFN
+Disallow: /
+User-agent: Dun & Bradstreet
+Disallow: /
+User-agent: Dun & Bradstreet - D&B ESG Intelligence
+Disallow: /
+User-agent: Dun & Bradstreet Data Marketplace
+Disallow: /
+User-agent: Eagle Alpha
+Disallow: /
+User-agent: ecoresearch
+Disallow: /
+User-agent: ellisphere
+Disallow: /
+User-agent: FactSet
+Disallow: /
+User-agent: FeedCheck
+Disallow: /
+User-agent: FeedReader
+Disallow: /
+User-agent: Feedspot
+Disallow: /
+User-agent: Fitch Solutions
+Disallow: /
+User-agent: Founder Apabi
+Disallow: /
+User-agent: Freshbot
+Disallow: /
+User-agent: FriendlyCrawler
+Disallow: /
+User-agent: Gnowit
+Disallow: /
+User-agent: GnowitNewsbot
+Disallow: /
+User-agent: Ground News
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+User-agent: ICE Connect Desktop Solution
+Disallow: /
+User-agent: ICE Data Services
+Disallow: /
+User-agent: IHS Markit
+Disallow: /
+User-agent: ImageSift
+Disallow: /
+User-agent: InMédia Technologies
+Disallow: /
+User-agent: Innguma
+Disallow: /
+User-agent: Inoreader
+Disallow: /
+User-agent: ISI Emerging Markets
+Disallow: /
+User-agent: KB Crawl SAS
+Disallow: /
+User-agent: Knowings
+Disallow: /
+User-agent: Koyfin
+Disallow: /
+User-agent: Launchmetrics
+Disallow: /
+User-agent: LexisNexis
+Disallow: /
+User-agent: Liana
+Disallow: /
+User-agent: magpie-crawler
+Disallow: /
+User-agent: Make/production
+Disallow: /
+User-agent: MarketResearch.com
+Disallow: /
+User-agent: MarketWatch
+Disallow: /
+User-agent: MarketWise
+Disallow: /
+User-agent: Markit Digital
+Disallow: /
+User-agent: Mediatoolkitbot
+Disallow: /
+User-agent: moduleQ
+Disallow: /
+User-agent: MONITIO
+Disallow: /
+User-agent: MoodleBot
+Disallow: /
+User-agent: Moody's
+Disallow: /
+User-agent: Moreover
+Disallow: /
+User-agent: MORNINGSTAR
+Disallow: /
+User-agent: MuckRack
+Disallow: /
+User-agent: Netvibes
+Disallow: /
+User-agent: news-api.org
+Disallow: /
+User-agent: Newslitbot
+Disallow: /
+User-agent: NewsNow
+Disallow: /
+User-agent: Northern Light
+Disallow: /
+User-agent: Opinion-tracker
+Disallow: /
+User-agent: Orbis
+Disallow: /
+User-agent: Opoint
+Disallow: /
+User-agent: Paqlebot
+Disallow: /
+User-agent: Press Monitor Europe
+Disallow: /
+User-agent: PressEngineBot D
+Disallow: /
+User-agent: PriberamBot
+Disallow: /
+User-agent: QuoteMedia
+Disallow: /
+User-agent: QWAM CONTENT INTELLIGENCE
+Disallow: /
+User-agent: RankurBot
+Disallow: /
+User-agent: RavenPack
+Disallow: /
+User-agent: ReportLinker
+Disallow: /
+User-agent: Research & Markets
+Disallow: /
+User-agent: S&P Capital IQ
+Disallow: /
+User-agent: S&P Global Market Intelligence
+Disallow: /
+User-agent: S&P Global Marketplace
+Disallow: /
+User-agent: scoopit
+Disallow: /
+User-agent: scoopit-crawler
+Disallow: /
+User-agent: scpitspi-rs
+Disallow: /
+User-agent: semantic-visions.com
+Disallow: /
+User-agent: semantic-visions.com crawler
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: SentiBot
+Disallow: /
+User-agent: SentiOne
+Disallow: /
+User-agent: Signal Insights
+Disallow: /
+User-agent: Sindup
+Disallow: /
+User-agent: smartkarma
+Disallow: /
+User-agent: Sociallymap
+Disallow: /
+User-agent: spotter
+Disallow: /
+User-agent: Sprinklr
+Disallow: /
+User-agent: squirrobot
+Disallow: /
+User-agent: Statista
+Disallow: /
+User-agent: STOCKBOARD
+Disallow: /
+User-agent: telpress.it
+Disallow: /
+User-agent: Thomson Reuters
+Disallow: /
+User-agent: Thomson Reuters WestLaw
+Disallow: /
+User-agent: TraderPlanet
+Disallow: /
+User-agent: Tradingcharts.com
+Disallow: /
+User-agent: TradingView
+Disallow: /
+User-agent: Transform Your API
+Disallow: /
+User-agent: trendeo
+Disallow: /
+User-agent: trendictionbot
+Disallow: /
+User-agent: TurnitinBot
+Disallow: /
+User-agent: um-FC
+Disallow: /
+User-agent: um-IC
+Disallow: /
+User-agent: um-LN
+Disallow: /
+User-agent: UptimeRobot
+Disallow: /
+User-agent: Vable Ltd
+Disallow: /
+User-agent: VISIBRAIN
+Disallow: /
+User-agent: webzio
+Disallow: /
+User-agent: YaK
+Disallow: /
+User-agent: YCHARTS
+Disallow: /
+User-agent: YouBot
+Disallow: /
+User-agent: Zite
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.huffingtonpost.fr/sitemaps/news.xml
+Sitemap: https://www.huffingtonpost.fr/sitemaps/index.xml

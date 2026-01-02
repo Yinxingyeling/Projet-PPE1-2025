@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /admin
+Disallow: /catalogue
+Disallow: /api
+Sitemap: https://books.openedition.org/sites/sitemap/index

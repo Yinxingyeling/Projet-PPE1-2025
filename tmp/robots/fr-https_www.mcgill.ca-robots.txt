@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Offline</title>
+    <link
+      data-testid="unpkg-link"
+      rel="stylesheet"
+      href="https://unpkg.com/@mcgill-wsg/mcgill-ds@1/dist/css/mds.css"
+    />
+    <style type="text/css">
+      header,
+      footer {
+        padding: var(--mds-spacing-medium);
+      }
+
+      header {
+        padding-top: 0;
+        padding-bottom: 0;
+        box-shadow: var(--mds-shadow-small);
+      }
+
+      .page-bottom {
+        /*  In flex column, this moves to this element to bottom.  */
+        margin-top: auto;
+      }
+
+      .page-bottom .footer-top {
+        background: var(--mds-color-gray-900);
+      }
+
+      footer .copyright {
+        margin-left: auto;
+      }
+
+      .banner-logo {
+        background: var(--mds-color-primary-500);
+        padding: var(--mds-spacing-small);
+        /*  To accomodate overhang style.  */
+        margin-bottom: -5px;
+        box-shadow: var(--mds-shadow-small);
+      }
+
+      .w-80 {
+        max-width: 80vw;
+      }
+
+      .full-height {
+        min-height: 100vh;
+      }
+
+      /* Unset grid; revert to block display on mobile. */
+      @media (max-width: 320px) {
+        div[class*="mds-l-grid"] {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mds-l-flex full-height">
+      <header class="mds-header">
+        <div class="mds-mx--center w-80">
+          <a title="McGill University" href="https://www.mcgill.ca/">
+            <img
+              alt="McGill University logo"
+              class="banner-logo mds-logo--md"
+              src="https://unpkg.com/@mcgill-wsg/mcgill-ds@1.0.40/dist/assets/svgs/logo--inverted.svg"
+            />
+          </a>
+        </div>
+      </header>
+
+      <div class="mds-mx--center mds-mt--large w-80">
+        <div class="mds-l-grid--desktop-2 mds-l-gap--3">
+          <section>
+            <h2 class="mds-my--large">Can't load page</h2>
+            <p>
+              This is temporary. Wait a moment and then try reloading the page. It may
+              help to:
+            </p>
+            <ul>
+              <li>
+                Clear your browser cache or use an incognito (private) browsing mode.
+              </li>
+              <li>
+               Off-campus McGill users: please ensure you're connected to the McGill VPN.
+              </li>
+              <li>
+                Ensure JavaScript is enabled in your browser.
+              </li>
+            </ul>
+            <p>
+              Still not working? <a href="https://mcgill.service-now.com/itportal?id=sc_cat_item&sys_id=67f6bdfadbe5d494ed7c8043059619fb&sysparm_category=b03f88914f4a9200b18f59dd0210c784">Submit an incident report</a>. Be sure to include:
+            </p>
+              <ul>
+                <li>Type of error: <strong>Content blocked by network security rules</strong></li>
+                <li>Your support ID is <strong id="support-id-en">BOT-17147304893574158542</strong></li>
+              </ul>
+            <p>Thank you for your understanding.</p>
+
+          </section>
+
+          <section>
+            <h2 class="mds-my--large">La page ne se charge pas</h2>
+            <p>
+              C'est temporaire. Attendez un peu, puis essayez de la recharger. Quelques conseils :
+            </p>
+            <ul>
+              <li>Videz la mémoire cache de votre navigateur ou utilisez un mode de navigation privée.</li>
+              <li>Utilisateurs de McGill hors campus : veuillez vous assurer que vous êtes connectés au VPN de McGill.</li>
+              <li>Assurez-vous que JavaScript est activé dans votre navigateur.</li>
+            </ul>
+            <p>
+              Ça ne fonctionne toujours pas? <a href="https://mcgill.service-now.com/itportal?id=sc_cat_item&sys_id=67f6bdfadbe5d494ed7c8043059619fb&sysparm_category=b03f88914f4a9200b18f59dd0210c784">Présentez un rapport d'incident</a> comprenant l'information suivante :
+
+            </p>
+            <ul>
+              <li>le type d'erreur : <strong>Content blocked by network security rules;</strong></li>
+              <li>le numéro d'identification du support : <strong id="support-id-fr"></strong>.</li>
+            </ul>
+            <p>
+              Nous vous remercions de votre patience.
+            </p>
+          </section>
+
+        </div>
+      </div>
+
+      <section class="page-bottom">
+        <div
+          class="footer-top mds-dark mds-mt--large"
+        >
+          <div class="mds-mx--center w-80">
+            <div class="mds-l-grid--cols-2 mds-l-gap--3">
+              <div class="mds-my--large mds-copy--micro">
+                <p>For on-campus emergencies</p>
+                <tel>514-398-3000</tel> <span>(downtown campus)</span>
+                <br />
+                <tel>514-398-7777</tel> <span>(Macdonald campus)</span>
+              </div>
+              <div class="mds-my--large mds-copy--micro">
+                <p>En cas d'urgence</p>
+
+                <tel>514-398-3000</tel> <span>(campus centre-ville)</span>
+                <br />
+                <tel>514-398-7777</tel> <span>(campus Macdonald)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="mds-footer mds-dark">
+          <div
+            class="
+              mds-mx--center
+              w-80
+              mds-l-flex-row
+              mds-l-justify--start
+              mds-l-align--center
+            "
+          >
+            <a title="McGill University" href="https://www.mcgill.ca/">
+              <img
+                alt="McGill University logo"
+                class="mds-logo--sm"
+                src="https://unpkg.com/@mcgill-wsg/mcgill-ds@1.0.40/dist/assets/svgs/logo--inverted.svg"
+              />
+            </a>
+
+            <div class="copyright">
+              <span class="mds-copy--muted mds-copy--micro"
+                >© McGill University / Université McGill</span
+              >
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+
+  <script>
+    // Copy the support ID from English section to French section
+    document.addEventListener('DOMContentLoaded', function() {
+      const enSupportId = document.getElementById('support-id-en');
+      const frSupportId = document.getElementById('support-id-fr');
+      if (enSupportId && frSupportId) {
+        frSupportId.textContent = enSupportId.textContent;
+      }
+    });
+  </script>
+  </body>
+</html>
