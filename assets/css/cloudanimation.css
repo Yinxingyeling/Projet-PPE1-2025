@@ -1,0 +1,107 @@
+.hero-cloud {
+    position: relative;
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 40vh;
+}
+
+/* 内容层置顶 */
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero.is-info .hero-body {
+    background: transparent;
+    padding-top: 8rem;
+}
+
+.hero-cloud .sky {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: #a6ddff;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+
+.clouds_one,
+.clouds_two,
+.clouds_three {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 300%;
+    background-repeat: repeat;
+    will-change: transform;
+    background-position: center center;
+    background-size: auto 100%;
+}
+
+/* 第一层云（最快，最明显） */
+.clouds_one {
+    top: -5%;
+    background-image: url("../img/cloud1.png");
+    animation: cloud_move 120s linear infinite;
+    opacity: 0.8;
+    animation-delay: -45s;
+}
+
+/* 第二层云 */
+.clouds_two {
+    top: 0%;
+    background-image: url("../img/cloud2.png");
+    animation: cloud_move 150s linear infinite;
+    opacity: 0.65;
+    animation-delay: -65s;
+}
+
+/* 第三层云（最慢，最远） */
+.clouds_three {
+    top: 5%;
+    background-image: url("../img/cloud3.png");
+    animation: cloud_move 180s linear infinite;
+    opacity: 0.55;
+    animation-delay: -90s;
+}
+
+.clouds_clone {
+    left: 100%;
+}
+
+.hero-cloud .title {
+    color: #1f2d3d;
+}
+
+.hero-cloud::before,
+.hero-cloud::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 6rem;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.hero-cloud::before {
+    left: 0;
+    background: linear-gradient(to right, #9fd7f5 0%, transparent 100%);
+}
+
+.hero-cloud::after {
+    right: 0;
+    background: linear-gradient(to left, #9fd7f5 0%, transparent 100%);
+}
+
+/* 动画 */
+@keyframes cloud_move {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
