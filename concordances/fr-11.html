@@ -1,110 +1,181 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
 
-        <body>
-            <section class="hero is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">Tableau des concordances</h1>
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 11</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
                     </div>
                 </div>
-            </section>
 
-            <section class="section">
-                <div class="container">
-                    <table class="table is-striped is-fullwidth">
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
 
-                    <tr>
-                        <th>Fichier</th>
-                        <th>Contexte gauche</th>
-                        <th>Cible</th>
-                        <th>Contexte droit</th>
-                    </tr>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
     
-<tr><td>11</td><td>          [91]La tête dans les </td><td>nuages</td><td> [92]Enregistrez-vous pour poster</td></tr>
-<tr><td>11</td><td>   La tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>11</td><td>   La tête dans les </td><td>nuages</td><td>…</td></tr>
-<tr><td>11</td><td>   ma tête ces merveilleux </td><td>nuages</td><td> qui me permettent toujours de naviguer</td></tr>
-<tr><td>11</td><td>   La tête dans les </td><td>nuages</td><td>,</td></tr>
-<tr><td>11</td><td>   merveilleux </td><td>nuages</td><td>, puisqu’ils en sont, s’incarnent dans des îles</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> sont les cheveux du vent.</td></tr>
-<tr><td>11</td><td>   Imagine le ciel un immense océan avec tout autour et dedans, des </td><td>nuages</td><td></td></tr>
-<tr><td>11</td><td>   Ce sont les </td><td>nuages</td><td> qui font les plus longs et les plus beaux voyages.</td></tr>
-<tr><td>11</td><td>   Un jour, je me suis assis sur un </td><td>nuage</td><td> et, les pieds pendants dans</td></tr>
-<tr><td>11</td><td>   qui pousse les </td><td>nuages</td><td> à avancer, les voiliers à naviguer, le pollen des</td></tr>
-<tr><td>11</td><td>   Passent les </td><td>nuages</td><td> comme passent les minutes de ma vie.</td></tr>
-<tr><td>11</td><td>   impénétrable. Comme les </td><td>nuages</td><td>.</td></tr>
-<tr><td>11</td><td>   Il y a des </td><td>nuages</td><td> qui ont du panache, comme de fiers orignaux.</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> guident les marins, les pilotes d’avion. Les vents sont</td></tr>
-<tr><td>11</td><td>   </td><td>Nuages</td><td> : dentelures du ciel, nappes blanches posées sur l’immense autel</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> sont les bergers du ciel.</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> sont faits pour être dans le ciel, pas dans ta tête.</td></tr>
-<tr><td>11</td><td>   Les arbres sont tes amis. Il en est ainsi des </td><td>nuages</td><td>, dans le ciel, qui</td></tr>
-<tr><td>11</td><td>   Mon lit est la mer, les </td><td>nuages</td><td> sont mes oreillers.</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> : des îles blanches, aux formes ébouriffées, cotonneuses,</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> ne sont rien d’autres que les habits d’apparat de Dieu.</td></tr>
-<tr><td>11</td><td>   Des </td><td>nuages</td><td> échevelés s’avancent dans le ciel vers on se sait où.</td></tr>
-<tr><td>11</td><td>   Dieu est assurément un peintre. Vous avez vu ses </td><td>nuages</td><td>, ces énormes</td></tr>
-<tr><td>11</td><td>   De gros </td><td>nuages</td><td> noirs, par temps d’orage, mitraillent la terre de leurs</td></tr>
-<tr><td>11</td><td>   Lève la tête, les </td><td>nuages</td><td> te transporteront ailleurs.</td></tr>
-<tr><td>11</td><td>   Vive les </td><td>nuages</td><td> ! Mais, gare à ses colères !</td></tr>
-<tr><td>11</td><td>   Je ferais d’un amoncellement de </td><td>nuages</td><td> mon musée et mon royaume.</td></tr>
-<tr><td>11</td><td>   Traverser les </td><td>nuages</td><td>, à bord d’un avion, c’est comme franchir la</td></tr>
-<tr><td>11</td><td>   Un matelas de </td><td>nuages</td><td> sur le lit du ciel.</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> sont la demeure des anges.</td></tr>
-<tr><td>11</td><td>   L’eau que nous déverse les </td><td>nuages</td><td> est un cadeau bénit du ciel.</td></tr>
-<tr><td>11</td><td>   Le tonnerre grande, les </td><td>nuages</td><td> qui s’éclairent. Le ciel devient alors</td></tr>
-<tr><td>11</td><td>   Quand les </td><td>nuages</td><td> sont sombres, gris ou noirs, et que sévit un orage,</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td>, ces chiffrons d’azur.</td></tr>
-<tr><td>11</td><td>   Quel est le nom du peintre qui dessine au pastel les </td><td>nuages</td><td> sur la</td></tr>
-<tr><td>11</td><td>   </td><td>nuages</td><td> dans son eau immense.</td></tr>
-<tr><td>11</td><td>   Le vent qui transporte les </td><td>nuages</td><td>, en les faisant se mouvoir de son</td></tr>
-<tr><td>11</td><td>   simplement emprunté à un </td><td>nuage</td><td> pour mieux se faire voir.</td></tr>
-<tr><td>11</td><td>   Le ciel est complètement gris, sans </td><td>nuages</td><td>, comme s’il portait le deuil</td></tr>
-<tr><td>11</td><td>   Derrière un </td><td>nuage</td><td>, la crête ou la face à moitié cachée du soleil qui</td></tr>
-<tr><td>11</td><td>   semble jouer à cache-cache avec tous les autres </td><td>nuages</td><td>.</td></tr>
-<tr><td>11</td><td>   Un ciel sans </td><td>nuages</td><td> et sans soleil est comme une maison privée de</td></tr>
-<tr><td>11</td><td>   Entre deux </td><td>nuages</td><td> blancs, le ciel découpe la silhouette d’un ange bleu.</td></tr>
-<tr><td>11</td><td>   aurait-il pas autant derrière les </td><td>nuages</td><td> ?</td></tr>
-<tr><td>11</td><td>   Tant qu’il y aura des </td><td>nuages</td><td>, il y aura des espoirs de soleil ou de</td></tr>
-<tr><td>11</td><td>   </td><td>nuages</td><td> qui sont ses rides.</td></tr>
-<tr><td>11</td><td>   C’est la fin du jour dans une lumière grise. Des </td><td>nuages</td><td> pelucheux</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> de la vieillesse. La rosée de l’enfance.</td></tr>
-<tr><td>11</td><td>   Imagine le ciel un immense océan avec tout autour et dedans, des </td><td>nuages</td><td></td></tr>
-<tr><td>11</td><td>   Entre les </td><td>nuages</td><td>, comme des iles montagneuses endimanchées de</td></tr>
-<tr><td>11</td><td>   Ceux qui ont des </td><td>nuages</td><td> noirs dans la tête ont aussi des averses plein</td></tr>
-<tr><td>11</td><td>   Aux funérailles du soleil, les </td><td>nuages</td><td> font cortège. C’est la fin du</td></tr>
-<tr><td>11</td><td>   jour, dans une lumière grise. Des </td><td>nuages</td><td> pelucheux, portant chignon,</td></tr>
-<tr><td>11</td><td>   Un ciel dégarni de </td><td>nuages</td><td> est comme un lit sans draps ni couvertures,</td></tr>
-<tr><td>11</td><td>   Un ciel matelassé de </td><td>nuages</td><td>… Un ciel épinglé d’étoiles.</td></tr>
-<tr><td>11</td><td>   À chaque fois que je regarde un </td><td>nuage</td><td>, c’est un ange que je crois voir</td></tr>
-<tr><td>11</td><td>   L’œil de Dieu. Entre deux </td><td>nuages</td><td> blancs, un trou bleu.</td></tr>
-<tr><td>11</td><td>   Un gros </td><td>nuage</td><td> traîne loin derrière lui ses petits. On dirait une brebis</td></tr>
-<tr><td>11</td><td>   La procession des </td><td>nuages</td><td>… la pétarade des éclairs… Décidément, le ciel</td></tr>
-<tr><td>11</td><td>   Merveilleux </td><td>nuages</td><td> ! Cadeaux bénits du ciel.</td></tr>
-<tr><td>11</td><td>   Y a-t-il des oiseaux qui traversent les </td><td>nuages</td><td>. Oh, que si ! Seulement,</td></tr>
-<tr><td>11</td><td>   Les </td><td>nuages</td><td> n’embarrassent pas le ciel. Ils le meublent tout simplement</td></tr>
-<tr><td>11</td><td>   Un ciel tout en </td><td>nuages</td><td>, comme un bouquet de fleurs.</td></tr>
-<tr><td>11</td><td>   Des </td><td>nuages</td><td> en forme de coquilles, de chapeaux, de coussins, de robes en</td></tr>
-<tr><td>11</td><td>   </td><td>Nuages</td><td> à basse attitude : une brise légère sur le friselis des vagues…</td></tr>
-<tr><td>11</td><td>   la décoration. Les </td><td>nuages</td><td>, tout comme les étoiles, en sont les</td></tr>
-<tr><td>11</td><td>   Il est midi. Le soleil plombe. Dans un ciel matelassé de </td><td>nuages</td><td></td></tr>
-<tr><td>11</td><td>   Le tonnerre gronde, faisant rouler les </td><td>nuages</td><td> comme des pelotons de</td></tr>
-<tr><td>11</td><td>   vagues de la mer, décoiffe les arbres de leurs chapeaux. Les </td><td>nuages</td><td>,</td></tr>
-<tr><td>11</td><td>   Le rideau du ciel, avec ses draperies de </td><td>nuages</td><td>.</td></tr>
-<tr><td>11</td><td>   Le lit du ciel est fait de </td><td>nuages</td><td> et d’étoiles.</td></tr>
-<tr><td>11</td><td>   J’aurais aimé intitulé cette partie du livre Les merveilleux </td><td>nuages</td><td>.</td></tr>
-<tr><td>11</td><td>   Re: La tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>11</td><td>   " Mon lit est la mer, les </td><td>nuages</td><td> sont mes oreillers.... "</td></tr>
-<tr><td>11</td><td>   Merci de nous avoir offert ce beau voyage dans les </td><td>nuages</td><td>...</td></tr>
-<tr><td>11</td><td>   Re: La tête dans les </td><td>nuages</td><td></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">          [92]La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> [93]Enregistrez-vous pour poster</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">…</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   ma tête ces merveilleux </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> qui me permettent toujours de naviguer</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">,</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   merveilleux </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, puisqu’ils en sont, s’incarnent dans des îles</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sont les cheveux du vent.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Imagine le ciel un immense océan avec tout autour et dedans, des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Ce sont les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> qui font les plus longs et les plus beaux voyages.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Un jour, je me suis assis sur un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> et, les pieds pendants dans</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   qui pousse les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> à avancer, les voiliers à naviguer, le pollen des</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Passent les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> comme passent les minutes de ma vie.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   impénétrable. Comme les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Il y a des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> qui ont du panache, comme de fiers orignaux.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> guident les marins, les pilotes d’avion. Les vents sont</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">Nuages</span></td><td><span style="text-align:left;"> : dentelures du ciel, nappes blanches posées sur l’immense autel</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sont les bergers du ciel.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sont faits pour être dans le ciel, pas dans ta tête.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Levant la tête, je vois un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> dont les contours et les pourtours</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Dans le ciel étoilé ou </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">ux de ton sommeil, l’invisible vient te</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les arbres sont tes amis. Il en est ainsi des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, dans le ciel, qui</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Mon lit est la mer, les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sont mes oreillers.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> : des îles blanches, aux formes ébouriffées, cotonneuses,</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> ne sont rien d’autres que les habits d’apparat de Dieu.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> échevelés s’avancent dans le ciel vers on se sait où.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Dieu est assurément un peintre. Vous avez vu ses </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, ces énormes</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   De gros </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> noirs, par temps d’orage, mitraillent la terre de leurs</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Lève la tête, les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> te transporteront ailleurs.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Vive les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> ! Mais, gare à ses colères !</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Je ferais d’un amoncellement de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> mon musée et mon royaume.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Traverser les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, à bord d’un avion, c’est comme franchir la</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Un matelas de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sur le lit du ciel.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sont la demeure des anges.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   L’eau que nous déverse les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> est un cadeau bénit du ciel.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Le tonnerre grande, les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> qui s’éclairent. Le ciel devient alors</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Quand les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sont sombres, gris ou noirs, et que sévit un orage,</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, ces chiffrons d’azur.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Quel est le nom du peintre qui dessine au pastel les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sur la</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> dans son eau immense.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Le vent qui transporte les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, en les faisant se mouvoir de son</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   simplement emprunté à un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> pour mieux se faire voir.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Le ciel est complètement gris, sans </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, comme s’il portait le deuil</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Derrière un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, la crête ou la face à moitié cachée du soleil qui</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   semble jouer à cache-cache avec tous les autres </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Un ciel sans </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> et sans soleil est comme une maison privée de</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Entre deux </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> blancs, le ciel découpe la silhouette d’un ange bleu.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   aurait-il pas autant derrière les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> ?</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Tant qu’il y aura des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, il y aura des espoirs de soleil ou de</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> qui sont ses rides.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   C’est la fin du jour dans une lumière grise. Des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> pelucheux</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de la vieillesse. La rosée de l’enfance.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Imagine le ciel un immense océan avec tout autour et dedans, des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Entre les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, comme des iles montagneuses endimanchées de</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Ceux qui ont des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> noirs dans la tête ont aussi des averses plein</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Aux funérailles du soleil, les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> font cortège. C’est la fin du</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   jour, dans une lumière grise. Des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> pelucheux, portant chignon,</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Un ciel dégarni de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> est comme un lit sans draps ni couvertures,</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Un ciel matelassé de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">… Un ciel épinglé d’étoiles.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   À chaque fois que je regarde un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, c’est un ange que je crois voir</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   L’œil de Dieu. Entre deux </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> blancs, un trou bleu.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Un gros </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> traîne loin derrière lui ses petits. On dirait une brebis</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   La procession des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">… la pétarade des éclairs… Décidément, le ciel</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Merveilleux </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> ! Cadeaux bénits du ciel.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Je vois parfois, quand je regarde le ciel, un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> prendre le visage</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Y a-t-il des oiseaux qui traversent les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">. Oh, que si ! Seulement,</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> n’embarrassent pas le ciel. Ils le meublent tout simplement</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Un ciel tout en </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, comme un bouquet de fleurs.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> en forme de coquilles, de chapeaux, de coussins, de robes en</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">Nuages</span></td><td><span style="text-align:left;"> à basse attitude : une brise légère sur le friselis des vagues…</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   la décoration. Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, tout comme les étoiles, en sont les</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Il est midi. Le soleil plombe. Dans un ciel matelassé de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Le tonnerre gronde, faisant rouler les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> comme des pelotons de</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   vagues de la mer, décoiffe les arbres de leurs chapeaux. Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">,</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Le rideau du ciel, avec ses draperies de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Le lit du ciel est fait de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> et d’étoiles.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   J’aurais aimé intitulé cette partie du livre Les merveilleux </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">.</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Re: La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   " Mon lit est la mer, les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> sont mes oreillers.... "</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Merci de nous avoir offert ce beau voyage dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">...</span></td></tr>
+					<tr><td>11</td><td><span style="text-align:right;">   Re: La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
                </table>
             </div>
         </section>

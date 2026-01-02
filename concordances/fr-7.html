@@ -1,30 +1,128 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
 
-        <body>
-            <section class="hero is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">Tableau des concordances</h1>
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 7</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
                     </div>
                 </div>
-            </section>
 
-            <section class="section">
-                <div class="container">
-                    <table class="table is-striped is-fullwidth">
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
 
-                    <tr>
-                        <th>Fichier</th>
-                        <th>Contexte gauche</th>
-                        <th>Cible</th>
-                        <th>Contexte droit</th>
-                    </tr>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
     
+					<tr><td>7</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;"></span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">Créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots interactif dans Wooclap pour des présentations</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   Le [13]</span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mot est une fonctionnalité dynamique qui permet</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   Attention : Le </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots est affiché uniquement sur l’écran de</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   afin qu’ils puissent également voir le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots se construire au</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">Créer un </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   Commencez par ouvrir l'événement auquel vous souhaitez ajouter un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   sélectionnez </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots sous Recueillir des feedbacks.</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   question </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots !</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">Personnalisez le </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   Une fois que vous avez ouvert votre </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots, vous pouvez le</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   au </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots (2). Si tel est le cas, les participants seront notés</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">       </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, comme c'est le cas pour les mots. Vous devrez afficher les</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">Afficher le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   Par défaut, les résultats s'affichent sous forme de </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots (1).</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   Pour que le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots reste propre et bien structuré, nous</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   La version la plus courante d'un mot sera affichée dans le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   deux mots différents et apparaîtront comme tels dans le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">       affichés individuellement dans le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots. Ainsi, des mots</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">       sous forme de </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">    2. Activez l'affichage "</span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots" : dans ce cas, les réponses</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">       seront immédiatement affichées sous forme de </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>7</td><td><span style="text-align:right;">   Les options "Réponses multiples" et "Afficher le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots" sont</span></td></tr>
+               </table>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,32 +1,131 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
 
-        <body>
-            <section class="hero is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">Tableau des concordances</h1>
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 6</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
                     </div>
                 </div>
-            </section>
 
-            <section class="section">
-                <div class="container">
-                    <table class="table is-striped is-fullwidth">
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
 
-                    <tr>
-                        <th>Fichier</th>
-                        <th>Contexte gauche</th>
-                        <th>Cible</th>
-                        <th>Contexte droit</th>
-                    </tr>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
     
-<tr><td>6</td><td>   de </td><td>nuages</td><td> de mots</td></tr>
-<tr><td>6</td><td>Visualisation des résultats de l'analyse de texte à l'aide de </td><td>nuages</td><td> de mots</td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">Visualisation des résultats de l'analyse de texte à l'aide de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">Utilisation du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots pour l'analyse de la fréquence des mots</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Un nuage de mots ou </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de tags est une représentation visuelle de</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots est une excellente option pour aider à interpréter</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Ce blog démontrera comment créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots dans Dundas BI en</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   la visualisation native du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots est utilisée à partir de la</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   La première étape de la visualisation des données sous forme de </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">Création du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   dans le script du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots dans la section suivante. Renommez ce</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Créer le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Pour créer le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots, nous utiliserons la bibliothèque D3.js et</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   créer le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Figure 10 : Script de création du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Afficher les données dans le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Pour afficher les données sur le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots, nous utiliserons un</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   composant d'étiquette HTML qui servira de conteneur pour le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> et</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   nous permettra de positionner et de redimensionner le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> en fonction</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   bord qui lit les données du tableau créé précédemment, les lie au </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   s'assurer que le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots change lorsque les données sont</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Comme vous pouvez le constater, un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots permet d'analyser</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots rudimentaire dans Dundas BI. Vous pouvez modifier et</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   renforcer l'apparence du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots en ajustant son script, et en</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots est une excellente visualisation qui permet de mettre</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   obtenu en jetant un coup d'œil au </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots et la vue précise</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots à un diagramme à barres montrant le même résultat. Voici</span></td></tr>
+					<tr><td>6</td><td><span style="text-align:right;">   Figure 14 : </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots superposé à un diagramme à barres</span></td></tr>
+               </table>
+            </div>
+        </section>
+    </body>
+</html>

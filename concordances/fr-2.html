@@ -1,48 +1,112 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
 
-        <body>
-            <section class="hero is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">Tableau des concordances</h1>
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 2</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
                     </div>
                 </div>
-            </section>
 
-            <section class="section">
-                <div class="container">
-                    <table class="table is-striped is-fullwidth">
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
 
-                    <tr>
-                        <th>Fichier</th>
-                        <th>Contexte gauche</th>
-                        <th>Cible</th>
-                        <th>Contexte droit</th>
-                    </tr>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
     
-<tr><td>2</td><td>   tete dans les nuages comptine tete dans les </td><td>nuages</td><td> comptine</td></tr>
-<tr><td>2</td><td>Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   Tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>2</td><td>   2. https://lepopeeludique.fr/wp-json/oembed/1.0/embed?url=https://lepopeeludique.fr/comptine-tete-dans-les-</td><td>nuages</td><td>/</td></tr>
-<tr><td>2</td><td>   3. https://lepopeeludique.fr/wp-json/oembed/1.0/embed?url=https://lepopeeludique.fr/comptine-tete-dans-les-</td><td>nuages</td><td>/&format=xml</td></tr>
-<tr><td>2</td><td>  42. file:///comptine-tete-dans-les-</td><td>nuages</td><td>/#respond</td></tr>
-<tr><td>2</td><td>  63. https://lepopeeludique.fr/comptine-tete-dans-les-</td><td>nuages</td><td>/</td></tr>
-<tr><td>2</td><td>  64. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flepopeeludique.fr%2Fcomptine-tete-dans-les-</td><td>nuages</td><td>%2F</td></tr>
-<tr><td>2</td><td>  65. https://api.whatsapp.com/send?text=T%C3%AAte%20dans%20les%20nuages%20https%3A%2F%2Flepopeeludique.fr%2Fcomptine-tete-dans-les-</td><td>nuages</td><td>%2F</td></tr>
-<tr><td>2</td><td>  66. https://www.facebook.com/dialog/send?app_id=1904103319867886&display=popup&link=https%3A%2F%2Flepopeeludique.fr%2Fcomptine-tete-dans-les-nuages%2F&redirect_uri=https%3A%2F%2Flepopeeludique.fr%2Fcomptine-tete-dans-les-</td><td>nuages</td><td>%2F</td></tr>
-<tr><td>2</td><td>  67. https://mail.google.com/mail/?ui=2&view=cm&fs=1&tf=1&su=T%C3%AAte%20dans%20les%20nuages&body=Link:https%3A%2F%2Flepopeeludique.fr%2Fcomptine-tete-dans-les-</td><td>nuages</td><td>%2F</td></tr>
-<tr><td>2</td><td>  68. https://lepopeeludique.fr/comptine-tete-dans-les-</td><td>nuages</td><td>/</td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   tete dans les nuages comptine tete dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> comptine</span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>2</td><td><span style="text-align:right;">   Tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+               </table>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,46 +1,114 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
 
-        <body>
-            <section class="hero is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">Tableau des concordances</h1>
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 3</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
                     </div>
                 </div>
-            </section>
 
-            <section class="section">
-                <div class="container">
-                    <table class="table is-striped is-fullwidth">
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
 
-                    <tr>
-                        <th>Fichier</th>
-                        <th>Contexte gauche</th>
-                        <th>Cible</th>
-                        <th>Contexte droit</th>
-                    </tr>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
     
-<tr><td>3</td><td>     [59]La tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>3</td><td>La tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>3</td><td>   </td><td>nuages</td><td>. Saviez-vous que cette forme de contemplation s'appelle</td></tr>
-<tr><td>3</td><td>   paréidolie ? Ou qu'un cirrus, </td><td>nuage</td><td> fin et étiré, parfois enroulé sur</td></tr>
-<tr><td>3</td><td>   L'animation [60]"La tête dans les </td><td>nuages</td><td>"﻿, conçue par l'Écolothèque et</td></tr>
-<tr><td>3</td><td>   scientifiques et artistes devraient tous avoir la tête dans les </td><td>nuages</td><td>…</td></tr>
-<tr><td>3</td><td>     * Savoir comment se forme un </td><td>nuage</td><td></td></tr>
-<tr><td>3</td><td>     * Comprendre qu’il y a plusieurs types de </td><td>nuages</td><td> avec leurs</td></tr>
-<tr><td>3</td><td>     * Pouvoir citer quelques noms de </td><td>nuages</td><td> et les reconnaître</td></tr>
-<tr><td>3</td><td>  59. file:///ressources/la-tete-dans-les-</td><td>nuages</td><td></td></tr>
-<tr><td>3</td><td>  60. https://ecolotheque.montpellier3m.fr/pedagotheque/tete-dans-les-</td><td>nuages</td><td></td></tr>
-<tr><td>3</td><td>  62. https://ecolotheque.montpellier3m.fr/pedagotheque/tete-dans-les-</td><td>nuages</td><td></td></tr>
-<tr><td>3</td><td>  69. https://twitter.com/intent/tweet?url=https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages&text=La tête dans les </td><td>nuages</td><td></td></tr>
-<tr><td>3</td><td>  70. https://www.facebook.com/share.php?u=https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-</td><td>nuages</td><td></td></tr>
-<tr><td>3</td><td>  71. file:///ressources/la-tete-dans-les-</td><td>nuages</td><td>/edition</td></tr>
-<tr><td>3</td><td>  72. file:///ressources/la-tete-dans-les-</td><td>nuages</td><td>?redirect_to=/</td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">     [59]La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">. Saviez-vous que cette forme de contemplation s'appelle</span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">   paréidolie ? Ou qu'un cirrus, </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> fin et étiré, parfois enroulé sur</span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">   L'animation [60]"La tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">"﻿, conçue par l'Écolothèque et</span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">   scientifiques et artistes devraient tous avoir la tête dans les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">…</span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">     * Savoir comment se forme un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">     * Comprendre qu’il y a plusieurs types de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> avec leurs</span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">     * Pouvoir citer quelques noms de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> et les reconnaître</span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">   [xl_fille_rousse_avec_</span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">_1311659867.png]</span></td></tr>
+					<tr><td>3</td><td><span style="text-align:right;">     * [65]</span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+               </table>
+            </div>
+        </section>
+    </body>
+</html>

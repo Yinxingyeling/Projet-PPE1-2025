@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html  lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+<script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.cnil.fr/" : "http://piwik.cnil.fr/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["setDoNotTrack", 1]);if (!window.matomo_search_results_active) {_paq.push(["trackPageView"]);}_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"matomo.js";s.parentNode.insertBefore(g,s);})();</script>
+<meta name="description" content="La sécurité des données, une obligation également en cas de recours au cloud La sécurité est indispensable pour apporter la confiance dans la gestion des données personnelles de l’entreprise. Il s’agit également d’une obligation légale en matière de protection des données personnelles : en 2022, près d’un tiers des sanctions prononcées par la CNIL visaient des manquements à cette obligation." />
+<link rel="canonical" href="https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-deux-fiches-pratiques-sur-le-chiffrement-et-la-securite" />
+<meta property="og:title" content="Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le chiffrement et la sécurité des données" />
+<meta property="og:description" content="La sécurité des données, une obligation également en cas de recours au cloud La sécurité est indispensable pour apporter la confiance dans la gestion des données personnelles de l’entreprise. Il s’agit également d’une obligation légale en matière de protection des données personnelles : en 2022, près d’un tiers des sanctions prononcées par la CNIL visaient des manquements à cette obligation." />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/bootstrap_cnil/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="fr" href="https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-deux-fiches-pratiques-sur-le-chiffrement-et-la-securite" />
+
+    <title>Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le chiffrement et la sécurité des données | CNIL</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/modules/commons/cnil_libraries/css/typography.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/css/tarteaucitron.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/modules/webform_bootstrap/css/webform_bootstrap.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/overrides.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/search.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/navigation.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/webform.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/page_liste.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/views.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/timeline.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/auteur.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_base/css/node_only_body.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_cnil/css/base/content.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_cnil/css/jquery.mCustomScrollbar.min.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_cnil/css/style.css?t2d4ai" />
+<link rel="stylesheet" media="all" href="/themes/custom/bootstrap_cnil/css/mode-view-grid.css?t2d4ai" />
+<link rel="stylesheet" media="print" href="/themes/custom/bootstrap_base/css/print.css?t2d4ai" />
+<link rel="stylesheet" media="print" href="/themes/custom/bootstrap_cnil/css/print.css?t2d4ai" />
+
+    
+</head>
+<body data-page-type="Pro" class="path-node page-node-type-contenu-generique has-glyphicons">
+<a href="#main-content" class="visually-hidden focusable skip-link">
+  Aller au contenu principal
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="page--header notsticky">
+  
+  
+  <div class="mobile-navbar">
+    <button type="button" class="navbar-toggle js-navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="https://www.cnil.fr/fr">
+      <picture>
+        <source srcset="/themes/custom/bootstrap_cnil/logo.png" media="(min-width: 601px)" />
+        <source srcset="/themes/custom/bootstrap_cnil/logo-cnil-mini.png" media="(max-width: 600px)" />
+        <img src="/themes/custom/bootstrap_cnil/logo.png">
+      </picture>
+    </a>
+    <div class="search">
+      <button class="search-btn js-search-btn"></button>
+    </div>
+  </div>
+  <div class="custom-collapse navbar-collapse js-navbar-collapse">
+    <div class="region region-header">
+      <div class="inner">
+        <div class="sticky-large-screen-only">
+            <div class="user-space-switcher"><a href="/fr/particulier" class="particulier" data-value="Part">Particuliers</a><a href="/fr/professionnel" class="professionnel active" data-value="Pro">Professionnels</a><a href="/fr/espace-presse" class="presse" data-value="presse">Presse</a></div>
+
+
+            <div class="nav--top-nav"><a href="/fr" class="fr is-active" hreflang="fr">Fr</a><a href="/en" class="en" hreflang="en">En</a><a href="/fr/gestion-des-cookies" class="cookies">Gestionnaire de cookies</a></div>
+
+
+        </div>
+                  
+      <div class="site-logo">
+      <a href="/fr" rel="home">
+        <img src="/themes/custom/bootstrap_cnil/logo.png" alt="Accueil" />
+      </a>
+    </div>
+    
+          <div class="user-space-switcher"><a href="/fr/particulier" class="particulier" data-value="Part">Particuliers</a><a href="/fr/professionnel" class="professionnel active" data-value="Pro">Professionnels</a><a href="/fr/espace-presse" class="presse" data-value="presse">Presse</a></div>
+
+
+        
+        
+        
+        
+  
+
+      <ul data-region="header" block="header_menu_pro_fr" class="js-dropdown-wrapper nav menu--menu-menu-header">
+                        <li class="menu-item menu-item-0">
+                          <button type="button" id="menu-toggler-1780742481" rel="1780742481" aria-expanded="false"
+                  aria-controls="menu-level-1780742481"
+                  class="menu-link menu-link-0 js-dropdown-toggle">Ma conformité au RGPD</button>
+                                  <ul class="menu-level-1">
+                          <li class="menu-item menu-item-1">
+                                    <a href="/fr/comprendre-le-rgpd" class="menu-link menu-link-1" data-drupal-link-system-path="node/163964">Comprendre le RGPD</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/rgpd-de-quoi-parle-t-on" class="menu-link menu-link-2" data-drupal-link-system-path="node/1183">Qu&#039;est-ce que le RGPD ?</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/comprendre-le-rgpd/les-six-grands-principes-du-rgpd" class="menu-link menu-link-2" data-drupal-link-system-path="node/902">Les six grands principes du RGPD</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/qualification-juridique-des-acteurs" class="menu-link menu-link-2" data-drupal-link-system-path="node/167205">Rôles et responsabilités des acteurs</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/comprendre-le-rgpd/le-mooc-de-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/9187">MOOC - L&#039;atelier RGPD</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/passer-laction/la-cnil-publie-sa-charte-daccompagnement-des-professionnels" class="menu-link menu-link-2" data-drupal-link-system-path="node/412">L&#039;accompagnement de la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="https://www.cnil.fr/fr/journees-rgpd" class="menu-link menu-link-2">Les journées RGPD</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-webinaires-de-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/165294">Les webinaires de la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/comprendre-le-rgpd/le-controle-de-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/1100">Le contrôle de la CNIL</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/ma-conformite-au-rgpd/me-mettre-en-conformite" class="menu-link menu-link-1" data-drupal-link-system-path="node/163970">Me mettre en conformité</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/me-mettre-en-conformite/rgpd-par-ou-commencer" class="menu-link menu-link-2" data-drupal-link-system-path="node/163967">Par où commencer ?</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/RGPD-le-registre-des-activites-de-traitement" class="menu-link menu-link-2" data-drupal-link-system-path="node/498">Créer un registre des traitements</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-bases-legales" class="menu-link menu-link-2" data-drupal-link-system-path="node/1075">Choisir une base légale</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/passer-laction/les-durees-de-conservation-des-donnees" class="menu-link menu-link-2" data-drupal-link-system-path="node/525">Choisir une durée de conservation</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/passer-laction/le-delegue-la-protection-des-donnees-dpo" class="menu-link menu-link-2" data-drupal-link-system-path="node/524">Mettre en place un délégué (DPO)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/sous-traitant" class="menu-link menu-link-2" data-drupal-link-system-path="node/1054">Travailler avec un sous-traitant</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/technologies/lanonymisation-de-donnees-personnelles" class="menu-link menu-link-2" data-drupal-link-system-path="node/704">Anonymiser les données</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/cybersecurite/securite-des-donnees" class="menu-link menu-link-2" data-drupal-link-system-path="node/1107">Sécuriser les données</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-outils-de-la-conformite/transferer-des-donnees-hors-de-lue" class="menu-link menu-link-2" data-drupal-link-system-path="node/526">Transférer des données hors UE</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/tiers-autorises-la-cnil-publie-un-guide-pratique-et-un-recueil-de-procedures" class="menu-link menu-link-2" data-drupal-link-system-path="node/646">La transmission de données aux tiers autorisés</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/respecter-les-droits-des-personnes" class="menu-link menu-link-1" data-drupal-link-system-path="node/163976">Respecter les droits des personnes</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/respecter-les-droits-des-personnes" class="menu-link menu-link-2" data-drupal-link-system-path="node/163976">Quelles sont les règles ?</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/passer-laction/les-droits-des-personnes-sur-leurs-donnees" class="menu-link menu-link-2" data-drupal-link-system-path="node/512">Les droits des personnes sur leurs données</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/conformite-rgpd-information-des-personnes-et-transparence" class="menu-link menu-link-2" data-drupal-link-system-path="node/489">Informer les personnes</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/passer-laction/rgpd-exemples-de-mentions-dinformation" class="menu-link menu-link-2" data-drupal-link-system-path="node/490">Exemples de mentions d&#039;information</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/respecter-les-droits-des-personnes/repondre-aux-demandes-dexercice-des-droits" class="menu-link menu-link-2" data-drupal-link-system-path="node/163973">Répondre aux demandes d&#039;exercice des droits</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/outils" class="menu-link menu-link-1" data-drupal-link-system-path="node/163979">Outils spécifiques</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/RGPD-analyse-impact-protection-des-donnees-aipd" class="menu-link menu-link-2" data-drupal-link-system-path="node/507">L&#039;analyse d&#039;impact (AIPD)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-cadres-de-reference" class="menu-link menu-link-2">Les cadres de référence</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-outils-de-la-conformite/les-regles-dentreprise-contraignantes-bcr" class="menu-link menu-link-2" data-drupal-link-system-path="node/1069">Les règles d&#039;entreprise contraignantes (BCR)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-outils-de-la-conformite/le-code-de-conduite" class="menu-link menu-link-2" data-drupal-link-system-path="node/1071">Le code de conduite</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/la-certification" class="menu-link menu-link-2" data-drupal-link-system-path="node/402">La certification</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/ma-conformite-au-rgpd/services-en-ligne" class="menu-link menu-link-1" data-drupal-link-system-path="node/1179">Services en ligne</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/saisir-la-cnil/nous-contacter" class="menu-link menu-link-2" data-drupal-link-system-path="node/745">Poser une question à la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/designation-dpo" class="menu-link menu-link-2" data-drupal-link-system-path="node/472">Désigner un délégué (DPO)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/services-en-ligne/notifier-une-violation-de-donnees-personnelles" class="menu-link menu-link-2" data-drupal-link-system-path="node/969">Notifier une violation de données</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/services-en-ligne/declarer-un-fichier" class="menu-link menu-link-2" data-drupal-link-system-path="node/1116">Déclarer un fichier</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/services-en-ligne/soumettre-une-analyse-dimpact-relative-la-protection-des-donnees-aipd-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/1178">Soumettre une analyse d&#039;impact (AIPD)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/services-en-ligne/quand-et-comment-soumettre-son-projet-de-bcr-aux-autorites-de-protection-des-donnees" class="menu-link menu-link-2" data-drupal-link-system-path="node/774">Soumettre un projet de BCR</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/services-en-ligne/soumettre-un-code-de-conduite-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/630">Soumettre un code de conduite</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/services-en-ligne/soumettre-une-demande-dagrement-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/629">Soumettre une demande d&#039;agrément</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="https://www.cnil.fr/fr/services-en-ligne/comment-faire-approuver-un-mecanisme-de-certification" class="menu-link menu-link-2">Soumettre un mécanisme de certification</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="https://www.cnil.fr/fr/cnil-direct?visiteur=pro" class="menu-link menu-link-1">Questions-réponses</a>
+                      </li>
+              <li class="action">
+        <button type="button" class="js-dropdown-close dropdown-close">Fermer</button>
+      </li>
+          </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-0">
+                          <button type="button" id="menu-toggler-438820969" rel="438820969" aria-expanded="false"
+                  aria-controls="menu-level-438820969"
+                  class="menu-link menu-link-0 js-dropdown-toggle">Ressources</button>
+                                  <ul class="menu-level-1">
+                          <li class="menu-item menu-item-1">
+                                    <a href="/fr/ressources/acteurs-et-secteurs" class="menu-link menu-link-1" data-drupal-link-system-path="node/163985">Acteurs et secteurs</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/acteurs-et-secteurs/affaires-publiques" class="menu-link menu-link-2" data-drupal-link-system-path="node/165113">Affaires publiques</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/mon-quotidien/associations" class="menu-link menu-link-2" data-drupal-link-system-path="node/164606">Associations</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/assurance" class="menu-link menu-link-2" data-drupal-link-system-path="node/903">Assurances</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/acteurs-et-secteurs/banque-moyens-de-paiement" class="menu-link menu-link-2" data-drupal-link-system-path="node/164168">Banque</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques/collectivites-territoriales" class="menu-link menu-link-2" data-drupal-link-system-path="node/1082">Collectivités locales</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/education-pro" class="menu-link menu-link-2" data-drupal-link-system-path="node/864">Éducation</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/logement" class="menu-link menu-link-2" data-drupal-link-system-path="node/1048">Logement</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques/partis-politiques-et-candidats" class="menu-link menu-link-2" data-drupal-link-system-path="node/1141">Partis politiques</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques/recherche-scientifique-hors-sante" class="menu-link menu-link-2" data-drupal-link-system-path="node/899">Recherche scientifique</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques/sante" class="menu-link menu-link-2" data-drupal-link-system-path="node/1121">Santé</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematique/services-publics" class="menu-link menu-link-2" data-drupal-link-system-path="taxonomy/term/257">Services publics</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/acteurs-et-secteurs/laccompagnement-social-et-medico-social" class="menu-link menu-link-2" data-drupal-link-system-path="node/1060">Social</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/acteurs-et-secteurs/sport-amateur-professionnel-et-de-haut-niveau" class="menu-link menu-link-2" data-drupal-link-system-path="node/164534">Sport amateur et professionnel</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/startup-comment-faire-de-votre-conformite-rgpd-un-avantage-concurrentiel" class="menu-link menu-link-2" data-drupal-link-system-path="node/1040">Startup</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques/tpe-pme" class="menu-link menu-link-2" data-drupal-link-system-path="node/1014">TPE et PME</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/transports-et-mobilite" class="menu-link menu-link-2">Transports et mobilité</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/ressources/thematiques" class="menu-link menu-link-1" data-drupal-link-system-path="node/163988">Thématiques communes</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques-communes/travail" class="menu-link menu-link-2" data-drupal-link-system-path="node/164045">Travail</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques-communes/economie-de-la-donnee" class="menu-link menu-link-2" data-drupal-link-system-path="node/164990">Économie de la donnée</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematiques/commerce-et-publicite" class="menu-link menu-link-2" data-drupal-link-system-path="node/890">Commerce et publicité</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/cookies-et-autres-traceurs" class="menu-link menu-link-2" data-drupal-link-system-path="node/1072">Cookies et autres traceurs</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/developpement-informatique" class="menu-link menu-link-2" data-drupal-link-system-path="node/165291">Développement informatique</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/ouverture-reutilisation-donnees" class="menu-link menu-link-2" data-drupal-link-system-path="node/1078">Ouverture et réutilisation de données</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/smartphones-et-applications-professionnels" class="menu-link menu-link-2" data-drupal-link-system-path="node/860">Smartphones et applications</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/technologies/videosurveillance-videoprotection" class="menu-link menu-link-2" data-drupal-link-system-path="node/1114">Vidéosurveillance - Vidéoprotection</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/ressources/les-grands-enjeux-numeriques" class="menu-link menu-link-1" data-drupal-link-system-path="node/163991">Enjeux numériques</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/biometrie" class="menu-link menu-link-2" data-drupal-link-system-path="node/1113">Biométrie</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/enjeux-numeriques/les-droits-numeriques-des-mineurs" class="menu-link menu-link-2" data-drupal-link-system-path="node/911">Droits des mineurs</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/technologies/intelligence-artificielle-ia" class="menu-link menu-link-2" data-drupal-link-system-path="node/879">Intelligence artificielle (IA)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/technologies/blockchain-et-rgpd-quelles-solutions-pour-un-usage-responsable-en-presence-de-donnees-personnelles" class="menu-link menu-link-2" data-drupal-link-system-path="node/1301">Chaîne de blocs</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/technologies/objets-connectes" class="menu-link menu-link-2" data-drupal-link-system-path="node/1128">Objets connectés</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/technologies/civic-tech" class="menu-link menu-link-2" data-drupal-link-system-path="node/1052">Civic tech</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/technologies/cybersecurite" class="menu-link menu-link-1" data-drupal-link-system-path="node/616">Cybersécurité</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/cybersecurite/informatique-en-nuage-cloud" class="menu-link menu-link-2" data-drupal-link-system-path="node/164837">Informatique en nuage - Cloud</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/cybersecurite/securite-des-donnees" class="menu-link menu-link-2" data-drupal-link-system-path="node/1107">Sécurité des données</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/mots-de-passe" class="menu-link menu-link-2" data-drupal-link-system-path="node/163994">Mots de passe</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/cybersecurite/comprendre-les-grands-principes-de-la-cryptologie-et-du-chiffrement" class="menu-link menu-link-2" data-drupal-link-system-path="node/618">Cryptologie et chiffrement</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/cybersecurite/multiplication-des-attaques-par-rancongiciel-comment-limiter-les-risques" class="menu-link menu-link-2" data-drupal-link-system-path="node/361">Rançongiciels</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/cybersecurite/les-violations-de-donnees-personnelles" class="menu-link menu-link-2" data-drupal-link-system-path="node/164780">Violations de données</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="https://www.cnil.fr/fr/tag/consultation" class="menu-link menu-link-1">Consultations</a>
+                      </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="https://www.cnil.fr/fr/mediatheque" class="menu-link menu-link-1">Médiathèque</a>
+                      </li>
+              <li class="action">
+        <button type="button" class="js-dropdown-close dropdown-close">Fermer</button>
+      </li>
+          </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-0">
+                          <button type="button" id="menu-toggler-1622234600" rel="1622234600" aria-expanded="false"
+                  aria-controls="menu-level-1622234600"
+                  class="menu-link menu-link-0 js-dropdown-toggle">Textes officiels</button>
+                                  <ul class="menu-level-1">
+                          <li class="menu-item menu-item-1">
+                                    <a href="/fr/cadre-europeen" class="menu-link menu-link-1" data-drupal-link-system-path="node/1097">Cadre européen</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/reglement-europeen-protection-donnees" class="menu-link menu-link-2" data-drupal-link-system-path="node/1095">Le règlement général sur la protection des données (RGPD)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016L0680&amp;from=FR" class="menu-link menu-link-2">La directive Police-Justice</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32002L0058" class="menu-link menu-link-2">La directive ePrivacy</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="https://edpb.europa.eu/our-work-tools/our-documents/publication-type/guidelines_fr" class="menu-link menu-link-2">Les lignes directrices du CEPD</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/cadre-national" class="menu-link menu-link-1" data-drupal-link-system-path="node/1094">Cadre national</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/le-cadre-national/la-loi-informatique-et-libertes" class="menu-link menu-link-2" data-drupal-link-system-path="node/1091">La loi Informatique et Libertés</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="https://www.legifrance.gouv.fr/eli/decret/2019/5/29/JUSC1911425D/jo/texte" class="menu-link menu-link-2">Le décret d&#039;application de la loi</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-sanctions-penales" class="menu-link menu-link-2" data-drupal-link-system-path="node/1093">Les sanctions pénales</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/le-cadre-national/reglement-interieur-de-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/1092">Le règlement intérieur de la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/delegations-signature" class="menu-link menu-link-2" data-drupal-link-system-path="delegations-signature">Les délégations de signature</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/charte-de-deontologie" class="menu-link menu-link-2" data-drupal-link-system-path="node/251">La charte de déontologie</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/les-decisions-de-la-cnil" class="menu-link menu-link-1" data-drupal-link-system-path="node/900">Décisions de la CNIL</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/deliberations" class="menu-link menu-link-2" data-drupal-link-system-path="deliberations">Toutes les délibérations de la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/tables-informatique-et-libertes-cahiers-decisions-2024" class="menu-link menu-link-2" data-drupal-link-system-path="node/166764">Les Tables Informatique et Libertés</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/decisions/lignes-directrices-recommandations-CNIL" class="menu-link menu-link-2" data-drupal-link-system-path="decisions/lignes-directrices-recommandations-CNIL">Les lignes directrices et recommandations de la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/thematique/cnil/sanctions" class="menu-link menu-link-2" data-drupal-link-system-path="taxonomy/term/106">Les sanctions</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/les-decisions-de-la-cnil/les-cadres-de-reference" class="menu-link menu-link-2" data-drupal-link-system-path="node/1087">Les cadres de référence</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                      
+            <div class="field-menu-push-visuel"><div>
+  
+  
+            <div class="field-media-image">  
+<img loading="lazy" src="/sites/default/files/styles/menu_header_thumbnail/public/2023-02/legifrance-cnil.jpg?itok=X_yplOLA" width="200" height="130" alt="" typeof="foaf:Image" class="img-responsive" />
+
+
+</div>
+      
+</div>
+</div>
+      
+                    <a href="https://www.legifrance.gouv.fr/search/cnil?tab_selection=cnil&amp;searchField=ALL&amp;query=&amp;page=1&amp;init=true&amp;timeInterval=" class="menu-link menu-link-1">Les décisions de la CNIL sur Légifrance</a>
+                      </li>
+              <li class="action">
+        <button type="button" class="js-dropdown-close dropdown-close">Fermer</button>
+      </li>
+          </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-0">
+                          <button type="button" id="menu-toggler-2037569093" rel="2037569093" aria-expanded="false"
+                  aria-controls="menu-level-2037569093"
+                  class="menu-link menu-link-0 js-dropdown-toggle">La CNIL</button>
+                                  <ul class="menu-level-1">
+                          <li class="menu-item menu-item-1">
+                                    <a href="/fr/la-cnil/les-missions-de-la-cnil" class="menu-link menu-link-1" data-drupal-link-system-path="node/1190">Missions</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/missions/mission-1-informer-proteger-les-droits" class="menu-link menu-link-2" data-drupal-link-system-path="node/1186">Informer et protéger</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/missions/mission-2-accompagner-la-conformite-conseiller" class="menu-link menu-link-2" data-drupal-link-system-path="node/1187">Accompagner la conformité et conseiller</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/mission-de-la-CNIL-anticiper-innovation" class="menu-link menu-link-2" data-drupal-link-system-path="node/1188">Anticiper et innover</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/missions/mission-4-controler-et-sanctionner" class="menu-link menu-link-2" data-drupal-link-system-path="node/1189">Contrôler et sanctionner</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/missions/air-avenirs-innovations-revolutions-la-mission-ethique-de-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/1053">La mission éthique de la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/evenements" class="menu-link menu-link-2" data-drupal-link-system-path="evenements">Les évènements</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/la-cnil/fonctionnement-de-la-cnil" class="menu-link menu-link-1" data-drupal-link-system-path="node/1101">Fonctionnement</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/tag/ODJ" class="menu-link menu-link-2" data-drupal-link-system-path="taxonomy/term/76">Ordres du jour des séances</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/fonctionnement/statut-et-organisation-de-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/589">Statut et organisation</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/actualites/agenda" class="menu-link menu-link-2" data-drupal-link-system-path="actualites/agenda">Agenda</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/fonctionnement/les-avis-de-la-cnil" class="menu-link menu-link-2" data-drupal-link-system-path="node/379">Avis de la CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/la-cnil/interregulation-et-partenariats" class="menu-link menu-link-2" data-drupal-link-system-path="la-cnil/interregulation-et-partenariats">Interrégulation et partenariats</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/la-cnil/en-europe-et-dans-le-monde" class="menu-link menu-link-1" data-drupal-link-system-path="node/1176">En Europe et dans le monde</a>
+                                  <ul class="menu-level-2">
+                          <li class="menu-item menu-item-2">
+                                    <a href="/fr/en-europe-et-dans-le-monde/les-actions-de-la-cnil-en-europe-et-dans-le-monde" class="menu-link menu-link-2" data-drupal-link-system-path="node/165543">Les actions de la CNIL en Europe et dans le monde</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/la-protection-des-donnees-dans-le-monde" class="menu-link menu-link-2" data-drupal-link-system-path="node/163814">La protection des données dans le monde</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/en-europe-dans-le-monde/le-comite-europeen-de-la-protection-des-donnees-cepd" class="menu-link menu-link-2" data-drupal-link-system-path="node/1172">Le Comité européen de la protection des données (CEPD)</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/en-europe-dans-le-monde/les-instances-internationales-de-protection-de-la-vie-privee" class="menu-link menu-link-2" data-drupal-link-system-path="node/1173">Les instances internationales</a>
+                      </li>
+                      <li class="menu-item menu-item-2">
+                                    <a href="/fr/en-europe-dans-le-monde/la-cooperation-police-justice" class="menu-link menu-link-2" data-drupal-link-system-path="node/1174">La coopération Police-Justice</a>
+                      </li>
+              </ul>
+    
+              </li>
+                      <li class="menu-item menu-item-1">
+                                      
+            <div class="field-menu-push-visuel"><div>
+  
+  
+            <div class="field-media-image">  
+<img loading="lazy" src="/sites/default/files/styles/menu_header_thumbnail/public/2023-02/push_cnil.jpg?itok=0PwAX_DI" width="200" height="130" alt="" typeof="foaf:Image" class="img-responsive" />
+
+
+</div>
+      
+</div>
+</div>
+      
+                    <a href="/fr/lhistoire-de-la-cnil-en-video" class="menu-link menu-link-1" data-drupal-link-system-path="node/163534">L&#039;histoire de la CNIL en vidéo</a>
+                      </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="https://www.cnil.fr/fr/marches-publics" class="menu-link menu-link-1">Marchés publics</a>
+                      </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/opendata" class="menu-link menu-link-1" data-drupal-link-system-path="opendata">Open CNIL</a>
+                      </li>
+                      <li class="menu-item menu-item-1">
+                                    <a href="/fr/la-cnil/travailler-la-cnil" class="menu-link menu-link-1" data-drupal-link-system-path="node/871">Travailler à la CNIL</a>
+                      </li>
+              <li class="action">
+        <button type="button" class="js-dropdown-close dropdown-close">Fermer</button>
+      </li>
+          </ul>
+    
+              </li>
+                  <li class="search-button">
+        <button type="button" aria-expanded="false" aria-controls="cnil-search-form" class="search-btn js-search-btn">
+          <span class="sr-only">Rechercher</span>
+        </button>
+      </li>
+      </ul>
+    
+
+
+        
+          <div class="nav--top-nav"><a href="/fr" class="fr is-active" hreflang="fr">Fr</a><a href="/en" class="en" hreflang="en">En</a><a href="/fr/gestion-des-cookies" class="cookies">Gestionnaire de cookies</a></div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="block-search-wrapper js-block-search-wrapper">
+    <div class="cnil-search-form block block-cnil-search block-cnil-search-form-block" data-drupal-selector="cnil-search-form" id="block-search">
+  
+      <h2 class="visually-hidden">CNIL: search form</h2>
+    
+      <form action="/fr/informatique-en-nuage-cloud-la-cnil-publie-deux-fiches-pratiques-sur-le-chiffrement-et-la-securite" method="post" id="cnil-search-form" accept-charset="UTF-8">
+  
+
+
+
+
+
+
+
+<div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-keyword js-form-item-keyword form-group">
+      
+  <label for="edit-keyword" class="control-label">Poser une question ou rechercher un article, une délibération... </label>
+  
+  
+  <input data-drupal-selector="edit-keyword" class="form-text form-control" type="text" id="edit-keyword" name="keyword" value="" size="60" maxlength="128" />
+
+  
+  
+  </div>
+<button data-drupal-selector="edit-submit" class="button js-form-submit form-submit btn-default btn" type="submit" id="edit-submit" name="op" value="Rechercher">Rechercher</button><input autocomplete="off" data-drupal-selector="form-73ea-pkzrfyg7ajecfbmbnqmqphg8cniszegux93x4o" type="hidden" name="form_build_id" value="form-73eA_pKZrFYG7AJEcfbMBnqmqpHg8CniSzEGux93x4o" /><input data-drupal-selector="edit-cnil-search-form" type="hidden" name="form_id" value="cnil_search_form" />
+</form>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="main-wrapper">
+  <div class="">
+
+    <div class="page">
+
+      
+      <section>
+        <div class="container">
+                  </div>
+
+                    <div class="region region-breadcrumb container">
+        <ol class="breadcrumb">
+          <li >
+                  <a href="/fr">Accueil</a>
+              </li>
+          <li  class="active">
+                  Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le chiffrement et la sécurité des données
+              </li>
+      </ol>
+
+
+  </div>
+
+        
+        
+
+                  <div class="container">
+            
+          </div>
+        
+        <div class="container">
+                  </div>
+        <div class="container">
+                  </div>
+
+<div class="container">
+  <div class="layout--page-content">
+    <div class="layout-inner">
+        <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>  <div class="ctn-gen">
+    <div class='ctn-gen-titre js-zoom-wrapper zoom-wrapper'><h1> 
+<span>Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le chiffrement et la sécurité des données</span>
+ </h1></div>
+      <p class='ctn-gen-auteur'>22 janvier 2024</p>
+  
+    <hr class="separator" />
+        <div class="page-introduction js-zoom-wrapper zoom-wrapper clearfix"><p>La CNIL a reçu de nombreuses questions sur le recours à l’informatique en nuage (<em>cloud</em>), notamment au regard de la complexité des offres disponibles. En réponse, elle publie deux premières fiches pour éclairer les organismes consommateurs de ces services sur le recours au chiffrement et l’utilisation d’outils de sécurité et de performance.</p>
+</div>
+  
+    <div class="page--tools"><div class="social"><ul><li><button class="icon-print print-btn print" onClick="#" type="button"><span class="sr-only">Imprimer l’article</span></button>
+</li><li><button class="icon-share-email email" onClick="#" type="button"><span class="sr-only">Courriel</span></button>
+</li></ul></div><div class="tools"><ul><li><button class="js-zoom-link decrease" data-zoom="-2" type="button"><span class="sr-only">Diminuer la taille de la police</span></button>
+</li><li><button class="js-zoom-link increase" data-zoom="-2" type="button"><span class="sr-only">Augmenter la taille de la police</span></button>
+</li></ul></div></div>
+
+
+
+      <div class='ctn-gen-visuel'>
+<img src="/sites/default/files/styles/contenu_generique_visuel/public/2024-01/cloud.png?itok=RbqsPWix" width="975" height="500" alt="" loading="lazy" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+  
+          <div class='ctn-gen-body js-zoom-wrapper zoom-wrapper'><h2>La sécurité des données, une obligation également en cas de recours au <em>cloud</em></h2>
+
+<p>La sécurité est indispensable pour apporter la confiance dans la gestion des données personnelles de l’entreprise. Il s’agit également d’une obligation légale en matière de protection des données personnelles : en 2022, près d’un tiers des sanctions prononcées par la CNIL visaient des manquements à cette obligation.</p>
+
+<p>Il est également nécessaire <strong>de respecter ce principe lorsqu’il est fait appel à des fournisseurs de solutions Informatique en nuage (<em>cloud</em>)</strong>, qui sont de plus en plus utilisées par des grandes entreprises comme par des TPE/PME.</p>
+
+<p>La CNIL avait déjà publié <a href="/sites/cnil/files/typo/document/Recommandations_pour_les_entreprises_qui_envisagent_de_souscrire_a_des_services_de_Cloud.pdf" rel=" noopener" target="_blank" title="Recommendation en 2012 - Nouvelle fenêtre">une recommandation en 2012</a> pour les entreprises envisageant de recourir à ces solutions. Face aux nombreuses offres du marché et aux interrogations des organismes consommateurs de ces solutions, elle propose de nouvelles ressources pour <strong>comprendre les différentes approches de chiffrement et les différents outils de sécurité</strong> : l’objectif est de permettre aux professionnels d’adopter <strong>l’approche en matière de sécurité la plus adaptée à leurs besoins</strong>.</p>
+
+<h2>Les fiches pratiques publiées par la CNIL</h2>
+
+<h3>Le chiffrement des données sur le <em>cloud</em></h3>
+
+<p>Dans une fiche pratique sur le chiffrement, la CNIL propose une analyse détaillée des différents types de chiffrement appliqués à un service d’informatique en nuage (<em>cloud</em>) :</p>
+
+<ul>
+	<li>Le chiffrement au repos, qui est le plus souvent mis en avant. La fiche expose en détail les différentes modalités de chiffrement possibles, en fonction de l’architecture retenue, qui peut rendre le client plus ou moins dépendant du fournisseur de service d’informatique en nuage (<em>cloud</em>).</li>
+	<li>Le chiffrement en transit, pour sécuriser les canaux de communication.</li>
+	<li>Le chiffrement en traitement, qui soulève des enjeux particulièrement complexes quand il s’agit de préserver la confidentialité des données, notamment vis-à-vis du fournisseur de service.</li>
+	<li>Enfin, le <strong>chiffrement de bout en bout</strong>, qui constitue une modalité particulièrement protectrice des données, mais qui n’est applicable que dans un nombre limité de situations.</li>
+</ul>
+
+<div class="chiffre">
+<p style="text-align: justify; margin-top: 16px; margin-bottom: 4px;"><strong>Vous souhaitez contribuer à l’amélioration de cette fiche ?</strong></p>
+
+<p><strong>Écrivez à retours-cloud[@]cnil.fr</strong></p>
+</div>
+
+<div>
+<div>
+<div class="msocomtxt" id="_com_1" language="JavaScript" onmouseout="msoCommentHide('_com_1')" onmouseover="msoCommentShow('_anchor_1','_com_1')">&nbsp;</div>
+</div>
+</div>
+</div>
+        <div class="ctn-gen-after js-zoom-wrapper zoom-wrapper">
+      <div class='ctn-gen-textes-references'>
+  <div class='textref text-hide'>Texte reference</div>
+  <div class='ctn-gen-textes-references-contenu'>
+    <h2>Lire la fiche pratique</h2>
+          <ul>
+                  <li class='ctn-gen-textes-references-lien'><a href="/fr/les-pratiques-de-chiffrement-dans-linformatique-en-nuage-cloud-public" title="Les pratiques de chiffrement dans l’informatique en nuage (cloud) public" target="_blank" hreflang="fr"> Les pratiques de chiffrement dans l’informatique en nuage (cloud) public</a></li>
+              </ul>
+      </div>
+</div>
+
+    <div class='ctn-gen-texte-wysiswyg'><h3>Les outils pour sécuriser un service <em>cloud</em></h3>
+
+<p>Dans une seconde fiche pratique sur les outils de sécurité et de performance dans le <em>cloud</em>, la CNIL présente les différents produits de sécurité nécessaires pour sécuriser un service <em>cloud</em>. Ce faisant, elle opère une distinction claire entre des fonctionnalités de sécurité (anti-DDoS, WAF) et des fonctionnalités de performance (CDN, Load balancer) qui sont souvent commercialisées de manière groupée.</p>
+
+<p>La CNIL propose également des <strong>points de vigilance pour ces différents produits</strong>, notamment quand ils proposent de réaliser un déchiffrement des flux à des fins de sécurité. En effet, certains services peuvent entraîner des transferts de données vers des pays n’offrant pas un niveau de protection adéquat, ou soulever des enjeux de sécurité et de confidentialité (comme le déchiffrement TLS).</p>
+</div>
+
+  <div class='ctn-gen-textes-references'>
+  <div class='textref text-hide'>Texte reference</div>
+  <div class='ctn-gen-textes-references-contenu'>
+    <h2>Lire la fiche pratique</h2>
+          <ul>
+                  <li class='ctn-gen-textes-references-lien'><a href="/fr/les-outils-de-securisation-dapplications-web-dans-linformatique-en-nuage-cloud" title="Les outils de sécurisation d’applications web dans l’informatique en nuage (cloud)" target="_blank" hreflang="fr"> Les outils de sécurisation d’applications web dans l’informatique en nuage (cloud)</a></li>
+              </ul>
+      </div>
+</div>
+
+  <div class='ctn-gen-textes-references'>
+  <div class='textref text-hide'>Texte reference</div>
+  <div class='ctn-gen-textes-references-contenu'>
+    <h2>Articles en relation </h2>
+          <ul>
+                  <li class='ctn-gen-textes-references-lien'><a href="/fr/cybersecurite/securite-des-donnees" title="Sécurité des donnée" target="_blank" hreflang="fr"> Sécurité des donnée</a></li>
+              </ul>
+      </div>
+</div>
+
+
+<div class="general-tags"><ul><li><a href="/fr/tag/Cloud" hreflang="fr">#Cloud</a></li><li><a href="/fr/tag/Chiffrement" hreflang="fr">#Chiffrement</a></li><li><a href="/fr/tag/S%C3%A9curit%C3%A9%2Binformatique" hreflang="fr">#Sécurité informatique</a></li></ul></div>
+      <div class="nav--hub-nav"></div>
+
+
+      </div>
+</div>
+
+
+  </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="interest">
+    <div class="container">
+      <div class="row">
+        <h4>Ceci peut également vous intéresser ...</h4>
+<div class="col-xs-12 col-sm-12 col-md-4 interest-block">
+  <a href="/fr/recommandation-mfa" class="element">
+    <div class="interest-wrapper">
+            
+<img src="/sites/default/files/styles/interest_image/public/2025-04/authentification-multifacteur.png?itok=bYhollok" width="385" height="246" alt="" loading="lazy" typeof="foaf:Image" class="img-responsive" />
+
+
+      <div class="element-bg">
+                  <div class="titre">
+            Authentification multifacteur : les recommandations de la CNIL pour mieux protéger les données
+          </div>
+                                <p class="date">01 avril 2025</p>
+                  </div>
+      </div>
+  </a>
+      <span class="element-htag"><a href="/fr/tag/Conformit%C3%A9">Conformité</a></span>
+  </div>
+<div class="col-xs-12 col-sm-12 col-md-4 interest-block">
+  <a href="/fr/sensibilisation-des-jeunes-la-cybersecurite-la-cnil-engagee-dans-loperation-cactus" class="element">
+    <div class="interest-wrapper">
+            
+<img src="/sites/default/files/styles/interest_image/public/2025-03/adolescent-ordinateur.png?itok=qw-e3oaD" width="385" height="246" alt="" loading="lazy" typeof="foaf:Image" class="img-responsive" />
+
+
+      <div class="element-bg">
+                  <div class="titre">
+            Sensibilisation des jeunes à la cybersécurité : la CNIL engagée dans l&#039;Opération CACTUS
+          </div>
+                                <p class="date">25 mars 2025</p>
+                  </div>
+      </div>
+  </a>
+      <span class="element-htag"><a href="/fr/tag/Internet">Internet</a></span>
+  </div>
+<div class="col-xs-12 col-sm-12 col-md-4 interest-block">
+  <a href="/fr/violations-massives-de-donnees-en-2024-quels-sont-les-principaux-enseignements-mesures-a-prendre" class="element">
+    <div class="interest-wrapper">
+            
+<img src="/sites/default/files/styles/interest_image/public/2025-01/cybersecurite_violation_de_donnees.png?itok=q0L0tAgH" width="385" height="246" alt="" loading="lazy" typeof="foaf:Image" class="img-responsive" />
+
+
+      <div class="element-bg">
+                  <div class="titre">
+            Violations massives de données en 2024 : quels sont les principaux enseignements et mesures à ...
+          </div>
+                                <p class="date">28 janvier 2025</p>
+                  </div>
+      </div>
+  </a>
+      <span class="element-htag"><a href="/fr/tag/S%C3%A9curit%C3%A9%2Binformatique">Sécurité informatique</a></span>
+  </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</section>
+</div>
+</div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="cnildirect"><a href="/fr/cnil-direct" class="direct" title="CNIL Direct">Besoin d'aide</a></div>
+
+    
+
+        
+  <div class="row">
+    <div class="col-sm-4 col-12">
+        <div class="site-branding">
+<img src="/themes/custom/bootstrap_cnil/logo-footer.png" alt="" typeof="foaf:Image" class="img-responsive" />
+<div class="baseline">Commission Nationale de l’Informatique et des Libertés</div>
+</div>
+
+
+    </div>
+
+    <div class="col-sm-8 col-12 pull-right" style="min-height: 68px">
+      <div class="menu-footer-sitemap">
+        <div class="row">
+          
+          
+          
+          
+  
+  <div class="well col-sm-4 col-md-4 col-lg-4 menuControl">
+
+                
+                              <div class="item">
+              <span class='menu-footer-sitemap-title'>Ma conformité au RGPD</span>
+                                          
+                  <ul>
+                                        <li>
+                                  <a href="/fr/comprendre-le-rgpd" data-drupal-link-system-path="node/163964">Comprendre le RGPD</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/ma-conformite-au-rgpd/me-mettre-en-conformite" data-drupal-link-system-path="node/163970">Me mettre en conformité</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/respecter-les-droits-des-personnes" data-drupal-link-system-path="node/163976">Respecter les droits des personnes</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/outils" data-drupal-link-system-path="node/163979">Outils spécifiques</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/ma-conformite-au-rgpd/services-en-ligne" data-drupal-link-system-path="node/1179">Services en ligne</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="https://www.cnil.fr/fr/cnil-direct?visiteur=pro">Questions-réponses</a>
+                
+                              </li>
+                      </ul>
+        
+          
+              
+               <hr class='menu-footer-sitemap-hr'>             </div>
+                      <div class="item">
+              <span class='menu-footer-sitemap-title'>La CNIL</span>
+                                          
+                  <ul>
+                                        <li>
+                                  <a href="/fr/la-cnil/les-missions-de-la-cnil" data-drupal-link-system-path="node/1190">Missions</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/la-cnil/fonctionnement-de-la-cnil" data-drupal-link-system-path="node/1101">Fonctionnement</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/la-cnil/en-europe-et-dans-le-monde" data-drupal-link-system-path="node/1176">En Europe et dans le monde</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/lhistoire-de-la-cnil-en-video" data-drupal-link-system-path="node/163534">L&#039;histoire de la CNIL en vidéo</a>
+                
+                              </li>
+                                        <li>
+                                  <a href="https://www.cnil.fr/fr/marches-publics">Marchés publics</a>
+                
+                              </li>
+                                        <li>
+                                  <a href="/fr/opendata" data-drupal-link-system-path="opendata">Open CNIL</a>
+                
+                              </li>
+                                        <li>
+                                  <a href="/fr/la-cnil/travailler-la-cnil" data-drupal-link-system-path="node/871">Travailler à la CNIL</a>
+                
+                              </li>
+                      </ul>
+        
+          
+              
+                          </div>
+          
+        
+          
+
+      </div>
+  <div class="well col-sm-4 col-md-4 col-lg-4 menuControl">
+
+                
+                              <div class="item">
+              <span class='menu-footer-sitemap-title'>Ressources</span>
+                                          
+                  <ul>
+                                        <li>
+                                  <a href="/fr/ressources/acteurs-et-secteurs" data-drupal-link-system-path="node/163985">Acteurs et secteurs</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/ressources/thematiques" data-drupal-link-system-path="node/163988">Thématiques communes</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/ressources/les-grands-enjeux-numeriques" data-drupal-link-system-path="node/163991">Enjeux numériques</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/technologies/cybersecurite" data-drupal-link-system-path="node/616">Cybersécurité</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="https://www.cnil.fr/fr/tag/consultation">Consultations</a>
+                
+                              </li>
+                                        <li>
+                                  <a href="https://www.cnil.fr/fr/mediatheque">Médiathèque</a>
+                
+                              </li>
+                      </ul>
+        
+          
+              
+                          </div>
+          
+        
+          
+
+      </div>
+  <div class="well col-sm-4 col-md-4 col-lg-4 menuControl">
+
+                
+                              <div class="item">
+              <span class='menu-footer-sitemap-title'>Textes officiels</span>
+                                          
+                  <ul>
+                                        <li>
+                                  <a href="/fr/cadre-europeen" data-drupal-link-system-path="node/1097">Cadre européen</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/cadre-national" data-drupal-link-system-path="node/1094">Cadre national</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="/fr/les-decisions-de-la-cnil" data-drupal-link-system-path="node/900">Décisions de la CNIL</a>
+                
+                                              
+        
+          
+                              </li>
+                                        <li>
+                                  <a href="https://www.legifrance.gouv.fr/search/cnil?tab_selection=cnil&amp;searchField=ALL&amp;query=&amp;page=1&amp;init=true&amp;timeInterval=">Les décisions de la CNIL sur Légifrance</a>
+                
+                              </li>
+                      </ul>
+        
+          
+              
+                          </div>
+          
+        
+          
+
+      </div>
+
+
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 col-12 custom_column">
+      <div class="menu-footer-policy">
+          <div class="social-links"><div class="title">Suivez-nous</div><ul><li><a href="http://twitter.com/cnil" class="twitter" title="twitter - CNIL" target="_blank">twitter</a></li><li><a href="https://fr.linkedin.com/company/cnil---commission-nationale-de-l%27informatique-et-des-libert-s" class="linkedin" title="linkedin - CNIL" target="_blank">linkedin</a></li></ul></div>
+
+        
+  
+        <ul>
+                <li>
+        <a href="/fr/mediatheque" data-drupal-link-system-path="mediatheque">Médiathèque</a>
+              </li>
+                <li>
+        <a href="/fr/glossaire" data-drupal-link-system-path="glossaire">Glossaire</a>
+              </li>
+                <li>
+        <a href="/fr/lexique-francais-anglais-sur-la-protection-des-donnees" data-drupal-link-system-path="node/84640">Lexique FR-EN</a>
+              </li>
+                <li>
+        <a href="/fr/cnil-direct" data-drupal-link-system-path="cnil-direct">Besoin d&#039;aide</a>
+              </li>
+                <li>
+        <a href="/fr/espace-presse" data-drupal-link-system-path="node/1180">Presse</a>
+              </li>
+                <li>
+        <span class="item-languages">Langue</span>
+                          <ul>
+                <li>
+        <a href="/fr" data-drupal-link-system-path="&lt;front&gt;">Fr</a>
+              </li>
+                <li>
+        <a href="https://www.cnil.fr/en/home">En</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li>
+        <a href="/fr/gestion-des-cookies" data-drupal-link-system-path="gestion-des-cookies">Gestion des cookies</a>
+              </li>
+                <li>
+        <a href="https://forms.information.cnil.fr/603cfc32b95cee69378a54cd/4fR4m1PsT-W5cBQRkjVMmA/gNAvYERSS_Sl9nJsDCCU2Q/form.html" target="_blank">S&#039;inscrire à la lettre d&#039;information </a>
+              </li>
+        </ul>
+  
+
+
+
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-footer">
+        
+  
+
+                    <a href="/fr/mentions-legales" data-drupal-link-system-path="node/84679">Mentions légales</a>
+       |                       <a href="/fr/donnees-personnelles" data-drupal-link-system-path="node/84677">Données personnelles</a>
+       |                       <a href="/fr/accessibilite" data-drupal-link-system-path="node/9573">Accessibilité : non conforme</a>
+       |                       <a href="/fr/informations-publiques" data-drupal-link-system-path="node/84655">Informations publiques</a>
+       |                       <a href="/fr/recrutement/offres" data-drupal-link-system-path="recrutement/offres">Recrutement</a>
+       |                       <a href="https://services.cnil.fr/">Mon compte</a>
+       |                       <a href="/fr/saisir-la-cnil/nous-contacter" data-drupal-link-system-path="node/745">Nous contacter</a>
+                  
+
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+    
+  </div>
+</footer>
+
+
+  </div>
+
+<script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"drupalLanguage":"fr","drupalCountry":"FR","siteName":"CNIL","entityCreated":"1705878000","entityLangcode":"fr","entityStatus":"1","entityUid":"3806","entityUuid":"e73b68ef-0e77-41db-9e67-fc942bdb2544","entityVid":"164975","entityName":"sabdi","entityType":"node","entityBundle":"contenu_generique","entityId":"164783","entityTitle":"Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le chiffrement et la sécurité des données","entityTaxonomy":{"mots_cles":{"177":"Cloud","374":"Chiffrement","71":"Sécurité informatique"},"thematique":{"69":"Internet - Technologies"},"type_article":{"41":"Actualités"}},"userUid":0});</script>
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"fr\/","currentPath":"node\/164783","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"fr"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"tacjs":{"dialog":{"privacyUrl":"","bodyPosition":"bottom","hashtag":"#tarteaucitron","cookieName":"tarteaucitron","orientation":"bottom","groupServices":false,"serviceDefaultState":"wait","showAlertSmall":false,"cookieslist":false,"showIcon":false,"iconSrc":"","iconPosition":"BottomRight","adblocker":false,"DenyAllCta":true,"AcceptAllCta":true,"highPrivacy":true,"handleBrowserDNTRequest":false,"removeCredit":true,"moreInfoLink":true,"useExternalCss":true,"useExternalJs":true,"cookieDomain":"","readmoreLink":"","mandatory":true,"mandatoryCta":false,"closePopup":false,"customCloserId":"","showDialog":0},"services":{"amplitude":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"abtasty":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"metrica":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"addthis":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"addtoanyfeed":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"addtoanyshare":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"aduptech_ads":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"aduptech_conversion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"aduptech_retargeting":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"alexa":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"amazon":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"calameo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"clicky":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"clicmanager":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"contentsquare":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"crazyegg":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"clarity":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"criteo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"dailymotion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"datingaffiliation":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"datingaffiliationpopup":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"disqus":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ekomi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"etracker":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebook":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebooklikebox":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookcomment":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ferank":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"simpleanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ferankpub":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"getplus":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gplus":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gplusbadge":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsense":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":true},"googlepartners":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsensesearchform":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsensesearchresult":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googleadwordsconversion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googleadwordsremarketing":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gajs":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"analytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gtag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googlemaps":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googlemapssearch":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googletagmanager":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"multiplegoogletagmanager":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googlefonts":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"hubspot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"jsapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitterwidgetsapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"recaptcha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"linkedin":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"mautic":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"microsoftcampaignanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pinterest":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"prelinker":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"prezi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pubdirecte":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"purechat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"shareaholic":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"shareasale":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"sharethis":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"slideshare":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"soundcloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"statcounter":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"timelinejs":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"tagcommander":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"typekit":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twenga":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitter":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitterembed":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twittertimeline":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitteruwt":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"uservoice":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"vimeo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"visualrevenue":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"verizondottag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"vshop":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"wysistat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xiti":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"atinternet":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"youtube":{"status":false,"languages":[],"readMore":"test","readmoreLink":"","needConsent":false},"zopim":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"kameleoon":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"linkedininsighttag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookpixel":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"issuu":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"webmecanik":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"multiplegtag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"koban":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"matomo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"matomohightrack":{"status":true,"languages":{"fr":"fr"},"readMore":"","readmoreLink":"","needConsent":false},"hotjar":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"bingads":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adform":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"activecampaign":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":true},"tawkto":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"getquanty":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"youtubeapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"faciliti":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"userlike":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adobeanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"woopra":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"compteur":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"onesignal":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"stonly":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"serviceperso":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"artetv":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"affilae":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"criteoonetag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"outbrain":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pinterestpixel":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xandr":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xandrconversion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xandrsegment":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"firebase":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"matomocloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"openwebanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pardot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"plezi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"sharpspring":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"visiblee":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"genially":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"helloasso":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"m6meteo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"marketomunchkin":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"meteofrance":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"mtcaptcha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pingdom":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gagenda":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gallica":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gdocs":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gforms":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"goptimize":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gsheets":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gslides":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"hcaptcha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"maps_noapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"studizz":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"discord":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookpost":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"instagram":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"elfsight":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"intercomChat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"smartsupp":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"acast":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"archive":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ausha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"bandcamp":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"canalu":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"deezer":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"fculture":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"mixcloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"podcloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"spotify":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"webtvnu":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsenseauto":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsensesearch":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"antvoice":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"doubleclick":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googleads":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"klaviyo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"kwanko":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"leadforensics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"microanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"piwikpro":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"plausible":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"snapchat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"tiktok":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"userpilot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"weborama":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"wysistathightrack":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"arcio":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"geoportail":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"matomotm":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"myfeelback":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"openstreetmap":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"crisp":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"robofabrica":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"trustpilot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ubib":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookcustomerchat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"videas":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false}},"user":[],"texts":{"title":"Gestion de vos pr\u00e9f\u00e9rences sur les cookies (t\u00e9moins de connexion)"},"expire":180},"dataLayer":{"defaultLang":"fr","languages":{"fr":{"id":"fr","name":"French","direction":"ltr","weight":-10},"en":{"id":"en","name":"English","direction":"ltr","weight":-9}}},"matomo":{"disableCookies":false,"trackMailto":true},"cnil_config":{"tarteaucitron":"facebook,twitter,youtube,dailymotion"},"bootstrap":{"forms_has_error_value_toggle":1,"tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover","modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click"},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"send_mail_settings":{"title":"CNIL.fr \u003E Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le chiffrement et la s\u00e9curit\u00e9 des donn\u00e9es","body":"Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le chiffrement et la s\u00e9curit\u00e9 des donn\u00e9es\n\rLa CNIL a re\u00e7u de nombreuses questions sur le recours \u00e0 l\u2019informatique en nuage (cloud), notamment au regard de la complexit\u00e9 des offres disponibles. En r\u00e9ponse, elle publie deux premi\u00e8res fiches pour \u00e9clairer les organismes consommateurs de ces services sur le recours au chiffrement et l\u2019utilisation d\u2019outils de s\u00e9curit\u00e9 et de performance."},"user":{"uid":0,"permissionsHash":"e91320d4ba65c28343200be970ecf156d2f8f2531d36c481286fb5898cc60dbd"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.7"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/sites/default/files/languages/fr_Ol6GqvZbhE2emJ9M9avhr_o8QlfsgRPhWCjQbYqzplc.js?t2d4ai"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.4.6"></script>
+<script src="/core/misc/drupal.js?v=10.4.6"></script>
+<script src="/core/misc/drupal.init.js?v=10.4.6"></script>
+<script src="/themes/contrib/bootstrap/js/bootstrap-pre-init.js?t2d4ai"></script>
+<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?t2d4ai"></script>
+<script src="/themes/contrib/bootstrap/js/attributes.js?t2d4ai"></script>
+<script src="/themes/contrib/bootstrap/js/theme.js?t2d4ai"></script>
+<script src="/themes/contrib/bootstrap/js/popover.js?t2d4ai"></script>
+<script src="/themes/contrib/bootstrap/js/tooltip.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/js/html5shiv.min.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/alert.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/carousel.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/collapse.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/dropdown.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/modal.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/tooltip.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/popover.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/tab.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/bootstrap/js/onglets.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/js/respond.min.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_base/js/page.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/alert.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/carousel.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/collapse.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/dropdown.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/modal.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/tooltip.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/popover.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/bootstrap/js/tab.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/slick.min.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/jquery.mousewheel.min.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/respond.min.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/jquery.mCustomScrollbar.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/page.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/header.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/accessibility.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/main.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/display_cookies.js?t2d4ai"></script>
+<script src="/themes/custom/bootstrap_cnil/js/matomo.js?t2d4ai"></script>
+<script src="/core/misc/debounce.js?v=10.4.6"></script>
+<script src="/core/misc/announce.js?v=10.4.6"></script>
+<script src="/modules/commons/cnil_libraries/library/openlayers/OpenLayers.js?v=10.4.6"></script>
+<script src="/modules/commons/cnil_contenu_generique/js/cnil_contenu_generique.js?v=10.4.6"></script>
+<script src="/modules/custom/cnil_global/js/user-space-switcher.js?v=10.4.6"></script>
+<script src="/modules/commons/cnil_libraries/library/zeroclipboard/dist/ZeroClipboard.js?v=10.4.6"></script>
+<script src="/modules/commons/cnil_site/assets/js/video.js?v=10.4.6"></script>
+<script src="/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/tarteaucitron.js?v=1.20.0"></script>
+<script src="/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/tarteaucitron.services.js?v=1.20.0"></script>
+<script src="/modules/contrib/tacjs/js/main.js?t2d4ai"></script>
+<script src="/modules/commons/cnil_tacjs_page/js/tarteaucitron.services.js?t2d4ai"></script>
+<script src="/modules/commons/cnil_tacjs_page/js/main.js?t2d4ai"></script>
+<script src="/modules/commons/cnil_utilities/js/social.js?v=10.4.6"></script>
+<script src="/modules/contrib/datalayer/js/datalayer.js?v=1.x"></script>
+<script src="/modules/contrib/matomo/js/matomo.js?v=10.4.6"></script>
+<script src="/modules/commons/cnil_tacjs_page/js/lang/tarteaucitron.fr.js?t2d4ai"></script>
+<script src="/modules/contrib/webform/js/webform.behaviors.js?v=10.4.6"></script>
+<script src="/core/misc/states.js?v=10.4.6"></script>
+<script src="/themes/contrib/bootstrap/js/misc/states.js?t2d4ai"></script>
+<script src="/modules/contrib/webform/js/webform.states.js?v=10.4.6"></script>
+<script src="/modules/contrib/webform/modules/webform_bootstrap/js/webform_bootstrap.states.js?v=10.4.6"></script>
+
+</body>
+</html>

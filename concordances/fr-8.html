@@ -1,37 +1,128 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
 
-        <body>
-            <section class="hero is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">Tableau des concordances</h1>
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 8</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
                     </div>
                 </div>
-            </section>
 
-            <section class="section">
-                <div class="container">
-                    <table class="table is-striped is-fullwidth">
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
 
-                    <tr>
-                        <th>Fichier</th>
-                        <th>Contexte gauche</th>
-                        <th>Cible</th>
-                        <th>Contexte droit</th>
-                    </tr>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
     
-<tr><td>8</td><td>   Alors que certains </td><td>nuages</td><td> feront par exemple ressortir les idées les</td></tr>
-<tr><td>8</td><td>   – </td><td>Nuage</td><td> de mots</td></tr>
-<tr><td>8</td><td>Les deux grands groupes de </td><td>nuages</td><td> de mots</td></tr>
-<tr><td>8</td><td>   On distingue deux types principaux de </td><td>nuages</td><td> de mots-clés. La première</td></tr>
-<tr><td>8</td><td>   peut retrouver sur Internet, le </td><td>nuage</td><td> permet donc d’avoir très</td></tr>
-<tr><td>8</td><td>   formules qui auront été les plus employées. Certains </td><td>nuages</td><td> de</td></tr>
-<tr><td>8</td><td>   générer des </td><td>nuages</td><td> de mots-clefs à partir d’une URL ou de tout autre</td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   commentaires [5]Pixalione » </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots Flux des commentaires</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   [72]Home > [73]Glossaire > </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;"></span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   Le nuage de mots, que l’on appelle aussi le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots-clés ou</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   encore le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de [74]tags, est une synthèse visuelle des mots-clefs</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   – </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   les [76]annuaires qui ont recours au </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots-clés pour archiver</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   leur contenu. Le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots-clés est, en effet, une façon ludique de</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   Alors que certains </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> feront par exemple ressortir les idées les</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   sera en évidence dans le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots. Il est donc facile de</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   reconnaître ce dont il est question quand on parcourt un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots-clés réside dans le fait qu’il ne peut pas faire de</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   similaire mais leur signification est bien entendue contraire. Le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   – </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">Les deux grands groupes de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   On distingue deux types principaux de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots-clés. La première</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   peut retrouver sur Internet, le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> permet donc d’avoir très</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   formules qui auront été les plus employées. Certains </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   – </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">Comment créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots-clés ?</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   faire un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots ! Aujourd’hui, il existe en effet de nombreux</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   rapidement son propre </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots-clés. Le processus est facile</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   donner à son </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> – cela peut-être un caractère, un symbole ou encore</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   tags que l’on veut mettre en avant dans son </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">.</span></td></tr>
+					<tr><td>8</td><td><span style="text-align:right;">   générer des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots-clefs à partir d’une URL ou de tout autre</span></td></tr>
+               </table>
+            </div>
+        </section>
+    </body>
+</html>

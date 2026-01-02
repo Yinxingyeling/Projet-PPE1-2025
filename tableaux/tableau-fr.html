@@ -8,14 +8,76 @@
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
     </head>
     <body class="tableau">
-        <div class="centrer">
-            <a href="../../index.html" class="button accueil">Accueil</a>
-            <a class="button script">Script</a>
-            <a class="button tablo is-focus">Tableau</a>
-            <a href="../concordances/fr-final.html" class="button concordance">Concordance</a>
-        </div>
+        <section class="hero  is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                <h1 class="title is-1">Tableau général</h1>
+                <h2 class="subtitle is-3">Corpus français</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item is-selected has-background-link-light" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Concordances -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+        </nav>
         <section class="section has-text-centered">
-            <h1 class="title is-1">Links table</h1>
             <div class="columns-is-centered">
                 <table class="table is-hoverable is-striped">
                     <tr>
@@ -23,121 +85,563 @@
                         <th>Liens</th>
                         <th>Code</th>
                         <th>Encodage</th>
-                        <th>Nombres total</th>
-                        <th>Nombres d'occurence</th>
+                        <th>Total</th>
+                        <th>Nuage</th>
                         <th>Contextes</th>
                         <th>Concordanciers</th>
+                        <th>Bigrammes</th>
+                        <th>Gestions</th>
                     </tr>
-                  <tr>
-                            <td>1</td> <!-- numéro de ligne -->
-                            <td><a href="http://www.mytexte.com/texte.php?id=7386">http://www.mytexte.com/texte.php?id=7386</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>iso-8859-1</td> <!-- encodage de la page -->
-                            <td>380</td> <!-- nombre de mot total -->
-                            <td>3</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-1.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-1.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>2</td> <!-- numéro de ligne -->
-                            <td><a href="https://lepopeeludique.fr/comptine-tete-dans-les-nuages/">https://lepopeeludique.fr/comptine-tete-dans-les-nuages/</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>UTF-8</td> <!-- encodage de la page -->
-                            <td>1109</td> <!-- nombre de mot total -->
-                            <td>22</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-2.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-2.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>3</td> <!-- numéro de ligne -->
-                            <td><a href="https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages">https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>utf-8</td> <!-- encodage de la page -->
-                            <td>898</td> <!-- nombre de mot total -->
-                            <td>17</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-3.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-3.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>4</td> <!-- numéro de ligne -->
-                            <td><a href="https://fr.linkedin.com/pulse/le-nuage-de-mots-int%C3%A9r%C3%AAts-limites-et-alternatives-pierre-simonnin">https://fr.linkedin.com/pulse/le-nuage-de-mots-int%C3%A9r%C3%AAts-limites-et-alternatives-pierre-simonnin</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>utf-8</td> <!-- encodage de la page -->
-                            <td>1693</td> <!-- nombre de mot total -->
-                            <td>4</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-4.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-4.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>5</td> <!-- numéro de ligne -->
-                            <td><a href="https://www.dragnsurvey.com/blog/nuage-de-mots/">https://www.dragnsurvey.com/blog/nuage-de-mots/</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>UTF-8</td> <!-- encodage de la page -->
-                            <td>1581</td> <!-- nombre de mot total -->
-                            <td>3</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-5.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-5.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>6</td> <!-- numéro de ligne -->
-                            <td><a href="https://insightsoftware.com/fr/blog/visualizing-text-analysis-results-with-word-clouds/">https://insightsoftware.com/fr/blog/visualizing-text-analysis-results-with-word-clouds/</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>UTF-8</td> <!-- encodage de la page -->
-                            <td>2977</td> <!-- nombre de mot total -->
-                            <td>2</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-6.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-6.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>7</td> <!-- numéro de ligne -->
-                            <td><a href="https://docs.wooclap.com/fr/articles/2824395-nuage-de-mots">https://docs.wooclap.com/fr/articles/2824395-nuage-de-mots</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>utf-8</td> <!-- encodage de la page -->
-                            <td>1388</td> <!-- nombre de mot total -->
-                            <td>0</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-7.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-7.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>8</td> <!-- numéro de ligne -->
-                            <td><a href="https://www.pixalione.fr/glossaire/nuage-de-mots/">https://www.pixalione.fr/glossaire/nuage-de-mots/</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>UTF-8</td> <!-- encodage de la page -->
-                            <td>1850</td> <!-- nombre de mot total -->
-                            <td>7</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-8.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-8.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>9</td> <!-- numéro de ligne -->
-                            <td><a href="https://www.glowbl.com/blog/tout-savoir-sur-le-nuage-de-mots-un-guide-complet/">https://www.glowbl.com/blog/tout-savoir-sur-le-nuage-de-mots-un-guide-complet/</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>UTF-8</td> <!-- encodage de la page -->
-                            <td>1931</td> <!-- nombre de mot total -->
-                            <td>11</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-9.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-9.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>10</td> <!-- numéro de ligne -->
-                            <td><a href="https://tipsnlearn.fr/outil/nuage-de-mots/">https://tipsnlearn.fr/outil/nuage-de-mots/</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>UTF-8</td> <!-- encodage de la page -->
-                            <td>433</td> <!-- nombre de mot total -->
-                            <td>2</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-10.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-10.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
-                  <tr>
-                            <td>11</td> <!-- numéro de ligne -->
-                            <td><a href="https://www.oasisdesartistes.org/modules/newbbex/viewtopic.php?topic_id=62953&forum=18">https://www.oasisdesartistes.org/modules/newbbex/viewtopic.php?topic_id=62953&forum=18</a></td> <!-- lien url -->
-                            <td></td> <!-- code http -->
-                            <td>UTF-8</td> <!-- encodage de la page -->
-                            <td>2939</td> <!-- nombre de mot total -->
-                            <td>77</td> <!-- nombre d'occurrence de nuage(s) -->
-                            <td><a href="../contextes/fr-11.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
-                            <td><a href="../concordances/fr-11.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
-                        </tr>
+                      <tr>
+                        <td>1</td> <!-- numéro de ligne -->
+                        <td><a href="http://www.mytexte.com/texte.php?id=7386">http://www.mytexte.com/texte.php?id=7386</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>iso-8859-1</td> <!-- encodage de la page -->
+                        <td>380</td> <!-- nombre de mot total -->
+                        <td>4</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-1.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-1.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-1.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>2</td> <!-- numéro de ligne -->
+                        <td><a href="https://lepopeeludique.fr/comptine-tete-dans-les-nuages/">https://lepopeeludique.fr/comptine-tete-dans-les-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1109</td> <!-- nombre de mot total -->
+                        <td>10</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-2.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-2.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-2.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>3</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages">https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>898</td> <!-- nombre de mot total -->
+                        <td>11</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-3.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-3.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-3.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>4</td> <!-- numéro de ligne -->
+                        <td><a href="https://fr.linkedin.com/pulse/le-nuage-de-mots-int%C3%A9r%C3%AAts-limites-et-alternatives-pierre-simonnin">https://fr.linkedin.com/pulse/le-nuage-de-mots-int%C3%A9r%C3%AAts-limites-et-alternatives-pierre-simonnin</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>1687</td> <!-- nombre de mot total -->
+                        <td>15</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-4.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-4.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-4.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>5</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.dragnsurvey.com/blog/nuage-de-mots/">https://www.dragnsurvey.com/blog/nuage-de-mots/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1581</td> <!-- nombre de mot total -->
+                        <td>35</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-5.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-5.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-5.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>6</td> <!-- numéro de ligne -->
+                        <td><a href="https://insightsoftware.com/fr/blog/visualizing-text-analysis-results-with-word-clouds/">https://insightsoftware.com/fr/blog/visualizing-text-analysis-results-with-word-clouds/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2977</td> <!-- nombre de mot total -->
+                        <td>29</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-6.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-6.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-6.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>7</td> <!-- numéro de ligne -->
+                        <td><a href="https://docs.wooclap.com/fr/articles/2824395-nuage-de-mots">https://docs.wooclap.com/fr/articles/2824395-nuage-de-mots</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>1388</td> <!-- nombre de mot total -->
+                        <td>25</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-7.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-7.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-7.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>8</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.pixalione.fr/glossaire/nuage-de-mots/">https://www.pixalione.fr/glossaire/nuage-de-mots/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1850</td> <!-- nombre de mot total -->
+                        <td>26</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-8.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-8.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-8.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>9</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.glowbl.com/blog/tout-savoir-sur-le-nuage-de-mots-un-guide-complet/">https://www.glowbl.com/blog/tout-savoir-sur-le-nuage-de-mots-un-guide-complet/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1931</td> <!-- nombre de mot total -->
+                        <td>44</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-9.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-9.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-9.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>10</td> <!-- numéro de ligne -->
+                        <td><a href="https://tipsnlearn.fr/outil/nuage-de-mots/">https://tipsnlearn.fr/outil/nuage-de-mots/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>433</td> <!-- nombre de mot total -->
+                        <td>11</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-10.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-10.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-10.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>11</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.oasisdesartistes.org/modules/newbbex/viewtopic.php?topic_id=62953&forum=18">https://www.oasisdesartistes.org/modules/newbbex/viewtopic.php?topic_id=62953&forum=18</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2939</td> <!-- nombre de mot total -->
+                        <td>80</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-11.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-11.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-11.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>12</td> <!-- numéro de ligne -->
+                        <td><a href="https://clicnet.swarthmore.edu/litterature/classique/baudelaire/etranger.html">https://clicnet.swarthmore.edu/litterature/classique/baudelaire/etranger.html</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>135</td> <!-- nombre de mot total -->
+                        <td>3</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-12.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-12.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-12.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>13</td> <!-- numéro de ligne -->
+                        <td><a href="https://books.openedition.org/pur/38569?lang=fr">https://books.openedition.org/pur/38569?lang=fr</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>6491</td> <!-- nombre de mot total -->
+                        <td>85</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-13.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-13.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-13.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>14</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.franceinfo.fr/environnement/meteo/bulletins-meteo/previsions-quotidiennes/en-france-ce-17-decembre-2025-des-nuages-du-soleil-et-de-la-pluie_7684870.html">https://www.franceinfo.fr/environnement/meteo/bulletins-meteo/previsions-quotidiennes/en-france-ce-17-decembre-2025-des-nuages-du-soleil-et-de-la-pluie_7684870.html</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>4183</td> <!-- nombre de mot total -->
+                        <td>11</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-14.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-14.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-14.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>15</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.meteo-paris.com/actualites/pourquoi-les-nuages-sont-ils-nombreux-en-ce-moment">https://www.meteo-paris.com/actualites/pourquoi-les-nuages-sont-ils-nombreux-en-ce-moment</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>1284</td> <!-- nombre de mot total -->
+                        <td>15</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-15.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-15.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-15.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>16</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.huffingtonpost.fr/international/video/cet-enorme-nuage-rouleau-observe-en-pleine-canicule-au-portugal-n-etait-pas-un-fake_252039.html">https://www.huffingtonpost.fr/international/video/cet-enorme-nuage-rouleau-observe-en-pleine-canicule-au-portugal-n-etait-pas-un-fake_252039.html</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1379</td> <!-- nombre de mot total -->
+                        <td>10</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-16.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-16.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-16.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>17</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.alliance-technologies.net/lidar-hauteur-nuages/">https://www.alliance-technologies.net/lidar-hauteur-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1250</td> <!-- nombre de mot total -->
+                        <td>17</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-17.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-17.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-17.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>18</td> <!-- numéro de ligne -->
+                        <td><a href="https://lejournal.cnrs.fr/articles/le-nuage-piece-meconnue-du-puzzle-climatique">https://lejournal.cnrs.fr/articles/le-nuage-piece-meconnue-du-puzzle-climatique</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>5092</td> <!-- nombre de mot total -->
+                        <td>45</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-18.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-18.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-18.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>19</td> <!-- numéro de ligne -->
+                        <td><a href="https://wmo.int/fr/media/magazine-article/comprendre-les-nuages-pour-anticiper-les-changements-climatiques">https://wmo.int/fr/media/magazine-article/comprendre-les-nuages-pour-anticiper-les-changements-climatiques</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2517</td> <!-- nombre de mot total -->
+                        <td>45</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-19.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-19.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-19.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>20</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.ipsl.fr/article/comprendre-limpact-climatique-des-nuages/">https://www.ipsl.fr/article/comprendre-limpact-climatique-des-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2302</td> <!-- nombre de mot total -->
+                        <td>32</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-20.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-20.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-20.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>21</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.encyclopedie-environnement.org/air/physique-nuages/">https://www.encyclopedie-environnement.org/air/physique-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>5442</td> <!-- nombre de mot total -->
+                        <td>105</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-21.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-21.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-21.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>22</td> <!-- numéro de ligne -->
+                        <td><a href="https://meteofrance.com/comprendre-la-meteo/nuages/comment-se-forme-un-nuage">https://meteofrance.com/comprendre-la-meteo/nuages/comment-se-forme-un-nuage</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2147</td> <!-- nombre de mot total -->
+                        <td>37</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-22.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-22.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-22.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>23</td> <!-- numéro de ligne -->
+                        <td><a href="https://theconversation.com/comment-nommer-les-nuages-une-histoire-entre-science-et-art-250220">https://theconversation.com/comment-nommer-les-nuages-une-histoire-entre-science-et-art-250220</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>2822</td> <!-- nombre de mot total -->
+                        <td>52</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-23.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-23.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-23.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>24</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites">https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1768</td> <!-- nombre de mot total -->
+                        <td>7</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-24.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-24.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-24.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>25</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/">https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>3248</td> <!-- nombre de mot total -->
+                        <td>48</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-25.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-25.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-25.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>26</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.poetica.fr/poeme-2912/nashmia-noormohamed-les-nuages/">https://www.poetica.fr/poeme-2912/nashmia-noormohamed-les-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1436</td> <!-- nombre de mot total -->
+                        <td>9</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-26.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-26.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-26.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>27</td> <!-- numéro de ligne -->
+                        <td><a href="https://reporterre.net/La-poesie-de-Mathieu-Simonet-pour-defendre-les-nuages">https://reporterre.net/La-poesie-de-Mathieu-Simonet-pour-defendre-les-nuages</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>2607</td> <!-- nombre de mot total -->
+                        <td>42</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-27.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-27.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-27.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>28</td> <!-- numéro de ligne -->
+                        <td><a href="https://forellis.labo.univ-poitiers.fr/le-motif-du-nuage-en-litterature-et-dans-les-arts-visuels-suspension-condensation/">https://forellis.labo.univ-poitiers.fr/le-motif-du-nuage-en-litterature-et-dans-les-arts-visuels-suspension-condensation/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1063</td> <!-- nombre de mot total -->
+                        <td>11</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-28.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-28.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-28.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>29</td> <!-- numéro de ligne -->
+                        <td><a href="https://lactualite.com/temps-libre/culture/ce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages/">https://lactualite.com/temps-libre/culture/ce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1589</td> <!-- nombre de mot total -->
+                        <td>5</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-29.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-29.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-29.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>30</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.mcgill.ca/newsroom/fr/channels/news/nuages-et-rechauffement-terrestre-un-effet-surprenant-362515">https://www.mcgill.ca/newsroom/fr/channels/news/nuages-et-rechauffement-terrestre-un-effet-surprenant-362515</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>1128</td> <!-- nombre de mot total -->
+                        <td>9</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-30.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-30.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-30.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>31</td> <!-- numéro de ligne -->
+                        <td><a href="https://digital-strategy.ec.europa.eu/fr/policies/cloud-computing">https://digital-strategy.ec.europa.eu/fr/policies/cloud-computing</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2641</td> <!-- nombre de mot total -->
+                        <td>41</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-31.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-31.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-31.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>32</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.numerique.gouv.fr/sinformer/espace-presse/cloud-dans-la-sph%C3%A8re-publique--l%C3%A9tat-invite-tous-les-acteurs-engag%C3%A9s-dans-la-transformation-num%C3%A9rique-publique-%C3%A0-participer-%C3%A0-l%C3%A9v%C3%A9nement--l%C3%A9tat-dans-le-nuage--le-18-mars-2025/">https://www.numerique.gouv.fr/sinformer/espace-presse/cloud-dans-la-sph%C3%A8re-publique--l%C3%A9tat-invite-tous-les-acteurs-engag%C3%A9s-dans-la-transformation-num%C3%A9rique-publique-%C3%A0-participer-%C3%A0-l%C3%A9v%C3%A9nement--l%C3%A9tat-dans-le-nuage--le-18-mars-2025/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>767</td> <!-- nombre de mot total -->
+                        <td>3</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-32.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-32.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-32.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>33</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.forbes.fr/technologie/informatique-en-nuage-les-dix-grandes-tendances-pour-2024/">https://www.forbes.fr/technologie/informatique-en-nuage-les-dix-grandes-tendances-pour-2024/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2349</td> <!-- nombre de mot total -->
+                        <td>35</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-33.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-33.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-33.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>34</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.cgi.com/fr/article/communications-medias/transformations-liees-au-nuage-ia-generative-dans-les-medias">https://www.cgi.com/fr/article/communications-medias/transformations-liees-au-nuage-ia-generative-dans-les-medias</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1909</td> <!-- nombre de mot total -->
+                        <td>15</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-34.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-34.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-34.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>35</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.cgi.com/fr/informatique-en-nuage-ti-hybrides">https://www.cgi.com/fr/informatique-en-nuage-ti-hybrides</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2004</td> <!-- nombre de mot total -->
+                        <td>35</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-35.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-35.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-35.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>36</td> <!-- numéro de ligne -->
+                        <td><a href="https://systarix.com/fr/index.php/service/cloud-computing/">https://systarix.com/fr/index.php/service/cloud-computing/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>674</td> <!-- nombre de mot total -->
+                        <td>16</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-36.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-36.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-36.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>37</td> <!-- numéro de ligne -->
+                        <td><a href="https://cintoo.com/fr/blog/leveraging-point-cloud-technology-for-energy-asset-management">https://cintoo.com/fr/blog/leveraging-point-cloud-technology-for-energy-asset-management</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2140</td> <!-- nombre de mot total -->
+                        <td>46</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-37.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-37.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-37.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>38</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.improving.com/fr-ca/thoughts/ai-cloud-what-why-and-how/">https://www.improving.com/fr-ca/thoughts/ai-cloud-what-why-and-how/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1439</td> <!-- nombre de mot total -->
+                        <td>4</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-38.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-38.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-38.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>39</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-deux-fiches-pratiques-sur-le-chiffrement-et-la-securite">https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-deux-fiches-pratiques-sur-le-chiffrement-et-la-securite</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1903</td> <!-- nombre de mot total -->
+                        <td>9</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-39.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-39.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-39.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>40</td> <!-- numéro de ligne -->
+                        <td><a href="https://fr.acumatica.com/resources/articles/why-cloud-computing-is-the-future/">https://fr.acumatica.com/resources/articles/why-cloud-computing-is-the-future/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>3426</td> <!-- nombre de mot total -->
+                        <td>29</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-40.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-40.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-40.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>41</td> <!-- numéro de ligne -->
+                        <td><a href="https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/">https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>3934</td> <!-- nombre de mot total -->
+                        <td>16</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-41.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-41.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-41.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>42</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.ma-plume-webmag.com/fr/fenetre-sur/20-communication-et-medias/86-le-cloud-computing">https://www.ma-plume-webmag.com/fr/fenetre-sur/20-communication-et-medias/86-le-cloud-computing</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>1618</td> <!-- nombre de mot total -->
+                        <td>5</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-42.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-42.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-42.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>43</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/">https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2414</td> <!-- nombre de mot total -->
+                        <td>13</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-43.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-43.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-43.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>44</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/informatique-en-nuage-cloud-lautorite-de-la-concurrence-emet-un-avis-sur">https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/informatique-en-nuage-cloud-lautorite-de-la-concurrence-emet-un-avis-sur</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>2</td> <!-- nombre de mot total -->
+                        <td>19</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-44.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-44.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-44.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>45</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.franceinfo.fr/replay-radio/nouveau-monde/ce-qu-il-faut-savoir-sur-le-cloud-nuage-informatique_1751405.html">https://www.franceinfo.fr/replay-radio/nouveau-monde/ce-qu-il-faut-savoir-sur-le-cloud-nuage-informatique_1751405.html</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>4171</td> <!-- nombre de mot total -->
+                        <td>6</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-45.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-45.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-45.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>46</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.lenovo.com/fr/fr/glossary/cloud-computing/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOoo_OljBEXd2R0L7qYZSZuLOjiPcIIkgumWH9_wy8CIVHDfwm1WN">https://www.lenovo.com/fr/fr/glossary/cloud-computing/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOoo_OljBEXd2R0L7qYZSZuLOjiPcIIkgumWH9_wy8CIVHDfwm1WN</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>2077</td> <!-- nombre de mot total -->
+                        <td>24</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-46.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-46.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-46.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>47</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.onlyoffice.com/blog/fr/2023/12/informatique-en-nuage">https://www.onlyoffice.com/blog/fr/2023/12/informatique-en-nuage</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>3362</td> <!-- nombre de mot total -->
+                        <td>62</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-47.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-47.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-47.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>48</td> <!-- numéro de ligne -->
+                        <td><a href="https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-cloud-computing">https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-cloud-computing</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>3838</td> <!-- nombre de mot total -->
+                        <td>55</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-48.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-48.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-48.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>49</td> <!-- numéro de ligne -->
+                        <td><a href="https://kinaze.org/les-risques-du-cloud-computing/">https://kinaze.org/les-risques-du-cloud-computing/</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>utf-8</td> <!-- encodage de la page -->
+                        <td>2051</td> <!-- nombre de mot total -->
+                        <td>20</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-49.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-49.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-49.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
+                      <tr>
+                        <td>50</td> <!-- numéro de ligne -->
+                        <td><a href="https://www.danslenuage.quebec/blogue/quest-ce-que-le-nuage-cloud">https://www.danslenuage.quebec/blogue/quest-ce-que-le-nuage-cloud</a></td> <!-- lien url -->
+                        <td>200</td> <!-- code http -->
+                        <td>UTF-8</td> <!-- encodage de la page -->
+                        <td>1735</td> <!-- nombre de mot total -->
+                        <td>16</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href="../contextes/fr-50.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href="../concordances/fr-50.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href="../bigrammes/result/fr-freq_bigram-50.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
+								<td><p>Présent<br>Accès autorisé</p> <!-- Vérification blacklist -->
                </table>
             </div>
         </section>

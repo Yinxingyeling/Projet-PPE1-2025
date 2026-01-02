@@ -1,41 +1,147 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
 
-        <body>
-            <section class="hero is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">Tableau des concordances</h1>
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 9</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
                     </div>
                 </div>
-            </section>
 
-            <section class="section">
-                <div class="container">
-                    <table class="table is-striped is-fullwidth">
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
 
-                    <tr>
-                        <th>Fichier</th>
-                        <th>Contexte gauche</th>
-                        <th>Cible</th>
-                        <th>Contexte droit</th>
-                    </tr>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
     
-<tr><td>9</td><td>   en grand dans le </td><td>nuage</td><td>.</td></tr>
-<tr><td>9</td><td>   Les </td><td>nuages</td><td> de mots sont particulièrement utiles pour analyser des</td></tr>
-<tr><td>9</td><td>    2. TagCrowd : TagCrowd est un autre générateur de </td><td>nuage</td><td> de mots simple</td></tr>
-<tr><td>9</td><td>       texte, des URL ou des fichiers pour créer des </td><td>nuages</td><td> de mots.</td></tr>
-<tr><td>9</td><td>       grande flexibilité dans la création de </td><td>nuages</td><td> de mots. Il permet</td></tr>
-<tr><td>9</td><td>   </td><td>nuage</td><td> de mots</td></tr>
-<tr><td>9</td><td></td><td>Nuages</td><td> de Mots : Avantages et Applications</td></tr>
-<tr><td>9</td><td>   Les </td><td>nuages</td><td> de mots offrent plusieurs avantages :</td></tr>
-<tr><td>9</td><td>     * Engagement : Les </td><td>nuages</td><td> de mots peuvent capter l’attention du</td></tr>
-<tr><td>9</td><td>   Les applications des </td><td>nuages</td><td> de mots sont variées, allant de l’analyse</td></tr>
-<tr><td>9</td><td>   et faciles à utiliser pour créer des </td><td>nuages</td><td> de mots attrayants et</td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">Tout savoir sur le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots : Un guide complet</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;"></span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mots : Définition et utilisation</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots, aussi connu sous le nom de « word cloud » en anglais,</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   en grand dans le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">.</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots sont particulièrement utiles pour analyser des</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">Pourquoi créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots ?</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots offre plusieurs avantages. C’est un outil visuel</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;"></span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de mot gratuit : Où trouver des outils efficaces</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Il existe de nombreux outils en ligne permettant de créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">    2. TagCrowd : TagCrowd est un autre générateur de </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots simple</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">       texte, des URL ou des fichiers pour créer des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">       grande flexibilité dans la création de </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots. Il permet</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">Créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots : Étapes et conseils</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots est un processus simple et rapide. Voici les</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">    2. Sélectionnez un générateur de </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots : Utilisez l’un des</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">    3. Personnalisez votre </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots : La plupart des outils</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">       design, générez votre </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots et téléchargez-le pour</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;"></span></td><td><span style="color:red;">Nuages</span></td><td><span style="text-align:left;"> de Mots : Avantages et Applications</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots offrent plusieurs avantages :</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">     * Engagement : Les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots peuvent capter l’attention du</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Les applications des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots sont variées, allant de l’analyse</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">Faire un </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de Mot : Utilisations Pratiques</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Faire un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mot peut être particulièrement utile dans les</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mot</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">Générateur </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de Mots : Comment Choisir le Bon</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Un générateur de </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots doit être choisi en fonction de vos</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">Comment faire un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots facilement ?</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots est simple et rapide avec les bons outils et</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">    4. Personnalisez le </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> : Ajustez les couleurs, formes, polices et</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   En suivant ces étapes, vous pouvez facilement créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mot gratuit</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">Comment créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots sur powerpoint</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Créer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots sur PowerPoint est simple et peut ajouter une</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">       voulez créer le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">    4. Générez le </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> de Mots : Cliquez sur « Visualize » pour créer</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">       votre </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots.</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">       l’image du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots (souvent en format PNG ou JPEG).</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">          + Allez à la diapositive où vous voulez insérer le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">            du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> à téléchargée.</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   En suivant ces étapes, vous pouvez facilement intégrer un </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   Le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> de mots est un outil puissant et polyvalent pour analyser et</span></td></tr>
+					<tr><td>9</td><td><span style="text-align:right;">   et faciles à utiliser pour créer des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> de mots attrayants et</span></td></tr>
+               </table>
+            </div>
+        </section>
+    </body>
+</html>

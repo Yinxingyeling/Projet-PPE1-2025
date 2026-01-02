@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
+
+    <body>
+        <section class="hero is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français 36</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation"> 
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Analyse</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                        <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Script -->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Script</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../fr_script.html">Français</a>
+                        <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                    </div>
+                </div>
+
+                <!-- Tableau -->
+                <div class="navbar-item has-dropdown is-hoverable">
+
+                    <a class="navbar-link">Tableau</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                        <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                        <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                        <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Concordances</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                        <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button class="button is-primary" onclick="history.back();">Retour</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="container">
+                <table class="table is-striped is-fullwidth">
+
+                <tr>
+                    <th>Fichier</th>
+                    <th>Contexte gauche</th>
+                    <th>Cible</th>
+                    <th>Contexte droit</th>
+                </tr>
+    
+					<tr><td>36</td><td><span style="text-align:right;">          + [18]Informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">Informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">     * Informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">Informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"></span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   L'informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> est une technologie qui permet aux</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   Développement d'une stratégie en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> : Nous travaillons avec vous</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   pour élaborer une stratégie globale en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> qui s'harmonise avec vos</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   Intégration des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> : Nous vous aidons à intégrer vos systèmes basés</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   Sécurité en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">: Nous fournissons une gamme de services de sécurité</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> contre les cybermenaces.</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   Optimisation des coûts en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> : Nous vous aidons à optimiser vos</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   dépenses en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> en identifiant les zones où vous pouvez réduire les</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   Surveillance et gestion des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">: Nous vous aidons à surveiller et à</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   gérer vos systèmes basés sur le </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> et à assurer la maintenance et le</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   </span></td><td><span style="color:red;">Nuage</span></td><td><span style="text-align:left;"> hybride: Nous vous aidons à concevoir et à mettre en œuvre une</span></td></tr>
+					<tr><td>36</td><td><span style="text-align:right;">   solution hybride qui vous permet d'utiliser le meilleur des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"></span></td></tr>
+               </table>
+            </div>
+        </section>
+    </body>
+</html>
