@@ -5,7 +5,10 @@ NOM=$2 #lang1 ou lang2 -> fr ou zh
 COUNT=0
 
 # Fichier de sortie
-OUTFILE="${DOSSIER}-${NOM}.txt"
+OUTFILE="../PALS/${DOSSIER}-${NOM}.txt"
+
+# Vider le fichier de sortie 
+> ${OUTFILE}
 
 # Test du dossier
 if [ ! -n ${DOSSIER} ];then
@@ -22,12 +25,16 @@ do
 
     COUNT=$(expr ${COUNT} + 1)
     FICHIER="../${DOSSIER}/${NOM}-${COUNT}.txt"
+    FILEBYFILE="../PALS/${DOSSIER}/${DOSSIER}-${NOM}-${COUNT}.txt"
 
     # Tokenisation
     if [ -f ${FICHIER} ]; then
         echo "Traitement de ${FICHIER}"
 
-        cat ${FICHIER} | tr -cs 'A-Za-zÀ-ÖØ-öø-ÿ0-9.!?' '\n' | sed 's/\([.!?]\)/\n\1\n/g' | sed '/^$/d' > ${OUTFILE}
+        cat ${FICHIER} | tr -cs 'A-Za-zÀ-ÖØ-öø-ÿ0-9.!?' '\n' | sed 's/\([.!?]\)/\n\1\n/g' | sed '/^$/d' > ${FILEBYFILE}
+        cat ${FILEBYFILE} >> ${OUTFILE} # Copie 
+        echo -e "\n" >> ${OUTFILE} # Saut de ligne pour séparer les fichiers 
+
     else
         echo "${FICHIER} manquant"
     fi
