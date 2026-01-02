@@ -1,0 +1,72 @@
+          + [37]Stations Marine Offshore MeteoLink
+          + [38]Stations avec enregistreur local
+     * [39]Brouillard Nuages Orages
+          + [40]Visibilité - Temps présent
+          + [41]Avertisseur d'orage
+          + [42]Lidar hauteur de nuages
+          + [43]Caméra couverture nuageuse
+     * [44]Pluie Neige Glace
+          + [45]Pluviomètres
+--
+     *
+
+   nuages soleil alliance technologies systèmes de mesures météorologiques
+   et industrielles
+
+Lidar nuage hauteur et rétrodiffusion
+
+   Les ceilomètres sont des instruments conçus pour mesurer les hauteurs
+   des nuages ​​et des aérosols à l’aide d’une technique LIDAR et de
+   l'exploitation des profils de rétrodiffusion
+
+   Les ceilomètres sont des instruments conçus pour mesurer les hauteurs
+   des nuages ​​à l’aide d’une technique LIDAR (détection de la lumière et
+   télémétrie) basée sur le laser. Le composant émetteur de lumière est un
+   laser à diode de faible puissance dont la puissance de sortie est
+--
+
+
+   Ils déterminent la hauteur de la base des nuages, la profondeur de
+   pénétration, la hauteur de la couche de mélange et la visibilité
+   verticale. Dans leur plage de fonctionnement (7.5km pour le CBME-80 et
+   12km pour le CBME-120), ils détectent de manière fiable plusieurs
+   couches de nuages.
+
+
+   Ils sont le plus souvent utilisés dans le cadre d’un système AWOS dans
+   les aéroports où la hauteur des nuages ​​et la visibilité verticale
+   sont essentielles au fonctionnement en toute sécurité des systèmes de
+   trafic aérien.
+--
+
+
+   Célomètre Lidar CBME80B - Hauteur de base de nuages et visibilité
+   verticale
+
+   Célomètre Lidar CBME 80 - hauteur de base de nuages et visibilité
+   verticale
+
+   L’autre utilisation importante est celle d’un système en réseau dans un
+   pays ou un territoire où la migration des nuages ​​intéressent la
+   communauté météorologique et scientifique. Ces études des profils de
+   rétrodiffusion sont utilisées pour surveiller l’origine et la migration
+   des polluants dans l’air ainsi que leur dispersion et leur
+   distribution. Ainsi, bien que le ceilomètre soit principalement conçu
+   pour la détection des nuages, il a été démontré qu’il permet aussi une
+   observation de la structure verticale de la couche limite. Ceci ouvre
+   de nouveaux champs d’application en modélisation de la qualité de l’air
+--
+   Cloud Presentation Suite est une application logicielle sur PC capable
+   d’afficher des informations en temps réel sur la situation actuelle des
+   nuages et de la météo à l’aide du Ceilomètre Lidar Eliasson.
+
+
+   Le programme présente les hauteurs de bases de nuages (y compris la
+   profondeur de pénétration) et la visibilité verticale dans certaines
+   conditions, signale l’état du ceilomètre et avertit l’utilisateur en
+--
+
+   Les données de condition du ciel sont calculées et affichées dans les
+   programmes. L’état du ciel indique la proportion de ciel avec nuages
+   (octa) sur différentes couches.
+

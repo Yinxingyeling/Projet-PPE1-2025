@@ -1,0 +1,66 @@
+          + [12]Principaux sujets
+               o [13]Intelligence artificielle
+               o [14]Informatique en nuage et TI hybrides
+               o [15]Cybersécurité
+               o [16]Analyse des données
+--
+   Article
+
+Transformations liées au nuage et à l’IA générative dans les médias : comment
+réussir la transition
+
+   4 min de lecture
+   reflets des nuages ​​dans les fenêtres des bâtiments
+   Le microphone est un élément fondamental du studio d'enregistrement.
+
+--
+   transformation à l’échelle du secteur, mais aussi à prospérer.
+
+Le nuage : du centre de données à la plateforme stratégique
+
+   Au cours des dix dernières années, la technologie infonuagique a
+--
+   centrale de toute stratégie d’entreprise.
+
+     « Dans le passé, de nombreuses entreprises considéraient le nuage
+     comme un simple centre de données supplémentaire, explique M. Böhme.
+     Aujourd’hui, nous lançons des projets infonuagiques avec des
+--
+     d’automatisation. »
+
+   Le secteur des médias reconnaît les avantages potentiels du nuage.
+   Qu’il s’agisse de fournir du contenu à la demande, des flux de
+   production basés sur le nuage ou des réseaux de diffusion évolutifs à
+   l’échelle mondiale, le nuage offre plus de rapidité, de flexibilité et
+   d’évolutivité. De plus, les architectures modernes s’appuient de plus
+   en plus sur des solutions hybrides et à nuages multiples.
+
+IA générative : innovation et responsabilité
+
+   Si le nuage pose les bases, l’[72]IA générative ouvre des possibilités
+   totalement nouvelles en matière de création de contenu, de distribution
+   et d’analyse d’audience, mais le succès nécessite plus que de simples
+--
+
+     * Les pistes représentent l’infrastructure infonuagique sous-jacente
+       (p. ex. Azure, AWS, nuage privé).
+     * Les avions représentent les machines virtuelles, les conteneurs,
+       les microservices et les applications d’IA.
+     * La tour assure la supervision, la coordination et la sécurité.
+
+   De la même manière, dans le nuage, les déploiements, les mises à
+   l’échelle et les changements réguliers sont clairement résumés par CGI
+   Cloud Control Tower et instantanément vérifiés pour déterminer leur
+--
+   de renforcer leur confiance dans les nouvelles technologies.
+
+     « Le nuage et l’IA ne doivent pas seulement être mis en œuvre, mais
+     aussi adoptés. Lorsque les équipes sont responsabilisées et
+     alignées, l’innovation et la sécurité peuvent aller de pair »,
+     souligne M. Richter.
+
+Utiliser le nuage et l’IA générative de façon stratégique
+
+   pierre angulaire des nuages ​​au-dessus d'un champ
+
+   L’infonuagique et l’IA générative sont là pour de bon. Les entreprises

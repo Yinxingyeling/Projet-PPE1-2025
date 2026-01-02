@@ -1,0 +1,454 @@
+   #[1]alternate [2]alternate
+
+   [3]Aller au contenu principal
+
+   [4]Autorité de la concurrence
+   (BUTTON) Menu
+   [5]Fr
+   |
+   [6]En
+
+     * [7]Lanceur d'alerte
+     * [8]Signaler une pratique anticoncurrentielle
+     * [9]Demander la clémence
+     * [10]Newsletter
+
+     * (BUTTON) Qui sommes nous ?
+          + Présentation
+               o [11]Missions
+               o [12]Chiffres clés
+               o [13]Charte des valeurs
+          + Activités
+               o [14]Compétence contentieuse
+               o [15]Contrôle des opérations de concentration
+               o [16]Compétence consultative
+               o [17]Régulation des professions réglementées
+               o [18]Europe et international
+          + Organisation
+               o [19]Ecosystème institutionnel
+               o [20]Organigramme
+               o [21]Collège
+     * (BUTTON) La concurrence et vous
+          + [22]Les vertus de la concurrence
+          + [23]Mon petit précis de la concurrence
+          + [24]Les plus grandes affaires
+          + [25]Histoire de la concurrence
+          + [26]Un guide pour connaître les règles
+          + [27]Conformité
+     * (BUTTON) Avis et décisions
+          + [28]Professions réglementées du droit
+          + [29]Suivi des recours et pourvois
+          + [30]Clémence
+          + [31]Consultations publiques et tests de marché
+          + [32]Développement durable et concurrence
+          + [33]Textes de référence
+          + [34]Comment notifier une opération de contrôle des
+            concentrations ?
+          + [35]Opérations de concentrations en cours d’examen
+          + [36]Décisions de contrôle des concentrations
+          + [37]Avis et Décisions
+     * (BUTTON) Actualités & publications
+          + [38]Nos événements
+          + [39]Actualités
+          + [40]Infographies
+          + [41]Publications
+          + [42]Vidéothéque
+          + [43]Podcast
+          + [44]Communiqués de presse
+     * Recherche par mots-clés
+       ____________________________________________________________
+       (BUTTON)
+       (BUTTON) Rechercher
+
+   Recherche par mots-clés
+   ____________________________________________________________
+   (Rechercher) Rechercher
+   Recherche experte :
+
+   Pour rechercher une décision, un avis ou une décision de contrôle des
+   concentrations
+     * [45]Décisions et Avis
+     * [46]Décisions de contrôle des concentrations
+
+     * [47]Accueil
+     * Actualités & publications
+     * [48]Communiqués de presse
+     * Informatique en nuage (« cloud ») : L’Autorité de la concurrence
+       émet un avis sur certaines dispositions du projet de loi visant à
+       sécuriser et réguler l’espace numérique
+
+   [49]Numérique
+
+Informatique en nuage (« cloud ») : L’Autorité de la concurrence émet un avis
+sur certaines dispositions du projet de loi visant à sécuriser et réguler
+l’espace numérique
+
+   Publié le 11 mai 2023
+   [50]Imprimer la page
+     * [51]Partager sur Twitter (nouvelle fenêtre)
+     * [52]Partager sur LinkedIn (nouvelle fenêtre)
+     * [53]Partager sur Facebook (nouvelle fenêtre)
+
+   cloud
+
+L'essentiel
+
+   Saisie par le ministre délégué en charge de la transition numérique et
+   des télécommunications, l’Autorité émet un avis sur trois articles du
+   projet de loi visant à sécuriser et réguler l’espace numérique.
+   L’Autorité partage les préoccupations exprimées dans le projet de loi à
+   l’égard de certaines pratiques ou défaillances de marché dans le
+   secteur de l’informatique en nuage, qui pourraient justifier une
+   intervention règlementaire. L’Autorité souligne néanmoins que, compte
+   tenu du contexte réglementaire européen dans lequel le projet de loi
+   s’insère, il convient de s’assurer de la bonne articulation des mesures
+   envisagées avec le futur cadre européen, afin de ne pas pénaliser les
+   acteurs opérant sur le marché français.
+
+   L’Autorité émet ainsi 5 recommandations, visant en substance à :
+     * attirer l’attention du législateur sur le besoin de cohérence entre
+       le régime transitoire prévu par le projet de loi et les
+       dispositions du futur règlement sur les données (« Data Act »)
+     * clarifier les définitions de « service d’informatique en nuage » et
+       « avoir d’informatique en nuage »
+     * clarifier les conditions d’encadrement des durées et de
+       reconduction des avoirs d’informatique en nuage
+     * clarifier les frais liés au transfert de données
+     * s’assurer de la bonne articulation des mesures liées à
+       l’interopérabilité et à la portabilité avec le futur Data Act
+
+   Enfin, l’Autorité rappelle qu’elle [54]s’est autosaisie pour avis, le
+   27 janvier 2022, pour analyser les conditions du fonctionnement
+   concurrentiel du secteur de l’informatique en nuage. Cette autosaisine
+   a été suivie d’[55]une consultation publique et donnera lieu dans les
+   prochaines semaines à un avis de l’Autorité. Ce dernier a vocation à
+   analyser certaines des pratiques concernées par le projet de loi, parmi
+   un ensemble de pratiques susceptibles, seules ou conjointement, de
+   soulever des risques concurrentiels.
+
+   L’importance du secteur du cloud justifie une attention particulière
+   d’un point de vue concurrentiel
+
+   Le cloud constitue une évolution technologique majeure au cœur de la
+   numérisation de l’économie, en permettant aux entreprises d’accéder en
+   ligne à des capacités informatiques gérées par un fournisseur. Ce
+   secteur est en forte évolution et devrait connaître une croissance
+   moyenne annuelle de 14 % d’ici fin 2025. L’Autorité relève toutefois
+   que le développement du cloud a jusqu’à présent été moins rapide en
+   France que dans les autres pays européens.
+
+   L’analyse que mène actuellement l’Autorité dans le cadre de
+   l’instruction de son avis tend à montrer une tendance à la
+   concentration autour de quelques acteurs puissants sur le marché
+   français. L’Autorité s’est également interrogée sur les pratiques mises
+   en œuvre dans le secteur du cloud, susceptibles de restreindre la
+   concurrence par les mérites.
+
+   L’Autorité partage ainsi le constat de la nécessité de veiller à ce que
+   les marchés soient les plus contestables possible et considère donc,
+   comme le Gouvernement, que l’encadrement de certaines pratiques
+   (relatives par exemple aux frais liés au transfert de données ou
+   « egress fees ») peut être justifié.
+
+
+   L’Autorité souligne l’importance de l’articulation des mesures
+   envisagées avec le cadre règlementaire européen
+
+   Le projet de loi soumis pour avis à l’Autorité s’inscrit dans un
+   contexte réglementaire riche. Plusieurs règlements européens (règlement
+   sur les marchés numériques (« Digital Markets Act ») ; règlement sur
+   les données (« Data Act ») ; règlement sur la gouvernance des données
+   (« Data Governance Act »)) récents ou en cours d’adoption prévoient des
+   dispositions très proches de celles envisagées par le projet de loi.
+   Dès leur entrée en vigueur, ces textes deviendront directement
+   applicables en France et se substitueront aux dispositions nationales
+   portant sur les mêmes problématiques, en vertu du principe de primauté
+   du droit de l’Union européenne.
+
+   L’Autorité considère qu’en l’absence d’articulation suffisante, les
+   dispositions du projet de loi pourraient engendrer des distorsions
+   temporaires avec la règlementation mise en œuvre au niveau européen, ce
+   qui entrainerait des coûts d’adaptation irrécupérables pour les acteurs
+   opérant sur le marché français.
+
+   Afin de limiter ces risques, l’Autorité considère que les dispositions
+   devraient se rapprocher le plus possible du cadre qui sera établi au
+   niveau européen.
+
+   L’Autorité relève, par ailleurs, que beaucoup d’éléments de mise en
+   œuvre des obligations envisagées seront précisés par décret
+   d’application, ce qui limite sa capacité à évaluer leurs éventuelles
+   conséquences concurrentielles.
+
+Recommandation n°1 – Favoriser un encadrement au niveau européen
+
+   Afin de limiter d’éventuelles distorsions temporaires ainsi que des
+   coûts d’adaptation irrécupérables, le régime transitoire devrait autant
+   que possible s’aligner sur les dispositions qui prendront effet lors de
+   l’entrée en vigueur du Data Act.
+
+   Les autres recommandations de l’Autorité
+
+   Sur l’article 7 du projet de loi relatif à l’encadrement des frais de
+   transfert et des avoirs d’informatique en nuage
+
+   L’Autorité invite à une clarification de la définition de certains
+   termes de cet article.
+
+Recommandation n°2- Clarification des définitions de « service d’informatique
+en nuage » et « avoir d’informatique en nuage »
+
+   De nombreuses notions, telles que le « service d’informatique en nuage
+   » ou l’« avoir d’informatique en nuage » manquent de précisions.
+
+   L’Autorité estime ainsi que la définition de « service d’informatique
+   en nuage » pourrait être clarifiée afin de prendre en compte la
+   distinction entre l’infrastructure en tant que service (« IaaS »), la
+   plateforme en tant que service (« PaaS ») et le logiciel en tant que
+   service (« SaaS »).
+
+   Il en est de même en ce qui concerne la notion d’ « avoir
+   d’informatique en nuage » telle que présentée dans le projet de loi,
+   qui devrait être clarifiée afin, d’une part, d’englober la réalité des
+   programmes et crédits offerts par les fournisseurs et, d’autre part,
+   d’éviter d’éventuelles stratégies de contournement de la loi qui se
+   fonderaient sur des imprécisions de périmètre juridique.
+
+Recommandation n°3-Clarification sur les durées et les conditions de
+reconduction des avoirs d’informatiques en nuage
+
+   L’Autorité note que les crédits cloud[56][1] peuvent être appréhendés
+   sous l’angle du droit de la concurrence ou des pratiques restrictives
+   de concurrence.
+
+   Si une régulation des crédits cloud est retenue, l’Autorité recommande
+   de faire une distinction entre les crédits cloud offerts sous forme de
+   test ou d’essai gratuits limités à une durée de quelques mois et les
+   crédits cloud proposés sous forme de programmes d’accompagnement des
+   entreprises, qui ont une valeur et une durée substantiellement plus
+   élevées.
+
+   L’Autorité relève que le renvoi au décret pour la fixation de la durée
+   et des conditions de reconduction des avoirs ne lui permet pas, dans le
+   cadre de cet avis, d’en analyser les aspects concurrentiels. Toutefois,
+   elle recommande de fixer la durée des crédits cloud sous forme de
+   programmes d’accompagnement et les conditions de reconduction de ces
+   avoirs après consultation des parties prenantes (clients et
+   fournisseurs).
+
+   En particulier, les conditions de reconduction des avoirs nécessitent
+   d’être précisées et devraient à tout le moins permettre aux
+   fournisseurs de continuer à proposer des offres de test ou d’essai
+   gratuits tout en limitant les capacités de reconduction des programmes
+   d’accompagnement.
+
+   L’Autorité insiste également sur l’attention particulière que devra
+   porter le législateur à la question de l’articulation de l’encadrement
+   des frais de transfert au niveau national avec les dispositions du Data
+   Act portant sur ce sujet.
+
+Recommandation n°4-Clarifications sur les frais liés au transfert de données
+
+   L’Autorité estime, comme le Gouvernement, que les egress fees sont
+   susceptibles d’avoir des effets anticoncurrentiels liés au risque de
+   verrouillage de la clientèle, en rendant plus difficile la migration
+   des services de cloud vers un autre fournisseur ou de recourir à
+   plusieurs fournisseurs à la fois.
+
+   Toutefois, le projet de loi devrait refléter le projet de règlement sur
+   les données et prévoir a minima l’application d’une période de
+   transition dans la suppression progressive de ces frais.
+
+   Sur l’article 8 du projet de loi relatif aux obligations
+   d’interopérabilité des services d’informatique en nuage.
+
+   L’Autorité formule enfin une recommandation concernant l’article 8 du
+   projet de loi relatif aux obligations d’interopérabilité des services
+   d’informatique en nuage.
+
+   Elle préconise notamment de préciser certaines notions dans l’article
+   de loi comme celles d’interopérabilité et de portabilité, de s’assurer
+   de leur cohérence avec le futur Data Act, et invite à concentrer
+   l’action du régulateur sur les services IaaS.
+
+Recommandation n°5-S’assurer de la bonne articulation des mesures liées à
+l’interopérabilité et à la portabilité avec le futur règlement sur les
+données
+
+   L’Autorité partage le constat du Gouvernement d’un fonctionnement du
+   marché qui ne permet pas actuellement aux clients de recourir
+   facilement à des offres tierces d’informatique en nuage. Le futur
+   règlement sur les données comprendra vraisemblablement des mesures
+   ciblées visant à améliorer l’interopérabilité et la portabilité dans le
+   secteur et il conviendrait, à la fois pour des raisons d’efficacité et
+   pour éviter le risque de contrariété de la loi française et des
+   dépenses inutiles pour les entreprises françaises, d’attendre son
+   adoption. Par ailleurs, des précisions importantes concernant les
+   obligations de portabilité et d’interopérabilité, la mise en place de
+   standards et de spécifications techniques ouvertes ou le contenu
+   d’offres de référence sont renvoyées à des décrets ce qui ne permet
+   pas, dans le cadre de cet avis, d’en analyser les aspects
+   concurrentiels.
+
+   Dès lors, l’Autorité recommande de :
+
+   - préciser les notions centrales dans  l’article de loi et s’assurer
+   qu’elles sont cohérentes avec le futur règlement sur les données ;
+
+   - inviter l’Arcep à concentrer ses travaux sur les services IaaS, plus
+   homogènes, ce qui permettrait, compte tenu du temps imparti, de
+   garantir une meilleure proportionnalité par rapport à des obligations
+   communes à l’ensemble de services ;
+
+   - s’assurer que les missions et pouvoirs de l’Arcep respectent les
+   limites fixées par le futur règlement.
+
+   ^[57][1] « Les termes d’avoir d’informatique en nuage ne sont pas les
+   plus usités par les entreprises actives sur le secteur du cloud, qui
+   utilisent plutôt les termes de « crédits cloud ». Les crédits cloud
+   sont des offres d’essai qui prennent la forme d’allocations de services
+   proposées par un fournisseur, octroyant un accès gratuit à un client
+   dans un délai défini. En pratique, à la différence d’un essai gratuit,
+   il s’agit d’une somme à dépenser sous forme de crédit sur facture
+   octroyé avant usage »
+
+23-A-05 du 20 avril 2023
+
+   concernant le projet de loi visant à sécuriser et réguler l’espace
+   numérique
+   [58]Consulter le texte intégral
+
+Contact(s)
+
+   Maxence Lepinoy
+   Chargé de communication, responsable des relations avec les médias
+   06 21 91 77 11
+   [59]Contacter par mail
+   Virginie Guin
+   Directrice de la communication
+   01 55 04 02 62
+   [60]Contacter par mail
+
+Projet de loi visant à sécuriser et réguler l’espace numérique
+
+   [61]Télécharger - PDF - 268.99 ko
+   [62]Imprimer la page
+     __________________________________________________________________
+
+     * [63]Contact
+     * [64]Nous rejoindre
+     * [65]Plan du site
+     * [66]Aide et Accessibilité
+
+     * [67]Crédits et mentions légales
+     * [68]Réseau européen de la concurence (ECN)
+     * [69]International Competition Network (ICN)
+     * [70]OCDE
+
+     * [71]Accès aux documents administratifs
+     * [72]Données personnelles
+     * [73]Gestion des cookies
+     * [74]Marchés publics & achats responsables
+     * [75]Rapport social unique
+
+     * [76](nouvelle fenêtre)
+       X
+     * [77](nouvelle fenêtre)
+       LinkedIn
+     * [78](nouvelle fenêtre)
+       YouTube
+     * [79](nouvelle fenêtre)
+       Instagram
+     * [80](nouvelle fenêtre)
+       Mastodon
+     * [81](nouvelle fenêtre)
+       Thread
+     * [82](nouvelle fenêtre)
+       Bluesky
+
+   (BUTTON) Fermer
+
+Références
+
+   1. https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/informatique-en-nuage-cloud-lautorite-de-la-concurrence-emet-un-avis-sur
+   2. https://www.autoritedelaconcurrence.fr/en/press-release/cloud-computing-autorite-de-la-concurrence-issues-opinion-certain-provisions-draft
+   3. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-44.html#main-content
+   4. file:///fr
+   5. file:///fr/communiques-de-presse/informatique-en-nuage-cloud-lautorite-de-la-concurrence-emet-un-avis-sur
+   6. file:///en/press-release/cloud-computing-autorite-de-la-concurrence-issues-opinion-certain-provisions-draft
+   7. file:///fr/signaler-une-pratique
+   8. file:///fr/contact-guichet/signaler-une-pratique
+   9. file:///fr/demander-la-clemence
+  10. file:///fr/newsletter
+  11. file:///fr/missions
+  12. file:///fr/chiffres-cles
+  13. file:///fr/page-riche/charte-des-valeurs
+  14. file:///fr/competence-contentieuse
+  15. file:///fr/controle-des-concentrations
+  16. file:///fr/competence-consultative
+  17. file:///fr/regulation-des-professions-reglementees
+  18. file:///fr/europe-et-international
+  19. file:///fr/ecosysteme-institutionnel
+  20. file:///fr/organigramme
+  21. file:///fr/college
+  22. file:///fr/les-vertus-de-la-concurrence
+  23. file:///fr/page-riche/mon-petit-precis-de-la-concurrence
+  24. https://www.autoritedelaconcurrence.fr/fr/page-riche/les-plus-grandes-affaires
+  25. file:///fr/la-decouverte-de-la-concurrence
+  26. https://media.autoritedelaconcurrence.fr/guide-pme/
+  27. file:///fr/conformite-1
+  28. file:///fr/professions-reglementees-du-droit
+  29. file:///fr/suivi-des-recours-et-pourvois
+  30. file:///clemence-0
+  31. file:///fr/consultations-publiques-intro
+  32. file:///fr/developpement-durable-et-concurrence
+  33. file:///fr/textes-de-reference
+  34. file:///fr/comment-notifier-une-operation-de-concentration
+  35. file:///fr/controle-des-concentrations-en-cours-d-examen
+  36. file:///fr/liste-de-controle-des-concentrations
+  37. file:///fr/liste-des-decisions-et-avis
+  38. file:///fr/nos-evenements
+  39. file:///fr/actualites
+  40. file:///fr/ressources
+  41. file:///fr/publications
+  42. file:///fr/videotheque
+  43. file:///fr/page-riche/podcast
+  44. file:///fr/communiques-de-presse
+  45. file:///fr/liste-des-decisions-et-avis
+  46. file:///fr/liste-de-controle-des-concentrations
+  47. https://www.autoritedelaconcurrence.fr/fr
+  48. file:///fr/communiques-de-presse
+  49. file:///fr/communiques-de-presse?field_sector_target_id=67
+  50. https://www.autoritedelaconcurrence.fr/fr/entityprint/pdf/node/9492
+  51. https://www.twitter.com/intent/tweet?url=https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/informatique-en-nuage-cloud-lautorite-de-la-concurrence-emet-un-avis-sur&text=Informatique en nuage (« cloud ») : L’Autorité de la concurrence émet un avis sur certaines dispositions du projet de loi visant à sécuriser et réguler l’espace numérique&via=adlc_
+  52. https://www.linkedin.com/shareArticle?url=https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/informatique-en-nuage-cloud-lautorite-de-la-concurrence-emet-un-avis-sur
+  53. https://www.facebook.com/sharer.php?u=https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/informatique-en-nuage-cloud-lautorite-de-la-concurrence-emet-un-avis-sur
+  54. https://www.autoritedelaconcurrence.fr/fr/article/lautorite-se-saisit-pour-avis-afin-devaluer-la-situation-concurrentielle-dans-le-secteur-du
+  55. https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/lautorite-de-la-concurrence-ouvre-jusquau-19-septembre-2022-une-consultation
+  56. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-44.html#_ftn1
+  57. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-44.html#_ftnref1
+  58. https://www.autoritedelaconcurrence.fr/fr/avis/concernant-le-projet-de-loi-visant-securiser-et-reguler-lespace-numerique
+  59. mailto:maxence.lepinoy@autoritedelaconcurrence.fr
+  60. mailto:Virginie.GUIN@autoritedelaconcurrence.fr
+  61. file:///sites/default/files/2023-05/projetloinumerique.pdf
+  62. https://www.autoritedelaconcurrence.fr/fr/entityprint/pdf/node/9492
+  63. file:///fr/contact
+  64. https://autoritedelaconcurrence.nos-recrutements.fr/jobs?page=1
+  65. file:///fr/plan
+  66. file:///fr/aide-et-accessibilite
+  67. file:///fr/mentions-legales
+  68. http://ec.europa.eu/competition/ecn/index_en.html
+  69. https://www.internationalcompetitionnetwork.org/
+  70. http://www.oecd.org/FR/
+  71. https://www.autoritedelaconcurrence.fr/fr/page-riche/acces-aux-documents-administratifs
+  72. file:///fr/donnees-personnelles
+  73. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-44.html#tarteaucitron
+  74. file:///fr/page-riche/marches-publics-achats-responsables
+  75. file:///fr/page-riche/rapport-social-unique
+  76. https://twitter.com/Adlc_
+  77. https://www.linkedin.com/company/autorit-de-la-concurrence
+  78. https://www.youtube.com/channel/UCDAm4Nljzkphr0dc8O6HUxg
+  79. https://www.instagram.com/autoritedelaconcurrence/
+  80. https://social.numerique.gouv.fr/@adlc
+  81. https://www.threads.com/@autoritedelaconcurrence
+  82. https://bsky.app/profile/autoritedelaconcurrence.fr

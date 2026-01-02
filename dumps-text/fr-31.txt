@@ -1,0 +1,534 @@
+   #[1]alternate [2]alternate [3]alternate [4]alternate [5]alternate
+   [6]alternate [7]alternate [8]alternate [9]alternate [10]alternate
+   [11]alternate [12]alternate [13]alternate [14]alternate [15]alternate
+   [16]alternate [17]alternate [18]alternate [19]alternate [20]alternate
+   [21]alternate [22]alternate [23]alternate [24]alternate
+
+   [25]Skip to main content
+
+   [26]European Commission logo
+   [27]fr
+   Select your language
+   (BUTTON) Fermer
+     * [28]bgбългарски
+     * [29]esespañol
+     * [30]csčeština
+     * [31]dadansk
+     * [32]deDeutsch
+     * [33]eteesti
+     * [34]elελληνικά
+     * [35]enEnglish
+     * [36]frfrançais
+     * [37]gaGaeilge
+     * [38]hrhrvatski
+     * [39]ititaliano
+     * [40]lvlatviešu
+     * [41]ltlietuvių
+     * [42]humagyar
+     * [43]mtMalti
+     * [44]nlNederlands
+     * [45]plpolski
+     * [46]ptportuguês
+     * [47]roromână
+     * [48]skslovenčina
+     * [49]slslovenščina
+     * [50]fisuomi
+     * [51]svsvenska
+
+   Search ____________________
+   (BUTTON) Search
+   Bâtir l’avenir numérique de l’Europe
+
+   (BUTTON) Menu
+
+   (BUTTON) Fermer
+   Menu
+   (BUTTON) Back (BUTTON) Previous items (BUTTON) Next items
+     * [52]Accueil
+     * [53]Politiques
+     * [54]Activités
+     * [55]Actualités
+     * [56]Bibliothèque
+     * [57]Financements
+     * [58]Calendrier
+     * [59]Consultations
+     * [60]AI Office
+
+    1. [61]Accueil
+    2. (BUTTON) …
+    3. [62]Politiques
+    4. [63]Données
+    5. Informatique en nuage
+
+Informatique en nuage
+
+   (BUTTON) Close
+   Information notification
+   Cette page est une traduction automatique fournie par le service
+   eTranslation de la Commission européenne afin d’aider la compréhension.
+   Veuillez lire les [64]conditions d’utilisation. Pour lire la version
+   originale, [65]consultez la page source.
+
+   La Commission européenne vise à fournir aux entreprises et aux pouvoirs
+   publics européens un accès à des infrastructures et services en nuage
+   sûrs, durables et interopérables.
+
+   Le transfert progressif des données et des services cloud vers la
+   périphérie fait partie intégrante de l'objectif. L’informatique en
+   nuage a besoin d’infrastructures numériques sûres et durables, ainsi
+   que d’un stockage et d’une transmission sûrs des données.
+
+   Le volume mondial de données augmente très rapidement. Alors que
+   l'informatique en nuage se produit principalement dans les grands
+   centres de données aujourd'hui, d'ici 2025, cette tendance s'inversera:
+   80% de toutes les données devraient être traitées dans des appareils
+   intelligents plus proches de l'utilisateur, connus sous le nom de edge
+   computing. La disponibilité de l'informatique de périphérie et de
+   l'informatique en nuage est essentielle dans un continuum informatique
+   pour garantir que les données sont traitées de la manière la plus
+   efficace possible. Des infrastructures de périphérie et d’informatique
+   en nuage efficaces sur le plan énergétique et fiables seront
+   fondamentales pour l’utilisation durable des technologies de périphérie
+   et d’informatique en nuage.
+
+   D'ici 2025, 80% des données seront traitées à proximité de
+   l'utilisateur
+
+   Cette vaste ambition en matière d’informatique en nuage et de
+   périphérie est ancrée dans deux objectifs de la [66]décennie numérique
+   de l’UE. D’ici à 2030:
+     * 75 % des entreprises européennes devraient utiliser des
+       technologies en nuage pour leurs activités.
+     * 10 000 nœuds périphériques neutres pour le climat et hautement
+       sécurisés seront déployés dans toute l’Europe. Ils fourniront la
+       connectivité nécessaire et permettront des transferts de données
+       rapides.
+
+
+   Les dernières données d’Eurostat indiquent qu’en 2023, 45,2 % des
+   entreprises ont utilisé des services en nuage (+4,2 points de
+   pourcentage par rapport à 2021), mais constate que l’adoption varie
+   considérablement selon la taille: 77,6 % des grandes entreprises, 59 %
+   des moyennes entreprises et 41,7 % des petites entreprises ont utilisé
+   des services cloud.
+
+   Le [67]rapport de données de déploiement Edge Observatory 4 de 2024
+   (PDF) indique que le déploiement de nœuds est passé de 498 en 2022 à
+   environ 1 836 en 2024.
+
+   Pour atteindre ces objectifs, nous avons besoin d'un large éventail de
+   mesures, qui reflètent la complexité et l'importance stratégique du
+   sujet. La Commission a donc mis en œuvre tous les outils à sa
+   disposition résultant de la stratégie européenne pour les données, de
+   la stratégie numérique, de la décennie numérique, de la stratégie
+   industrielle et des programmes d’investissement numérique.
+
+Proposition de règlement sur le développement de l’informatique en nuage et
+de l’IA
+
+   En 2025, la Commission proposera le règlement sur le développement de
+   l’informatique en nuage et de l’IA, dans le but de tripler au moins la
+   capacité d’un centre de données de l’UE au cours des cinq à sept
+   prochaines années et de répondre pleinement aux besoins des entreprises
+   et des administrations publiques de l’UE d’ici à 2035. La loi
+   rationalisera le déploiement des centres de données en identifiant les
+   sites appropriés et en simplifiant les processus d’octroi de permis
+   pour les projets répondant aux critères de durabilité et d’innovation.
+   Simultanément, il répondra à la demande croissante d'énergie en
+   promouvant l'efficacité énergétique, l'adoption de technologies
+   innovantes de refroidissement et de gestion de l'énergie et
+   l'intégration des centres de données dans le système énergétique plus
+   large.
+
+   Afin de renforcer la souveraineté numérique de l’Europe dans le secteur
+   de l’informatique en nuage, le règlement travaillera en tandem avec une
+   proposition de politique unique en matière d’informatique en nuage à
+   l’échelle de l’UE pour les administrations publiques et les marchés
+   publics. Cette approche combinée favorisera la croissance des
+   fournisseurs européens d’informatique en nuage et donnera la priorité à
+   l’utilisation de capacités d’informatique en nuage hautement sécurisées
+   pour des cas d’utilisation hautement critiques.
+
+Stratégie européenne en matière de données
+
+   Les actions proposées dans la stratégie de l’UE en matière de données
+   faciliteront le passage à la périphérie, tout en développant des
+   services d’informatique en nuage et de périphérie interopérables pour
+   soutenir la construction d’espaces européens communs des données. Les
+   utilisateurs et les fournisseurs doivent se sentir en sécurité
+   lorsqu'ils passent au cloud et bénéficier d'un niveau élevé de
+   concurrence sur le marché. Les actions qui contribuent à la réalisation
+   de ces objectifs sont les suivantes:
+     * Investir dans un [68]projet important d’intérêt européen commun
+       (PIIEC) qui fédérera des infrastructures en nuage et des services
+       connexes efficaces sur le plan énergétique et fiables.
+     * [69]Simpl, un middleware open source, durable et sécurisé qui
+       permettra aux fédérations cloud-to-edge d’être le logiciel de base
+       alimentant les espaces de données autrement financés par l’UE.
+     * L’UE prévoit de compiler un ensemble de règles, sous la forme d’un
+       recueil de règles de l’UE sur l’informatique en nuage et
+       d’orientations sur les marchés publics de services de traitement de
+       données. Le corpus réglementaire fournira un cadre européen unique
+       contenant des règles contraignantes et non contraignantes pour les
+       utilisateurs et les fournisseurs de services en nuage en Europe.
+       Afin d’accroître l’efficacité et la qualité des marchés publics de
+       services de traitement des données en Europe, les orientations
+       proposeront des recommandations pour la mise en œuvre de politiques
+       nationales cohérentes, complétées par un ensemble complet de
+       critères essentiels pour les services de traitement des données à
+       prendre en considération par les organismes du secteur public au
+       cours de la procédure d’appel d’offres.
+     * Dans le cadre du règlement sur la cybersécurité, l’Agence
+       européenne pour la cybersécurité (ENISA) travaille à un [70]système
+       européen de certification de cybersécurité pour les services en
+       nuage (EUCS). Le système fournira aux entreprises, aux
+       administrations publiques et aux citoyens une assurance accrue que
+       leurs données sont sécurisées quel que soit l'endroit où elles sont
+       stockées ou traitées.
+     * Un marché de l’informatique en nuage équitable et compétitif dans
+       le cadre du [71]règlement sur les données: En s'attaquant au
+       verrouillage des fournisseurs, le Data Act vise à rendre le passage
+       entre différents fournisseurs de services cloud rapide, gratuit et
+       technologiquement fluide. Elle vise également à renforcer
+       l’interopérabilité et prévoit des garanties en matière de
+       transferts internationaux de données.
+     * Protection des données dans le cloud:  la Commission a facilité la
+       mise en place d’une plateforme permettant à l’industrie d’élaborer
+       deux codes de conduite pour la protection des données dans
+       l’informatique en nuage. De plus amples informations sur le
+       traitement des données à caractère personnel et non personnel dans
+       le nuage figurent dans les [72]orientations de la Commission sur
+       les ensembles de données mixtes.
+     * Le règlement sur la[73]libre circulation des données à caractère
+       non personnel,qui, avec le règlement général sur la protection des
+       données, renforce la sécurité juridique pour les utilisateurs de
+       l’informatique en nuage en garantissant la libre circulation de
+       toutes les données dans l’UE.
+
+   Une cartographie européenne des flux de données permettra d’évaluer le
+   volume et la valeur économique des [74]flux de données vers l’économie
+   numérique européenne et apportera des informations précieuses aux
+   entreprises.
+
+Stratégie numérique
+
+   L’informatique en nuage et en périphérie fera partie des technologies
+   numériques qui contribueront aux objectifs de durabilité du [75]pacte
+   vert pour l’Europe en soutenant de nouvelles solutions numériques. Dans
+   le même temps, la Commission s’emploie à renforcer la durabilité de
+   l’informatique en nuage et de l’informatique de périphérie, notamment
+   au moyen de mesures ciblant l’utilisation efficace des ressources des
+   centres de données afin d’atteindre l’objectif selon lequel «d’ici à
+   2030, les centres de données doivent être neutres pour le climat et
+   hautement économes en énergie». Les exemples actuels sur la manière d’y
+   parvenir sont les suivants: l’inclusion des centres de données dans la
+   [76]taxinomie de l’UE pour les activités durables, les nouvelles
+   dispositions de la [77]directive sur l’efficacité énergétique, [78]les
+   critères relatifs aux marchés publics écologiques ou le [79]code de
+   conduite pour les centres de données économes en énergie.  
+
+Décennie numérique
+
+   Outre les deux objectifs concernant l’adoption de l’informatique en
+   nuage par les entreprises et l’augmentation du nombre de nœuds
+   périphériques, l’UE investira dans des projets multinationaux. Le PIIEC
+   sur les services d’informatique en nuage et de périphérie de nouvelle
+   génération fait partie d’un projet multinational sur l’infrastructure
+   et les services européens communs de données dans le cadre du programme
+   d’action pour la décennie numérique. Il travaillera en étroite
+   collaboration avec l’éventuel consortium pour une infrastructure
+   numérique européenne (EDIC) pour des espaces européens communs
+   sectoriels des données.
+
+   Les investissements dans des technologies nouvelles et transversales à
+   la pointe de l’informatique en nuage contribueront à construire la
+   prochaine génération d’infrastructures à la pointe de l’informatique en
+   nuage, y compris pour permettre la création d’espaces européens communs
+   des données. Les nouveaux services en nuage devront répondre à des
+   exigences élevées en matière de protection des données, de performance,
+   de résilience et d’efficacité énergétique. Les services et les
+   infrastructures devront répondre aux futurs besoins de numérisation de
+   l'industrie et du secteur public. L’UE réalise des investissements
+   concrets dans ces domaines en développant l’informatique en nuage et de
+   périphérie ainsi que l’open source en Europe par l’intermédiaire des
+   programmes de financement [80]de l’UE Horizon Europe, [81]du programme
+   DIGITAL Europe , du [82]mécanisme pour l’interconnexion en Europe
+   (MIE).
+
+   Voir aussi [83]Investir dans le Cloud, l'Edge et l'Internet des Objets
+
+Stratégie industrielle
+
+   L’Alliance [84]européenne pour les données industrielles, la périphérie
+   et l’informatique en nuage vise à façonner la prochaine génération de
+   services et d’infrastructures en nuage et en périphérie sûrs, à faibles
+   émissions de carbone et interopérables. Grâce à cette plate-forme de
+   coopération industrielle, les parties publiques et privées travaillent
+   ensemble sur, entre autres, la feuille de route des investissements,
+   ainsi que les règles de passation des marchés publics pour le cloud.
+
+
+   [85]Abonnez-vous aux dernières nouvelles sur ce sujet et plus encore
+
+   [86]Brochure sur l’informatique en nuage (janvier 2021)
+   [87]Alliance européenne pour les données industrielles, la périphérie
+   et le cloud
+   [88]Déclaration commune sur le nuage
+
+   Nous suivre
+     * [89]Suivez @CnectCloud pour des mises à jour sur les politiques de
+       la Commission en matière d’informatique en nuage
+
+Dernières nouvelles
+
+   EU flag - 12 yellow stars forming a circle over a blue background
+     * Communiqué de presse
+     * 10 septembre 2025
+
+   [90]État de l’Union 2025: Moment d’indépendance de l’Europe
+
+   Dans son discours sur l’état de l’Union du 10 septembre 2025, la
+   présidente de la Commission européenne, Ursula von der Leyen, a partagé
+   les principales priorités et les projets phares pour l’année à venir,
+   en s’appuyant sur les progrès accomplis par l’UE ces dernières années.
+
+   Commission opens calls to invest over €176 million in digital
+   capacities and tech
+     * Communiqué de presse
+     * 01 mars 2024
+
+   [91]la Commission lance un appel à investir plus de 176 millions
+   d’euros dans les capacités numériques et les technologies
+
+   La Commission européenne a ouvert une nouvelle série d’appels à
+   propositions au titre des programmes de travail 2023-2024 du programme
+   pour une Europe numérique afin de renforcer les capacités numériques
+   dans l’ensemble de l’UE. Ces appels sont ouverts aux entreprises, aux
+   administrations publiques et à d’autres entités des États membres de
+   l’UE, des pays de l’AELE/EEE et des pays associés. Le budget alloué à
+   cet ensemble d'appels s'élève à plus de 176 millions d'euros.
+
+     * Press release
+     * 01 mars 2024
+
+   [92]Commission makes first payment of €202 million to Finland under the
+   Recovery Facility
+
+   The European Commission opened a new set of calls for proposals under
+   the 2023-2024 Work Programmes of the Digital Europe Programme to
+   strengthen digital capacities across EU. These calls are open to
+   businesses, public administrations, and other entities from the EU
+   Member States, EFTA/EEA countries, and associated countries. The budget
+   for this set of calls is over €176 million.
+
+   Commission awards €41 million contract to develop infrastructure for
+   Common European Data Spaces
+     * Press release
+     * 14 décembre 2023
+
+   [93]Commission awards €41 million contract to develop infrastructure
+   for Common European Data Spaces
+
+   The Commission has selected a consortium that will develop ‘Simpl' – a
+   secure middleware platform that will support data access and
+   interoperability among European data spaces, unleashing the power of
+   data-driven innovation.
+   [94]Parcourir Informatique en nuage
+
+Contenu associé
+
+Vue d’ensemble
+
+   [95]Données
+
+   Les données sont partout et croissent à un rythme sans précédent. Afin
+   de tirer pleinement parti des données, la Commission a adopté des
+   stratégies visant à libérer l’innovation et la compétitivité.
+
+Aller plus loin
+
+     *
+   Edge Observatory
+          +
+       [96]Edge Observatory pour la décennie numérique
+       L’Observatoire européen des nœuds périphériques suit l’évolution du
+       paysage et de l’écosystème des...
+     *
+   Logo for the alliance
+          +
+       [97]Alliance européenne pour les données industrielles, la
+       périphérie et le cloud
+       L’Alliance européenne pour les données industrielles, la périphérie
+       et l’informatique en nuage vise...
+     *
+   " "
+          +
+       [98]Cloud vert et centres de données verts
+       La Commission étudie des mesures visant à améliorer l’efficacité
+       énergétique et les performances de...
+     __________________________________________________________________
+
+Last update
+
+   21 octobre 2025
+     __________________________________________________________________
+
+   [99]Imprimer en PDF
+
+   [100]Bâtir l’avenir numérique de l’Europe
+   This site is managed by:
+   Direction générale des réseaux de communication, du contenu et des
+   technologies
+     * [101]Accessibilité
+
+   Nous contacter
+     * [102]Contacter la DG CONNECT
+
+   Nous suivre
+     * [103]Digital EU sur Facebook
+     * [104]Digital EU sur Instagram
+     * [105]Digital EU sur LinkedIn
+     * [106]Digital EU sur Youtube
+     * [107]@DigitalEU sur Twitter
+
+   À propos
+     * [108]Déclaration de confidentialité
+     * [109]Droits d'auteur
+     * [110]À propos de la direction générale CONNECT
+     * [111]Les langues sur notre site
+     * [112]Déclaration sur l'accessibilité
+
+   [113]European Commission logo
+     * [114]Contacter la Commission européenne
+     * [115]Suivre la Commission européenne sur les médias sociaux
+     * [116]Ressources pour les partenaires
+     * [117]Signaler une vulnérabilité informatique
+
+     * [118]Les langues sur nos sites web
+     * [119]Cookies
+     * [120]Protection de la vie privée
+     * [121]Avis juridique
+
+Références
+
+   1. https://digital-strategy.ec.europa.eu/bg/policies/cloud-computing
+   2. https://digital-strategy.ec.europa.eu/es/policies/cloud-computing
+   3. https://digital-strategy.ec.europa.eu/cs/policies/cloud-computing
+   4. https://digital-strategy.ec.europa.eu/da/policies/cloud-computing
+   5. https://digital-strategy.ec.europa.eu/de/policies/cloud-computing
+   6. https://digital-strategy.ec.europa.eu/et/policies/cloud-computing
+   7. https://digital-strategy.ec.europa.eu/el/policies/cloud-computing
+   8. https://digital-strategy.ec.europa.eu/en/policies/cloud-computing
+   9. https://digital-strategy.ec.europa.eu/fr/policies/cloud-computing
+  10. https://digital-strategy.ec.europa.eu/ga/policies/cloud-computing
+  11. https://digital-strategy.ec.europa.eu/hr/policies/cloud-computing
+  12. https://digital-strategy.ec.europa.eu/it/policies/cloud-computing
+  13. https://digital-strategy.ec.europa.eu/lv/policies/cloud-computing
+  14. https://digital-strategy.ec.europa.eu/lt/policies/cloud-computing
+  15. https://digital-strategy.ec.europa.eu/hu/policies/cloud-computing
+  16. https://digital-strategy.ec.europa.eu/mt/policies/cloud-computing
+  17. https://digital-strategy.ec.europa.eu/nl/policies/cloud-computing
+  18. https://digital-strategy.ec.europa.eu/pl/policies/cloud-computing
+  19. https://digital-strategy.ec.europa.eu/pt/policies/cloud-computing
+  20. https://digital-strategy.ec.europa.eu/ro/policies/cloud-computing
+  21. https://digital-strategy.ec.europa.eu/sk/policies/cloud-computing
+  22. https://digital-strategy.ec.europa.eu/sl/policies/cloud-computing
+  23. https://digital-strategy.ec.europa.eu/fi/policies/cloud-computing
+  24. https://digital-strategy.ec.europa.eu/sv/policies/cloud-computing
+  25. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-31.html#main-content
+  26. https://commission.europa.eu/index_fr
+  27. https://digital-strategy.ec.europa.eu/fr/policies/cloud-computing
+  28. https://digital-strategy.ec.europa.eu/bg/policies/cloud-computing
+  29. https://digital-strategy.ec.europa.eu/es/policies/cloud-computing
+  30. https://digital-strategy.ec.europa.eu/cs/policies/cloud-computing
+  31. https://digital-strategy.ec.europa.eu/da/policies/cloud-computing
+  32. https://digital-strategy.ec.europa.eu/de/policies/cloud-computing
+  33. https://digital-strategy.ec.europa.eu/et/policies/cloud-computing
+  34. https://digital-strategy.ec.europa.eu/el/policies/cloud-computing
+  35. https://digital-strategy.ec.europa.eu/en/policies/cloud-computing
+  36. https://digital-strategy.ec.europa.eu/fr/policies/cloud-computing
+  37. https://digital-strategy.ec.europa.eu/ga/policies/cloud-computing
+  38. https://digital-strategy.ec.europa.eu/hr/policies/cloud-computing
+  39. https://digital-strategy.ec.europa.eu/it/policies/cloud-computing
+  40. https://digital-strategy.ec.europa.eu/lv/policies/cloud-computing
+  41. https://digital-strategy.ec.europa.eu/lt/policies/cloud-computing
+  42. https://digital-strategy.ec.europa.eu/hu/policies/cloud-computing
+  43. https://digital-strategy.ec.europa.eu/mt/policies/cloud-computing
+  44. https://digital-strategy.ec.europa.eu/nl/policies/cloud-computing
+  45. https://digital-strategy.ec.europa.eu/pl/policies/cloud-computing
+  46. https://digital-strategy.ec.europa.eu/pt/policies/cloud-computing
+  47. https://digital-strategy.ec.europa.eu/ro/policies/cloud-computing
+  48. https://digital-strategy.ec.europa.eu/sk/policies/cloud-computing
+  49. https://digital-strategy.ec.europa.eu/sl/policies/cloud-computing
+  50. https://digital-strategy.ec.europa.eu/fi/policies/cloud-computing
+  51. https://digital-strategy.ec.europa.eu/sv/policies/cloud-computing
+  52. file:///fr/shaping-europes-digital-future
+  53. file:///fr/policies
+  54. file:///fr/activities
+  55. file:///fr/news
+  56. file:///fr/library
+  57. file:///fr/funding
+  58. file:///fr/events
+  59. file:///fr/consultations
+  60. file:///fr/policies/ai-office
+  61. file:///fr
+  62. file:///fr/policies
+  63. file:///fr/policies/data
+  64. https://ec.europa.eu/info/use-machine-translation-europa-exclusion-liability_en
+  65. file:///en/policies/cloud-computing
+  66. https://digital-strategy.ec.europa.eu/en/policies/europes-digital-decade
+  67. https://ec.europa.eu/newsroom/dae/redirection/document/109708
+  68. https://ec.europa.eu/commission/presscorner/detail/en/IP_21_6245
+  69. https://digital-strategy.ec.europa.eu/en/news/simpl-cloud-edge-federations-and-data-spaces-made-simple
+  70. https://digital-strategy.ec.europa.eu/en/news/towards-more-secure-and-trusted-cloud-europe
+  71. https://digital-strategy.ec.europa.eu/en/library/data-act-factsheet
+  72. https://digital-strategy.ec.europa.eu/en/library/practical-guidance-businesses-how-process-mixed-datasets
+  73. https://digital-strategy.ec.europa.eu/en/policies/non-personal-data
+  74. https://digital-strategy.ec.europa.eu/en/policies/european-data-flow-monitoring
+  75. https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
+  76. https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en
+  77. https://www.consilium.europa.eu/en/press/press-releases/2023/03/10/council-and-parliament-strike-deal-on-energy-efficiency-directive/
+  78. https://susproc.jrc.ec.europa.eu/product-bureau/sites/default/files/contentype/product_group_documents/1581689429/Draft_Technical_Report_EU-GPP_Data-Centres-v2.0_JRC_May2018.pdf
+  79. https://e3p.jrc.ec.europa.eu/communities/data-centres-code-conduct
+  80. https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en
+  81. https://digital-strategy.ec.europa.eu/en/activities/digital-programme
+  82. https://cinea.ec.europa.eu/programmes/connecting-europe-facility_en#:~:text=The Connecting Europe Facility (CEF,and upgrading the existing one.
+  83. https://digital-strategy.ec.europa.eu/en/policies/iot-investing#tab_3
+  84. https://digital-strategy.ec.europa.eu/en/policies/cloud-alliance
+  85. https://ec.europa.eu/newsroom/dae/user-subscriptions/2544/create
+  86. https://digital-strategy.ec.europa.eu/en/library/cloud-and-edge-computing-different-way-using-it-brochure
+  87. https://digital-strategy.ec.europa.eu/en/policies/cloud-alliance
+  88. https://digital-strategy.ec.europa.eu/en/news/commission-welcomes-member-states-declaration-eu-cloud-federation
+  89. https://twitter.com/cnectcloud?lang=en
+  90. file:///fr/news/state-union-2025-europes-independence-moment
+  91. file:///fr/news/commission-opens-calls-invest-over-eu176-million-digital-capacities-and-tech
+  92. file:///en/news/commission-makes-first-payment-eu202-million-finland-under-recovery-facility
+  93. file:///en/news/commission-awards-eu41-million-contract-develop-infrastructure-common-european-data-spaces
+  94. file:///fr/related-content?topic=73
+  95. file:///fr/policies/data
+  96. file:///fr/policies/edge-observatory
+  97. file:///fr/policies/cloud-alliance
+  98. file:///fr/policies/green-cloud
+  99. file:///fr/node/68/printable/pdf
+ 100. https://digital-strategy.ec.europa.eu/fr
+ 101. file:///fr/pages/accessibility
+ 102. file:///nous-ecrire
+ 103. https://www.facebook.com/DigitalEU
+ 104. https://www.instagram.com/DigitalEU/
+ 105. https://www.linkedin.com/showcase/digital-eu/
+ 106. https://www.youtube.com/c/DigitalEU
+ 107. https://twitter.com/DigitalEU
+ 108. https://digital-strategy.ec.europa.eu/fr/pages/legal-notice#ecl-inpage-km0gfb8o
+ 109. https://digital-strategy.ec.europa.eu/fr/pages/legal-notice#ecl-inpage-km0gezfs
+ 110. https://ec.europa.eu/info/departments/communications-networks-content-and-technology_fr
+ 111. https://digital-strategy.ec.europa.eu/fr/policies/legal-notice#ecl-inpage-kyoexp6k
+ 112. https://digital-strategy.ec.europa.eu/fr/pages/accessibility
+ 113. https://commission.europa.eu/index_fr
+ 114. https://commission.europa.eu/about-european-commission/contact_fr
+ 115. https://european-union.europa.eu/contact-eu/social-media-channels_fr#/search?page=0&institutions=european_commission
+ 116. https://commission.europa.eu/resources-partners_fr
+ 117. https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_fr
+ 118. https://commission.europa.eu/languages-our-websites_fr
+ 119. https://commission.europa.eu/cookies_fr
+ 120. https://commission.europa.eu/privacy-policy_fr
+ 121. https://commission.europa.eu/legal-notice_fr

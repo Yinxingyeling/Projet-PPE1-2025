@@ -1,0 +1,39 @@
+   Nouvelles
+
+Nuages et réchauffement terrestre : un effet surprenant
+
+   La réduction de la couverture nuageuse basse freine naturellement
+   l’augmentation de la température causée par les gaz à effet de serre
+   Publié: 15 January 2025
+--
+
+   Des scientifiques de l’Université McGill [14]ont découvert que les
+   modifications de la couverture nuageuse atténuent légèrement le
+   réchauffement climatique. Si les gaz à effet de serre continuent
+   d’entraîner une hausse des températures, une réduction de la couverture
+--
+   avons effectivement observé cette incidence, mais, étonnamment, nous
+   avons également détecté un effet compensateur des modifications de la
+   couverture nuageuse. »
+
+   « Sans ces modifications des nuages, la surface terrestre se
+   réchaufferait encore plus rapidement, explique Lei Liu, étudiant au
+   premier cycle au Département des sciences atmosphériques et océaniques
+   de l’Université McGill et principal auteur de l’étude. Ces travaux
+   livrent une vérité fondée sur l’observation de l’incidence des nuages
+   sur le réchauffement qui peut être utilisée pour améliorer les modèles
+   climatiques et orienter les politiques environnementales »,
+--
+   et des modèles climatiques. L’équipe a également appliqué une technique
+   conçue par Yi Huang et Lei Liu. Appelée « empreinte spectrale optimale
+   », cette technique permet d’isoler l’incidence des nuages de celle des
+   autres processus atmosphériques.
+
+   L’équipe de recherche s’est concentrée sur le rayonnement de grande
+   longueur d’onde, soit l’énergie thermique qu’émet la Terre dans
+   l’atmosphère. Normalement, les nuages bloquent une partie de cette
+   énergie, ce qui a pour effet de la renvoyer vers le sol. Cependant,
+   dans certaines régions, le réchauffement climatique diminue la
+   formation de nuages, lesquels contribuent à réduire la chaleur.
+
+   Le Département des sciences atmosphériques et océaniques de McGill

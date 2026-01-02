@@ -1,0 +1,133 @@
+               o [40]Les précipitations
+               o [41]Les orages
+               o [42]Les nuages
+               o [43]Arc-en-ciel et mirage
+               o [44]Les océans
+--
+               o [82]Les précipitations
+               o [83]Les orages
+               o [84]Les nuages
+               o [85]Arc-en-ciel et mirage
+               o [86]Les océans
+--
+     * Le lien a été copié
+
+   Les nuages Cirrus fibratus.
+
+   © Daniel Goetz - Météo-France
+
+Comment se forme un nuage ?
+
+   02/10/2025
+
+   Les nuages se forment par condensation de vapeur d'eau, c'est-à-dire
+   par passage de l'eau qu'ils contiennent de l'état gazeux à l'état
+   liquide. Mais dans quelles conditions cette vapeur d'eau peut-elle
+   passer sous forme liquide, c'est-à-dire former des gouttelettes ?
+
+Formation des nuages
+
+   Pour le comprendre, il faut savoir qu'une masse d'air ne peut contenir
+--
+   former des gouttelettes.
+
+   Dans l'atmosphère, les nuages se forment donc par refroidissement d'une
+   masse d'air humide. Ce refroidissement est provoqué soit par contact
+   avec une surface plus froide, soit – le plus souvent – par soulèvement
+--
+
+   Voici les principaux mécanismes de refroidissement à l'origine de la
+   formation des nuages.
+     * La convection : l'air présent au voisinage d'un sol chaud se
+       réchauffe à son contact et se dilate. Plus léger, il monte dans
+       l'atmosphère avant de se refroidir en altitude pour former des
+       nuages. Ces nuages de convection, apparaissent d'autant plus
+       facilement qu'il y a de l'air froid en altitude (masse d'air
+       instable). Leur base est horizontale, l'altitude et la forme de
+--
+       de la pente. En prenant de l'altitude, sa température s'abaisse et
+       peut atteindre le seuil de saturation, c'est-à-dire qu'une partie
+       de l'eau gazeuse qu'elle contient va se condenser. Un nuage se
+       forme alors sur le versant « au vent » et se dissipe sur le versant
+       « sous le vent ».
+--
+   Le soulèvement orographique. © Météo-France.
+
+   Derrière la montagne, l'air se réchauffe en descendant. Si le nuage a
+   perdu une partie de son humidité sous forme de précipitations, l'air se
+   réchauffe plus en descendant qu'il ne s'est refroidi en montant. À
+   altitude égale, il sera plus chaud sous le vent de la montagne qu'au
+   vent. C'est l'effet de Foehn.
+     * Le soulèvement frontal : des nuages peuvent aussi se former au
+       niveau d'un front, c'est-à-dire à l'interface entre deux masses
+       d'air de températures différentes. Dans une perturbation en
+--
+       par la progression plus rapide de l'air froid postérieur (front
+       froid). Cet air chaud se refroidit en altitude et donne naissance à
+       des nuages le long des fronts.
+
+   [132]Le soulèvement frontal. © Météo-France.
+--
+   Le soulèvement frontal. © Météo-France.
+     * Le refroidissement par la base : ce mécanisme conduit à la
+       formation de nuages bas ou brouillard lorsque une masse d'air doux
+       circule au-dessus d'une surface plus froide. Ce mécanisme est
+       fréquent sur terre l'hiver à l'approche d'une masse d'air doux et
+--
+Les changements d'état de l'eau
+
+   Les changements d'état de l'eau : dans un nuage, tous les états peuvent
+   coexister, en fonction des conditions de température et de pression qui
+   règnent au sein du nuage. Pour que la sublimation, la fusion et
+   l'évaporation se produisent, il faut fournir de l'énergie au système. À
+   l'inverse, la condensation solide, la congélation et la condensation
+--
+          + [163]Les précipitations
+          + [164]Les orages
+          + [165]Les nuages
+          + [166]Arc-en-ciel et mirage
+          + [167]Les océans
+--
+
+     *
+   [Nuages-altocumulus%20floccus-Michel%20Hontarrede.JPG?itok=t872KhPD]
+
+Qu'est-ce qu'un nuage ?
+       28/02/2020
+       Blancs ou gris, discrets ou menaçants, aux formes variées et aux
+       couleurs changeantes, les nuages font souvent rêver, parfois
+       pester. Cirrus, cumulus et autres stratus, nous les voyons tous les
+       jours sans vraiment les regarder. Mais c’est quoi en fait un
+       nuage ?
+     *
+   [Altocumulus-floccus-Francois%20Vinit.jpg?itok=KwFY9sKs]
+
+Les différents types de nuages
+       24/10/2024
+       Les nuages sont classés en dix genres selon leur forme et
+       l'altitude de leur base.
+     *
+   [cumulonimbus_cotopaxim.jpg?itok=gbpBKB6M]
+
+Combien pèse un nuage ?
+       14/12/2025
+       Un nuage est composé de gouttelettes d’eau et/ou de cristaux en
+       suspension dans l’atmosphère. La forme, la couleur et la taille
+       d’un nuage varient selon les conditions atmosphériques.
+     *
+   [mer-nuages.jpg?itok=exwNcj5n]
+
+La mer de nuages
+       08/08/2024
+       Une mer de nuages est une couche de nuages bas, constituée de
+       stratus, qui peut se former dans les vallées, le plus souvent lors
+       de conditions anticycloniques d’hiver.
+--
+ 196. file://localhost/actualites-et-dossiers/actualites/montagne-de-la-neige-fraiche-pour-la-nouvelle-annee
+ 197. file://localhost/comprendre-la-meteo/temperatures/quest-ce-quune-vague-de-froid
+ 198. file://localhost/comprendre-la-meteo/nuages/quest-ce-quun-nuage
+ 199. file://localhost/comprendre-la-meteo/nuages/les-differents-types-de-nuages
+ 200. file://localhost/actualites-et-dossiers/actualites/combien-pese-un-nuage
+ 201. file://localhost/actualites-et-dossiers/comprendre-la-meteo/la-mer-de-nuages
+ 202. file://localhost/previsions-meteo-france/paris/75000
+ 203. file://localhost/previsions-meteo-france/toulouse/31000

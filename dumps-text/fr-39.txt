@@ -1,0 +1,540 @@
+   #[1]alternate
+
+   [2]Aller au contenu principal
+
+   (BUTTON) [3][logo.png]
+   (BUTTON)
+   [4]Particuliers[5]Professionnels[6]Presse
+   [7]Fr[8]En[9]Gestionnaire de cookies
+   [10]Accueil
+   [11]Particuliers[12]Professionnels[13]Presse
+     * (BUTTON) Ma conformité au RGPD
+          + [14]Comprendre le RGPD
+               o [15]Qu'est-ce que le RGPD ?
+               o [16]Les six grands principes du RGPD
+               o [17]Rôles et responsabilités des acteurs
+               o [18]MOOC - L'atelier RGPD
+               o [19]L'accompagnement de la CNIL
+               o [20]Les journées RGPD
+               o [21]Les webinaires de la CNIL
+               o [22]Le contrôle de la CNIL
+          + [23]Me mettre en conformité
+               o [24]Par où commencer ?
+               o [25]Créer un registre des traitements
+               o [26]Choisir une base légale
+               o [27]Choisir une durée de conservation
+               o [28]Mettre en place un délégué (DPO)
+               o [29]Travailler avec un sous-traitant
+               o [30]Anonymiser les données
+               o [31]Sécuriser les données
+               o [32]Transférer des données hors UE
+               o [33]La transmission de données aux tiers autorisés
+          + [34]Respecter les droits des personnes
+               o [35]Quelles sont les règles ?
+               o [36]Les droits des personnes sur leurs données
+               o [37]Informer les personnes
+               o [38]Exemples de mentions d'information
+               o [39]Répondre aux demandes d'exercice des droits
+          + [40]Outils spécifiques
+               o [41]L'analyse d'impact (AIPD)
+               o [42]Les cadres de référence
+               o [43]Les règles d'entreprise contraignantes (BCR)
+               o [44]Le code de conduite
+               o [45]La certification
+          + [46]Services en ligne
+               o [47]Poser une question à la CNIL
+               o [48]Désigner un délégué (DPO)
+               o [49]Notifier une violation de données
+               o [50]Déclarer un fichier
+               o [51]Soumettre une analyse d'impact (AIPD)
+               o [52]Soumettre un projet de BCR
+               o [53]Soumettre un code de conduite
+               o [54]Soumettre une demande d'agrément
+               o [55]Soumettre un mécanisme de certification
+          + [56]Questions-réponses
+          + (BUTTON) Fermer
+     * (BUTTON) Ressources
+          + [57]Acteurs et secteurs
+               o [58]Affaires publiques
+               o [59]Associations
+               o [60]Assurances
+               o [61]Banque
+               o [62]Collectivités locales
+               o [63]Éducation
+               o [64]Logement
+               o [65]Partis politiques
+               o [66]Recherche scientifique
+               o [67]Santé
+               o [68]Services publics
+               o [69]Social
+               o [70]Sport amateur et professionnel
+               o [71]Startup
+               o [72]TPE et PME
+               o [73]Transports et mobilité
+          + [74]Thématiques communes
+               o [75]Travail
+               o [76]Économie de la donnée
+               o [77]Commerce et publicité
+               o [78]Cookies et autres traceurs
+               o [79]Développement informatique
+               o [80]Ouverture et réutilisation de données
+               o [81]Smartphones et applications
+               o [82]Vidéosurveillance - Vidéoprotection
+          + [83]Enjeux numériques
+               o [84]Biométrie
+               o [85]Droits des mineurs
+               o [86]Intelligence artificielle (IA)
+               o [87]Chaîne de blocs
+               o [88]Objets connectés
+               o [89]Civic tech
+          + [90]Cybersécurité
+               o [91]Informatique en nuage - Cloud
+               o [92]Sécurité des données
+               o [93]Mots de passe
+               o [94]Cryptologie et chiffrement
+               o [95]Rançongiciels
+               o [96]Violations de données
+          + [97]Consultations
+          + [98]Médiathèque
+          + (BUTTON) Fermer
+     * (BUTTON) Textes officiels
+          + [99]Cadre européen
+               o [100]Le règlement général sur la protection des données
+                 (RGPD)
+               o [101]La directive Police-Justice
+               o [102]La directive ePrivacy
+               o [103]Les lignes directrices du CEPD
+          + [104]Cadre national
+               o [105]La loi Informatique et Libertés
+               o [106]Le décret d'application de la loi
+               o [107]Les sanctions pénales
+               o [108]Le règlement intérieur de la CNIL
+               o [109]Les délégations de signature
+               o [110]La charte de déontologie
+          + [111]Décisions de la CNIL
+               o [112]Toutes les délibérations de la CNIL
+               o [113]Les Tables Informatique et Libertés
+               o [114]Les lignes directrices et recommandations de la CNIL
+               o [115]Les sanctions
+               o [116]Les cadres de référence
+          + [117]Les décisions de la CNIL sur Légifrance
+          + (BUTTON) Fermer
+     * (BUTTON) La CNIL
+          + [118]Missions
+               o [119]Informer et protéger
+               o [120]Accompagner la conformité et conseiller
+               o [121]Anticiper et innover
+               o [122]Contrôler et sanctionner
+               o [123]La mission éthique de la CNIL
+               o [124]Les évènements
+          + [125]Fonctionnement
+               o [126]Ordres du jour des séances
+               o [127]Statut et organisation
+               o [128]Agenda
+               o [129]Avis de la CNIL
+               o [130]Interrégulation et partenariats
+          + [131]En Europe et dans le monde
+               o [132]Les actions de la CNIL en Europe et dans le monde
+               o [133]La protection des données dans le monde
+               o [134]Le Comité européen de la protection des données
+                 (CEPD)
+               o [135]Les instances internationales
+               o [136]La coopération Police-Justice
+          + [137]L'histoire de la CNIL en vidéo
+          + [138]Marchés publics
+          + [139]Open CNIL
+          + [140]Travailler à la CNIL
+          + (BUTTON) Fermer
+     * (BUTTON) Rechercher
+
+   [141]Fr[142]En[143]Gestionnaire de cookies
+
+CNIL: search form
+
+   Poser une question ou rechercher un article, une délibération...
+   ____________________________________________________________
+   (Rechercher) Rechercher
+
+    1. [144]Accueil
+    2. Informatique en nuage (cloud) : la CNIL publie deux fiches
+       pratiques sur le chiffrement et la sécurité des données
+
+Informatique en nuage (cloud) : la CNIL publie deux fiches pratiques sur le
+chiffrement et la sécurité des données
+
+   22 janvier 2024
+     __________________________________________________________________
+
+   La CNIL a reçu de nombreuses questions sur le recours à l’informatique
+   en nuage (cloud), notamment au regard de la complexité des offres
+   disponibles. En réponse, elle publie deux premières fiches pour
+   éclairer les organismes consommateurs de ces services sur le recours au
+   chiffrement et l’utilisation d’outils de sécurité et de performance.
+     * (BUTTON) Imprimer l’article
+     * (BUTTON) Courriel
+
+     * (BUTTON) Diminuer la taille de la police
+     * (BUTTON) Augmenter la taille de la police
+
+La sécurité des données, une obligation également en cas de recours au cloud
+
+   La sécurité est indispensable pour apporter la confiance dans la
+   gestion des données personnelles de l’entreprise. Il s’agit également
+   d’une obligation légale en matière de protection des données
+   personnelles : en 2022, près d’un tiers des sanctions prononcées par la
+   CNIL visaient des manquements à cette obligation.
+
+   Il est également nécessaire de respecter ce principe lorsqu’il est fait
+   appel à des fournisseurs de solutions Informatique en nuage (cloud),
+   qui sont de plus en plus utilisées par des grandes entreprises comme
+   par des TPE/PME.
+
+   La CNIL avait déjà publié [145]une recommandation en 2012 pour les
+   entreprises envisageant de recourir à ces solutions. Face aux
+   nombreuses offres du marché et aux interrogations des organismes
+   consommateurs de ces solutions, elle propose de nouvelles ressources
+   pour comprendre les différentes approches de chiffrement et les
+   différents outils de sécurité : l’objectif est de permettre aux
+   professionnels d’adopter l’approche en matière de sécurité la plus
+   adaptée à leurs besoins.
+
+Les fiches pratiques publiées par la CNIL
+
+Le chiffrement des données sur le cloud
+
+   Dans une fiche pratique sur le chiffrement, la CNIL propose une analyse
+   détaillée des différents types de chiffrement appliqués à un service
+   d’informatique en nuage (cloud) :
+     * Le chiffrement au repos, qui est le plus souvent mis en avant. La
+       fiche expose en détail les différentes modalités de chiffrement
+       possibles, en fonction de l’architecture retenue, qui peut rendre
+       le client plus ou moins dépendant du fournisseur de service
+       d’informatique en nuage (cloud).
+     * Le chiffrement en transit, pour sécuriser les canaux de
+       communication.
+     * Le chiffrement en traitement, qui soulève des enjeux
+       particulièrement complexes quand il s’agit de préserver la
+       confidentialité des données, notamment vis-à-vis du fournisseur de
+       service.
+     * Enfin, le chiffrement de bout en bout, qui constitue une modalité
+       particulièrement protectrice des données, mais qui n’est applicable
+       que dans un nombre limité de situations.
+
+   Vous souhaitez contribuer à l’amélioration de cette fiche ?
+
+   Écrivez à retours-cloud[@]cnil.fr
+
+   Texte reference
+
+Lire la fiche pratique
+
+     * [146]Les pratiques de chiffrement dans l’informatique en nuage
+       (cloud) public
+
+Les outils pour sécuriser un service cloud
+
+   Dans une seconde fiche pratique sur les outils de sécurité et de
+   performance dans le cloud, la CNIL présente les différents produits de
+   sécurité nécessaires pour sécuriser un service cloud. Ce faisant, elle
+   opère une distinction claire entre des fonctionnalités de sécurité
+   (anti-DDoS, WAF) et des fonctionnalités de performance (CDN, Load
+   balancer) qui sont souvent commercialisées de manière groupée.
+
+   La CNIL propose également des points de vigilance pour ces différents
+   produits, notamment quand ils proposent de réaliser un déchiffrement
+   des flux à des fins de sécurité. En effet, certains services peuvent
+   entraîner des transferts de données vers des pays n’offrant pas un
+   niveau de protection adéquat, ou soulever des enjeux de sécurité et de
+   confidentialité (comme le déchiffrement TLS).
+   Texte reference
+
+Lire la fiche pratique
+
+     * [147]Les outils de sécurisation d’applications web dans
+       l’informatique en nuage (cloud)
+
+   Texte reference
+
+Articles en relation
+
+     * [148]Sécurité des donnée
+
+     * [149]#Cloud
+     * [150]#Chiffrement
+     * [151]#Sécurité informatique
+
+Ceci peut également vous intéresser ...
+
+   [152]
+   Authentification multifacteur : les recommandations de la CNIL pour
+   mieux protéger les données
+
+   01 avril 2025
+   [153]Conformité
+   [154]
+   Sensibilisation des jeunes à la cybersécurité : la CNIL engagée dans
+   l'Opération CACTUS
+
+   25 mars 2025
+   [155]Internet
+   [156]
+   Violations massives de données en 2024 : quels sont les principaux
+   enseignements et mesures à ...
+
+   28 janvier 2025
+   [157]Sécurité informatique
+
+   [158]Besoin d'aide
+   Commission Nationale de l’Informatique et des Libertés
+   Ma conformité au RGPD
+     * [159]Comprendre le RGPD
+     * [160]Me mettre en conformité
+     * [161]Respecter les droits des personnes
+     * [162]Outils spécifiques
+     * [163]Services en ligne
+     * [164]Questions-réponses
+     __________________________________________________________________
+
+   La CNIL
+     * [165]Missions
+     * [166]Fonctionnement
+     * [167]En Europe et dans le monde
+     * [168]L'histoire de la CNIL en vidéo
+     * [169]Marchés publics
+     * [170]Open CNIL
+     * [171]Travailler à la CNIL
+
+   Ressources
+     * [172]Acteurs et secteurs
+     * [173]Thématiques communes
+     * [174]Enjeux numériques
+     * [175]Cybersécurité
+     * [176]Consultations
+     * [177]Médiathèque
+
+   Textes officiels
+     * [178]Cadre européen
+     * [179]Cadre national
+     * [180]Décisions de la CNIL
+     * [181]Les décisions de la CNIL sur Légifrance
+
+   Suivez-nous
+     * [182]twitter
+     * [183]linkedin
+
+     * [184]Médiathèque
+     * [185]Glossaire
+     * [186]Lexique FR-EN
+     * [187]Besoin d'aide
+     * [188]Presse
+     * Langue
+          + [189]Fr
+          + [190]En
+     * [191]Gestion des cookies
+     * [192]S'inscrire à la lettre d'information
+
+   [193]Mentions légales | [194]Données personnelles | [195]Accessibilité
+   : non conforme | [196]Informations publiques | [197]Recrutement |
+   [198]Mon compte | [199]Nous contacter
+
+Références
+
+   1. https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-deux-fiches-pratiques-sur-le-chiffrement-et-la-securite
+   2. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-39.html#main-content
+   3. https://www.cnil.fr/fr
+   4. file:///fr/particulier
+   5. file:///fr/professionnel
+   6. file:///fr/espace-presse
+   7. file:///fr
+   8. file:///en
+   9. file:///fr/gestion-des-cookies
+  10. file:///fr
+  11. file:///fr/particulier
+  12. file:///fr/professionnel
+  13. file:///fr/espace-presse
+  14. file:///fr/comprendre-le-rgpd
+  15. file:///fr/rgpd-de-quoi-parle-t-on
+  16. file:///fr/comprendre-le-rgpd/les-six-grands-principes-du-rgpd
+  17. file:///fr/qualification-juridique-des-acteurs
+  18. file:///fr/comprendre-le-rgpd/le-mooc-de-la-cnil
+  19. file:///fr/passer-laction/la-cnil-publie-sa-charte-daccompagnement-des-professionnels
+  20. https://www.cnil.fr/fr/journees-rgpd
+  21. file:///fr/les-webinaires-de-la-cnil
+  22. file:///fr/comprendre-le-rgpd/le-controle-de-la-cnil
+  23. file:///fr/ma-conformite-au-rgpd/me-mettre-en-conformite
+  24. file:///fr/me-mettre-en-conformite/rgpd-par-ou-commencer
+  25. file:///fr/RGPD-le-registre-des-activites-de-traitement
+  26. file:///fr/les-bases-legales
+  27. file:///fr/passer-laction/les-durees-de-conservation-des-donnees
+  28. file:///fr/passer-laction/le-delegue-la-protection-des-donnees-dpo
+  29. file:///fr/sous-traitant
+  30. file:///fr/technologies/lanonymisation-de-donnees-personnelles
+  31. file:///fr/cybersecurite/securite-des-donnees
+  32. file:///fr/les-outils-de-la-conformite/transferer-des-donnees-hors-de-lue
+  33. file:///fr/tiers-autorises-la-cnil-publie-un-guide-pratique-et-un-recueil-de-procedures
+  34. file:///fr/respecter-les-droits-des-personnes
+  35. file:///fr/respecter-les-droits-des-personnes
+  36. file:///fr/passer-laction/les-droits-des-personnes-sur-leurs-donnees
+  37. file:///fr/conformite-rgpd-information-des-personnes-et-transparence
+  38. file:///fr/passer-laction/rgpd-exemples-de-mentions-dinformation
+  39. file:///fr/respecter-les-droits-des-personnes/repondre-aux-demandes-dexercice-des-droits
+  40. file:///fr/outils
+  41. file:///fr/RGPD-analyse-impact-protection-des-donnees-aipd
+  42. file:///fr/les-cadres-de-reference
+  43. file:///fr/les-outils-de-la-conformite/les-regles-dentreprise-contraignantes-bcr
+  44. file:///fr/les-outils-de-la-conformite/le-code-de-conduite
+  45. file:///fr/la-certification
+  46. file:///fr/ma-conformite-au-rgpd/services-en-ligne
+  47. file:///fr/saisir-la-cnil/nous-contacter
+  48. file:///fr/designation-dpo
+  49. file:///fr/services-en-ligne/notifier-une-violation-de-donnees-personnelles
+  50. file:///fr/services-en-ligne/declarer-un-fichier
+  51. file:///fr/services-en-ligne/soumettre-une-analyse-dimpact-relative-la-protection-des-donnees-aipd-la-cnil
+  52. file:///fr/services-en-ligne/quand-et-comment-soumettre-son-projet-de-bcr-aux-autorites-de-protection-des-donnees
+  53. file:///fr/services-en-ligne/soumettre-un-code-de-conduite-la-cnil
+  54. file:///fr/services-en-ligne/soumettre-une-demande-dagrement-la-cnil
+  55. https://www.cnil.fr/fr/services-en-ligne/comment-faire-approuver-un-mecanisme-de-certification
+  56. https://www.cnil.fr/fr/cnil-direct?visiteur=pro
+  57. file:///fr/ressources/acteurs-et-secteurs
+  58. file:///fr/acteurs-et-secteurs/affaires-publiques
+  59. file:///fr/mon-quotidien/associations
+  60. file:///fr/assurance
+  61. file:///fr/acteurs-et-secteurs/banque-moyens-de-paiement
+  62. file:///fr/thematiques/collectivites-territoriales
+  63. file:///fr/education-pro
+  64. file:///fr/logement
+  65. file:///fr/thematiques/partis-politiques-et-candidats
+  66. file:///fr/thematiques/recherche-scientifique-hors-sante
+  67. file:///fr/thematiques/sante
+  68. file:///fr/thematique/services-publics
+  69. file:///fr/acteurs-et-secteurs/laccompagnement-social-et-medico-social
+  70. file:///fr/acteurs-et-secteurs/sport-amateur-professionnel-et-de-haut-niveau
+  71. file:///fr/startup-comment-faire-de-votre-conformite-rgpd-un-avantage-concurrentiel
+  72. file:///fr/thematiques/tpe-pme
+  73. file:///fr/transports-et-mobilite
+  74. file:///fr/ressources/thematiques
+  75. file:///fr/thematiques-communes/travail
+  76. file:///fr/thematiques-communes/economie-de-la-donnee
+  77. file:///fr/thematiques/commerce-et-publicite
+  78. file:///fr/cookies-et-autres-traceurs
+  79. file:///fr/developpement-informatique
+  80. file:///fr/ouverture-reutilisation-donnees
+  81. file:///fr/smartphones-et-applications-professionnels
+  82. file:///fr/technologies/videosurveillance-videoprotection
+  83. file:///fr/ressources/les-grands-enjeux-numeriques
+  84. file:///fr/biometrie
+  85. file:///fr/enjeux-numeriques/les-droits-numeriques-des-mineurs
+  86. file:///fr/technologies/intelligence-artificielle-ia
+  87. file:///fr/technologies/blockchain-et-rgpd-quelles-solutions-pour-un-usage-responsable-en-presence-de-donnees-personnelles
+  88. file:///fr/technologies/objets-connectes
+  89. file:///fr/technologies/civic-tech
+  90. file:///fr/technologies/cybersecurite
+  91. file:///fr/cybersecurite/informatique-en-nuage-cloud
+  92. file:///fr/cybersecurite/securite-des-donnees
+  93. file:///fr/mots-de-passe
+  94. file:///fr/cybersecurite/comprendre-les-grands-principes-de-la-cryptologie-et-du-chiffrement
+  95. file:///fr/cybersecurite/multiplication-des-attaques-par-rancongiciel-comment-limiter-les-risques
+  96. file:///fr/cybersecurite/les-violations-de-donnees-personnelles
+  97. https://www.cnil.fr/fr/tag/consultation
+  98. https://www.cnil.fr/fr/mediatheque
+  99. file:///fr/cadre-europeen
+ 100. file:///fr/reglement-europeen-protection-donnees
+ 101. https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016L0680&from=FR
+ 102. https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32002L0058
+ 103. https://edpb.europa.eu/our-work-tools/our-documents/publication-type/guidelines_fr
+ 104. file:///fr/cadre-national
+ 105. file:///fr/le-cadre-national/la-loi-informatique-et-libertes
+ 106. https://www.legifrance.gouv.fr/eli/decret/2019/5/29/JUSC1911425D/jo/texte
+ 107. file:///fr/les-sanctions-penales
+ 108. file:///fr/le-cadre-national/reglement-interieur-de-la-cnil
+ 109. file:///fr/delegations-signature
+ 110. file:///fr/charte-de-deontologie
+ 111. file:///fr/les-decisions-de-la-cnil
+ 112. file:///fr/deliberations
+ 113. file:///fr/tables-informatique-et-libertes-cahiers-decisions-2024
+ 114. file:///fr/decisions/lignes-directrices-recommandations-CNIL
+ 115. file:///fr/thematique/cnil/sanctions
+ 116. file:///fr/les-decisions-de-la-cnil/les-cadres-de-reference
+ 117. https://www.legifrance.gouv.fr/search/cnil?tab_selection=cnil&searchField=ALL&query=&page=1&init=true&timeInterval=
+ 118. file:///fr/la-cnil/les-missions-de-la-cnil
+ 119. file:///fr/missions/mission-1-informer-proteger-les-droits
+ 120. file:///fr/missions/mission-2-accompagner-la-conformite-conseiller
+ 121. file:///fr/mission-de-la-CNIL-anticiper-innovation
+ 122. file:///fr/missions/mission-4-controler-et-sanctionner
+ 123. file:///fr/missions/air-avenirs-innovations-revolutions-la-mission-ethique-de-la-cnil
+ 124. file:///fr/evenements
+ 125. file:///fr/la-cnil/fonctionnement-de-la-cnil
+ 126. file:///fr/tag/ODJ
+ 127. file:///fr/fonctionnement/statut-et-organisation-de-la-cnil
+ 128. file:///fr/actualites/agenda
+ 129. file:///fr/fonctionnement/les-avis-de-la-cnil
+ 130. file:///fr/la-cnil/interregulation-et-partenariats
+ 131. file:///fr/la-cnil/en-europe-et-dans-le-monde
+ 132. file:///fr/en-europe-et-dans-le-monde/les-actions-de-la-cnil-en-europe-et-dans-le-monde
+ 133. file:///fr/la-protection-des-donnees-dans-le-monde
+ 134. file:///fr/en-europe-dans-le-monde/le-comite-europeen-de-la-protection-des-donnees-cepd
+ 135. file:///fr/en-europe-dans-le-monde/les-instances-internationales-de-protection-de-la-vie-privee
+ 136. file:///fr/en-europe-dans-le-monde/la-cooperation-police-justice
+ 137. file:///fr/lhistoire-de-la-cnil-en-video
+ 138. https://www.cnil.fr/fr/marches-publics
+ 139. file:///fr/opendata
+ 140. file:///fr/la-cnil/travailler-la-cnil
+ 141. file:///fr
+ 142. file:///en
+ 143. file:///fr/gestion-des-cookies
+ 144. file:///fr
+ 145. file:///sites/cnil/files/typo/document/Recommandations_pour_les_entreprises_qui_envisagent_de_souscrire_a_des_services_de_Cloud.pdf
+ 146. file:///fr/les-pratiques-de-chiffrement-dans-linformatique-en-nuage-cloud-public
+ 147. file:///fr/les-outils-de-securisation-dapplications-web-dans-linformatique-en-nuage-cloud
+ 148. file:///fr/cybersecurite/securite-des-donnees
+ 149. file:///fr/tag/Cloud
+ 150. file:///fr/tag/Chiffrement
+ 151. file:///fr/tag/Sécurité+informatique
+ 152. file:///fr/recommandation-mfa
+ 153. file:///fr/tag/Conformité
+ 154. file:///fr/sensibilisation-des-jeunes-la-cybersecurite-la-cnil-engagee-dans-loperation-cactus
+ 155. file:///fr/tag/Internet
+ 156. file:///fr/violations-massives-de-donnees-en-2024-quels-sont-les-principaux-enseignements-mesures-a-prendre
+ 157. file:///fr/tag/Sécurité+informatique
+ 158. file:///fr/cnil-direct
+ 159. file:///fr/comprendre-le-rgpd
+ 160. file:///fr/ma-conformite-au-rgpd/me-mettre-en-conformite
+ 161. file:///fr/respecter-les-droits-des-personnes
+ 162. file:///fr/outils
+ 163. file:///fr/ma-conformite-au-rgpd/services-en-ligne
+ 164. https://www.cnil.fr/fr/cnil-direct?visiteur=pro
+ 165. file:///fr/la-cnil/les-missions-de-la-cnil
+ 166. file:///fr/la-cnil/fonctionnement-de-la-cnil
+ 167. file:///fr/la-cnil/en-europe-et-dans-le-monde
+ 168. file:///fr/lhistoire-de-la-cnil-en-video
+ 169. https://www.cnil.fr/fr/marches-publics
+ 170. file:///fr/opendata
+ 171. file:///fr/la-cnil/travailler-la-cnil
+ 172. file:///fr/ressources/acteurs-et-secteurs
+ 173. file:///fr/ressources/thematiques
+ 174. file:///fr/ressources/les-grands-enjeux-numeriques
+ 175. file:///fr/technologies/cybersecurite
+ 176. https://www.cnil.fr/fr/tag/consultation
+ 177. https://www.cnil.fr/fr/mediatheque
+ 178. file:///fr/cadre-europeen
+ 179. file:///fr/cadre-national
+ 180. file:///fr/les-decisions-de-la-cnil
+ 181. https://www.legifrance.gouv.fr/search/cnil?tab_selection=cnil&searchField=ALL&query=&page=1&init=true&timeInterval=
+ 182. http://twitter.com/cnil
+ 183. https://fr.linkedin.com/company/cnil---commission-nationale-de-l'informatique-et-des-libert-s
+ 184. file:///fr/mediatheque
+ 185. file:///fr/glossaire
+ 186. file:///fr/lexique-francais-anglais-sur-la-protection-des-donnees
+ 187. file:///fr/cnil-direct
+ 188. file:///fr/espace-presse
+ 189. file:///fr
+ 190. https://www.cnil.fr/en/home
+ 191. file:///fr/gestion-des-cookies
+ 192. https://forms.information.cnil.fr/603cfc32b95cee69378a54cd/4fR4m1PsT-W5cBQRkjVMmA/gNAvYERSS_Sl9nJsDCCU2Q/form.html
+ 193. file:///fr/mentions-legales
+ 194. file:///fr/donnees-personnelles
+ 195. file:///fr/accessibilite
+ 196. file:///fr/informations-publiques
+ 197. file:///fr/recrutement/offres
+ 198. https://services.cnil.fr/
+ 199. file:///fr/saisir-la-cnil/nous-contacter

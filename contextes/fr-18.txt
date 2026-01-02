@@ -1,0 +1,185 @@
+   #[1]Commentaires pour "Le nuage, pièce méconnue du puzzle climatique"
+
+   [2]Accéder à la navigation
+--
+Vous êtes ici
+
+   [55]Accueil / [56]Articles / [57]Le nuage, pièce méconnue du puzzle
+   climatique
+
+Le nuage, pièce méconnue du puzzle climatique
+
+   Dossier
+--
+Vous êtes ici
+
+   [233]Accueil / [234]Articles / [235]Le nuage, pièce méconnue du puzzle
+   climatique
+   [236]Terre
+--
+   article
+
+Le nuage, pièce méconnue du puzzle climatique
+
+   19.04.2023, par
+--
+   Partager
+   Partager
+   Pour mieux comprendre le rôle que jouent les nuages sur le climat et
+   son évolution, Sandrine Bony, coordinatrice de la campagne aéroportée
+   EUREC4A, a étudié le comportement des cumulus d’alizés au-dessus de
+--
+   tester le mécanisme par lequel certains modèles climatiques prédisent
+   une amplification du réchauffement climatique par la diminution de la
+   couverture nuageuse des petits cumulus dans la région des alizés.
+   C’était la première campagne de terrain conçue pour s’attaquer à ce
+   problème et réduire l’une des plus grandes sources
+   d’incertitude[244]3 dans les prévisions climatiques.
+
+   La zone de convergence intertropicale et ses formations nuageuses, au
+   niveau de l’équateur, sont scrutées par les satellites météorologiques.
+
+   CNRS Le Journal (BUTTON)
+   La zone de convergence intertropicale et ses formations nuageuses, au
+   niveau de l’équateur, sont scrutées par les satellites météorologiques.
+   Nasa / NOAA GOES Project, Dennis Chesters
+--
+   Partager
+
+   Dans quelle mesure les nuages peuvent-ils influencer l’évolution du
+   climat ?
+   S. B. Les nuages sont les principaux modulateurs du bilan radiatif
+   terrestre. Mais, tous n’ont pas le même impact, cela dépend de leur
+   composition, de leur extension horizontale et de la température de leur
+   sommet. Pour simplifier : les nuages hauts et froids empêchent une
+   partie du rayonnement infrarouge émis par la Terre de s’échapper vers
+   l’espace, ce qui contribue à l’effet de serre et réchauffe le climat. À
+   l’inverse, les nuages réfléchissent les rayons du soleil vers l’espace,
+   ce qui tend à refroidir le climat. C’est ce qu’on appelle l’effet
+   parasol.
+
+   En moyenne, sur toute la Terre, les nuages ont un effet refroidissant
+   sur le climat car l’effet parasol l’emporte sur l’effet de serre
+   nuageux. Cela provient principalement des nuages bas, de type stratus,
+   stratocumulus ou petits cumulus pour lesquels l’effet parasol n’est pas
+   compensé par l’effet de serre nuageux.
+
+   En quoi les nuages d’alizés jouent-ils un rôle particulier dans le
+   bilan radiatif ?
+   S. B. Ces petits cumulus qui couvrent l’essentiel des océans dans les
+   régions où soufflent les alizés ne sont pas impressionnants mais
+   constituent de loin le type de nuages le plus fréquent à la surface de
+   la Terre. C’est la majorité silencieuse des nuages ! Leur réponse au
+   réchauffement peut donc influencer de manière importante le bilan
+   radiatif et produire ce qu’on appelle une rétroaction, qui peut
+   amplifier ou atténuer le réchauffement. Ces nuages jouent donc un rôle
+   crucial dans la régulation de la température de la planète.
+
+   Ces petits nuages de basse altitude sont des cumulus d’alizés, ici
+   organisés en arcs de cercle (campagne aéroportée Narval 2, en 2016).
+
+   CNRS Le Journal (BUTTON)
+   Ces petits nuages de basse altitude sont des cumulus d’alizés, ici
+   organisés en arcs de cercle (campagne aéroportée Narval 2, en 2016).
+   Sandrine Bony, Laboratoire de météorologie dynamique
+--
+
+   Comment avez-vous procédé pour les observer ?
+   S. B. Pour comprendre comment les nuages interagissent avec les
+   conditions environnementales, il est nécessaire d’étudier leurs
+   propriétés en même temps que celles de l’environnement dans lequel ils
+--
+   Votre mission consistait à tester le réalisme du mécanisme de certains
+   modèles climatiques prédisant une forte amplification du réchauffement
+   par les nuages bas. Qu’est-ce qui justifiait cette hypothèse et quel a
+   été le résultat ?
+   S. B. On sait que plus la mer est chaude, plus le brassage vertical de
+   la vapeur d’eau assèche efficacement les basses couches de
+   l’atmosphère. L’hypothèse avancée par ces modèles était que ce
+   mécanisme allait diminuer la couverture nuageuse. Les observations de
+   la campagne EUREC4A montrent que si le mélange vertical affecte bien
+   l’humidité des basses couches de l’atmosphère, il ne se traduit pas par
+   une dessiccation à la base des nuages[245]4 car l’effet est compensé
+   par celui des circulations atmosphériques qui se produisent à des
+   échelles spatiales de quelques centaines à quelques dizaines de
+   kilomètres.
+
+   Organisation nuageuse en forme de « fleurs », observée par le
+   spectroradiomètre Modis à bord du satellite Terra, le 9 février 2017 (à
+   gauche, en vert, l'île de la Barbade, large d'une vingtaine de
+--
+
+   CNRS Le Journal (BUTTON)
+   Organisation nuageuse en forme de « fleurs », observée par le
+   spectroradiomètre Modis à bord du satellite Terra, le 9 février 2017 (à
+   gauche, en vert, l'île de la Barbade, large d'une vingtaine de
+--
+   réchauffement prédite par les modèles dans lesquels les petits cumulus
+   sont principalement contrôlés par l’humidité atmosphérique[246]5 .
+   L’analyse des facteurs qui contrôlent les variations de ces nuages
+   entre le jour et la nuit a confirmé ce résultat[247]6[248]7.
+
+--
+   nous avons réalisé pour la première fois des mesures lidar et radar en
+   visée horizontale à travers les hublots de l’avion français ATR-42 de
+   Safire[249]8  pour mesurer la fraction nuageuse à la base des nuages.
+   Nous avons aussi développé une méthode avec mes collègues de l’Institut
+   Max Planck de météorologie de Hambourg pour mesurer les mouvements
+--
+   HALO qui décrivait de grands cercles dans la haute atmosphère. À partir
+   des observations des différentes plateformes, nous avons pu établir les
+   bilans de masse, d’eau et de chaleur de la couche sous-nuageuse qui
+   contrôle dans une large mesure la formation des petits cumulus. Enfin,
+   un ensemble de sondes et de capteurs installés sur l’ATR-42 par mes
+   collègues français de Safire, du Laboratoire d'aérologie[250]9 et du
+   Laboratoire de météorologie physique[251]10, a permis de mesurer la
+   turbulence et les propriétés microphysiques des nuages.
+
+   Le radar doppler Basta, développé par l’équipe de Julien Delanoë
+   (LATMOS/IPSL), a permis de sonder l’atmosphère horizontalement, à
+   travers les hublots de l’ATR-42, pour mesurer la couverture nuageuse à
+   la base des nuages.
+
+   CNRS Le Journal (BUTTON)
+   Le radar doppler Basta, développé par l’équipe de Julien Delanoë
+   (LATMOS/IPSL), a permis de sonder l’atmosphère horizontalement, à
+   travers les hublots de l’ATR-42, pour mesurer la couverture nuageuse à
+   la base des nuages.
+   Sandrine Bony, Laboratoire de météorologie dynamique
+   (CNRS/ENS-PSL/École polytechnique/Sorbonne Université)
+--
+   avons mis en évidence l’omniprésence des circulations atmosphériques de
+   mésoéchelle dans la basse atmosphère, et montré leur importance pour
+   l’organisation spatiale des nuages et le bilan radiatif. Cela pose de
+   nouvelles questions et ouvre un nouveau champ de recherche très riche
+   pour les sciences de l’atmosphère et du climat.
+--
+   sensibilité climatique reposent sur une nouvelle méthodologie qui prend
+   en compte un grand nombre de facteurs et dépend assez peu des
+   rétroactions nuageuses prédites par les modèles climatiques. Les
+   résultats d’EUREC4A tendent plutôt à renforcer ses conclusions. En
+   revanche, une question qui n’a pas encore été considérée et qu’il
+   s’agira d’examiner dans le prochain rapport du Giec, est l’effet
+   potentiel des changements d’organisation spatiale des nuages sur les
+   projections climatiques. En d’autres termes, la campagne EUREC4A a
+   permis de placer une pièce sur le puzzle climatique, nous nous
+   intéressons désormais à toutes celles qui restent à placer !
+
+   La moindre sensibilité des nuages devrait limiter l’amplitude du
+   réchauffement climatique dans les années à venir, c’est quand même une
+   bonne nouvelle !
+   S. B. Même si certains nuages semblent plus résilients au changement
+   climatique que ce que nous pensions, il faut impérativement réduire nos
+   émissions de carbone. D’une part parce que d’autres mécanismes
+--
+   Notes
+     * [252]1. Elucidating the role of cloud-circulation coupling in
+       climate (Elucider le rôle du couplage nuage-circulation dans le
+       climat). Cette campagne, coorganisée par Sandrine Bony (LMD/IPSL,
+       Paris), Bjorn Stevens (MPI, Hamburg) et David Farrell (CIMH,
+--
+Mots-clés
+
+   [287]atmosphère [288]bilan radiatif terrestre [289]cumulus [290]nuages
+   [291]Alizés [292]océan Atlantique [293]effet parasol [294]Effet de
+   serre [295]campagne aéroportée [296]circulation atmosphérique

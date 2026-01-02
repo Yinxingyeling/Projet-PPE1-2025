@@ -1,0 +1,175 @@
+     * [1]Contenu
+     * [2]Menu
+
+   Gouvernement
+   (BUTTON) Rechercher (BUTTON) Menu
+   [3]
+
+   numerique.gouv.fr
+
+   Le numérique au service de l'efficacité de l'action publique
+   (BUTTON) Fermer
+   Rechercher ____________________ (BUTTON) Rechercher
+
+   (BUTTON) Fermer
+     * (BUTTON) Le numérique au sein de l’État
+          + [4]Stratégie numérique de l’État
+          + [5]La DINUM
+          + [6]Ecosystème du numérique public
+          + [7]En Europe et à l'international
+          + [8]La transformation numérique des territoires
+     * [9]Offre d'accompagnement
+     * [10]Services numériques
+     * [11]Données publiques
+     * [12]IA
+     * (BUTTON) Actualités
+          + [13]L'actualité du numérique de l’État
+          + [14]Blog
+          + [15]Espace presse
+     * [16]Rejoignez-nous
+
+   (BUTTON) Voir le fil d’Ariane
+    1. [17]Accueil
+    2. [18]L'actualité du numérique de …
+    3. [19]Espace presse
+    4. Cloud dans la sphère publique : …
+
+Cloud dans la sphère publique : l’État invite tous les acteurs engagés dans
+la transformation numérique publique à participer à l’événement « l’État dans
+le nuage » le 18 mars 2025
+
+   Publié le [20]mercredi 5 février 2025 | [21]DINUM
+     * Thématiques :
+          + Cloud
+
+   Depuis l’adoption de la [22](Ouvre une nouvelle fenêtre) doctrine cloud
+   en 2021, l’État a fait du cloud un prérequis pour tout nouveau projet
+   numérique au sein de l’État ou refonte substantielle de l’architecture
+   applicative existante. L’objectif : accélérer la transformation
+   numérique au bénéfice des usagers et dans le strict respect de la
+   cybersécurité et de la protection des données des citoyens et des
+   entreprises.
+
+   À l’instar de l’événement « l’État dans le nuage » qui s’est tenu en
+   mars 2024 à guichet fermé, l’État, à travers la direction
+   interministérielle du numérique (DINUM) chargée de la transformation
+   numérique de l’État, renouvelle cette rencontre avec l’ensemble des
+   acteurs engagés dans le cloud public et la transformation numérique
+   publique le 18 mars 2025 à Paris.
+
+   Il s’agira de dresser le bilan sur l’adoption du cloud et d’encourager
+   les acteurs à y recourir, de s’inspirer de visions stratégiques de la
+   part d’intervenants de haut niveau, et surtout de réunir les membres de
+   la communauté cloud de la sphère publique et l’ensemble de l’écosystème
+   - dont tous les acteurs sont invités à prendre part à l’évènement.
+
+   Au programme, de 9h à 18h :
+     * La matinée se déroulera en présence de grands témoins, issus des
+       sphères publiques et privées françaises et internationales, qui
+       décrypteront les actualités cloud en France et en Europe et
+       partageront leur analyse des enjeux stratégiques et réglementaires
+       à venir.
+     * L’après-midi seront proposés différents formats : des interventions
+       thématiques portant sur la prise de décision et la stratégie cloud
+       destinées aux managers de la transformation cloud ; des retours
+       d’expériences, tables rondes et démonstrations dédiés à inspirer de
+       nouveaux usages et partager entre pairs ; des ateliers de
+       résolution de problèmes animés par les experts de la brigade
+       d’intervention du numérique « cloud » de la DINUM ; des stands
+       destinés à présenter l’offre de services interministériels, le
+       marché UGAP du Nuage public, des offres de fournisseurs ; ainsi que
+       des espaces facilitant des échanges plus informels et conviviaux.
+
+   Cet événement sera également l’occasion de revenir sur les chiffres
+   clés et la croissance du marché cloud de l’État s’illustrant notamment
+   par : 120M€ de commande publique cumulée de cloud computing ; dont plus
+   de 50M€ en 2024 ; 50% de croissance annuelle ; plus de 300
+   administrations impliquées ; 800 projets ; 1 nouveau projet dans le
+   cloud par jour.
+
+   En savoir plus et s’inscrire : [23](Ouvre une nouvelle fenêtre)
+   numerique.gouv.fr
+
+   [24]Télécharger le communiqué de presse (PDF 122 Ko)
+
+Abonnez-vous à notre lettre d’information
+
+   Inscrivez-vous pour recevoir prochainement le premier numéro !
+   [25]S’abonner
+
+Suivez-nous
+sur les réseaux sociaux
+
+     * [26]X
+     * [27]Linkedin
+     * [28]Dailymotion
+     * [29]Mastodont
+
+   [30]
+
+   Gouvernement
+
+   numerique.gouv.fr est le site de la stratégie numérique de l’État géré
+   par la direction interministérielle du numérique et animé par tous les
+   agents publics de la tech.
+     * [31]info.gouv.fr
+     * [32]service-public.fr
+     * [33]legifrance.gouv.fr
+     * [34]data.gouv.fr
+
+     * [35]La DINUM
+     * [36]L'écosystème du numérique public
+     * [37]Accessibilité : partiellement conforme
+     * [38]Contact
+     * [39]Mentions légales
+     * [40]Plan du site
+     * (BUTTON) Gestion des cookies
+
+   Sauf mention explicite de propriété intellectuelle détenue par des
+   tiers, les contenus de ce site sont proposés sous [41]licence
+   etalab-2.0 Ce site est fait avec [42]Sites faciles
+
+Références
+
+   1. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-32.html#content
+   2. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-32.html#fr-navigation
+   3. file:///
+   4. file:///numerique-etat/strat-numerique-etat/
+   5. file:///numerique-etat/dinum/
+   6. file:///numerique-etat/ecosystème-numerique-public/
+   7. file:///numerique-etat/europe-international/
+   8. file:///numerique-etat/la-transformation-numérique-des-territoires/
+   9. file:///offre-accompagnement/
+  10. file:///services-numeriques/
+  11. file:///data/
+  12. file:///intelligence-artificielle/
+  13. file:///sinformer/actualités/
+  14. file:///sinformer/blog/
+  15. file:///sinformer/espace-presse/
+  16. file:///rejoignez-nous/
+  17. file:///
+  18. file:///sinformer/
+  19. file:///sinformer/espace-presse/
+  20. file:///sinformer/espace-presse/?year=2025
+  21. file:///sinformer/espace-presse/?organization=dinum
+  22. https://www.numerique.gouv.fr/services/cloud/doctrine/
+  23. https://www.numerique.gouv.fr/agenda/cloud-letat-dans-le-nuage-2025/
+  24. file:///documents/51/CP_CLOUD_PUBLIC_EVENEMENT_18_MARS_DINUM.pdf
+  25. https://gouv.us5.list-manage.com/subscribe?u=c921e95d674341b87fd4fb6e6&id=0b0bb007fd
+  26. https://x.com/Numerique_Gouv
+  27. https://www.linkedin.com/company/direction-interministerielle-du-numerique-dinum/
+  28. https://www.dailymotion.com/dinum
+  29. https://social.numerique.gouv.fr/explore
+  30. file:///
+  31. https://www.info.gouv.fr/
+  32. https://service-public.fr/
+  33. https://legifrance.gouv.fr/
+  34. https://data.gouv.fr/
+  35. https://www.numerique.gouv.fr/numerique-etat/#dinum
+  36. https://www.numerique.gouv.fr/numerique-etat/#ecosysteme
+  37. file:///accessibilite/
+  38. file:///contact/
+  39. file:///mentions-legales/
+  40. file:///plan-du-site/
+  41. https://github.com/etalab/licence-ouverte/blob/master/LO.md
+  42. https://sites-faciles.beta.numerique.gouv.fr/?mtm_campaign=footer-link

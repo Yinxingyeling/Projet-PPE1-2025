@@ -1,0 +1,187 @@
+               o [57]Afficher toutes les solutions (40+)
+               o [58]Applications IA Azure et agents IA
+               o [59]Centre de migration vers le nuage et de modernisation
+                 Azure
+               o [60]Analytique données pour l’IA
+               o [61]Solutions nuage pour les PME/TPE
+               o [62]Infrastructure d’Azure AI
+               o [63]Cloud adaptatif
+--
+          + Cloud hybride et infrastructure (BUTTON) Cloud hybride et
+            infrastructure
+               o [89]Nuage adaptatif
+               o [90]Résilience
+               o [91]Calcul haute performance (HPC)
+--
+    2.
+    3.
+    4. [178]Qu'est-ce que le nuage Computing
+
+Qu’est-ce que le cloud computing ?
+--
+     * [180]Principaux points à retenir
+     * [181]Avantages
+     * [182]Types de Nuage Computing
+     * [183]Services Nuage
+     * [184]Étapes suivantes
+     * [185]Ressources
+--
+   Le cloud computing est la fourniture de services informatiques
+   (notamment serveurs, stockage, bases de données, réseaux, logiciels,
+   analyses et renseignements) sur Internet (« le nuage ») pour offrir une
+   innovation plus rapide, des ressources flexibles et des économies
+   d'échelle. En règle générale, vous payez uniquement les services nuage
+   que vous utilisez (réduisant ainsi vos coûts d’exploitation), gérez
+   votre infrastructure plus efficacement et adaptez l’échelle des
+--
+
+     * Comprendre les différences entre les modèles de déploiement de
+       nuage public, privé et hybride.
+
+     * Découvrez les quatre grandes catégories de services nuage : IaaS,
+       PaaS, sans serveur et SaaS.
+
+--
+Coût
+
+   La migration vers le nuage permet aux entreprises d’optimiser les
+   [187]coûts informatiques. En effet, le cloud computing élimine la
+   nécessité d’investir dans du matériel et des logiciels, et de
+--
+
+   La mise à l’échelle élastique est un des avantages des services de
+   cloud computing. En termes de nuage, cela veut dire qu’il est possible
+   de mettre en œuvre la quantité nécessaire de ressources informatiques,
+   par exemple plus ou moins de puissance de calcul, de stockage ou de
+--
+   activités moins coûteuses, car les données peuvent être mises en miroir
+   sur plusieurs sites redondants au sein du réseau du fournisseur de
+   nuage.
+
+Sécurité
+
+   De nombreux fournisseurs de nuage proposent un large ensemble de
+   stratégies, de technologies et de contrôles qui [190]renforcent votre
+   posture de sécurité globale, contribuant ainsi à protéger vos données,
+--
+   potentielles.
+
+Types de Nuage Computing
+
+Comprendre les différents modèles de déploiement nuage
+
+   Tous les clouds ne sont pas identiques et aucun type de cloud computing
+--
+   différents ont évolué pour vous aider à trouver la solution adaptée à
+   vos besoins. Vous devez commencer par déterminer le type de déploiement
+   nuage ou d’architecture de cloud computing sur lequel vos services
+   nuage seront implémentés. Il existe trois modes de déploiement de
+   services nuage : le nuage public, le nuage privé et le nuage
+   hybride. [191]Apprenez-en plus sur les nuages public, privé et hybride.
+
+Nuage public
+
+   Les [192]nuages publics sont détenus et exploités par des
+   fournisseurs de services nuage tiers, qui fournissent des ressources
+   informatiques telles que des serveurs et du stockage sur Internet.
+   Microsoft Azure est un exemple de nuage public. Dans un nuage public,
+   tout le matériel, tous les logiciels et toute l’infrastructure sont la
+   propriété du fournisseur du nuage. Vous accédez à ces services et vous
+   gérez votre compte par l’intermédiaire d’un navigateur web.
+
+Nuage privé
+
+   Un [193]nuage privé fait référence aux ressources de cloud computing
+   utilisées exclusivement par une seule entreprise ou organisation. Le
+   nuage privé peut se trouver physiquement dans le centre de données
+   local de l’entreprise. Certaines entreprises paient également des
+   fournisseurs de services pour qu’ils hébergent leur nuage privé. Le
+   nuage privé est un nuage dans lequel les services et l’infrastructure
+   se trouvent sur un réseau privé.
+
+Nuage hybride
+
+   Les[194]clouds hybrides combinent des nuages publics et privés, liés
+   par une technologie qui permet de partager des données et des
+   applications entre eux. En permettant que les données et applications
+   se déplacent entre des clouds privés et publics, un nuage hybride offre
+   à votre entreprise une plus grande flexibilité, davantage d’options de
+   déploiement et une optimisation de votre infrastructure, de votre
+   sécurité et de votre conformité existantes.
+
+Types de services nuage
+
+Types de services nuage : IaaS, PaaS, serverless et SaaS
+
+   La plupart des services de cloud computing peuvent être classés en
+--
+   l’ [195]IaaS, vous louez une infrastructure informatique (serveurs,
+   VMs, stockage, réseaux et systèmes d’exploitation) auprès d’un
+   fournisseur de service dans le nuage, avec un paiement en fonction de
+   l’utilisation.
+
+--
+   [197]Software-as-a-service (SaaS) est une méthode de diffusion
+   d’applications logicielles via Internet, à la requête et en général sur
+   abonnement. Avec le SaaS, les fournisseurs de service dans le nuage
+   hébergent et gèrent les applications logicielles et l’infrastructure
+   sous-jacente, et gèrent la maintenance, par exemple la mise à niveau
+--
+   concentre sur la création de fonctionnalités d'application sans passer
+   du temps à gérer en permanence les serveurs et l'infrastructure
+   nécessaires pour le faire. Le fournisseur de nuage se charge de la
+   configuration, de la planification de la capacité et de
+   l’administration du serveur à votre place. Les architectures serverless
+--
+   Microsoft est un des leaders mondiaux des services de cloud computing
+   pour les entreprises de toutes tailles. Pour en savoir plus sur la
+   plateforme nuage Microsoft et sur la comparaison entre Microsoft Azure
+   et d'autres fournisseurs de nuage, consultez Azure vs. AWS.
+   [199]En savoir plus
+   Ressources
+--
+   avec un ordinateur portable ouvert devant eux.
+
+Tutoriel sur les concepts du nuage Azure
+
+   Apprenez les concepts de base du nuage avec un aperçu simplifié des
+   services Azure, ainsi que des exercices pratiques.
+   [204]Explorer les modules
+--
+       01/
+
+Qu’est-ce que le nuage ?
+       Le nuage est un réseau étendu de serveurs distants répartis dans le
+       monde entier. Ces serveurs stockent et gèrent les données,
+       exécutent des applications et fournissent du contenu et des
+       services tels que la diffusion en continu de vidéos, de courrier
+       web et de logiciels de productivité et de bureautique sur Internet.
+       Avec le stockage de vos fichiers et données dans le nuage, vous
+       n’avez pas à dépendre d’ordinateurs et de serveurs locaux. En
+       effet, vous pouvez accéder à vos données en ligne à partir d’un
+--
+       L’informatique multicloud implique l’utilisation de multiples
+       services de cloud computing proposés par plusieurs fournisseurs de
+       service dans le nuage pour le même type de solutions informatiques
+       ou de charges de travail. Une stratégie multicloud, qui peut
+       inclure des clouds privés et publics, permet aux organisations
+--
+       dans la gestion de leur charge de travail. Le choix de différentes
+       offres et fonctionnalités provenant de plusieurs fournisseurs de
+       service dans le nuage permet aux organisations de créer les
+       solutions les mieux adaptées à leurs besoins informatiques
+       spécifiques.
+--
+       et de la terminologie informatiques ou que vous soyez un
+       professionnel doté de compétences techniques, vous pouvez appliquer
+       au nuage les connaissances et compétences informatiques locales
+       dont vous disposez actuellement.
+       [210]En savoir plus
+--
+
+Combien coûte le cloud computing ?
+       Les fournisseurs de service dans le nuage utilisent généralement un
+       modèle de tarification avec paiement à l’utilisation, ce qui
+       signifie que les organisations paient uniquement les services nuage
+       qu’elles utilisent. Elles peuvent ainsi réduire leurs coûts
+       d’exploitation, exécuter leur infrastructure plus efficacement et

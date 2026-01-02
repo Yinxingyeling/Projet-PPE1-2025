@@ -1,0 +1,611 @@
+    #[1]Forbes France » Flux [2]Forbes France » Flux des commentaires
+   [3]Forbes France » Informatique en nuage : Les dix grandes tendances
+   pour 2024 Flux des commentaires [4]oEmbed (JSON) [5]oEmbed (XML)
+   [6]JSON
+
+   [javascript]
+
+     *
+          + [7]Accueil
+          + [8]Business
+          + [9]Technologie
+          + [10]Femmes@Forbes
+          + [11]Entrepreneurs
+          + [12]Management
+          + [13]Finance
+          + [14]Sport business
+          + [15]Science
+          + [16]Environnement
+          + [17]Politique
+          + [18]Société
+          + [19]Lifestyle
+          + [20]Luxe
+          + [21]Classements
+          + [22]Adhésion newsletters Forbes
+          + [23]Club Forbes
+          + [24]PMI voice
+          + [25]Buy now pay later Voice
+          + [26]Leader’s Talk
+          + [27]Les adresses incontournables
+          + [28]Leaders d’Opinion
+          + [29]Les entreprises à succès
+          + [30]Business Inside
+          + [31]Portraits d’Entreprises
+          + [32]Business Inside TV
+     * [33]Classements
+     * [34]Brandvoice
+     * [35]Magazine Forbes
+     * [36]Bibliothèque
+     * [37]Je m’abonne
+
+     *
+          + [38]Accueil
+          + [39]Business
+          + [40]Technologie
+          + [41]Femmes@Forbes
+          + [42]Entrepreneurs
+          + [43]Management
+          + [44]Finance
+          + [45]Sport business
+          + [46]Science
+          + [47]Environnement
+          + [48]Politique
+          + [49]Société
+          + [50]Lifestyle
+          + [51]Luxe
+          + [52]Classements
+          + [53]Adhésion newsletters Forbes
+          + [54]Club Forbes
+          + [55]PMI voice
+          + [56]Buy now pay later Voice
+          + [57]Leader’s Talk
+          + [58]Les adresses incontournables
+          + [59]Leaders d’Opinion
+          + [60]Les entreprises à succès
+          + [61]Business Inside
+          + [62]Portraits d’Entreprises
+          + [63]Business Inside TV
+     * [64]Classements
+     * [65]Brandvoice
+     * [66]Magazine Forbes
+     * [67]Bibliothèque
+     * [68]Je m’abonne
+
+   Rechercher
+   Rechercher
+   ____________________
+     *
+     *
+     *
+     *
+     *
+
+     * [69]Club Forbes
+
+   [70]logo_blanc
+   Rechercher
+   Rechercher
+   ____________________
+
+     *
+          + [71]Accueil
+          + [72]Business
+          + [73]Technologie
+          + [74]Femmes@Forbes
+          + [75]Entrepreneurs
+          + [76]Management
+          + [77]Finance
+          + [78]Sport business
+          + [79]Science
+          + [80]Environnement
+          + [81]Politique
+          + [82]Société
+          + [83]Lifestyle
+          + [84]Luxe
+          + [85]Classements
+          + [86]Adhésion newsletters Forbes
+          + [87]Club Forbes
+          + [88]PMI voice
+          + [89]Buy now pay later Voice
+          + [90]Leader’s Talk
+          + [91]Les adresses incontournables
+          + [92]Leaders d’Opinion
+          + [93]Les entreprises à succès
+          + [94]Business Inside
+          + [95]Portraits d’Entreprises
+          + [96]Business Inside TV
+     * [97]Classements
+     * [98]Brandvoice
+     * [99]Magazine Forbes
+     * [100]Bibliothèque
+     * [101]Je m’abonne
+
+     *
+     *
+     *
+     *
+
+     * [102]Club Forbes
+
+     * [103]Business
+     * [104]Technologie
+     * [105]Entrepreneurs
+     * [106]Management
+     * [107]Finance
+     * [108]Environnement
+     * [109]Lifestyle
+     * [110]Luxe
+     * [111]Femmes@Forbes
+
+     * [112]Business
+     * [113]Technologie
+     * [114]Entrepreneurs
+     * [115]Management
+     * [116]Finance
+     * [117]Environnement
+     * [118]Lifestyle
+     * [119]Luxe
+     * [120]Femmes@Forbes
+
+   [counter]
+
+     * [121]Technologie /
+     * #2024
+
+     * [122]Technologie
+
+Informatique en nuage : Les dix grandes tendances pour 2024
+
+   Informatique en nuage : Les dix grandes tendances pour 2024 -
+   gettyimages 1699286826
+
+   [123]Forbes
+   [124]
+
+Forbes
+
+     * 12 octobre 2023
+
+   À l’échelle mondiale, les dépenses des entreprises en infrastructures
+   d’informatique en nuage (cloud computing) devraient dépasser les
+   1 000 milliards de dollars pour la première fois en 2024. Cette
+   évolution sera stimulée par des facteurs tels que le besoin croissant
+   d’adopter de nouvelles plateformes et des offres « à la demande »,
+   notamment des services d’intelligence artificielle (IA).
+
+
+   En effet, en 2024, les entreprises voient plus loin que les
+   possibilités d’économie de temps et d’argent offertes par la migration
+   vers l’informatique en nuage. Les cas d’utilisation émergents dans tous
+   les secteurs montrent clairement qu’il peut souvent être la clé d’une
+   plus grande innovation, agilité et performance.
+
+   Pour de nombreuses entreprises, il restera des défis importants à
+   relever, qui tournent souvent autour des questions de sécurité et de
+   protection des données. Cependant, les nouveaux modèles qui cherchent à
+   offrir des solutions optimales, comme le nuage hybride et les systèmes
+   de fédération des nuages, continueront à faire tomber les barrières.
+
+   En 2024, le nuage restera un moteur dynamique et passionnant
+   d’innovation et d’opportunités. Voici un aperçu des tendances les plus
+   significatives dans ce domaine.
+
+   L’IA en tant que service
+
+   L’infrastructure en nuage a un rôle important à jouer pour rendre l’IA
+   accessible au plus grand nombre, avec tous les avantages économiques et
+   sociaux qu’elle devrait générer. Les modèles d’IA, tels que le
+   [125]grand modèle linguistique (LLM) qui équipe ChatGPT, sont entraînés
+   sur d’énormes quantités de données, en utilisant de grandes quantités
+   de puissance de calcul. La plupart des entreprises n’ont pas les
+   ressources nécessaires pour le faire elles-mêmes, mais en accédant à
+   l’IA en tant que service via des plateformes en nuage, elles sont en
+   mesure de tirer parti de cette technologie puissante et
+   transformatrice.
+
+   Le nuage hybride et multinuage
+
+   Le nombre de grandes entreprises ayant une stratégie multinuage
+   (c’est-à-dire qu’elles achètent des services en nuage auprès de
+   plusieurs fournisseurs) devrait passer de 76 % à 85 % en 2024. Cette
+   stratégie offre des avantages en termes de coûts et de flexibilité,
+   mais elle complexifie la gouvernance des données et l’intégration avec
+   les systèmes existants. Le multinuage et le nuage hybride sont des
+   solutions d’infrastructure avancées qui continueront à gagner en
+   popularité, car les entreprises cherchent à équilibrer la sécurité et
+   la flexibilité et à choisir les services dont elles ont besoin.
+
+   Infrastructure en nuage en temps réel
+
+   En 2024, les entreprises chercheront de plus en plus à exploiter les
+   données en temps réel afin d’obtenir des informations de dernière
+   minute plutôt que d’agir sur la base d’informations obsolètes.
+   Parallèlement, les données consommées prendront de plus en plus la
+   forme de données diffusées en continu (films et musique de Netflix et
+   Spotify, données vidéo des appels Zoom ou Teams, et nouvelles formes de
+   divertissement en continu telles que les jeux en nuage). Cela signifie
+   que le stockage de données qui privilégie l’accès instantané, comme les
+   dispositifs de stockage Flash et à semi-conducteurs, sera de plus en
+   plus demandé par les clients de l’informatique en nuage.
+
+   Innovation et transformation basées sur l’informatique dématérialisée
+
+   Outre l’IA mentionnée ci-dessus, l’adoption de la technologie de
+   l’informatique en nuage peut être une passerelle vers de nombreuses
+   autres technologies transformatrices telles que l’[126]internet des
+   objets (IoT), la blockchain et l’informatique quantique. En éliminant
+   la nécessité d’investir directement dans l’architecture et
+   l’infrastructure, les entreprises sont en mesure de lancer des
+   initiatives à gain rapide/échec rapide pour évaluer les avantages des
+   technologies émergentes plus facilement que jamais en 2024, grâce à
+   l’informatique en nuage.
+
+   Sécurité et résilience de l’informatique dématérialisée
+
+   Le chiffrement, l’authentification et la reprise après sinistre sont
+   trois fonctions des services d’informatique en nuage qui seront de plus
+   en plus demandées à mesure que l’on fera face à l’évolution du paysage
+   des menaces en 2024. Les vols de données et les violations augmentent
+   en fréquence et en gravité à mesure que les pirates développent de
+   nouvelles formes d’attaque alimentées par l’IA, et tout système qui
+   doit être accessible à un humain sera toujours exposé au risque
+   d’attaques d’ingénierie sociale. Cela signifie que la sécurité et la
+   résilience sont des priorités pour tous les fournisseurs de service en
+   nuage et les clients.
+
+   L’informatique en nuage durable
+
+   Les grands fournisseurs de services d’informatique en nuage ont tous
+   pris des engagements en faveur d’une consommation nette zéro, non
+   seulement pour leurs propres activités, mais aussi pour aider les
+   clients qui utilisent leurs services à réduire leur empreinte carbone.
+   La société Amazon s’est engagée à réduire ses émissions à zéro
+   d’ici 2040, et Microsoft a l’intention de faire mieux dans dix ans.
+   Avec Google, toutes ces entreprises ont également déclaré leur
+   intention de générer 100 % de l’énergie utilisée dans leurs activités à
+   partir de sources renouvelables. Il reste à voir si elles y
+   parviendront, mais la tendance à l’informatique en nuage plus
+   écologique et moins néfaste pour l’environnement sera très forte en
+   2024.
+
+   L’informatique en nuage simplifiée
+
+   Aujourd’hui, les outils « low-code » ou « no-code » permettent à des
+   personnes non techniques de créer des applications qui, auparavant,
+   auraient nécessité la formation d’ingénieurs en informatique. De même,
+   les fournisseurs d’informatique en nuage exploitent les interfaces
+   glisser-déposer et les outils de langage naturel pour éliminer le
+   besoin de compétences techniques avancées et « démocratiser » le
+   déploiement et la gestion des services et de l’infrastructure en nuage.
+
+   La protection de la vie privée dans l’informatique dématérialisée
+
+   La protection de la vie privée dans l’informatique dématérialisée fait
+   référence au développement continu de solutions technologiques,
+   réglementaires et législatives conçues pour aider les entreprises à
+   tirer parti de l’informatique dématérialisée tout en garantissant à
+   leurs clients que leurs données sont entièrement protégées. Lorsqu’une
+   entreprise utilise un service d’informatique dématérialisée, elle doit
+   généralement transmettre des données à un tiers, qui est la plupart du
+   temps le fournisseur de services d’informatique dématérialisée. La
+   gestion des implications en matière de confidentialité continuera
+   d’être un thème important de l’informatique en nuage au cours de
+   l’année 2024.
+
+   Nuage sans serveur et avec paiement à l’utilisation
+
+   Le « serverless » est un modèle de service d’informatique en nuage qui
+   élimine la nécessité pour les entreprises de gérer leurs propres
+   serveurs. Alors qu’un service d’informatique en nuage classique peut
+   facturer à l’entreprise le nombre de serveurs sur lesquels elle
+   souhaite héberger son infrastructure, dans le cadre d’un modèle sans
+   serveur, l’entreprise paie simplement pour les ressources qu’elle
+   utilise directement. Cela permet de gagner en efficacité en éliminant
+   le besoin de payer pour des serveurs même lorsqu’ils ne sont pas
+   utilisés et libère le temps de l’entreprise pour qu’elle puisse se
+   consacrer à ses activités principales.
+
+   L’informatique en périphérie partout
+
+   L’informatique en périphérie est un paradigme lié à l’informatique en
+   nuage dans lequel les informations sont traitées aussi près que
+   possible de l’endroit où elles sont collectées. Un exemple pourrait
+   être un moniteur cardiaque portable en temps réel conçu pour détecter
+   les arythmies. Comme la plupart des données collectées sont des rythmes
+   cardiaques « normaux », les envoyer dans le nuage pour les analyser,
+   puis les renvoyer à l’utilisateur pour lui dire que tout va bien,
+   serait un gaspillage de bande passante. L’analyse des données sur
+   l’appareil lui-même élimine ce coût et permet également d’alerter plus
+   rapidement l’utilisateur en cas de détection de données anormales. En
+   2024, des processeurs plus petits et plus économes en énergie, des
+   algorithmes plus économes en mémoire et des réseaux avancés tels que la
+   5G contribueront à rendre la technologie de pointe de plus en plus
+   viable pour un nombre croissant d’applications.
+
+
+   Article traduit de Forbes US – Auteur : Bernard Marr
+
+   <<< À lire également : [127]EXCLUSIF | Les 5 grandes tendances
+   technologiques en 2024 >>>
+
+   Vous avez aimé cet article ? Likez Forbes sur Facebook
+   [128]Abonnement newsletter
+
+   Abonnez-vous au magazine papier
+
+   et découvrez chaque trimestre :
+     * Des dossiers et analyses exclusifs sur des stratégies d'entreprises
+     * Des témoignages et interviews de stars de l'entrepreneuriat
+     * Nos classements de femmes et hommes d'affaires
+     * Notre sélection lifestyle
+     * Et de nombreux autres contenus inédits
+
+   1 an, 4 numéros : 30 € TTC au lieu de 36 € TTC
+   [129]Je m'abonne
+
+   Vous serez aussi intéressé par :
+
+[130]Entretien exclusif avec Garry Kasparov : sa vision de l’IA, de l’avenir
+de l’humanité et son combat contre Poutine
+
+
+[131]30 Under 30 – La suite : qu’est devenu Sylvain Bataillard (HyPrSpace) ?
+
+
+[132]Pourquoi les organisations complexes doivent penser comme des
+plateformes pour rester performantes
+
+[133]Entretien exclusif avec Garry Kasparov : sa vision de l’IA, de l’avenir
+de l’humanité et son combat contre Poutine
+
+[134]30 Under 30 – La suite : qu’est devenu Sylvain Bataillard (HyPrSpace) ?
+
+[135]Pourquoi les organisations complexes doivent penser comme des
+plateformes pour rester performantes
+
+   [136]PrécédentprécedentConflit entre le Hamas et Israël : L’ONU estime
+   que plus de 300 000 personnes ont été déplacées dans la bande de Gaza
+   [137]suivantJusqu’où nous surprendra-t-elle ? Un nouveau secret de « La
+   Joconde » de Léonard De Vinci vient d’être mis à jourSuivant
+
+   logo_blanc
+
+     * [138]Business
+     * [139]Technologie
+     * [140]Entrepreneurs
+     * [141]Management
+     * [142]Finance
+     * [143]Environnement
+     * [144]Lifestyle
+     * [145]Luxe
+     * [146]Femmes@Forbes
+
+     * [147]Business
+     * [148]Technologie
+     * [149]Entrepreneurs
+     * [150]Management
+     * [151]Finance
+     * [152]Environnement
+     * [153]Lifestyle
+     * [154]Luxe
+     * [155]Femmes@Forbes
+
+Services et produits
+
+     * [156]Abonnement Magazine
+     * [157]Brandvoice
+     * [158]Club Forbes
+
+Newsletters
+
+     * [159]Newsletter Quotidienne
+     * [160]Newsletter FemmesForbes
+     * [161]Newsletter Luxe - lifestyle
+
+Mentions légales
+
+     * [162]Conditions générales d'utilisation
+     * [163]Charte de confiance - Mentions légales
+     * [164]Politique de confidentialité
+
+Contact
+
+     * [165]Annoncer sur Forbes
+     * [166]Etre contributeur sur Forbes
+     * [167]Contacter la rédaction
+     * [168]Contacter la technique
+     * [169]Proposition de partenariat
+
+   360BusinessMedia est éditeur de Forbes.fr et [170]OniriQ.fr – La marque
+   Forbes est gérée par Forbes Media LLC
+
+Références
+
+   Liens visibles :
+   1. https://www.forbes.fr/feed/
+   2. https://www.forbes.fr/comments/feed/
+   3. https://www.forbes.fr/technologie/informatique-en-nuage-les-dix-grandes-tendances-pour-2024/feed/
+   4. https://www.forbes.fr/wp-json/oembed/1.0/embed?url=https://www.forbes.fr/technologie/informatique-en-nuage-les-dix-grandes-tendances-pour-2024/
+   5. https://www.forbes.fr/wp-json/oembed/1.0/embed?url=https://www.forbes.fr/technologie/informatique-en-nuage-les-dix-grandes-tendances-pour-2024/&format=xml
+   6. https://www.forbes.fr/wp-json/wp/v2/posts/310674
+   7. http://www.forbes.fr/
+   8. https://www.forbes.fr/business/
+   9. https://www.forbes.fr/technologie/
+  10. https://www.forbes.fr/femmes-at-forbes/
+  11. https://www.forbes.fr/entrepreneurs/
+  12. https://www.forbes.fr/management/
+  13. https://www.forbes.fr/finance/
+  14. https://www.forbes.fr/sport-business/
+  15. https://www.forbes.fr/science/
+  16. https://www.forbes.fr/environnement/
+  17. https://www.forbes.fr/politique/
+  18. https://www.forbes.fr/societe/
+  19. https://www.forbes.fr/lifestyle/
+  20. https://www.forbes.fr/luxe/
+  21. https://www.forbes.fr/classements/
+  22. https://www.forbes.fr/adhesion-newsletters-forbes/
+  23. https://www.forbes.fr/club-forbes/
+  24. https://www.forbes.fr/brandvoice/pmi-voice/
+  25. https://www.forbes.fr/brandvoice/buy-now-pay-later-voice/
+  26. https://www.forbes.fr/leaderstalk/
+  27. https://www.forbes.fr/les-adresses-incontournables/
+  28. https://www.forbes.fr/leaders-dopinion/
+  29. https://www.forbes.fr/les-entreprises-a-succes/
+  30. https://www.forbes.fr/business-inside/
+  31. https://www.forbes.fr/portraits-dentreprises/
+  32. https://www.forbes.fr/business-inside-tv/
+  33. https://www.forbes.fr/classements/
+  34. https://www.forbes.fr/brandvoice/
+  35. https://www.forbes.fr/magazine-forbes/
+  36. https://www.forbes.fr/bibliotheque-forbes/
+  37. https://boutique.forbes.fr/
+  38. http://www.forbes.fr/
+  39. https://www.forbes.fr/business/
+  40. https://www.forbes.fr/technologie/
+  41. https://www.forbes.fr/femmes-at-forbes/
+  42. https://www.forbes.fr/entrepreneurs/
+  43. https://www.forbes.fr/management/
+  44. https://www.forbes.fr/finance/
+  45. https://www.forbes.fr/sport-business/
+  46. https://www.forbes.fr/science/
+  47. https://www.forbes.fr/environnement/
+  48. https://www.forbes.fr/politique/
+  49. https://www.forbes.fr/societe/
+  50. https://www.forbes.fr/lifestyle/
+  51. https://www.forbes.fr/luxe/
+  52. https://www.forbes.fr/classements/
+  53. https://www.forbes.fr/adhesion-newsletters-forbes/
+  54. https://www.forbes.fr/club-forbes/
+  55. https://www.forbes.fr/brandvoice/pmi-voice/
+  56. https://www.forbes.fr/brandvoice/buy-now-pay-later-voice/
+  57. https://www.forbes.fr/leaderstalk/
+  58. https://www.forbes.fr/les-adresses-incontournables/
+  59. https://www.forbes.fr/leaders-dopinion/
+  60. https://www.forbes.fr/les-entreprises-a-succes/
+  61. https://www.forbes.fr/business-inside/
+  62. https://www.forbes.fr/portraits-dentreprises/
+  63. https://www.forbes.fr/business-inside-tv/
+  64. https://www.forbes.fr/classements/
+  65. https://www.forbes.fr/brandvoice/
+  66. https://www.forbes.fr/magazine-forbes/
+  67. https://www.forbes.fr/bibliotheque-forbes/
+  68. https://boutique.forbes.fr/
+  69. file:///club-forbes
+  70. https://www.forbes.fr/
+  71. http://www.forbes.fr/
+  72. https://www.forbes.fr/business/
+  73. https://www.forbes.fr/technologie/
+  74. https://www.forbes.fr/femmes-at-forbes/
+  75. https://www.forbes.fr/entrepreneurs/
+  76. https://www.forbes.fr/management/
+  77. https://www.forbes.fr/finance/
+  78. https://www.forbes.fr/sport-business/
+  79. https://www.forbes.fr/science/
+  80. https://www.forbes.fr/environnement/
+  81. https://www.forbes.fr/politique/
+  82. https://www.forbes.fr/societe/
+  83. https://www.forbes.fr/lifestyle/
+  84. https://www.forbes.fr/luxe/
+  85. https://www.forbes.fr/classements/
+  86. https://www.forbes.fr/adhesion-newsletters-forbes/
+  87. https://www.forbes.fr/club-forbes/
+  88. https://www.forbes.fr/brandvoice/pmi-voice/
+  89. https://www.forbes.fr/brandvoice/buy-now-pay-later-voice/
+  90. https://www.forbes.fr/leaderstalk/
+  91. https://www.forbes.fr/les-adresses-incontournables/
+  92. https://www.forbes.fr/leaders-dopinion/
+  93. https://www.forbes.fr/les-entreprises-a-succes/
+  94. https://www.forbes.fr/business-inside/
+  95. https://www.forbes.fr/portraits-dentreprises/
+  96. https://www.forbes.fr/business-inside-tv/
+  97. https://www.forbes.fr/classements/
+  98. https://www.forbes.fr/brandvoice/
+  99. https://www.forbes.fr/magazine-forbes/
+ 100. https://www.forbes.fr/bibliotheque-forbes/
+ 101. https://boutique.forbes.fr/
+ 102. file:///club-forbes
+ 103. https://www.forbes.fr/business/
+ 104. https://www.forbes.fr/technologie/
+ 105. https://www.forbes.fr/entrepreneurs/
+ 106. https://www.forbes.fr/management/
+ 107. https://www.forbes.fr/finance/
+ 108. https://www.forbes.fr/environnement/
+ 109. https://www.forbes.fr/lifestyle/
+ 110. https://www.forbes.fr/luxe/
+ 111. https://www.forbes.fr/femmes-at-forbes/
+ 112. https://www.forbes.fr/business/
+ 113. https://www.forbes.fr/technologie/
+ 114. https://www.forbes.fr/entrepreneurs/
+ 115. https://www.forbes.fr/management/
+ 116. https://www.forbes.fr/finance/
+ 117. https://www.forbes.fr/environnement/
+ 118. https://www.forbes.fr/lifestyle/
+ 119. https://www.forbes.fr/luxe/
+ 120. https://www.forbes.fr/femmes-at-forbes/
+ 121. https://www.forbes.fr/technologie/
+ 122. https://www.forbes.fr/technologie/
+ 123. https://www.forbes.fr/author/forbes/
+ 124. https://www.forbes.fr/author/forbes/
+ 125. https://fr.wikipedia.org/wiki/Grand_modèle_de_langage
+ 126. https://fr.wikipedia.org/wiki/Internet_des_objets
+ 127. https://www.forbes.fr/technologie/exclusif-les-5-grandes-tendances-technologiques-en-2024/
+ 128. https://www.forbes.fr/adhesion-newsletters-forbes/
+ 129. https://boutique.forbes.fr/
+ 130. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
+ 131. https://www.forbes.fr/entrepreneurs/30-under-30-la-suite-quest-devenu-sylvain-bataillard-hyprspace/
+ 132. https://www.forbes.fr/technologie/pourquoi-les-organisations-complexes-doivent-penser-comme-des-plateformes-pour-rester-performantes/
+ 133. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
+ 134. https://www.forbes.fr/entrepreneurs/30-under-30-la-suite-quest-devenu-sylvain-bataillard-hyprspace/
+ 135. https://www.forbes.fr/technologie/pourquoi-les-organisations-complexes-doivent-penser-comme-des-plateformes-pour-rester-performantes/
+ 136. https://www.forbes.fr/business/conflit-entre-le-hamas-et-israel-lonu-estime-que-plus-de-300-000-personnes-ont-ete-deplacees-dans-la-bande-de-gaza/
+ 137. https://www.forbes.fr/science/jusquou-nous-surprendra-telle-un-nouveau-secret-de-la-joconde-de-leonard-de-vinci-vient-detre-mis-a-jour/
+ 138. https://www.forbes.fr/business/
+ 139. https://www.forbes.fr/technologie/
+ 140. https://www.forbes.fr/entrepreneurs/
+ 141. https://www.forbes.fr/management/
+ 142. https://www.forbes.fr/finance/
+ 143. https://www.forbes.fr/environnement/
+ 144. https://www.forbes.fr/lifestyle/
+ 145. https://www.forbes.fr/luxe/
+ 146. https://www.forbes.fr/femmes-at-forbes/
+ 147. https://www.forbes.fr/business/
+ 148. https://www.forbes.fr/technologie/
+ 149. https://www.forbes.fr/entrepreneurs/
+ 150. https://www.forbes.fr/management/
+ 151. https://www.forbes.fr/finance/
+ 152. https://www.forbes.fr/environnement/
+ 153. https://www.forbes.fr/lifestyle/
+ 154. https://www.forbes.fr/luxe/
+ 155. https://www.forbes.fr/femmes-at-forbes/
+ 156. file:///magazine-forbes/
+ 157. file:///brandvoice/
+ 158. file:///club-forbes
+ 159. https://www.forbes.fr/adhesion-newsletters-forbes/
+ 160. https://www.forbes.fr/adhesion-newsletters-forbes/
+ 161. https://www.forbes.fr/adhesion-newsletters-forbes/
+ 162. file:///conditions-generales-dutilisation/
+ 163. file:///mentions-legales/
+ 164. file:///politique-de-confidentialite/
+ 165. file:///annoncer-sur-forbes
+ 166. file:///contribuer-sur-forbes/
+ 167. file:///contacter-la-redaction
+ 168. file:///contacter-la-technique
+ 169. file:///proposition-de-partenariat
+ 170. https://www.oniriq.fr/
+
+   Liens cachés :
+ 172. http://www.forbes.fr/
+ 173. http://www.forbes.fr/
+ 174. https://www.facebook.com/ForbesFR/
+ 175. https://www.instagram.com/forbesfrance/
+ 176. https://twitter.com/forbes_fr
+ 177. https://www.linkedin.com/company/10956867?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10956867%2Cidx%3A3-1-10%2CtarId%3A1479296380313%2Ctas%3Aforbes%20france
+ 178. https://www.youtube.com/channel/UCcPUeCUS7RVK1p-V4bt87Nw
+ 179. http://www.forbes.fr/
+ 180. https://www.facebook.com/ForbesFR/
+ 181. https://twitter.com/forbes_fr
+ 182. https://www.linkedin.com/company/10956867?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10956867%2Cidx%3A3-1-10%2CtarId%3A1479296380313%2Ctas%3Aforbes%20france
+ 183. https://www.youtube.com/channel/UCcPUeCUS7RVK1p-V4bt87Nw
+ 184. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
+ 185. https://www.forbes.fr/entrepreneurs/30-under-30-la-suite-quest-devenu-sylvain-bataillard-hyprspace/
+ 186. https://www.forbes.fr/technologie/pourquoi-les-organisations-complexes-doivent-penser-comme-des-plateformes-pour-rester-performantes/

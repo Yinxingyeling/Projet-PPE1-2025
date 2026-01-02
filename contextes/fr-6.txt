@@ -5,3 +5,110 @@
 Visualisation des résultats de l'analyse de texte à l'aide de nuages de mots
 
    Sommaire
+--
+   communication.
+
+Utilisation du nuage de mots pour l'analyse de la fréquence des mots
+
+   Un nuage de mots ou nuage de tags est une représentation visuelle de
+   données textuelles sous forme de tags, qui sont généralement des mots
+   uniques dont l'importance est visualisée par leur taille et leur
+--
+   dans le domaine des médias sociaux, il est de plus en plus nécessaire
+   d'analyser les quantités massives de texte générées par ces systèmes.
+   Un nuage de mots est une excellente option pour aider à interpréter
+   visuellement un texte et est utile pour obtenir rapidement un aperçu
+   des éléments les plus importants dans un texte donné, en visualisant la
+--
+   texte en couleur et en taille.
+
+   Ce blog démontrera comment créer un nuage de mots dans Dundas BI en
+   utilisant la bibliothèque D3.js. Notez que cela n'est pas nécessaire si
+   la visualisation native du nuage de mots est utilisée à partir de la
+   version 5.0.1, car elle peut maintenant être créée en quelques clics.
+
+--
+Étapes de l'analyse de la fréquence des mots
+
+   La première étape de la visualisation des données sous forme de nuage
+   de mots consiste à analyser le texte et à extraire la fréquence de
+   chaque mot dans le texte. Dans notre exemple, les avis des clients sont
+--
+   texte.
+
+Création du nuage de mots
+
+   Créer un tableau
+--
+   Sur le canevas du tableau de bord, créez un tableau de visualisation à
+   partir du cube de données ci-dessus qui sera utilisé pour alimenter le
+   nuage de mots.
+
+   Graphique de fréquence 2
+--
+
+   Le nom de script du tableau (trouvé dans ses propriétés) sera utilisé
+   dans le script du nuage de mots dans la section suivante. Renommez ce
+   nom de script si nécessaire
+
+--
+   Figure 8 : Notez le nom du script de la table
+
+   Créer le nuage de mots
+
+   Pour créer le nuage de mots, nous utiliserons la bibliothèque D3.js et
+   ferons référence à l'exemple présenté ici :
+
+
+   Dans l'événement Ready du tableau de bord, ajoutez le script D3.js pour
+   créer le nuage de mots.
+
+   Texte 1
+--
+   Éditeur de scripts
+
+   Figure 10 : Script de création du nuage de mots
+
+   Afficher les données dans le nuage de mots
+
+   Pour afficher les données sur le nuage de mots, nous utiliserons un
+   composant d'étiquette HTML qui servira de conteneur pour le nuage et
+   nous permettra de positionner et de redimensionner le nuage en fonction
+   des besoins sur la toile du tableau de bord.
+
+--
+
+   Ajoutez maintenant un autre script dans l'action Ready du tableau de
+   bord qui lit les données du tableau créé précédemment, les lie au nuage
+   de mots et les affiche dans le conteneur d'étiquettes HTML. Pour
+   s'assurer que le nuage de mots change lorsque les données sont
+   modifiées dans le tableau, par exemple en cas de changement de filtre,
+   etc., ajoutez également ce script dans l'action Données modifiées du
+--
+Résumé
+
+   Comme vous pouvez le constater, un nuage de mots permet d'analyser
+   rapidement n'importe quel texte et fournit des informations précieuses
+   sur des sujets essentiels. L'exemple ci-dessus montre comment créer un
+   nuage de mots rudimentaire dans Dundas BI. Vous pouvez modifier et
+   renforcer l'apparence du nuage de mots en ajustant son script, et en
+   ajoutant des améliorations supplémentaires telles que [133]différents
+   schémas de couleurs, qui peuvent être affichés en fonction de la
+   fréquence des mots sélectionnés.
+
+   Le nuage de mots est une excellente visualisation qui permet de mettre
+   rapidement en évidence les mots clés d'un texte, mais il ne permet pas
+   d'effectuer une analyse précise, ce qui est souvent l'objectif de
+--
+
+   Pour combler cette lacune et fournir à la fois le premier aperçu rapide
+   obtenu en jetant un coup d'œil au nuage de mots et la vue précise
+   nécessaire à l'analyse commerciale, nous recommandons de superposer le
+   nuage de mots à un diagramme à barres montrant le même résultat. Voici
+   un exemple de ce que cela donne sur un tableau de bord :
+
+   Figure 14
+
+   Figure 14 : Nuage de mots superposé à un diagramme à barres
+
+   L'[134]utilisation des diagrammes de Pareto dans Power BI est une autre

@@ -1,0 +1,68 @@
+     * [29]facebook
+
+Cloud computing, histoire de l’informatique en nuages
+
+   Vous êtes à : [30]Accueil › Cloud computing, histoire de l’informatique
+   en nuages
+
+   15 juillet 2013 par [31]Histoire CIGREF [32]3 Commentaires
+
+   [33]infographie-cigref-histoire-cloud-computing Pour qu’aujourd’hui
+   l’informatique s’élève vers les nuages, qu’elle devienne « cloud
+   computing »^1, il lui a fallu commencer par sortir de terre et gravir
+   quelques étapes ! Et certaines ascensions furent plus rudes que
+--
+   visionnaires, tenaces…
+
+Quelques « grands-géniteurs » de l’informatique en nuages
+
+   Grands géniteurs, ils le sont par leur talent d’innovateur qui a
+   conduit à la naissance de l’informatique. Grands-géniteurs, ils le sont
+   également aujourd’hui en tant que « grands-parents » de cette nouvelle
+   génération de l’informatique qui escalade les nuages ! Grands
+   géniteurs, ils le sont par leur talent d’innovateur qui a conduit à la
+   naissance de l’informatique. Grands-Géniteurs, ils le sont également
+   aujourd’hui en tant que « grands-parents » de cette nouvelle génération
+   de l’informatique qui escalade les nuages !
+
+   1933 – [36]Norman B. Krim et Jacob Goldman, le premier invente le
+--
+   1960 – [38]Joseph Carl Robnett Licklider, moins connu, il apporta
+   pourtant lui aussi un fort coup de pouce à la « démarche internet »
+   fondatrice de l’informatique en nuages. Dès 1960 il rédige le document
+   Man-Computer Symbiosis (symbiose Homme-Machine) où il anticipe
+   l’informatique interactive, les bibliothèques numériques, le commerce
+--
+
+   1972 – [42]Vinton Cerf et Robert E. Kahn, ils font franchir en 1972 le
+   premier gué de l’informatique vers le nuage en inventant le protocole
+   du futur internet TCP (Transmission Control Protocol).
+
+   1974 – [43]Roland Moreno, inventeur de la carte à puce présente dans
+   tous les objets numériques qui nous permettent d’accéder aux nuages
+   numériques !
+
+--
+
+   Comme pour ses grands géniteurs, une liste exhaustive des technologies
+   ayant propulsé l’informatique en nuages n’est guère possible ! Sans
+   hiérarchie d’importance, quelques-unes sont cependant évidentes comme :
+
+--
+   en 1964 par le MIT, les Laboratoires Bell et General Electric, des
+   centres d’innovation ayant été particulièrement importants sur le
+   parcours de l’informatique en nuages.
+   – Les [48]navigateurs, ils ouvrent la fenêtre au voyage numérique,
+   – Les premières [49]messageries internet, elles inspirent la liberté
+--
+   Leur croissance exponentielle matérialise l’intérêt, qu’il soit privé
+   ou professionnel, pour les usages en ligne, les fonctionnalités en
+   nuages…
+
+Les plateformes d’hébergement et de partage de données numériques
+--
+   entrée dans l’entreprise, elle en a même poussé les murs jusqu’à ce que
+   les usages personnels lui reviennent de plus en plus mobiles et en
+   nuages !
+
+   Comme ce parcours vers le cloud computing ne saurait être exhaustif,

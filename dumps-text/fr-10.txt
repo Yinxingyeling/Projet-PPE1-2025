@@ -1,6 +1,6 @@
    #[1]TIPS n' LEARN » Flux [2]TIPS n' LEARN » Flux des commentaires
    [3]TIPS n' LEARN » Nuage de Mots, dans la boîte à outils de TIPS n’
-   LEARN Flux des commentaires [4]JSON [5]oEmbed (JSON) [6]oEmbed (XML)
+   LEARN Flux des commentaires [4]oEmbed (JSON) [5]oEmbed (XML) [6]JSON
 
 [7]logo
 
@@ -118,9 +118,9 @@ Références
    1. https://tipsnlearn.fr/feed/
    2. https://tipsnlearn.fr/comments/feed/
    3. https://tipsnlearn.fr/outil/nuage-de-mots/feed/
-   4. https://tipsnlearn.fr/wp-json/wp/v2/outil/15742
-   5. https://tipsnlearn.fr/wp-json/oembed/1.0/embed?url=https://tipsnlearn.fr/outil/nuage-de-mots/
-   6. https://tipsnlearn.fr/wp-json/oembed/1.0/embed?url=https://tipsnlearn.fr/outil/nuage-de-mots/&format=xml
+   4. https://tipsnlearn.fr/wp-json/oembed/1.0/embed?url=https://tipsnlearn.fr/outil/nuage-de-mots/
+   5. https://tipsnlearn.fr/wp-json/oembed/1.0/embed?url=https://tipsnlearn.fr/outil/nuage-de-mots/&format=xml
+   6. https://tipsnlearn.fr/wp-json/wp/v2/outil/15742
    7. https://tipsnlearn.fr/
    8. javascript:;
    9. https://tipsnlearn.fr/#notre-offre

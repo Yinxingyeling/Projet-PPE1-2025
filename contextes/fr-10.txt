@@ -1,3 +1,17 @@
+   #[1]TIPS n' LEARN » Flux [2]TIPS n' LEARN » Flux des commentaires
+   [3]TIPS n' LEARN » Nuage de Mots, dans la boîte à outils de TIPS n’
+   LEARN Flux des commentaires [4]oEmbed (JSON) [5]oEmbed (XML) [6]JSON
+
+--
+   ____________________ Submit
+
+   Nuage de Mots, dans la boîte à outils de TIPS n’ LEARN
+
+   [outilToi-aussi.png] [outil_clef_moderne.png]
+
+   Vous reprendrez bien un petit nuage… de mots !
+
+
    Et oui, parce qu’on fait la pluie et le beau temps même en formation,
    on se met sur un fond vert et on annonce du soleil avec quelques
    nuages. Ok, notre métaphore filée s’arrête ici, Alain si tu nous
@@ -8,3 +22,29 @@
    2 minutes, crée des… nuages de mots. Pas besoin de mode d’emploi : il
    suffit de copier-coller un texte (probablement la plus looooongue étape
    de cette prise en main), puis d’en déterminer la forme, l’orientation,
+   la police, la couleur : on clique, on clique, on reclique et tadaaaaa,
+   un joli nuage apparaît.
+
+
+   Un ultime clic sur “téléchargement” et voilà notre nuage de mots prêt à
+   voler de ses propres ailes !
+
+--
+   Les [outil_PLUS.png]
+
+   Nuage de mots est gratuit, c’est ultrarapide donc très performant, bref
+   un outil comme on les aime !
+
+--
+   [outil_compas.png]
+
+   A vous de jouer [outil_trombone.png] [1-nuage-de-mots_tipsnlearn.png] 1
+
+   Intégrez le texte que vous souhaitez envoyer en l’air.
+   [outil_cle_molette.png] [2-nuage-de-mots_tipsnlearn.png] 2
+
+   Définissez sa forme, sa couleur, sa police…
+   [outil_taille_crayon.png] [outil_cle_oeil.png]
+   [3-nuage-de-mots_tipsnlearn.png] 3
+
+   Et voilà le résultat, à télécharger gratuitement.

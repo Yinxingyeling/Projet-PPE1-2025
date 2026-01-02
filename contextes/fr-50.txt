@@ -1,0 +1,69 @@
+    #[1]alternate [2]alternate [3]Dans le nuage.quebec » Flux [4]Dans le
+   nuage.quebec » Flux des commentaires [5]Dans le nuage.quebec »
+   Qu’est-ce que le nuage (CLOUD)? Flux des commentaires
+
+
+--
+
+   [7]Support
+   [8]logo dans le nuage.quebec
+     __________________________________________________________________
+
+--
+     * [10]Accueil
+     * [11]Nos solutions
+          + [12]Microsoft dans le nuage
+               o [13]Microsoft 365
+               o [14]Dynamics 365
+--
+     * [51]Français
+
+Qu’est-ce que le nuage (CLOUD)?
+
+   jfrobidas 2015-09-16[52]Non classé[53] Laisser un commentaire
+--
+   Dans Wikipédia on a la description suivante:
+
+   Le cloud computing^[54]1, ou l’informatique en nuage ou nuagique ou
+   encore l’infonuagique (au Québec), est l’exploitation de la puissance
+   de calcul ou de stockage de [55]serveurs informatiques distants par
+--
+   presque! Car si vous avez une infrastructure dans vos locaux qui est
+   complètement virtualisée on peut aussi l’appeler « [77]Private Cloud
+   On-Premise » ou « informatique en nuage privé dans vos locaux ».  Il
+   existe depuis quand? En fait le nuage est nez le jour où la
+   virtualisation des serveurs informatique à été inventé.  Dans le monde
+   Unix c’est IBM qui l’a inventé mais dans le monde du serveur x86 c’est
+   Vm Ware en 1999.  Un jour quelqu’un à trouver cela intéressant d’un
+   point de vue marketing de l’appeler ainsi, le (CLOUD COMPUTING)
+   l’informatique en nuage.
+
+   Si le service informatique est délocalisé, on peut appeler cela de
+   l’impartition mais pourquoi pas aussi du service informatique TI en
+   nuage?  Non?  Il n’est pas dans les locaux de l’entreprise, il est
+   disponible à la demande et dépendamment des contrats en tarif fixe ou
+   en fonction de la consommation.
+--
+   Il peut s‘avérer très pratique pour l’entreprise car il permet de
+   répondre facilement et rapidement aux demandes des lignes d’affaire car
+   dans le nuage le provisionnement des ressources, des applications ou
+   des services se fait avec rapidité tout en étant sécuritaire.
+
+--
+   [85]Contactez-nous
+
+   [86]Microsoft dans le nuage
+
+   [87]Microsoft 365
+--
+
+   [110]Salle de conférence collaborative
+   © 2020 danslenuage.quebec - Tous droits réservés.
+   Préférences de confidentialité
+   Conception:
+--
+     * [113]Nos solutions
+          + [114]←
+          + [115]Microsoft dans le nuage
+               o [116]←
+               o [117]Microsoft 365

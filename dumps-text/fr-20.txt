@@ -1,0 +1,510 @@
+   #[1]alternate [2]alternate [3]oEmbed (JSON) [4]oEmbed (XML)
+
+   [5]logo IPSL
+   [6]logo IPSL
+     * [7]Accueil Découvrir
+     * [8]À la Une
+     * [9]Agenda
+     * [10]Intranet
+
+   [11]
+   FR
+   [12]EN
+
+Actualités
+     __________________________________________________________________
+
+Le climat dans tous ses états !
+
+     * [13]Explorer
+          + [14]Détour vers le futur (IPCC2021)
+          + [15]Le climat
+          + [16]L’ozone
+          + [17]Cycle du carbone
+          + [18]Composition atmosphérique et pollution de l’air
+          + [19]Planétologie
+     * [20]MOZAÏKA
+          + [21]Vous avez dit extrêmes ?
+          + [22]Rio, 30 ans déjà !
+          + [23]Des orages plein les yeux
+          + [24]Chroniques du changement climatique
+          + [25]mozAIka, des tableaux de maîtres revisités par l’AI
+          + [26]Regards intimes sur le GIEC
+          + [27]Le monde en bleu
+          + [28]Alouestes, quoi de nouveau ?
+     * Voir et faire
+          + [29]Outils et logiciels
+          + [30]Un phénomène, une manip
+     * [31]IPSL-thèque
+          + [32]Talents
+          + [33]Jeux
+          + [34]Expositions
+          + [35]Podcasts
+          + [36]Vidéos, animations et webinaires
+          + [37]Livres et ouvrages collectifs
+     * [38]Rendez-vous avec l’IPSL
+
+Accessibilité
+
+   (BUTTON) ×
+     * (BUTTON) Passer en contraste élevé
+     * (BUTTON) Changer la taille de la police
+
+   (BUTTON) Fermer
+
+Choisir la langue
+
+   (BUTTON) ×
+   [39]
+   FR
+   [40]EN
+   (BUTTON) Fermer
+
+Recherche
+
+   (BUTTON) ×
+   (BUTTON)
+   Votre requête ____________________
+   (BUTTON) OK
+
+   Options avancées
+
+   PODS
+
+   Tout/Rien
+   [X] Actualités
+   [X] Campagne
+   [X] Emploi
+   [X] Instrumentation
+   [X] Intranet Actus
+   [X] IPSL Page
+   [X] Laboratoire
+   [X] Lieu
+   [X] Livre
+   [X] Médiation
+   [X] Divers
+   [X] Projet
+   [X] Récompense
+   [X] Ressource
+   [X] Séminaire
+   [X] Outil communautaire
+   [X] Soutenance
+   [X] Talents
+   [X] Événement
+   [X] Catégorie événement
+   [X] Page
+   [X] Post
+
+   Catégories
+
+   ____________________
+
+   Mots clés
+
+   ____________________
+
+   Résultats par type
+
+   5___________________
+
+   Rechercher dans
+
+   [X] titre
+   [X] contenu
+
+   (BUTTON) Fermer
+
+   (BUTTON) ×
+
+   [41]Print Friendly, PDF & Email
+   (BUTTON) Fermer
+
+   (BUTTON) ×
+
+Partager/Share
+
+   (BUTTON) Fermer
+
+   31 aot 2021
+
+Comprendre l’impact climatique des nuages
+     __________________________________________________________________
+
+   Les nuages sont un point complexe de l’étude de l’évolution de notre
+   climat et restent une incertitude importante pour les climatologues
+   dans leur effet de rétroaction. De gros nuages d’orages ou de fins
+   petits filets dans un ciel clair ont un effet très différent sur le
+   bilan radiatif. Pour les projections climatiques, mieux comprendre la
+   formation des champs de nuages et comment cela est impacté par le
+   réchauffement des surfaces et de l’atmosphère est un nœud essentiel à
+   résoudre pour comprendre plus précisément l’amplitude du changement
+   climatique en cours.
+
+   Les nuages sont un des plus gros défis concernant les sciences du
+   climat, pour estimer comment les nuages vont se comporter dans un
+   climat plus chaud et si cela risque d’amplifier ou de réduire la
+   voilure du changement climatique. Ils jouent un rôle considérable dans
+   le transport de chaleur et donc sur le bilan radiatif de la Terre. Mais
+   en fonction de leur forme, leur structure horizontale et verticale ou
+   leur composition, les différents types de nuages ont des impacts
+   variés. Certains accentuent ce réchauffement en bloquant le rayonnement
+   infrarouge émis par la Terre et maintiennent cette énergie dans
+   l’atmosphère. D’autres l’amoindrissent, en réfléchissant vers l’espace
+   le rayonnement solaire sans qu’il n’atteigne le système Terre. Les
+   climatologues parlent respectivement de rétroactions positives ou
+   négatives. Le rôle des nuages est central pour comprendre l’équilibre
+   entre le gain et la perte de chaleur du système climatique et estimer
+   précisément l’amplitude du réchauffement climatique.
+
+   Les incertitudes qui entourent encore les nuages s’expliquent d’une
+   part par des observations difficiles : les instruments de mesure sont
+   en général soit précis mais très localisés, soit globaux mais moins
+   précis. Et d’autre part, les modèles de climat ne disposent pas de
+   mailles suffisamment petites pour représenter les mécanismes de petite
+   échelle comme la convection et la microphysique, essentiels dans la
+   compréhension du cycle de vie des nuages. L’amélioration de notre
+   compréhension et de la représentation des processus nuageux qui
+   contrôlent leur rétroaction est ainsi primordiale pour des prévisions
+   fiables du changement climatique.
+
+   Néanmoins, les observations spatiales accompagnées de nouvelles
+   méthodologies donnent une vue globale ​​des nuages sur une longue
+   période. Les propriétés des cirrus (nuages de glace) sont
+   particulièrement bien identifiées par les sondeurs mesurant dans le
+   spectre infrarouge. A partir de ces mesures, Claudia Stubenrauch,
+   chercheuse au LMD-IPSL, et son équipe ont développé des jeux de données
+   des propriétés nuageuses. Ceux-ci contiennent par exemple leur
+   altitude, température et épaisseur optique (ou émissivité), ainsi que
+   les propriétés microphysiques des cirrus, et sont distribués par le
+   Centre National de données pour l’atmosphère ([42]AERIS).
+
+Les nuages de glace dans la haute troposphère
+
+   Claudia Stubenrauch s’intéresse plus particulièrement aux nuages de la
+   haute troposphère. Ils sont abondants sous les tropiques et jouent un
+   rôle crucial dans le système climatique en modulant le bilan
+   énergétique et le transport de chaleur, affectant ainsi la circulation
+   atmosphérique et la répartition de précipitation. Leur altitude peut
+   atteindre jusque 18 km lorsqu’ils atteignent la tropopause, couche
+   entre la troposphère (couche basse de l’atmosphère) et la stratosphère.
+   La formation de ces nuages constitués des cristaux de glace est souvent
+   liée au mouvement de convection d’un nuage d’orage. « On les appelle
+   aussi enclumes, car la tour convective monte en altitude puis s’étale
+   horizontalement lui donnant cette forme caractéristique d’une enclume »
+   illustre la chercheuse.
+
+   Quand la convection est intense, ces enclumes peuvent atteindre un
+   étendu horizontal de plusieurs centaines de km^2. De plus, des cirrus
+   plus fins créés par glaciation in situ à ces températures très froides
+   semblent plus fréquents autour de ces systèmes, car leur environnement
+   est plus humide. L’étude exhaustive de ces processus nécessite une
+   description complète 3D de ces systèmes nuageux ainsi que leur suivi
+   dans le temps. « La microphysique des nuages de glace est aussi
+   complexe, avec une grande variabilité de forme et de taille des
+   cristaux et aussi de leur vitesse de chute. Les premières influant
+   directement l’effet radiatif et la dernière leur durée de vie »
+   constate-elle. Cela dit, ces paramétrisations ont pu être améliorées
+   dans le modèle de climat du LMD grâce à la synthèse de résultats d’un
+   grand nombre de mesures par avion et au sol.
+
+Systèmes nuageux en 3D
+
+   La compréhension du rôle de la convection sur la rétroaction des nuages
+   reste l’un des plus grands défis du World Climate Research Program
+   (WCRP). Le groupe de travail international [43]GEWEX UTCC PROES,
+   coordonné par Claudia Stubenrauch et Graeme Stephens, se focalise en
+   particulier sur la compréhension de la rétroaction des systèmes de
+   nuages convectifs. Un des enjeux principaux est de créer de nouveaux
+   jeux de données et méthodes d’analyse pour mieux évaluer la
+   représentation de processus dans les modèles. Et pour avancer dans la
+   compréhension des rétroactions des nuages hauts, un élément clé est le
+   taux de chauffage radiatif. Il est déterminé en connaissant la
+   structure verticale de ces nuages (étendue verticale, profils du
+   contenu en glace et de la taille des cristaux de glace, l’altitude de
+   changement de phase).
+
+   Les mesures à partir de sondeurs ‘infrarouge’ couvrent à une heure
+   locale spécifique presque le globe entier mais ne peuvent pas traverser
+   les nuages et n’apportent pas d’information sur cette structure
+   verticale. L’association des mesures spatiales de radar et lidar la
+   visualise, mais qu’à travers des traces très étroites et séparées
+   d’environ 2500 km. L’idée est alors de combiner les mesures des
+   différents instruments pour compléter les lacunes de chacun et obtenir
+   une vue complète. Les techniques d’intelligence artificielle (‘machine
+   learning’) sont ici un outil très utile pour compléter l’image
+   partielle des observations. « En analysant des systèmes nuageux nous
+   essayons de mieux comprendre le lien entre convection, propriétés
+   d’enclume et leur effet sur l’atmosphère. Ces systèmes sont
+   reconstruits en groupant les mesures adjacentes d’une même altitude et
+   en distinguant les cœurs convectifs des enclumes et des cirrus fins par
+   l’épaisseur optique » précise Claudia Stubenrauch. De plus, les séries
+   temporelles révèlent un lien entre l’échauffement de la haute et
+   moyenne troposphère par les systèmes convectifs dans les régions
+   chaudes et le refroidissement dans la basse atmosphère par les nuages
+   bas dans les régions de subsidence.
+
+   Dans l’ensemble cela est essentiel pour avancer la compréhension de ce
+   qu’un climat plus chaud peut signifier pour la dynamique des nuages et
+   leur rétroaction. Cela fait partie des recherches qui nourrissent les
+   rapports du GIEC et notamment celui publié le 9 août 2021, « Climate
+   Change 2021 : The Physical Science Basis ».
+
+
+Pour en savoir plus :
+
+   Jeux de données des propriétés nuageuses à partir des observations
+   spatiales
+
+   [44]https://climatedataguide.ucar.edu/climate-data/cloud-dataset-overvi
+   ew
+
+   Stubenrauch, C. J., A. G. Feofilov, E.-S.Protopapadaki, and R. Armante,
+   Cloud climatologies from the InfraRed Sounders AIRS and IASI: Strengths
+   and Applications, Atmosph. Chem. Phys., 17, 13625-13644,
+   doi :10.5194/acp-17-13625-2017, 2017.
+
+
+   Etudes systèmes nuageux
+
+   Stubenrauch, C. J., Caria, G., Protopapadaki, S. E., and Hemmer, F.: 3D
+   radiative heating of tropical upper tropospheric cloud systems derived
+   from synergistic A-Train observations and machine learning, Atmos.
+   Chem. Phys., 21, 1015–1034, https://doi.org/10.5194/acp-21-1015-2021,
+   2021.
+
+   Stubenrauch, C. J., M. Bonazzola, S. E. Protopapadaki, and I. Musat,
+   New cloud system metrics to assess bulk ice cloud schemes in a GCM, J.
+   Advanc. Model. Earth Sys., 11, DOI: 10.1029/ 2019MS001642, 2019.
+
+
+Claudia Stubenrauch
+     __________________________________________________________________
+
+   LMD-IPSL
+   (BUTTON) E-mail (BUTTON) Website
+
+Au fil de la page
+
+   (BUTTON) [45]AGENDA
+   (BUTTON) [46]Voir les contenus similaires
+
+Actualités
+
+   [47]
+   actu_image
+   22 décembre 2025
+
+   Retour sur l’éruption volcanique de Hunga de 2022
+   [48]actu_image
+   19 décembre 2025
+
+   Événements à fort impact et points de bascule
+   [49]actu_image
+   17 décembre 2025
+
+   Le rôle joué par les mangroves dans le bilan mondial du carbone
+
+Tags cloud
+
+   [50]cirrus[51]Claudia
+   Stubenrauch[52]GIEC[53]LMD-IPSL[54]nuage[55]Systèmes 3D
+
+   [56]
+
+École Polytechnique
+
+
+    route de Saclay
+    91128 Palaiseau FRANCE
+
+   [57]
+
+Sorbonne Université
+
+
+    4, place Jussieu
+    75005 Paris FRANCE
+
+   [58]
+
+UVSQ
+
+
+    55, avenue de Paris
+    78000 Versailles FRANCE
+
+Suivre l'IPSL / Follow us
+
+   © IPSL, 2026
+
+     * [59]Intranet
+     * [60]Mentions légales
+     * [61]Crédits
+     * [62]RGPD
+     * [63]Contact
+     * [64]Site IPSL 2009-2020
+     * [65]Plan du site
+
+   Nous utilisons des cookies pour vous garantir la meilleure expérience
+   sur notre site en mémorisant vos préférences et vos visites répétées.
+   En cliquant sur « ACCEPT ALL », vous consentez à l'utilisation de TOUS
+   les cookies. Toutefois, vous pouvez cliquer sur « Cookie Settings »
+   pour fournir un consentement contrôlé. We use cookies on our website to
+   give you the most relevant experience by remembering your preferences
+   and repeat visits. By clicking “ACCEPT ALL”, you consent to the use of
+   ALL the cookies. However, you may visit "Cookie Settings" to provide a
+   controlled consent.
+   Cookie SettingsTOUT REJETER / REJECT ALLACCEPTER TOUT / ACCEPT ALL
+
+   Manage consent
+
+   (BUTTON) Fermer
+
+Privacy Overview
+
+   This website uses cookies to improve your experience while you navigate
+   through the website. Out of these, the cookies that are categorized as
+   necessary are stored on your browser as they are essential for the
+   working of basic functionalities of the website. We also use
+   third-party cookies that help us analyze and understand how you use
+   this website. These cookies will be stored in your browser only with
+   your consent. You also have the option to opt-out of these cookies. But
+   opting out of some of these cookies may affect your browsing
+   experience.
+   Necessary
+   [X] Necessary
+   Toujours activé
+   Necessary cookies are absolutely essential for the website to function
+   properly. These cookies ensure basic functionalities and security
+   features of the website, anonymously.
+   Cookie Durée Description
+   cookielawinfo-checkbox-analytics 11 months This cookie is set by GDPR
+   Cookie Consent plugin. The cookie is used to store the user consent for
+   the cookies in the category "Analytics".
+   cookielawinfo-checkbox-functional 11 months The cookie is set by GDPR
+   cookie consent to record the user consent for the cookies in the
+   category "Functional".
+   cookielawinfo-checkbox-necessary 11 months This cookie is set by GDPR
+   Cookie Consent plugin. The cookies is used to store the user consent
+   for the cookies in the category "Necessary".
+   cookielawinfo-checkbox-others 11 months This cookie is set by GDPR
+   Cookie Consent plugin. The cookie is used to store the user consent for
+   the cookies in the category "Other.
+   cookielawinfo-checkbox-performance 11 months This cookie is set by GDPR
+   Cookie Consent plugin. The cookie is used to store the user consent for
+   the cookies in the category "Performance".
+   viewed_cookie_policy 11 months The cookie is set by the GDPR Cookie
+   Consent plugin and is used to store whether or not user has consented
+   to the use of cookies. It does not store any personal data.
+   Functional
+   [ ] Functional
+   Functional cookies help to perform certain functionalities like sharing
+   the content of the website on social media platforms, collect
+   feedbacks, and other third-party features.
+   Performance
+   [ ] Performance
+   Performance cookies are used to understand and analyze the key
+   performance indexes of the website which helps in delivering a better
+   user experience for the visitors.
+   Analytics
+   [ ] Analytics
+   Analytical cookies are used to understand how visitors interact with
+   the website. These cookies help provide information on metrics the
+   number of visitors, bounce rate, traffic source, etc.
+   Advertisement
+   [ ] Advertisement
+   Advertisement cookies are used to provide visitors with relevant ads
+   and marketing campaigns. These cookies track visitors across websites
+   and collect information to provide customized ads.
+   Others
+   [ ] Others
+   Other uncategorized cookies are those that are being analyzed and have
+   not been classified into a category as yet.
+   Enregistrer & appliquer
+   Propulsé par [66]CookieYes Logo
+
+Références
+
+   Liens visibles :
+   1. https://www.ipsl.fr/article/comprendre-limpact-climatique-des-nuages/
+   2. https://www.ipsl.fr/en/article/understanding-the-effect-of-clouds-on-climate/
+   3. https://www.ipsl.fr/wp-json/oembed/1.0/embed?url=https://www.ipsl.fr/article/comprendre-limpact-climatique-des-nuages/&lang=fr
+   4. https://www.ipsl.fr/wp-json/oembed/1.0/embed?url=https://www.ipsl.fr/article/comprendre-limpact-climatique-des-nuages/&format=xml&lang=fr
+   5. https://www.ipsl.fr/decouvrir/
+   6. https://www.ipsl.fr/decouvrir/
+   7. https://www.ipsl.fr/decouvrir/
+   8. https://www.ipsl.fr/archives_actus/
+   9. https://www.ipsl.fr/agenda/
+  10. https://www.ipsl.fr/intranet/
+  11. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-20.html
+  12. https://www.ipsl.fr/en/article/understanding-the-effect-of-clouds-on-climate/
+  13. https://www.ipsl.fr/decouvrir/explorer/
+  14. https://www.ipsl.fr/decouvrir/explorer/detour-vers-le-futur-lipsl-a-lheure-du-giec-2021/
+  15. https://www.ipsl.fr/decouvrir/explorer/le-climat/
+  16. https://www.ipsl.fr/decouvrir/explorer/lozone/
+  17. https://www.ipsl.fr/decouvrir/explorer/cycle-du-carbone/
+  18. https://www.ipsl.fr/decouvrir/explorer/composition-atmospherique-et-pollution-de-lair/
+  19. https://www.ipsl.fr/decouvrir/explorer/planetologie/
+  20. https://www.ipsl.fr/decouvrir/mozaika/
+  21. https://www.ipsl.fr/decouvrir/mozaika/vous-avez-dit-extremes/
+  22. https://www.ipsl.fr/decouvrir/mozaika/rio-30-ans-deja/
+  23. https://www.ipsl.fr/decouvrir/mozaika/des-orages-plein-les-yeux/
+  24. https://www.ipsl.fr/decouvrir/mozaika/chroniques-du-changement-climatique/
+  25. https://www.ipsl.fr/decouvrir/mozaika/mozaika-des-tableaux-de-maitres-revisites-par-lai/
+  26. https://www.ipsl.fr/decouvrir/mozaika/regards-intimes-sur-le-giec/
+  27. https://www.ipsl.fr/decouvrir/mozaika/le-monde-en-bleu/
+  28. https://www.ipsl.fr/decouvrir/mozaika/alouestes-quoi-de-nouveau/
+  29. https://www.ipsl.fr/decouvrir/voir-et-faire/outils-logiciels/
+  30. https://www.ipsl.fr/decouvrir/voir-et-faire/un-phenomene-une-manip/
+  31. https://www.ipsl.fr/decouvrir/
+  32. https://www.ipsl.fr/decouvrir/talents/
+  33. https://www.ipsl.fr/decouvrir/jeux/
+  34. https://www.ipsl.fr/decouvrir/expositions/
+  35. https://www.ipsl.fr/decouvrir/podcasts/
+  36. https://www.ipsl.fr/decouvrir/videos-animations-et-webinaires/
+  37. https://www.ipsl.fr/decouvrir/livres-et-ouvrages/
+  38. https://www.ipsl.fr/decouvrir/rendez-vous-avec-lipsl/
+  39. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-20.html
+  40. https://www.ipsl.fr/en/article/understanding-the-effect-of-clouds-on-climate/
+  41. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-20.html
+  42. https://www.aeris-data.fr/
+  43. https://gewex-utcc-proes.aeris-data.fr/
+  44. https://climatedataguide.ucar.edu/climate-data/cloud-dataset-overview
+  45. https://www.ipsl.fr/?p=1529966
+  46. https://www.ipsl.fr/?p=1555211
+  47. https://www.ipsl.fr/?p=1598135
+  48. https://www.ipsl.fr/?p=1597475
+  49. https://www.ipsl.fr/?p=1595697
+  50. https://www.ipsl.fr/?posts_per_page=-1&nopaging=true&tag[]=cirrus&post_status=publish&orderby=post_date&order=desc
+  51. https://www.ipsl.fr/?posts_per_page=-1&nopaging=true&tag[]=claudia-stubenrauch&post_status=publish&orderby=post_date&order=desc
+  52. https://www.ipsl.fr/?posts_per_page=-1&nopaging=true&tag[]=giec&post_status=publish&orderby=post_date&order=desc
+  53. https://www.ipsl.fr/?posts_per_page=-1&nopaging=true&tag[]=lmd-ipsl-fr&post_status=publish&orderby=post_date&order=desc
+  54. https://www.ipsl.fr/?posts_per_page=-1&nopaging=true&tag[]=nuage&post_status=publish&orderby=post_date&order=desc
+  55. https://www.ipsl.fr/?posts_per_page=-1&nopaging=true&tag[]=systemes-3d&post_status=publish&orderby=post_date&order=desc
+  56. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-20.html
+  57. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-20.html
+  58. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-20.html
+  59. file:///intranet/
+  60. https://www.ipsl.fr/mentions-legales/
+  61. https://www.ipsl.fr/credits/
+  62. https://www.ipsl.fr/rgpd/
+  63. https://www.ipsl.fr/contact/
+  64. https://www.archives.ipsl.fr/
+  65. https://www.ipsl.fr/plan-du-site/
+  66. https://www.cookieyes.com/
+
+   Liens cachés :
+  68. https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ipsl.fr%2Farticle%2Fcomprendre-limpact-climatique-des-nuages%2F
+  69. https://bsky.app/intent/compose?text=Comprendre%20l%27impact%20climatique%20des%20nuages%20https%3A%2F%2Fwww.ipsl.fr%2Farticle%2Fcomprendre-limpact-climatique-des-nuages%2F
+  70. https://www.instagram.com/
+  71. https://mail.live.com/default.aspx?rru=compose?subject=Comprendre%20l%27impact%20climatique%20des%20nuages&body=https%3A%2F%2Fwww.ipsl.fr%2Farticle%2Fcomprendre-limpact-climatique-des-nuages%2F&lc=1033&id=64855&mkt=en-us&cbcxt=mai
+  72. javascript:;
+  73. https://www.lmd.jussieu.fr/
+  74. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-20.html
+  75. https://www.linkedin.com/company/18264749/
+  76. https://www.instagram.com/institut_pierre_simon_laplace/
+  77. https://ipsl.bsky.social/
+  78. https://www.youtube.com/user/csipsl
+  79. https://www.tiktok.com/@ipsl.climate.environment
+  80. https://www.facebook.com/pg/ipsl.fr
+  81. https://www.ipsl.fr/feed/rss/

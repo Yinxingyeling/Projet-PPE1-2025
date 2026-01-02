@@ -1,0 +1,382 @@
+   [1]MA PLUME - WEBMAG
+
+     *
+
+   Affichages : 11075
+
+Le "Cloud Computing", l'informatique dans le nuage
+
+   100128 CloudComputing
+
+   Le Cloud Computing, c'est la possibilité de mettre à l'extérieur de
+   l'entreprise ses données informatiques. De nouveaux défis pour les
+   responsables réseaux…
+
+L'informatique "dans le nuage"
+
+   Né de l'expression "the Cloud" utilisée par les architectes de réseaux
+   pour désigner l'internet, le Cloud Computing, dans son sens premier,
+   désigne le principe d'utilisation de la mémoire et de la capacité de
+   calcul d'un grand nombre d'ordinateurs reliés entre eux, ce qui permet
+   de disposer d'un grande puissance de calcul sans avoir besoin de super
+   calculateurs.
+
+   Aujourd'hui, le "Cloud Computing", c'est "l'informatique dans le
+   nuage", soit la mise à disposition des logiciels sur le réseau, les
+   ordinateurs n'étant plus utilisés que comme simples terminaux. Un rêve
+   désormais accessible pour les responsables réseaux des entreprises qui
+   pourraient ainsi organiser la mise à jour des logiciels sans devoir
+   intervenir sur chaque ordinateur.
+
+   C'est le "Software as a Service" (SaaS), où les logiciels pourraient
+   n'être payés qu'à l'utilisation.
+   On peut déjà observer cette mutation des logiciels sur internet avec
+   l'utilisation de ressources logicielle telles que Google Apps ou Zoho.
+   On peut d'ores et déjà imaginer que l'accès aux systèmes d'exploitation
+   se fasse également à distance.
+
+Comment ça marche?
+
+   A l'instar de la distribution de l'énergie électrique, les ressources
+   pourraient être distribuées via des compagnies spécialisées. Ainsi, les
+   entreprises pourraient, au lieu de posséder leurs propres serveurs,
+   confier leurs données à un prestataire extérieur, bénéficiant ainsi
+   d'une plus grande souplesse d'utilisation (puissance et capacité de
+   stockage évolutives selon leurs besoins).
+   Les applications et les données ne se trouveraient plus sur
+   l'ordinateur local, mais dans un "nuage" composé d'un certain nombre de
+   serveurs distants interconnectés au moyen d'une bande passante musclée
+   indispensable à la fluidité du système. L'accès au service se fait par
+   une application standard facilement disponible, généralement un
+   navigateur Web.
+
+Les limites du Cloud Computing
+
+   Les avantages techniques certains de ce système trouvent bien
+   évidemment rapidement leurs limites.
+   Celles-ci tiennent à :
+     * la fiabilité du système (en cas de panne ou de dysfonctionnement du
+       réseau, les données peuvent être, soit perdues, soit inaccessibles,
+       ce qui peut rapidement avoir des répercussions économiques non
+       négligeables)
+     * la sécurisation et la confidentialité des données
+     * l'utilisation d'une bande passante d'excellent qualité (il n'est
+       pas du tout certain que nos réseaux actuels soient en mesure de
+       supporter un tel flux si celui-ci devait se généraliser rapidement)
+     * l'attrait de la gratuité, celui-ci entraînant l'apparition de la
+       publicité dans l'environnement de travail, favorisant l'apparition
+       intrusive du marketing dans un quotidien où il n'est déjà que trop
+       présent
+     * la fin ou tout du moins la mutation d'un métier : celui de DSI
+
+   Aujourd'hui, beaucoup de personnes, même au sein des entreprises,
+   utilisent déjà le "Cloud Computing" pour leurs travaux partagés. Mais
+   les données sensibles ne sont généralement pas exploitées via ce
+   système (du moins, en théorie).
+   Cependant, on peut bien évidemment imaginer un "Cloud Computing"
+   interne, où les entreprises garderaient en interne le contrôle de leurs
+   serveurs.
+
+   Le "Cloud Computing", malgré ses limites, reste un concept des plus
+   intéressants. De plus, il ouvre la porte à de nouvelles générations de
+   logiciels qui trouveraient ici la possibilité de se développer, cassant
+   ainsi l'hégémonie de certains "grands systèmes". La révolution est en
+   marche, elle ne fait que commencer.
+
+Pour aller plus loin :
+
+   ➜ [2]Le cloud computing, l'informatique de demain?
+   ➜ [3]Le "cloud computing" bouscule l'informatique
+
+
+ARTICLES ASSOCIÉS
+
+     * [4]CES 2020 - Le futur c'est maintenant
+     * [5]CES 2017, découvrez les objets connectés
+
+     * [6]Le business-model du gratuit
+     * [7]Charte de communication responsable des annonceurs
+
+   Donnez-nous votre avis sur cet article
+
+   Pour respecter la vie privée de nos lecteurs et limiter le nombre de
+   cookies tiers présents sur ce site, nous avons fait le choix de ne pas
+   utiliser de plug-in de commentaires. Vous pouvez [8]laisser un message
+   ici.
+
+Vous avez aimé…
+
+     * 1
+     * 2
+     * 3
+     * 4
+
+   Prev Next
+
+[9]Paris, l'hôtel Lutétia en renaissance
+
+   Hits:8630 [10]FENÊTRE SUR…
+
+   [11]Le Lutétia, grand hôtel mythique de la rive gauche a ouvert ses
+   portes après rénovation. Si l'intérieur a complètement été rénové, la
+   façade a conservé son aspect historique…
+   [12]Read more
+
+[13]Jean Paul Gaultier célèbre la Bretagne
+
+   Hits:9733 [14]CRÉATION
+
+   [15] Fashion Week Été 2015. Jean Paul Gaultier a présenté sa collection
+   haute-couture Automne Hiver 2015 - 2016 sur le thème de la Bretagne…
+   [16]Read more
+
+[17]La Cornue, art de vivre, cuisine, artisanat et tra…
+
+   Hits:17940 [18]ENTREPRISES & RP
+
+   [19]Entreprise du Patrimoine Vivant, la maison La Cornue perpétue la
+   tradition des belles cuisines d'autrefois. Avec toujours les mêmes
+   exigences de qualité et d'excellence…
+   [20]Read more
+
+[21]Pantone propose deux nouvelles couleurs sur le th…
+
+   Hits:12507 [22]CRÉATION
+
+   [23]La société Pantone ajoute deux couleurs pastels et poudrées à son
+   nuancier 2016 : le "Rose Quartz" (ref. 13-1520) et le Bleu "Serenity"
+   (ref. 15-3919)…
+   [24]Read more
+
+[25]MCB Paris 2018 - Show O'Barbershop
+
+   Hits:6542 [26]ÉVÈNEMENTS
+
+   [27] Reuzel, la référence des barbershops "Old school" dévoile ses
+   secrets, par Leen et Bertus du barbershop Schorem à Rotterdam, pour
+   O'barbershop…
+   [28]Read more
+
+[29]La certification Voltaire entre dans les entrepris…
+
+   Hits:8810 [30]COMMUNICATION & MÉDIAS
+
+   [31]Présenter des textes sans fautes d'orthographe est un véritable
+   atout pour l'entreprise. Dans certaines professions, une orthographe
+   irréprochable est même un pré-requis à l'embauche…
+   [32]Read more
+
+[33]Jean Paul Gaultier revisite les années 80
+
+   Hits:9996 [34]CRÉATION
+
+   [35]Première Fashion Week 2016 parisienne. Jean Paul Gaultier nous
+   présente sa nouvelle collection haute-couture Printemps Été 2016,
+   hommage aux années 80.
+   [36]Read more
+
+[37]Le Rallye des Princesses Richard Mille
+
+   Hits:15089 [38]ENTREPRISES & RP
+
+   [39]Le désormais célèbre Rallye des Princesses "Richard Mille" est une
+   épreuve sportive automobile de régularité 100% féminine…
+   [40]Read more
+
+   [41]HAUT DE PAGE
+
+     * [42]» ACCUEIL
+     * [43]» FENÊTRE SUR…
+     * [44]» UNE HEURE AVEC
+     * [45]» VOYAGES DÉCOUVERTES
+     * [46]» ÉVÈNEMENTS
+     * [47]» SAVEURS
+     * [48]» CRÉATION
+     * [49]» COMMUNICATION & MÉDIAS
+     * [50]» ENTREPRISES & RP
+     * [51]» CONTACT
+     * [52]» PLUS…
+     *
+
+   MaPlume Logo 200
+     __________________________________________________________________
+
+   Média éditorial indépendant multithématique, Ma Plume 2.0 est le
+   web-mag qui donne de la visibilité à VOTRE actualité.
+
+                         [53]RECEVOIR LA NEWSLETTER
+     __________________________________________________________________
+
+   Ce site utilise des cookies • Pour en savoir plus et savoir comment les
+   gérer, [54]c'est ici…
+     __________________________________________________________________
+
+À DÉCOUVRIR
+
+     * [55]Peach Fuzz, la couleur de l'année 2024
+     * [56]Viva Magenta, couleur de l'année 2023
+     * [57]Very Peri, couleur de l'année 2022
+     * [58]Le Grand Palais Éphémère
+     * [59]Le démarketing territorial, premier pas vers un tourisme
+       raisonné
+     * [60]Pantone 2021 - L'ombre et la lumière
+     * [61]Momiji Kōyō, hanami d’automne au Japon
+     * [62]Shakespeare & Cie librairie anglophone à Paris
+     * [63]Le tour du monde en 82 jours du Bark Europa
+
+Sur le Mag…
+
+     * COMMUNICATION & MÉDIAS
+          + [64]Le démarketing territorial, premier pas vers un tourisme
+            raisonné (8081)
+            Lutter contre l'afflux touristique pour préserver les
+            territoires, c'est une nouvelle stratégie de...
+            [65]Lire la suite...
+          + [66]CES 2020 - Le futur c'est maintenant (6681)
+            Le CES 2020, c'est un peu le concours Lépine de
+            l'électronique. C'est aussi et avant tout une...
+            [67]Lire la suite...
+          + [68]Explicite, une nouvelle idée du journalisme (7859)
+            Explicite, c'est un collectif de journalistes qui a pour
+            ambition de créer un nouveau modèle...
+            [69]Lire la suite...
+          + [70]CES 2017, découvrez les objets connectés (9081)
+            La dernière édition du salon de l'innovation technologique
+            grand public, le CES 2017, s'est tenue...
+            [71]Lire la suite...
+          + [72]Pour un juste prix des prestations rédactionnelles (7005)
+            Un manifeste qui plaide en faveur d'une plus juste
+            rémunération des prestations rédactionnelles,...
+            [73]Lire la suite...
+          + [74]La Belle Compétition : encadrer les appels d'offres (9583)
+            La Belle Compétition, c'est une charte qui a vocation à
+            encadrer les appels d'offres en...
+            [75]Lire la suite...
+          + [76]Les MOOCs - Universités en ligne (8796)
+            La définition des MOOCs est "Massive Open Online Course" soit
+            des cours d'école ou d'université en...
+            [77]Lire la suite...
+          + [78]La certification Voltaire entre dans les entreprises
+            (8810)
+            Présenter des textes sans fautes d'orthographe est un
+            véritable atout pour l'entreprise. Dans...
+            [79]Lire la suite...
+          + [80]NON aux idées gratuites - La fronde des designers (7629)
+            Manifeste pour le respect de la création graphique et des
+            prestations intellectuelles. Après les...
+            [81]Lire la suite...
+          + [82]Quand les agences ne veulent plus jouer à compète...
+            (6731)
+            Les compétitions font partie du quotidien des agences de
+            communication. Mais les pratiques tendent à se...
+            [83]Lire la suite...
+
+Vous êtes ici…
+
+     * [84]ACCUEIL
+     * /
+     * [85]» FENÊTRE SUR…
+     * /
+     * [86]COMMUNICATION & MÉDIAS
+     * /
+     * Le "Cloud Computing", l'informatique dans le nuage
+
+   Template : [87]GavickPro ~ Adaptation Design : [88]Varenne Création
+
+   Menu [» FENÊTRE SUR…________....]
+
+Références
+
+   Liens visibles :
+   1. https://www.ma-plume-webmag.com/
+   2. http://www.journaldunet.com/solutions/systemes-reseaux/analyse/le-cloud-computing-l-informatique-de-demain.shtml
+   3. http://www.lemonde.fr/technologies/article/2009/08/24/le-cloud-computing-bouscule-l-informatique_1231357_651865.html
+   4. https://www.ma-plume-webmag.com/fr/communication-medias/240-ces-2020-le-futur-c-est-maintenant
+   5. https://www.ma-plume-webmag.com/fr/communication-medias/150-ces-2017-soyez-connectes
+   6. https://www.ma-plume-webmag.com/fr/communication-medias/87-le-business-model-du-gratuit
+   7. https://www.ma-plume-webmag.com/fr/communication-medias/85-cles-pour-pour-une-communication-responsable-des-annonceurs
+   8. https://form.jotform.com/2763503134
+   9. https://www.ma-plume-webmag.com/fr/fenetre-sur/206-paris-l-hotel-lutetia-en-renaissance
+  10. https://www.ma-plume-webmag.com/fr/fenetre-sur
+  11. https://www.ma-plume-webmag.com/fr/fenetre-sur/206-paris-l-hotel-lutetia-en-renaissance
+  12. https://www.ma-plume-webmag.com/fr/fenetre-sur/206-paris-l-hotel-lutetia-en-renaissance
+  13. https://www.ma-plume-webmag.com/fr/creation/64-defile-jean-paul-gaultier-haute-couture-automne-hiver-2015
+  14. https://www.ma-plume-webmag.com/fr/creation
+  15. https://www.ma-plume-webmag.com/fr/creation/64-defile-jean-paul-gaultier-haute-couture-automne-hiver-2015
+  16. https://www.ma-plume-webmag.com/fr/creation/64-defile-jean-paul-gaultier-haute-couture-automne-hiver-2015
+  17. https://www.ma-plume-webmag.com/fr/entreprises-rp/233-la-cornue-equipements-de-cuisine-de-tradition-salon-du-patrimoine
+  18. https://www.ma-plume-webmag.com/fr/entreprises-rp
+  19. https://www.ma-plume-webmag.com/fr/entreprises-rp/233-la-cornue-equipements-de-cuisine-de-tradition-salon-du-patrimoine
+  20. https://www.ma-plume-webmag.com/fr/entreprises-rp/233-la-cornue-equipements-de-cuisine-de-tradition-salon-du-patrimoine
+  21. https://www.ma-plume-webmag.com/fr/creation/93-pantone-propose-deux-nouvelles-couleurs-sur-le-theme-de-la-douceur
+  22. https://www.ma-plume-webmag.com/fr/creation
+  23. https://www.ma-plume-webmag.com/fr/creation/93-pantone-propose-deux-nouvelles-couleurs-sur-le-theme-de-la-douceur
+  24. https://www.ma-plume-webmag.com/fr/creation/93-pantone-propose-deux-nouvelles-couleurs-sur-le-theme-de-la-douceur
+  25. https://www.ma-plume-webmag.com/fr/evenements/220-mcb-paris-2018-show-o-barbershop
+  26. https://www.ma-plume-webmag.com/fr/evenements
+  27. https://www.ma-plume-webmag.com/fr/evenements/220-mcb-paris-2018-show-o-barbershop
+  28. https://www.ma-plume-webmag.com/fr/evenements/220-mcb-paris-2018-show-o-barbershop
+  29. https://www.ma-plume-webmag.com/fr/communication-medias/97-la-certification-voltaire-entre-dans-les-entreprises
+  30. https://www.ma-plume-webmag.com/fr/communication-medias
+  31. https://www.ma-plume-webmag.com/fr/communication-medias/97-la-certification-voltaire-entre-dans-les-entreprises
+  32. https://www.ma-plume-webmag.com/fr/communication-medias/97-la-certification-voltaire-entre-dans-les-entreprises
+  33. https://www.ma-plume-webmag.com/fr/creation/75-jean-paul-gaultier-revisite-les-annees-80-printemps-ete-2016
+  34. https://www.ma-plume-webmag.com/fr/creation
+  35. https://www.ma-plume-webmag.com/fr/creation/75-jean-paul-gaultier-revisite-les-annees-80-printemps-ete-2016
+  36. https://www.ma-plume-webmag.com/fr/creation/75-jean-paul-gaultier-revisite-les-annees-80-printemps-ete-2016
+  37. https://www.ma-plume-webmag.com/fr/entreprises-rp/61-le-rallye-des-princesses-richard-mille-2015
+  38. https://www.ma-plume-webmag.com/fr/entreprises-rp
+  39. https://www.ma-plume-webmag.com/fr/entreprises-rp/61-le-rallye-des-princesses-richard-mille-2015
+  40. https://www.ma-plume-webmag.com/fr/entreprises-rp/61-le-rallye-des-princesses-richard-mille-2015
+  41. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-42.html#top
+  42. https://www.ma-plume-webmag.com/
+  43. https://www.ma-plume-webmag.com/fr/fenetre-sur
+  44. https://www.ma-plume-webmag.com/fr/une-heure-avec
+  45. https://www.ma-plume-webmag.com/fr/voyages-decouvertes
+  46. https://www.ma-plume-webmag.com/fr/evenements
+  47. https://www.ma-plume-webmag.com/fr/saveurs
+  48. https://www.ma-plume-webmag.com/fr/creation
+  49. https://www.ma-plume-webmag.com/fr/communication-medias
+  50. https://www.ma-plume-webmag.com/fr/entreprises-rp
+  51. https://www.ma-plume-webmag.com/fr/contact
+  52. https://www.ma-plume-webmag.com/fr/plus
+  53. https://www.ma-plume-webmag.com/fr/plus/188-newsletter
+  54. https://www.ma-plume-webmag.com/fr/plus/196-informations-sur-les-cookies
+  55. https://www.ma-plume-webmag.com/fr/creation/251-peach-fuzz-la-couleur-de-l-annee-2024
+  56. https://www.ma-plume-webmag.com/fr/creation/249-la-couleur-de-l-annee-2023
+  57. https://www.ma-plume-webmag.com/fr/creation/248-very-peri-couleur-pantone-de-l-annee-2022
+  58. https://www.ma-plume-webmag.com/fr/fenetre-sur/247-le-grand-palais-ephemere
+  59. https://www.ma-plume-webmag.com/fr/communication-medias/246-le-demarketing-territorial-pour-un-tourisme-raisonne
+  60. https://www.ma-plume-webmag.com/fr/creation/245-couleur-s-pantone-2021-l-ombre-et-la-lumiere
+  61. https://www.ma-plume-webmag.com/fr/voyages-decouvertes/244-momiji-koyo-le-hanami-d-automne
+  62. https://www.ma-plume-webmag.com/fr/fenetre-sur/243-shakespeare-company-librairie-anglophone-a-paris
+  63. https://www.ma-plume-webmag.com/fr/voyages-decouvertes/242-le-tour-du-monde-en-82-jours-du-bark-europa
+  64. https://www.ma-plume-webmag.com/fr/communication-medias/246-le-demarketing-territorial-pour-un-tourisme-raisonne
+  65. https://www.ma-plume-webmag.com/fr/communication-medias/246-le-demarketing-territorial-pour-un-tourisme-raisonne
+  66. https://www.ma-plume-webmag.com/fr/communication-medias/240-ces-2020-le-futur-c-est-maintenant
+  67. https://www.ma-plume-webmag.com/fr/communication-medias/240-ces-2020-le-futur-c-est-maintenant
+  68. https://www.ma-plume-webmag.com/fr/communication-medias/151-explicite-une-nouvelle-idee-du-journalisme
+  69. https://www.ma-plume-webmag.com/fr/communication-medias/151-explicite-une-nouvelle-idee-du-journalisme
+  70. https://www.ma-plume-webmag.com/fr/communication-medias/150-ces-2017-soyez-connectes
+  71. https://www.ma-plume-webmag.com/fr/communication-medias/150-ces-2017-soyez-connectes
+  72. https://www.ma-plume-webmag.com/fr/communication-medias/83-manifeste-pour-le-juste-prix-des-prestations-redactionnelles
+  73. https://www.ma-plume-webmag.com/fr/communication-medias/83-manifeste-pour-le-juste-prix-des-prestations-redactionnelles
+  74. https://www.ma-plume-webmag.com/fr/communication-medias/84-la-belle-competition-une-nouvelle-charte-pour-encadrer-les-appels-d-offres
+  75. https://www.ma-plume-webmag.com/fr/communication-medias/84-la-belle-competition-une-nouvelle-charte-pour-encadrer-les-appels-d-offres
+  76. https://www.ma-plume-webmag.com/fr/communication-medias/96-les-moocs-universites-en-ligne
+  77. https://www.ma-plume-webmag.com/fr/communication-medias/96-les-moocs-universites-en-ligne
+  78. https://www.ma-plume-webmag.com/fr/communication-medias/97-la-certification-voltaire-entre-dans-les-entreprises
+  79. https://www.ma-plume-webmag.com/fr/communication-medias/97-la-certification-voltaire-entre-dans-les-entreprises
+  80. https://www.ma-plume-webmag.com/fr/communication-medias/19-non-aux-idees-gratuites-la-fronde-des-designers
+  81. https://www.ma-plume-webmag.com/fr/communication-medias/19-non-aux-idees-gratuites-la-fronde-des-designers
+  82. https://www.ma-plume-webmag.com/fr/communication-medias/10-quand-les-agences-ne-veulent-plus-jouer-a-compete
+  83. https://www.ma-plume-webmag.com/fr/communication-medias/10-quand-les-agences-ne-veulent-plus-jouer-a-compete
+  84. https://www.ma-plume-webmag.com/fr/
+  85. https://www.ma-plume-webmag.com/fr/fenetre-sur
+  86. https://www.ma-plume-webmag.com/fr/communication-medias
+  87. https://www.gavick.com/joomla-templates
+  88. https://www.pascale-varenne.fr/
+
+   Liens cachés :
+  90. https://www.ma-plume-webmag.com/
+  91. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-42.html#gkPageTop

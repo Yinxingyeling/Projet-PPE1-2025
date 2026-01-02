@@ -1,0 +1,514 @@
+   #[1]alternate [2]alternate [3]alternate [4]alternate
+
+   [5]Skip to main content
+
+   IFRAME: [6]https://www.googletagmanager.com/ns.html?id=GTM-MWXW8B2
+
+   [7]
+   World Meteorological Organization
+   World Meteorological Organization
+   Temps
+   Climat
+   Eau
+   Select your language [Français_____.]
+   Allez
+     * [8]عربي
+     * [9]中文
+     * [10]English
+     * [11]Français
+     * [12]Русский
+     * [13]Español
+
+   (BUTTON) Recherche
+   (open_menu) Menu
+
+   (BUTTON) Fermer le menu
+     * (BUTTON) À propos de l’OMM
+          + [14]Aperçu général
+          + [15]Le Secrétariat
+          + [16]Notre mandat
+          + [17]Gouvernance
+          + [18]Régions
+          + [19]Membres de l’OMM
+          + [20]Bureaux de liaison
+          + [21]Bureau du Conseiller juridique de la Secrétaire générale
+          + [22]Gender Equality
+          + [23]Partenariats
+          + [24]Mobilisation des ressources et partenariats pour le
+            développement
+          + [25]Histoire de l'OMI et de l'OMM
+          + [26]Finances et transparence
+          + [27]Le bâtiment de l’OMM
+          + [28]Youth Engagement
+     * (BUTTON) Activités
+          + [29]Voir toutes les activités
+          + [30]Projets
+          + [31]Objectifs de développement durable
+          + [32]Conférence des Parties (COP)
+     * (BUTTON) Domaines
+          + [33]Tous les domaines
+     * (BUTTON) Actualités
+          + [34]Portail d'actualités
+          + (BUTTON) Media Centre
+               o [35]Communiqués de presse
+               o [36]Information for Journalists
+          + [37]Événements et réunions
+          + (BUTTON) Multimedia
+               o [38]Vidéos
+               o [39]Podcasts
+               o [40]Galerie de photographies
+          + (BUTTON) Campaigns
+               o [41]Main Campaigns
+               o [42]Journée météorologique mondiale
+               o [43]WMO 2025 Calendar Competition
+               o [44]Call to Action on the EW4All Initiative
+     * (BUTTON) Ressources
+          + [45]Dernières publications
+          + [46]Séries de publications
+          + [47]Bibliothèque
+          + [48]Linguistic Resources
+          + [49]MeteoWorld
+          + [50]WMO Bulletin
+          + [51]StoryMaps
+          + [52]Fiches d’information
+          + [53]Dashboards
+          + [54]Documents
+     * (BUTTON) Communauté
+          + [55]Communauté de l'OMM
+
+     * (BUTTON) À propos de l’OMM
+     * (BUTTON) Activités
+     * (BUTTON) Domaines
+     * (BUTTON) Actualités
+     * (BUTTON) Ressources
+     * (BUTTON) Communauté
+
+     * [56]Aperçu général
+     * [57]Le Secrétariat
+     * [58]Notre mandat
+     * [59]Gouvernance
+     * [60]Régions
+     * [61]Membres de l’OMM
+     * [62]Bureaux de liaison
+     * [63]Bureau du Conseiller juridique de la Secrétaire générale
+     * [64]Gender Equality
+     * [65]Partenariats
+     * [66]Mobilisation des ressources et partenariats pour le
+       développement
+     * [67]Histoire de l'OMI et de l'OMM
+     * [68]Finances et transparence
+     * [69]Le bâtiment de l’OMM
+     * [70]Youth Engagement
+
+     * [71]Voir toutes les activités
+     * [72]Projets
+     * [73]Objectifs de développement durable
+     * [74]Conférence des Parties (COP)
+
+     * [75]Tous les domaines
+
+     * [76]Portail d'actualités
+     * (BUTTON) Media Centre
+     * [77]Événements et réunions
+     * (BUTTON) Multimedia
+     * (BUTTON) Campaigns
+
+     * [78]Dernières publications
+     * [79]Séries de publications
+     * [80]Bibliothèque
+     * [81]Linguistic Resources
+     * [82]MeteoWorld
+     * [83]WMO Bulletin
+     * [84]StoryMaps
+     * [85]Fiches d’information
+     * [86]Dashboards
+     * [87]Documents
+
+     * [88]Communauté de l'OMM
+
+     * [89]Communiqués de presse
+     * [90]Information for Journalists
+
+     * [91]Vidéos
+     * [92]Podcasts
+     * [93]Galerie de photographies
+
+     * [94]Main Campaigns
+     * [95]Journée météorologique mondiale
+     * [96]WMO 2025 Calendar Competition
+     * [97]Call to Action on the EW4All Initiative
+
+   Recherche ____________________
+   (BUTTON) Fermer le formulaire de recherche Recherche
+
+Fil d'Ariane
+
+    1. [98]Accueil
+    2.
+    3. Comprendre les nuages pour anticiper les changements climatiques
+
+   Back arrow [99]Vol 66 (1) - 2017
+
+Comprendre les nuages pour anticiper les changements climatiques
+
+   Magazine Article
+   23 mars 2017
+
+   Depuis la nuit des temps, l’humanité est fascinée par les nuages. Après
+   des décennies d’observation et de recherche, les météorologues et les
+   hydrologues ont compris que les processus nuageux – de l’étude
+   microphysique de la nucléation initiale à l’observation des
+   super-tempêtes par satellite – fournissent des informations
+   essentielles pour les prévisions météorologiques, en particulier pour
+   les précipitations. L’examen des nuages dans une perspective
+   climatologique soulève de nouvelles questions complexes, qui remettent
+   en cause les hypothèses générales que nous avions sur les mécanismes à
+   l’œuvre dans notre atmosphère humide et nuageuse.
+
+   Les nuages comptent parmi les principaux facteurs de modulation du
+   réchauffement de l’atmosphère et exercent une influence déterminante
+   sur de nombreux autres aspects du système climatique. Ainsi «les
+   nuages, la circulation et la sensibilité du climat» constituent l’un
+   des sept grands enjeux du Programme mondial de recherche sur le climat
+   (PMRC). Ces enjeux définissent les grands domaines de recherche, de
+   modélisation, d’analyse et d’observation du PMRC et sont au cœur des
+   projets auxquels il participera au cours de la décennie à venir.
+   Partager :
+     * Author(s):
+     * par Sandrine Bony, Bjorn Stevens et David Carlson
+
+   Jacques Descloitres, MODIS Rapid Response Team, NASA/GSFC
+
+Nuages et régimes de circulation à grande échelle
+
+   Les images satellite de notre planète, dans le spectre visible ou
+   infrarouge, font presque toujours apparaître des nuages alignés ou
+   répartis le long des grands tourbillons ou turbulences de la
+   circulation atmosphérique. En animant des images fixes de nuages, il
+   est possible de reconstituer clairement ces mouvements circulatoires.
+   Serait-il toutefois possible que le processus de formation des nuages
+   et les systèmes nuageux, plutôt que de résulter des circulations à
+   grande échelle et de les révéler, influencent ou même déterminent
+   celles-ci?
+
+   Nous savons que les nuages sont soumis à des processus de condensation
+   et d'évaporation et qu'ils interagissent avec le rayonnement solaire ou
+   infrarouge tout au long de leur cycle individuel de formation, de
+   développement et de dissipation. En outre des mouvements ascendants et
+   descendants se forment à moyenne échelle à l'intérieur des systèmes
+   nuageux. Ces processus thermodynamiques et dynamiques pourraient bien
+   exercer une influence sur les transports de chaleur et de vapeur d’eau
+   et favoriser les ondes et les turbulences, perturbant les conditions
+   locales tout en corrigeant la situation atmosphérique à grande échelle.
+   Par ces effets locaux ou éloignés, les nuages influent sur la stabilité
+   hydrostatique atmosphérique, le cisaillement du vent et les gradients
+   méridionaux de température.
+
+   Nous pouvons donc présumer que les nuages ont une incidence sur la
+   structure, l'emplacement et l'ampleur des perturbations de petite
+   échelle telles que les cyclones tropicaux ou extratropicaux, de même
+   que des phénomènes observables à l’échelle de l’hémisphère, tels que
+   les courants-jets des latitudes moyennes. Pour comprendre l'impact
+   régional ou planétaire d'un climat plus chaud et plus humide, nous
+   devons améliorer notre capacité à décrire et à interpréter la relation
+   de cause à effet entre les nuages et les mouvements de circulation. La
+   compréhension que nous en avons actuellement est très appréciable, mais
+   néanmoins limitée, en particulier dans quatre grands domaines.
+
+Enjeu N^o 1: convection et sensibilité aux conditions climatiques
+
+   La sensibilité de notre climat – à savoir l'élévation de la température
+   entraînée par l'augmentation des concentrations atmosphériques de
+   dioxyde de carbone – reste l'une des plus importantes questions, au
+   plan intellectuel comme économique, pour la recherche en climatologie.
+   De récents travaux ont permis de répartir les facteurs ayant un impact
+   sur le climat en deux catégories: celle des facteurs qui sont connus et
+   fiables et celle des facteurs qui sont moins bien compris. La
+   rétroaction nuageuse est un phénomène très important de la seconde
+   catégorie. Si certains aspects de la rétroaction nuageuse ont été
+   expliqués, notamment ceux qui sont liés à l’étendue verticale de nuages
+   volumineux ou aux nuages de la couche limite au‑dessus de l’océan, les
+   influences réciproques entre nuages et convection dans le climat actuel
+   et le climat à venir demeurent un mystère fondamental. L'incertitude
+   qui plane autour de la rétroaction nuageuse tient pour une large part
+   au manque de précision qui caractérise actuellement le traitement du
+   mélange par convection dans les modèles. Le problème de la convection
+   doit être analysé de manière systématique, sur la base d'observations
+   de meilleure qualité et d'une série de modèles (allant des plus
+   complets aux plus centrés sur la convection) ciblés sur des conditions
+   maritimes calmes et des mesures à distance de la vapeur d’eau dans les
+   basses couches troposphériques. Si les chercheurs se concentrent sur la
+   question de la convection, d'importants progrès pourront être réalisés.
+   Or, du fait de l'interaction considérable entre la rétroaction nuageuse
+   et la sensibilité du climat, toute avancée sera très profitable.
+
+Enjeu N^o 2: trajectoires des tempêtes
+
+   Bien que nous sachions que les nuages dont la trajectoire est déviée
+   par des tempêtes exercent une influence sur les gradients de
+   température à l'origine de celles-ci, nous commençons tout juste à
+   comprendre les mille et une manières dont les nuages interagissent avec
+   les trajectoires des tempêtes. Ces trajectoires étant de relativement
+   grande envergure, elles se prêtent particulièrement bien à des méthodes
+   de modélisation hiérarchiques, à l'échelle du nuage comme à l'échelle
+   planétaire. Ces méthodes pourraient nous aider à mieux comprendre
+   l’influence conjuguée et interactive qu’exercent les processus humides,
+   les systèmes frontaux, les interactions avec les circulations
+   océaniques et les effets radiatifs des nuages sur le développement des
+   tempêtes et la structure de leur trajectoire.
+
+   Avec l'affinement des modèles et de nos connaissances, il devrait être
+   de plus en plus facile de reconstituer les paléoclimats notamment pour
+   évaluer l’influence possible de la modification des trajectoires des
+   tempêtes sur le cycle hydrologique général par le passé. Une meilleure
+   compréhension de la dynamique actuelle et passée de la trajectoire des
+   tempêtes nous permettra de mieux prévoir les changements à venir.
+
+Enjeu N^o 3: zones de précipitation tropicale
+
+   Le forçage du climat, qui conduit à des modifications de la force, de
+   la largeur ou de l'emplacement des zones de précipitation tropicale,
+   fait presque assurément intervenir la rétroaction nuageuse. Par de
+   complexes influences réciproques entre le forçage et la rétroaction,
+   des processus nuageux localisés entraînent des modifications de
+   circulation à l'échelle de l'hémisphère ou de la planète qui, à leur
+   tour, influencent l'emplacement et l’intensité des zones de
+   précipitation. Par exemple, la circulation à moyenne échelle induite
+   par convection semble influencer l'étendue des moussons en direction
+   des pôles, tandis que la circulation à l'échelle planétaire peut
+   étendre l'influence des zones de précipitations jusqu'à des zones
+   extratropicales éloignées. Par une conjonction similaire de processus
+   thermodynamiques locaux et de processus dynamiques de grande ampleur,
+   des sources de chaleur aux latitudes élevées peuvent induire le
+   déplacement de zones de pluies tropicales sur de longues distances.
+
+   Selon les modèles climatiques actuels, un déficit de nébulosité sur
+   l'océan Austral réchauffe l'intégralité de l'hémisphère Sud, entraînant
+   un excès de précipitations aux tropiques et une zone de convergence
+   intertropicale trop forte dans l'hémisphère Sud. Des facteurs
+   similaires liés aux nuages contribuent à expliquer pourquoi le
+   refroidissement d'un hémisphère par des aérosols ou une expansion de la
+   nappe glacière pousse les bandes de pluies tropicales vers l'hémisphère
+   opposé. Modéliser ces processus nuageux et les connections
+   nuage-circulation nous permettra non seulement de comprendre les
+   modifications passées de la position et de l'intensité des bandes
+   pluvieuses, mais aussi de prévoir les évolutions futures. Une bonne
+   modélisation exigera dans ce cas de coordonner l'application d'une
+   hiérarchie de modèles pour analyser des hypothèses définies, en se
+   fondant sur les modifications passées qui ont été attestées.
+
+Enjeu N^o 4: Agrégation
+
+   Nous savons que les nuages et les processus de convection qui leur
+   donnent naissance tendent à s'agréger et à se structurer et que leur
+   structure peut jouer un rôle dans la dynamique du système climatique.
+   Des simulations récentes, reflétant des conditions idéales, ont
+   démontré que la convection peut entraîner une agrégation spontanée en
+   l'absence de facteurs extérieurs, ce qui a amené à définir le concept
+   d'auto-agrégation de température. Des simulations de nuages suggèrent
+   que l'auto-agrégation pourrait être favorisée par une élévation de la
+   température. Par ailleurs, des simulations fondées sur des modèles et
+   des données d'observation donnent à penser qu'une augmentation de
+   l'agrégation se traduit par une atmosphère plus sèche et plus claire,
+   qui assure plus efficacement la transmission du rayonnement thermique
+   dans l'espace. Ainsi, l'agrégation convective pourrait produire des
+   effets rétroactifs sur les changements climatiques entraînés par
+   d'autres facteurs et contribuer à des variations lors de phénomènes
+   extrêmes.
+
+   Une structuration sur une zone allant de quelques dizaines à des
+   centaines de kilomètres augmente la probabilité d'incidences de grande
+   ampleur, tels que le lien susmentionné entre la rétroaction nuageuse et
+   les zones de précipitation tropicales. À mesure que s'améliorent notre
+   compréhension des phénomènes et nos compétences en matière de
+   modélisation, des simulations novatrices nous permettront d'explorer
+   les processus d'agrégation dans des modèles de grande échelle, ainsi
+   que d'explorer les processus de désagrégation dans des modèles à maille
+   fine. Ces outils et ces méthodes d'investigation seront nécessaires
+   pour évaluer les incidences de l'agrégation de la convection nuageuse
+   sur le climat.
+
+Convection et circulation dans le contexte des nuages
+
+   Comme on le voit dans ces quatre domaines, les nuages ne jouent pas
+   seulement le rôle de traceur d'une atmosphère turbulente: ils abritent
+   aussi des processus qui peuvent agir très directement sur la
+   circulation et sur le climat. Chaque exemple fait apparaître la
+   relation intime et complexe entre les nuages, la convection et la
+   circulation à plus grande échelle, où les nuages et la convection sont
+   les facteurs les plus déterminants.
+
+   Compte tenu de la forte dépendance des régimes climatiques régionaux et
+   des conditions extrêmes à l’égard de la circulation à grande échelle,
+   il est important que les chercheurs en climatologie s'efforcent de
+   comprendre tant l’influence des nuages et de la convection sur la
+   dynamique atmosphérique que l’évolution probable de ces effets à mesure
+   que la troposphère devient plus chaude et plus humide, la stratosphère
+   se refroidit et la cryosphère se contracte. Pouvoir anticiper
+   l'évolution du climat exige avant tout de mieux comprendre les
+   interactions entre les nuages, la circulation et la sensibilité du
+   climat.
+   This very recent daytime image of the Caribbean region demonstrates the
+   rich variety of cloud features and organizational patterns over ocean
+   and land.
+
+   Récente photographie diurne de la région des Caraïbes illustrant la
+   grande diversité des caractéristiques et de la configuration des nuages
+   au-dessus de l’océan et des terres.
+
+   Authors
+
+   Sandrine Bony, Université Pierre et Marie Curie
+
+   Bjorn Stevens, Institut Max Planck de météorologie
+
+   David Carlson, Directeur du Programme mondial de recherche sur le
+   climat (PMRC)
+
+   World Meteorological Organization
+   Bienvenue à l'Organisation météorologique mondiale
+   [100]Travailler à l'OMM
+   Découvrez les opportunités d'emploi à l'OMM
+   [101]Bâtiment de l’OMM
+   L'histoire de la création de notre siège
+   [102]Achats
+   Voir les derniers appels d'offres
+   [103]Prix
+   Les prix de l'OMM récompensent des contributions exceptionnelles
+   [104]Nous contacter
+   Comment contacter l'OMM
+   © 2026 Organisation météorologique mondiale (OMM)
+   [105]Droits d'auteur
+   [106]Responsabilité
+   [107]Politique de confidentialité
+   [108]Signaler une fraude, un cas de corruption ou un abus
+
+Références
+
+   Liens visibles :
+   1. https://wmo.int/media/magazine-article/understanding-clouds-anticipate-future-climate
+   2. https://wmo.int/fr/media/magazine-article/comprendre-les-nuages-pour-anticiper-les-changements-climatiques
+   3. https://wmo.int/ru/media/magazine-article/ponimat-oblaka-dlya-togo-chtoby-predvidet-buduschiy-klimat
+   4. https://wmo.int/es/media/magazine-article/comprender-las-nubes-para-anticipar-el-clima-futuro
+   5. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-19.html#main-content
+   6. https://www.googletagmanager.com/ns.html?id=GTM-MWXW8B2
+   7. file:///fr
+   8. file:///ar/node/25383
+   9. file:///zh-hans/node/25383
+  10. file:///media/magazine-article/understanding-clouds-anticipate-future-climate
+  11. file:///fr/media/magazine-article/comprendre-les-nuages-pour-anticiper-les-changements-climatiques
+  12. file:///ru/media/magazine-article/ponimat-oblaka-dlya-togo-chtoby-predvidet-buduschiy-klimat
+  13. file:///es/media/magazine-article/comprender-las-nubes-para-anticipar-el-clima-futuro
+  14. file:///fr/apercu-general
+  15. file:///fr/propos-de-lomm/le-secretariat
+  16. file:///fr/propos-de-lomm/notre-mandat
+  17. file:///fr/propos-de-lomm/gouvernance
+  18. file:///fr/propos-de-lomm/regions
+  19. file:///fr/propos-de-lomm/membres-de-lomm
+  20. file:///fr/propos-de-lomm/bureaux-de-liaison
+  21. file:///fr/about-wmo/office-of-legal-counsel-of-secretary-general
+  22. file:///fr/node/22625
+  23. file:///fr/propos-de-lomm/partenariats
+  24. file:///fr/propos-de-lomm/mobilisation-des-ressources-et-partenariats-pour-le-developpement
+  25. file:///fr/propos-de-lomm/histoire-de-lomi-et-de-lomm
+  26. file:///fr/propos-de-lomm/finances-et-transparence
+  27. file:///fr/propos-de-lomm/le-batiment-de-lomm
+  28. file:///fr/node/23278
+  29. file:///fr/toutes-nos-activites
+  30. file:///fr/node/23131
+  31. file:///fr/activites/objectifs-de-developpement-durable
+  32. file:///fr/activites/conference-des-parties-cop
+  33. file:///fr/topics
+  34. file:///fr/portail-dactualites
+  35. file:///fr/actualites/communiques-de-presse
+  36. file:///fr/node/20791
+  37. file:///fr/activites/evenements-et-reunions
+  38. file:///fr/resources/videos
+  39. file:///fr/node/22503
+  40. file:///fr/ressources/galerie-de-photographies
+  41. file:///fr/node/25688
+  42. file:///world-meteorological-day
+  43. file:///fr/propos-de-lomm/journee-meteorologique-mondiale/concours-de-photographies-pour-le-calendrier-2025-de-lomm
+  44. file:///fr/node/32956
+  45. file:///fr/resources/latest-publications
+  46. file:///fr/resources/publication-series
+  47. file:///fr/resources/library
+  48. file:///fr/node/38015
+  49. file:///fr/node/22979
+  50. file:///fr/node/22980
+  51. file:///fr/resources/storymaps
+  52. file:///fr/resources/wmo-fact-sheets
+  53. file:///fr/node/29413
+  54. file:///fr/ressources/documents
+  55. file:///fr/communaute-de-lomm
+  56. file:///fr/apercu-general
+  57. file:///fr/propos-de-lomm/le-secretariat
+  58. file:///fr/propos-de-lomm/notre-mandat
+  59. file:///fr/propos-de-lomm/gouvernance
+  60. file:///fr/propos-de-lomm/regions
+  61. file:///fr/propos-de-lomm/membres-de-lomm
+  62. file:///fr/propos-de-lomm/bureaux-de-liaison
+  63. file:///fr/about-wmo/office-of-legal-counsel-of-secretary-general
+  64. file:///fr/node/22625
+  65. file:///fr/propos-de-lomm/partenariats
+  66. file:///fr/propos-de-lomm/mobilisation-des-ressources-et-partenariats-pour-le-developpement
+  67. file:///fr/propos-de-lomm/histoire-de-lomi-et-de-lomm
+  68. file:///fr/propos-de-lomm/finances-et-transparence
+  69. file:///fr/propos-de-lomm/le-batiment-de-lomm
+  70. file:///fr/node/23278
+  71. file:///fr/toutes-nos-activites
+  72. file:///fr/node/23131
+  73. file:///fr/activites/objectifs-de-developpement-durable
+  74. file:///fr/activites/conference-des-parties-cop
+  75. file:///fr/topics
+  76. file:///fr/portail-dactualites
+  77. file:///fr/activites/evenements-et-reunions
+  78. file:///fr/resources/latest-publications
+  79. file:///fr/resources/publication-series
+  80. file:///fr/resources/library
+  81. file:///fr/node/38015
+  82. file:///fr/node/22979
+  83. file:///fr/node/22980
+  84. file:///fr/resources/storymaps
+  85. file:///fr/resources/wmo-fact-sheets
+  86. file:///fr/node/29413
+  87. file:///fr/ressources/documents
+  88. file:///fr/communaute-de-lomm
+  89. file:///fr/actualites/communiques-de-presse
+  90. file:///fr/node/20791
+  91. file:///fr/resources/videos
+  92. file:///fr/node/22503
+  93. file:///fr/ressources/galerie-de-photographies
+  94. file:///fr/node/25688
+  95. file:///world-meteorological-day
+  96. file:///fr/propos-de-lomm/journee-meteorologique-mondiale/concours-de-photographies-pour-le-calendrier-2025-de-lomm
+  97. file:///fr/node/32956
+  98. file:///fr
+  99. file:///fr/resources/magazines/vol-66-1-2017
+ 100. file:///fr/jobs
+ 101. file:///fr/propos-de-lomm/le-batiment-de-lomm
+ 102. file:///fr/node/23320
+ 103. file:///fr/node/20806
+ 104. file:///fr/node/20810
+ 105. file:///fr/node/20807
+ 106. file:///fr/clauses-de-non-responsabilite
+ 107. file:///fr/node/20809
+ 108. https://wmo.hintbox.ch/
+
+   Liens cachés :
+ 110. https://twitter.com/intent/tweet?url=https://wmo.int/fr/media/magazine-article/comprendre-les-nuages-pour-anticiper-les-changements-climatiques
+ 111. https://www.linkedin.com/sharing/share-offsite/?url=https://wmo.int/fr/media/magazine-article/comprendre-les-nuages-pour-anticiper-les-changements-climatiques
+ 112. https://www.facebook.com/share.php?u=https://wmo.int/fr/media/magazine-article/comprendre-les-nuages-pour-anticiper-les-changements-climatiques
+ 113. mailto:?subject=Comprendre%20les%20nuages%20pour%20anticiper%20les%20changements%20climatiques%20&body=Check%20out%20this%20site%20https%3A%2F%2Fwmo.int%2Ffr%2Fmedia%2Fmagazine-article%2Fcomprendre-les-nuages-pour-anticiper-les-changements-climatiques
+ 114. https://twitter.com/WMO
+ 115. https://www.linkedin.com/company/world-meteorological-organization/
+ 116. https://www.facebook.com/WorldMeteorologicalOrganization
+ 117. https://www.instagram.com/wmo_omm/
+ 118. https://www.flickr.com/photos/worldmeteorologicalorganization/
+ 119. https://www.youtube.com/c/worldmetorg
+ 120. https://twitter.com/WMO
+ 121. https://www.linkedin.com/company/world-meteorological-organization/
+ 122. https://www.facebook.com/WorldMeteorologicalOrganization
+ 123. https://www.instagram.com/wmo_omm/
+ 124. https://www.flickr.com/photos/worldmeteorologicalorganization/
+ 125. https://www.youtube.com/c/worldmetorg

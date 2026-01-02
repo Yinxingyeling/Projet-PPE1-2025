@@ -1,0 +1,474 @@
+   [1]Histoire CIGREF
+
+   Aller à :
+     * [2]Accueil
+     * [3]Histoire CIGREF
+          + [4]Dates clés
+          + [5]Interviews vidéos
+          + [6]Entreprises et DSI
+               o [7]Entreprises et DSI – B
+               o [8]Entreprises et DSI – C
+               o [9]Entreprises et DSI – D
+               o [10]Entreprises et DSI – E
+               o [11]Entreprises et DSI – G
+               o [12]Entreprises et DSI – H,I,J,K
+               o [13]Entreprises et DSI – L
+               o [14]Entreprises et DSI – M
+               o [15]Entreprises et DSI – N,O
+               o [16]Entreprises et DSI – P,Q,R
+               o [17]Entreprises et DSI – S
+               o [18]Entreprises et DSI – T,U,V,W,Y
+          + [19]Les Administrateurs
+               o [20]Administrateurs CIGREF
+          + [21]Album de l’anniversaire des 40 ans CIGREF
+     * [22]Archives CIGREF
+          + [23]Rapports d’activité CIGREF
+          + [24]Archives 1990-1999
+          + [25]Archives 1980-1989
+          + [26]Archives 1970-1979
+     * [27]Contribuez !
+     * [28]Contact
+
+   _______________ Recherche
+
+     * [29]facebook
+
+Cloud computing, histoire de l’informatique en nuages
+
+   Vous êtes à : [30]Accueil › Cloud computing, histoire de l’informatique
+   en nuages
+
+   15 juillet 2013 par [31]Histoire CIGREF [32]3 Commentaires
+
+   [33]infographie-cigref-histoire-cloud-computing Pour qu’aujourd’hui
+   l’informatique s’élève vers les nuages, qu’elle devienne « cloud
+   computing »^1, il lui a fallu commencer par sortir de terre et gravir
+   quelques étapes ! Et certaines ascensions furent plus rudes que
+   d’autres…
+
+   Faire entrer l’informatique dans l’inconscient collectif…
+
+   Une des premières étapes, peut-être la plus importante, aura été
+   l’entrée de l’informatique dans le système économique mondial. Inventer
+   une technologie relève de génies individuels, voire de volontés et de
+   talents d’équipes, de microcosmes motivés. Faire émerger et ressentir
+   cette technologie comme une évidence dans l’inconscient collectif,
+   dépend d’une alchimie beaucoup plus complexe ! En France, un « coup de
+   pouce » à cette prise conscience fut certainement l’ouvrage de Pierre
+   Lhermitte : « [34]Le pari informatique », publié en 1968. Mandaté par
+   le Conseil Economique et Social, Pierre Lhermitte s’était rendu aux
+   Etats-Unis pour « étudier l’état le plus avancé et le plus développé à
+   la fois de l’électronique mise au service de l’information, que l’on
+   appelle dans ce cas informatique ».  Dans le prolongement, convaincu
+   que l’informatique de gestion « va prendre une place de plus en plus
+   importante et surtout va transformer et l’entreprise, et la société »,
+   en août 1970, [35]il crée le CIGREF, association d’entreprises, pour :
+   « rassembler les grandes entreprises françaises utilisatrices
+   d’importants systèmes informatiques, de façon à promouvoir en commun
+   les conditions d’emploi les plus efficaces de ces matériels ».
+
+   Mais rien ne serait arrivé sans quelques personnages, inventifs,
+   visionnaires, tenaces…
+
+Quelques « grands-géniteurs » de l’informatique en nuages
+
+   Grands géniteurs, ils le sont par leur talent d’innovateur qui a
+   conduit à la naissance de l’informatique. Grands-géniteurs, ils le sont
+   également aujourd’hui en tant que « grands-parents » de cette nouvelle
+   génération de l’informatique qui escalade les nuages ! Grands
+   géniteurs, ils le sont par leur talent d’innovateur qui a conduit à la
+   naissance de l’informatique. Grands-Géniteurs, ils le sont également
+   aujourd’hui en tant que « grands-parents » de cette nouvelle génération
+   de l’informatique qui escalade les nuages !
+
+   1933 – [36]Norman B. Krim et Jacob Goldman, le premier invente le
+   transistor et le second force le Palo Alto Research Center à sortir de
+   terre. Ce centre de recherche permettra des avancées technologiques
+   aussi fondatrices que le protocole Ethernet, et bien d’autres…
+
+   1936 – [37]Alan Turing, inventeur de la machine de Turing, rend la
+   pensée calculable, fondement de l’intelligence artificielle.
+
+   1960 – [38]Joseph Carl Robnett Licklider, moins connu, il apporta
+   pourtant lui aussi un fort coup de pouce à la « démarche internet »
+   fondatrice de l’informatique en nuages. Dès 1960 il rédige le document
+   Man-Computer Symbiosis (symbiose Homme-Machine) où il anticipe
+   l’informatique interactive, les bibliothèques numériques, le commerce
+   électronique, la banque en ligne…
+
+   1968 – [39]Douglas Engelbart, il présente pour la première fois lors de
+   la session d’automne de la Joint Computer Conference, la souris
+   informatique dont la mission est de déplacer un pointeur sur l’écran
+   d’ordinateur…
+
+   1970 – [40]Dennis Ritchie, inventeur du langage de programmation
+   informatique « C » utilisé par UNIX et sur lequel reposent d’autres
+   langages non moins utilisés : C++, Java et PHP…
+
+   1970 – [41]Ray Tomlinson, il travaille sur deux programmes : Send
+   Message, associé à ReadMail, pour permettre aux utilisateurs d’un même
+   ordinateur de se laisser des messages… et sur CPYNet permettant de
+   copier des fichiers simultanément sur différents ordinateurs. En
+   associant les deux idées, il envoie le premier « netmail » entre deux
+   ordinateurs distants. Aujourd’hui 204.000.000 mails sont expédiés
+   chaque minute et 132.600.000 d’entre eux sont des spams !
+
+   1972 – [42]Vinton Cerf et Robert E. Kahn, ils font franchir en 1972 le
+   premier gué de l’informatique vers le nuage en inventant le protocole
+   du futur internet TCP (Transmission Control Protocol).
+
+   1974 – [43]Roland Moreno, inventeur de la carte à puce présente dans
+   tous les objets numériques qui nous permettent d’accéder aux nuages
+   numériques !
+
+   1975 – [44]Bill Gates, sans qui l’incontournable système Windows et
+   fondateur de Microsoft avec Paul Allen.
+
+   1976 – [45]Steve Jobs, à qui l’on doit de voir des « pommes croquées »
+   se répandre sur la planète depuis près de 40 ans ! Mais aussi celui qui
+   a su rendre « indispensable » les premiers véhicules conduisant nos
+   attentes vers le Cloud !
+
+   1991 – [46]Tim Berners-Lee, inventeur du World Wide Web, protocole
+   HTTP ^2 HyperText Transfer Protocol… Il fera appel à des développeurs
+   volontaires pour l’aider à créer un navigateur ce qui conduira au
+   développement de Mosaic au centre de recherches américain NCSA.
+
+   1997 – [47]Larry Page et Sergey Brin, inventeur de l’algorithme de
+   Google, gratifiant ainsi la recherche sur le web de nouvelles valeurs
+   sur le principe de « pagerank »…
+
+   Et bien d’autres !
+
+Quelques-unes des technologies génitrices du Cloud…
+
+   Comme pour ses grands géniteurs, une liste exhaustive des technologies
+   ayant propulsé l’informatique en nuages n’est guère possible ! Sans
+   hiérarchie d’importance, quelques-unes sont cependant évidentes comme :
+
+   – Le développement de Multics, le premier système d’exploitation, conçu
+   en 1964 par le MIT, les Laboratoires Bell et General Electric, des
+   centres d’innovation ayant été particulièrement importants sur le
+   parcours de l’informatique en nuages.
+   – Les [48]navigateurs, ils ouvrent la fenêtre au voyage numérique,
+   – Les premières [49]messageries internet, elles inspirent la liberté
+   d’échanger en étant accessible en ligne, depuis n’importe quelle
+   machine. Cela fait de 1996 une pierre blanche sur le chemin du Cloud !
+   – Les [50]systèmes d’exploitation, ils évoluent pour répondre à cette
+   envie d’autonomie, pour faire oublier l’aride sémantique de C:\… et
+   aussi pour pousser le marché grandissant de l’informatique et de la
+   micro-informatique.
+   – Les [51]moteurs de recherche, ces robots nourris d’algorithmes
+   mutants, capables de mettre le monde à portée de clic. Alors même qu’à
+   présent Google recense autour de 30 trillions de pages. Ses bots en
+   crawlent quelques 20 milliards par jour !
+
+Les outils de publication en ligne, premières tendances vers le cloud
+
+   Autre étape constitutive du cloud computing, l’apparition des outils de
+   publication en ligne. Le premier exemple qui vient à l’esprit de tous
+   est certainement [52]wikipedia. Qui n’a jamais utilisé cette
+   encyclopédie participative en ligne ? Elle repose sur la technologie
+   wiki, site web dont les contenus sont modifiables par les internautes
+   eux-mêmes. Le premier wiki revient à l’informaticien américain [53]Ward
+   Cunningham qui a voulu, en 1995, réaliser un site destiné à la
+   programmation informatique.
+
+   Apparaissent également des outils de « CMS » (Content Management
+   System) comme WordPress. Ces outils proposent une interface permettant
+   à l’utilisateur désirant publier en ligne de gérer la publication de
+   ses contenus. Ils proposent généralement des « templates », modèles de
+   présentation de contenus, et des fonctionnalités de gestion éditoriale.
+   Grâce à cette simplification d’utilisation des outils de publication en
+   ligne, les blogs s’installent sur le web, adoptés par les particuliers
+   mais aussi par les professionnels, libérant ainsi l’écriture des
+   contraintes de l’édition ! Des plateformes de blogs gratuits s’ouvrent
+   aussi comme Blogspot, Skyrock. Toutes les fonctions de publication y
+   sont automatisées pour rendre l’usage encore plus facile.
+
+Les réseaux sociaux
+
+   Le premier à se poser sur la Toile fut Myspace, proposé par Tom
+   Anderson et Chris DeWolfe en août 2003. Mais c’est sans doute
+   [54]l’arrivée de Facebook en 2007 qui a fait entrer l’expression «
+   réseaux sociaux » dans le langage courant, dans son acception web 2.0 !
+   Leur croissance exponentielle matérialise l’intérêt, qu’il soit privé
+   ou professionnel, pour les usages en ligne, les fonctionnalités en
+   nuages…
+
+Les plateformes d’hébergement et de partage de données numériques
+
+   Qu’elles soient généralistes ou spécialisées par la nature des fichiers
+   qu’elles accueillent, les plateformes permettant le stockage et/ou le
+   partage de données, se multiplient. En 2005, c’est l’ouverture de la
+   plateforme de partage et d’hébergement de vidéos YouTube. Dailymotion,
+   son équivalent français, voit le jour en mars 2005, à l’initiative de
+   Benjamin Bejbaum et Olivier Poitrey En 2006, Slideshare propose le
+   partage de présentations professionnelles. Flickr Commons propose le
+   partage de photos en 2008.
+
+   [55]ebook-guide-cloud-computing Progressivement, les services
+   qu’offrent ses plateformes se professionnalisent. Ainsi, le cloud
+   computing prend place dans notre nouvelle [56]culture numérique.
+
+   Pour les usages professionnels du cloud : Guide « [57]Cloud computing
+   et protection des données ».
+
+Le pari informatique, un défi relevé !
+
+   [58]pari-informatique-cigref Pierre Lhermitte concluait ainsi son
+   ouvrage : « L’enjeu du pari informatique s’avère-t-il riche de
+   promesses ou lourd de conséquences graves suivant la façon dont nous
+   saurons jouer la partie de la « seconde révolution industrielle ».
+   Cette étude a pour but essentiel de tenter d’attirer l’attention des
+   pouvoirs publics et de tous ceux qui détiennent quelques
+   responsabilités dans le domaine économique sur les conséquences
+   possibles du pari informatique et surtout sur les conditions
+   indispensables à sa réussite. Celles-ci sont nombreuses et supposent,
+   pour être réunies, une ferme volonté, une ardeur générale et surtout
+   une coordination d’ensemble dans le cadre d’un vaste plan à long terme
+   ».
+
+   Ardeur et volonté se sont imposées ! Si l’informatique est bel et bien
+   entrée dans l’entreprise, elle en a même poussé les murs jusqu’à ce que
+   les usages personnels lui reviennent de plus en plus mobiles et en
+   nuages !
+
+   Comme ce parcours vers le cloud computing ne saurait être exhaustif,
+   chacun peut y apporter compléments et expériences en commentaires !
+
+   _________________
+
+   ^1 Concrètement, le cloud permet d’utiliser en libre-service via le web
+   des services informatiques basés sur des machines distantes, via des
+   réseaux et des logiciels gérés par un fournisseur
+   ^2 Voir aussi quelques [59]dates clés
+
+   Ligne
+
+Catégories
+
+     * [60]Pari informatique
+     * [61]Technologies informatiques
+     * [62]Usages internet
+
+Étiquettes
+
+     * [63]WordPress, 10 ans déjà !
+     * [64]Tous les articles
+     * [65]World Wide Web, toute une histoire !
+
+   [66]Partager sur Facebook [67]Partager sur Twitter [68]Partager sur
+   linkedin [69]Partager sur Google+
+   3 Comments
+    1. Sophie M
+       [70]15 juillet 2013 at 13 h 55 min
+       Excellent ! Cette belle rétro nous permet de comprendre la façon
+       dont les choses s’enchainent.
+       En plus cette mise en perspective est un bel hommage à ces
+       créateurs, ceux que vous citez et les autres.
+       En tout cas, heureusement que des visionnaires ont parié sur
+       l’informatique… Comment on ferait si on ne pouvait pas partager nos
+       vidéos, nos photos, et babiller en live avec nos amis ? 😉
+       [71]Répondre
+    2. Jérôme
+       [72]16 juillet 2013 at 4 h 53 min
+       Très bonne prise de recul sur l’évolution de l’informatique vers le
+       numérique !
+       Et globalement j’aime beaucoup votre site !
+       [73]Répondre
+    3. Renaud
+       [74]17 juillet 2013 at 10 h 54 min
+       Bonjour,
+       Bravo, noble programme de rappeler que la révolution numérique a
+       une histoire d’hommes et de femmes, noble programme de rappeler que
+       la connaissance de cette histoire nous aidera à nous orienter au
+       mieux par la suite.
+       Un seul petit regret : vous oubliez Louis Pouzin à qui nous devons
+       le datagramme (et un petit cororico en passant) :
+       [75]http://fr.wikipedia.org/wiki/Louis_Pouzin
+       [76]Répondre
+
+   0 Pings & Trackbacks
+
+Laisser un commentaire [77]Annuler la réponse
+
+   Commentaire (obligatoire)
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   Nom (obligatoire) ______________________________
+   Email (obligatoire) ______________________________
+   Site Web ______________________________
+
+   Laisser un commentaire
+
+   _______________ Recherche
+
+   [78]CIGREF
+   Le CIGREF, réseau de grandes entreprises, est depuis 45 ans un acteur
+   de l'informatique et du numérique. Il revient ici sur l’histoire de
+   l’informatique et des systèmes d’information pour mieux comprendre
+   comment le numérique transforme nos vies et nos entreprises !
+
+Articles récents
+
+     * [79]Le « Patrimoine informatique » se visite sur Histoire CIGREF !
+     * [80]Généalogie de l’algorithme… ses ancêtres !
+     * [81]1973, François Gernelle invente le Micral N, premier
+       micro-ordinateur
+     * [82]Quand Pierre Lhermitte évoque l’informatique des années 60 et
+       le CIGREF…
+     * [83]Histoire parallèle de l’informatique et des entreprises
+
+Commentaires récents
+
+     * [84]formations ruby on rails dans [85]Langage informatique… savoir
+       coder, une longue histoire !
+     * koukunce dans [86]1973, François Gernelle invente le Micral N,
+       premier micro-ordinateur
+     * koukunce dans [87]Osborne 1, le premier ordinateur portable
+     * Antoine dans [88]Langage informatique… savoir coder, une longue
+       histoire !
+     * Jean L. dans [89]Histoire parallèle de l’informatique et des
+       entreprises
+
+Liens
+
+     * [90]CIGREF
+     * [91]Collection CIGREF
+     * [92]Entreprise 2020
+     * [93]Entreprises numériques
+     * [94]Fondation CIGREF
+     * [95]Musée de l'Informatique
+     * [96]Questionner le Numérique
+     * [97]Salle de Presse CIGREF
+     * [98]Transition Numérique
+
+SUIVEZ NOUS…
+
+   [99]Facebook Histoire CIGREF [100]Viadeo Histoire CIGREF
+
+Catégories
+
+   Catégories[Sélectionner une catégorie__..]
+
+Archives
+
+   Archives [Sélectionner un moiss]
+
+Histoire CIGREF
+
+   Pour aborder sereinement l’ère de l’entreprise numérique, « Histoire
+   CIGREF » a pour ambition de retracer les réussites et les écueils sur
+   le chemin de l’informatisation des grandes entreprises...
+
+   © CIGREF 2016
+
+Références
+
+   1. https://www.cigref.fr/archives/histoire-cigref
+   2. https://www.cigref.fr/archives/histoire-cigref/
+   3. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/
+   4. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/dates-cles/
+   5. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/interviews-videos/
+   6. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/
+   7. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-b/
+   8. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-c/
+   9. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-d/
+  10. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-e/
+  11. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-g/
+  12. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-hijk/
+  13. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-l/
+  14. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-m/
+  15. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-no/
+  16. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-pqr/
+  17. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entreprises-et-dsi-s/
+  18. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/entreprises-membres/entrteprises-et-dsi-tuvwy/
+  19. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/les-administrateurs/
+  20. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/les-administrateurs/administrateurs-cigref/
+  21. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/album-de-lanniversaire-des-40-ans-cigref/
+  22. https://www.cigref.fr/archives/histoire-cigref/archives-cigref/
+  23. https://www.cigref.fr/archives/histoire-cigref/archives-cigref/rapports-d-activite-cigref/
+  24. https://www.cigref.fr/archives/histoire-cigref/archives-cigref/cigref-1990-1999/
+  25. https://www.cigref.fr/archives/histoire-cigref/archives-cigref/cigref-1980-1989/
+  26. https://www.cigref.fr/archives/histoire-cigref/archives-cigref/cigref-1970-1979/
+  27. https://www.cigref.fr/archives/histoire-cigref/contribuez/
+  28. https://www.cigref.fr/archives/histoire-cigref/contact/
+  29. https://www.facebook.com/HistoireCIGREF
+  30. https://www.cigref.fr/archives/histoire-cigref/
+  31. https://www.cigref.fr/archives/histoire-cigref/blog/author/sadbhic/
+  32. https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/#comments
+  33. https://www.cigref.fr/archives/histoire-cigref/wp-content/uploads/2013/07/infographie-cigref-histoire-cloud-computing.jpg
+  34. https://www.cigref.fr/archives/histoire-cigref/blog/le-pari-informatique/
+  35. https://www.cigref.fr/archives/histoire-cigref/blog/acte-de-naissance-du-cigref/
+  36. https://www.cigref.fr/archives/histoire-cigref/blog/golman-et-krim-2-pionniers-de-l-informatique-s-en-sont-alle/
+  37. https://www.cigref.fr/archives/histoire-cigref/blog/alan-turing-pere-de-l-informatique-naissait-il-y-a-100-ans/
+  38. https://fr.wikipedia.org/wiki/Joseph_Carl_Robnett_Licklider
+  39. https://www.cigref.fr/archives/histoire-cigref/blog/1968-petite-souris-informatique-sort-de-son-trou/
+  40. https://www.cigref.fr/archives/histoire-cigref/blog/dennis-ritchie-a-t-il-rejoint-steve-jobs/
+  41. https://www.cigref.fr/archives/histoire-cigref/blog/courriel-e-mail-mel-pourriel-spam…-histoire-du-message-electronique/
+  42. https://www.cigref.fr/archives/histoire-cigref/blog/retour-sur-la-naissance-d-internet/
+  43. https://www.cigref.fr/archives/histoire-cigref/blog/roland-moreno-laisse-la-carte-a-puce-orpheline/
+  44. http://fr.wikipedia.org/wiki/Bill_Gates
+  45. https://www.cigref.fr/archives/histoire-cigref/blog/ce-que-l-histoire-de-l-informatique-doit-a-steve-jobs/
+  46. https://www.cigref.fr/archives/histoire-cigref/blog/world-wide-web-toute-une-histoire/
+  47. https://www.cigref.fr/archives/histoire-cigref/blog/google-du-premier-pagerank-au-panda-2011/
+  48. https://www.cigref.fr/archives/histoire-cigref/blog/histoire-de-navigateurs/
+  49. https://www.cigref.fr/archives/histoire-cigref/blog/hotmail-la-fin-dune-histoire/
+  50. https://www.cigref.fr/archives/histoire-cigref/blog/systeme-d-exploitation-retour-aux-fondamentaux/
+  51. http://www.webrankinfo.com/dossiers/google/chiffres-cles
+  52. http://fr.wikipedia.org/
+  53. http://fr.wikipedia.org/wiki/Ward_Cunningham
+  54. https://www.cigref.fr/archives/histoire-cigref/blog/d-arpanet-aux-reseaux-sociaux-d-aujourdhui/
+  55. http://www.cigref.fr/guide-pratique-cloud-computing-protection-donnees-cigref-ifaci-afai-2013
+  56. http://www.entreprises-et-cultures-numeriques.org/entreprises-culture-numerique/
+  57. http://www.entreprises-et-cultures-numeriques.org/cloud-computing-et-protection-des-donnees/
+  58. https://www.cigref.fr/archives/histoire-cigref/blog/du-pari-informatique-a-l-entreprise-numerique/
+  59. https://www.cigref.fr/archives/histoire-cigref/histoire-cigref/dates-cles/
+  60. https://www.cigref.fr/archives/histoire-cigref/blog/category/pari-informatique/
+  61. https://www.cigref.fr/archives/histoire-cigref/blog/category/technologies-informatiques/
+  62. https://www.cigref.fr/archives/histoire-cigref/blog/category/usages-internet/
+  63. https://www.cigref.fr/archives/histoire-cigref/blog/wordpress-10-ans-deja/
+  64. https://www.cigref.fr/archives/histoire-cigref
+  65. https://www.cigref.fr/archives/histoire-cigref/blog/world-wide-web-toute-une-histoire/
+  66. https://www.facebook.com/sharer.php?u=https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/
+  67. https://twitter.com/intent/tweet?url=https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/&text=Cloud computing, histoire de l’informatique en nuages
+  68. http://www.linkedin.com/shareArticle?mini=true&url=https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/&text=Cloud computing, histoire de l’informatique en nuages
+  69. https://plus.google.com/share?url=https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/
+  70. https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/#comment-961
+  71. https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/
+  72. https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/#comment-965
+  73. https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/
+  74. https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/#comment-968
+  75. http://fr.wikipedia.org/wiki/Louis_Pouzin
+  76. https://www.cigref.fr/archives/histoire-cigref/blog/cloud-computing-histoire-de-linformatique-en-nuages/
+  77. file:///blog/cloud-computing-histoire-de-linformatique-en-nuages/#respond
+  78. http://www.cigref.fr/
+  79. https://www.cigref.fr/archives/histoire-cigref/blog/le-patrimoine-informatique-se-visite-sur-histoire-cigref/
+  80. https://www.cigref.fr/archives/histoire-cigref/blog/genealogie-de-lalgorithme-ses-ancetres/
+  81. https://www.cigref.fr/archives/histoire-cigref/blog/1973-francois-gernelle-invente-le-micral-n-premier-micro-ordinateur/
+  82. https://www.cigref.fr/archives/histoire-cigref/blog/quand-pierre-lhermitte-evoque-linformatique-des-annees-60-et-le-cigref/
+  83. https://www.cigref.fr/archives/histoire-cigref/blog/histoire-parallele-de-linformatique-et-des-entreprises/
+  84. http://rubyrails.ninja/
+  85. https://www.cigref.fr/archives/histoire-cigref/blog/langage-informatique-savoir-coder-une-longue-histoire/#comment-196499
+  86. https://www.cigref.fr/archives/histoire-cigref/blog/1973-francois-gernelle-invente-le-micral-n-premier-micro-ordinateur/#comment-196174
+  87. https://www.cigref.fr/archives/histoire-cigref/blog/osborne-1-le-premier-ordinateur-portable/#comment-195344
+  88. https://www.cigref.fr/archives/histoire-cigref/blog/langage-informatique-savoir-coder-une-longue-histoire/#comment-194496
+  89. https://www.cigref.fr/archives/histoire-cigref/blog/histoire-parallele-de-linformatique-et-des-entreprises/#comment-194349
+  90. http://www.cigref.fr/
+  91. http://www.collection-cigref.org/
+  92. http://www.entreprise2020.fr/
+  93. http://www.entreprises-et-cultures-numeriques.org/
+  94. http://www.fondation-cigref.org/
+  95. http://www.museeinformatique.fr/
+  96. http://www.questionner-le-numerique.org/
+  97. http://salle-de-presse.cigref.fr/
+  98. http://transition-numerique.entreprises-et-cultures-numeriques.org/
+  99. http://www.facebook.com/HistoireCIGREF
+ 100. http://www.viadeo.com/fr/profile/histoire.cigref

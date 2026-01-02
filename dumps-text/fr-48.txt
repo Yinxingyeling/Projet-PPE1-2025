@@ -1,0 +1,938 @@
+
+   This is the Trace Id: 371e363428e358e023f77cb77a7c8afb
+   [1]Passer directement au contenu principal
+   (BUTTON) (BUTTON) [2]Microsoft
+   (BUTTON) Azure (BUTTON)
+   [3]Azure
+   (BUTTON) Azure
+     * [4]Accueil
+     * [5]Explorer
+     * (BUTTON) Produits
+          + Meilleures ventes (BUTTON) Meilleures ventes
+               o [6]Afficher tous les produits (Plus de 200)
+               o [7]Microsoft Foundry
+               o [8]Service de l'agent Foundry
+               o [9]Azure Copilot
+               o [10]Observabilité dans Foundry Control Plane
+               o [11]GitHub Copilot
+               o [12]Azure DevOps
+               o [13]Azure Kubernetes Service (AKS)
+               o [14]Azure Cosmos DB
+               o [15]Azure Database pour PostgreSQL
+               o [16]Azure Arc​
+          + Microsoft Foundry (BUTTON) Microsoft Foundry
+               o [17]Microsoft Foundry
+               o [18]Modèles Foundry
+               o [19]Service de l'agent Foundry
+               o [20]Recherche Azure AI
+               o [21]Foundry Tools
+               o [22]Azure OpenAI dans Modèles Foundry
+               o [23]Compréhension de contenu Azure dans Foundry Tools
+               o [24]Observabilité dans Foundry Control Plane
+               o [25]Azure Speech dans Foundry Tools
+               o [26]Azure Machine Learning
+          + Bases de données + Analyse (BUTTON) Bases de données + Analyse
+               o [27]Azure Cosmos DB
+               o [28]Azure DocumentDB
+               o [29]Azure SQL
+               o [30]Azure Database pour PostgreSQL
+               o [31]Redis géré par Azure
+               o [32]Microsoft Fabric
+               o [33]Azure Databricks
+               o [34]Azure Synapse Analytics
+               o [35]Affichez toutes les bases de données
+          + Azure Compute (BUTTON) Azure Compute
+               o [36]Machines virtuelles Linux dans Azure
+               o [37]SQL Server sur Machines virtuelles Azure
+               o [38]Windows Server
+               o [39]Azure Functions
+               o [40]Microsoft Azure Virtual Machine Scale Sets
+               o [41]Azure Spot Virtual Machines
+               o [42]Azure Container Apps
+               o [43]Azure Compute Fleet
+          + Conteneurs (BUTTON) Conteneurs
+               o [44]Azure Container Apps
+               o [45]Azure Kubernetes Service (AKS)
+               o [46]Azure Kubernetes Fleet Manager
+               o [47]Azure Container Registry
+               o [48]Azure Red Hat OpenShift
+               o [49]Azure Container Instances
+          + Environnements hybrides et multicloud (BUTTON) Environnements
+            hybrides et multicloud
+               o [50]Azure Arc​
+               o [51]Azure Local
+               o [52]Microsoft Defender pour le cloud
+               o [53]Azure IoT Edge
+               o [54]Azure Monitor
+               o [55]Microsoft Sentinel
+               o [56]Azure Migrate
+     * (BUTTON) Solutions
+          + Sélection (BUTTON) Sélection
+               o [57]Afficher toutes les solutions (40+)
+               o [58]Applications IA Azure et agents IA
+               o [59]Centre de migration vers le nuage et de modernisation
+                 Azure
+               o [60]Analytique données pour l’IA
+               o [61]Solutions nuage pour les PME/TPE
+               o [62]Infrastructure d’Azure AI
+               o [63]Cloud adaptatif
+               o [64]Mise en réseau Azure et sécurité réseau
+               o [65]SAP sur le cloud Microsoft
+               o [66]Bases de données Azure
+               o [67]Services d’intégration Azure
+          + IA (BUTTON) IA
+               o [68]Applications IA Azure et agents IA
+               o [69]IA responsable avec Azure
+               o [70]Infrastructure d’Azure AI
+               o [71]Exploration des connaissances
+               o [72]Hugging Face sur Azure
+               o [73]Opérations d’apprentissage automatique (MLOps)
+          + Développement d’applications (BUTTON) Développement
+            d’applications
+               o [74]Développement et test
+               o [75]DevOps
+               o [76]DevSecOps
+               o [77]Services d’intégration
+               o [78]Serverless computing
+               o [79]Modernisation des applications et des données
+               o [80]Développement d’applications low-code sur Azure
+          + Migration et modernisation du cloud (BUTTON) Migration et
+            modernisation du cloud
+               o [81]Centre de migration et de modernisation
+               o [82]Migration des applications .NET
+               o [83]Développement et test
+               o [84]Migration de SQL Server
+               o [85]Linux sur Azure
+               o [86]SAP sur le cloud Microsoft
+               o [87]Oracle sur Azure
+               o [88]Informatique confidentielle sur Azure
+          + Cloud hybride et infrastructure (BUTTON) Cloud hybride et
+            infrastructure
+               o [89]Nuage adaptatif
+               o [90]Résilience
+               o [91]Calcul haute performance (HPC)
+               o [92]Applications stratégiques
+               o [93]Informatique quantique
+          + Ressources (BUTTON) Ressources
+               o [94]Architectures de référence
+               o [95]Ressources pour accélérer la croissance
+               o [96]Microsoft Marketplace
+               o [97]Azure Essentials
+               o [98]Parcourez le Hub des solutions Microsoft pour les
+                 entreprises
+               o [99]Azure Accelerate
+               o [100]Microsoft Cloud Adoption Framework pour Azure
+               o [101]Azure Well-Architected Framework​
+               o [102]FinOps sur Azure
+     * (BUTTON) Tarifs
+          + Guide d’achat (BUTTON) Guide d’achat
+               o [103]Tarifs Azure
+               o [104]Services Azure gratuits
+               o [105]Compte Azure
+               o [106]Formules d’achat flexibles
+               o [107]Avantages et primes incitatives Azure
+          + Outils et ressources de tarification (BUTTON) Outils et
+            ressources de tarification
+               o [108]Calculatrice de prix
+               o [109]Optimisez vos coûts
+               o [110]FinOps sur Azure
+     * (BUTTON) Partenaires
+          + [111]Entreprises de développement de logiciels
+          + [112]Place de marché Microsoft
+          + [113]Trouvez un partenaire
+     * (BUTTON) Ressources
+          + Apprentissage (BUTTON) Apprentissage
+               o [114]Démarrage avec Azure
+               o [115]Témoignages de clients
+               o [116]Rapports d’analystes, livres blancs et livres
+                 électroniques
+               o [117]Vidéos
+               o [118]En savoir plus sur le cloud computing
+          + Ressources techniques (BUTTON) Ressources techniques
+               o [119]Documentation
+               o [120]Téléchargez Azure mobile app
+               o [121]Ressources pour les développeurs
+               o [122]Modèles de démarrage rapide
+               o [123]Ressources pour les start-ups
+          + Communauté (BUTTON) Communauté
+               o [124]Communauté des développeurs
+               o [125]Étudiants
+               o [126]Azure pour les partenaires
+          + Nouveautés (BUTTON) Nouveautés
+               o [127]Blog
+               o [128]Événements et webinaires
+     * [129]English
+     * [130]Apprentissage
+     * [131]Support
+     * [132]Contacter le service commercial
+     * (BUTTON) Plus
+          + [133]Démarrage avec Azure
+          + [134]Connexion
+
+     * (BUTTON) Tout de Microsoft
+          + Global
+               o [135]Microsoft 365
+               o [136]Teams
+               o [137]Copilot
+               o [138]Windows
+               o [139]Surface
+               o [140]Xbox
+               o [141]Aubaines
+               o [142]Petite entreprise
+               o [143]Assistance
+          + Logiciels (BUTTON) Logiciels
+               o [144]Applications Windows
+               o [145]IA
+               o [146]OneDrive
+               o [147]Outlook
+               o [148]Passage de Skype à Teams
+               o [149]OneNote
+               o [150]Microsoft Teams
+          + PC et appareils (BUTTON) PC et appareils
+               o [151]Ordinateurs
+               o [152]Magasinez les produits Xbox
+               o [153]Accessoires
+               o [154]Réalité virtuelle et réalité mixte
+          + Divertissement (BUTTON) Divertissement
+               o [155]Xbox Game Pass Ultimate
+               o [156]PC Game Pass
+               o [157]Xbox et jeux
+               o [158]Jeux pour PC
+          + Entreprise (BUTTON) Entreprise
+               o [159]Sécurité Microsoft
+               o [160]Azure
+               o [161]Dynamics 365
+               o [162]Microsoft 365 pour les entreprises
+               o [163]Microsoft Industry
+               o [164]Microsoft Power Platform
+               o [165]Windows 365
+          + Développeurs & TI (BUTTON) Développeurs & TI
+               o [166]Développeur Microsoft
+               o [167]Microsoft Learn
+               o [168]Prise en charge des applications de la place de
+                 marché de l’IA
+               o [169]Communauté technique de Microsoft
+               o [170]Microsoft Marketplace
+               o [171]Visual Studio
+          + Autres (BUTTON) Autres
+               o [172]Microsoft Rewards
+               o [173]Téléchargements gratuits et sécurité
+               o [174]Éducation
+               o [175]Cartes-cadeaux
+               o [176]Licence
+          + [177]Afficher le plan du site
+
+   ____________________ (BUTTON) Rechercher Rechercher Azure
+
+     * Aucun résultat
+
+   (BUTTON) Annuler
+    1.
+    2.
+    3.
+    4. [178]Qu'est-ce que le nuage Computing
+
+Qu’est-ce que le cloud computing ?
+
+   Guide du débutant
+   [179]Démarrer avec Azure
+   Une personne utilise un ordinateur portable dans un cadre intérieur
+   décontracté avec d'autres personnes engagées dans diverses activités en
+   arrière-plan.
+   Principaux points à retenir
+     * [180]Principaux points à retenir
+     * [181]Avantages
+     * [182]Types de Nuage Computing
+     * [183]Services Nuage
+     * [184]Étapes suivantes
+     * [185]Ressources
+     * [186]Forum Aux Questions
+
+   (BUTTON)
+   (BUTTON)
+   TEMPS DE LECTURE
+   10 min
+
+Définition du cloud computing
+
+   Le cloud computing est la fourniture de services informatiques
+   (notamment serveurs, stockage, bases de données, réseaux, logiciels,
+   analyses et renseignements) sur Internet (« le nuage ») pour offrir une
+   innovation plus rapide, des ressources flexibles et des économies
+   d'échelle. En règle générale, vous payez uniquement les services nuage
+   que vous utilisez (réduisant ainsi vos coûts d’exploitation), gérez
+   votre infrastructure plus efficacement et adaptez l’échelle des
+   services en fonction des besoins de votre entreprise.
+
+Principaux points à retenir
+
+Types de cloud computing
+
+     * Découvrez les principaux avantages du cloud computing en termes de
+       coût, de performances, de sécurité et bien plus encore.
+
+     * Comprendre les différences entre les modèles de déploiement de
+       nuage public, privé et hybride.
+
+     * Découvrez les quatre grandes catégories de services nuage : IaaS,
+       PaaS, sans serveur et SaaS.
+
+     * Découvrez les services de cloud computing de Microsoft et découvrez
+       quelle option de cloud computing correspond le mieux à vos
+       besoins.
+
+Avantages
+
+Principaux avantages du cloud computing
+
+   Le cloud computing est radicalement différent de l’approche
+   traditionnelle que les entreprises adoptent en matière de ressources
+   informatiques. Voici sept raisons courantes pour lesquelles les
+   organisations optent pour des services de cloud computing :
+
+Coût
+
+   La migration vers le nuage permet aux entreprises d’optimiser les
+   [187]coûts informatiques. En effet, le cloud computing élimine la
+   nécessité d’investir dans du matériel et des logiciels, et de
+   configurer et de gérer des centres de données sur site : racks de
+   serveurs, alimentation électrique permanente pour l’alimentation et le
+   refroidissement, experts informatiques pour la gestion de
+   l’infrastructure. La facture est vite salée.
+
+Vitesse
+
+   La plupart des services de cloud computing sont fournis en
+   libre-service et à la requête. D’énormes ressources de calcul peuvent
+   donc être mises en œuvre en quelques minutes et en quelques clics,
+   offrant ainsi aux entreprises un haut niveau de flexibilité et les
+   dégageant de la pression liée à la planification de la capacité.
+
+Mise à l’échelle mondiale
+
+   La mise à l’échelle élastique est un des avantages des services de
+   cloud computing. En termes de nuage, cela veut dire qu’il est possible
+   de mettre en œuvre la quantité nécessaire de ressources informatiques,
+   par exemple plus ou moins de puissance de calcul, de stockage ou de
+   bande passante, au moment où elles sont nécessaires, [188]là où elles
+   sont nécessaires.
+
+Productivité
+
+   Les centres de données sur site nécessitent en général la manipulation
+   de matériel, la mise à jour des logiciels et d’autres corvées
+   informatiques qui prennent beaucoup de temps. Le cloud computing
+   supprime la plupart de ces tâches et les équipes informatiques peuvent
+   donc passer plus de temps à travailler à la concrétisation des
+   objectifs de l’entreprise.
+
+Performances
+
+   Les plus grands services de cloud computing s’exécutent sur un réseau
+   de centres de données sécurisés, dont le matériel est régulièrement mis
+   à niveau pour assurer des performances rapides et efficaces. Ceci offre
+   plusieurs avantages par rapport à un centre de données classique, y
+   compris un temps de latence réseau réduit pour les applications et de
+   plus grandes économies d’échelle.
+
+Fiabilité
+
+   Le cloud computing simplifie la sauvegarde des données, [189]la reprise
+   d’activité après sinistre et la continuité des activités. Il rend ces
+   activités moins coûteuses, car les données peuvent être mises en miroir
+   sur plusieurs sites redondants au sein du réseau du fournisseur de
+   nuage.
+
+Sécurité
+
+   De nombreux fournisseurs de nuage proposent un large ensemble de
+   stratégies, de technologies et de contrôles qui [190]renforcent votre
+   posture de sécurité globale, contribuant ainsi à protéger vos données,
+   vos applications et votre infrastructure contre les menaces
+   potentielles.
+
+Types de Nuage Computing
+
+Comprendre les différents modèles de déploiement nuage
+
+   Tous les clouds ne sont pas identiques et aucun type de cloud computing
+   ne convient à tout le monde. Plusieurs modèles, types et services
+   différents ont évolué pour vous aider à trouver la solution adaptée à
+   vos besoins. Vous devez commencer par déterminer le type de déploiement
+   nuage ou d’architecture de cloud computing sur lequel vos services
+   nuage seront implémentés. Il existe trois modes de déploiement de
+   services nuage : le nuage public, le nuage privé et le nuage
+   hybride. [191]Apprenez-en plus sur les nuages public, privé et hybride.
+
+Nuage public
+
+   Les [192]nuages publics sont détenus et exploités par des
+   fournisseurs de services nuage tiers, qui fournissent des ressources
+   informatiques telles que des serveurs et du stockage sur Internet.
+   Microsoft Azure est un exemple de nuage public. Dans un nuage public,
+   tout le matériel, tous les logiciels et toute l’infrastructure sont la
+   propriété du fournisseur du nuage. Vous accédez à ces services et vous
+   gérez votre compte par l’intermédiaire d’un navigateur web.
+
+Nuage privé
+
+   Un [193]nuage privé fait référence aux ressources de cloud computing
+   utilisées exclusivement par une seule entreprise ou organisation. Le
+   nuage privé peut se trouver physiquement dans le centre de données
+   local de l’entreprise. Certaines entreprises paient également des
+   fournisseurs de services pour qu’ils hébergent leur nuage privé. Le
+   nuage privé est un nuage dans lequel les services et l’infrastructure
+   se trouvent sur un réseau privé.
+
+Nuage hybride
+
+   Les[194]clouds hybrides combinent des nuages publics et privés, liés
+   par une technologie qui permet de partager des données et des
+   applications entre eux. En permettant que les données et applications
+   se déplacent entre des clouds privés et publics, un nuage hybride offre
+   à votre entreprise une plus grande flexibilité, davantage d’options de
+   déploiement et une optimisation de votre infrastructure, de votre
+   sécurité et de votre conformité existantes.
+
+Types de services nuage
+
+Types de services nuage : IaaS, PaaS, serverless et SaaS
+
+   La plupart des services de cloud computing peuvent être classés en
+   quatre grandes catégories : IaaS (infrastructure as a service), PaaS
+   (platform as a service), serverless et SaaS (software as a service). On
+   les appelle parfois « pile » de cloud computing, car elles s’empilent
+   les unes sur les autres. Si vous savez en quoi elles consistent et en
+   quoi elles sont différentes, vous pourrez plus facilement atteindre vos
+   objectifs.
+
+IaaS
+
+   La catégorie la plus basique des services de cloud computing. Avec
+   l’ [195]IaaS, vous louez une infrastructure informatique (serveurs,
+   VMs, stockage, réseaux et systèmes d’exploitation) auprès d’un
+   fournisseur de service dans le nuage, avec un paiement en fonction de
+   l’utilisation.
+
+PaaS
+
+   [196]Platform-as-a-service (PaaS) se rapporte au service de cloud
+   computing qui offre un environnement à la requête pour le
+   développement, le test, la diffusion et la gestion des applications
+   logicielles. La PaaS est conçue pour permettre aux développeurs de
+   créer rapidement des applications web ou mobiles sans avoir à se
+   préoccuper de la configuration ou de la gestion de l’infrastructure de
+   serveurs, de stockage, de réseau et de bases de données nécessaire au
+   développement.
+
+SaaS
+
+   [197]Software-as-a-service (SaaS) est une méthode de diffusion
+   d’applications logicielles via Internet, à la requête et en général sur
+   abonnement. Avec le SaaS, les fournisseurs de service dans le nuage
+   hébergent et gèrent les applications logicielles et l’infrastructure
+   sous-jacente, et gèrent la maintenance, par exemple la mise à niveau
+   des logiciels et l’application des correctifs de sécurité. Les
+   utilisateurs se connectent à l’application via Internet, en général par
+   l’intermédiaire d’un navigateur web sur leur téléphone, leur tablette
+   ou leur PC.
+
+Informatique Serverless
+
+   En chevauchement avec PaaS, l'[198]informatique sans serveur se
+   concentre sur la création de fonctionnalités d'application sans passer
+   du temps à gérer en permanence les serveurs et l'infrastructure
+   nécessaires pour le faire. Le fournisseur de nuage se charge de la
+   configuration, de la planification de la capacité et de
+   l’administration du serveur à votre place. Les architectures serverless
+   sont hautement scalables et basées sur des événements. Elle n’utilisent
+   des ressources que quand une fonction ou un déclencheur spécifiques
+   s’activent.
+   Deux personnes lors d'une réunion, l'une utilisant un ordinateur
+   portable et l'autre prenant des notes, assises à une table avec un vase
+   de fleurs.
+   Conclusion
+
+Microsoft et le cloud computing
+
+   Microsoft est un des leaders mondiaux des services de cloud computing
+   pour les entreprises de toutes tailles. Pour en savoir plus sur la
+   plateforme nuage Microsoft et sur la comparaison entre Microsoft Azure
+   et d'autres fournisseurs de nuage, consultez Azure vs. AWS.
+   [199]En savoir plus
+   Ressources
+
+En savoir plus sur le cloud computing
+
+   (BUTTON) Découvrir (BUTTON) En savoir plus
+   (BUTTON) Précédent
+   (BUTTON) Suivant
+   (BUTTON) Diapositive précédente
+    1.
+    2.
+    3.
+
+   (BUTTON) Diapositive suivante
+   Personne assise dans une salle de réunion avec un ordinateur portable,
+   avec une vue sur les bâtiments à travers la fenêtre en arrière-plan.
+
+Série de versions de démonstration sur Azure
+
+   Découvrez comment démarrer rapidement avec Azure en explorant des
+   démonstrations dirigées par des experts.
+   [200]Commencez à regarder
+   Personne aux cheveux gris travaillant sur un ordinateur portable dans
+   une pièce aux murs bleus.
+
+Vidéos pour Développeurs
+
+   Développez vos compétences techniques avec des centaines de vidéos à la
+   requête conçues spécialement pour les développeurs.
+   [201]Parcourir les vidéos
+   Trois personnes assises sur un canapé discutent, avec un tableau blanc
+   en arrière-plan.
+
+Portail Azure
+
+   Créez, gérez et surveillez toutes les applications et tous les projets
+   de votre équipe dans un hub unique et unifié.
+   [202]Visiter le portail
+   [203]Retour à la section RESOURCES – Onglet Rapports d'analystes
+   (BUTTON) Diapositive précédente
+    1.
+    2.
+    3.
+
+   (BUTTON) Diapositive suivante
+   Deux individus engagés dans une conversation à une table extérieure
+   avec un ordinateur portable ouvert devant eux.
+
+Tutoriel sur les concepts du nuage Azure
+
+   Apprenez les concepts de base du nuage avec un aperçu simplifié des
+   services Azure, ainsi que des exercices pratiques.
+   [204]Explorer les modules
+   Groupe d'individus participant à une réunion avec des ordinateurs
+   portables sur une table.
+
+Ressources pour les étudiants développeurs
+
+   Acquérez les compétences dont vous avez besoin pour démarrer votre
+   carrière dans la technologie.
+   [205]Parcourir les ressources
+   Personne portant un haut beige travaillant sur un ordinateur portable
+   dans un bureau.
+
+Événements et Virtual Training Days
+
+   Apprenez de nouvelles compétences et connectez-vous avec votre
+   communauté en vous inscrivant à un prochain événement Azure.
+   [206]Trouver un événement
+   [207]Retour à la section RESOURCES – Onglet Rapports d'analystes
+   Retour aux onglets
+
+   Questions fréquentes
+   (BUTTON)
+   Développer tout
+   (BUTTON)
+   Réduire tout
+     * (BUTTON)
+       01/
+
+Qu’est-ce que le nuage ?
+       Le nuage est un réseau étendu de serveurs distants répartis dans le
+       monde entier. Ces serveurs stockent et gèrent les données,
+       exécutent des applications et fournissent du contenu et des
+       services tels que la diffusion en continu de vidéos, de courrier
+       web et de logiciels de productivité et de bureautique sur Internet.
+       Avec le stockage de vos fichiers et données dans le nuage, vous
+       n’avez pas à dépendre d’ordinateurs et de serveurs locaux. En
+       effet, vous pouvez accéder à vos données en ligne à partir d’un
+       appareil compatible avec Internet, quand et où vous le souhaitez.
+       [208]En savoir plus
+     * (BUTTON)
+       02/
+
+Qu’est-ce que le multicloud computing ?
+       L’informatique multicloud implique l’utilisation de multiples
+       services de cloud computing proposés par plusieurs fournisseurs de
+       service dans le nuage pour le même type de solutions informatiques
+       ou de charges de travail. Une stratégie multicloud, qui peut
+       inclure des clouds privés et publics, permet aux organisations
+       d’atténuer les risques et leur offre une plus grande flexibilité
+       dans la gestion de leur charge de travail. Le choix de différentes
+       offres et fonctionnalités provenant de plusieurs fournisseurs de
+       service dans le nuage permet aux organisations de créer les
+       solutions les mieux adaptées à leurs besoins informatiques
+       spécifiques.
+       [209]En savoir plus
+     * (BUTTON)
+       03/
+
+Quelles sont les compétences requises pour le cloud computing ?
+       En général, le cloud computing ne nécessite pas d’expérience
+       informatique technique. Le cloud computing fait simplement
+       référence à la fourniture de services informatiques sur Internet,
+       notamment le stockage, les bases de données, les logiciels et
+       l’analytique. Que vous ayez une connaissance de base des concepts
+       et de la terminologie informatiques ou que vous soyez un
+       professionnel doté de compétences techniques, vous pouvez appliquer
+       au nuage les connaissances et compétences informatiques locales
+       dont vous disposez actuellement.
+       [210]En savoir plus
+     * (BUTTON)
+       04/
+
+Combien coûte le cloud computing ?
+       Les fournisseurs de service dans le nuage utilisent généralement un
+       modèle de tarification avec paiement à l’utilisation, ce qui
+       signifie que les organisations paient uniquement les services nuage
+       qu’elles utilisent. Elles peuvent ainsi réduire leurs coûts
+       d’exploitation, exécuter leur infrastructure plus efficacement et
+       mettre à l’échelle les coûts liés au cloud computing en fonction de
+       l’évolution de leurs besoins. Par exemple, Azure propose une
+       tarification à l’utilisation sans engagement initial et des
+       services gratuits qui incluent des services populaires gratuits
+       pendant 12 mois et plus de 55 autres services gratuits en
+       permanence.
+
+   [211]Obtenez l'application mobile Azure Obtenez l'application mobile
+   Azure
+     * [212]X
+     * [213]Instagram
+     * [214]LinkedIn
+     * [215]YouTube
+
+   Explorez Azure
+     * [216]Qu’est-ce qu’Azure ?
+     * [217]Démarrage avec Azure
+     * [218]Infrastructure mondiale
+     * [219]Régions de centres de données
+     * [220]Tirez parti du cloud en toute confiance
+     * [221]Azure Essentials
+     * [222]Témoignages de clients
+
+   Produits et tarification
+     * [223]Produits
+     * [224]Tarifs Azure
+     * [225]Services Azure gratuits
+     * [226]Formules d’achat flexibles
+     * [227]FinOps sur Azure
+     * [228]Optimisez vos coûts
+
+   Solutions et support
+     * [229]Solutions
+     * [230]Ressources pour accélérer la croissance
+     * [231]Architectures de solutions
+     * [232]Support
+     * [233]Démonstration d’Azure et Q&R en direct
+
+   Partenaires
+     * [234]Entreprises de développement de logiciels
+     * [235]Place de marché Microsoft
+     * [236]Trouvez un partenaire
+
+   Ressources
+     * [237]Documentation
+     * [238]Blog
+     * [239]Ressources pour les développeurs
+     * [240]Étudiants
+     * [241]Événements et webinaires
+     * [242]Rapports d’analystes, livres blancs et livres électroniques
+     * [243]Vidéos
+
+   Cloud computing
+     * [244]Qu’est-ce que le cloud computing ?
+     * [245]Qu’est-ce que le multicloud ?
+     * [246]Qu’est-ce que le Machine Learning ?
+     * [247]Qu’est-ce que le Deep Learning ?
+     * [248]Qu’est-ce que l’IA en tant que service (AIaaS) ?
+     * [249]Que sont les grands modèles de langage (LLM) ?
+     * [250]Qu’est-ce qu’un conteneur ?
+     * [251]Qu’est-ce que la génération augmentée de récupération (RAG) ?
+
+   [252]Français (Canada) Vos choix de confidentialité Vos choix de
+   confidentialité [253]Confidentialité de l’intégrité des consommateurs
+     * [254]Communiquer avec Microsoft
+     * [255]Confidentialité
+     * [256]Gérer les fichiers témoins
+     * [257]Conditions d'utilisation
+     * [258]Marques
+     * [259]À propos de nos annonces
+     * © Microsoft 2025
+
+Références
+
+   Liens visibles :
+   1. javascript:void(0)
+   2. https://www.microsoft.com/
+   3. https://azure.microsoft.com/fr-ca
+   4. https://azure.microsoft.com/fr-ca
+   5. https://azure.microsoft.com/fr-ca/explore/
+   6. https://azure.microsoft.com/fr-ca/products
+   7. https://azure.microsoft.com/fr-ca/products/ai-foundry/
+   8. https://azure.microsoft.com/fr-ca/products/ai-foundry/agent-service/
+   9. https://azure.microsoft.com/fr-ca/products/copilot
+  10. https://azure.microsoft.com/fr-ca/products/ai-foundry/observability
+  11. https://azure.microsoft.com/fr-ca/products/github/copilot
+  12. https://azure.microsoft.com/fr-ca/products/devops/
+  13. https://azure.microsoft.com/fr-ca/products/kubernetes-service/
+  14. https://azure.microsoft.com/fr-ca/products/cosmos-db/
+  15. https://azure.microsoft.com/fr-ca/products/postgresql/
+  16. https://azure.microsoft.com/fr-ca/services/azure-arc/
+  17. https://azure.microsoft.com/fr-ca/products/ai-foundry/
+  18. https://azure.microsoft.com/fr-ca/products/ai-foundry/models/
+  19. https://azure.microsoft.com/fr-ca/products/ai-foundry/agent-service/
+  20. https://azure.microsoft.com/fr-ca/products/ai-services/ai-search/
+  21. https://azure.microsoft.com/fr-ca/products/ai-foundry/tools/
+  22. https://azure.microsoft.com/fr-ca/products/ai-foundry/models/openai/
+  23. https://azure.microsoft.com/fr-ca/products/ai-foundry/tools/content-understanding
+  24. https://azure.microsoft.com/fr-ca/products/ai-foundry/observability
+  25. https://azure.microsoft.com/fr-ca/products/ai-foundry/tools/speech/
+  26. https://azure.microsoft.com/fr-ca/products/machine-learning/
+  27. https://azure.microsoft.com/fr-ca/products/cosmos-db/
+  28. https://azure.microsoft.com/fr-ca/products/documentdb
+  29. https://azure.microsoft.com/fr-ca/products/azure-sql/
+  30. https://azure.microsoft.com/fr-ca/products/postgresql/
+  31. https://azure.microsoft.com/fr-ca/products/managed-redis/
+  32. https://www.microsoft.com/fr-ca/microsoft-fabric
+  33. https://azure.microsoft.com/fr-ca/products/databricks/
+  34. https://azure.microsoft.com/fr-ca/products/synapse-analytics/
+  35. https://azure.microsoft.com/fr-ca/products/category/databases
+  36. https://azure.microsoft.com/fr-ca/products/virtual-machines/linux/
+  37. https://azure.microsoft.com/fr-ca/products/virtual-machines/sql-server/
+  38. https://azure.microsoft.com/fr-ca/products/windows-server/
+  39. https://azure.microsoft.com/fr-ca/products/functions/
+  40. https://azure.microsoft.com/fr-ca/products/virtual-machine-scale-sets/
+  41. https://azure.microsoft.com/fr-ca/products/virtual-machines/spot/
+  42. https://azure.microsoft.com/fr-ca/products/container-apps/
+  43. https://azure.microsoft.com/fr-ca/products/compute-fleet
+  44. https://azure.microsoft.com/fr-ca/products/container-apps/
+  45. https://azure.microsoft.com/fr-ca/products/kubernetes-service/
+  46. https://azure.microsoft.com/fr-ca/products/kubernetes-fleet-manager/
+  47. https://azure.microsoft.com/fr-ca/products/container-registry/
+  48. https://azure.microsoft.com/fr-ca/products/openshift/
+  49. https://azure.microsoft.com/fr-ca/products/container-instances/
+  50. https://azure.microsoft.com/fr-ca/services/azure-arc/
+  51. https://azure.microsoft.com/fr-ca/products/local/
+  52. https://azure.microsoft.com/fr-ca/products/defender-for-cloud/
+  53. https://azure.microsoft.com/fr-ca/products/iot-edge/
+  54. https://azure.microsoft.com/fr-ca/products/monitor/
+  55. https://www.microsoft.com/fr-ca/security/business/siem-and-xdr/microsoft-sentinel
+  56. https://azure.microsoft.com/fr-ca/products/azure-migrate/
+  57. https://azure.microsoft.com/fr-ca/solutions/
+  58. https://azure.microsoft.com/fr-ca/solutions/ai/
+  59. https://azure.microsoft.com/fr-ca/solutions/migration/
+  60. https://azure.microsoft.com/fr-ca/solutions/data-analytics-ai/
+  61. https://azure.microsoft.com/fr-ca/solutions/medium-small-business-cloud-computing/
+  62. https://azure.microsoft.com/fr-ca/solutions/high-performance-computing/ai-infrastructure/
+  63. https://azure.microsoft.com/fr-ca/solutions/hybrid-cloud-app/
+  64. https://azure.microsoft.com/fr-ca/solutions/network-security/
+  65. https://azure.microsoft.com/fr-ca/solutions/sap
+  66. https://azure.microsoft.com/fr-ca/solutions/databases
+  67. https://azure.microsoft.com/fr-ca/solutions/integration-services/
+  68. https://azure.microsoft.com/fr-ca/solutions/ai/
+  69. https://azure.microsoft.com/fr-ca/solutions/ai/responsible-ai-with-azure
+  70. https://azure.microsoft.com/fr-ca/solutions/high-performance-computing/ai-infrastructure/
+  71. https://azure.microsoft.com/fr-ca/solutions/knowledge-mining/
+  72. https://azure.microsoft.com/fr-ca/solutions/hugging-face-on-azure/
+  73. https://azure.microsoft.com/fr-ca/solutions/machine-learning-ops/
+  74. https://azure.microsoft.com/fr-ca/solutions/dev-test/
+  75. https://azure.microsoft.com/fr-ca/solutions/devops/
+  76. https://azure.microsoft.com/fr-ca/solutions/devsecops/
+  77. https://azure.microsoft.com/fr-ca/solutions/integration-services/
+  78. https://azure.microsoft.com/fr-ca/solutions/serverless/
+  79. https://azure.microsoft.com/fr-ca/solutions/application-and-database-modernization/
+  80. https://azure.microsoft.com/fr-ca/solutions/low-code-application-development/
+  81. https://azure.microsoft.com/fr-ca/solutions/migration/
+  82. https://azure.microsoft.com/fr-ca/solutions/migration/web-applications/
+  83. https://azure.microsoft.com/fr-ca/solutions/dev-test/
+  84. https://azure.microsoft.com/fr-ca/solutions/migration/sql-server/
+  85. https://azure.microsoft.com/fr-ca/solutions/linux-on-azure/
+  86. https://azure.microsoft.com/fr-ca/solutions/sap
+  87. https://azure.microsoft.com/fr-ca/solutions/oracle/
+  88. https://azure.microsoft.com/fr-ca/solutions/confidential-compute/
+  89. https://azure.microsoft.com/fr-ca/solutions/adaptive-cloud/
+  90. https://azure.microsoft.com/fr-ca/solutions/resiliency
+  91. https://azure.microsoft.com/fr-ca/solutions/high-performance-computing/
+  92. https://azure.microsoft.com/fr-ca/solutions/business-critical-applications/
+  93. https://azure.microsoft.com/fr-ca/solutions/quantum-computing/
+  94. https://docs.microsoft.com/fr-ca/azure/architecture/browse/
+  95. https://azure.microsoft.com/fr-ca/solutions/turn-your-vision-into-impact-with-azure/
+  96. https://marketplace.microsoft.com/?ocid=cmmlfmswr62
+  97. https://azure.microsoft.com/fr-ca/solutions/azure-essentials
+  98. https://www.microsoft.com/fr-ca/microsoft-cloud/solutions
+  99. https://azure.microsoft.com/fr-ca/solutions/azure-accelerate/
+ 100. https://azure.microsoft.com/fr-ca/solutions/azure-essentials/cloud-adoption-framework/
+ 101. https://azure.microsoft.com/fr-ca/solutions/cloud-enablement/well-architected/
+ 102. https://azure.microsoft.com/fr-ca/solutions/finops/
+ 103. https://azure.microsoft.com/fr-ca/pricing/
+ 104. https://azure.microsoft.com/fr-ca/pricing/free-services/
+ 105. https://azure.microsoft.com/fr-ca/pricing/purchase-options/azure-account
+ 106. https://azure.microsoft.com/fr-ca/pricing/purchase-options/
+ 107. https://azure.microsoft.com/fr-ca/pricing/offers/
+ 108. https://azure.microsoft.com/fr-ca/pricing/calculator/
+ 109. https://azure.microsoft.com/fr-ca/solutions/cost-optimization/
+ 110. https://azure.microsoft.com/fr-ca/solutions/finops/
+ 111. https://www.microsoft.com/fr-ca/software-development-companies/
+ 112. https://marketplace.microsoft.com/fr-ca/
+ 113. https://azure.microsoft.com/fr-ca/partners/
+ 114. https://azure.microsoft.com/fr-ca/get-started/
+ 115. https://azure.microsoft.com/fr-ca/resources/customer-stories
+ 116. https://azure.microsoft.com/fr-ca/resources/research/
+ 117. https://azure.microsoft.com/fr-ca/resources/videos
+ 118. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/
+ 119. https://learn.microsoft.com/fr-ca/azure/
+ 120. https://azure.microsoft.com/fr-ca/get-started/azure-portal/mobile-app
+ 121. https://azure.microsoft.com/fr-ca/resources/developers/
+ 122. https://go.microsoft.com/fwlink/p/?linkid=2236542
+ 123. https://www.microsoft.com/fr-ca/startups
+ 124. https://developer.microsoft.com/
+ 125. https://azure.microsoft.com/fr-ca/resources/students/
+ 126. https://partner.microsoft.com/fr-ca/partnership/azure-for-partners/
+ 127. https://azure.microsoft.com/fr-ca/blog/
+ 128. https://azure.microsoft.com/fr-ca/resources/events/
+ 129. https://azure.microsoft.com/en-ca/
+ 130. https://learn.microsoft.com/azure
+ 131. https://azure.microsoft.com/fr-ca/support/
+ 132. https://azure.microsoft.com/fr-ca/contact
+ 133. https://azure.microsoft.com/fr-ca/pricing/purchase-options/azure-account
+ 134. https://portal.azure.com/
+ 135. https://www.microsoft.com/fr-ca/microsoft-365
+ 136. https://www.microsoft.com/fr-ca/microsoft-teams/group-chat-software
+ 137. https://copilot.microsoft.com/
+ 138. https://www.microsoft.com/fr-ca/windows/
+ 139. https://www.microsoft.com/surface
+ 140. https://www.xbox.com/
+ 141. https://www.microsoft.com/fr-ca/store/b/sale?icid=DSM_TopNavDeals
+ 142. https://www.microsoft.com/fr-ca/store/b/business?icid=MSCOM_QL_Business_15810c
+ 143. https://support.microsoft.com/fr-fr?icid=DSM_TopNav_Support
+ 144. https://apps.microsoft.com/home
+ 145. https://www.microsoft.com/fr-ca/ai
+ 146. https://www.microsoft.com/fr-ca/microsoft-365/onedrive/online-cloud-storage
+ 147. https://www.microsoft.com/fr-ca/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook
+ 148. https://support.microsoft.com/fr-fr/office/passer-de-skype-à-microsoft-teams-gratuit-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype
+ 149. https://www.microsoft.com/fr-ca/microsoft-365/onenote/digital-note-taking-app
+ 150. https://www.microsoft.com/fr-ca/microsoft-teams/group-chat-software
+ 151. https://www.microsoft.com/fr-ca/store/b/pc?icid=CNavDevicesPC
+ 152. https://www.microsoft.com/fr-ca/store/b/xbox?icid=CNavDevicesXbox
+ 153. https://www.microsoft.com/fr-ca/store/b/accessories?icid=CNavDevicesAccessories
+ 154. https://www.microsoft.com/fr-ca/store/b/virtualreality?icid=CNavVirtualReality
+ 155. https://www.xbox.com/fr-ca/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=CNavAllXboxGamePassUltimate
+ 156. https://www.xbox.com/fr-ca/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass
+ 157. https://www.microsoft.com/fr-ca/store/b/xbox-games?icid=CNavGamesXboxGames
+ 158. https://apps.microsoft.com/games
+ 159. https://www.microsoft.com/fr-ca/security
+ 160. https://azure.microsoft.com/fr-ca/
+ 161. https://www.microsoft.com/fr-ca/dynamics-365
+ 162. https://www.microsoft.com/fr-ca/microsoft-365/business
+ 163. https://www.microsoft.com/fr-ca/industry
+ 164. https://www.microsoft.com/fr-ca/power-platform
+ 165. https://www.microsoft.com/fr-ca/windows-365
+ 166. https://developer.microsoft.com/fr-fr/?icid=DSM_All_Developper
+ 167. https://learn.microsoft.com/
+ 168. https://www.microsoft.com/isv/isv-success?ocid=cmm3atxvn98
+ 169. https://techcommunity.microsoft.com/
+ 170. https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98
+ 171. https://visualstudio.microsoft.com/
+ 172. https://www.microsoft.com/rewards
+ 173. https://www.microsoft.com/fr-ca/download
+ 174. https://www.microsoft.com/fr-ca/education?icid=CNavMSCOML0_Studentsandeducation
+ 175. https://www.microsoft.com/fr-ca/store/b/gift-cards
+ 176. https://www.microsoft.com/licensing/
+ 177. https://www.microsoft.com/fr-ca/sitemap
+ 178. file:///fr-ca/resources/cloud-computing-dictionary/
+ 179. https://azure.microsoft.com/fr-ca/pricing/purchase-options/azure-account
+ 180. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#Key-takeaways-2
+ 181. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#TBD-3
+ 182. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#types-of-cloud-computing-4
+ 183. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#cloud-computing-5
+ 184. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#next-steps-6
+ 185. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#Resources-7
+ 186. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#FAQ-8
+ 187. https://azure.microsoft.com/fr-ca/solutions/finops/
+ 188. https://azure.microsoft.com/fr-ca/explore/global-infrastructure/geographies/
+ 189. https://azure.microsoft.com/fr-ca/solutions/backup-and-disaster-recovery/
+ 190. https://azure.microsoft.com/fr-ca/explore/security/
+ 191. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds/
+ 192. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-a-public-cloud/
+ 193. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-a-private-cloud/
+ 194. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-hybrid-cloud-computing/
+ 195. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-iaas/
+ 196. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-paas/
+ 197. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-saas/
+ 198. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-serverless-computing/
+ 199. https://azure.microsoft.com/fr-ca/pricing/azure-vs-aws/
+ 200. https://azure.microsoft.com/fr-ca/get-started/on-demand/
+ 201. https://azure.microsoft.com/fr-ca/resources/videos/
+ 202. https://go.microsoft.com/fwlink/?linkid=2266398&clcid=0xc0c
+ 203. javascript:void(0);
+ 204. https://go.microsoft.com/fwlink/?linkid=2230947&clcid=0xc0c
+ 205. https://azure.microsoft.com/fr-ca/resources/students/
+ 206. https://azure.microsoft.com/fr-ca/resources/events/
+ 207. javascript:void(0);
+ 208. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-the-cloud/
+ 209. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-multi-cloud
+ 210. https://go.microsoft.com/fwlink/?linkid=2226635
+ 211. https://azure.microsoft.com/fr-ca/get-started/azure-portal/mobile-app
+ 212. https://go.microsoft.com/fwlink/?linkid=2275431
+ 213. https://go.microsoft.com/fwlink/?linkid=2275352
+ 214. https://go.microsoft.com/fwlink/?linkid=2268687
+ 215. https://go.microsoft.com/fwlink/?linkid=2239941
+ 216. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-azure/
+ 217. https://azure.microsoft.com/fr-ca/get-started/
+ 218. https://azure.microsoft.com/fr-ca/explore/global-infrastructure/
+ 219. https://azure.microsoft.com/fr-ca/explore/global-infrastructure/geographies/
+ 220. https://azure.microsoft.com/fr-ca/explore/trusted-cloud/
+ 221. https://azure.microsoft.com/fr-ca/solutions/azure-essentials
+ 222. https://www.microsoft.com/fr-ca/customers/search?filters=product:azure
+ 223. https://azure.microsoft.com/fr-ca/products/
+ 224. https://azure.microsoft.com/fr-ca/pricing/
+ 225. https://azure.microsoft.com/fr-ca/pricing/free-services/
+ 226. https://azure.microsoft.com/fr-ca/pricing/purchase-options/
+ 227. https://azure.microsoft.com/fr-ca/solutions/finops/
+ 228. https://azure.microsoft.com/fr-ca/solutions/cost-optimization/
+ 229. https://azure.microsoft.com/fr-ca/solutions/
+ 230. https://azure.microsoft.com/fr-ca/solutions/turn-your-vision-into-impact-with-azure/
+ 231. https://learn.microsoft.com/fr-ca/azure/architecture/browse/
+ 232. https://azure.microsoft.com/fr-ca/support/
+ 233. https://azure.microsoft.com/fr-ca/get-started/welcome-to-azure/
+ 234. https://www.microsoft.com/fr-ca/software-development-companies
+ 235. https://marketplace.microsoft.com/fr-ca/
+ 236. https://azure.microsoft.com/fr-ca/partners/
+ 237. https://learn.microsoft.com/fr-ca/azure/
+ 238. https://azure.microsoft.com/fr-ca/blog/
+ 239. https://azure.microsoft.com/fr-ca/resources/developers/
+ 240. https://azure.microsoft.com/fr-ca/resources/students/
+ 241. https://azure.microsoft.com/fr-ca/resources/events/
+ 242. https://azure.microsoft.com/fr-ca/resources/research/
+ 243. https://azure.microsoft.com/fr-ca/resources/videos
+ 244. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-cloud-computing/
+ 245. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-multi-cloud
+ 246. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-machine-learning-platform
+ 247. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-deep-learning
+ 248. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-aiaas
+ 249. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-are-large-language-models-llms
+ 250. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-a-container
+ 251. https://azure.microsoft.com/fr-ca/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag
+ 252. https://azure.microsoft.com/fr-ca/locale
+ 253. https://go.microsoft.com/fwlink/?linkid=2259814
+ 254. https://support.microsoft.com/contactus
+ 255. https://go.microsoft.com/fwlink/?LinkId=521839
+ 256. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html
+ 257. https://go.microsoft.com/fwlink/?LinkID=206977
+ 258. https://www.microsoft.com/fr-ca/legal/intellectualproperty/trademarks
+ 259. https://choice.microsoft.com/
+
+   Liens cachés :
+ 261. file://localhost/fr-ca/resources/cloud-computing-dictionary/
+ 262. javascript:void(0);
+ 263. file://localhost/fr-ca/resources/cloud-computing-dictionary/
+ 264. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#occ193_0-0
+ 265. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#occ193_0-1
+ 266. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#occ193_0-2
+ 267. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#occ193_2-0
+ 268. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#occ193_2-1
+ 269. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-48.html#occ193_2-2
+ 270. https://aka.ms/yourcaliforniaprivacychoices
+ 271. https://aka.ms/yourcaliforniaprivacychoices

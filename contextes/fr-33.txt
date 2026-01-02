@@ -1,0 +1,137 @@
+    #[1]Forbes France » Flux [2]Forbes France » Flux des commentaires
+   [3]Forbes France » Informatique en nuage : Les dix grandes tendances
+   pour 2024 Flux des commentaires [4]oEmbed (JSON) [5]oEmbed (XML)
+   [6]JSON
+--
+     * [122]Technologie
+
+Informatique en nuage : Les dix grandes tendances pour 2024
+
+   Informatique en nuage : Les dix grandes tendances pour 2024 -
+   gettyimages 1699286826
+
+--
+
+   À l’échelle mondiale, les dépenses des entreprises en infrastructures
+   d’informatique en nuage (cloud computing) devraient dépasser les
+   1 000 milliards de dollars pour la première fois en 2024. Cette
+   évolution sera stimulée par des facteurs tels que le besoin croissant
+--
+   En effet, en 2024, les entreprises voient plus loin que les
+   possibilités d’économie de temps et d’argent offertes par la migration
+   vers l’informatique en nuage. Les cas d’utilisation émergents dans tous
+   les secteurs montrent clairement qu’il peut souvent être la clé d’une
+   plus grande innovation, agilité et performance.
+--
+   relever, qui tournent souvent autour des questions de sécurité et de
+   protection des données. Cependant, les nouveaux modèles qui cherchent à
+   offrir des solutions optimales, comme le nuage hybride et les systèmes
+   de fédération des nuages, continueront à faire tomber les barrières.
+
+   En 2024, le nuage restera un moteur dynamique et passionnant
+   d’innovation et d’opportunités. Voici un aperçu des tendances les plus
+   significatives dans ce domaine.
+--
+   L’IA en tant que service
+
+   L’infrastructure en nuage a un rôle important à jouer pour rendre l’IA
+   accessible au plus grand nombre, avec tous les avantages économiques et
+   sociaux qu’elle devrait générer. Les modèles d’IA, tels que le
+--
+   de puissance de calcul. La plupart des entreprises n’ont pas les
+   ressources nécessaires pour le faire elles-mêmes, mais en accédant à
+   l’IA en tant que service via des plateformes en nuage, elles sont en
+   mesure de tirer parti de cette technologie puissante et
+   transformatrice.
+
+   Le nuage hybride et multinuage
+
+   Le nombre de grandes entreprises ayant une stratégie multinuage
+   (c’est-à-dire qu’elles achètent des services en nuage auprès de
+   plusieurs fournisseurs) devrait passer de 76 % à 85 % en 2024. Cette
+   stratégie offre des avantages en termes de coûts et de flexibilité,
+   mais elle complexifie la gouvernance des données et l’intégration avec
+   les systèmes existants. Le multinuage et le nuage hybride sont des
+   solutions d’infrastructure avancées qui continueront à gagner en
+   popularité, car les entreprises cherchent à équilibrer la sécurité et
+   la flexibilité et à choisir les services dont elles ont besoin.
+
+   Infrastructure en nuage en temps réel
+
+   En 2024, les entreprises chercheront de plus en plus à exploiter les
+--
+   forme de données diffusées en continu (films et musique de Netflix et
+   Spotify, données vidéo des appels Zoom ou Teams, et nouvelles formes de
+   divertissement en continu telles que les jeux en nuage). Cela signifie
+   que le stockage de données qui privilégie l’accès instantané, comme les
+   dispositifs de stockage Flash et à semi-conducteurs, sera de plus en
+   plus demandé par les clients de l’informatique en nuage.
+
+   Innovation et transformation basées sur l’informatique dématérialisée
+
+   Outre l’IA mentionnée ci-dessus, l’adoption de la technologie de
+   l’informatique en nuage peut être une passerelle vers de nombreuses
+   autres technologies transformatrices telles que l’[126]internet des
+   objets (IoT), la blockchain et l’informatique quantique. En éliminant
+--
+   initiatives à gain rapide/échec rapide pour évaluer les avantages des
+   technologies émergentes plus facilement que jamais en 2024, grâce à
+   l’informatique en nuage.
+
+   Sécurité et résilience de l’informatique dématérialisée
+
+   Le chiffrement, l’authentification et la reprise après sinistre sont
+   trois fonctions des services d’informatique en nuage qui seront de plus
+   en plus demandées à mesure que l’on fera face à l’évolution du paysage
+   des menaces en 2024. Les vols de données et les violations augmentent
+--
+   d’attaques d’ingénierie sociale. Cela signifie que la sécurité et la
+   résilience sont des priorités pour tous les fournisseurs de service en
+   nuage et les clients.
+
+   L’informatique en nuage durable
+
+   Les grands fournisseurs de services d’informatique en nuage ont tous
+   pris des engagements en faveur d’une consommation nette zéro, non
+   seulement pour leurs propres activités, mais aussi pour aider les
+--
+   intention de générer 100 % de l’énergie utilisée dans leurs activités à
+   partir de sources renouvelables. Il reste à voir si elles y
+   parviendront, mais la tendance à l’informatique en nuage plus
+   écologique et moins néfaste pour l’environnement sera très forte en
+   2024.
+
+   L’informatique en nuage simplifiée
+
+   Aujourd’hui, les outils « low-code » ou « no-code » permettent à des
+   personnes non techniques de créer des applications qui, auparavant,
+   auraient nécessité la formation d’ingénieurs en informatique. De même,
+   les fournisseurs d’informatique en nuage exploitent les interfaces
+   glisser-déposer et les outils de langage naturel pour éliminer le
+   besoin de compétences techniques avancées et « démocratiser » le
+   déploiement et la gestion des services et de l’infrastructure en nuage.
+
+   La protection de la vie privée dans l’informatique dématérialisée
+--
+   temps le fournisseur de services d’informatique dématérialisée. La
+   gestion des implications en matière de confidentialité continuera
+   d’être un thème important de l’informatique en nuage au cours de
+   l’année 2024.
+
+   Nuage sans serveur et avec paiement à l’utilisation
+
+   Le « serverless » est un modèle de service d’informatique en nuage qui
+   élimine la nécessité pour les entreprises de gérer leurs propres
+   serveurs. Alors qu’un service d’informatique en nuage classique peut
+   facturer à l’entreprise le nombre de serveurs sur lesquels elle
+   souhaite héberger son infrastructure, dans le cadre d’un modèle sans
+--
+
+   L’informatique en périphérie est un paradigme lié à l’informatique en
+   nuage dans lequel les informations sont traitées aussi près que
+   possible de l’endroit où elles sont collectées. Un exemple pourrait
+   être un moniteur cardiaque portable en temps réel conçu pour détecter
+   les arythmies. Comme la plupart des données collectées sont des rythmes
+   cardiaques « normaux », les envoyer dans le nuage pour les analyser,
+   puis les renvoyer à l’utilisateur pour lui dire que tout va bien,
+   serait un gaspillage de bande passante. L’analyse des données sur

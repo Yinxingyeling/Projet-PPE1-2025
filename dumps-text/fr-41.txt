@@ -1,0 +1,880 @@
+   #[1]EDS.fr » Flux [2]EDS.fr » Flux des commentaires [3]oEmbed (JSON)
+   [4]oEmbed (XML) [5]JSON
+
+   [6]Fermer le menu
+     * [7]À la Une
+          + [8]Big Data
+          + [9]Cloud
+          + [10]Digital
+          + [11]Emploi
+          + [12]Intelligence Artificielle
+          + [13]Robotique
+          + [14]Science
+          + [15]Sécurité
+          + [16]Tech
+     * [17]À propos
+     * [18]Annonceurs
+     * [19]Nous contacter
+
+S’inscrire à notre lettre d’information
+
+   Actus, enquêtes, analyses : chaque matin, notre sélection pour bien
+   commencer la journée.
+
+   ____________________
+
+   S'abonner
+
+   L'inscription à notre lettre d'information est gratuite, vos données ne
+   seront pas partagées.
+
+   [20]Two engineers collaborating on testing a futuristic robotic
+   prototype in a modern indoor lab.
+   [21]Les robots comme collègues : qu’advient-il du travail d’équipe
+   lorsque l’IA devient un membre à part entière d’un projet?
+
+   [22]Illustration de l'impact environnemental de l'intelligence
+   artificielle et sa consommation énergétique croissante.
+   [23]L’impact environnemental de l’IA dévoilé : les écologistes
+   réagissent face aux défis pour l’avenir de la planète
+
+   [24]Illustration de l'intégration de l'intelligence artificielle dans
+   le navigateur Firefox.
+   [25]Firefox adopte l’IA : les utilisateurs en colère face aux
+   changements annoncés dans leur navigateur préféré
+   [26]Facebook [27]X (Twitter) [28]YouTube [29]TikTok
+   [30]EDS.fr EDS.fr
+   [31]Facebook [32]X (Twitter) [33]YouTube [34]TikTok
+   [35]S'abonner
+   (BUTTON)
+
+     * [36]À la Une
+     * [37]Big Data
+   [38]découvrez comment la data visualisation peut transformer les
+       données complexes en informations claires et exploitables pour
+       votre entreprise. améliorez la prise de décision, optimisez vos
+       stratégies et boostez votre performance grâce à des outils visuels
+       adaptés.
+
+[39]L’importance de la data visualisation pour votre entreprise
+       06/08/2025
+       [40]découvrez les meilleures pratiques de gestion des données en
+       2025. ce guide vous offre des stratégies innovantes et des conseils
+       essentiels pour optimiser la collecte, l'analyse et la protection
+       de vos données, tout en respectant les réglementations en vigueur.
+       restez à la pointe de la transformation numérique avec les
+       tendances émergentes!
+
+[41]Les meilleures pratiques de gestion des données en 2025
+       23/07/2025
+       [42]A business desk setup with a calculator, papers, and a
+       keyboard, reflecting a work environment.
+
+[43]Tout savoir sur la comptabilité en ligne
+       10/06/2025
+       [44]explorez les enjeux et les applications de l'internet des
+       objets (iot) dans cet article. découvrez comment cette technologie
+       transforme notre quotidien, améliore l'efficacité des entreprises
+       et façonne l'avenir. plongez dans l'univers connecté et ses
+       implications pour notre société.
+
+[45]Comprendre l’internet des objets : enjeux et applications
+       15/05/2025
+       [46]découvrez les dernières avancées de la réalité virtuelle et
+       explorez ses diverses applications dans notre quotidien. cet aperçu
+       vous plonge dans les technologies innovantes qui transforment notre
+       façon d'interagir avec le monde virtuel.
+
+[47]La réalité virtuelle : un aperçu des technologies et applications
+actuelles
+       22/04/2025
+     * [48]Cloud
+   [49]Illustration de la capsule de données sous-marine chinoise de 1 433
+       tonnes immergée au large de la province de Hainan.
+
+[50]« La Chine immerge un data center de 1 433 tonnes » : une avancée secrète
+qui change la course à la souveraineté numérique
+       29/10/2025
+       [51]découvrez les différences entre cloud public, privé et hybride
+       : avantages, inconvénients et usages adaptés pour mieux choisir la
+       solution cloud correspondant aux besoins de votre entreprise.
+
+[52]Comprendre les différents types de cloud : public, privé et hybride
+       03/09/2025
+       [53]Networking cables plugged into a patch panel, showcasing data
+       center connectivity.
+
+[54]Quels critères privilégier pour un service de cloud : sécurité, coût et
+compatibilité décryptés
+       16/08/2025
+       [55]découvrez nos conseils pratiques pour bien choisir votre
+       fournisseur de services cloud : critères essentiels, comparaison
+       des offres, sécurité, fiabilité et rapport qualité-prix. trouvez le
+       partenaire cloud adapté à vos besoins professionnels ou personnels.
+
+[56]Comment choisir le bon fournisseur de services cloud ?
+       13/08/2025
+       [57]Detailed image of a server rack with glowing lights in a modern
+       data center.
+
+[58]Celeste : le nouveau fournisseur cloud suisse
+       29/07/2025
+     * [59]Digital
+   [60]A person creates a flowchart diagram with red pen on a whiteboard,
+       detailing plans and budgeting.
+
+[61]Optimisez votre workflow BIM structurel en connectant Revit et Advance
+Design
+       05/12/2025
+       [62]Illustration de l'outil Thumbmagic transformant la création de
+       miniatures vidéo grâce à l'intelligence artificielle.
+
+[63]Thumbmagic révolutionne la création de miniatures : découvrez comment cet
+outil transforme vos visuels en un clin d’œil
+       10/11/2025
+       [64]Illustration de l'intégration des expressions militaires dans
+       le langage courant.
+
+[65]LBD, FAMAS ou OTAN : quand les acronymes militaires deviennent des mots
+de notre langage courant
+       29/09/2025
+       [66]Illustration de la perception moderne de la rapidité de la
+       parole à travers les archives vidéo et les réseaux sociaux.
+
+[67]« Quand la vitesse des réseaux sociaux menace notre attention » :
+comparaison troublante avec la lenteur apparente des archives vidéo
+       19/09/2025
+       [68]Illustration de la dépendance moderne aux réseaux sociaux et
+       ses implications sur notre quotidien.
+
+[69]« Un jour j’ai essayé de faire une demi-journée sans » : cette expérience
+qui révèle notre dépendance cachée
+       10/09/2025
+     * [70]Emploi
+   [71]Illustration de l'impact de l'intelligence artificielle sur
+       l'emploi dans le secteur public français.
+
+[72]« 427 500 agents publics remplacés par l’IA » : un analyste affirme que
+la France s’apprête à vivre une mutation historique
+       26/10/2025
+       [73]Illustration de la mobilité professionnelle de la génération Z
+       en quête de progression et de sens.
+
+[74]« Pourquoi la génération Z quitte si vite ses emplois » : derrière les
+apparences, une logique ambitieuse et méconnue
+       24/10/2025
+       [75]Three diverse professionals working and smiling at office
+       desks, fostering teamwork and collaboration.
+
+[76]Changer de trajectoire professionnelle grâce au code : dix semaines à La
+Capsule
+       19/09/2025
+       [77]Illustration de l'impact positif des jeux vidéo sur la gestion
+       du stress au travail.
+
+[78]« Jouer à des jeux vidéo réduit le stress, c’est scientifique » : une
+découverte qui change notre regard sur le gaming
+       05/09/2025
+       [79]Illustration de l'impact de l'intelligence artificielle sur le
+       marché du travail et les opportunités de transformation économique.
+
+[80]« L’IA va détruire notre avenir » : ce géant mondial menace de supprimer
+50 % des emplois et plonge l’économie mondiale dans un cataclysme sans
+précédent
+       02/08/2025
+     * [81]IA
+   [82]Illustration de l'impact environnemental de l'intelligence
+       artificielle et sa consommation énergétique croissante.
+
+[83]L’impact environnemental de l’IA dévoilé : les écologistes réagissent
+face aux défis pour l’avenir de la planète
+       20/12/2025
+       [84]Illustration de l'intégration de l'intelligence artificielle
+       dans le navigateur Firefox.
+
+[85]Firefox adopte l’IA : les utilisateurs en colère face aux changements
+annoncés dans leur navigateur préféré
+       20/12/2025
+       [86]Illustration de James Cameron discutant de l'impact de
+       l'intelligence artificielle sur le cinéma.
+
+[87]Avatar 3 : James Cameron défie l’intelligence artificielle et souligne
+l’importance de l’humanité dans le cinéma
+       19/12/2025
+       [88]Illustration de l'évolution de l'intelligence artificielle vers
+       une utilisation plus transparente et centrée sur l'humain en 2026.
+
+[89]L’avenir de l’IA en 2026 : ce que les experts prévoient pour notre
+quotidien et notre travail
+       19/12/2025
+       [90]Illustration de l'impact des vidéos parodiques générées par
+       l'IA Sora sur l'image de Disney.
+
+[91]Disney face à la vague de vidéos troublantes : l’impact des créations IA
+Sora sur le web dévoilé
+       18/12/2025
+     * [92]Robotique
+   [93]Two engineers collaborating on testing a futuristic robotic
+       prototype in a modern indoor lab.
+
+[94]Les robots comme collègues : qu’advient-il du travail d’équipe lorsque
+l’IA devient un membre à part entière d’un projet?
+       27/12/2025
+       [95]Illustration de l'accident industriel impliquant un robot Tesla
+       dans l'usine de Fremont.
+
+[96]« Un robot d’Elon Musk s’en prend à un père de famille » : l’incident qui
+relance la peur des machines intelligentes
+       28/10/2025
+       [97]Illustration de C-Star, un robot marin collectant des données
+       au cœur d'un ouragan de catégorie 5.
+
+[98]« Ce robot a survécu à un ouragan de catégorie 5 » : un exploit
+technologique inédit qui livre des images venues des Enfers
+       24/10/2025
+       [99]Illustration de robots inspirés par les insectes aquatiques
+       développés grâce à une innovation en robotique douce.
+
+[100]« Comment ces mini-robots réussissent à marcher sur l’eau » : la
+découverte fascinante des chercheurs de l’Université de Virginie
+       17/10/2025
+       [101]Illustration de l'essor de la robotique industrielle en Chine
+       avec des bras robotiques sur une chaîne de production.
+
+[102]« 300 000 nouveaux robots en un an » : la Chine dépasse le reste du
+monde et redéfinit la guerre industrielle mondiale
+       14/10/2025
+     * [103]Science
+   [104]Illustration de l'effet du sel sur la coagulation des protéines
+       lors de la cuisson des œufs.
+
+[105]« Pourquoi il faut toujours saler l’eau des œufs » : une découverte
+scientifique qui pourrait bien révolutionner votre cuisine
+       30/10/2025
+       [106]Illustration de la lumière quantique entremêlée révolutionnant
+       la cartographie des systèmes bruyants.
+
+[107]« 20 millions d’années en 15 minutes » : l’expérience quantique qui
+bouscule notre vision de l’apprentissage scientifique
+       30/10/2025
+       [108]Illustration de l'anomalie gravitationnelle sous l'océan
+       Indien et ses implications géophysiques.
+
+[109]« Ce trou gravitationnel caché dans l’océan Indien » : la découverte
+secrète qui bouleverse notre compréhension de la Terre
+       29/10/2025
+       [110]Illustration de l'expédition aérienne du British Antarctic
+       Survey vers la station Rothera en Antarctique.
+
+[111]« Rothera, le bureau de poste le plus isolé du monde » : une mission
+antarctique fascinante au service du climat
+       29/10/2025
+       [112]Illustration de la confrontation du char B1 bis face à la
+       Blitzkrieg allemande.
+
+[113]« Le char B1 bis, fierté française aux pieds d’argile » : comment la
+Blitzkrieg allemande a révélé les failles d’une doctrine obsolète
+       27/10/2025
+     * [114]Sécurité
+   [115]Illustration de l'IA Grok d'xAI divulguant des informations
+       personnelles sensibles.
+
+[116]Grok menace votre vie privée : votre adresse postale pourrait être
+exposée par l’IA sans que vous le sachiez
+       08/12/2025
+       [117]Illustration de l'impact des jouets connectés sur le
+       développement des enfants.
+
+[118]Jouet IA : quand les conseils inappropriés bouleversent la magie de Noël
+des enfants et des parents
+       26/11/2025
+       [119]Illustration de la mise en évidence des failles de sécurité
+       dans ChatGPT par des experts en cybersécurité.
+
+[120]ChatGPT : découvrez les 7 failles critiques à surveiller absolument pour
+une utilisation en toute sécurité
+       07/11/2025
+       [121]Illustration de l'engagement des Rafale français pour la
+       protection de l'espace aérien polonais face aux drones russes.
+
+[122]« Face aux drones russes » : Macron envoie trois Rafale en Pologne, un
+geste fort qui ravive les tensions avec Moscou
+       30/10/2025
+       [123]Illustration de la présentation des nouveaux missiles
+       balistiques FP-7 et FP-9 par l'Ukraine.
+
+[124]« Une technologie jamais vue à Kiev » : l’Ukraine déploie des missiles
+capables d’inquiéter jusqu’au Kremlin
+       30/10/2025
+     * [125]Tech
+   [126]Detailed image of a server rack with glowing lights in a modern
+       data center.
+
+[127]Comment fonctionne la colocation dans un data center ?
+       04/11/2025
+       [128]Young woman with curly hair working on her laptop in a cozy
+       home setting, exuding confidence and focus.
+
+[129]Logiciel de gestion hôtelière : efficacité et satisfaction des clients
+réunies
+       04/11/2025
+       [130]Illustration de la collaboration entre Samsung et Starlink
+       pour un modem 6G propulsé par l'intelligence artificielle.
+
+[131]Samsung et Starlink révolutionnent l’internet spatial avec un modem 6G
+intelligent pour connecter le monde aux étoiles
+       02/11/2025
+       [132]Illustration de la collaboration entre Framatome et l'ENEA
+       pour développer un réacteur nucléaire lunaire.
+
+[133]« Un réacteur nucléaire pour la Lune » : Framatome et l’ENEA dévoilent
+un projet inédit pour produire de l’énergie continue dans l’espace
+       30/10/2025
+       [134]Illustration de l'investissement australien dans le drone
+       sous-marin Ghost Shark pour renforcer la défense maritime.
+
+[135]« 1,7 milliard pour un drone secret » : l’Australie parie sur Ghost
+Shark pour renforcer sa défense face à la Chine
+       30/10/2025
+
+   (BUTTON)
+   [136]EDS.fr EDS.fr
+
+Qu’est-ce que l’informatique en nuage ?
+
+   Baptiste LEMOINE Baptiste LEMOINE [137]Baptiste LEMOINE22/10/2024[138]0
+   Partager [139]Twitter [140]Facebook [141]LinkedIn [142]WhatsApp
+   [143]Telegram [144]Email [145]Copier le lien
+   [146]découvrez le cloud computing, une solution innovante qui permet de
+   stocker, gérer et traiter des données en ligne. optimisez votre
+   efficacité et profitez d'un accès sécurisé à vos ressources depuis
+   n'importe où.
+
+   Partager
+   [147]Twitter [148]Facebook [149]LinkedIn [150]WhatsApp [151]Telegram
+   [152]Email [153]Copier le lien
+   [INS: :INS]
+
+   EN BREF
+     * Definition: L’informatique en nuage est la prestation de services
+       informatiques à la demande via l’Internet.
+     * Services Cloud: Inclus IaaS (Infrastructure as a Service), PaaS
+       (Platform as a Service) et SaaS (Software as a Service).
+     * Emplacement: Les données et applications sont stockées sur des
+       serveurs distants, non sur un ordinateur local.
+     * Type de Nuage: Peut être public, privé ou hybride, impliquant
+       plusieurs environnements interconnectés.
+     * Besoin: Permet l’externalisation des données et des processus,
+       offrant flexibilité et accessibilité.
+     * Avantages et Inconvénients: Les principaux bénéfices incluent la
+       scalabilité et la réduction des coûts, avec des préoccupations
+       autour de la sécurité des données.
+
+   L’informatique en nuage, ou cloud computing, est une innovation
+   technologique majeure qui transforme la façon dont les services
+   informatiques sont fournis et consommés. En simplifiant le concept, il
+   s’agit de mettre à disposition des infrastructures, des plateformes et
+   des logiciels via Internet, sur des serveurs distants et
+   interconnectés, que l’on appelle « nuage ». Les données et applications
+   ne sont donc plus stockées sur des machines physiques locales, mais
+   dans cet environnement virtuel. Trois catégories de services se
+   distinguent : IaaS (Infrastructure as a Service), PaaS (Platform as a
+   Service) et SaaS (Software as a Service). Cette approche de gestion
+   informatique permet une flexibilité et une scalabilité accrues, bien
+   que des questions de sécurité et d’emplacement des données puissent se
+   poser.
+   [INS: :INS]
+   découvrez le cloud computing, une solution innovante qui révolutionne
+   la gestion des données et des applications. profitez de flexibilité,
+   sécurité et performance pour optimiser vos ressources informatiques et
+   gagner en efficacité. explorez les avantages du cloud pour votre
+   entreprise.
+
+   L’informatique en nuage, souvent désignée sous le terme anglophone de
+   cloud computing, est une méthode moderne de gestion des ressources
+   informatiques. Elle permet d’accéder à des services informatiques tels
+   que des applications, des réseaux et des bases de données via Internet.
+   Cet article explore comment l’informatique en nuage fonctionne, ses
+   principales catégories de services, ses divers modèles de déploiement
+   et les avantages qu’elle offre par rapport à l’informatique locale.
+
+Définition de l’informatique en nuage
+
+   L’informatique en nuage consiste à fournir des services IT à la demande
+   via Internet. Au lieu d’héberger des logiciels ou des bases de données
+   sur un serveur local, les entreprises peuvent externaliser ces
+   ressources vers des serveurs distants. Cela permet non seulement
+   d’accéder aux données n’importe où dans le monde, mais aussi
+   d’optimiser la gestion informatique, car l’entretien et les mises à
+   jour ne sont plus limités à un seul endroit physique.
+   [INS: :INS]
+
+Catégories de services dans le cloud
+
+   L’informatique en nuage se divise en trois principales catégories de
+   services : IaaS, PaaS et SaaS.
+
+Infrastructure en tant que Service (IaaS)
+
+   L’IaaS offre des ressources informatiques virtuelles, telles que des
+   serveurs, des réseaux et du stockage. Les entreprises qui choisissent
+   ce modèle peuvent personnaliser leur architecture IT en accédant à des
+   machines virtuelles et à des capacités de réseau à la demande, sans
+   avoir besoin d’infrastructures physiques.
+   [INS: :INS]
+
+Plateforme en tant que Service (PaaS)
+
+   Avec le PaaS, les entreprises bénéficient d’une plateforme complète
+   pour le développement, la gestion et l’hébergement d’applications. Ce
+   modèle simplifie le processus de développement de logiciels en retirant
+   le besoin de gérer l’infrastructure sous-jacente.
+
+Logiciels en tant que Service (SaaS)
+
+   SaaS fournit des applications logicielles via Internet. Les
+   utilisateurs accèdent aux applications, qui sont maintenues et mises à
+   jour par le fournisseur du service cloud, éliminant ainsi la nécessité
+   pour les entreprises de les héberger localement.
+   [INS: :INS]
+
+Modèles de déploiement du cloud
+
+   Plusieurs modèles de déploiement existent dans l’informatique en nuage,
+   chacun avec ses propres caractéristiques. On distingue généralement le
+   cloud public, le cloud privé et le cloud hybride.
+
+Cloud Public
+
+   Le cloud public est géré par des fournisseurs de services tiers et
+   offre des ressources de calcul partagées accessibles au public. Cela
+   permet aux entreprises de moduler leur utilisation et leurs coûts sans
+   se soucier de l’entretien des infrastructures.
+   [INS: :INS]
+
+Cloud Privé
+
+   Le cloud privé est réservé à l’usage exclusif d’une seule organisation.
+   Il offre un niveau de sécurité plus élevé puisque les ressources ne
+   sont pas partagées avec d’autres entités, tout en bénéficiant des
+   avantages du cloud computing.
+
+Cloud Hybride
+
+   Le cloud hybride combine les deux modèles précédents, permettant aux
+   données et applications de circuler entre un cloud privé et un cloud
+   public, offrant flexibilité et optimisation des ressources.
+
+Avantages de l’informatique en nuage
+
+   Les avantages de l’informatique en nuage sont multiples, notamment en
+   termes de réduction des coûts, amélioration de la flexibilité et de
+   l’évolutivité, et maintien à jour des dernières innovations techniques.
+   De plus, le passage au cloud permet souvent aux entreprises d’améliorer
+   leur sécurité par l’accès à des technologies et experts en
+   cybersécurité de pointe.
+   découvrez le cloud computing, une technologie révolutionnaire qui
+   permet le stockage et la gestion de données en ligne, offrant
+   flexibilité, scalabilité et économies pour les entreprises et les
+   particuliers. explorez comment le cloud transforme notre façon de
+   travailler et de collaborer.
+
+L’informatique en nuage : Comparaison des services
+
+   Type de Service Description
+   Infrastructure as a Service (IaaS) Fournit des ressources IT virtuelles
+   telles que serveurs et stockage
+   Platform as a Service (PaaS) Offre un environnement pour développer et
+   héberger des applications
+   Software as a Service (SaaS) Logiciels accessibles via Internet sans
+   besoin d’installation locale
+   Public Cloud Partage de ressources informatique entre plusieurs
+   utilisateurs
+   Private Cloud Environnement sécurisé pour une organisation unique
+   Hybrid Cloud Combinaison de nuages publics et privés pour flexibilité
+   et sécurité
+   Hébergement de Données Stockage distant de fichiers sur serveurs
+   interconnectés
+   Flexibilité Accès aux services et applications de n’importe où et à
+   tout moment
+   Économie Réduction des coûts liés à l’infrastructure IT locale
+     * Définition:
+          + Prestation de services informatiques à la demande
+          + Externalisation vers des serveurs distants
+          + Environnement virtuel basé sur Internet
+     * Prestation de services informatiques à la demande
+     * Externalisation vers des serveurs distants
+     * Environnement virtuel basé sur Internet
+     * Catégories de services:
+          + IaaS (Infrastructure as a Service)
+          + PaaS (Platform as a Service)
+          + SaaS (Software as a Service)
+     * IaaS (Infrastructure as a Service)
+     * PaaS (Platform as a Service)
+     * SaaS (Software as a Service)
+     * Composantes principales:
+          + Logiciels hébergés
+          + Bases de données distantes
+          + Réseaux interconnectés
+     * Logiciels hébergés
+     * Bases de données distantes
+     * Réseaux interconnectés
+     * Modèles:
+          + Public
+          + Privé
+          + Hybride
+     * Public
+     * Privé
+     * Hybride
+
+     * Prestation de services informatiques à la demande
+     * Externalisation vers des serveurs distants
+     * Environnement virtuel basé sur Internet
+
+     * IaaS (Infrastructure as a Service)
+     * PaaS (Platform as a Service)
+     * SaaS (Software as a Service)
+
+     * Logiciels hébergés
+     * Bases de données distantes
+     * Réseaux interconnectés
+
+     * Public
+     * Privé
+     * Hybride
+
+   [INS: :INS]
+
+S’inscrire à notre lettre d’information
+
+   Actus, enquêtes, analyses : chaque matin, notre sélection pour bien
+   commencer la journée.
+
+   ____________________
+
+   S'abonner
+   [154]cloud computing [155]informatique en nuage [156]serveurs
+   [157]stockage en ligne [158]technologie
+   [159]Suivre sur X (Twitter)
+   Partagez maintenant. [160]Twitter [161]Facebook [162]LinkedIn
+   [163]Telegram [164]WhatsApp [165]Email [166]Copier le lien
+
+   Article précédent[167]Quelles sont les bonnes pratiques pour assurer la
+   maintenance informatique ?
+   Article suivant [168]Quelles sont les dernières avancées en matière de
+   nouvelles technologies ?
+
+   [169]Baptiste LEMOINE
+     * [170]X (Twitter)
+
+   Baptiste Lemoine, journaliste spécialisé dans l’univers informatique,
+   met son expertise au service de EDS.fr. Diplômé de la City, University
+   of London, il décrypte avec clarté les enjeux du cloud, de la
+   cybersécurité ou des logiciels pour un public pro et curieux. Toujours
+   en veille, il explore les grandes tendances IT avec précision et
+   pédagogie. Contact : [171][email protected]
+
+   A lire également
+
+   [172]Illustration de l'alliance stratégique entre OpenAI et AWS pour
+   renforcer le développement de l'intelligence artificielle.
+
+[173]OpenAI et AWS : un partenariat à 36 milliards € qui redéfinit l’avenir
+de l’intelligence artificielle
+
+   [174]Illustration de la capsule de données sous-marine chinoise de 1
+   433 tonnes immergée au large de la province de Hainan.
+
+[175]« La Chine immerge un data center de 1 433 tonnes » : une avancée
+secrète qui change la course à la souveraineté numérique
+
+   [176]découvrez les différences entre cloud public, privé et hybride :
+   avantages, inconvénients et usages adaptés pour mieux choisir la
+   solution cloud correspondant aux besoins de votre entreprise.
+
+[177]Comprendre les différents types de cloud : public, privé et hybride
+
+   [178]Ajouter un commentaire
+
+   Les commentaires sont fermés.
+
+S’inscrire à notre lettre d’information
+
+   Actus, enquêtes, analyses : chaque matin, notre sélection pour bien
+   commencer la journée.
+
+   ____________________
+
+   S'abonner
+
+   L'inscription à notre lettre d'information est gratuite, vos données ne
+   seront pas partagées.
+
+   [179]Two engineers collaborating on testing a futuristic robotic
+   prototype in a modern indoor lab.
+   [180]Les robots comme collègues : qu’advient-il du travail d’équipe
+   lorsque l’IA devient un membre à part entière d’un projet?
+
+   [181]Illustration de l'impact environnemental de l'intelligence
+   artificielle et sa consommation énergétique croissante.
+   [182]L’impact environnemental de l’IA dévoilé : les écologistes
+   réagissent face aux défis pour l’avenir de la planète
+
+   [183]Illustration de l'intégration de l'intelligence artificielle dans
+   le navigateur Firefox.
+   [184]Firefox adopte l’IA : les utilisateurs en colère face aux
+   changements annoncés dans leur navigateur préféré
+
+Actu’ par domaine
+
+     * [185]À la Une
+     * [186]Big Data
+     * [187]Cloud
+     * [188]Digital
+     * [189]Emploi
+     * [190]IA
+     * [191]Robotique
+     * [192]Science
+     * [193]Sécurité
+     * [194]Tech
+
+Informations
+
+     * [195]À propos
+     * [196]La rédaction
+     * [197]Annonceurs
+     * [198]Nous contacter
+     * [199]Politique de confidentialité et cookies
+     * [200]Mentions légales
+
+S’inscrire à notre lettre d’information
+
+   Actus, enquêtes, analyses : chaque matin, notre sélection pour bien
+   commencer la journée.
+
+   ____________________
+
+   S'abonner
+
+   L'inscription à notre lettre d'information est gratuite, vos données ne
+   seront pas partagées.
+   [201]Facebook [202]X (Twitter) [203]YouTube [204]TikTok
+   © EDS. Tous droits réservés.
+
+   ____________________ (BUTTON) Envoyer
+
+   Tapez le texte ci-dessus et appuyez sur la touche Entrer pour effectuer
+   la recherche. Appuyez sur Esc pour annuler.
+
+Références
+
+   Liens visibles :
+   1. https://eds.fr/feed/
+   2. https://eds.fr/comments/feed/
+   3. https://eds.fr/wp-json/oembed/1.0/embed?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+   4. https://eds.fr/wp-json/oembed/1.0/embed?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/&format=xml
+   5. https://eds.fr/wp-json/wp/v2/posts/1981
+   6. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html
+   7. https://eds.fr/featured/
+   8. https://eds.fr/big-data/
+   9. https://eds.fr/cloud/
+  10. https://eds.fr/digital/
+  11. https://eds.fr/emploi/
+  12. https://eds.fr/intelligence-artificielle/
+  13. https://eds.fr/robotique/
+  14. https://eds.fr/science/
+  15. https://eds.fr/securite/
+  16. https://eds.fr/tech/
+  17. https://eds.fr/a-propos/
+  18. https://eds.fr/annonceurs/
+  19. https://eds.fr/nous-contacter/
+  20. https://eds.fr/2025/12/27/les-robots-comme-collegues-quadvient-il-du-travail-dequipe-lorsque-lia-devient-un-membre-a-part-entiere-dun-projet/
+  21. https://eds.fr/2025/12/27/les-robots-comme-collegues-quadvient-il-du-travail-dequipe-lorsque-lia-devient-un-membre-a-part-entiere-dun-projet/
+  22. https://eds.fr/2025/12/20/limpact-environnemental-de-lia-devoile-les-ecologistes-reagissent-face-aux-defis-pour-lavenir-de-la-planete/
+  23. https://eds.fr/2025/12/20/limpact-environnemental-de-lia-devoile-les-ecologistes-reagissent-face-aux-defis-pour-lavenir-de-la-planete/
+  24. https://eds.fr/2025/12/20/firefox-adopte-lia-les-utilisateurs-en-colere-face-aux-changements-annonces-dans-leur-navigateur-prefere/
+  25. https://eds.fr/2025/12/20/firefox-adopte-lia-les-utilisateurs-en-colere-face-aux-changements-annonces-dans-leur-navigateur-prefere/
+  26. https://www.facebook.com/byedsfr
+  27. https://x.com/intent/user?screen_name=byedsfr
+  28. https://www.youtube.com/@byeds
+  29. https://www.tiktok.com/@byedsfr
+  30. https://eds.fr/
+  31. https://www.facebook.com/byedsfr
+  32. https://x.com/intent/user?screen_name=byedsfr
+  33. https://www.youtube.com/@byeds
+  34. https://www.tiktok.com/@byedsfr
+  35. https://eds.fr/newsletter
+  36. https://eds.fr/featured/
+  37. https://eds.fr/big-data/
+  38. https://eds.fr/2025/08/06/limportance-de-la-data-visualisation-pour-votre-entreprise/
+  39. https://eds.fr/2025/08/06/limportance-de-la-data-visualisation-pour-votre-entreprise/
+  40. https://eds.fr/2025/07/23/les-meilleures-pratiques-de-gestion-des-donnees-en-2025/
+  41. https://eds.fr/2025/07/23/les-meilleures-pratiques-de-gestion-des-donnees-en-2025/
+  42. https://eds.fr/2025/06/10/tout-savoir-sur-la-comptabilite-en-ligne/
+  43. https://eds.fr/2025/06/10/tout-savoir-sur-la-comptabilite-en-ligne/
+  44. https://eds.fr/2025/05/15/comprendre-linternet-des-objets-enjeux-et-applications/
+  45. https://eds.fr/2025/05/15/comprendre-linternet-des-objets-enjeux-et-applications/
+  46. https://eds.fr/2025/04/22/la-realite-virtuelle-un-apercu-des-technologies-et-applications-actuelles/
+  47. https://eds.fr/2025/04/22/la-realite-virtuelle-un-apercu-des-technologies-et-applications-actuelles/
+  48. https://eds.fr/cloud/
+  49. https://eds.fr/2025/10/29/la-chine-immerge-un-data-center-de-1-433-tonnes-une-avancee-secrete-qui-change-la-course-a-la-souverainete-numerique/
+  50. https://eds.fr/2025/10/29/la-chine-immerge-un-data-center-de-1-433-tonnes-une-avancee-secrete-qui-change-la-course-a-la-souverainete-numerique/
+  51. https://eds.fr/2025/09/03/comprendre-les-differents-types-de-cloud-public-prive-et-hybride/
+  52. https://eds.fr/2025/09/03/comprendre-les-differents-types-de-cloud-public-prive-et-hybride/
+  53. https://eds.fr/2025/08/16/quels-criteres-privilegier-pour-un-service-de-cloud-securite-cout-et-compatibilite-decryptes/
+  54. https://eds.fr/2025/08/16/quels-criteres-privilegier-pour-un-service-de-cloud-securite-cout-et-compatibilite-decryptes/
+  55. https://eds.fr/2025/08/13/comment-choisir-le-bon-fournisseur-de-services-cloud/
+  56. https://eds.fr/2025/08/13/comment-choisir-le-bon-fournisseur-de-services-cloud/
+  57. https://eds.fr/2025/07/29/celeste-le-nouveau-fournisseur-cloud-suisse/
+  58. https://eds.fr/2025/07/29/celeste-le-nouveau-fournisseur-cloud-suisse/
+  59. https://eds.fr/digital/
+  60. https://eds.fr/2025/12/05/optimisez-votre-workflow-bim-structurel-en-connectant-revit-et-advance-design/
+  61. https://eds.fr/2025/12/05/optimisez-votre-workflow-bim-structurel-en-connectant-revit-et-advance-design/
+  62. https://eds.fr/2025/11/10/thumbmagic-revolutionne-la-creation-de-miniatures-decouvrez-comment-cet-outil-transforme-vos-visuels-en-un-clin-doeil/
+  63. https://eds.fr/2025/11/10/thumbmagic-revolutionne-la-creation-de-miniatures-decouvrez-comment-cet-outil-transforme-vos-visuels-en-un-clin-doeil/
+  64. https://eds.fr/2025/09/29/lbd-famas-ou-otan-quand-les-acronymes-militaires-deviennent-des-mots-de-notre-langage-courant/
+  65. https://eds.fr/2025/09/29/lbd-famas-ou-otan-quand-les-acronymes-militaires-deviennent-des-mots-de-notre-langage-courant/
+  66. https://eds.fr/2025/09/19/quand-la-vitesse-des-reseaux-sociaux-menace-notre-attention-comparaison-troublante-avec-la-lenteur-apparente-des-archives-video/
+  67. https://eds.fr/2025/09/19/quand-la-vitesse-des-reseaux-sociaux-menace-notre-attention-comparaison-troublante-avec-la-lenteur-apparente-des-archives-video/
+  68. https://eds.fr/2025/09/10/un-jour-jai-essaye-de-faire-une-demi-journee-sans-cette-experience-qui-revele-notre-dependance-cachee/
+  69. https://eds.fr/2025/09/10/un-jour-jai-essaye-de-faire-une-demi-journee-sans-cette-experience-qui-revele-notre-dependance-cachee/
+  70. https://eds.fr/emploi/
+  71. https://eds.fr/2025/10/26/427-500-agents-publics-remplaces-par-lia-un-analyste-affirme-que-la-france-sapprete-a-vivre-une-mutation-historique/
+  72. https://eds.fr/2025/10/26/427-500-agents-publics-remplaces-par-lia-un-analyste-affirme-que-la-france-sapprete-a-vivre-une-mutation-historique/
+  73. https://eds.fr/2025/10/24/pourquoi-la-generation-z-quitte-si-vite-ses-emplois-derriere-les-apparences-une-logique-ambitieuse-et-meconnue/
+  74. https://eds.fr/2025/10/24/pourquoi-la-generation-z-quitte-si-vite-ses-emplois-derriere-les-apparences-une-logique-ambitieuse-et-meconnue/
+  75. https://eds.fr/2025/09/19/changer-de-trajectoire-professionnelle-grace-au-code-dix-semaines-a-la-capsule/
+  76. https://eds.fr/2025/09/19/changer-de-trajectoire-professionnelle-grace-au-code-dix-semaines-a-la-capsule/
+  77. https://eds.fr/2025/09/05/jouer-a-des-jeux-video-reduit-le-stress-cest-scientifique-une-decouverte-qui-change-notre-regard-sur-le-gaming/
+  78. https://eds.fr/2025/09/05/jouer-a-des-jeux-video-reduit-le-stress-cest-scientifique-une-decouverte-qui-change-notre-regard-sur-le-gaming/
+  79. https://eds.fr/2025/08/02/lia-va-detruire-notre-avenir-ce-geant-mondial-menace-de-supprimer-50-des-emplois-et-plonge-leconomie-mondiale-dans-un-cataclysme-sans-precedent/
+  80. https://eds.fr/2025/08/02/lia-va-detruire-notre-avenir-ce-geant-mondial-menace-de-supprimer-50-des-emplois-et-plonge-leconomie-mondiale-dans-un-cataclysme-sans-precedent/
+  81. https://eds.fr/intelligence-artificielle/
+  82. https://eds.fr/2025/12/20/limpact-environnemental-de-lia-devoile-les-ecologistes-reagissent-face-aux-defis-pour-lavenir-de-la-planete/
+  83. https://eds.fr/2025/12/20/limpact-environnemental-de-lia-devoile-les-ecologistes-reagissent-face-aux-defis-pour-lavenir-de-la-planete/
+  84. https://eds.fr/2025/12/20/firefox-adopte-lia-les-utilisateurs-en-colere-face-aux-changements-annonces-dans-leur-navigateur-prefere/
+  85. https://eds.fr/2025/12/20/firefox-adopte-lia-les-utilisateurs-en-colere-face-aux-changements-annonces-dans-leur-navigateur-prefere/
+  86. https://eds.fr/2025/12/19/avatar-3-james-cameron-defie-lintelligence-artificielle-et-souligne-limportance-de-lhumanite-dans-le-cinema/
+  87. https://eds.fr/2025/12/19/avatar-3-james-cameron-defie-lintelligence-artificielle-et-souligne-limportance-de-lhumanite-dans-le-cinema/
+  88. https://eds.fr/2025/12/19/lavenir-de-lia-en-2026-ce-que-les-experts-prevoient-pour-notre-quotidien-et-notre-travail/
+  89. https://eds.fr/2025/12/19/lavenir-de-lia-en-2026-ce-que-les-experts-prevoient-pour-notre-quotidien-et-notre-travail/
+  90. https://eds.fr/2025/12/18/disney-face-a-la-vague-de-videos-troublantes-limpact-des-creations-ia-sora-sur-le-web-devoile/
+  91. https://eds.fr/2025/12/18/disney-face-a-la-vague-de-videos-troublantes-limpact-des-creations-ia-sora-sur-le-web-devoile/
+  92. https://eds.fr/robotique/
+  93. https://eds.fr/2025/12/27/les-robots-comme-collegues-quadvient-il-du-travail-dequipe-lorsque-lia-devient-un-membre-a-part-entiere-dun-projet/
+  94. https://eds.fr/2025/12/27/les-robots-comme-collegues-quadvient-il-du-travail-dequipe-lorsque-lia-devient-un-membre-a-part-entiere-dun-projet/
+  95. https://eds.fr/2025/10/28/un-robot-delon-musk-sen-prend-a-un-pere-de-famille-lincident-qui-relance-la-peur-des-machines-intelligentes/
+  96. https://eds.fr/2025/10/28/un-robot-delon-musk-sen-prend-a-un-pere-de-famille-lincident-qui-relance-la-peur-des-machines-intelligentes/
+  97. https://eds.fr/2025/10/24/ce-robot-a-survecu-a-un-ouragan-de-categorie-5-un-exploit-technologique-inedit-qui-livre-des-images-venues-des-enfers/
+  98. https://eds.fr/2025/10/24/ce-robot-a-survecu-a-un-ouragan-de-categorie-5-un-exploit-technologique-inedit-qui-livre-des-images-venues-des-enfers/
+  99. https://eds.fr/2025/10/17/comment-ces-mini-robots-reussissent-a-marcher-sur-leau-la-decouverte-fascinante-des-chercheurs-de-luniversite-de-virginie/
+ 100. https://eds.fr/2025/10/17/comment-ces-mini-robots-reussissent-a-marcher-sur-leau-la-decouverte-fascinante-des-chercheurs-de-luniversite-de-virginie/
+ 101. https://eds.fr/2025/10/14/300-000-nouveaux-robots-en-un-an-la-chine-depasse-le-reste-du-monde-et-redefinit-la-guerre-industrielle-mondiale/
+ 102. https://eds.fr/2025/10/14/300-000-nouveaux-robots-en-un-an-la-chine-depasse-le-reste-du-monde-et-redefinit-la-guerre-industrielle-mondiale/
+ 103. https://eds.fr/science/
+ 104. https://eds.fr/2025/10/30/pourquoi-il-faut-toujours-saler-leau-des-oeufs-une-decouverte-scientifique-qui-pourrait-bien-revolutionner-votre-cuisine/
+ 105. https://eds.fr/2025/10/30/pourquoi-il-faut-toujours-saler-leau-des-oeufs-une-decouverte-scientifique-qui-pourrait-bien-revolutionner-votre-cuisine/
+ 106. https://eds.fr/2025/10/30/20-millions-dannees-en-15-minutes-lexperience-quantique-qui-bouscule-notre-vision-de-lapprentissage-scientifique/
+ 107. https://eds.fr/2025/10/30/20-millions-dannees-en-15-minutes-lexperience-quantique-qui-bouscule-notre-vision-de-lapprentissage-scientifique/
+ 108. https://eds.fr/2025/10/29/ce-trou-gravitationnel-cache-dans-locean-indien-la-decouverte-secrete-qui-bouleverse-notre-comprehension-de-la-terre/
+ 109. https://eds.fr/2025/10/29/ce-trou-gravitationnel-cache-dans-locean-indien-la-decouverte-secrete-qui-bouleverse-notre-comprehension-de-la-terre/
+ 110. https://eds.fr/2025/10/29/rothera-le-bureau-de-poste-le-plus-isole-du-monde-une-mission-antarctique-fascinante-au-service-du-climat/
+ 111. https://eds.fr/2025/10/29/rothera-le-bureau-de-poste-le-plus-isole-du-monde-une-mission-antarctique-fascinante-au-service-du-climat/
+ 112. https://eds.fr/2025/10/27/le-char-b1-bis-fierte-francaise-aux-pieds-dargile-comment-la-blitzkrieg-allemande-a-revele-les-failles-dune-doctrine-obsolete/
+ 113. https://eds.fr/2025/10/27/le-char-b1-bis-fierte-francaise-aux-pieds-dargile-comment-la-blitzkrieg-allemande-a-revele-les-failles-dune-doctrine-obsolete/
+ 114. https://eds.fr/securite/
+ 115. https://eds.fr/2025/12/08/grok-menace-votre-vie-privee-votre-adresse-postale-pourrait-etre-exposee-par-lia-sans-que-vous-le-sachiez/
+ 116. https://eds.fr/2025/12/08/grok-menace-votre-vie-privee-votre-adresse-postale-pourrait-etre-exposee-par-lia-sans-que-vous-le-sachiez/
+ 117. https://eds.fr/2025/11/26/jouet-ia-quand-les-conseils-inappropries-bouleversent-la-magie-de-noel-des-enfants-et-des-parents/
+ 118. https://eds.fr/2025/11/26/jouet-ia-quand-les-conseils-inappropries-bouleversent-la-magie-de-noel-des-enfants-et-des-parents/
+ 119. https://eds.fr/2025/11/07/chatgpt-decouvrez-les-7-failles-critiques-a-surveiller-absolument-pour-une-utilisation-en-toute-securite/
+ 120. https://eds.fr/2025/11/07/chatgpt-decouvrez-les-7-failles-critiques-a-surveiller-absolument-pour-une-utilisation-en-toute-securite/
+ 121. https://eds.fr/2025/10/30/face-aux-drones-russes-macron-envoie-trois-rafale-en-pologne-un-geste-fort-qui-ravive-les-tensions-avec-moscou/
+ 122. https://eds.fr/2025/10/30/face-aux-drones-russes-macron-envoie-trois-rafale-en-pologne-un-geste-fort-qui-ravive-les-tensions-avec-moscou/
+ 123. https://eds.fr/2025/10/30/une-technologie-jamais-vue-a-kiev-lukraine-deploie-des-missiles-capables-dinquieter-jusquau-kremlin/
+ 124. https://eds.fr/2025/10/30/une-technologie-jamais-vue-a-kiev-lukraine-deploie-des-missiles-capables-dinquieter-jusquau-kremlin/
+ 125. https://eds.fr/tech/
+ 126. https://eds.fr/2025/11/04/comment-fonctionne-la-colocation-dans-un-data-center/
+ 127. https://eds.fr/2025/11/04/comment-fonctionne-la-colocation-dans-un-data-center/
+ 128. https://eds.fr/2025/11/04/logiciel-de-gestion-hoteliere-efficacite-et-satisfaction-des-clients-reunies/
+ 129. https://eds.fr/2025/11/04/logiciel-de-gestion-hoteliere-efficacite-et-satisfaction-des-clients-reunies/
+ 130. https://eds.fr/2025/11/02/samsung-et-starlink-revolutionnent-linternet-spatial-avec-un-modem-6g-intelligent-pour-connecter-le-monde-aux-etoiles/
+ 131. https://eds.fr/2025/11/02/samsung-et-starlink-revolutionnent-linternet-spatial-avec-un-modem-6g-intelligent-pour-connecter-le-monde-aux-etoiles/
+ 132. https://eds.fr/2025/10/30/un-reacteur-nucleaire-pour-la-lune-framatome-et-lenea-devoilent-un-projet-inedit-pour-produire-de-lenergie-continue-dans-lespace/
+ 133. https://eds.fr/2025/10/30/un-reacteur-nucleaire-pour-la-lune-framatome-et-lenea-devoilent-un-projet-inedit-pour-produire-de-lenergie-continue-dans-lespace/
+ 134. https://eds.fr/2025/10/30/17-milliard-pour-un-drone-secret-laustralie-parie-sur-ghost-shark-pour-renforcer-sa-defense-face-a-la-chine/
+ 135. https://eds.fr/2025/10/30/17-milliard-pour-un-drone-secret-laustralie-parie-sur-ghost-shark-pour-renforcer-sa-defense-face-a-la-chine/
+ 136. https://eds.fr/
+ 137. https://eds.fr/author/jean/
+ 138. https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/#respond
+ 139. https://twitter.com/intent/tweet?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/&text=Qu'est-ce que l'informatique en nuage ?
+ 140. https://www.facebook.com/sharer.php?u=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 141. https://www.linkedin.com/shareArticle?mini=true&url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 142. https://wa.me/?text=Qu'est-ce que l'informatique en nuage ? https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 143. https://t.me/share/url?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/&title=Qu'est-ce que l'informatique en nuage ?
+ 144. file:///cdn-cgi/l/email-protection#6d521e180f07080e19503c18485f5a081e19400e08485f5d1c1808485f5d01485f5a04030b021f000c19041c1808485f5d0803485f5d03180c0a08485f5d485e2b4b4e5d5e55560f020914500519191d1e485e2c485f2b485f2b08091e430b1f485f2b5f5d5f59485f2b5c5d485f2b5f5f485f2b1c18081e19400e08401c1808400104030b021f000c19041c18084008034003180c0a08485f2b
+ 145. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html
+ 146. https://eds.fr/wp-content/uploads/2024/10/Quest-ce-que-linformatique-en-nuage-.jpg.webp
+ 147. https://twitter.com/intent/tweet?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/&text=Qu'est-ce que l'informatique en nuage ?
+ 148. https://www.facebook.com/sharer.php?u=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 149. https://www.linkedin.com/shareArticle?mini=true&url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 150. https://wa.me/?text=Qu'est-ce que l'informatique en nuage ? https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 151. https://t.me/share/url?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/&title=Qu'est-ce que l'informatique en nuage ?
+ 152. file:///cdn-cgi/l/email-protection#7d420e081f17181e09402c08584f4a180e09501e18584f4d0c0818584f4d11584f4a14131b120f101c09140c0818584f4d1813584f4d13081c1a18584f4d584e3b5b1f121904401509090d0e584e3c584f3b584f3b18190e531b0f584f3b4f4d4f49584f3b4c4d584f3b4f4f584f3b0c08180e09501e18500c0818501114131b120f101c09140c08185018135013081c1a18584f3b
+ 153. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html
+ 154. https://eds.fr/tag/cloud-computing/
+ 155. https://eds.fr/tag/informatique-en-nuage/
+ 156. https://eds.fr/tag/serveurs/
+ 157. https://eds.fr/tag/stockage-en-ligne/
+ 158. https://eds.fr/tag/technologie/
+ 159. https://x.com/intent/user?screen_name=byedsfr
+ 160. https://twitter.com/intent/tweet?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/&text=Qu'est-ce que l'informatique en nuage ?
+ 161. https://www.facebook.com/sharer.php?u=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 162. https://www.linkedin.com/shareArticle?mini=true&url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 163. https://t.me/share/url?url=https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/&title=Qu'est-ce que l'informatique en nuage ?
+ 164. https://wa.me/?text=Qu'est-ce que l'informatique en nuage ? https://eds.fr/2024/10/22/quest-ce-que-linformatique-en-nuage/
+ 165. file:///cdn-cgi/l/email-protection#86b9f5f3e4ece3e5f2bbd7f3a3b4b1e3f5f2abe5e3a3b4b6f7f3e3a3b4b6eaa3b4b1efe8e0e9f4ebe7f2eff7f3e3a3b4b6e3e8a3b4b6e8f3e7e1e3a3b4b6a3b5c0a0a5b6b5bebde4e9e2ffbbeef2f2f6f5a3b5c7a3b4c0a3b4c0e3e2f5a8e0f4a3b4c0b4b6b4b2a3b4c0b7b6a3b4c0b4b4a3b4c0f7f3e3f5f2abe5e3abf7f3e3abeaefe8e0e9f4ebe7f2eff7f3e3abe3e8abe8f3e7e1e3a3b4c0
+ 166. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html
+ 167. https://eds.fr/2024/10/17/quelles-sont-les-bonnes-pratiques-pour-assurer-la-maintenance-informatique/
+ 168. https://eds.fr/2024/10/24/quelles-sont-les-dernieres-avancees-en-matiere-de-nouvelles-technologies/
+ 169. https://eds.fr/author/jean/
+ 170. https://x.com/baptisteishere
+ 171. file:///cdn-cgi/l/email-protection
+ 172. https://eds.fr/2025/11/05/openai-et-aws-un-partenariat-a-36-milliards-e-qui-redefinit-lavenir-de-lintelligence-artificielle/
+ 173. https://eds.fr/2025/11/05/openai-et-aws-un-partenariat-a-36-milliards-e-qui-redefinit-lavenir-de-lintelligence-artificielle/
+ 174. https://eds.fr/2025/10/29/la-chine-immerge-un-data-center-de-1-433-tonnes-une-avancee-secrete-qui-change-la-course-a-la-souverainete-numerique/
+ 175. https://eds.fr/2025/10/29/la-chine-immerge-un-data-center-de-1-433-tonnes-une-avancee-secrete-qui-change-la-course-a-la-souverainete-numerique/
+ 176. https://eds.fr/2025/09/03/comprendre-les-differents-types-de-cloud-public-prive-et-hybride/
+ 177. https://eds.fr/2025/09/03/comprendre-les-differents-types-de-cloud-public-prive-et-hybride/
+ 178. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html
+ 179. https://eds.fr/2025/12/27/les-robots-comme-collegues-quadvient-il-du-travail-dequipe-lorsque-lia-devient-un-membre-a-part-entiere-dun-projet/
+ 180. https://eds.fr/2025/12/27/les-robots-comme-collegues-quadvient-il-du-travail-dequipe-lorsque-lia-devient-un-membre-a-part-entiere-dun-projet/
+ 181. https://eds.fr/2025/12/20/limpact-environnemental-de-lia-devoile-les-ecologistes-reagissent-face-aux-defis-pour-lavenir-de-la-planete/
+ 182. https://eds.fr/2025/12/20/limpact-environnemental-de-lia-devoile-les-ecologistes-reagissent-face-aux-defis-pour-lavenir-de-la-planete/
+ 183. https://eds.fr/2025/12/20/firefox-adopte-lia-les-utilisateurs-en-colere-face-aux-changements-annonces-dans-leur-navigateur-prefere/
+ 184. https://eds.fr/2025/12/20/firefox-adopte-lia-les-utilisateurs-en-colere-face-aux-changements-annonces-dans-leur-navigateur-prefere/
+ 185. https://eds.fr/featured/
+ 186. https://eds.fr/big-data/
+ 187. https://eds.fr/cloud/
+ 188. https://eds.fr/digital/
+ 189. https://eds.fr/emploi/
+ 190. https://eds.fr/intelligence-artificielle/
+ 191. https://eds.fr/robotique/
+ 192. https://eds.fr/science/
+ 193. https://eds.fr/securite/
+ 194. https://eds.fr/tech/
+ 195. https://eds.fr/a-propos/
+ 196. https://eds.fr/la-redaction/
+ 197. https://eds.fr/annonceurs/
+ 198. https://eds.fr/nous-contacter/
+ 199. https://eds.fr/politique-de-confidentialite-et-cookies/
+ 200. https://eds.fr/mentions-legales/
+ 201. https://www.facebook.com/byedsfr
+ 202. https://x.com/intent/user?screen_name=byedsfr
+ 203. https://www.youtube.com/@byeds
+ 204. https://www.tiktok.com/@byedsfr
+
+   Liens cachés :
+ 206. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html
+ 207. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html
+ 208. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-41.html

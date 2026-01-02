@@ -1,0 +1,84 @@
+     * Actualités & publications
+     * [48]Communiqués de presse
+     * Informatique en nuage (« cloud ») : L’Autorité de la concurrence
+       émet un avis sur certaines dispositions du projet de loi visant à
+       sécuriser et réguler l’espace numérique
+--
+   [49]Numérique
+
+Informatique en nuage (« cloud ») : L’Autorité de la concurrence émet un avis
+sur certaines dispositions du projet de loi visant à sécuriser et réguler
+l’espace numérique
+--
+   L’Autorité partage les préoccupations exprimées dans le projet de loi à
+   l’égard de certaines pratiques ou défaillances de marché dans le
+   secteur de l’informatique en nuage, qui pourraient justifier une
+   intervention règlementaire. L’Autorité souligne néanmoins que, compte
+   tenu du contexte réglementaire européen dans lequel le projet de loi
+--
+       le régime transitoire prévu par le projet de loi et les
+       dispositions du futur règlement sur les données (« Data Act »)
+     * clarifier les définitions de « service d’informatique en nuage » et
+       « avoir d’informatique en nuage »
+     * clarifier les conditions d’encadrement des durées et de
+       reconduction des avoirs d’informatique en nuage
+     * clarifier les frais liés au transfert de données
+     * s’assurer de la bonne articulation des mesures liées à
+--
+   Enfin, l’Autorité rappelle qu’elle [54]s’est autosaisie pour avis, le
+   27 janvier 2022, pour analyser les conditions du fonctionnement
+   concurrentiel du secteur de l’informatique en nuage. Cette autosaisine
+   a été suivie d’[55]une consultation publique et donnera lieu dans les
+   prochaines semaines à un avis de l’Autorité. Ce dernier a vocation à
+--
+
+   Sur l’article 7 du projet de loi relatif à l’encadrement des frais de
+   transfert et des avoirs d’informatique en nuage
+
+   L’Autorité invite à une clarification de la définition de certains
+--
+
+Recommandation n°2- Clarification des définitions de « service d’informatique
+en nuage » et « avoir d’informatique en nuage »
+
+   De nombreuses notions, telles que le « service d’informatique en nuage
+   » ou l’« avoir d’informatique en nuage » manquent de précisions.
+
+   L’Autorité estime ainsi que la définition de « service d’informatique
+   en nuage » pourrait être clarifiée afin de prendre en compte la
+   distinction entre l’infrastructure en tant que service (« IaaS »), la
+   plateforme en tant que service (« PaaS ») et le logiciel en tant que
+--
+
+   Il en est de même en ce qui concerne la notion d’ « avoir
+   d’informatique en nuage » telle que présentée dans le projet de loi,
+   qui devrait être clarifiée afin, d’une part, d’englober la réalité des
+   programmes et crédits offerts par les fournisseurs et, d’autre part,
+--
+
+Recommandation n°3-Clarification sur les durées et les conditions de
+reconduction des avoirs d’informatiques en nuage
+
+   L’Autorité note que les crédits cloud[56][1] peuvent être appréhendés
+--
+
+   Sur l’article 8 du projet de loi relatif aux obligations
+   d’interopérabilité des services d’informatique en nuage.
+
+   L’Autorité formule enfin une recommandation concernant l’article 8 du
+   projet de loi relatif aux obligations d’interopérabilité des services
+   d’informatique en nuage.
+
+   Elle préconise notamment de préciser certaines notions dans l’article
+--
+   L’Autorité partage le constat du Gouvernement d’un fonctionnement du
+   marché qui ne permet pas actuellement aux clients de recourir
+   facilement à des offres tierces d’informatique en nuage. Le futur
+   règlement sur les données comprendra vraisemblablement des mesures
+   ciblées visant à améliorer l’interopérabilité et la portabilité dans le
+--
+   limites fixées par le futur règlement.
+
+   ^[57][1] « Les termes d’avoir d’informatique en nuage ne sont pas les
+   plus usités par les entreprises actives sur le secteur du cloud, qui
+   utilisent plutôt les termes de « crédits cloud ». Les crédits cloud

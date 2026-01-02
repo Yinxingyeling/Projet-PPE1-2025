@@ -1,0 +1,143 @@
+          + [12]Principaux sujets
+               o [13]Intelligence artificielle
+               o [14]Informatique en nuage et TI hybrides
+               o [15]Cybersécurité
+               o [16]Analyse des données
+--
+   (BUTTON)
+
+Informatique en nuage et TI hybrides
+
+Accélérer les résultats d’affaires grâce à des solutions infonuagiques
+--
+
+   Accélérer les résultats liés à la modernisation et à la transformation
+   vers le nuage avec l’aide d’un partenaire expérimenté est plus
+   important que jamais – particulièrement lorsqu’il s’agit de mettre à
+   profit les nouvelles capacités d’intelligence artificielle (IA).
+   L’approche pragmatique et adaptative de CGI aide les organisations à
+   planifier, à transformer et à gérer des environnements de TI hybrides
+   et en nuage sécurisés et évolutifs.
+   bâtiment en verre avec des nuages ​​reflétés dans les fenêtres
+
+     Des solutions en nuage efficientes offrent un vaste éventail
+     d’avantages, y compris une réduction des coûts en TI, une
+     flexibilité et une évolutivité accrues, une mise sur le marché plus
+--
+   Selon l'étude [72]La voix de nos clients CGI, les hauts dirigeants et
+   leurs subordonnés directs prévoient accroître la modernisation de leurs
+   applications et la migration vers le nuage au cours des deux prochaines
+   années. Pour ces organisations, une atténuation des risques lors de
+   leur virage vers l’infonuagique exige un cadre de gestion adéquat. Les
+   entreprises dotées d’environnements en nuage plus matures peuvent tirer
+   profit de nos accélérateurs alimentés par l’IA pour réaliser davantage
+   d’économies et écourter les délais de mise en marché.
+
+Cadre d’adoption du nuage de CGI
+
+   Le cadre d’adoption du nuage de CGI fait preuve d’indépendance en
+   matière de solution infonuagique et soutient tous les grands
+   fournisseurs d’informatique en nuage. Puisque les organisations en sont
+   à différentes étapes de leur maturité infonuagique, notre cadre de
+   gestion n’est pas un concept « tout ou rien », mais plutôt un modèle
+--
+          + Centre d’expertise et gouvernance infonuagiques
+
+   Transformation des portefeuilles en environnements hybrides ou à nuages
+   multiples en mettant en œuvre l’infrastructure pour logiciels-services,
+   plateformes-services et infrastructures-services en fonction des
+   contrôles de sécurité en nuage et de la gestion du changement culturel
+   convenus
+
+--
+          + Infrastructure
+          + Migration
+          + Conception pour le nuage
+          + Sécurité du nuage
+          + DevOps et Agile
+          + Reprise après sinistre en nuage
+          + Ingénierie du chaos
+          + Migration vers VMware
+
+   Gestion de l’environnement hybride en nuage pour favoriser une rapidité
+   et une agilité de l’infrastructure et des applications adaptées aux
+   besoins des clients
+--
+          + Gestion des coûts et opérations financières (FinOps)
+
+Accélérateurs pour faire évoluer la maturité de votre environnement en nuage
+
+   Depuis plus de deux décennies, CGI offre des solutions infonuagiques
+--
+
+     * [73]CGI Portfolio Assessment Café* - Une plateforme alimentée par
+       l’IA qui accélère l’adoption du nuage grâce à des perspectives
+       fondées sur l’automatisation. La solution tire profit
+       d’accélérateurs qui rationalisent le développement d’une analyse de
+--
+       coûts.
+     * Usine de transformation infonuagique de CGI - Services d’adoption
+       du nuage, de migration, de modernisation et de transformation de
+       bout en bout en vue de rationaliser et d’accélérer l’exploitation
+       du nuage.
+
+     *en anglais
+--
+     * Fournisseur de solutions infonuagiques doté d’une expérience
+       reconnue dans la migration, la gestion et la gouvernance de
+       services en nuage hybride à l’échelle mondiale, nous vous aidons à
+       définir les paramètres de vos environnements TI hybrides et en
+       nuage.
+     * Expertise pour soutenir toute exigence d’infonuagique, qu’il
+       s’agisse d’évaluer la compatibilité des stratégies de mise en œuvre
+       du nuage à l’exposition aux risques d’une organisation, d’adopter
+       le nuage et de procéder à des migrations « soulever et déplacer »,
+       de moderniser les systèmes grâce à une conception pour le nuage et
+       à des méthodes DevSecOps ou de finalement gérer et sécuriser des
+       environnements hybrides à nuages multiples.
+     * Approche équilibrée qui tient compte des obligations des clients en
+       matière de protection des données personnelles ou commerciales
+--
+   [82]Auto insurance
+
+Architecture en nuage et planification de la mise en œuvre aux fins de
+modernisation pour une compagnie d’assurance canadienne
+
+   [83]Mobile banking
+
+Centre de compétences en matière de nuage hybride pour les vingt plus
+importantes banques au monde
+
+--
+
+Accélération de la transformation numérique d’un fabricant du secteur
+aérospatial grâce au déploiement du système de gestion intégré en nuage
+d’Oracle
+
+--
+
+Une société d’énergie canadienne reprend le contrôle de son environnement en
+nuage public grâce à une intervention rapide
+
+   [86]Fashion Retail
+--
+Centre des médias
+
+   [88]reflets des nuages ​​dans les fenêtres des bâtiments
+   Article
+
+Transformations liées au nuage et à l’IA générative dans les médias : comment
+réussir la transition
+
+--
+
+L’État de l’Iowa annonce un partenariat avec CGI pour la migration de son
+système de gestion financière vers le nuage
+
+   [92]En voir plus
+--
+     * [93]Services agiles
+     * [94]Intelligence artificielle
+     * [95]Développement pour le nuage
+     * [96]Cybersécurité
+     * [97]DevOps

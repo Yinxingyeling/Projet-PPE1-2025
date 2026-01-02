@@ -1,4 +1,4 @@
-   #[1]JSON [2]oEmbed (JSON) [3]oEmbed (XML)
+   #[1]oEmbed (JSON) [2]oEmbed (XML) [3]JSON
 
    IFRAME: [4]https://www.googletagmanager.com/ns.html?id=GTM-5TP3Q2C
 
@@ -294,9 +294,9 @@ Nous Suivre
 Références
 
    Liens visibles :
-   1. https://lepopeeludique.fr/wp-json/wp/v2/posts/41520
-   2. https://lepopeeludique.fr/wp-json/oembed/1.0/embed?url=https://lepopeeludique.fr/comptine-tete-dans-les-nuages/
-   3. https://lepopeeludique.fr/wp-json/oembed/1.0/embed?url=https://lepopeeludique.fr/comptine-tete-dans-les-nuages/&format=xml
+   1. https://lepopeeludique.fr/wp-json/oembed/1.0/embed?url=https://lepopeeludique.fr/comptine-tete-dans-les-nuages/
+   2. https://lepopeeludique.fr/wp-json/oembed/1.0/embed?url=https://lepopeeludique.fr/comptine-tete-dans-les-nuages/&format=xml
+   3. https://lepopeeludique.fr/wp-json/wp/v2/posts/41520
    4. https://www.googletagmanager.com/ns.html?id=GTM-5TP3Q2C
    5. https://lepopeefamiliale.fr/
    6. https://boutique.lepopeeludique.fr/produit/carnet-de-voyage-vers-une-parentalite-ludique/

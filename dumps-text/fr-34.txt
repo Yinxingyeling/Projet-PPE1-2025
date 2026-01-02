@@ -1,0 +1,479 @@
+   IFRAME: [1]https://www.googletagmanager.com/ns.html?id=GTM-WH6C33NT
+
+   [2]Skip to main content
+   You must have JavaScript enabled to use this form.
+   ______________________________
+   Recherche
+     * [3]Services
+       [4]des collègues debout autour d'une table
+
+Alliances
+       Nous collaborons avec nos clients et des fournisseurs stratégiques
+       tiers ...
+          + [5]Services
+               o [6]Conseil en management
+               o [7]Intégration de systèmes
+               o [8]Services TI en mode délégué
+               o [9]Services applicatifs
+               o [10]Services d’infrastructure
+               o [11]Gestion des processus d’affaires
+          + [12]Principaux sujets
+               o [13]Intelligence artificielle
+               o [14]Informatique en nuage et TI hybrides
+               o [15]Cybersécurité
+               o [16]Analyse des données
+               o [17]Écosystèmes de chaîne d’approvisionnement
+               o [18]Développement durable
+          + [19]Solutions
+               o [20]CGI Credit Studio
+               o [21]CGI Trade360
+               o [22]CGI OpenGrid360
+               o [23]CGI All Payments
+               o [24]CGI Retail Suite
+               o [25]CGI Wealth360
+     * [26]Secteurs
+       [27]Illustration de consultants qui discutent d'affaires
+
+La voix de nos clients CGI 2025
+       La voix de nos clients CGI présente les conclusions tirées ...
+          + [28]Services bancaires et marchés des capitaux
+          + [29]Communications et médias
+          + [30]Énergie et services publics
+          + [31]Pétrole et gaz
+          + [32]Services publics
+          + [33]Gouvernements
+          + [34]Santé
+          + [35]Assurance
+          + [36]Sciences de la vie
+          + [37]Secteur manufacturier
+          + [38]Commerce de détail, biens de consommation et services
+          + [39]Industrie spatiale
+          + [40]Transport et logistique
+     * [41]Perspectives
+       Allier savoir et faire
+       [42]Illustration de consultants qui discutent d'affaires
+
+La voix de nos clients CGI 2025
+       La voix de nos clients CGI présente les conclusions tirées ...
+          + [43]ALLIER SAVOIR ET FAIRE
+               o [44]Blogues de CGI
+               o [45]Articles sectoriels
+               o [46]Centre des ressources
+               o [47]Experts de CGI
+          + [48]VOIX DE NOS CLIENTS
+               o [49]Perspectives par secteur d’activité
+               o [50]Attributs des leaders du numérique
+               o [51]Opportunités d'analyse
+          + PERSPECTIVES EN VEDETTE
+               o [52]Blogues sur l’IA
+               o [53]Blogues sur les conseils en management
+               o [54]Récits de carrières des associés de CGI
+               o [55]Voix de nos clients
+     * [56]Carrières
+       [57]Consultante qui regarde par la fenêtre
+
+Carrières
+       Découvrez les avantages de travailler chez CGI et joignez-vous à
+       ...
+          + [58]Accueil
+               o [59]Offres d'emploi
+               o [60]Récits de carrière
+               o [61]Rôles clés
+               o [62]FAQ
+          + L'expérience CGI
+               o [63]Soyez propriétaire
+               o [64]Soyez créatif
+               o [65]Soyez soutenu
+     * [66]Alliances
+     * [67]Investisseurs
+
+   (BUTTON) search CGI icon
+   [68]Contactez-nous
+   [69]Global
+     * [70]EN
+     * [71]FR
+
+   (BUTTON)
+   (BUTTON)
+   Article
+
+Transformations liées au nuage et à l’IA générative dans les médias : comment
+réussir la transition
+
+   4 min de lecture
+   reflets des nuages ​​dans les fenêtres des bâtiments
+   Le microphone est un élément fondamental du studio d'enregistrement.
+
+   Le secteur des médias connaît actuellement une transformation
+   technologique profonde. L’essor des plateformes de diffusion en
+   continu, les décisions basées sur les données, les contenus
+   hyperpersonnalisés et la pression pour innover en permanence imposent
+   de nouvelles exigences aux infrastructures informatiques. Aujourd’hui,
+   les entreprises du secteur des médias doivent fournir du contenu en
+   temps réel, réagir rapidement aux événements et préserver la confiance
+   et la sécurité des utilisateurs.
+
+   Les experts en média de CGI en Allemagne, Marcus Böhme,
+   vice-président-conseil, prestation de services, et Ralf Richter,
+   directeur-conseil expert, architecte de solutions infonuagiques et
+   détenteur de la distinction MVP de Microsoft, discutent de la manière
+   dont les technologies infonuagiques et d’IA générative peuvent aider
+   les entreprises de médias non seulement à survivre à cette
+   transformation à l’échelle du secteur, mais aussi à prospérer.
+
+Le nuage : du centre de données à la plateforme stratégique
+
+   Au cours des dix dernières années, la technologie infonuagique a
+   évolué, passant de simples solutions d’infrastructure à une composante
+   centrale de toute stratégie d’entreprise.
+
+     « Dans le passé, de nombreuses entreprises considéraient le nuage
+     comme un simple centre de données supplémentaire, explique M. Böhme.
+     Aujourd’hui, nous lançons des projets infonuagiques avec des
+     objectifs stratégiques clairs et intégrons dès le départ des
+     questions d’organisation, de changement de rôles et
+     d’automatisation. »
+
+   Le secteur des médias reconnaît les avantages potentiels du nuage.
+   Qu’il s’agisse de fournir du contenu à la demande, des flux de
+   production basés sur le nuage ou des réseaux de diffusion évolutifs à
+   l’échelle mondiale, le nuage offre plus de rapidité, de flexibilité et
+   d’évolutivité. De plus, les architectures modernes s’appuient de plus
+   en plus sur des solutions hybrides et à nuages multiples.
+
+IA générative : innovation et responsabilité
+
+   Si le nuage pose les bases, l’[72]IA générative ouvre des possibilités
+   totalement nouvelles en matière de création de contenu, de distribution
+   et d’analyse d’audience, mais le succès nécessite plus que de simples
+   expérimentations.
+
+     « Selon Gartner (sur [73]VentureBeat [en anglais]), environ 85 % de
+     tous les projets d’IA échouent, dont beaucoup dès la phase de
+     validation du concept, note M. Richter. Cela s’explique souvent par
+     des objectifs peu clairs, une mauvaise qualité de données ou un
+     manque d’intégration. »
+
+   Les projets d’IA générative réussis dans les entreprises médiatiques se
+   caractérisent par des stratégies bien pensées, des directives
+   d’utilisation responsable et la transparence. Les chaînes publiques
+   allemandes ARD et ZDF, par exemple, ont établi des principes pour
+   l’utilisation de l’IA, notamment l’utilisation éthique de l’IA, la
+   transparence et l’exigence de résultats mesurables afin de promouvoir
+   la confiance dans cette technologie.
+
+CGI Cloud Control Tower – Gouvernance pour les environnements de TI complexes
+
+   Un modèle de gouvernance clairement structuré est essentiel pour
+   obtenir du succès avec la technologie infonuagique et l’IA générative.
+   Avec [74]CGI Cloud Control Tower (en Allemand), nous avons développé un
+   cadre spécialement conçu pour les environnements de TI complexes comme
+   les entreprises médiatiques.
+
+   Qu’est-ce que CGI Cloud Control Tower? Imaginez un aéroport.
+
+     * Les pistes représentent l’infrastructure infonuagique sous-jacente
+       (p. ex. Azure, AWS, nuage privé).
+     * Les avions représentent les machines virtuelles, les conteneurs,
+       les microservices et les applications d’IA.
+     * La tour assure la supervision, la coordination et la sécurité.
+
+   De la même manière, dans le nuage, les déploiements, les mises à
+   l’échelle et les changements réguliers sont clairement résumés par CGI
+   Cloud Control Tower et instantanément vérifiés pour déterminer leur
+   potentiel d’optimisation. Tout comme les contrôles frontaliers à
+   l’aéroport, elle joue un rôle essentiel en matière de sécurité et de
+   coordination, en garantissant la conformité avec les normes et
+   réglementations de votre organisation. À l’instar des contrôleurs
+   aériens supervisant le contrôle opérationnel, notre équipe de contrôle
+   infonuagique gère et coordonne efficacement les services de votre
+   organisation.
+
+   Principales caractéristiques de CGI Cloud Control Tower
+
+     * Surveillance et analyse des données et de la sécurité
+     * Automatisation et infrastructure en tant que code
+     * Opérations financières (FinOps) et contrôle des coûts
+     * Sécurité et conformité, y compris la corrélation des événements
+       assistée par l’IA
+     * Catalogues de services pour les exigences normalisées et
+       individuelles
+
+   Cette configuration permet aux organisations médiatiques de réagir
+   rapidement et efficacement à des événements imprévus, tels que les pics
+   de trafic liés à la diffusion en direct ou la gestion de contenus
+   sensibles.
+
+Donner les moyens d’agir aux personnes, car la technologie seule ne suffit
+pas
+
+   Malgré toutes les possibilités technologiques, M. Böhme et M. Richter
+   soulignent tous deux que la transformation commence par les personnes.
+   Les nouveaux rôles tels que ceux d’ingénieur DevOps ou de rédactitien
+   ne sont qu’une partie du développement. Il est tout aussi important
+   d’accompagner les talents, de leur proposer des formations continues et
+   de renforcer leur confiance dans les nouvelles technologies.
+
+     « Le nuage et l’IA ne doivent pas seulement être mis en œuvre, mais
+     aussi adoptés. Lorsque les équipes sont responsabilisées et
+     alignées, l’innovation et la sécurité peuvent aller de pair »,
+     souligne M. Richter.
+
+Utiliser le nuage et l’IA générative de façon stratégique
+
+   pierre angulaire des nuages ​​au-dessus d'un champ
+
+   L’infonuagique et l’IA générative sont là pour de bon. Les entreprises
+   médiatiques qui utilisent ces technologies de façon stratégique
+   bénéficient de processus plus efficaces, de nouvelles méthodes de
+   personnalisation et d’une accélération de la mise sur le marché. Avec
+   CGI Cloud Control Tower, nous proposons un modèle éprouvé pour
+   exploiter ce potentiel de manière sécurisée et contrôlée.
+
+   En tant que partenaire de confiance du secteur des médias, nous aidons
+   les entreprises à stimuler l’innovation, à optimiser leur efficacité et
+   à garantir leur souveraineté numérique.
+
+Partager
+
+   Facebook
+
+Consultez nos experts Médias
+
+   Marcus Böhme
+
+   [75]Contact me
+
+[76]Marcus Böhme
+
+   Vice-président-conseil, prestation de services – Allemagne
+   Marcus Böhme est le vice-président du secteur Services techniques,
+   projets et services de conseil au sein de l’unité d’affaires Opérations
+   technologiques mondiales de CGI.
+   [77]Voir le profil
+
+   [78]Contact me
+   Ralf Richter
+
+   [79]Contact me
+
+[80]Ralf Richter
+
+   Directeur-conseil expert - Allemagne
+   Fort de plus de 20 ans d’expérience professionnelle, Ralf Richter est
+   un expert des TI et un architecte de solutions infonuagiques de renom
+   spécialisé dans les solutions infonuagiques, DevOps et les technologies
+   d’intelligence artificielle (IA).
+   [81]Voir le profil
+
+   [82]Contact me
+
+Nouvelles et récits de clients
+
+   [83]Government building
+   Article
+
+CGI, chef de file des services d’IA pour les gouvernements d’États et locaux
+selon le rapport d’IDC MarketScape
+
+   [84]Collaboration et analyse entre professionnels en milieu de bureau
+   Blogue
+
+Comment les plateformes infonuagiques de fabrication numérique stimulent la
+collaboration entre les fonctions d’affaires et de TI
+
+   [85]Personne portant un casque audio parlant dans un microphone
+   Article
+
+Confiance et responsabilité – Comment l’IA transforme la diffusion
+
+   [86]Des consultants discutent de l'impact de l'IA sur le conseil en
+   management
+   Blogue
+
+Incidence de l’IA sur le conseil en management : le rôle de conseiller est-il
+en voie de disparition?
+
+   [87]En voir plus
+
+Comment pouvons-nous vous aider?
+
+   [88]Contactez-nous
+
+Allier savoir et faire
+
+   Fondée en 1976, CGI figure parmi les plus importantes entreprises de
+   services-conseils en technologie de l’information (TI) et en management
+   au monde. Nous sommes guidés par les faits et axés sur les résultats
+   afin d’accélérer le rendement de vos investissements.
+   [89]En savoir plus
+
+   © 2025 CGI inc.
+
+Société
+
+     * [90]À propos
+     * [91]Alliances
+     * [92]Sites pays
+     * [93]ESG
+     * [94]Nos bureaux
+     * [95]Fusions
+     * [96]Salle de presse
+
+Ressources
+
+     * [97]Articles
+     * [98]Blogues
+     * [99]Études de cas
+     * [100]Événements
+     * [101]Baladodiffusions
+     * [102]Points de vue
+     * [103]En voir plus
+
+Support
+
+     * [104]Accessibilité
+     * [105]Données Personnelles
+     * [106]Restrictions et conditions juridiques
+     * [107]Carrières FAQ
+     *
+
+   You must have JavaScript enabled to use this form.
+
+En savoir plus sur CGI
+
+Pour ne rien manquer
+
+   [108]Abonnement
+
+Suivez-nous
+
+Social Media Global FR
+
+     * [109]LinkedIn
+     * [110]Twitter
+     * [111]Youtube
+     * [112]Facebook
+
+Références
+
+   Liens visibles :
+   1. https://www.googletagmanager.com/ns.html?id=GTM-WH6C33NT
+   2. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-34.html#start-content
+   3. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-34.html
+   4. file:///fr/alliances
+   5. file:///fr/gamme-complete-services
+   6. file:///fr/conseil-en-management
+   7. file:///fr/integration-de-systemes
+   8. file:///fr/services-ti-en-mode-delegue
+   9. file:///fr/services-applicatifs
+  10. file:///fr/services-infrastructure
+  11. file:///fr/gestion-des-processus-affaires
+  12. file:///fr/principaux-sujets
+  13. file:///fr/intelligence-artificielle
+  14. file:///fr/informatique-en-nuage-ti-hybrides
+  15. file:///fr/cybersecurite
+  16. file:///fr/analyse-des-donnees
+  17. file:///fr/ecosystemes-chaine-approvisionnement
+  18. file:///fr/developpement-durable
+  19. file:///fr/solution
+  20. file:///fr/solutions/cgi-credit-studio
+  21. file:///fr/bancaires-marches-capitaux/trade
+  22. file:///fr/solution/utilities/cgiopengrid360
+  23. file:///fr/solutions/cgi-all-payments
+  24. file:///fr/commerce-de-detail-et-services-aux-consommateurs/retail-suite
+  25. file:///fr/bancaires-marches-capitaux/gestion-patrimoine
+  26. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-34.html
+  27. file:///fr/voix-de-nos-clients
+  28. file:///fr/bancaires-marches-capitaux
+  29. file:///fr/communications-medias
+  30. file:///fr/energie-services-publics
+  31. file:///fr/petrole-et-gaz
+  32. file:///fr/services-publics
+  33. file:///fr/gouvernements
+  34. file:///fr/sante
+  35. file:///fr/assurance
+  36. file:///fr/sciences-vie
+  37. file:///fr/secteur-manufacturier
+  38. file:///fr/commerce-de-detail-et-services-aux-consommateurs
+  39. file:///fr/industrie-spatiale
+  40. file:///fr/transport-et-logistique
+  41. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-34.html
+  42. file:///fr/voix-de-nos-clients
+  43. file:///fr/propos-de-nous/perspectives
+  44. file:///fr/blogues
+  45. file:///fr/allier-savoir-et-faire/articles-sectoriels-illustrant-actions-positives
+  46. file:///fr/mediacenter
+  47. file:///fr/experts
+  48. file:///fr/voix-de-nos-clients
+  49. file:///fr/voix-de-nos-clients#insights-by-industry
+  50. file:///fr/voix-de-nos-clients/leaders-numerique
+  51. file:///fr/voix-de-nos-clients/comparez-votre-organisation
+  52. file:///fr/blogue/intelligence-artificielle-actual-contentid
+  53. file:///fr/blogue/services-conseils-dentreprise-actual-contentid
+  54. file:///fr/carrieres/articles-carrieres
+  55. file:///fr/blogue/voix-de-nos-clients-actual-contentid
+  56. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-34.html
+  57. file:///fr/carrieres
+  58. file:///fr/carrieres
+  59. file:///fr/nos-offres-demploi
+  60. file:///fr/carrieres/articles-carrieres
+  61. file:///fr/carrieres/roles-cles
+  62. file:///fr/carrieres/faq
+  63. file:///fr/carrieres/etre-proprietaire
+  64. file:///fr/carrieres/soyez-creatif
+  65. file:///fr/carrieres/soyez-soutenu
+  66. file:///fr/alliances
+  67. file:///fr/investisseurs
+  68. file:///fr/contactez-nous
+  69. file:///fr/cgi_country_widget
+  70. file:///en/article/communications-media/cloud-genai-transformations-in-media
+  71. file:///fr/article/communications-medias/transformations-liees-au-nuage-ia-generative-dans-les-medias
+  72. file:///fr/intelligence-artificielle/ia-generative
+  73. https://venturebeat.com/ai/why-most-ai-implementations-fail-and-what-enterprises-can-do-to-beat-the-odds
+  74. file:///de/de/solutions/cgi-cloud-control-tower
+  75. mailto:web@cgi.com?Subject=Contact de l'expert CGI - Marcus Böhme&body=Message
+  76. file:///fr/experts/marcus-bohme
+  77. file:///fr/experts/marcus-bohme
+  78. mailto:web@cgi.com?Subject=Contact de l'expert CGI - Marcus Böhme&body=Message
+  79. mailto:web@cgi.com?Subject=Contact de l'expert CGI - Ralf Richter&body=Message
+  80. file:///fr/experts/ralf-richter
+  81. file:///fr/experts/ralf-richter
+  82. mailto:web@cgi.com?Subject=Contact de l'expert CGI - Ralf Richter&body=Message
+  83. file:///fr/article/intelligence-artificielle/CGI-chef-de-file-des-services-d-IA-pour-les-gouvernements-d-Etats-et-locaux-selon-le-rapport-d-IDC-MarketScape
+  84. file:///fr/blog/secteur-manufacturier/comment-plateformes-infonuagiques-fabrication-numerique-stimulent-collaboration-entre-fonctions-affaires-et-TI
+  85. file:///fr/communications-medias/article/confiance-et-responsabilite-comment-ia-transforme-la-diffusion
+  86. file:///fr/blogue/conseil-en-management/incidence-ia-sur-conseil-en-management
+  87. https://www.cgi.com/fr/mediacenter/medias
+  88. file:///fr/contactez-nous
+  89. file:///fr/propos-de-nous
+  90. file:///fr/propos-de-nous
+  91. file:///fr/alliances
+  92. file:///fr/cgi_country_widget
+  93. file:///fr/esg
+  94. file:///fr/propos-de-nous/bureaux
+  95. file:///fr/fusions
+  96. file:///fr/salle-de-presse
+  97. file:///fr/mediacenter/articles
+  98. file:///fr/blogues
+  99. file:///fr/etudes-de-cas
+ 100. file:///fr/mediacenter/events
+ 101. file:///fr/baladodiffusions
+ 102. file:///fr/mediacenter/points-de-vue
+ 103. file:///fr/mediacenter
+ 104. file:///fr/accessibilite
+ 105. file:///fr/politique-de-protection-des-donnees-personnelles
+ 106. file:///fr/restrictions-juridiques
+ 107. file:///fr/carrieres/faq
+ 108. file:///fr/content-subscription
+ 109. https://www.linkedin.com/company/cgi/
+ 110. https://twitter.com/cgi_global_fr
+ 111. https://www.youtube.com/channel/UCLEgDiEEhnqzIhKgBbDkOTw
+ 112. https://www.facebook.com/cgigroup/
+
+   Liens cachés :
+ 114. file://localhost/fr
+ 115. https://www.linkedin.com/in/marcus-boehme/
+ 116. https://www.linkedin.com/in/marcus-boehme/
+ 117. https://www.linkedin.com/in/richterralf/
+ 118. https://www.linkedin.com/in/richterralf/

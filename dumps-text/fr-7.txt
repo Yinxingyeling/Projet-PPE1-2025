@@ -26,7 +26,7 @@ Nuage de mots
 
    Apprenez-en plus sur le fonctionnement et les différentes règles du
    nuage de mots.
-   Mis à jour il y a plus de 4 mois
+   Mis à jour il y a plus de 5 mois
    Table des matières
 
 Créer un nuage de mots interactif dans Wooclap pour des présentations
@@ -37,9 +37,9 @@ dynamiques
    caractérisent une notion ou un concept. Plus un terme revient, plus il
    sera mis en valeur.
    ​
-   [14][Cloud_1.gif?expires=1767151800&amp;signature=a0188d53043cb3db9b7d0
-   1edf6d62b5804a0eca4c36f4ebd21f1335ae367f17d&amp;req=dSEmFst8lYNdW%2FMW1
-   HO4zVhfR0mcvjiGmqwJEpv2M0tU0Kr75Qlf5b%2FkZMP0%0As15X5JVBmG%2BRGKt86Ec%3
+   [14][Cloud_1.gif?expires=1767316500&amp;signature=36a9eb6a53689d30bec32
+   0844c5b91ebf8f3d34993de6b3bc0df4ed1513fc23a&amp;req=dSEmFst8lYNdW%2FMW1
+   HO4zVhfR0meuj%2BLmqwJEpv2M0sF1HCtXRObx%2FjRKLTB%0AzRRiDmxkZx0jd0H70EA%3
    D%0A]
 
    Attention : Le Nuage de mots est affiché uniquement sur l’écran de
@@ -49,10 +49,10 @@ dynamiques
    afin qu’ils puissent également voir le nuage de mots se construire au
    fur et à mesure.
 
-   [15][FR+How+does+it+work.png?expires=1767151800&amp;signature=550d95913
-   0c546fe12acc00e9ac6ad7286e6d352c061c63073f1bf85f3eda23c&amp;req=dSEmFst
-   9n4lYXPMW1HO4zf7Gd%2BLLkIXqa2sTv4E5OkvhaxYgfTW%2BIb73zSFg%0AZ1SHO2bRoLX
-   3y9YxVa8%3D%0A]
+   [15][FR+How+does+it+work.png?expires=1767316500&amp;signature=a429366d8
+   3cc6fc15b921db9cc1d3ae79f6f14cebf7eaa202c3d3ac8a5924f3b&amp;req=dSEmFst
+   9n4lYXPMW1HO4zf7Gd%2BLJlILna2sTv4E5Okvtw1uqitOgPznj9Pot%0AZDt0l2fjgV0oU
+   i8n09M%3D%0A]
 
 Créer un Nuage de mots
 
@@ -63,10 +63,10 @@ Créer un Nuage de mots
    Une fois dans votre événement, cliquez sur Nouvelle question et
    sélectionnez Nuage de mots sous Recueillir des feedbacks.
 
-   [16][2025-08-05_14-48-51+%281%29.gif?expires=1767151800&amp;signature=d
-   33c37b33ce74c37460f76a86646651ca5e4bdba13c4090599a51942f88f3594&amp;req
-   =dSYiEs92nIBbXPMW1HO4zfEQmp0QkeFdkn3PQ4755f3HHOjGV%2F9FbC6pkKFS%0AYMbL3
-   q4ATO%2FvfgTnJaw%3D%0A]
+   [16][2025-08-05_14-48-51+%281%29.gif?expires=1767316500&amp;signature=4
+   e37d355a4bc0d8178453923643e31e5347f096afaca2eba3fb246a0d4490016&amp;req
+   =dSYiEs92nIBbXPMW1HO4zfEQmp0SleZQkn3PQ4755f1b6L6N41zEvX93V2iv%0A9MLz3mL
+   JwqASuxkQMKk%3D%0A]
 
    Vous cherchez de l'inspiration ? Rendez-vous sur la [17]page des
    modèles et téléchargez l'un des modèles existants pour le type de
@@ -82,10 +82,10 @@ Personnalisez le Nuage de mots
    au Nuage de mots (2). Si tel est le cas, les participants seront notés
    en fonction de leur(s) réponse(s).
 
-   [18][2025-07-09_14-38-03.png?expires=1767151800&amp;signature=34ddaa304
-   bf630e4880c7fa9db736168f95f46dcf706ba15ff6d96fccdd65886&amp;req=dSYmF8p
-   5noZcWPMW1HO4zVBA%2FS3hLHJ4ly2XrSF8uV6ae9pn5v2pVgj%2Bzp9S%0AQ4y0KHLahbl
-   %2BzqqtcKg%3D%0A]
+   [18][2025-07-09_14-38-03.png?expires=1767316500&amp;signature=e42c3259d
+   78081a945e2b34d2bd24791e4faf274938994bc039146da94cfdbd7&amp;req=dSYmF8p
+   5noZcWPMW1HO4zVBA%2FS3jKHV1ly2XrSF8uV47lnbmr6K8HWxFcjRC%0AumiYrUVo4nT0Q
+   1w6P90%3D%0A]
 
    Vous disposez de plusieurs options à droite pour personnaliser
    davantage votre question :
@@ -114,10 +114,10 @@ Afficher le nuage de mots
    Il est également possible d'afficher les résultats sous forme de liste
    (2) ou de grille (3).
 
-   [23][2025-07-09_14-51-36.png?expires=1767151800&amp;signature=cf88d04a1
-   dcdfddea8b3861518d0a0659ebdf40dc9f355c411b92b8cfe068091&amp;req=dSYmF8p
-   5lINXXfMW1HO4zR7Si1Ul6jSLOcc9P2cdreSVRvNcsa%2B2K89JLwUM%0AYEcCNHEhyaEsn
-   aRqWJs%3D%0A]
+   [23][2025-07-09_14-51-36.png?expires=1767316500&amp;signature=e0daad73c
+   7ad652ac2120cf8725d19152d276193bf2c467b1829877890e6ea98&amp;req=dSYmF8p
+   5lINXXfMW1HO4zR7Si1Un7jOGOcc9P2cdreRdEkbhtzh5dLQCclbJ%0AufKrN%2F1v8afaR
+   hkRqU0%3D%0A]
 
 Les transformations que nous appliquons
 
@@ -213,10 +213,10 @@ Nos recommandations
    Les options "Réponses multiples" et "Afficher le nuage de mots" sont
    activées par défaut lors de la création de la question.
 
-   [25][FR+Want+to+dive+deeper.png?expires=1767151800&amp;signature=900638
-   dc18cb3e2d9fbf55df9019eedeff2e411e06c5bfde3c8036604d88f258&amp;req=dSEm
-   Fst9n4hWUPMW1HO4zXnrhKtxWHr98E5vpwu8Nf0T7fbIleTgEmN279de%0A%2BQ5YqGq5lZ
-   djpI5eF0o%3D%0A]
+   [25][FR+Want+to+dive+deeper.png?expires=1767316500&amp;signature=451b4d
+   e36437b611b20a824dcbccb994f25bc5c757d75fecc25a3452e0f82be4&amp;req=dSEm
+   Fst9n4hWUPMW1HO4zXnrhKtzXH3w8E5vpwu8Nf0Ka3hb%2B5%2FgWTfZHjqA%0ANpaEJujE
+   ZQuusvS5rps%3D%0A]
 
    Ces ressources peuvent également vous aider 👇
      __________________________________________________________________
@@ -257,29 +257,29 @@ Références
   11. https://docs.wooclap.com/fr/collections/2357545-fonctionnalites-et-parametres-de-l-evenement
   12. https://docs.wooclap.com/fr/collections/2357551-types-de-questions
   13. https://www.wooclap.com/fr/nuage-de-mots-collaboratif/
-  14. https://downloads.intercomcdn.com/i/o/1110228222/b77ab2f3dc474e22afe6a9e7/Cloud_1.gif?expires=1767151800&signature=a0188d53043cb3db9b7d01edf6d62b5804a0eca4c36f4ebd21f1335ae367f17d&req=dSEmFst8lYNdW/MW1HO4zVhfR0mcvjiGmqwJEpv2M0tU0Kr75Qlf5b/kZMP0
-s15X5JVBmG+RGKt86Ec=
+  14. https://downloads.intercomcdn.com/i/o/1110228222/b77ab2f3dc474e22afe6a9e7/Cloud_1.gif?expires=1767316500&signature=36a9eb6a53689d30bec320844c5b91ebf8f3d34993de6b3bc0df4ed1513fc23a&req=dSEmFst8lYNdW/MW1HO4zVhfR0meuj+LmqwJEpv2M0sF1HCtXRObx/jRKLTB
+zRRiDmxkZx0jd0H70EA=
 
-  15. https://downloads.intercomcdn.com/i/o/1110232875/12fff42da9c3cd2b94d7bd33/FR+How+does+it+work.png?expires=1767151800&signature=550d959130c546fe12acc00e9ac6ad7286e6d352c061c63073f1bf85f3eda23c&req=dSEmFst9n4lYXPMW1HO4zf7Gd+LLkIXqa2sTv4E5OkvhaxYgfTW+Ib73zSFg
-Z1SHO2bRoLX3y9YxVa8=
+  15. https://downloads.intercomcdn.com/i/o/1110232875/12fff42da9c3cd2b94d7bd33/FR+How+does+it+work.png?expires=1767316500&signature=a429366d83cc6fc15b921db9cc1d3ae79f6f14cebf7eaa202c3d3ac8a5924f3b&req=dSEmFst9n4lYXPMW1HO4zf7Gd+LJlILna2sTv4E5Okvtw1uqitOgPznj9Pot
+ZDt0l2fjgV0oUi8n09M=
 
-  16. https://downloads.intercomcdn.com/i/o/uw5zb74r/1654681145/d414eb0a67f68198d8ee13f6a092/2025-08-05_14-48-51+(1).gif?expires=1767151800&signature=d33c37b33ce74c37460f76a86646651ca5e4bdba13c4090599a51942f88f3594&req=dSYiEs92nIBbXPMW1HO4zfEQmp0QkeFdkn3PQ4755f3HHOjGV/9FbC6pkKFS
-YMbL3q4ATO/vfgTnJaw=
+  16. https://downloads.intercomcdn.com/i/o/uw5zb74r/1654681145/d414eb0a67f68198d8ee13f6a092/2025-08-05_14-48-51+(1).gif?expires=1767316500&signature=4e37d355a4bc0d8178453923643e31e5347f096afaca2eba3fb246a0d4490016&req=dSYiEs92nIBbXPMW1HO4zfEQmp0SleZQkn3PQ4755f1b6L6N41zEvX93V2iv
+9MLz3mLJwqASuxkQMKk=
 
   17. https://www.wooclap.com/en/templates/
-  18. https://downloads.intercomcdn.com/i/o/uw5zb74r/1611373731/b003ea15aa4eb245775fc5db0383/2025-07-09_14-38-03.png?expires=1767151800&signature=34ddaa304bf630e4880c7fa9db736168f95f46dcf706ba15ff6d96fccdd65886&req=dSYmF8p5noZcWPMW1HO4zVBA/S3hLHJ4ly2XrSF8uV6ae9pn5v2pVgj+zp9S
-Q4y0KHLahbl+zqqtcKg=
+  18. https://downloads.intercomcdn.com/i/o/uw5zb74r/1611373731/b003ea15aa4eb245775fc5db0383/2025-07-09_14-38-03.png?expires=1767316500&signature=e42c3259d78081a945e2b34d2bd24791e4faf274938994bc039146da94cfdbd7&req=dSYmF8p5noZcWPMW1HO4zVBA/S3jKHV1ly2XrSF8uV47lnbmr6K8HWxFcjRC
+umiYrUVo4nT0Q1w6P90=
 
   19. https://docs.wooclap.com/fr/articles/674932-les-participants-peuvent-ils-repondre-plusieurs-fois-a-la-meme-question
   20. https://docs.wooclap.com/fr/articles/3096187-comment-supprimer-des-reponses-indesirables-dans-wooclap
   21. https://github.com/Alir3z4/stop-words/blob/master/english.txt
   22. https://docs.wooclap.com/fr/articles/674942-puis-je-ajouter-un-compte-a-rebours
-  23. https://downloads.intercomcdn.com/i/o/uw5zb74r/1611379284/69faa5828d2e77ae7a7946b2766b/2025-07-09_14-51-36.png?expires=1767151800&signature=cf88d04a1dcdfddea8b3861518d0a0659ebdf40dc9f355c411b92b8cfe068091&req=dSYmF8p5lINXXfMW1HO4zR7Si1Ul6jSLOcc9P2cdreSVRvNcsa+2K89JLwUM
-YEcCNHEhyaEsnaRqWJs=
+  23. https://downloads.intercomcdn.com/i/o/uw5zb74r/1611379284/69faa5828d2e77ae7a7946b2766b/2025-07-09_14-51-36.png?expires=1767316500&signature=e0daad73c7ad652ac2120cf8725d19152d276193bf2c467b1829877890e6ea98&req=dSYmF8p5lINXXfMW1HO4zR7Si1Un7jOGOcc9P2cdreRdEkbhtzh5dLQCclbJ
+ufKrN/1v8afaRhkRqU0=
 
   24. https://github.com/Alir3z4/stop-words/blob/master/english.txt
-  25. https://downloads.intercomcdn.com/i/o/1110232999/73e864e3cdb63062e4fe9f84/FR+Want+to+dive+deeper.png?expires=1767151800&signature=900638dc18cb3e2d9fbf55df9019eedeff2e411e06c5bfde3c8036604d88f258&req=dSEmFst9n4hWUPMW1HO4zXnrhKtxWHr98E5vpwu8Nf0T7fbIleTgEmN279de
-+Q5YqGq5lZdjpI5eF0o=
+  25. https://downloads.intercomcdn.com/i/o/1110232999/73e864e3cdb63062e4fe9f84/FR+Want+to+dive+deeper.png?expires=1767316500&signature=451b4de36437b611b20a824dcbccb994f25bc5c757d75fecc25a3452e0f82be4&req=dSEmFst9n4hWUPMW1HO4zXnrhKtzXH3w8E5vpwu8Nf0Ka3hb+5/gWTfZHjqA
+NpaEJujEZQuusvS5rps=
 
   26. https://docs.wooclap.com/fr/articles/3096187-comment-supprimer-des-reponses-indesirables-dans-wooclap
   27. https://docs.wooclap.com/fr/articles/3548119-comment-utiliser-les-questions-rapides

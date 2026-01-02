@@ -128,7 +128,7 @@ Supports d'animations
      * [67]determination
      * [68]eau
 
-     2.3k
+     2.4k
    (BUTTON)
    [69]Partager sur twitter
    [70]Partager sur facebook
@@ -165,7 +165,7 @@ La course aux déchets
    [84]Ecolothèque Montpellier Méditerranée Métropole Repéré
    ressource publiée le 05/01/2022
    [85][lg_logo_z%C3%A9ro_d%C3%A9chets_1084010651.png]
-    2163
+    2171
    [86]
 
 Vers le zéro déchet

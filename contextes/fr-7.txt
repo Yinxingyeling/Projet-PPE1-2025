@@ -1,0 +1,111 @@
+   [11]Fonctionnalités et paramètres de l'événement
+   [12]Types de questions
+   Nuage de mots
+
+Nuage de mots
+
+   Apprenez-en plus sur le fonctionnement et les différentes règles du
+   nuage de mots.
+   Mis à jour il y a plus de 5 mois
+   Table des matières
+
+Créer un nuage de mots interactif dans Wooclap pour des présentations
+dynamiques
+
+   Le [13]Nuage de mot est une fonctionnalité dynamique qui permet
+   d'attirer l'attention et de faire apparaître les mots essentiels qui
+   caractérisent une notion ou un concept. Plus un terme revient, plus il
+--
+   D%0A]
+
+   Attention : Le Nuage de mots est affiché uniquement sur l’écran de
+   présentateur et non sur le dispositif de vos participants. Ces derniers
+   peuvent seulement envoyer leur(s) réponse(s). Nous vous conseillons
+   alors, en présentiel ou à distance, de partager votre écran avec eux
+   afin qu’ils puissent également voir le nuage de mots se construire au
+   fur et à mesure.
+
+--
+   i8n09M%3D%0A]
+
+Créer un Nuage de mots
+
+   Commencez par ouvrir l'événement auquel vous souhaitez ajouter un nuage
+   de mots. Vous pouvez également partir de zéro en créant un tout nouvel
+   événement.
+
+   Une fois dans votre événement, cliquez sur Nouvelle question et
+   sélectionnez Nuage de mots sous Recueillir des feedbacks.
+
+   [16][2025-08-05_14-48-51+%281%29.gif?expires=1767316500&amp;signature=4
+--
+   Vous cherchez de l'inspiration ? Rendez-vous sur la [17]page des
+   modèles et téléchargez l'un des modèles existants pour le type de
+   question Nuage de mots !
+
+Personnalisez le Nuage de mots
+
+   Une fois que vous avez ouvert votre Nuage de mots, vous pouvez le
+   personnaliser et l'adapter à vos besoins. Commencez par ajouter votre
+   question pour vos participants (1).
+
+   Vous pouvez éventuellement ajouter une ou plusieurs réponses correctes
+   au Nuage de mots (2). Si tel est le cas, les participants seront notés
+   en fonction de leur(s) réponse(s).
+
+--
+     * Envoi d'images
+       Veuillez noter que les images n'apparaîtront pas sous forme de
+       nuage, comme c'est le cas pour les mots. Vous devrez afficher les
+       résultats sous forme de grille ou de liste pour voir les images
+       envoyées.
+--
+     * [22]Compte à rebours
+
+Afficher le nuage de mots
+
+   Une fois que vous avez cliqué sur « Afficher maintenant » ou « Afficher
+--
+   à répondre.
+
+   Par défaut, les résultats s'affichent sous forme de nuage de mots (1).
+   Il est également possible d'afficher les résultats sous forme de liste
+   (2) ou de grille (3).
+--
+Les transformations que nous appliquons
+
+   Pour que le nuage de mots reste propre et bien structuré, nous
+   appliquons certaines règles et transformations à son affichage.
+     * La ponctuation (, ; . ? ! :) est remplacée par des espaces.
+--
+     * Les accents sont fusionnés par défaut.
+
+   La version la plus courante d'un mot sera affichée dans le nuage de
+   mots. Par conséquent, si une personne envoie "Beyoncé" et que deux
+   personnes envoient "beyonce", c'est cette dernière (beyonce) qui sera
+--
+   affichés comme décrit précédemment. Si l'option Fusionner les accents
+   n'a pas été activée, "Beyoncé" et "Beyonce" seront considérés comme
+   deux mots différents et apparaîtront comme tels dans le nuage de mots.
+   ​
+
+--
+     * Outre les transformations décrites ci-dessus (concernant les
+       majuscules et les accents), deux mots écrits différemment seront
+       affichés individuellement dans le nuage de mots. Ainsi, des mots
+       comme "école" et "écoles" seront affichés séparément.
+     * Si l'option "Modérateur" est activée, les réponses de vos
+--
+       participants d'envoyer autant de réponses qu'ils le souhaitent, ce
+       qui est généralement utile pour afficher les différents concepts
+       sous forme de nuage de mots.
+    2. Activez l'affichage "Nuage de mots" : dans ce cas, les réponses
+       seront immédiatement affichées sous forme de nuage de mots.
+    3. Activez l'option "Liker les réponses" : les participants pourront
+       alors voir les réponses des autres et cliquer sur un petit cœur
+--
+       ​
+
+   Les options "Réponses multiples" et "Afficher le nuage de mots" sont
+   activées par défaut lors de la création de la question.
+

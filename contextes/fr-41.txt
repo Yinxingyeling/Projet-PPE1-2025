@@ -1,0 +1,82 @@
+   [136]EDS.fr EDS.fr
+
+Qu’est-ce que l’informatique en nuage ?
+
+   Baptiste LEMOINE Baptiste LEMOINE [137]Baptiste LEMOINE22/10/2024[138]0
+--
+
+   EN BREF
+     * Definition: L’informatique en nuage est la prestation de services
+       informatiques à la demande via l’Internet.
+     * Services Cloud: Inclus IaaS (Infrastructure as a Service), PaaS
+--
+     * Emplacement: Les données et applications sont stockées sur des
+       serveurs distants, non sur un ordinateur local.
+     * Type de Nuage: Peut être public, privé ou hybride, impliquant
+       plusieurs environnements interconnectés.
+     * Besoin: Permet l’externalisation des données et des processus,
+--
+       autour de la sécurité des données.
+
+   L’informatique en nuage, ou cloud computing, est une innovation
+   technologique majeure qui transforme la façon dont les services
+   informatiques sont fournis et consommés. En simplifiant le concept, il
+   s’agit de mettre à disposition des infrastructures, des plateformes et
+   des logiciels via Internet, sur des serveurs distants et
+   interconnectés, que l’on appelle « nuage ». Les données et applications
+   ne sont donc plus stockées sur des machines physiques locales, mais
+   dans cet environnement virtuel. Trois catégories de services se
+--
+   entreprise.
+
+   L’informatique en nuage, souvent désignée sous le terme anglophone de
+   cloud computing, est une méthode moderne de gestion des ressources
+   informatiques. Elle permet d’accéder à des services informatiques tels
+   que des applications, des réseaux et des bases de données via Internet.
+   Cet article explore comment l’informatique en nuage fonctionne, ses
+   principales catégories de services, ses divers modèles de déploiement
+   et les avantages qu’elle offre par rapport à l’informatique locale.
+
+Définition de l’informatique en nuage
+
+   L’informatique en nuage consiste à fournir des services IT à la demande
+   via Internet. Au lieu d’héberger des logiciels ou des bases de données
+   sur un serveur local, les entreprises peuvent externaliser ces
+--
+Catégories de services dans le cloud
+
+   L’informatique en nuage se divise en trois principales catégories de
+   services : IaaS, PaaS et SaaS.
+
+--
+Modèles de déploiement du cloud
+
+   Plusieurs modèles de déploiement existent dans l’informatique en nuage,
+   chacun avec ses propres caractéristiques. On distingue généralement le
+   cloud public, le cloud privé et le cloud hybride.
+--
+   public, offrant flexibilité et optimisation des ressources.
+
+Avantages de l’informatique en nuage
+
+   Les avantages de l’informatique en nuage sont multiples, notamment en
+   termes de réduction des coûts, amélioration de la flexibilité et de
+   l’évolutivité, et maintien à jour des dernières innovations techniques.
+--
+   travailler et de collaborer.
+
+L’informatique en nuage : Comparaison des services
+
+   Type de Service Description
+--
+   utilisateurs
+   Private Cloud Environnement sécurisé pour une organisation unique
+   Hybrid Cloud Combinaison de nuages publics et privés pour flexibilité
+   et sécurité
+   Hébergement de Données Stockage distant de fichiers sur serveurs
+--
+
+   S'abonner
+   [154]cloud computing [155]informatique en nuage [156]serveurs
+   [157]stockage en ligne [158]technologie
+   [159]Suivre sur X (Twitter)

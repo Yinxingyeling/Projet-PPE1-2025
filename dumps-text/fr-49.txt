@@ -1,0 +1,287 @@
+   IFRAME: [1]https://www.googletagmanager.com/ns.html?id=GTM-T4FDZP2
+
+   [2]Aller au contenu
+     * [3]Kinaze
+     * [4]Blogue
+     * [5]Contact
+
+   Ali Kinaze, digital analytics consultant - capture standard data &
+   optimize business goals
+
+   Analyses, stratégies, gestion & optimisation
+
+Les risques du cloud computing
+
+   Quels sont les facteurs à considérer pour choisir (ou non) d’utiliser
+   le « cloud computing » dans son organisation?
+   Publié le 2009, Oct 13 par [6]Ali Kinaze 9 minutes de lecture
+   Les risques du cloud computing - kinaze Les risques du cloud computing
+   - kinaze
+   Table des matières
+     *
+          +
+               o [7]Qu’est-ce que le « cloud computing » ?
+               o [8]Les avantages du « cloud computing »
+               o [9]Les inconvénients du « cloud computing »
+               o [10]L’importance et les limites des politiques de
+                 confidentialité
+               o [11]Prendre le risque d’utiliser les services du « cloud
+                 computing » dans son entreprise?
+
+   Le [12]« cloud computing » (ou informatique dans les nuages, ou
+   informatique dématérialisée) est de plus en plus populaire et il semble
+   que cette popularité ne soit pas une mode passagère. Déjà, en 2006,
+   Gartner prévoyait que [13]plus de 25% des logiciels qui utilisés en
+   2011 seraient des applications d’informatique dématérialisée.
+   J’examinerai aujourd’hui ce qu’est l’informatique dématérialisée et
+   quels en sont les avantages et les inconvénients. Cette réflexion me
+   permettra de proposer des facteurs à considérer pour choisir (ou non)
+   d’utiliser le « cloud computing » dans son organisation. Comme nous le
+   verrons, la gestion du risque relié à l’utilisation de l’informatique
+   dans les nuages ne doit pas être prise à la légère.
+
+Qu’est-ce que le « cloud computing » ?
+
+   Du point de vue technique, l’informatique dématérialisée est
+   essentiellement l’utilisation du réseau Internet afin de combler des
+   besoins en informatique. Au lieu de passer par un ordinateur local pour
+   accéder à des services informatiques, on passe tout simplement par les
+   nuages virtuels de l’informatique dématérialisée où sont branchés des
+   ordinateurs en réseau. L’ordinateur de bureau n’est plus qu’un lieu de
+   passage pour accéder à des services qui sont sur le Web. Les nuages de
+   l’informatique dématérialisée sont donc essentiellement une métaphore
+   pour vulgariser la complexité de ce qui se passe avec l’information des
+   organisations dans les réseaux virtuels du Web.
+
+   Cloud Computing Explained | Source: Youtube
+
+   Le modèle d’affaires de l’informatique dématérialisé est fondé sur la
+   location de services sur le Web. Ces services en ligne peuvent être des
+   infrastructures (IaaS – Infrastructure as a service), des plateformes
+   (PaaS – Platform as a service) ou des logiciels (SaaS – Software as a
+   service). Avec la popularité du Web 2.0, ce sont surtout les services
+   de logiciels de « cloud computing » qui retiennent l’attention du grand
+   public. L’ensemble des applications de Google pour la gestion des
+   opérations ([14]Google apps), les suites de management de [15]37signals
+   ou bien l’outil de gestion des relations clients (CRM) de
+   [16]Salesforce sont de bons exemples d’applications dans les nuages.
+   Certains sont gratuits (pour combien de temps?), d’autres coûtent plus
+   ou moins d’argent tout dépendant de la fréquence de leur utilisation,
+   mais tous ont la particularité d’être localisés virtuellement sur le
+   Web et non pas physiquement dans un ordinateur. Il est important de
+   comprendre que l’informatique dématérialisée rend l’information des
+   organisations disponible à l’extérieur de celles-ci.
+
+Les avantages du « cloud computing »
+
+   L’informatique dématérialisée est extensible, car on peut faire grandir
+   le réseau ou rapetisser le réseau qui en alimente les systèmes, tout
+   dépendant des besoins des organisations. C’est ainsi qu’une
+   organisation peut accéder à la puissance des systèmes informatiques
+   seulement quand elle en a besoin. On peut comparer l’extensibilité du «
+   cloud computing » à notre consommation d’électricité. En hiver,
+   lorsqu’il fait froid, nous avons besoin de consommer plus d’électricité
+   pour nous réchauffer alors qu’en été nous diminuons notre consommation
+   d’énergie. Pour le dire autrement, à quoi bon acheter un taxi lorsqu’on
+   peut se contenter de le payer seulement quand on l’utilise. Cette
+   extensibilité confère une dimension écologique à l’utilisation de
+   l’informatique dématérialisée.
+
+   L’informatique dans les nuages est aussi instantanée. Tel un
+   interrupteur électrique, ses services peuvent être déployés «
+   maintenant » quand une organisation en a besoin. Contrairement aux
+   solutions maison qui prennent souvent du temps à déployer, les
+   solutions de l’informatique virtuelle peuvent être mises en place
+   rapidement et sont parfaitement adaptées à l’environnement rapide d’une
+   économie globale.
+
+   L’extensibilité et l’instantanéité du « cloud computing » permettent
+   aux organisations de réduire les coûts dans la mise en place de leurs
+   systèmes d’information. Au niveau des équipements, les organisations
+   peuvent réduire leurs dépenses d’achats dans les systèmes qui sont peu
+   utilisés. Au niveau des ressources, puisque les systèmes sont virtuels,
+   les employés n’ont pas besoin de les maintenir et n’ont même pas besoin
+   d’en connaître les langages de programmation. C’est ainsi qu’ils
+   peuvent consacrer leur temps à des tâches beaucoup plus importantes
+   pour la survie de l’organisation.
+
+Les inconvénients du « cloud computing »
+
+   Les principales critiques du « cloud computing » concernent sa
+   stabilité et sa sécurité. Qu’est-ce qui se passe dans les nuages des
+   réseaux de l’informatique dématérialisée? L’utilisation de
+   l’informatique dans les nuages comporte un double problème de propriété
+   : la propriété des systèmes d’information et la propriété des
+   informations de ces systèmes.
+
+   L’avantage de la virtualité des systèmes d’information de « cloud
+   computing » est aussi un désavantage, car elle force l’organisation à
+   dépendre de l’extérieur. Cette dépendance à un troisième parti peut
+   favoriser l’instabilité au sein d’une organisation. D’une part, une
+   organisation n’a aucun contrôle sur les développements futurs des
+   services virtuels de son fournisseur externe. Qu’arrive-t-il si le
+   fournisseur décide de mettre fin au développement de son service? Ou
+   bien si de nouveaux développements rendent incompatibles les services
+   loués avec les systèmes de l’organisation? Ou bien si le fournisseur se
+   fait acheter par une autre entité qui décide d’en saboter les
+   développements afin de favoriser une autre solution? Ou bien si de
+   nouveaux développements D’autre part, il est impossible pour une
+   organisation de surveiller les opérations de ses fournisseurs de
+   services virtuels. Comment une organisation peut-elle savoir si un
+   fournisseur prend vraiment au sérieux le contrôle de ses opérations? Et
+   de toute façon, la virtualité et la décentralisation des services du
+   fournisseur rendent difficiles le contrôle des opérations, même de
+   l’interne.
+
+   Où est donc située l’information de l’informatique dématérialisée? Dans
+   les nuages, mais où dans les nuages? Et qui a donc accès à ces fameux
+   nuages? Bien qu’il soit faible, [le risque d’intrusion des systèmes
+   d’information par des pirates informatiques mal intentionnés est une
+   réalité][6]. L’attaque des réseaux informatiques des nuages et la mise
+   hors fonction de leurs services virtuels sont des risques préoccupants
+   : l’absence d’un service pendant quelques minutes peut signifier la
+   perte de plusieurs millions de dollars pour une organisation. L’accès
+   aux bases de données des informations qui transitent dans les nuages
+   lorsqu’elles se retrouvent dans les ordinateurs des fournisseurs de
+   services est encore plus inquiétant. Car s’il est difficile de
+   s’introduire dans les systèmes virtuels de l’informatique
+   dématérialisée, il peut être beaucoup plus facile de le faire une fois
+   que l’information n’est plus dans les nuages.
+
+L’importance et les limites des politiques de confidentialité
+
+   Il est extrêmement important de s’informer des politiques de
+   confidentialité des fournisseurs de services de « cloud computing »
+   avant d’en utiliser les services. La question de la territorialité des
+   serveurs et des bases de données sur lesquels transitent ou sont
+   stockées les informations ne doit pas être prise à la légère. Un
+   Canadien qui utilise les services d’informatique virtuelle d’une
+   entreprise américaine doit non seulement s’informer des politiques et
+   des lois d’accès à l’information aux États-Unis, mais doit aussi
+   comprendre si ces règles s’appliquent aussi au Canada. Ce qui complique
+   les choses est qu’à l’ère d’une économie globale et mondiale, il n’est
+   pas rare qu’un fournisseur de services de « cloud computing » américain
+   utilise des serveurs et des bases de données localisés en Inde ou en
+   Europe de l’Est. Quelles sont les politiques de confidentialité qui
+   priment? Celles des États-Unis ou celles des pays dans lesquels
+   transitent ou sont stockées les informations? Il peut être extrêmement
+   compliqué de déterminer qui sont les responsables en cas de désastre,
+   ce qui n’est pas près de rassurer les organisations qui utilisent des
+   services d’informatique virtuelle ou leurs clients, avec qui elles font
+   affaires.
+
+Prendre le risque d’utiliser les services du « cloud computing » dans son
+entreprise?
+
+   Malgré les risques et les inconvénients de l’informatique
+   dématérialisée, il est incontestable que ses avantages peuvent procurer
+   un effet de levier aux entreprises qui en utilisent les services. La
+   question de savoir si le désavantage de l’insécurité des systèmes
+   d’information de l’informatique dématérialisée est plus important que
+   l’avantage de la réduction de leurs coûts d’opérations est un faux
+   débat qui ne peut pas être résolu. Le noir sera toujours noir et le
+   blanc, toujours blanc.
+
+   Afin de nuancer ce débat, le [17]Gardien Virtuel propose une
+   [18]méthode pour aider les entreprises à choisir d’utiliser (ou non)
+   l’informatique dans les nuages. Avant même de réfléchir au « cloud
+   computing », les entreprises doivent déterminer quels sont les services
+   qui sont essentiels à la réalisation de leur mission et quels sont les
+   services qui n’ont qu’un rôle de soutien à la réalisation de cette
+   mission. Puisque les services de soutien sont moins importants que les
+   services de mission, il pourrait être envisagé de profiter des
+   avantages du « cloud computing » pour ceux-ci, tout en prenant le
+   risque calculé d’être pénalisé par les désavantages de ses
+   inconvénients. C’est ainsi qu’il serait préférable de ne pas utiliser
+   l’informatique dématérialisée pour les systèmes d’information de la
+   vente s’ils sont essentiels au succès des stratégies d’affaires d’une
+   entreprise. L’interruption de ce service ou l’accès de l’information
+   par un troisième parti pourrait avoir des conséquences désastreuses
+   pour l’organisation. Dans le même sens, il pourrait être déterminé que
+   l’importance du service de courrier électronique qu’utilisent les
+   employés est secondaire, que son interruption éventuelle ne serait pas
+   désastreuse au bon fonctionnement de l’entreprise, et donc qu’il serait
+   envisageable que l’infrastructure de ce système d’information réside
+   dans les nuages de l’informatique dématérialisée.
+
+   La décision d’utiliser ou non les systèmes d’information du « cloud
+   computing » repose sur l’analyse des risques inhérents à cette
+   utilisation. Une entreprise qui veut utiliser les services du « cloud
+   computing » doit se demander si la responsabilité des risques du «
+   cloud computing » n’est qu’un contrat entre elle et son fournisseur
+   (B2B) ou bien si elle fait aussi partager ce risque à ses clients
+   externes (B2C). Lorsque l’informatique dématérialisée ne concerne que
+   les opérations internes de l’entreprise, celle-ci peut déterminer
+   jusqu’à quel point elle est prête à partager les risques avec son
+   fournisseur afin de profiter de l’effet de levier des avantages du «
+   cloud computing ». Il semble cependant qu’il soit beaucoup plus délicat
+   de faire partager ce risque aux clients externes de l’entreprise. Si,
+   par exemple, un client veut faire un achat en ligne chez Futureshop,
+   c’est avec Futureshop qu’il veut faire affaire et non pas avec le
+   fournisseur de service transactionnel de Futureshop.
+
+   Quelle est votre expérience avec l’informatique dans les nuages? Est-ce
+   que votre organisation utilise des applications de cloud computing?
+   Est-ce que vous pensez qu’il serait préférable que certaines
+   informations de votre organisation ne se retrouvent pas dans les
+   nuages? Si oui, lesquelles et pourquoi? Finalement, est-ce que votre
+   organisation possède une politique de sécurité informatique? N’hésitez
+   pas à laisser vos commentaires.
+
+   La photo des nuages provient de la collection personnelle d’Ali Kinaze
+
+   [6]: [19]http://evilpacket.net/2009/jul/9/basecamp- one-wrong-click/
+   Catégories: [20]Analyse, [21]systèmes d'information
+   Étiquettes: [22]Besoin, [23]développements, [24]Fournisseur,
+   [25]Information, [26]Nuage, [27]Organisation, [28]Service
+   [29]Précédent Billet précédent: Organisations et nouvelles technologies
+   | marketing, informatique, Web
+   [30]Billet suivant: Méthodes orientée objet | structure | logiciels
+   libres et progicielsSuivant
+   Please enable JavaScript to view the [31]comments powered by
+   Disqus.[32]comments powered by Disqus
+     * [33]Ouvrir le compte Twitter dans un nouvel onglet
+     * [34]Ouvrir le compte Linkedin dans un nouvel onglet
+     * [35]Ouvrir le compte Facebook dans un nouvel onglet
+     * [36]Contacter par mail
+
+   © 1999-2018 Ali Kinaze | Le Web est un NomadSystem Inc.
+
+Références
+
+   1. https://www.googletagmanager.com/ns.html?id=GTM-T4FDZP2
+   2. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-49.html#main
+   3. file:///
+   4. file:///blog/
+   5. file:///contact/
+   6. file:///authors/kinaze
+   7. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-49.html#qu-rsquo-est-ce-que-le-cloud-computing
+   8. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-49.html#les-avantages-du-cloud-computing
+   9. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-49.html#les-inconvénients-du-cloud-computing
+  10. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-49.html#l-importance-et-les-limites-des-politiques-de-confidentialité
+  11. file:///home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-49.html#prendre-le-risque-d-rsquo-utiliser-les-services-du-cloud-computing-dans-son-entreprise
+  12. https://www.isiq.ca/entreprise/publications/bulletin/2009/bulletinISIQ_sept2009.htm
+  13. http://www.gartner.com/it/page.jsp?id=496886
+  14. http://www.google.com/apps/
+  15. http://37signals.com/
+  16. http://www.youtube.com/watch?v=ae_DKNwK_ms
+  17. http://www.gardienvirtuel.com/
+  18. http://www.gardienvirtuel.com/fichiers/documents/publications/Cloud_computing_Informatique_dematerialisee.pdf
+  19. http://evilpacket.net/2009/jul/9/basecamp-
+  20. file:///categories/analyse
+  21. file:///categories/systèmes-dinformation
+  22. file:///tags/besoin
+  23. file:///tags/développements
+  24. file:///tags/fournisseur
+  25. file:///tags/information
+  26. file:///tags/nuage
+  27. file:///tags/organisation
+  28. file:///tags/service
+  29. file:///organisations-et-nouvelles-technologies/
+  30. file:///la-documentation-des-systemes-information/
+  31. https://disqus.com/?ref_noscript
+  32. https://disqus.com/
+  33. https://twitter.com/kinaze
+  34. https://linkedin.com/in/alikinaze
+  35. https://facebook.com/kinaze
+  36. mailto:data@intelligenc.es

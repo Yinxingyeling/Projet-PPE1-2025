@@ -1,0 +1,339 @@
+
+   [25]Accueil » [26]Air » [27]Phénomènes météorologiques » Que se
+   passe-t-il dans les nuages ?
+
+Que se passe-t-il dans les nuages ?
+
+   [28]PDF 11-11-2022
+
+   Brouillard, cumulonimbus, cirrus… Les nuages sont présents dans
+   l’atmosphère à des altitudes très diverses et présentent une grande
+   variété de caractéristiques de forme, d’aspect, de température et de
+   composition. L’[29]Atlas des Nuages, publié par l’Organisation Mondiale
+   de la Météorologie, présente le système de référence de classification
+   et d’identification des nuages et des phénomènes atmosphériques
+   associés. Dans cet article, nous allons voir ce que sont les nuages et
+   comment ils se forment, leur évolution et les moyens de prévision du
+   temps.
+     * [30]1. Qu’est-ce qu’un nuage ?
+     * [31]2. Conditions de formation des nuages
+     * [32]3. Formation des gouttes d’eau dans les nuages
+     * [33]4. Formation des petits cristaux de glace dans les nuages
+     * [34]5. Évolution du nuage et formation des précipitations
+     * [35]6. Représentation des nuages dans les modèles de prévision
+       numérique du temps
+     * [36]7. Messages à retenir
+
+1. Qu’est-ce qu’un nuage ?
+
+   Un nuage est composé d’air, de vapeur d’eau et de particules d’eau
+   liquide ou solide en suspension dans l’atmosphère. Ce sont ces
+   particules, appelées hydrométéores, dont les caractéristiques (taille,
+--
+   phénomènes lumineux remarquables (lire [38]Spectaculaires arcs-en-ciel,
+   [39]Halos atmosphériques). La masse d’eau condensée contenue dans les
+   nuages est considérable et atteint par exemple plus de 50 tonnes dans
+   un cumulus de beau temps.
+
+   Vidéo d’Alain Herrault  [40]Nuages dans la vallée de l’Isère au
+   voisinage de Grenoble
+
+--
+     * De petits déplacements tels que la turbulence ou de faibles
+       ascendances convectives suffiront à maintenir en suspension les
+       gouttelettes et les petits cristaux et expliquent que les nuages
+       (cumulus, cirrus…) ne tombent pas.
+     * Des ascendances plus fortes, de plusieurs mètres par seconde, comme
+--
+   verglaçante. [Source : Pixabay, libre de droits]La variété de forme des
+   hydrométéores témoigne de leur histoire et de leurs caractéristiques.
+   Si les petites gouttelettes de nuages restent sphériques sous l’effet
+   de la forte tension de surface, les gouttes de pluie sont d’autant plus
+   aplaties qu’elles sont grosses : plus elles sont grosses, plus elles
+--
+   la forme devient irrégulière.
+
+   On observe le plus souvent les hydrométéores liquides dans les nuages à
+   température positive. Cependant, les gouttes d’eau ne congèlent pas
+   facilement seules à des températures faiblement négatives, et il n’est
+   pas rare de rencontrer de l’eau liquide dans des nuages à des
+   températures pouvant aller jusqu’à -30°C. On parle alors d’eau liquide
+   surfondue, et cet état est instable : les gouttelettes gèleront très
+--
+
+   De même, si l’on observe généralement les hydrométéores glacés dans les
+   nuages à température négative, les hydrométéores glacés précipitants ne
+   fondent pas instantanément lorsqu’ils chutent dans une masse d’air à
+   température positive. Ainsi, les phases liquide et solide de l’eau
+   peuvent cohabiter et interagir dans les nuages. Ce sont ces
+   interactions qui peuvent conduire à la formation d’hydrométéores givrés
+   tels que le grésil et la grêle.
+
+2. Conditions de formation des nuages
+
+   [43]fonctionnement nuages - eau glace nuages - vapeur eau nuages Figure
+   2. Rapport de mélange saturant en vapeur d’eau dans l’atmosphère à
+   proximité d’une surface plane d’eau liquide (bleu) ou de glace (vert),
+--
+   d’eau, se refroidit, le rapport de mélange saturant diminue jusqu’à
+   être égal à celui de la parcelle d’air (1). Si le refroidissement
+   continue, un nuage peut se former par condensation de l’excès de vapeur
+   d’eau (2). [Source : © Benoit Vié]L’atmosphère est composée d’un
+   mélange d’air sec (azote, oxygène…) et de vapeur d’eau, invisible à
+--
+   condensation ni évaporation même en présence d’eau liquide.
+
+   Ainsi, un nuage se forme lorsqu’une masse d’air humide se refroidit.
+   Dans un premier temps, elle se refroidit sans former de nuage (Figure
+   2, 1), jusqu’à atteindre la saturation en vapeur d’eau. Si le
+   refroidissement continue, la vapeur d’eau en excès pourra condenser
+--
+   paysage vallonné. [Source : pixabay, libre de droits]De nombreux
+   mécanismes peuvent refroidir une masse d’air et conduire à la formation
+   de nuages. Le plus simple à appréhender est le refroidissement par la
+   surface, lorsque la température de celle-ci est inférieure à la
+   température de l’air. Toutefois, le mécanisme le plus fréquent de
+   refroidissement dans l’atmosphère conduisant à la formation de nuages
+   est le soulèvement de masses d’air, qui subissent alors une détente (la
+   pression atmosphérique diminuant avec l’altitude) et donc un
+   refroidissement. Parmi les différents mécanismes conduisant à la
+   formation de nuages, et les types de nuages qui en résultent, on peut
+   par exemple citer :
+     * Refroidissement en surface et formation de brouillards :
+--
+   2.0)]Lorsqu’une masse d’air humide est transportée vers des montagnes,
+   elle peut être forcée à s’élever. Le refroidissement associé à ce
+   soulèvement peut conduire à la formation de nuages et de précipitations
+   sur la crête montagneuse, qui assèchent donc la masse d’air. En aval,
+   l’air plus sec redescend et subit au contraire une compression,
+--
+   cumulus, par des ascendances convectives dans la couche limite. L’air
+   chaud et humide soulevé est refroidi jusqu’à ce que l’activation de
+   noyaux de condensation provoque la formation de nuages. La condensation
+   de la vapeur sur les gouttelettes contribue à réchauffer la parcelle
+   d’air et augmenter sa flottabilité (liée à la différence de densité
+   entre la parcelle d’air et son environnement), renforçant ainsi
+   l’ascendance et le développement du nuage. Les vitesses verticales
+   atteintes dans les orages sont très importantes et peuvent conduire à
+   la formation de très grosses particules, comme de la grêle (Figure 5).
+--
+   Cette circulation s’accompagne donc d’une zone de subsidence d’air sec
+   (asséché par les fortes précipitations créées par les ascendances
+   convectives) qui empêche la formation de nuages, ce qui explique
+   l’extrême aridité de certaines régions tropicales telles que le désert
+   du Sahara.
+--
+   surface) et de dépressions (zones de basses pressions de surface, lire
+   [53]C[54]yclones tropicaux) module la circulation atmosphérique et
+   l’occurrence de nuages. Les déplacements d’air sont initiés par les
+   gradients de pressions, des anticyclones vers les dépressions. Tout
+   comme pour la Zone de Convergence Inter-Tropicale, cette circulation
+   horizontale en basses couches se traduit par la mise en place de
+   mouvements verticaux : des subsidences au niveau des anticyclones, qui
+   empêchent la formation de nuages, et des ascendances au niveau des
+   dépressions, qui les favorisent.
+
+--
+
+   Dans les deux cas, le soulèvement forcé de l’air chaud, moins dense,
+   provoque la formation de nuages précipitants.
+
+   Ainsi, les nuages sont le plus souvent la conséquence des forçages
+   extérieurs que sont la circulation atmosphérique et le chauffage
+   solaire. Toutefois, les nuages peuvent aussi rétroagir sur leur
+   environnement. Les nuages ont ainsi un effet radiatif important qui
+   peut modifier le bilan d’énergie de l’atmosphère. De jour, ils
+   réfléchissent et absorbent une partie du rayonnement solaire, limitant
+   le réchauffement en surface et l’augmentant dans le nuage même. De
+   nuit, ils absorbent une part importante du rayonnement infra-rouge émis
+   par la surface, et émettent leur propre rayonnement en fonction de leur
+   température, limitant ainsi fortement le refroidissement en surface.
+   Ainsi, la présence de nuages en altitude peut par exemple empêcher la
+   formation de brouillard en surface.
+
+   Les nuages convectifs peuvent également influencer directement la
+   dynamique atmosphérique. Les fortes ascendances et subsidences
+   impliquées dans ces phénomènes violents peuvent déplacer d’importantes
+--
+   on/intemperies-successives-durant-l-automne-2014/p32]
+
+3. Formation des gouttes d’eau dans les nuages
+
+   Dans l’atmosphère libre, l’échange de vapeur n’a pas lieu avec une
+--
+   sec de l’aérosol, permet de déterminer la sursaturation critique de
+   l’aérosol, c’est-à-dire la sursaturation ambiante à partir de laquelle
+   l’aérosol sera activé en gouttelette d’eau nuageuse.
+
+4. Formation des petits cristaux de glace dans les nuages
+
+   [58]formation cristaux glace nuages Figure 10. Représentation
+   schématique de la formation des cristaux de glace dans un nuage.[Source
+   : !Original: Pre2grkVector: JoKalliauer / CC BY-SA
+   aérosols, les noyaux glaçogènes, favorisent la formation de cristaux de
+--
+
+   Toutefois, les observations conjointes de noyaux glaçogènes et de
+   cristaux de glace dans les nuages indiquent systématiquement un écart
+   important, les cristaux étant souvent beaucoup plus nombreux que les
+   noyaux glaçogènes. Il existe donc d’autres mécanismes de formation de
+--
+       fragments de glace lors de la congélation de grosses gouttes de
+       pluie surfondues. La complexité des processus impliqués dans la
+       génération et l’évolution des nuages en phase glacée ou mixte rend
+       leur prévision difficile.
+
+5. Évolution du nuage et formation des précipitations
+
+   [59]schema nuage - schema fonctionnement nuage - processus nuage -
+   cycle vie nuage Figure 11. Représentation schématique des processus
+   microphysiques dirigeant l’évolution du nuage. Le nuage est d’abord
+   formé par activation / nucléation des aérosols en gouttelettes et
+   cristaux. Ensuite, les processus de condensation/évaporation
+   (déposition/sublimation), de collision et collection, et la
+   sédimentation conduisent à la formation de plus gros hydrométéores et
+   aux précipitations. [Source : © Benoit Vié]Une fois le nuage formé, son
+   évolution est dirigée par l’ensemble des interactions entre les
+   hydrométéores et la vapeur d’eau (Figure 11). Le premier des processus
+--
+   évaporation (sublimation) entre la vapeur et les gouttelettes
+   (cristaux). Ainsi, si l’ascendance de la masse d’air et son
+   refroidissement se poursuivent après la formation du nuage, la vapeur
+   d’eau en excès dans l’atmosphère continuera de se condenser sur les
+   gouttelettes présentes qui vont donc grossir. Au contraire, si
+--
+   vapeur saturante par rapport à la glace est inférieure à la pression de
+   vapeur saturante par rapport à l’eau liquide. Ainsi, dans le cas
+   particulier d’un nuage à température négative où cohabitent des
+   gouttelettes et des petits cristaux, les cristaux auront tendance à
+   capturer de la vapeur d’eau par déposition, aux dépens des gouttelettes
+   qui s’évaporeront : c’est l’effet Bergeron. Cet effet est par exemple
+   responsable des nuages de type [60]cavum (Figure 12).
+
+   L’autre ensemble de processus concerne les interactions de collision et
+   coalescence entre différents hydrométéores. Tous les hydrométéores
+   présents dans l’atmosphère sont en mouvement, et les chocs entre
+   particules dirigent l’évolution du nuage en modifiant la taille et le
+   type des hydrométéores qui le composent, ainsi que sa température lors
+   des changements de phase de l’eau. Lors de chaque collision, les
+--
+   de glace).
+
+   [61]nuage cavum Figure 12. Un nuage de type cavum observé le 17 août
+   2008 à environ 20 km au sud de Linz (Autriche). [Source : H. Raab
+   (User:Vesta) / CC BY-SA
+   du nuage, tant que celui-ci est formé de petites gouttelettes ou
+   cristaux présentant peu de différences de taille, les collisions sont
+   liées aux petits mouvements turbulents de l’air dans le nuage et
+   restent peu nombreuses. Toutefois, petit à petit, des hydrométéores
+   plus gros se forment. Lorsque des hydrométéores de tailles différentes,
+   et donc de vitesses de chute différentes cohabitent dans le nuage, les
+   plus grosses particules entrent en contact avec beaucoup plus de
+   petites particules, et ces processus deviennent prépondérants pour la
+   formation des précipitations.
+
+   La composition initiale du nuage est également déterminante pour son
+   évolution et la formation des précipitations. Dans un nuage formé d’une
+   multitude de très petites gouttelettes en suspension, les processus de
+   collection-coalescence seront très faibles et insuffisants pour former
+   des précipitations. Au contraire, si le nuage contient initialement
+   moins de gouttelettes, mais que celles-ci sont plus grosses et de
+   tailles variées, la formation de pluie plus rapide. C’est ce qui
+   explique que les aérosols, qui déterminent le nombre et la taille des
+   hydrométéores formés dans les nuages, peuvent avoir un impact important
+   sur leur cycle de vie. Les aérosols ont ainsi un effet important sur
+   tous les nuages, du brouillard aux systèmes convectifs.
+
+6. Représentation des nuages dans les modèles de prévision numérique du temps
+
+   Dans les modèles de prévision numérique du temps et du climat (lire
+--
+   synthétique les caractéristiques de la population d’hydrométéores dans
+   chaque maille du modèle, c’est le rôle des schémas microphysiques, ou
+   schémas de nuages.
+
+   Les schémas microphysiques les plus précis répartissent les
+--
+   peut représenter le nombre de gouttes de pluie d’un diamètre compris
+   entre 1mm et 1,1mm. Ces schémas sont donc capables de représenter avec
+   précision la composition nuageuse, et son évolution dans le temps
+   depuis la formation du nuage à partir des aérosols jusqu’à la formation
+   des précipitations et la dissipation du nuage. Toutefois, le nombre de
+   variables nécessaire les rend trop coûteux pour la prévision du temps
+   opérationnelle et ils sont donc réservés à un usage académique, et ils
+--
+
+   Des schémas microphysiques plus simples répartissent les hydrométéores
+   en différentes catégories (gouttelettes d’eau nuageuse, pluie, neige…),
+   et font l’hypothèse que la distribution dimensionnelle de chaque type
+   d’hydrométéore suit une loi de probabilité définie à l’avance et
+--
+   n’ont qu’un seul degré de liberté, et ne prévoient généralement que la
+   masse totale de chaque type d’hydrométéore. Ils ne permettent donc pas
+   de représenter précisément la composition nuageuse et l’impact des
+   aérosols sur les nuages. Pour cela, des schémas plus complexes ont deux
+   degrés de liberté (voire plus), et représentent généralement, en plus
+   de la masse, le nombre d’hydrométéores de chaque type (voire également
+--
+   modèle est ensuite représenté individuellement. On aura ainsi par
+   exemple une représentation empirique de l’auto- collection des
+   gouttelettes d’eau nuageuses (qui réduit le nombre total de
+   gouttelettes sans modifier leur masse totale), de la croissance de la
+   grêle par accrétion de tous les autres hydrométéores présents, etc.
+--
+   qui fournit des prévisions détaillées jusqu’à 36h sur la France
+   métropolitaine et les départements d’outre-mer utilise un schéma à un
+   degré de liberté. Afin d’améliorer la représentation des nuages et de
+   prendre en compte les interactions aérosols-nuages, un schéma à deux
+   moments ajoutant la prévision des concentrations en nombre des
+   hydrométéores et des aérosols est en cours de test.
+--
+7. Messages à retenir
+
+     * Les nuages sont composés d’hydrométéores, des particules d’eau
+       condensée sous forme liquide (gouttelettes de nuage et gouttes de
+       pluie) et/ou solides (petits cristaux, neige, grêle…).
+     * La quantité de vapeur d’eau que peut contenir l’atmosphère est
+       déterminée par la température et la pression de l’air, et diminue
+       avec la température. Les nuages se forment donc lorsque de l’air
+       chaud et humide se refroidit.
+     * Le refroidissement de l’air peut être d’origine radiative, ou
+       provoqué par le soulèvement de l’air qui provoque une diminution de
+       pression.
+     * La formation de nuages est généralement pilotée par la circulation
+       atmosphérique, principale cause des ascendances favorables à la
+       formation de nuages, mais les circulations intenses mises en place
+       dans certains systèmes nuageux (cyclones, orages…) peuvent
+       également avoir des répercussions sur la circulation atmosphérique.
+     * Dans l’atmosphère, les gouttelettes ne se forment pas seules, mais
+--
+       la condensation. Ainsi, le nombre et le type d’aérosols présents
+       dans l’atmosphère peut fortement influencer la formation et le
+       cycle de vie des nuages.
+     * L’évolution du nuage est ensuite dirigée d’une part par l’évolution
+       des conditions thermodynamiques (échanges radiatifs, libération de
+       chaleur latente lors des changements de phase de l’eau) et d’autre
+--
+
+   Pour citer cet article : VIE Benoit (11 novembre 2022), Que se
+   passe-t-il dans les nuages ?, Encyclopédie de l’Environnement. Consulté
+   le 2 janvier 2026 [en ligne ISSN 2555-0950] url :
+
+--
+Plan de l’article
+
+     * [68]1. Qu’est-ce qu’un nuage ?
+     * [69]2. Conditions de formation des nuages
+     * [70]3. Formation des gouttes d’eau dans les nuages
+     * [71]4. Formation des petits cristaux de glace dans les nuages
+     * [72]5. Évolution du nuage et formation des précipitations
+     * [73]6. Représentation des nuages dans les modèles de prévision
+       numérique du temps
+     * [74]7. Messages à retenir
+--
+
+   [75]
+   nuages - classification nuages - types nuages
+   Aperçu sur la classification des nuages  [76]...
+
+En savoir plus

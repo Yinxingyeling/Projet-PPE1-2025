@@ -1,0 +1,44 @@
+          + [16]Conseil TI
+          + [17]Services informatiques gérés
+          + [18]Informatique en nuage
+          + [19]Formation et soutien informatique
+     * [20]À propos
+--
+   [25]Abonnez-vous maintenant
+
+Informatique en nuage
+
+     * [26]Accueil
+     * [27]Services
+     * Informatique en nuage
+
+Informatique en nuage
+
+   L'informatique en nuage est une technologie qui permet aux
+   organisations d'accéder et de gérer leurs ressources informatiques sur
+   Internet. Il permet aux organisations de stocker et d'accéder aux
+--
+
+   Nos services comprennent :
+   Développement d'une stratégie en nuage : Nous travaillons avec vous
+   pour élaborer une stratégie globale en nuage qui s'harmonise avec vos
+   objectifs généraux.
+   Migration vers l'infonuagique : Nous vous aidons à migrer vos systèmes
+   et vos données vers l'infonuagique, y compris l'infrastructure, les
+   plateformes et les logiciels en tant que solutions de service (SaaS).
+   Intégration des nuages : Nous vous aidons à intégrer vos systèmes basés
+   sur le cloud avec vos systèmes sur site existants afin d'assurer un
+   flux de données et un accès sans faille à toutes vos applications.
+   Sécurité en nuage: Nous fournissons une gamme de services de sécurité
+   pour vous aider à protéger vos systèmes et vos données basés sur le
+   nuage contre les cybermenaces.
+   Optimisation des coûts en nuage : Nous vous aidons à optimiser vos
+   dépenses en nuage en identifiant les zones où vous pouvez réduire les
+   coûts et améliorer l'efficacité.
+   Surveillance et gestion des nuages: Nous vous aidons à surveiller et à
+   gérer vos systèmes basés sur le nuage et à assurer la maintenance et le
+   soutien continus afin qu'ils fonctionnent efficacement.
+   Nuage hybride: Nous vous aidons à concevoir et à mettre en œuvre une
+   solution hybride qui vous permet d'utiliser le meilleur des nuages
+   publics et privés pour répondre à vos besoins spécifiques.
+   Gouvernance et conformité du cloud: Nous vous aidons à vous assurer que

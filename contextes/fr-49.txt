@@ -1,0 +1,87 @@
+                 computing » dans son entreprise?
+
+   Le [12]« cloud computing » (ou informatique dans les nuages, ou
+   informatique dématérialisée) est de plus en plus populaire et il semble
+   que cette popularité ne soit pas une mode passagère. Déjà, en 2006,
+--
+   d’utiliser le « cloud computing » dans son organisation. Comme nous le
+   verrons, la gestion du risque relié à l’utilisation de l’informatique
+   dans les nuages ne doit pas être prise à la légère.
+
+Qu’est-ce que le « cloud computing » ?
+--
+   besoins en informatique. Au lieu de passer par un ordinateur local pour
+   accéder à des services informatiques, on passe tout simplement par les
+   nuages virtuels de l’informatique dématérialisée où sont branchés des
+   ordinateurs en réseau. L’ordinateur de bureau n’est plus qu’un lieu de
+   passage pour accéder à des services qui sont sur le Web. Les nuages de
+   l’informatique dématérialisée sont donc essentiellement une métaphore
+   pour vulgariser la complexité de ce qui se passe avec l’information des
+--
+   opérations ([14]Google apps), les suites de management de [15]37signals
+   ou bien l’outil de gestion des relations clients (CRM) de
+   [16]Salesforce sont de bons exemples d’applications dans les nuages.
+   Certains sont gratuits (pour combien de temps?), d’autres coûtent plus
+   ou moins d’argent tout dépendant de la fréquence de leur utilisation,
+--
+   l’informatique dématérialisée.
+
+   L’informatique dans les nuages est aussi instantanée. Tel un
+   interrupteur électrique, ses services peuvent être déployés «
+   maintenant » quand une organisation en a besoin. Contrairement aux
+--
+
+   Les principales critiques du « cloud computing » concernent sa
+   stabilité et sa sécurité. Qu’est-ce qui se passe dans les nuages des
+   réseaux de l’informatique dématérialisée? L’utilisation de
+   l’informatique dans les nuages comporte un double problème de propriété
+   : la propriété des systèmes d’information et la propriété des
+   informations de ces systèmes.
+--
+
+   Où est donc située l’information de l’informatique dématérialisée? Dans
+   les nuages, mais où dans les nuages? Et qui a donc accès à ces fameux
+   nuages? Bien qu’il soit faible, [le risque d’intrusion des systèmes
+   d’information par des pirates informatiques mal intentionnés est une
+   réalité][6]. L’attaque des réseaux informatiques des nuages et la mise
+   hors fonction de leurs services virtuels sont des risques préoccupants
+   : l’absence d’un service pendant quelques minutes peut signifier la
+   perte de plusieurs millions de dollars pour une organisation. L’accès
+   aux bases de données des informations qui transitent dans les nuages
+   lorsqu’elles se retrouvent dans les ordinateurs des fournisseurs de
+   services est encore plus inquiétant. Car s’il est difficile de
+   s’introduire dans les systèmes virtuels de l’informatique
+   dématérialisée, il peut être beaucoup plus facile de le faire une fois
+   que l’information n’est plus dans les nuages.
+
+L’importance et les limites des politiques de confidentialité
+--
+   Afin de nuancer ce débat, le [17]Gardien Virtuel propose une
+   [18]méthode pour aider les entreprises à choisir d’utiliser (ou non)
+   l’informatique dans les nuages. Avant même de réfléchir au « cloud
+   computing », les entreprises doivent déterminer quels sont les services
+   qui sont essentiels à la réalisation de leur mission et quels sont les
+--
+   désastreuse au bon fonctionnement de l’entreprise, et donc qu’il serait
+   envisageable que l’infrastructure de ce système d’information réside
+   dans les nuages de l’informatique dématérialisée.
+
+   La décision d’utiliser ou non les systèmes d’information du « cloud
+--
+   fournisseur de service transactionnel de Futureshop.
+
+   Quelle est votre expérience avec l’informatique dans les nuages? Est-ce
+   que votre organisation utilise des applications de cloud computing?
+   Est-ce que vous pensez qu’il serait préférable que certaines
+   informations de votre organisation ne se retrouvent pas dans les
+   nuages? Si oui, lesquelles et pourquoi? Finalement, est-ce que votre
+   organisation possède une politique de sécurité informatique? N’hésitez
+   pas à laisser vos commentaires.
+
+   La photo des nuages provient de la collection personnelle d’Ali Kinaze
+
+   Catégories: [20]Analyse, [21]systèmes d'information
+   Étiquettes: [22]Besoin, [23]développements, [24]Fournisseur,
+   [25]Information, [26]Nuage, [27]Organisation, [28]Service
+   [29]Précédent Billet précédent: Organisations et nouvelles technologies
+   | marketing, informatique, Web

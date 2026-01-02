@@ -8,7 +8,7 @@ La tête dans les nuages
    nuages. Saviez-vous que cette forme de contemplation s'appelle
    paréidolie ? Ou qu'un cirrus, nuage fin et étiré, parfois enroulé sur
    lui même, tire son nom du latin 'boucle de cheveux' ? Savez-vous ce
---
+   qu'est un noyau de condensation ? La différence entre un stratus et un
    stratocumulus ?
 
    L'animation [60]"La tête dans les nuages"﻿, conçue par l'Écolothèque et
@@ -25,20 +25,14 @@ La tête dans les nuages
 
    Rendez-vous sur la [61]pédagothèque de l'Écolothèque de Montpellier
 --
-  57. file:///
-  58. file:///ressources
-  59. file:///ressources/la-tete-dans-les-nuages
-  60. https://ecolotheque.montpellier3m.fr/pedagotheque/tete-dans-les-nuages
-  61. https://ecolotheque.montpellier3m.fr/pedagotheque
-  62. https://ecolotheque.montpellier3m.fr/pedagotheque/tete-dans-les-nuages
-  63. file:///membres/ecolotheque-montpellier-mediterranee-metropole
-  64. file:///membres/ecolotheque-montpellier-mediterranee-metropole
+   Crédits iconographiques : © Olga1818 / Shutterstock.com, © He2 /
+   Fotolia
+   [xl_fille_rousse_avec_nuage_1311659867.png]
+
+Informations pratiques :
 --
-  67. https://www.sciences-en-occitanie.fr/tags/determination
-  68. https://www.sciences-en-occitanie.fr/tags/eau
-  69. https://twitter.com/intent/tweet?url=https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages&text=La tête dans les nuages
-  70. https://www.facebook.com/share.php?u=https://www.sciences-en-occitanie.fr/ressources/la-tete-dans-les-nuages
-  71. file:///ressources/la-tete-dans-les-nuages/edition
-  72. file:///ressources/la-tete-dans-les-nuages?redirect_to=/
-  73. https://disqus.com/?ref_noscript
-  74. file:///membres/ecolotheque-montpellier-mediterranee-metropole
+Supports d'animations
+
+     * [65]nuage
+     * [66]meteo
+     * [67]determination

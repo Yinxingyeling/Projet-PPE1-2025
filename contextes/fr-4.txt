@@ -1,11 +1,61 @@
+   [13]S’inscrire [14]S’identifier
+
+   Le nuage de mots : intérêts, limites et alternatives
+
+Le nuage de mots : intérêts, limites et alternatives
+
+   (BUTTON)
+--
+   des questions ouvertes, que nous utilisons notamment en [18]séminaire.
+   Lorsque nous expliquons cela, une question n’est généralement pas très
+   loin : « mais quelle est la différence avec un nuage de mots ? ».
+
+   Comparons donc ces deux méthodes.
+
+Le nuage de mots : le règne du mot-clé
+
+   Le nuage de mots va recenser tous les mots utilisés (par le public d’un
+   événement par exemple), et mettre en valeur les plus utilisés. Il
+   permet donc de faire ressortir le vocabulaire utilisé dans un certain
+--
+
+   Nous avons par exemple [19]demandé à des élèves de Neoma Business
+   School ce qu’était l’entrepreneuriat pour eux. Voici le nuage de mots
+   généré par leurs réponses :
+   [:0]
+--
    vraiment.
 
    Bien sûr, les nuages de mots ne sont pas dénués d’intérêt pour autant !
    Ils sont par exemple utiles en guise d’ice-breaker d’un événement, en
    demandant aux participants leur humeur du moment. On peut également
+   s’en servir pour étudier le vocabulaire d’un document, par exemple.
+   Ainsi, j’aime bien générer un nuage de mots sur l’ensemble des verbatim
+   produits par les participants lors d’un événement : cela donne à mon
+   client une bonne idée du vocabulaire utilisé par son public.
 --
+   Si l’on s’attache uniquement aux mots qui les composent, « je vais
+   bien » et « je ne vais pas bien » sont très similaires. Au niveau du
+   sens, ils sont évidemment opposés. Un nuage de mots ne sait pas faire
+   cette distinction. C’est ici que la synthèse intelligente de Dialoog
+   entre en jeu, en regroupant les réponses des participants par unité de
+--
+
+   Au-delà de ces exemples simplistes, voici la synthèse des réponses
+   ayant produit le nuage de mots précédent, où les verbatim sont
+   regroupés par grandes idées :
+   [20][:0]
+--
+   (cliquez sur l'image pour une synthèse interactive)
+
+   Si le nuage de mots n’était guère exploitable, on voit ici que la
+   synthèse peut donner lieu à une analyse bien plus riche. Et l’avantage
+   de la synthèse produite par Dialoog, c’est qu’elle est toute aussi
+   instantanée qu’un nuage de mots !
+
 De la bonne utilisation d’un nuage de mots
 
    En conclusion, les nuages de mots sont un outil ludique et facile (tout
    le monde peut faire un nuage de mots, par exemple [21]ici), pertinents
    dans un certain nombre de cas. En revanche, ils ne peuvent pas
+   remplacer systématiquement d’autres outils plus avancés, qui ont le

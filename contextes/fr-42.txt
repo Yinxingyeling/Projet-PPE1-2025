@@ -1,0 +1,29 @@
+   Affichages : 11075
+
+Le "Cloud Computing", l'informatique dans le nuage
+
+   100128 CloudComputing
+--
+   responsables réseaux…
+
+L'informatique "dans le nuage"
+
+   Né de l'expression "the Cloud" utilisée par les architectes de réseaux
+--
+
+   Aujourd'hui, le "Cloud Computing", c'est "l'informatique dans le
+   nuage", soit la mise à disposition des logiciels sur le réseau, les
+   ordinateurs n'étant plus utilisés que comme simples terminaux. Un rêve
+   désormais accessible pour les responsables réseaux des entreprises qui
+--
+   stockage évolutives selon leurs besoins).
+   Les applications et les données ne se trouveraient plus sur
+   l'ordinateur local, mais dans un "nuage" composé d'un certain nombre de
+   serveurs distants interconnectés au moyen d'une bande passante musclée
+   indispensable à la fluidité du système. L'accès au service se fait par
+--
+     * [86]COMMUNICATION & MÉDIAS
+     * /
+     * Le "Cloud Computing", l'informatique dans le nuage
+
+   Template : [87]GavickPro ~ Adaptation Design : [88]Varenne Création

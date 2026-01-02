@@ -1,0 +1,177 @@
+    3. [62]Politiques
+    4. [63]Données
+    5. Informatique en nuage
+
+Informatique en nuage
+
+   (BUTTON) Close
+--
+
+   La Commission européenne vise à fournir aux entreprises et aux pouvoirs
+   publics européens un accès à des infrastructures et services en nuage
+   sûrs, durables et interopérables.
+
+   Le transfert progressif des données et des services cloud vers la
+   périphérie fait partie intégrante de l'objectif. L’informatique en
+   nuage a besoin d’infrastructures numériques sûres et durables, ainsi
+   que d’un stockage et d’une transmission sûrs des données.
+
+   Le volume mondial de données augmente très rapidement. Alors que
+   l'informatique en nuage se produit principalement dans les grands
+   centres de données aujourd'hui, d'ici 2025, cette tendance s'inversera:
+   80% de toutes les données devraient être traitées dans des appareils
+   intelligents plus proches de l'utilisateur, connus sous le nom de edge
+   computing. La disponibilité de l'informatique de périphérie et de
+   l'informatique en nuage est essentielle dans un continuum informatique
+   pour garantir que les données sont traitées de la manière la plus
+   efficace possible. Des infrastructures de périphérie et d’informatique
+   en nuage efficaces sur le plan énergétique et fiables seront
+   fondamentales pour l’utilisation durable des technologies de périphérie
+   et d’informatique en nuage.
+
+   D'ici 2025, 80% des données seront traitées à proximité de
+   l'utilisateur
+
+   Cette vaste ambition en matière d’informatique en nuage et de
+   périphérie est ancrée dans deux objectifs de la [66]décennie numérique
+   de l’UE. D’ici à 2030:
+     * 75 % des entreprises européennes devraient utiliser des
+       technologies en nuage pour leurs activités.
+     * 10 000 nœuds périphériques neutres pour le climat et hautement
+       sécurisés seront déployés dans toute l’Europe. Ils fourniront la
+--
+
+   Les dernières données d’Eurostat indiquent qu’en 2023, 45,2 % des
+   entreprises ont utilisé des services en nuage (+4,2 points de
+   pourcentage par rapport à 2021), mais constate que l’adoption varie
+   considérablement selon la taille: 77,6 % des grandes entreprises, 59 %
+--
+   industrielle et des programmes d’investissement numérique.
+
+Proposition de règlement sur le développement de l’informatique en nuage et
+de l’IA
+
+   En 2025, la Commission proposera le règlement sur le développement de
+   l’informatique en nuage et de l’IA, dans le but de tripler au moins la
+   capacité d’un centre de données de l’UE au cours des cinq à sept
+   prochaines années et de répondre pleinement aux besoins des entreprises
+--
+
+   Afin de renforcer la souveraineté numérique de l’Europe dans le secteur
+   de l’informatique en nuage, le règlement travaillera en tandem avec une
+   proposition de politique unique en matière d’informatique en nuage à
+   l’échelle de l’UE pour les administrations publiques et les marchés
+   publics. Cette approche combinée favorisera la croissance des
+   fournisseurs européens d’informatique en nuage et donnera la priorité à
+   l’utilisation de capacités d’informatique en nuage hautement sécurisées
+   pour des cas d’utilisation hautement critiques.
+
+--
+   Les actions proposées dans la stratégie de l’UE en matière de données
+   faciliteront le passage à la périphérie, tout en développant des
+   services d’informatique en nuage et de périphérie interopérables pour
+   soutenir la construction d’espaces européens communs des données. Les
+   utilisateurs et les fournisseurs doivent se sentir en sécurité
+--
+   de ces objectifs sont les suivantes:
+     * Investir dans un [68]projet important d’intérêt européen commun
+       (PIIEC) qui fédérera des infrastructures en nuage et des services
+       connexes efficaces sur le plan énergétique et fiables.
+     * [69]Simpl, un middleware open source, durable et sécurisé qui
+--
+       alimentant les espaces de données autrement financés par l’UE.
+     * L’UE prévoit de compiler un ensemble de règles, sous la forme d’un
+       recueil de règles de l’UE sur l’informatique en nuage et
+       d’orientations sur les marchés publics de services de traitement de
+       données. Le corpus réglementaire fournira un cadre européen unique
+       contenant des règles contraignantes et non contraignantes pour les
+       utilisateurs et les fournisseurs de services en nuage en Europe.
+       Afin d’accroître l’efficacité et la qualité des marchés publics de
+       services de traitement des données en Europe, les orientations
+--
+       européenne pour la cybersécurité (ENISA) travaille à un [70]système
+       européen de certification de cybersécurité pour les services en
+       nuage (EUCS). Le système fournira aux entreprises, aux
+       administrations publiques et aux citoyens une assurance accrue que
+       leurs données sont sécurisées quel que soit l'endroit où elles sont
+       stockées ou traitées.
+     * Un marché de l’informatique en nuage équitable et compétitif dans
+       le cadre du [71]règlement sur les données: En s'attaquant au
+       verrouillage des fournisseurs, le Data Act vise à rendre le passage
+--
+       mise en place d’une plateforme permettant à l’industrie d’élaborer
+       deux codes de conduite pour la protection des données dans
+       l’informatique en nuage. De plus amples informations sur le
+       traitement des données à caractère personnel et non personnel dans
+       le nuage figurent dans les [72]orientations de la Commission sur
+       les ensembles de données mixtes.
+     * Le règlement sur la[73]libre circulation des données à caractère
+       non personnel,qui, avec le règlement général sur la protection des
+       données, renforce la sécurité juridique pour les utilisateurs de
+       l’informatique en nuage en garantissant la libre circulation de
+       toutes les données dans l’UE.
+
+--
+Stratégie numérique
+
+   L’informatique en nuage et en périphérie fera partie des technologies
+   numériques qui contribueront aux objectifs de durabilité du [75]pacte
+   vert pour l’Europe en soutenant de nouvelles solutions numériques. Dans
+   le même temps, la Commission s’emploie à renforcer la durabilité de
+   l’informatique en nuage et de l’informatique de périphérie, notamment
+   au moyen de mesures ciblant l’utilisation efficace des ressources des
+   centres de données afin d’atteindre l’objectif selon lequel «d’ici à
+--
+
+   Outre les deux objectifs concernant l’adoption de l’informatique en
+   nuage par les entreprises et l’augmentation du nombre de nœuds
+   périphériques, l’UE investira dans des projets multinationaux. Le PIIEC
+   sur les services d’informatique en nuage et de périphérie de nouvelle
+   génération fait partie d’un projet multinational sur l’infrastructure
+   et les services européens communs de données dans le cadre du programme
+--
+
+   Les investissements dans des technologies nouvelles et transversales à
+   la pointe de l’informatique en nuage contribueront à construire la
+   prochaine génération d’infrastructures à la pointe de l’informatique en
+   nuage, y compris pour permettre la création d’espaces européens communs
+   des données. Les nouveaux services en nuage devront répondre à des
+   exigences élevées en matière de protection des données, de performance,
+   de résilience et d’efficacité énergétique. Les services et les
+   infrastructures devront répondre aux futurs besoins de numérisation de
+   l'industrie et du secteur public. L’UE réalise des investissements
+   concrets dans ces domaines en développant l’informatique en nuage et de
+   périphérie ainsi que l’open source en Europe par l’intermédiaire des
+   programmes de financement [80]de l’UE Horizon Europe, [81]du programme
+--
+
+   L’Alliance [84]européenne pour les données industrielles, la périphérie
+   et l’informatique en nuage vise à façonner la prochaine génération de
+   services et d’infrastructures en nuage et en périphérie sûrs, à faibles
+   émissions de carbone et interopérables. Grâce à cette plate-forme de
+   coopération industrielle, les parties publiques et privées travaillent
+--
+   [85]Abonnez-vous aux dernières nouvelles sur ce sujet et plus encore
+
+   [86]Brochure sur l’informatique en nuage (janvier 2021)
+   [87]Alliance européenne pour les données industrielles, la périphérie
+   et le cloud
+   [88]Déclaration commune sur le nuage
+
+   Nous suivre
+     * [89]Suivez @CnectCloud pour des mises à jour sur les politiques de
+       la Commission en matière d’informatique en nuage
+
+Dernières nouvelles
+--
+   interoperability among European data spaces, unleashing the power of
+   data-driven innovation.
+   [94]Parcourir Informatique en nuage
+
+Contenu associé
+--
+       périphérie et le cloud
+       L’Alliance européenne pour les données industrielles, la périphérie
+       et l’informatique en nuage vise...
+     *
+   " "
