@@ -1,0 +1,142 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 36</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>36</td><td>   当前位置：首页 > </td><td>云</td><td>文化</td></tr>
+<tr><td>36</td><td>——诗词中的</td><td>云</td><td></td></tr>
+<tr><td>36</td><td>   　　在诗词之中，云大概是最常见的意象之一。许多人都能随口说出几句含有云意象的名句。自然界的</td><td>云</td><td>变化多端，可轻柔、可阴沉，可静谧、可暴烈，而诗词中</td></tr>
+<tr><td>36</td><td>   </td><td>云</td><td>意象所蕴含的情感同样丰富多彩。</td></tr>
+<tr><td>36</td><td>   　　行到水穷处，坐看云起时——自然之</td><td>云</td><td></td></tr>
+<tr><td>36</td><td>   　　山水主题在诗词中占据了很大的分量，而描写山水景色，</td><td>云</td><td>则是绕不开的话题之一。在这方面，钟情山水的诗人们留下了无数名句。</td></tr>
+<tr><td>36</td><td>   　　“云来山更佳，云去山如画，山因云晦明，云共山高下。”张养浩在元代小曲中，把山与云在观景方面的共生关系写得清楚明白，山若没有</td><td>云</td><td>，似乎少了几分</td></tr>
+<tr><td>36</td><td>   神秘，云若不在山中，同样减损了几分魅力。因此，借云写山的诗词层出不穷。“白云回望合，青霭入看无”“林疏放得遥山出，又被云遮一片无”写被</td><td>云</td><td>遮挡、</td></tr>
+<tr><td>36</td><td>   　　“孤山寺北贾亭西，水面初平云脚低。”山与云可以说是最佳拍档，水与云同样是黄金组合。白云映照在碧水中，一向是诗人津津乐道的美景。李白写“白</td><td>云</td><td></td></tr>
+<tr><td>36</td><td>   映水摇空城，白露垂珠滴秋月”；宋代诗人姚镛访问友人时，“相逢未暇论奇字，先向水边看白</td><td>云</td><td>”。</td></tr>
+<tr><td>36</td><td>   　　白云往往与山水景色相伴，而云的另一种形态——乌云则经常与雨同时出现在诗词中。雨未降下时，有“云青青兮欲雨”；雨降下时，有“</td><td>云</td><td>里帝城双凤阙，</td></tr>
+<tr><td>36</td><td>   雨中春树万人家”；雨后则有“天忽作晴山卷幔，云犹含态石披衣”；至于“黑</td><td>云</td><td>翻墨未遮山，白雨跳珠乱入船”这一名联，可以说是对夏季短时强降雨最精炼的</td></tr>
+<tr><td>36</td><td>   　　青云直上与闲云野鹤——志向之</td><td>云</td><td></td></tr>
+<tr><td>36</td><td>   　　作为诗词创作的主要群体，古代文人的志向似乎呈现明显的两极分化：要么居庙堂之高，要么处江湖之远，而这两种主要志向都可以用</td><td>云</td><td>来指代，因此，诗词</td></tr>
+<tr><td>36</td><td>   之中以</td><td>云</td><td>言志者所在多有。</td></tr>
+<tr><td>36</td><td>   　　“荡胸生层云，决眦入归鸟”，杜甫在写下这句诗的时候，满怀治国平天下的大志；而李白“直挂</td><td>云</td><td>帆济沧海”一句则更显意气风发。诗人在鼓励友人时，也</td></tr>
+<tr><td>36</td><td>   常将云入诗，如“莫嫌黄绶官资小，必料青云道路平”“抗志青云表，俱践高世名”；曹邺的一句“一旦公道开，青</td><td>云</td><td>在平地”，表现的是初及第时的得意心情；</td></tr>
+<tr><td>36</td><td>   而《红楼梦》中薛宝钗一句“好风凭借力，送我上青</td><td>云</td><td>”，更是将人物性格描摹得活灵活现。</td></tr>
+<tr><td>36</td><td>   　　相比高远的志向，用来描写隐逸生活的云可能多了一个“数量级”，大概因为诗人在这种环境下诗情更易勃发的缘故。陶渊明的一句“</td><td>云</td><td>无心以出岫，鸟倦飞</td></tr>
+<tr><td>36</td><td>   而知还”将云与隐士联系在了一起；李商隐的“壶中别有仙家日，岭上犹多隐士</td><td>云</td><td>”更明确地点出了这种联系。</td></tr>
+<tr><td>36</td><td>   　　“山中何所有？岭上多白云。”由于隐士多居住在山中，因此云自然成为隐逸生活的代名词。曾经以云表明志向的杜甫，也曾写下“何时一茅屋，送老白</td><td>云</td><td>边</td></tr>
+<tr><td>36</td><td>   ”；而贾岛的《寻隐者不遇》则为隐士指明了最理想的环境“只在此山中，</td><td>云</td><td>深不知处”。</td></tr>
+<tr><td>36</td><td>   　　隐士对白云的喜爱，一方面由于它缥缈不定，象征着神秘，另一方面则由于它洁白无暇，象征着品德高洁。孟郊“因知世事皆如此，却向东溪卧白</td><td>云</td><td>”，体现</td></tr>
+<tr><td>36</td><td>   　　除却巫山不是云——爱情之</td><td>云</td><td></td></tr>
+<tr><td>36</td><td>   　　“妾在巫山之阳，高丘之阴，旦为朝云，暮为行雨，朝朝暮暮，阳台之下。”楚襄王梦见巫山神女的故事广为流传，并化为“巫山</td><td>云</td><td>雨”的典故。它影响非常</td></tr>
+<tr><td>36</td><td>   深远，令</td><td>云</td><td>成为了描写爱情最为适宜的意象之一。</td></tr>
+<tr><td>36</td><td>   　　李群玉以“行云永绝襄王梦，野水偏伤宋玉怀”描写自己爱情失意；“少年才子心相许，夜夜高堂梦云雨”“才会</td><td>云</td><td>雨须别去，语惭不及琵琶槽”，大量诗词</td></tr>
+<tr><td>36</td><td>   以云雨代指爱情；李白的“</td><td>云</td><td>雨巫山枉断肠”一句更是不断被后人引用。</td></tr>
+<tr><td>36</td><td>   　　在这些以云描写爱情的诗词中，最为动人的还是元稹悼念亡妻的“曾经沧海难为水，除却巫山不是云”。以沧海之水和巫山之</td><td>云</td><td>喻爱情之深厚，见过大海、巫</td></tr>
+<tr><td>36</td><td>   山，别处的水和</td><td>云</td><td>就难以看上眼了，除了我所钟爱的女子，再也没有能使我动情的人。</td></tr>
+<tr><td>36</td><td>   　　诗词中的</td><td>云</td><td>，一方面是自然景物，另一方面又融入了深厚的人文精神，变幻多姿，传递着丰富的精神世界。以上几种，仅是草草列举，挂一漏万。尚有无数绝</td></tr>
+</tbody></table></div></section></body></html>

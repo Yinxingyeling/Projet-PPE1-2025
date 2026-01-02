@@ -1,0 +1,118 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 24</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>24</td><td>“</td><td>云</td><td>吸猫”一时爽 但未必越吸越爽</td></tr>
+<tr><td>24</td><td>原标题：“</td><td>云</td><td>吸猫”一时爽 但未必越吸越爽</td></tr>
+<tr><td>24</td><td>   　　除此之外，猫类短视频火爆的原因还与人们更爱“</td><td>云</td><td>吸猫”有关。</td></tr>
+<tr><td>24</td><td>   　　“</td><td>云</td><td>吸猫”是指在互联网上频繁观看与猫咪相关的图片、视频，从而获得与现实生活中撸猫类似的满足感的行为。与图片不同，短视频糅合了图片、影像、声</td></tr>
+<tr><td>24</td><td>   音等多种元素，能给人们带来更好的观看体验，因而它也成为网友“</td><td>云</td><td>吸猫”的主要方式。</td></tr>
+<tr><td>24</td><td>   　　“</td><td>云</td><td>吸猫”的流行，其一得益于短视频平台让部分人可以不受时空限制随时观看猫咪短视频。其二，缘于部分人自己没有条件养猫，就以刷短视频的形式替代</td></tr>
+<tr><td>24</td><td>   　　因此，“</td><td>云</td><td>吸猫”虽好，也不要过度，不要让其扰乱我们原本正常的生活。</td></tr>
+</tbody></table></div></section></body></html>

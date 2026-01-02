@@ -1,0 +1,118 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 20</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>20</td><td>热评丨“</td><td>云</td><td>监工”，看到的不止是“中国速度”</td></tr>
+<tr><td>20</td><td>   建设的“云监工”。在央视新闻的慢直播中，在线“</td><td>云</td><td>监工”的网友已经超过了260万人。</td></tr>
+<tr><td>20</td><td>   “云监工”，是2020年的一个网络热词，上亿人次网友曾参与火神山与雷神山医院建设的“云监工”。今年的“</td><td>云</td><td>监工”和去年有什么不同？火神山、雷神山</td></tr>
+<tr><td>20</td><td>   人们说，“云监工”见证“中国速度”，其实背后还应该看到更多。“云监工”，字面意思是网友在“</td><td>云</td><td>”平台上，观看镜头下的慢直播，关注工程进展。这中间</td></tr>
+<tr><td>20</td><td>   有人可能是出于好奇心，但对更多人是出于关心、暖心的行动。而“</td><td>云</td><td>监工”背后的高关注度，让每一个石家庄人、每一个河北人都知道：你不是一个人在战斗。</td></tr>
+<tr><td>20</td><td>   “</td><td>云</td><td>监工”，对于施工者、建设者和管理者来说，是一种接受检视的方式。施工现场24小时直播，施工过程“全透明”，有压力也有动力。工地每个小时都有那</td></tr>
+<tr><td>20</td><td>   “云监工”是集体打call，也是集体的关注与托付。“</td><td>云</td><td>监工”，这里承载着信任与责任。</td></tr>
+</tbody></table></div></section></body></html>

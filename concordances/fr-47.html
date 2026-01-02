@@ -6,6 +6,19 @@
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+        <style>
+            /* Alignement des en-têtes */
+            .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+            .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+            .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+            .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+            
+            /* Alignement des élément dans tableau */
+            .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+            .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+            .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+            .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+        </style>
     </head>
 
     <body>
@@ -87,8 +100,7 @@
 
         <section class="section">
             <div class="container">
-                <table class="table is-striped is-fullwidth">
-
+                <table class="table is-striped is-fullwidth concordance-table">
                 <tr>
                     <th>Fichier</th>
                     <th>Contexte gauche</th>

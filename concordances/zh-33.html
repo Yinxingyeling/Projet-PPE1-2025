@@ -1,0 +1,116 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 33</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>33</td><td>   谁最早提出了“浮</td><td>云</td><td>”一说？中央纪委监察部网站客户端 05-01 07:20</td></tr>
+<tr><td>33</td><td>   我们现在常说“什么都是浮云”，来表达不用去在意的人或事，或者虚无缥缈的、可望不可及的东西。“浮云”已然成为一个网络用语，而“什么都是浮</td><td>云</td><td>”这一</td></tr>
+<tr><td>33</td><td>   矣。不义而富且贵，于我如浮云。”意思是，吃点粗粮，喝点冷水，弯着胳膊当枕头，也是有乐趣的。做不正义的事得到的富贵，对我来说就是浮</td><td>云</td><td>。这就是“浮</td></tr>
+<tr><td>33</td><td>   </td><td>云</td><td>”最初出现的语境了，表达了孔子对不义之财的态度。孔子并不是不爱富贵，他说，“富与贵，是人之所欲也”，“富而可求也，虽执鞭之士，吾亦为之。”富</td></tr>
+<tr><td>33</td><td>   ，富贵在后。不义之财，只不过是“浮</td><td>云</td><td>”。</td></tr>
+</tbody></table></div></section></body></html>

@@ -1,0 +1,148 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 16</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>16</td><td>   大模型产品解决方案文档与社区权益中心定价云市场合作伙伴支持与服务了解阿里</td><td>云</td><td></td></tr>
+<tr><td>16</td><td>   为什么选择阿里</td><td>云</td><td></td></tr>
+<tr><td>16</td><td>   什么是</td><td>云</td><td>计算技术领先稳定可靠安全合规分析师报告行业白皮书</td></tr>
+<tr><td>16</td><td>   什么是</td><td>云</td><td>计算</td></tr>
+<tr><td>16</td><td>   在数字化时代，互联网已经成为基础设施。</td><td>云</td><td>计算使得数据中心</td></tr>
+<tr><td>16</td><td>   </td><td>云</td><td>计算一个明显的优势是弹性，能让您按需使用各类服务，灵活扩</td></tr>
+<tr><td>16</td><td></td><td>云</td><td>计算的优势</td></tr>
+<tr><td>16</td><td>   </td><td>云</td><td>计算有助于降低IT成本，您只需为实际用量付费。具备弹性、敏捷、安全、稳定等六大优势</td></tr>
+<tr><td>16</td><td>       丰富多样的技术产品、全球部署的基础设施、易上手的产品使用体验，您可以通过</td><td>云</td><td>计算轻松地使用各种技术，从而快速完成业务创新，在全球构建您的</td></tr>
+<tr><td>16</td><td>       与云基础设施深度融合的原生安全，安全即服务实现</td><td>云</td><td>平台及业务数据全生命周期保护，全球高等级数据安全及合规隐私，保障您的业务安全在线。</td></tr>
+<tr><td>16</td><td>       超大规模的数据中心和全球化的服务能力，带来高性价比的服务，同时伴随公共云规模的不断扩大，带来规模化效益，不断降低您的</td><td>云</td><td>上支出成本。</td></tr>
+<tr><td>16</td><td></td><td>云</td><td>计算的结构体系</td></tr>
+<tr><td>16</td><td>   从传统视角看，云计算主要分为IaaS、PaaS、和SaaS三种模式。在智能时代，大模型得到空前发展和关注，</td><td>云</td><td>计算可以依据业务需求提供以下四种服</td></tr>
+<tr><td>16</td><td></td><td>云</td><td>计算的部署模式</td></tr>
+<tr><td>16</td><td>公共</td><td>云</td><td></td></tr>
+<tr><td>16</td><td>       是一种通过互联网的方式提供给公众计算资源的</td><td>云</td><td>计算环境。它是由第三方公司拥有和运营的，用户可以通过互联网访问这些服务，无需购买物理基础设</td></tr>
+<tr><td>16</td><td>专有</td><td>云</td><td></td></tr>
+<tr><td>16</td><td>       是仅提供给单个或某类组织构建的云计算环境，采用和公共云相同的技术架构，可以与公共云互联，实现云上的弹性和敏捷。不同的是，专有</td><td>云</td><td>是独立部</td></tr>
+<tr><td>16</td><td>   阿里云对两种部署模式都支持，技术核心是飞天云计算操作系统，公共云是由阿里云运用飞天为社会提供云计算服务的云计算平台，专有云是阿里</td><td>云</td><td>提供飞天为企</td></tr>
+<tr><td>16</td><td>   业构建专有</td><td>云</td><td>计算服务。</td></tr>
+<tr><td>16</td><td>开启</td><td>云</td><td>上实践之旅</td></tr>
+<tr><td>16</td><td>   从这里开始您的云上实践之旅，体验</td><td>云</td><td>计算带来的技术变革</td></tr>
+<tr><td>16</td><td>       探索免费产品，100+ 云产品助您开启</td><td>云</td><td>上创新</td></tr>
+<tr><td>16</td><td>       助力学子</td><td>云</td><td>上实践，培养数字时代人才</td></tr>
+<tr><td>16</td><td>       行业专家手把手带你学云用云上</td><td>云</td><td></td></tr>
+<tr><td>16</td><td>王坚谈</td><td>云</td><td>计算</td></tr>
+<tr><td>16</td><td>   </td><td>云</td><td>计算，正在重新定义今天的世界</td></tr>
+<tr><td>16</td><td>       国家的核心基础设施，再次激发创新能力。而今天提供算力最好的方式就是通过</td><td>云</td><td>计算。</td></tr>
+<tr><td>16</td><td>   中国工程院院士、阿里</td><td>云</td><td>创始人</td></tr>
+<tr><td>16</td><td>   2009年9月11日，“阿里</td><td>云</td><td>第一次员工大会”正式提出:</td></tr>
+<tr><td>16</td><td>为什么选择阿里</td><td>云</td><td></td></tr>
+<tr><td>16</td><td>   什么是</td><td>云</td><td>计算全球基础设施技术领先稳定可靠安全合规分析师报告</td></tr>
+<tr><td>16</td><td>   全部产品免费试用产品动态产品定价配置报价器</td><td>云</td><td>上成本管理</td></tr>
+<tr><td>16</td><td>   基础服务企业增值服务迁</td><td>云</td><td>服务官网公告健康看板信任中心</td></tr>
+<tr><td>16</td><td>关注阿里</td><td>云</td><td></td></tr>
+<tr><td>16</td><td>   关注阿里云公众号或下载阿里云APP，关注云资讯，随时随地运维管控</td><td>云</td><td>服务</td></tr>
+<tr><td>16</td><td>   阿里巴巴集团淘宝网天猫全球速卖通阿里巴巴国际交易市场1688阿里妈妈飞猪阿里云计算AliOS万网高德UC友盟优酷钉钉支付宝达摩院淘宝海外阿里</td><td>云</td><td></td></tr>
+</tbody></table></div></section></body></html>

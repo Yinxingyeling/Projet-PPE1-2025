@@ -1,7 +1,7 @@
-s
-€™inscrire
-s
-€™identifier
+temps
+de
+lecture
+min
 le
 nuage
 de

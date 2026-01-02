@@ -148,7 +148,7 @@ La Terre de nos batailles
    _____________________________________________
    _____________________________________________
    _____________________________________________
-   X/Twitter
+   Instagram
    ____________________
    Ce champ n’est utilisé qu’à des fins de validation et devrait rester
    inchangé.
@@ -246,35 +246,35 @@ et débloquez tous les contenus
      * [66]Pocket
 
    En continu
-   01.01 [67]Membre de Dessins pour la paix, Cost réalise notre première
-   Une de l’année 2026
-   01.01 [68]« Ma forêt », d’Antoinette Rychner : une préhistoire
-   féministe qui explore les liens sociaux
-   01.01 [69]Au Yémen, Riyad et Abu Dhabi révèlent leurs antagonismes
-   01.01 [70]« Ma maison a été brûlée, bombardée, rasée. Récemment, ils en
-   ont déblayé les gravats… » : au Caire, la vie suspendue des exilés
-   gazaouis
+   12h49 [67]Marseille : un corps retrouvé dans le coffre d’une voiture
+   incendiée, la piste de l’assassinat privilégiée
+   12h48 [68]Au Venezuela, le président Nicolás Maduro se dit prêt à
+   discuter de la lutte contre le narcotrafic
+   11h45 [69]Incendie dans un bar en Suisse : 40 morts, 115 blessés, une
+   première victime identifiée et des questions qui restent en suspens
+   11h32 [70]« Una historia americana » : le groupe Vidala ressuscite le
+   répertoire de la nueva cancion
    [71]Voir toute l’actu
 
    Articles les plus lus dans cette rubrique
    1
    [72]
 
-   Prévue pour 2026, l’interdiction des gobelets jetables composés de
-   plastique reportée à 2030
-   [73]Actu
+   L’A69, puissant révélateur des renoncements environnementaux de la
+   Macronie
+   [73]Éditorial
    2
    [74]
 
-   Shein, Zara, Uniqlo, H&M : derrière les promesses des géants de la fast
-   fashion, la réalité de leur pollution
-   [75]Décryptage
+   Prévue pour 2026, l’interdiction des gobelets jetables composés de
+   plastique reportée à 2030
+   [75]Actu
    3
    [76]
 
-   16 départements en vigilance rouge canicule ce mardi : quelles
-   conséquences ?
-   [77]Actu
+   Banques : 50 milliards d’épargne durable détournés pour financer la
+   course à l'armement et le génocide à Gaza
+   [77]Environnement
      __________________________________________________________________
 
    à lire aussi
@@ -428,17 +428,17 @@ Références
   64. https://api.whatsapp.com/send?text=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
   65. https://www.facebook.com/dialog/send?app_id=254585183694&link=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&redirect_uri=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
   66. https://getpocket.com/save?url=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&title=Pesticides :+jusqu’à+140+tonnes+détectées+dans+les+nuages,+dont+des+substances+interdites
-  67. https://www.humanite.fr/en-debat/dessin-de-presse/membre-de-dessins-pour-la-paix-cost-realise-notre-premiere-une-de-lannee-2026
-  68. https://www.humanite.fr/culture-et-savoir/ecofeminisme/ma-foret-dantoinette-rychner-une-prehistoire-feministe-qui-explore-les-liens-sociaux
-  69. https://www.humanite.fr/monde/arabie-saoudite/au-yemen-riyad-et-abu-dhabi-revelent-leurs-antagonismes
-  70. https://www.humanite.fr/monde/egypte/ma-maison-a-ete-brulee-bombardee-rasee-recemment-ils-en-ont-deblaye-les-gravats-au-caire-la-vie-suspendue-des-exiles-gazaouis
+  67. https://www.humanite.fr/societe/enquete/marseille-un-corps-retrouve-dans-le-coffre-dune-voiture-incendiee-la-piste-de-lassassinat-privilegiee
+  68. https://www.humanite.fr/monde/etats-unis/au-venezuela-le-president-nicolas-maduro-se-dit-pret-a-discuter-de-la-lutte-contre-le-narcotrafic
+  69. https://www.humanite.fr/monde/incendies/incendie-dans-un-bar-en-suisse-plusieurs-dizaines-de-morts-presumes-une-centaine-de-blesses-dont-deux-francais
+  70. https://www.humanite.fr/culture-et-savoir/amerique-du-sud/una-historia-americana-le-groupe-vidala-ressuscite-le-repertoire-de-la-nueva-cancion
   71. https://www.humanite.fr/en-continu
-  72. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
-  73. https://www.humanite.fr/surtitre/actu
-  74. https://www.humanite.fr/environnement/gaz-a-effet-de-serre/shein-zara-uniqlo-hm-derriere-les-promesses-des-geants-de-la-fast-fashion-la-realite-de-leur-pollution
-  75. https://www.humanite.fr/surtitre/decryptage
-  76. https://www.humanite.fr/environnement/canicule/16-departements-en-vigilance-rouge-canicule-ce-mardi-quelles-consequences
-  77. https://www.humanite.fr/surtitre/actu
+  72. https://www.humanite.fr/environnement/autoroute-a69/la69-puissant-revelateur-des-renoncements-environnementaux-de-la-macronie
+  73. https://www.humanite.fr/surtitre/editorial
+  74. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
+  75. https://www.humanite.fr/surtitre/actu
+  76. https://www.humanite.fr/environnement/armement/genocide-a-gaza-50-milliards-depargne-durable-detournes-pour-des-drones-et-des-bombes
+  77. https://www.humanite.fr/surtitre/environnement
   78. https://kiosque.humanite.fr/detail/publication/detail-top-right/15?issue_id=230993&switch_toc=archive&connect=true
   79. https://kiosque.humanite.fr/detail/publication/detail-top-right/17?issue_id=230490&switch_toc=archive&connect=true
   80. https://kiosque.humanite.fr/detail/publication/detail-top-right/238?issue_id=227866&switch_toc=archive&connect=true
@@ -493,9 +493,9 @@ Références
  128. https://www.humanite.fr/environnement/agriculture/sante-une-etude-confirme-la-surexposition-des-riverains-des-zones-viticoles-aux-pesticides
  129. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
  130. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
- 131. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
- 132. https://www.humanite.fr/environnement/gaz-a-effet-de-serre/shein-zara-uniqlo-hm-derriere-les-promesses-des-geants-de-la-fast-fashion-la-realite-de-leur-pollution
- 133. https://www.humanite.fr/environnement/canicule/16-departements-en-vigilance-rouge-canicule-ce-mardi-quelles-consequences
+ 131. https://www.humanite.fr/environnement/autoroute-a69/la69-puissant-revelateur-des-renoncements-environnementaux-de-la-macronie
+ 132. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
+ 133. https://www.humanite.fr/environnement/armement/genocide-a-gaza-50-milliards-depargne-durable-detournes-pour-des-drones-et-des-bombes
  134. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
  135. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
  136. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites

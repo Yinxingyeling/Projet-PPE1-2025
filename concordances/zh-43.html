@@ -1,0 +1,123 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 43</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>43</td><td>   </td><td>云</td><td></td></tr>
+<tr><td>43</td><td></td><td>云</td><td>鬓花颜金步摇，芙蓉帐暖度春宵。</td></tr>
+<tr><td>43</td><td>   译文鬓发如</td><td>云</td><td>脸似花，头戴金步摇，温暖的芙蓉帐子里与皇上共度春宵。</td></tr>
+<tr><td>43</td><td>   注释云鬓：形容女子鬓发盛美如</td><td>云</td><td>。金步摇：一种金首饰，用金银丝盘成花之形状，上面缀着垂珠之类，插于发鬓，走路时摇曳生姿。芙蓉帐：绣着莲花的帐子，</td></tr>
+<tr><td>43</td><td>   </td><td>云</td><td>鬓花颜金步摇，芙蓉帐暖度春宵。</td></tr>
+<tr><td>43</td><td>   骊宫高处入青</td><td>云</td><td>，仙乐风飘处处闻。</td></tr>
+<tr><td>43</td><td>   黄埃散漫风萧索，</td><td>云</td><td>栈萦纡登剑阁。</td></tr>
+<tr><td>43</td><td>   楼阁玲珑五</td><td>云</td><td>起，其中绰约多仙子。</td></tr>
+<tr><td>43</td><td>   云鬓半偏新睡觉，花冠不整下堂来。(云鬓 一作：</td><td>云</td><td>髻)</td></tr>
+<tr><td>43</td><td>   鬓发如</td><td>云</td><td>面容似花，头戴着金步摇，在精美的芙蓉帐中与皇上共度春宵。</td></tr>
+<tr><td>43</td><td>   数点雨声风约住。朦胧淡月</td><td>云</td><td>来去。 ——李冠《蝶恋花·春暮》</td></tr>
+<tr><td>43</td><td>   黑</td><td>云</td><td>压城城欲摧，甲光向日金鳞开。 ——李贺《雁门太守行》</td></tr>
+</tbody></table></div></section></body></html>

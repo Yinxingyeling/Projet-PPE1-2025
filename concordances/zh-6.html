@@ -1,0 +1,136 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 6</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>6</td><td>沈从文：云南看</td><td>云</td><td></td></tr>
+<tr><td>6</td><td>   来源：《水</td><td>云</td><td>：沈从文散文》</td></tr>
+<tr><td>6</td><td>   真实的人生轨迹，充满着温馨的人情之美。时值沈从文先生逝世30周年，果麦文化出版《水</td><td>云</td><td>：沈从文散文》（2018年9月），再现沈从文的生命轨迹与深</td></tr>
+<tr><td>6</td><td>   云南因云而得名，可是外省人到了云南一年半载后，一定会和本地人差不多，对于云南的</td><td>云</td><td>，除却只能从它变化上得到一点晴雨知识，就再也不会单纯的来欣赏它</td></tr>
+<tr><td>6</td><td>   的美丽了。看过卢锡麟先生的摄影后，必有许多人方俨然重新觉醒，明白自己是生在云南，或住在云南。云南特点之一，就是天上的</td><td>云</td><td>变化得出奇。尤其是傍晚时</td></tr>
+<tr><td>6</td><td>   候，云的颜色，云的形状，</td><td>云</td><td>的风度，实在动人。</td></tr>
+<tr><td>6</td><td>   许多地方各有各的天气，天气不同还多少影响到一点人事。云有云的地方性：中国北部的云厚重，人也同样那么厚重。南部的</td><td>云</td><td>活泼，人也同样那么活泼。海边的</td></tr>
+<tr><td>6</td><td>   云幻异，渤海和南海云各不相同，正如两处海边的人性情不同。河南的云一片黄，抓一把下来似乎就可以作窝窝头，云粗中有细，人亦粗中有细。湖湘的</td><td>云</td><td>一片灰</td></tr>
+<tr><td>6</td><td>   ，长年挂在天空一片灰，无性格可言，然而橘子、辣子就在这种地方大量产生，在这种天气下成熟，却给湖南人增加了生命的发展和进取精神。四川的云与湖南</td><td>云</td><td></td></tr>
+<tr><td>6</td><td>   虽相似而不尽相同，巫峡峨嵋高峰把云分割又加浓，云有了生命，人也有了生命。可是体积虽大分量轻，人亦因之好夸饰而不甚落实。论色彩丰富，青岛海面的</td><td>云</td><td></td></tr>
+<tr><td>6</td><td>   皇汉武的事业，同样结束在一个长生不死青春常在的美梦里，不是毫无道理的。云南的</td><td>云</td><td>给人印象大不相同，它的特点是素朴，影响到人性情也应当挚厚而单纯。</td></tr>
+<tr><td>6</td><td>   云南的</td><td>云</td><td>似乎是用西藏高山的冰雪，和南海长年的热风，两种原料经过一种神奇的手续完成的。色调出奇的单纯。唯其单纯反而见出伟大。尤以天时晴明的黄昏前</td></tr>
+<tr><td>6</td><td>   后，光景异常动人。完全是水墨画，笔调超脱而大胆。天上一角有时黑得如一片漆，它的颜色虽然异样黑，给人感觉竟十分轻。在任何地方“乌</td><td>云</td><td>蔽天”照例是个</td></tr>
+<tr><td>6</td><td>   沉重可怕的象征，唯有云南傍晚的黑</td><td>云</td><td>，越黑反而越不碍事，且表示第二天天气必然顶好。几年前中国古物运到伦敦展览时，有一个赵松雪作的卷子，名《秋江叠</td></tr>
+<tr><td>6</td><td>   嶂》，净白如玉的澄心堂纸上用浓墨重重涂抹，给人印象却十分美秀。云南的</td><td>云</td><td>也恰恰如此，看来只觉得黑而秀。</td></tr>
+<tr><td>6</td><td>   可是我们若在黄昏前后，到城郊外一个小丘上去，或坐船在滇池中，看到这种</td><td>云</td><td>彩时，低下头来一定会轻轻的叹一口气。具体一点将发生“大好河山”感想，抽象</td></tr>
+<tr><td>6</td><td>   一点将发生“逝者如斯”感想。心中一定觉得有些痛苦，为一片悬在天空中的沉静黑</td><td>云</td><td>痛苦。因为这东西给了我们一种无言之教，比目前政治家的文章，宣传家的</td></tr>
+<tr><td>6</td><td>   讲演，杂感家的讽刺文，都高明得多，深刻得多，同时还美丽得多。觉得痛苦原因或许也就在此。那么好看的</td><td>云</td><td>，教育了在这一片天底下讨生活的人，究竟是些什</td></tr>
+<tr><td>6</td><td>   正的法币和抽象的法币弄得昏昏的，失去了应有的灵敏与弹性，以及对于“生命”较高的认识。其余无知识的脑子，成天打算些什么，也就可想而知了。云南的</td><td>云</td><td></td></tr>
+<tr><td>6</td><td>   近两个月来，本市在连续的警报中，城中二十万市民，无一不早早的就跑到郊外去，向天空把一个颈脖昂酸，无一人不看到过几片天空飘动的浮</td><td>云</td><td>，仰望结果，不</td></tr>
+<tr><td>6</td><td>   就在这么一个社会一种情形中，卢先生却来展览他在云南的照相，告给我们云南法币以外还有些什么。即以天空的云彩言，色彩单纯的</td><td>云</td><td>有多健美，多飘逸，多温</td></tr>
+<tr><td>6</td><td>   柔，多崇高!观众人数多，批评好，正说明只要有人会看云，就从云影中取得一种诗的感兴和热情，还可望将这种尊贵的感情，转给另外一种人。换言之，就是</td><td>云</td><td></td></tr>
+<tr><td>6</td><td>   南的云即或不能直接教育人，还可望由一个艺术家的心与手，间接来教育人。卢先生照相的兴趣，似乎就在介绍这种美丽感印给多数人，所以作品中对于</td><td>云</td><td>物的题</td></tr>
+<tr><td>6</td><td>   材，处理得特别好。每一幅</td><td>云</td><td>都有一种不同的性情，流动的美。不纤巧，不做作，不过分修饰，一任自然，心手相印，表现得素朴而亲切。作品成功是必然的。可</td></tr>
+<tr><td>6</td><td>   ....出路也都是只顾眼前。大众眼前固然都有了出路，这个国家的明天，是不是还有希望可言?我们如真能够像卢先生那么静观默会天空的云彩，</td><td>云</td><td>物的美丽</td></tr>
+</tbody></table></div></section></body></html>

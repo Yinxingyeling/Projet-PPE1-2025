@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="" name="keywords" />
+<meta content="" name="description" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>携手观云识天，共知气象万千——“院士科普大讲堂”第三十七期活动在江岸区塔子湖街道举行 - 武汉市科学技术协会</title>
+<script type="text/javascript" src="/templates/green/js/jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/templates/green/css/kxbase.css" />
+<link rel="stylesheet" type="text/css" href="/templates/green/css/swap_pic.css" />
+<link rel="SHORTCUT ICON" href="/templates/green/images/kxlogo.ico" />
+<script type="text/javascript" src="/templates/green/js/base.js"></script>
+</head>
+
+<body>
+<!--Header-->
+<div class="m_top">
+    <div class="top">
+        <div class="top_left1 fl">
+            <span class="top_mc" style=" color:red">武汉市科协</span>
+            <div class="top_mc2"><span id="show_time"></span><span class="top_mc21"></span> </div>
+        </div>
+        <div class="other">
+            <a class="other_bg" onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a> 
+            <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)" class="other_bg">加入收藏</a> 
+            <a class="acadd2 wb_t " onmouseout="document.all.icon_wx.style.visibility='hidden'" 
+                onmouseover="document.all.icon_wx.style.visibility=''"
+                href="#"><i class="wx_ico"></i><span>关注我们</span></a>
+            <div class="icon_wb_d" style="display: block; visibility: hidden;" id="icon_wx">
+                <img src="/templates/green/images/wxewm.jpg" alt="扫描此二维码" /><p>
+                    关注我们吧！</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="m_banner" onload="init();" style="height: 177px;">
+    <div class="banner">
+        <div class="bannerwrap">
+		<canvas class="bannerwrap" width="1440" height="255" id="testCanvas"></canvas>
+		<script type='text/javascript' src='/templates/green/header/fanvas3-min.js'></script>
+		<script type='text/javascript' src='/templates/green/header/swfData.js'></script>
+		<script>
+			function init() {
+				fanvas.play("testCanvas", swfData, {
+					cache: false, autoPlay: true,
+					onFrame: function (index) {
+		//                    console.log("onFrame", index);
+		//                    if(index == 10){
+		//                        fanvas.pause("testCanvas");
+		//                        setTimeout(function(){
+		////                            fanvas.resume("testCanvas");
+		//                            fanvas.replay("testCanvas");
+		//                        }, 2000);
+		//                    }
+					},
+					imagePath: "/templates/green/header/"
+				});
+			}
+			window.onload=init;  
+		</script>
+		</div>
+    </div>
+</div>
+
+<div class="m_nav">
+    <div class="nav">
+        <a href="/index.aspx" style="width: 70px;">网站首页</a><i class="nav_ico"></i>
+        <a target="_blank" href="/news_list_content.aspx?id=17077" style="width: 70px;">科协简介</a><i class="nav_ico"></i>
+        <!--<a target="_blank" href="/news_list.aspx?category_id=7" style="width: 70px;">组织体系</a><i class="nav_ico"></i>-->
+        <a target="_blank" href="/news_list.aspx?category_id=84" style="width: 60px;">工作动态</a><i class="nav_ico"></i>
+        <!--<a target="_blank" href="/news_list.aspx?category_id=49" style="width: 75px;">重要文件</a><i class="nav_ico"></i>-->
+        <a target="_blank" href="/news_list.aspx?category_id=53" style="width: 70px;">学术交流</a><i class="nav_ico"></i>
+        <a target="_blank" href="/news_list.aspx?category_id=60" style="width: 70px;">科学普及</a><i class="nav_ico"></i>
+        <a target="_blank" href="/news_list.aspx?category_id=66" style="width: 85px;">企事业科协</a><i class="nav_ico"></i>
+        <!--<a target="_blank" href="/news_list.aspx?category_id=100" style="width: 60px;">身边科普</a>-->
+        <a target="_blank" href="/news_list.aspx?category_id=70" style="width: 115px;">科技工作者之家</a><i class="nav_ico"></i>
+        <!--<a target="_blank" href="/news_list.aspx?category_id=46" style="width: 120px;">全民科学素质行动</a><i class="nav_ico"></i>
+        <a target="_blank" href="/news_list.aspx?category_id=47" style="width: 90px;">都市农业科普</a><i class="nav_ico"></i>-->
+        <a target="_blank" href="/news_list.aspx?category_id=120" style="width: 70px;">科技智库</a><!--<i class="nav_ico"></i>-->
+        <a target="_blank" href="/news_list.aspx?category_id=71" style="width: 70px;">党的建设</a><i class="nav_ico"></i>
+        <a target="_blank" href="/news_list.aspx?category_id=100" style="width: 70px;">身边科普</a>
+        <!--<div class="s_form">
+            <span class="s_form_s">
+            <input autocomplete="off" maxlength="100" value="" class="s_ipt" /></span>
+            <input type="submit" class="s_btn" value="搜索" id="su" />
+        </div>-->
+        <div class="s_form">
+            <span class="s_form_s">
+                <input id="keywords" name="keywords" class="s_ipt" style="outline: none;" type="text" x-webkit-speech="" autofocus="" placeholder="输入回车搜索" onkeydown="if(event.keyCode==13){SiteSearch('/search.aspx', '#keywords');return false};" />
+            </span>
+            <input id="su" class="s_btn" type="submit" value="搜索" onclick="SiteSearch('/search.aspx', '#keywords');" />
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript" language="javascript"> 
+//加入收藏
+function AddFavorite(sURL, sTitle) { 
+    sURL = encodeURI(sURL);  
+    try{    
+        window.external.addFavorite(sURL, sTitle);    
+    }catch(e) {    
+        try{    
+            window.sidebar.addPanel(sTitle, sURL, "");    
+        }catch (e) {    
+            alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置."); 
+        }    
+    } 
+}
+
+//设为首页
+function SetHome(url){ 
+    if (document.all) { 
+        document.body.style.behavior='url(#default#homepage)'; 
+        document.body.setHomePage(url); 
+    }else{ 
+        alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!"); 
+    }
+}
+
+</script>
+
+
+<!--/Header-->
+    
+    <div class="main_newsd">
+        <div class="path">
+            <h2>活动动态</h2>
+            <div class="link">当前位置：
+                <a href="/index.aspx">首页</a> &gt; 
+                <a href="/news_list.aspx?category_id=60">科学普及</a> &gt; 
+                <a href="javascript:;" class="hover">活动动态</a>
+            </div>
+        </div>
+        
+        <div class="article_detail">
+            <h2>携手观云识天，共知气象万千——“院士科普大讲堂”第三十七期活动在江岸区塔子湖街道举行</h2>
+            <div class="info">发布日期：2024/7/25 18:07:28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来源：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者：</div>
+            <div class="fontsize">字体显示：<a href="javascript:doZoom(22)">【大】</a>&nbsp;&nbsp;<a href="javascript:doZoom(18)">【中】</a>&nbsp;&nbsp;<a href="javascript:doZoom(14)">【小】</a></div>
+            <div id="zoom" class="content">&nbsp;&nbsp;&nbsp;&nbsp;<p style="text-align:justify;">
+	<span style="font-size:16px;">&nbsp; &nbsp; &nbsp; 有句天气谚语：“天上钩钩云，地上雨淋淋。日晕三更雨，月晕午时风。”天气与云有哪些关系？云是如何形成的？云有哪些种类？生活中如何通过看云来预测天气呢？……为了提高社区居民对气象科学的认知与关注，7月23日，徐红星院士科学与人文科普工作室“院士科普大讲堂”第三十七期活动走进江岸区塔子湖街道越秀社区，中国地质大学（武汉）环境学院大气科学系副教授赵树云为参与活动的社区亲子家庭带来一场别开生面的“云与天气”主题科普讲座。</span> 
+</p>
+<p style="text-align:center;">
+	<span style="font-size:16px;"><img src="/upload/202407/26/202407261809296042.png" alt="" width="600" height="309" title="" align="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span style="font-size:16px;"><img src="/upload/202407/26/202407261809361354.png" alt="" width="600" height="284" title="" align="" /><br />
+</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="font-size:16px;">&nbsp; &nbsp; &nbsp; 讲座中，赵树云教授通过色彩斑斓的图片、直观易懂的视频和深入浅出地讲解，详细介绍了各种云的类型、形成原理以及它们所预示的天气变化，为大家揭开了云与天气之间的神秘面纱。从轻盈的卷云到厚重的积雨云，每一种云的形态和特性都被生动地展现出来，让大家仿佛置身于云端的奇妙世界。此外，赵教授还向大家介绍了现代观测云朵、预测天气的科学技术和方法，说明了当今天气预报、预警工作的重要性，并深情寄语：“了解天气，是保护自己和家人的第一步。”</span> 
+</p>
+<p style="text-align:center;">
+	<span style="font-size:16px;"><img src="/upload/202407/26/202407261809433697.png" alt="" width="600" height="365" title="" align="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span style="font-size:16px;"><img src="/upload/202407/26/202407261809499634.png" alt="" width="600" height="509" title="" align="" /><br />
+</span> 
+</p>
+<div style="text-align:justify;">
+	<span style="font-size:16px;">&nbsp; &nbsp; &nbsp; 活动现场，家长和孩子们聚精会神地聆听，不时提出自己有关云朵、天气现象的疑问和见解，赵教授用亲切通俗的语言给予一一解答，现场互动氛围热烈。一位参与活动的小学生表示：“以前只知道看云识天气是一种经验，通过这次活动才真正了解了背后的科学原理，感觉非常有趣和实用。”</span> 
+</div>
+<p style="text-align:justify;">
+	<span style="font-size:16px;">&nbsp; &nbsp; &nbsp; 此外，活动还特别安排了赠书环节，武汉出版社向塔子湖街道越秀社区赠送《跟气象学家去看云》等科普图书。通过科普阅读，帮助社区丰富阅读生活，助力提高社区居民的科学与文化素养，使更多的家庭能够将科学知识运用到生活实践当中，解决生活问题，共建美好社区。</span> 
+</p>
+<p style="text-align:center;">
+	<span style="font-size:16px;"><img src="/upload/202407/26/202407261810058851.png" alt="" width="600" height="288" title="" align="" /><br />
+</span> 
+</p>
+<div style="text-align:justify;">
+	<span style="font-size:16px;">&nbsp; &nbsp; &nbsp; 本次活动由武汉市科学技术协会指导，徐红星院士科学与人文科普工作室主办，武汉出版社、江岸区科学技术协会、江岸区塔子湖街道共同承办，同时得到中国地质大学（武汉）环境学院、塔子湖街道越秀社区的大力支持。</span> 
+</div>
+<div style="text-align:justify;">
+	<span style="font-size:16px;">&nbsp; &nbsp; &nbsp; &nbsp;徐红星院士科学与人文科普工作室“院士科普大讲堂”活动旨在大力弘扬科学精神和科学家精神，进一步加强科学知识普及，提升全民科学素养。该活动将持续举办，不断推动科普教育工作，为构建学习型社会贡献力量，让科学的种子在每个人心中生根发芽。</span> 
+</div></div>
+
+            <div class="bottom">
+                <ul class="prevnext">
+                    <li>上一篇：<a href="/news_show.aspx?id=96837">探索宇宙之眼，仰望浩瀚星空——“院士科普大讲堂”第三十六期活动在江岸区新时代文明实践中心举行</a></li>
+                    <li>下一篇：<a href="/news_show.aspx?id=96841">儿童科普，创新未来 | 2024年江岸区科学魔法实验室——魔术与科学的交汇-揭秘魔术背后的空气炮奥秘</a></li>
+                </ul>
+                <div class="tips">
+                    <a href="#" class="print" onclick="javascript:print();">打印文章</a>
+                    <a href="#" class="close" onclick="javascript:window.close();">关闭页面</a>
+                    <a href="#" class="top_ico">返回顶部</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--Footer-->
+<div class="m_links" style="display: none;">
+       
+       
+       <h3  class="m_links_h3 fl" >友情链接</h3>
+       
+       <div class="m_links_r fl">
+               <div class="link_dropdown ">
+                        
+                        <select onchange="setonchange(this);">
+                        
+                        <option>=== 市属学会 ===</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市节能协会</option>
+                        
+                            <option value="http://www.whpss.org/">武汉电源学会</option>
+                        
+                            <option value="http://hbwhms.hust.edu.cn/">武汉力学学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉微生物学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉心理学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉物理学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉质量协会</option>
+                        
+                            <option value="http://www.whjt.net.cn/index.html">武汉交通工程学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉口腔医学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉微循环学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉病理生理学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉中西医结合研究会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉老年医学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉针炙学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉药理学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市药学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市防痨协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市护理学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市预防医学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市医学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">湖北省土木建筑学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉粘接学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉激光学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市中医学会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">武汉老科学技术工作者协会</option>
+                        
+                        </select>
+                        
+                        <select onchange="setonchange(this);">
+                        
+                        <option>=== 8+1城市圈 ===</option>
+                        
+                            <option value="http://www.xgskx.com/index.php">孝感市科学技术协会</option>
+                        
+                            <option value="http://www.hgkx.com/">黄冈市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">鄂州市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">天门市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">黄石市科学技术协会</option>
+                        
+                            <option value="http://www.hbqj.gov.cn/skxjs/">潜江市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">咸宁市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">仙桃市科学技术协会</option>
+                        
+                        </select>
+                        
+                        <select onchange="setonchange(this);">
+                        
+                        <option>=== 省市科协 ===</option>
+                        
+                            <option value="http://www.cast.org.cn/">中国科学技术协会</option>
+                        
+                            <option value="http://www.bast.net.cn/">北京市科学技术协会</option>
+                        
+                            <option value="http://www.sast.gov.cn/">上海市科学技术协会</option>
+                        
+                            <option value="http://www.tast.org.cn/">天津市科学技术协会</option>
+                        
+                            <option value="http://www.cqast.cn/">重庆市科学技术协会</option>
+                        
+                            <option value="http://www.jlstnet.net/">吉林省科学技术协会</option>
+                        
+                            <option value="http://www.lnast.net/">辽宁省科学技术协会</option>
+                        
+                            <option value="http://www.sxkp.com/">山西省科学技术协会</option>
+                        
+                            <option value="http://www.snast.org.cn/">陕西省科学技术协会</option>
+                        
+                            <option value="http://www.hast.net.cn/">河南省科学技术协会</option>
+                        
+                            <option value="http://www.hbast.org.cn/">河北省科学技术协会</option>
+                        
+                            <option value="http://www.hnast.org.cn/">湖南省科学技术协会</option>
+                        
+                            <option value="http://www.hbkx.org.cn/">湖北省科学技术协会</option>
+                        
+                            <option value="http://www.ahpst.net.cn/">安徽省科学技术协会</option>
+                        
+                            <option value="http://www.zast.org.cn/">浙江省科学技术协会</option>
+                        
+                            <option value="http://www.sdast.org.cn/">山东省科学技术协会</option>
+                        
+                            <option value="http://www.nxdzkj.com/">宁夏科学技术协会</option>
+                        
+                            <option value="http://www.xast.org.cn/">新疆科学技术协会</option>
+                        
+                            <option value="http://www.syast.org.cn/">沈阳市科学技术协会</option>
+                        
+                            <option value="http://www.hrbkx.org.cn/">哈尔滨市科学技术协会</option>
+                        
+                            <option value="http://www.hkx.org.cn/">杭州市科学技术协会</option>
+                        
+                            <option value="http://www.fast.org.cn/">福州市科学技术协会</option>
+                        
+                            <option value="http://www.gzast.org.cn/">广州市科学技术协会</option>
+                        
+                            <option value="http://www.gykp.cn/gyskx/4539628424389459968/">贵阳市科学技术协会</option>
+                        
+                            <option value="http://www.xakpw.com/">西安市科学技术协会</option>
+                        
+                            <option value="http://www.qdast.org.cn/">青岛市科学技术协会</option>
+                        
+                            <option value="http://www.sckx.org.cn/">四川省科学技术协会</option>
+                        
+                            <option value="http://www.cckx.org/">长春市科学技术协会</option>
+                        
+                            <option value="http://www.zzast.org/">郑州市科学技术协会</option>
+                        
+                            <option value="http://www.dstm.net.cn/">长沙市科学技术协会</option>
+                        
+                            <option value="http://www.sjzast.org.cn/">石家庄市科学技术协会</option>
+                        
+                            <option value="http://www.szsta.org/">深圳市科学技术协会</option>
+                        
+                            <option value="http://www.xmkx.org.cn/">厦门市科学技术协会</option>
+                        
+                            <option value="http://www.nckx.com/">南昌市科学技术协会</option>
+                        
+                            <option value="http://www.yckpw.gov.cn/">银川市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">南宁市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">海口市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">昆明市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">乌鲁木齐市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">南京市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">合肥市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">贵州省科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">宁波市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">大连市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">太原市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">呼和浩特市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">兰州市科学技术协会</option>
+                        
+                            <option value="">成都市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">济南市科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">江苏省科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">海南省科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">广东省科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">江西省科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">内蒙古科学技术协会</option>
+                        
+                            <option value="http://www.whkx.org.cn/">黑龙江省科学技术协</option>
+                        
+                        </select>
+                        
+                        <select onchange="setonchange(this);">
+                        
+                        <option>=== 部委网站 ===</option>
+                        
+                            <option value="http://www.cas.cn/">中国科学院</option>
+                        
+                            <option value="http://www.cae.cn/">中国工程院</option>
+                        
+                            <option value="http://www.wuhan.gov.cn/">武汉市政府</option>
+                        
+                            <option value="http:&#47;&#47;hbwh.wenming.cn&#47;">武汉文明网</option>
+                        
+                            <option value="http://www.whkx.org.cn/">教育部（原国家教委）</option>
+                        
+                            <option value="http://fgw.wuhan.gov.cn/">武汉市发展和改革委员会</option>
+                        
+                            <option value="http://jyj.wuhan.gov.cn/news/wjtz/index.html">武汉市教育局</option>
+                        
+                            <option value="http://kjj.wuhan.gov.cn/html/index.html">武汉市科技局</option>
+                        
+                        </select>
+                </div>
+            
+         </div>   
+            
+       </div>
+
+<div class="foot">
+<!--<div class="foot_a">
+	<a href="/index.aspx">首页</a>|
+    <a target="_blank" href="/news_list_content.aspx?id=17077">科协概况</a>|
+    <a target="_blank" href="/news_list.aspx?category_id=84">科协动态</a>|
+    <a target="_blank" href="/news_list.aspx?category_id=46">全民科学素质行动</a>|
+    <a target="_blank" href="/news_list.aspx?category_id=47">都市农业科普</a>
+
+
+</div>-->
+<p><span>Copyright © </span>武汉市科学技术协会  地址：武汉市江岸区赵家条144号
+<script src="http://s24.cnzz.com/stat.php?id=1996164&web_id=1996164&show=pic" language="JavaScript"></script>
+</p>
+<p style="line-height:20px;">
+<img src="../images/gongan.png"/>鄂公网安备: <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42010202002213" style="display:inline-block;text-decoration:none;line-height:20px;">42010202002213号</a>
+&nbsp;&nbsp;
+ICP备案号: <a target="_blank" href="http://beian.miit.gov.cn">鄂ICP备19013409号</a></p>
+<p>邮编：430010 电话：(027)65692271 传真：(027)65692036 网站编辑部：(027)82842276</p>
+
+</div>
+<!--/Footer-->      
+
+</body>
+</html>

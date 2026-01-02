@@ -1,0 +1,123 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 15</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>15</td><td>核弹爆炸为什么会产生蘑菇</td><td>云</td><td></td></tr>
+<tr><td>15</td><td>       虽然核弹的各种相关技术有了进步，但爆炸后一定会产生一朵巨大的蘑菇</td><td>云</td><td>。按理说，核弹爆炸时，能量应该不加选择地向四面八方释放，那么为什么产</td></tr>
+<tr><td>15</td><td>   生的不是不断膨胀的火球而是蘑菇</td><td>云</td><td>呢？</td></tr>
+<tr><td>15</td><td>       其实，人们看到的蘑菇</td><td>云</td><td>都是核弹已经炸开很久以后的景象，在核弹爆炸的瞬间，确实形成了一个几千万度、甚至上亿度的巨大火球，同时向周围释放出</td></tr>
+<tr><td>15</td><td>   爆炸后的向上冲击力，这些气体就会被托举上升，形成一个笔直上升的</td><td>云</td><td>柱。</td></tr>
+<tr><td>15</td><td>       由于高度越高、温度越低，上升的气体混合物在到达数千米的高空后会逐渐冷却并且减慢上升速度。当云柱的最上层被高空的固有</td><td>云</td><td>团阻挡后，所有气体</td></tr>
+<tr><td>15</td><td>   将受阻而无法上升，因此只能被迫向四周扩散，导致云柱顶端越来越大，逐渐形成一个“底部小、上头大”的蘑菇</td><td>云</td><td>雏形。</td></tr>
+<tr><td>15</td><td>       在蘑菇</td><td>云</td><td>雏形的产生过程中，另一个因素加剧了这个雏形的成长。在核弹爆炸中心，由于爆炸冲击和强烈的燃烧作用，这里短时间内会形成一个近似真空</td></tr>
+<tr><td>15</td><td>   的环境。这个真空环境由于压力远远小于周围的大气压，会产生强大的抽吸作用，将周围的空气和各种杂物源源不断的吸进来，再向上推，促使上方核爆</td><td>云</td><td>层不断</td></tr>
+<tr><td>15</td><td>   变大、变粗，最终就形成了半径几十千米、甚至几百千米的巨型蘑菇</td><td>云</td><td>。</td></tr>
+<tr><td>15</td><td>       蘑菇云是不折不扣的“死亡之云”。其中的物质都遭受了严重的核辐射，这些</td><td>云</td><td>团一旦遭遇冷空气，就会冷凝成水滴，再以降雨的方式重新回到地面。如</td></tr>
+<tr><td>15</td><td>   此一来，被辐射雨洗刷过的地面就将遭受二次核污染，变成辐射重灾区。由于</td><td>云</td><td>团随风飘动，进入大气环流后，移动距离可达上千千米。</td></tr>
+</tbody></table></div></section></body></html>

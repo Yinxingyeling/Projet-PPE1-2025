@@ -1,0 +1,182 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 22</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>22</td><td>国内炒了两三年的“</td><td>云</td><td>游戏”现在怎么样了？</td></tr>
+<tr><td>22</td><td>   提到</td><td>云</td><td>游戏，可以说是近年来商人们争相追逐的一个风口，2020</td></tr>
+<tr><td>22</td><td>   年甚至被某些从业者标榜为“</td><td>云</td><td>游戏元年”。且不说这个颇具即视感的称号准不准确，确实有不少公司开始布局相关业务。海外市场有大名鼎鼎的谷歌</td></tr>
+<tr><td>22</td><td>   开展的第一天，包括完美世界、盛趣、西山居在内的十几家公司，就在会场隔壁的酒店里搞了个“全球云游戏产业联盟”的成立启动仪式，阿里</td><td>云</td><td>游戏也是把横幅</td></tr>
+<tr><td>22</td><td>   但我对</td><td>云</td><td>游戏这种内容形式一直持比较保守的态度，毕竟吹得天花乱坠都比不上自己一试。于是大概花了两天时间，我基本上把 ChinaJoy</td></tr>
+<tr><td>22</td><td>   展馆中的</td><td>云</td><td>游戏玩了个遍，算是整理了一份粗略的体验报告。</td></tr>
+<tr><td>22</td><td>CJ上的五家</td><td>云</td><td>游戏体验如何</td></tr>
+<tr><td>22</td><td>   如果从展出规模来判断各大厂商对</td><td>云</td><td>游戏的投入程度，那么顺网应该是其中最舍得折腾的，隔着老远都能看到“渣渣电脑、摆平大作”的巨大广告，几十台设备旁</td></tr>
+<tr><td>22</td><td>   网吧行业市场的占有率。可能正因如此，他们的</td><td>云</td><td>游戏软件颇有网吧服务系统的味道，一眼就能看到塞满充值续费、计时和网络监控按钮的悬浮窗。</td></tr>
+<tr><td>22</td><td>   但“顺网</td><td>云</td><td>玩”却是一个正儿八经面向电视、PC</td></tr>
+<tr><td>22</td><td>   “这些内容只是让你提前感受下</td><td>云</td><td>游戏的味道。”</td></tr>
+<tr><td>22</td><td>   抛开这些不说，“顺网</td><td>云</td><td>玩”给我带来的体验却是令人满意的。在有线网络连接的电脑上，《只狼》能够稳定跑出 1080P/60FPS</td></tr>
+<tr><td>22</td><td>   国内的云游戏大多是赶着 5G 风口，对网络有一套说低不低、说高不高的要求。“顺网</td><td>云</td><td>玩”就分了三档：2K</td></tr>
+<tr><td>22</td><td>   和“顺网</td><td>云</td><td>玩”差不多，“咪咕快游”的服务覆盖手机、PC 和电视，还了多了一个 VR 端。效果上最高支持 4K/60FPS 输出，据说 5G</td></tr>
+<tr><td>22</td><td>   奥德赛》在中国电信旗下的“天翼</td><td>云</td><td>游戏”里倒是没有下架。虽然该平台的总内容库相比“咪咕快玩”少了点，但也有几十款知名的单机游戏撑场子，包括《地铁</td></tr>
+<tr><td>22</td><td>   在电视上体验“天翼</td><td>云</td><td>游戏”的感觉还不错，高速运动下的 FPS 游戏能够维持画质稳定，只是偶尔出现掉帧。但当我用自己的 4G 网络（80Mbps</td></tr>
+<tr><td>22</td><td>   下载，10 Mbps 上传）玩该平台的《鬼泣5》时，就出现了画面和帧数明显降低的状况，可见</td><td>云</td><td>游戏对网络的上行和下行都有较高要求。</td></tr>
+<tr><td>22</td><td>   相比之下，中国联通似乎对</td><td>云</td><td>游戏没那么重视，一大片展区只划出一个机位供人试玩，我废了好一番功夫才找到他们的“小沃畅游”应用，里面除了《拳皇14》</td></tr>
+<tr><td>22</td><td>   盛趣的“传奇</td><td>云</td><td>游戏”算是最另类的一个，除了电视端要安装 APP 外，PC 和手机端都是通过 H5 实现的，换言之就是打开网页就能玩。</td></tr>
+<tr><td>22</td><td>   2020 年 1 月时，盛趣公布过自己的</td><td>云</td><td>游戏标准：在 10Mbps 的网速下实现 1080P/60FPS，并且延迟小于</td></tr>
+<tr><td>22</td><td>   要是简单的做个总结，目前从游玩体验来看“顺网云玩＞咪咕快游＞天翼云游戏＞传奇云游戏＞小沃畅游”，而内容量方面则是“咪咕快游＞天翼云游戏＞传奇</td><td>云</td><td></td></tr>
+<tr><td>22</td><td>   游戏＞小沃畅游＞顺网</td><td>云</td><td>玩”。</td></tr>
+<tr><td>22</td><td>   下一页：国内的</td><td>云</td><td>游戏资费并不算低</td></tr>
+<tr><td>22</td><td>国内的</td><td>云</td><td>游戏资费并不算低</td></tr>
+<tr><td>22</td><td>   大致分析了体验，剩下的问题自然落到了值不值上。结论是，我认为目前国内</td><td>云</td><td>游戏的资费普遍偏高。</td></tr>
+<tr><td>22</td><td>   “顺网</td><td>云</td><td>玩”采取的是时长和订阅并行的收费方式，单价 4 元 1 小时，和网吧差不多。无限畅玩的月卡 108 元，年卡 899</td></tr>
+<tr><td>22</td><td>   元，比一部分家用宽带的费用还高。而且如果想在电视大屏上体验游戏的话，还得购买 599 元的“</td><td>云</td><td>玩盒子”，其中包括一个机顶盒和一个定制手柄。</td></tr>
+<tr><td>22</td><td>   成为会员并不代表你能畅玩</td><td>云</td><td>游戏，而是赠送一定的游戏时长。</td></tr>
+<tr><td>22</td><td>   “天翼</td><td>云</td><td>游戏”的资费与其整体相近，直接买时长同样是 5 元 1 小时，15.9 元 5 小时。会员稍微便宜一点，连续包月 9.9 元（含 20</td></tr>
+<tr><td>22</td><td>   小时</td><td>云</td><td>游戏时长），月卡 39.9 元（含 20 小时），季卡 79 元（含 60 小时），年卡 399 元（含 240 小时）。</td></tr>
+<tr><td>22</td><td>   个小时的“加油小包”，毕竟是中国联通的产品，他们也将</td><td>云</td><td>游戏算作一项增值业务，可以和手机号进行绑定。</td></tr>
+<tr><td>22</td><td>   可以预计的是，未来国内的云游戏提供商大多数都将采用计时和包月收费的组合形式。虽然盛趣的“传奇</td><td>云</td><td>游戏”还未正式商业化，但从现场工作人员的介绍来看</td></tr>
+<tr><td>22</td><td>   2020 年初终于正式上线的 GeForce Now，目前只有“免费”和“月费”。其</td><td>云</td><td>服务器采取“排队等位”的设计，免费玩家连上去后可以连续玩</td></tr>
+<tr><td>22</td><td>   和大多数</td><td>云</td><td>游戏有所不同的是，GeForce Now 的内容都得靠玩家自己到 Steam 和 EGS</td></tr>
+<tr><td>22</td><td>   买，相当于你只租用了</td><td>云</td><td>端服务器的算力，所以才相对便宜。这么做看似荒谬但也有好处，那就是当订阅服务过期时，玩家之前买过的游戏还是属于自己的，并不</td></tr>
+<tr><td>22</td><td>   相比之下，虽然索尼</td><td>云</td><td>游戏 PlayStation Now 宣传不多，但其实在一直在平稳发展，官方也会定期维护内容库。价格方面包月 9.99</td></tr>
+<tr><td>22</td><td>   从价格方面来说，我担心</td><td>云</td><td>游戏服务对主机玩家是否有足够吸引力。毕竟能够接受订阅制的人应该早就购入 XGP 了，月费 9.99</td></tr>
+<tr><td>22</td><td>   月开始还可以一并享受 xCloud </td><td>云</td><td>服务，直接将内容同步到智能手机、平板和电脑。</td></tr>
+<tr><td>22</td><td>   而国内不少厂商应该是看中了狭义上“</td><td>云</td><td>玩家”的重度体验需求，这一部分用户乐于观看单机游戏实况、直播，却难以接受传统游戏市场的买断付费模式。此外主</td></tr>
+<tr><td>22</td><td>   机和高端 PC 也不是人人都有，</td><td>云</td><td>游戏的普及无疑能降低游玩门槛。</td></tr>
+<tr><td>22</td><td>   三大网络运营商在这之上恐怕还有一层考虑，毕竟他们的业务覆盖人群极广，其中包含很多对游戏有一点兴趣但对设备毫无概念的潜在用户，</td><td>云</td><td>游戏恰好能满足这</td></tr>
+<tr><td>22</td><td>   些人的要求。一个小细节是移动、联动和电信的</td><td>云</td><td>游戏平台都只要“手机号+短信验证码”就能登陆，能做多简单就做多简单。</td></tr>
+<tr><td>22</td><td>   当然，如果细细换算下来，大多数</td><td>云</td><td>游戏包括配套的月费、会费，以及不低的网络带宽费用，总支出未必会少。</td></tr>
+<tr><td>22</td><td>   些</td><td>云</td><td>游戏提供商本身就要对 5G</td></tr>
+<tr><td>22</td><td>   和</td><td>云</td><td>计算进行基建投入，成本已经很高了，况且要保证足够的内容供给难度更大。前文其实提到了一些授权方面的灰色问题，这也是为何谷歌没那么快做起来的原</td></tr>
+<tr><td>22</td><td>   </td><td>云</td><td>游戏无限时长bug</td></tr>
+<tr><td>22</td><td>   </td><td>云</td><td>游戏无限时长bug</td></tr>
+<tr><td>22</td><td>   《天翼</td><td>云</td><td>游戏》点个关注再走呗。</td></tr>
+<tr><td>22</td><td>   《天翼</td><td>云</td><td>游戏》点个关注再走呗。</td></tr>
+<tr><td>22</td><td>   天翼</td><td>云</td><td>游戏介绍</td></tr>
+<tr><td>22</td><td>   天翼</td><td>云</td><td>游戏介绍</td></tr>
+<tr><td>22</td><td>   五一宅家怎么过？电视</td><td>云</td><td>游戏平台哪个好？体验怎么样？</td></tr>
+<tr><td>22</td><td>   电视</td><td>云</td><td>游戏摆脱了对硬件的依赖,不用下载游戏就能直接开...即使你没有手柄也没有关系,通过手机扫码,还可以把手机变...</td></tr>
+<tr><td>22</td><td>   德国电信宣布关闭云游戏服务，只是在</td><td>云</td><td>游戏爆发前吹响了集结号</td></tr>
+<tr><td>22</td><td>   Magenta Gaming的退场似乎再次印证了人们对云游戏的担忧,毕竟</td><td>云</td><td>游戏这个概念出现也有十几年了,但直到如今都没有...</td></tr>
+<tr><td>22</td><td>   3A游戏大作即点即玩，咪咕快游</td><td>云</td><td>游戏盒子上手评测</td></tr>
+<tr><td>22</td><td>   移动咪咕云游戏、电信天翼</td><td>云</td><td>游戏、联通小沃、腾讯、网易...盒子顶部则带有一个显示时间的液晶显示屏,整体一下子显...</td></tr>
+<tr><td>22</td><td>   “天翼云游戏大赛”发布 中国电信助力</td><td>云</td><td>原生游戏内容开发</td></tr>
+<tr><td>22</td><td>   中国电信号百控股发布首届面向云游戏开发者的天翼云游戏大赛暨“5GCGA云原生游戏开发大赛-电信天翼</td><td>云</td><td>分赛区”相...</td></tr>
+<tr><td>22</td><td>   中国电信</td><td>云</td><td>南公司为“就地过年”群众提供免费流量等多项温馨服务</td></tr>
+<tr><td>22</td><td>   针对就地过年的电信5G会员用户,中国电信云南公司推出了天翼超高清、天翼云游戏、天翼</td><td>云</td><td>VR一个月会员权益免费领活...</td></tr>
+<tr><td>22</td><td>   中国电信5G</td><td>云</td><td>游戏 革新玩家游戏体验</td></tr>
+<tr><td>22</td><td>   在这场科技与娱乐的交汇中,5G</td><td>云</td><td>游戏不仅革新了玩家的游戏体验,更开启了游戏行业的新篇章。科技驱动:5G时代的游戏...</td></tr>
+<tr><td>22</td><td>   今年CJ展最大产业热点</td><td>云</td><td>游戏：平台混战，等待杀手级产品</td></tr>
+<tr><td>22</td><td>   澎湃新闻记者 陈宇曦今年的中国国际数码互动娱乐展览会(ChinaJoy)上,</td><td>云</td><td>游戏牢牢占据“C”位。从传统的游戏公司、...</td></tr>
+<tr><td>22</td><td>   是否打算引入《黑神话：悟空》到天翼</td><td>云</td><td>游戏平台？国脉文化回应：暂无相关计划</td></tr>
+<tr><td>22</td><td>   据上证e互动网站,有投资者提问,“请问贵公司是否有打算引入《黑神话:悟空》到天翼</td><td>云</td><td>游戏平台? 充实平台的3A大作...</td></tr>
+<tr><td>22</td><td>   无需部署，即刻体验！天翼AI</td><td>云</td><td>电脑轻松玩转DeepSeek</td></tr>
+<tr><td>22</td><td>   天翼云率先发力,将天翼AI</td><td>云</td><td>电脑全面接入DeepSeek,为用户... 从而节省大量的时间。在研发场景中,开发和测试人员可以...</td></tr>
+<tr><td>22</td><td>   盘点天翼</td><td>云</td><td>盘，限制虽紧依然堪用，几个使用小技巧</td></tr>
+<tr><td>22</td><td>   中国电信旗下天翼</td><td>云</td><td>盘,数年前横空出世,以空间大速度快无限制著称,作为初代用户深有感触。 上传下载不限速,离线下...</td></tr>
+</tbody></table></div></section></body></html>

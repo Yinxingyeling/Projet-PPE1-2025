@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+<meta property="wb:webmaster" content="209aa6880b9c0855" />
+<meta name="robots" content="all" />
+<link rel="shortcut icon" href="https://www-file.ruijie.com.cn/chineseResources/UIA/images/favicon.ico" type="image/x-icon" />
+<link rel="canonical" href="https://www.ruijie.com.cn/jszl/94198" />
+    <meta name="description" content="云技术架构及其未来的发展方向展示了云计算领域的持续进步与创新。本文将深入讨论云服务器的核心技术，如虚拟化技术、存储解决方案、云管理平台和虚拟网络，并展望其未来的演变趋势。"/>
+    <meta name="keywords" content="云技术架构"/>
+    <title>云技术架构简析</title>
+</head>
+<body>
+
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-js/goole-manage.js"></script>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTHVCP52" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+    var apiDomain = 'https://www.ruijie.com.cn';
+</script>
+<script
+    src="//sdk.linkflowtech.com/linkflow.min.js?token=MTAwMDA3NC03NmVjY2Y3MS0yZTk0LTQzZDgtOTRhYy03ODZmZTE0Y2EzNTY=&server_url=https://cdp.linkflowtech.com"
+    type="text/javascript"></script>
+<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/fonts/iconfont/iconfont.css"
+    type="text/css" rel="stylesheet" />
+<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/jquery.mCustomScrollbar.min.css"
+    type="text/css" rel="stylesheet" />
+<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/main-v1.3.css?20241121"
+    type="text/css" rel="stylesheet" />
+<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/styles/main.css?20181228"
+    type="text/css" rel="stylesheet" />
+<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/media-v1.1.css?20241121" type="text/css"
+    rel="stylesheet" />
+<link rel="stylesheet" href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/head-v1.2.css?20250407" />
+<link rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-css/index-v1.7.css?2025101614">
+<link rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-img/nav-icon/iconfont.css">
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/foot-v1.2.css" />
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/styles/typeahead.css" media="screen" />
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/styles/util.css?20251203" media="screen" />
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/styles/content.css" media="screen" />
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/Plugins/layui/css/layui.css" media="screen" />
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/v3.0/common/styles/header.css?20200514" />
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/v3.0/common/styles/master.css?2019050901" />
+<link rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/styles_r/layout-right.css" />
+<link rel="stylesheet" href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/future-v1.0.css" />
+<link rel="stylesheet" href="https://www-file.ruijie.com.cn/chineseResources/UIA/v5.0/header/css/mobel-search.css
+?1409" />
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/jquery-3.6.1.min.js"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/jquery-migrate-1.4.1.min.js"
+    type="text/javascript"></script>
+<script
+    src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/jquery.cookie-1.4.1.min.js"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/jquery.SuperSlide.2.1.1.js"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/jquery.placeholder.js"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/jquery.typeahead.js"
+    type="text/javascript"></script>
+    <script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/util-v1.0.js" type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/slimscroll.js"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/Plugins/layer/layer.js"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/idangerous.swiper.min.js"
+    type="text/javascript"></script>
+<link type="text/css" rel="stylesheet"
+    href="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/styles/idangerous.swiper.css"
+    media="screen">
+<!--[if lt IE 9]>
+<link rel="stylesheet"
+      href="https://www-file.ruijie.com.cn/chineseResources/UIA/v3.0/common/styles/header-ie8.css?20190509"/>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/Scripts_R/respond.min.js"
+        type="text/javascript"></script>
+<script src="httpss://www-file.ruijie.com.cn/chineseResources/UIA/Scripts_R/html5shiv.min.js"
+        type="text/javascript"></script>
+<![endif]-->
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/jquery.common.js?20190426"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v3.0/common/scripts/master.js?2019050901">
+</script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v5.0/header/js/ie-browsers.js?1"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v5.0/header/js/Browsers.js"
+    type="text/javascript"></script>
+<header class="ys_header">
+    <div class="ys_hd_pc">
+        <div class="cookie-banner" style="display:none;">
+            <p>
+                本站点使用Cookies，继续浏览表示您同意我们使用Cookies。<a target="_blank" href="/privacy/">Cookies和隐私政策></a>
+                <a href="javascript:void(0)" class="accept-btn">
+                    <img alt="" style="width:24px;"
+                        src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/icon-close.png">
+                </a>
+            </p>
+        </div>
+        <link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-css/yzm-ad.css?20251208"
+            rel="stylesheet">
+        <div class="ad-box ad-box-yzm" id="adv-1">
+            <b>告别运维内耗 全域协同提效 丨 锐捷网络运维保障经验分享会</b>
+            <div class="n-spr-line"></div>
+            <div><img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-img/date.svg"
+                    class="n-ad-time"><span id="date-adv"></span></div>
+            <a href="https://www.ruijie.com.cn/gy/events/180/zb/?utm_source=cphf" target="_blank">
+                <div class="n-ad-btn">预约直播</div>
+            </a>
+            <div class="n-ad-close"></div>
+            <div id="hideStartTime-adv" style="display: none;">2025-12-11 16:00:00</div>
+            <div id="hideEndTime-adv" style="display: none;">2025-12-11 17:00:00</div>
+            <div id="hideUrls-adv" style="display: none;">/cp/jh-,/cp/fw-</div>
+        </div>
+        <div class="ad-box ad-box-yzm ad-box-wx" id="adv-2">
+            <b>无感准入 人物统管 丨 RG-SAM+5.X 新一代高校AI认证平台发布</b>
+            <div class="n-spr-line"></div>
+            <div><img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-img/date.svg"
+                    class="n-ad-time"><span id="date-adv"></span></div>
+            <a href="https://www.ruijie.com.cn/gy/events/171/zb/?utm_source=cphf" target="_blank">
+                <div class="n-ad-btn">预约直播</div>
+            </a>
+            <div class="n-ad-close"></div>
+            <div id="hideStartTime-adv" style="display: none;">2025-12-11 16:00:00</div>
+                <div id="hideEndTime-adv" style="display: none;">2025-12-11 17:00:00</div>
+                <div id="hideUrls-adv-wx" style="display: none;">/cp/yyxt-,/cp/wx-</div>
+        </div>
+        <script
+            src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-js/yzm-ad.js?2025081401"></script>
+        <!-- pc子导航 -->
+        <div class="child_nav">
+            <div class="child_nav_left">
+                
+            </div>
+            <div class="child_nav_right">
+                <div class="l_hdlang fl">
+                    <div class="l_hdlangtp clearfix">
+                        <div class="l_hdlangic fl">
+                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-img/language1.svg?2"
+                                alt="" />
+                        </div>
+                        <div class="l_hdlangp fl">
+                            <p>中文</p>
+                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/xiala.svg"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="l_hdlangbt">
+                        
+                    </div>
+                </div>
+                <div class="l_hdlogin fl">
+                    <!-- 登录前结构 -->
+                    <div class="l_login_before">
+                        <a target="_blank" href="https://www.ruijie.com.cn/user/login/" rel="nofollow">
+                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-img/user.svg?2"
+                                alt="">
+                            <p>登录</p>
+                        </a>
+                    </div>
+                    <!-- 登录后结构 -->
+                    <div class="l_login_after">
+                        <div class="l_logintp">
+                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-img/user.svg?2"
+                                alt="">
+                        </div>
+                        <div class="l_loginbt">
+                            <ul>
+                                <li>
+                                    <p class="login_username_phone"></p>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.ruijie.com.cn/user/center/">个人中心</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="signout">退出登录</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l_headnr">
+            <div class="l_headnrs clearfix">
+                <div class="l_headle fl" style="z-index:999;position:relative;">
+                    <a target="_blank" href="https://www.ruijie.com.cn/"><img
+                            src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/logo.svg"
+                            alt="" /></a>
+                </div>
+                <div class="new-nav">
+                    <!-- 产品 -->
+                    <div class="n-nav-main">
+                        <a target="_blank" class="n-nav-title n-nav-head" href="https://www.ruijie.com.cn/cp/">产品</a>
+                        <div class="n-nav-down">
+                            <div class="n-nav-pullDown" id="ProductData">
+                                <div class="n-productLine sideNav">
+                                    <div class="return-btn">&lt; 返回主菜单</div>
+                                    <a target="_blank" href="https://www.ruijie.com.cn/cp/" class="n-productLine-head">
+                                        <span>产品中心</span>
+                                    </a>
+                                    <div class="n-nav-name">产品</div>
+                                    <div class="n-productLine-main sideNav-main">
+                                        
+                                    </div>
+                                </div>
+                                <div class="n-nav-shares">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                            <!-- 新解决方案 -->
+                            <div class="n-nav-main" id="new-solution">
+                                <a target="_blank" class="n-nav-title n-nav-head" href="https://www.ruijie.com.cn/fa/">解决方案</a>
+                                <div class="n-nav-down">
+                                    <div class="n-nav-pullDown" id="SolutionData">
+                                        <div class="sideNav n-businessLine">
+                                            <div class="return-btn">&lt; 返回主菜单</div>
+                                            <a target="_blank" href="https://www.ruijie.com.cn/fa/" class="n-productLine-head">
+                                                <span>解决方案中心</span>
+                                            </a>
+
+                                            <div class="n-nav-name">行业</div>
+                                            <div class="sideNav-main n-businessLine-main" style="min-height: 400px;">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="n-nav-shares">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    <!-- 服务支持 -->
+                    <div class="n-nav-main">
+                        <a target="_blank" class="n-nav-title n-nav-head" href="https://www.ruijie.com.cn/fw/">服务支持</a>
+                        <div class="n-nav-down">
+                            <div class="n-nav-pullDown">
+                                <div class="common-lists" id="ServiceData">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 合作伙伴 -->
+                    <div class="n-nav-main">
+                        <a target="_blank" class="n-nav-title n-nav-head"
+                            href="https://partners.ruijie.com.cn/partnerportal/">合作伙伴</a>
+                        <div class="n-nav-down">
+                            <div class="n-nav-pullDown">
+                                <div class="common-lists" id="PartnerData">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 关于锐捷 -->
+                    <div class="n-nav-main">
+                        <a target="_blank" class="n-nav-title n-nav-head" href="https://www.ruijie.com.cn/gy/">关于锐捷</a>
+                        <div class="n-nav-down">
+                            <div class="n-nav-pullDown">
+                                <div class="common-lists" id="AboutData">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 投资者关系 -->
+                    <div class="n-nav-main">
+                        <a target="_blank" class="n-nav-head" href="https://www.ruijie.com.cn/ir/">投资者关系</a>
+                    </div>
+
+                    <div class="rj-btns">
+                    </div>
+
+                    <div class="n-language-area">
+                        <div class="n-language-return">返回主菜单</div>
+                        <div class="n-language-head">选择区域/语言</div>
+                        <div class="n-language-main">
+                            
+                        </div>
+                    </div>
+                    <div class="hover-line"></div>
+                </div>
+                <div class="l_headri fr">
+                    <div class="l_headsh fl">
+                        <div class="l_headsctp clearfix">
+                            <div class="l_hdsechin fl">
+                                <input type="text" name="keywordName" placeholder="请输入产品名称或关键词！" maxlength="64">
+                            </div>
+                            <div class="l_hdsechic fl handleCommonSearch">
+                                <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon1.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="l_headscbt" id="searchDataList">
+                            <!--联想词显示内容-->
+                            <ul class="l_hdsechul">
+                                <div class="n-association-result">
+
+                                </div>
+                                <div class="n-search-classify">
+
+                                </div>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ys_hd_ph">
+        <!-- 导航start -->
+        <nav class="ys_ph_navbar ys_ph_navbar4">
+            <!-- 导航条 -->
+            <div class="ys_phnav_header">
+                <!-- 菜单按钮 -->
+                <div class="ys_phnav_menubox">
+                    <div class="ys_phnav_menubtn"><span></span></div>
+                </div>
+                <!-- logo -->
+                <div class="ys_phnav_logo">
+                    <a target="_blank" href="https://www.ruijie.com.cn/"><img
+                            src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/logo.svg" alt="" /></a>
+                </div>
+                <!-- 搜索 -->
+                <div class="ys_phnav_search" style="margin-left: 230px;">
+                    <!-- 搜索按钮 --><em class="iconfont icon-search ys_phnavss_btn_search"></em>
+                    <!-- 搜索弹窗 -->
+                    <div class="n-search">
+                        <div class="n-search-area">
+                            <div class="n-search-text">
+                                <input type="text" placeholder="请输入关键字" id="search-input-main" name="mainphKeyword"
+                                    class="common-search" autocomplete="off">
+                                <button class="n-clear-btn" id="clear-button"><img
+                                        src="https://www-file.ruijie.com.cn/chineseResources/UIA/v5.0/search/image/clear.svg"
+                                        alt=""></button>
+                            </div>
+                            <span class="rj-search-main"><img
+                                    src="https://www-file.ruijie.com.cn/chineseResources/UIA/v5.0/search/image/input-search.svg"
+                                    alt=""></span>
+                        </div>
+                        <div class="n-association-result">
+
+                        </div>
+                        <div class="n-search-classify" style="margin-bottom:100px;">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="ys_ph_close">
+                    <a target="_blank" href="https://www.ruijie.com.cn/cp/mobile/"><img
+                            src="https://www-file.ruijie.com.cn/chineseResources/UIA/v5.0/mobile/images/box.svg" alt=""
+                            style="width: 37px;margin-top: -3px;margin-left: 10px;"></a>
+                    <div class="ys_modal_close" style="width: 20px;margin-top: 8px;margin-left: 10px;display:none;"><em
+                            class="iconfont icon-close"></em></div>
+                </div>
+            </div>
+            <!-- 下拉菜单 -->
+
+        </nav>
+        <!--移动端遮罩引导层-->
+        <!-- <div class="n-phnav-mask">
+                <div class="n-survey">
+                    <div class="n-mask-btn"><img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/close-btn.svg" alt=""></div>
+                    <div class="n-survey-text">
+                        <h2>2025锐捷官网<br>
+                            用户体验调研</h2>
+                        <a  target="_blank" class="survey-btn" href="https://ruijie.feishu.cn/share/base/form/shrcn7otAEq9yt2wQ1QY5rzvyfb">马上参与</a>
+                    </div>
+                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/survey-bg.webp" alt="">
+                </div>
+            </div> -->
+        <!-- 导航end -->
+    </div>
+</header>
+<div class="navMask"></div>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-js/header-load.js?20251205"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/wow.min.js"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/base-v3.0.min.js"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/jquery.mousewheel.min.js"></script>
+<script
+    src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script
+    src="https://www-file.ruijie.com.cn/chineseResources/UIA/v5.0/header/js/mobel-search.js?1409"></script>
+<script src='https://app.beschannels.com/js-sdk/collect-0.0.5.min.js'></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/header/RJ-js/index-v2.7.js?20251204"></script>
+<script src='https://sentinel.ruijie.com.cn/js-sdk-loader/6086c085353de72853cea3c28ffe0b52'
+    crossorigin="anonymous"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/v2.0/scripts/user-v1.2.js?20250815"
+    type="text/javascript"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/LinkFlowEvent-v1.1.js?20241225"></script>                                                                                 
+
+    <link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/base-v3.0.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/events-al-v1.0.css" rel="stylesheet" />
+	<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/media-v1.0.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/product/css/base-v1.0.css?2" />
+    <link rel="stylesheet" href="https://www-file.ruijie.com.cn/chineseResources/UIA/v3.0/product/styles/product-detail-v2.0.css" />
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/activity/zb/RJ-js/share.js"></script>
+    <style>
+        .ccel_parga table ul li{
+            list-style-type: disc;
+        }
+    </style>
+
+	<main class="ys_main casedet_main">
+            <div class="l_nymain">
+                <!-- page start -->
+                <!-- 面包屑导航 -->
+                <div class="l_nybread ys_cont1440">
+                    <ul class="l_nybrdul clearfix linkFlowNav">
+                        <li class="l_nybrdli fl">
+                            <a href="/">首页</a>
+                        </li>
+                        <li class="l_nybrdli fl">
+                            <a href="/jszl/" target="_blank">技术博文</a>
+                        </li>
+                        <li class="l_nybrdli fl">
+                            <a href="/jszl/?id=4741" target="_blank">交换机</a>
+                        </li>
+                        <li class="l_nybrdli fl">
+                            <a>云技术架构简析</a>
+                            <div id="ArticleDetial" data-id="94198" data-name="云技术架构简析" data-type="Product" data-type-id="208"></div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- banner区 -->
+                <div class="l_nybanner casedet_ban">
+                    <div class="casedet_ban_img">
+                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_banner_pc.jpg" alt="" class="ys_ban_pc">
+                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_banner_ph.jpg" alt="" class="ys_ban_ph">
+                    </div>
+                    <div class="ys_cont1400">
+                        <h1>云技术架构简析</h1>
+                        <div class="casedet_ban_parga yx_parga">
+                            <p>云技术架构及其未来的发展方向展示了云计算领域的持续进步与创新。本文将深入讨论云服务器的核心技术，如虚拟化技术、存储解决方案、云管理平台和虚拟网络，并展望其未来的演变趋势。</p>
+                        </div>
+                        <div class="casedet_ban_list">
+						
+                            <ul>
+							
+                                <li>
+                                    <a href="/jszl/?id=4741">#交换机</a>
+                                </li>
+                                <li>
+                                    <a href="/jszl/?id=4896">#知识百科</a>
+                                </li>
+                            
+                            </ul>
+						
+                        </div>
+                        <div class="casedet_ban_info">
+                            <div class="casedet_ban_info_mess yx_parga">
+                                <ul>
+                                    <li>
+                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon1.svg" alt="">
+                                        <p>发布时间：2024-11-06</p>
+                                    </li>
+                                    <li>
+                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon2.svg" alt="">
+                                        <p>点击量：</p>
+                                    </li>
+                                    <li>
+                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon3.svg" alt="">
+                                        <p>点赞：</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="casedet_ban_info_share">
+                                <div class="cbis_parga yx_parga">
+                                    <p>分享至</p>
+                                </div>
+                                <div class="cbis_icon clearfix">
+                                    <div>
+                                      <style type="text/css">
+                                          #share ul{
+                                            display: flex;
+                                          }    
+                                          #share ul li{
+                                            width: 40px;
+                                            height: 40px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin-right: 10px;
+                                            background: rgba(255, 255, 255, .6);
+                                            border-radius: 4px;
+                                          }
+                                          #share a {
+                                              padding: 0px 7.5px;
+                                              margin: 0;
+                                          }
+
+                                          #share a.bds_weixin {
+                                              width: 25px;
+                                              height: 21px;
+                                              background: url(https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon4.svg);
+                                              background-size: 100% 100%;
+                                          }
+
+                                          #share a.bds_tsina {
+                                              width: 25px;
+                                              height: 21px;
+                                              background: url(https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon5.svg);
+                                              background-size: 100% 100%;
+                                          }
+
+                                          #share a.bds_mail {
+                                              width: 25px;
+                                              height: 21px;
+                                              background: url(https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon6.svg);
+                                              background-size: 100% 100%;
+                                          }
+                                          #share a.bds_print {
+                                              background: url(https://www-file.ruijie.com.cn/chineseResources/UIA/img/sa_video_img_23.jpg);
+                                          }
+                                          @media screen and (max-width: 1280px) {
+                                              #share ul li {
+                                                  width: 30px;
+                                                  height: 30px;
+                                              }
+                                              #share a.bds_weixin{
+                                                width: 20px;
+                                              }
+                                          }
+                                                                                </style>
+                                      <div id="share" class="bdsharebuttonbox">
+                                          <ul class="s_fenxiangwailian clearfix">
+                                              <li><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></li>
+                                          </ul>
+                                          <input type="hidden" id="jtUrl" value="https://www-file.ruijie.com.cn/chineseResources">
+                                      </div>
+                                    </div>
+                                    <div class="bshare-custom">
+                                        <!-- <div class="cbis_icon_li fl bdsharebuttonbox" id="share">
+                                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon4.svg" alt="">
+                                            <a href="#" title="分享-微信" class="bds_weixin" data-cmd="weixin"></a>
+                                        </div> -->
+                                        <div class="cbis_icon_li fl">
+                                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon5.svg" alt="">
+                                            <a href="javascript:;" title="分享-新浪微博" class="bshare-sinaminiblog"></a>
+                                        </div>
+                                    </div>
+                                    <div class="cbis_icon_li fl">
+                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon6.svg" alt="">
+                                        <a href="mailto:?subject=分享：&amp;body=" title="分享-邮件"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="casedet_ban_info_words">
+                                <div class="cbiw_icon">
+                                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon7.svg" alt="">
+                                </div>
+                                <div class="cbiw_parga yx_parga">
+                                    <p>我想评论</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="casedet_cont">
+                    <div class="casedet_cont_editor">
+                        <div class="ys_cont1400 clearfix">
+                            <div class="casedet_cont_editor_le fl">
+                                <div class="ccel_parga yxedr_active">
+                                    <p><span lang="ZH-CN">虚拟化技术是云技术架构的基础，它通过将计算资源、存储资源和网络资源整合成一个或多个独立的虚拟环境来实现。全虚拟化技术，如</span> KVM <span lang="ZH-CN">和</span> VMware ESXi<span lang="ZH-CN">，通过虚拟硬件提供完整的操作系统支持，确保了良好的兼容性和稳定性。相比之下，半虚拟化技术，如</span> Xen <span lang="ZH-CN">和</span> Hyper-V<span lang="ZH-CN">，需要对操作系统进行调整以更好地适配虚拟化环境，从而提供更高的性能。</span><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">存储系统是云平台的关键组件之一，需要满足数据安全性、高可用性、可扩展性和高效性的要求。常见的存储系统包括分布式文件系统、对象存储和块存储。分布式文件系统通过将存储节点组织成统一的逻辑文件系统，提供高扩展性和容错性。对象存储适用于存储和访问大量的非结构化数据。块存储则用于支持结构化数据的随机读写和快照功能。</span><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">云管理平台担任着云服务器管理和控制中心的角色，<a name="OLE_LINK1"></a>通过提供可视化界面来简化虚拟环境的创建、配置和管理过程。云管理平台的设计需要考虑到云服务的可扩展性、可靠性和安全性。主要功能包括虚拟机的自动化管理、资源动态分配、实时监控与告警、以及数据备份与恢复。</span><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">虚拟网络是云技术架构的另一重要组成部分，它连接多个虚拟服务器，提供高效的网络通信服务。虚拟网络通常采用</span> VLAN<span lang="ZH-CN">、</span>VXLAN <span lang="ZH-CN">和</span> GRE <span lang="ZH-CN">等技术。设计虚拟网络时，需要考虑网络拓扑、带宽、延迟和容错性，并且要实施多种安全策略，如</span> ACL<span lang="ZH-CN">、防火墙和</span> VPN<span lang="ZH-CN">。</span><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">在发展趋势方面，多云混合部署将成为未来的主流，因为这种方式可以实现跨云服务提供商的资源互补和负载均衡，这增强了系统的可靠性和可扩展性。自动化运维则通过使用自动化工具和技术来提升效率和稳定性，简化资源配置、监控、故障恢复等任务。容器化部署将提升应用程序的可移植性和安全性，简化部署流程，提高系统的灵活性和可扩展性。</span><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">随着人工智能技术的应用，云服务器将变得更加智能化，通过实时监控、自动缩扩容和故障修复等功能，提高系统的稳定性和可用性。边缘计算的应用将加快数据处理速度，尤其在自动驾驶、远程医疗等领域，边缘节点可以预先处理数据，减少向云端传输的数据量，降低延迟。</span><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">绿色节能与可持续发展也是不可忽视的趋势。采用低功耗硬件设计、智能调度算法、可再生能源供电以及液冷技术等手段，可以有效降低能耗。数据加密、访问控制、安全审计和隐私保护技术共同确保用户数据的安全和隐私。</span><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">举例来说，锐捷新推出的一款三层框式核心交换机</span> RG-N18007<span lang="ZH-CN">，带有七个模块插槽，能满足不同网络规模下的端口密度和性能需求，为构建云架构网络提供了强有力的设备支持。这款交换机可以根据业务需求灵活部署在数据中心、城域网、园区网或数据中心与园区网融合的场景中，显示了网络设备在支持云计算基础设施方面的多功能性和灵活性。参考：</span><strong><a href="https://www.ruijie.com.cn/cp/jh-yqw-hxjh/18007/">RG-N18007 </a></strong></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><span lang="ZH-CN">总结来看，云技术架构正经历持续优化和完善。面对多云混合部署、自动化运维、容器化部署、</span>AI <span lang="ZH-CN">技术应用、边缘计算以及绿色节能与可持续发展等趋势，云服务器将更加高效、智能、安全和环保。作为开发人员，我们需要紧跟技术发展步伐，不断学习新技能，以应对云计算时代的挑战与机遇。</span><o:p></o:p></p>
+                                </div>
+                                <div class="ccel_info">
+                                    <div class="ccel_info_lab yx_parga">
+                                        <div class="ccel_info_lab_parga">
+                                            <p>相关标签：</p>
+                                        </div>
+                                        <div class="ccel_info_lab_list">
+										
+                                            <ul>
+											
+                                                <li>
+                                                    <a href="/jszl/?id=4741">
+                                                        <p>#交换机</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/jszl/?id=4896">
+                                                        <p>#知识百科</p>
+                                                    </a>
+                                                </li>
+                                            
+                                            </ul>
+										
+                                        </div>
+                                    </div>
+                                    <div class="ccel_info_give">
+                                        <div class="ccel_info_give_icon">
+                                            <div class="cigi_img">
+                                                <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon9.svg" alt="">
+                                                <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_icon10.svg" alt="">
+                                            </div>
+                                            <div class="cigi_parga yx_parga">
+                                                <p>点赞</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="ccel_info">
+									<div style="width:50%;overflow:hidden;text-overflow:ellipsis;float:left;">
+									
+										<a href="/jszl/94197">
+										<< 园区交换机配置简析
+										</a>
+									
+									
+									</div>
+									<div style="width:50%;overflow:hidden;text-overflow:ellipsis;float:right;text-align:right;">
+										
+                                        	<a href="/jszl/94203">
+                                        	综合安全审计系统：构建企业安全屏障的关键 >>
+                                        	</a>
+                                        
+                                        
+									</div>
+								</div>
+                            </div>
+                            <div class="casedet_cont_editor_ri fr">
+								
+								
+                                <div class="ccer_lis ccer_pro">
+                                    <h3 class="yx_title3">相关产品</h3>
+                                    <div class="ccer_lis_list">
+                                        <ul class="ccer_lis_list_ul">
+											
+                                            <li class="cllu_li">
+                                                <a href="/cp/jh-shjzhx-sjzxjr/s623248xs8cq/" title="" data-id="434556811048919296" data-name="48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6232-48XS8CQ" class="clearfix">
+                                                    <div class="ys_imgbox_cover fl">
+                                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics3.png" alt="">
+                                                        <img src="https://www-file.ruijie.com.cn/other/2023/03/21/d1bc972138204111b03014e72a4aa873.webp" alt="48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6232-48XS8CQ" title="48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6232-48XS8CQ">
+                                                    </div>
+                                                    <div class="cllu_li_parga yx_parga fl">
+                                                        <p>48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6232-48XS8CQ</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="cllu_li">
+                                                <a href="/cp/jh-shjzhx-sjzxjr/s623148xs8cq/" title="" data-id="434556810183581952" data-name="48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6231-48XS8CQ" class="clearfix">
+                                                    <div class="ys_imgbox_cover fl">
+                                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics3.png" alt="">
+                                                        <img src="https://www-file.ruijie.com.cn/other/2023/03/21/a121a2b2e7f84e298241970d8fb7d62b.webp" alt="48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6231-48XS8CQ" title="48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6231-48XS8CQ">
+                                                    </div>
+                                                    <div class="cllu_li_parga yx_parga fl">
+                                                        <p>48口万兆三层数据中心TOR接入交换机，100G上行（支持向下兼容），RG-S6231-48XS8CQ</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="cllu_li">
+                                                <a href="/cp/jh-yqw-hjjh/s5760c-48sfp4xs-x/" title="" data-id="434556809923010816" data-name="48口千兆全光三层企业级核心汇聚网络交换机，4个万兆上行口，RG-S5760C-48SFP4XS-X" class="clearfix">
+                                                    <div class="ys_imgbox_cover fl">
+                                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics3.png" alt="">
+                                                        <img src="https://www-file.ruijie.com.cn/other/2023/03/13/023b9aa488b84507baf0d18954f49ed7.webp" alt="48口千兆全光三层企业级核心汇聚网络交换机，4个万兆上行口，RG-S5760C-48SFP4XS-X" title="48口千兆全光三层企业级核心汇聚网络交换机，4个万兆上行口，RG-S5760C-48SFP4XS-X">
+                                                    </div>
+                                                    <div class="cllu_li_parga yx_parga fl">
+                                                        <p>48口千兆全光三层企业级核心汇聚网络交换机，4个万兆上行口，RG-S5760C-48SFP4XS-X</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="cllu_li">
+                                                <a href="/cp/jh-yqw-hjjh/s5760c-48gt4xs-hp-x/" title="" data-id="434556809897320704" data-name="48口千兆电三层企业级核心汇聚网络PoE交换机，4个万兆上行口，RG-S5760C-48GT4XS-HP-X" class="clearfix">
+                                                    <div class="ys_imgbox_cover fl">
+                                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics3.png" alt="">
+                                                        <img src="https://www-file.ruijie.com.cn/other/2023/03/13/07a3cf0905074c0a93e9588993363aa0.webp" alt="48口千兆电三层企业级核心汇聚网络PoE交换机，4个万兆上行口，RG-S5760C-48GT4XS-HP-X" title="48口千兆电三层企业级核心汇聚网络PoE交换机，4个万兆上行口，RG-S5760C-48GT4XS-HP-X">
+                                                    </div>
+                                                    <div class="cllu_li_parga yx_parga fl">
+                                                        <p>48口千兆电三层企业级核心汇聚网络PoE交换机，4个万兆上行口，RG-S5760C-48GT4XS-HP-X</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="cllu_li">
+                                                <a href="/cp/jh-yqw-jgjh/mux24lc/" title="" data-id="433109141754749184" data-name="RG-MUX系列24口以太全光网接入侧透明汇聚拓展卡" class="clearfix">
+                                                    <div class="ys_imgbox_cover fl">
+                                                        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics3.png" alt="">
+                                                        <img src="https://www-file.ruijie.com.cn/other/2023/05/04/switches-rg-mux-24lc/lc_55efccf071074373b9b3129e2a96e982.webp" alt="RG-MUX系列24口以太全光网接入侧透明汇聚拓展卡" title="RG-MUX系列24口以太全光网接入侧透明汇聚拓展卡">
+                                                    </div>
+                                                    <div class="cllu_li_parga yx_parga fl">
+                                                        <p>RG-MUX系列24口以太全光网接入侧透明汇聚拓展卡</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+								
+
+                                <div class="ccer_lis ccer_video" style="display:none;">
+                                    <h3 class="yx_title3">相关视频</h3>
+                                    <div class="ccer_lis_list">
+                                        <div class="ccer_video_img">
+                                            <a href="" title="">
+                                                <img src="" alt="">
+                                                <div class="ccer_video_img_parga ys_pos_bot yx_parga">
+                                                    <p></p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <ul class="ccer_lis_list_ul">
+
+                                        </ul>
+                                    </div>
+                                    <div class="l_a1bx2btn1">
+                                        <a href="/gy/video/cp-jh/#video">
+                                            <p>了解更多</p>
+                                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_arrow1.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="casedet_cont_mess">
+                        <div class="com-product-item click-hide feedback-title">
+				<div class="com-product-item-head">
+					<h4>客户评论</h4>
+				</div>
+				<!--评论标签-->
+
+				<div class="com-evaluate-list">
+                
+                
+                <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;margin:60px 0px;">
+                	<img style="width:110px;" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/no-data.png">
+                	<div style="font-size:18px;margin-top:20px">暂无评论</div>
+                </div>
+                
+				</div>
+                
+
+				<div class="click-hide" id="new-comment">
+					<div class="com-product-item-head">
+						<h4>我要评论</h4>
+					</div>
+					<div class="div-feedback">
+						<!--我要评论弹框-->
+						<div class="casedet_cont_mess_bt clearfix">
+                                <div class="ccmb_le fl">
+                                    <div class="ccmb_le_li">
+                                        <div class="ccmb_le_li_parga yx_parga">
+                                            <p>您的姓名</p>
+                                        </div>
+                                        <div class="ccmb_le_li_input">
+                                            <input type="text" id="UserName" placeholder="请输入您的真实姓名">
+                                        </div>
+                                    </div>
+                                    <div class="ccmb_le_li">
+                                        <div class="ccmb_le_li_parga yx_parga">
+                                            <p>您的手机号<span>*</span></p>
+                                        </div>
+                                        <div class="ccmb_le_li_input">
+                                            <input type="text" id="Mobile" placeholder="请输入您的手机号">
+                                        </div>
+                                    </div>
+                                    <div class="ccmb_le_li">
+                                        <div class="ccmb_le_li_parga yx_parga">
+                                            <p>您的邮箱</p>
+                                        </div>
+                                        <div class="ccmb_le_li_input">
+                                            <input type="text" id="Email" placeholder="请输入您的邮箱">
+                                        </div>
+                                    </div>
+                                    <div class="ccmb_le_li">
+                                        <div class="ccmb_le_li_parga yx_parga">
+                                            <p>公司名称</p>
+                                        </div>
+                                        <div class="ccmb_le_li_input">
+                                            <input type="text" id="CompanyName" placeholder="请输入您所在的公司名称">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ccmb_ri fl">
+                                    <div class="ccmb_ri_li">
+                                        <div class="ccmb_le_li_parga yx_parga">
+                                            <p>您的评论<span>*</span></p>
+                                        </div>
+                                        <div class="ccmb_ri_li_text">
+                                            <textarea name="Message" id="Message" placeholder="请输入您的问题，长度在150个汉字以内"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="ccmb_ri_agree clearfix">
+                                        <div class="ccmb_ri_agree_circle fl"></div>
+                                        <div class="ccmb_ri_agree_parga fl">
+                                            <p>我已仔细阅读并同意<a href="/privacy/">隐私声明</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="ccmb_ri_li">
+                                        <div class="ccmb_le_li_parga yx_parga">
+                                            <p>验证码<span>*</span></p>
+                                        </div>
+                                        <div class="ccmb_ri_li_code">
+                                            <div class="crlc_input">
+                                                <input type="text" id="Code" placeholder="请输入验证码">
+												<input type="hidden" id="img_code_name" name="imgCookie"/>
+                                            </div>
+                                            <div class="crlc_img">
+                                                <img src="/application/api/feedback/verificationcode?key=techMessage" class="verification-code">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ccmb_ri_btn yx_parga">
+                                        <p>提交评论</p>
+                                    </div>
+                                </div>
+                            </div>
+					</div>
+				</div>
+			</div>
+                    </div>
+                    <div class="case_cont_list yx_space1">
+                        <div class="ys_cont1400">
+                            <h2 class="yx_title2">更多技术博文</h2>
+                            <ul class="case_cont_list_ul">
+							
+                                <li class="cclu_li">
+                                    <a href="/jszl/930087">
+                                        <div class="ys_imgbox_cover">
+                                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics1.png" alt="">
+                                            <img src="https://www-file.ruijie.com.cn/other/2025/10/27/d36fcd3259834434b82b7d0c2f23d642.jpg" alt="解密DeepSeek-V3推理网络：MoE架构如何重构低时延、高吞吐需求？" title="解密DeepSeek-V3推理网络：MoE架构如何重构低时延、高吞吐需求？">
+                                        </div>
+                                        <div class="cclu_li_tit">解密DeepSeek-V3推理网络：MoE架构如何重构低时延、高吞吐需求？</div>
+                                        <div class="cclu_li_parga yx_parga">
+                                            <p>DeepSeek-V3发布推动分布式推理网络架构升级，MoE模型引入大规模专家并行通信，推理流量特征显著变化，Decode阶段对网络时度敏感。网络需保障低时延与高吞吐，通过端网协同负载均衡与拥塞控制技术优化性能。高效运维实现故障快速定位与业务高可用，单轨双平面与Shuffle多平面组网方案在低成本下满足高性能推理需求，为大规模MoE模型部署提供核心网络支撑。</p>
+                                        </div>
+                                        <div class="cclu_li_lab">
+                                            <ul>
+											
+												
+                                                <li>
+                                                    <p>#交换机</p>
+                                                </li>
+												
+											
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="cclu_li">
+                                    <a href="/jszl/930071">
+                                        <div class="ys_imgbox_cover">
+                                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics1.png" alt="">
+                                            <img src="https://www-file.ruijie.com.cn/other/2025/10/23/fff6f1f416fc46a99a61d15f70b19a88.jpg" alt="高密场景无线网络新解法：锐捷Wi-Fi 7 AP 与 龙伯透镜天线正式成团" title="高密场景无线网络新解法：锐捷Wi-Fi 7 AP 与 龙伯透镜天线正式成团">
+                                        </div>
+                                        <div class="cclu_li_tit">高密场景无线网络新解法：锐捷Wi-Fi 7 AP 与 龙伯透镜天线正式成团</div>
+                                        <div class="cclu_li_parga yx_parga">
+                                            <p>锐捷网络在中国国际大学生创新大赛（2025）总决赛推出旗舰Wi-Fi 7无线AP RG-AP9520-RDX及龙伯透镜天线组合，针对高密场景实现零卡顿、低时延和高并发网络体验。该方案通过多档赋形天线和智能无线技术，有效解决干扰与覆盖问题，适用于场馆、办公等高密度环境，提供稳定可靠的无线网络解决方案。</p>
+                                        </div>
+                                        <div class="cclu_li_lab">
+                                            <ul>
+											
+												
+                                                <li>
+                                                    <p>#无线网</p>
+                                                </li>
+                                                <li>
+                                                    <p>#Wi-Fi 7</p>
+                                                </li>
+                                                <li>
+                                                    <p>#无线</p>
+                                                </li>
+                                                <li>
+                                                    <p>#放装式AP</p>
+                                                </li>
+												
+											
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="cclu_li">
+                                    <a href="/jszl/930062">
+                                        <div class="ys_imgbox_cover">
+                                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics1.png" alt="">
+                                            <img src="https://www-file.ruijie.com.cn/other/2025/10/22/fba6301d97894cdea903375b5735c26d.png" alt="打造“一云多用”的算力服务平台：锐捷高职教一朵云2.0解决方案发布" title="打造“一云多用”的算力服务平台：锐捷高职教一朵云2.0解决方案发布">
+                                        </div>
+                                        <div class="cclu_li_tit">打造“一云多用”的算力服务平台：锐捷高职教一朵云2.0解决方案发布</div>
+                                        <div class="cclu_li_parga yx_parga">
+                                            <p>锐捷高职教一朵云2.0解决方案帮助学校构建统一云桌面算力平台，支持教学、实训、科研和AI等全场景应用，实现一云多用。通过资源池化和智能调度，提升资源利用效率，降低运维成本，覆盖公共机房、专业实训、教师办公及AI教学等多场景需求，助力教育信息化从分散走向融合，推动规模化与个性化培养结合。</p>
+                                        </div>
+                                        <div class="cclu_li_lab">
+                                            <ul>
+											
+												
+                                                <li>
+                                                    <p>#云桌面</p>
+                                                </li>
+                                                <li>
+                                                    <p>#高职教</p>
+                                                </li>
+												
+											
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="cclu_li">
+                                    <a href="/jszl/930054">
+                                        <div class="ys_imgbox_cover">
+                                            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/1pics1.png" alt="">
+                                            <img src="https://www-file.ruijie.com.cn/other/2025/10/20/b6f9c81960f745ebbfbdd88abafa550a.jpg" alt="医院无线升级必看：“全院零漫游”六大谜题全解析" title="医院无线升级必看：“全院零漫游”六大谜题全解析">
+                                        </div>
+                                        <div class="cclu_li_tit">医院无线升级必看：“全院零漫游”六大谜题全解析</div>
+                                        <div class="cclu_li_parga yx_parga">
+                                            <p>锐捷网络的全院零漫游方案是新一代医疗无线解决方案，专为智慧医院设计，通过零漫游主机和天线入室技术实现全院覆盖和移动零漫游体验。方案支持业务扩展全适配，优化运维管理，确保内外网物理隔离安全，并便捷部署物联网应用，帮助医院提升网络性能，支持旧设备利旧升级，降低成本。</p>
+                                        </div>
+                                        <div class="cclu_li_lab">
+                                            <ul>
+											
+												
+                                                <li>
+                                                    <p>#医疗</p>
+                                                </li>
+                                                <li>
+                                                    <p>#医院网络</p>
+                                                </li>
+                                                <li>
+                                                    <p>#无线</p>
+                                                </li>
+												
+											
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="casedet_cont_con" style="background: url(https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/a2_bg2.jpg) center / cover no-repeat;">
+                        <div class="ys_cont1400">
+                            <div class="casedet_cont_con_tit">
+                                <h2 class="yx_title3">任何需要，请联系我们</h2>
+                            </div>
+                            <div class="casedet_cont_con_btn clearfix">
+                                <div class="cccb_btn cccb_btn1 fl">
+                                    <a href="javascript:void(0)" class="pre-sales-pop-ups-btn">与售前顾问交谈</a>
+                                </div>
+                                <div class="cccb_btn fl">
+                                    <a href="/form/">填写项目需求表单</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- page end -->
+            </div>
+        </main>
+
+
+	<!-- <script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/buttonLite.js"></script>
+    <script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/bshareC0.js"></script> -->
+    <script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/tech/tech-detail-v1.2.js?20250829"></script>
+<footer class="ys_footer">
+  <div class="l_footer">
+    <div class="l_footnr ys_cont1440">
+      <div class="l_footnrs">
+        <div class="l_ftnrtp">
+          <ul class="l_ftnrtpul">
+            <li class="l_ftnrtpli">
+              <a href="tel:4006-208-818" rel="nofollow">
+                <div class="l_ftnric">
+                  <div class="ys_imgbox_cover">
+                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/l_pics1.png" alt="" />
+                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon26.svg" alt="" />
+                  </div>
+                </div>
+                <div class="l_ftphone">
+                  <p>售前咨询热线：<span>4006-208-818</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="l_ftnrtpli">
+              <a href="tel:4008-111-000" rel="nofollow">
+                <div class="l_ftnric">
+                  <div class="ys_imgbox_cover">
+                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/l_pics1.png" alt="" />
+                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon27.svg" alt="" />
+                  </div>
+                </div>
+                <div class="l_ftphone">
+                  <p>售后咨询热线：<span>4008-111-000</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="l_ftnrtpli">
+              <a href="tel:4001-000-078" rel="nofollow">
+                <div class="l_ftnric">
+                  <div class="ys_imgbox_cover">
+                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/l_pics1.png" alt="" />
+                    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon28.svg" alt="" />
+                  </div>
+                </div>
+                <div class="l_ftphone">
+                  <p>睿易产品咨询热线：<span>4001-000-078</span></p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="l_ftnrmid">
+          <div class="l_ftmdnrs clearfix">
+            <!-- 左侧导航 -->
+            <div class="l_ftmdle fl">
+              <ul class="l_ftmdul">
+                <li class="l_ftmdli">
+                  <div class="l_ftmdlktp clearfix">
+                    <div class="l_ftmdlktpa fl">
+                      <a>关于锐捷</a>
+                    </div>
+                    <div class="l_ftmdlkic fr">
+                      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/phxl.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="l_ftmdlkbt">
+                    <ul class="l_ftmdlkul">
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/gy/" rel="nofollow">锐捷介绍</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/gy/history/" rel="nofollow">锐捷历程</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/gy/xw/" rel="nofollow">最新动态</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/al/" rel="nofollow">成功案例</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/gy/events/" rel="nofollow">市场活动</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="l_ftmdli">
+                  <!-- 22.6.17 add start-->
+                  <div class="l_ftmdlktp clearfix">
+                    <div class="l_ftmdlktpa fl">
+                      <a>购买及服务支持</a>
+                    </div>
+                    <div class="l_ftmdlkic fr">
+                      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/phxl.svg" alt="" />
+                    </div>
+                  </div>
+                  <!-- 22.6.17 add end-->
+                  <div class="l_ftmdlkbt">
+                    <ul class="l_ftmdlkul">
+                      <li class="l_ftmdlkli">
+                        <a href="https://mall.ruijie.com.cn/?utm_source=gwdbdh" rel="nofollow">锐捷商城</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/gy/content/" rel="nofollow">联系销售代表</a>
+                      </li>
+                      <!-- <li class="l_ftmdlkli">
+												<a href="https://www.ruijie.com.cn/gy/content/#bsc">各地办事处</a>
+											</li> -->
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/fw/map/" rel="nofollow">常设分支机构</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/complaints/" rel="nofollow">客户投诉</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://ruijie.feishu.cn/share/base/form/shrcnPkCtiYXsUO3YncWWm7jmDg" rel="nofollow">销售信用评价</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="l_ftmdli">
+                  <div class="l_ftmdlktp clearfix">
+                    <div class="l_ftmdlktpa fl">
+                      <a>合作伙伴</a>
+                    </div>
+                    <div class="l_ftmdlkic fr">
+                      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/phxl.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="l_ftmdlkbt">
+                    <ul class="l_ftmdlkul">
+                      <li class="l_ftmdlkli">
+                        <a href="https://partners.ruijie.com.cn/PartnerPortal/Home?typeid=101" target="_blank" rel="nofollow">合作伙伴专区</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://partners.ruijie.com.cn/ChannelContract2014/Contract2014Index" target="_blank" rel="nofollow">成为合作伙伴</a>
+                      </li>
+                      <!-- <li class="l_ftmdlkli"> -->
+                      <!-- <a href="https://partners.ruijie.com.cn/partnerportal/#TopMenu_1" -->
+                      <!-- target="_blank">渠道政策</a> -->
+                      <!-- </li> -->
+                      <!-- <li class="l_ftmdlkli"> -->
+                      <!-- <a href="https://partners.ruijie.com.cn/PartnerPortal/Plan/RJBigClass?typeid=116&categorycode=A009" -->
+                      <!-- target="_blank">锐捷大讲堂</a> -->
+                      <!-- </li> -->
+                      <li class="l_ftmdlkli">
+                        <a href="https://srm.ruijie.com.cn/#" target="_blank" rel="nofollow">SRM供应商平台</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/ygcx/" rel="nofollow">阳光诚信系统</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="l_ftmdli">
+                  <div class="l_ftmdlktp clearfix">
+                    <div class="l_ftmdlktpa fl">
+                      <a>资源</a>
+                    </div>
+                    <div class="l_ftmdlkic fr">
+                      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/phxl.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="l_ftmdlkbt">
+                    <ul class="l_ftmdlkul">
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/yx/" rel="nofollow">营销资料平台</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/gy/video/" rel="nofollow">视频中心</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/fw/zxpx/" rel="nofollow">在线培训</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/hot/" rel="nofollow">产品推荐</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/jszl/" rel="nofollow">技术博文</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="l_ftmdli">
+                  <div class="l_ftmdlktp clearfix">
+                    <div class="l_ftmdlktpa fl">
+                      <a>快速链接</a>
+                    </div>
+                    <div class="l_ftmdlkic fr">
+                      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/phxl.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="l_ftmdlkbt">
+                    <ul class="l_ftmdlkul">
+                      <li class="l_ftmdlkli">
+                        <a href="https://talent.ruijie.com.cn/" target="_blank" rel="nofollow">锐捷ICT人才教育中心</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="http://www.ruijiery.com/" target="_blank" rel="nofollow">锐捷睿易</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://www.ruijie.com.cn/gy/content/" rel="nofollow">联系我们</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://app.mokahr.com/apply/ruijie/26518" rel="nofollow" target="_blank">公司招聘</a>
+                      </li>
+                      <li class="l_ftmdlkli">
+                        <a href="https://91118881.beschannels-plus.com/forms/92U4ZK3" rel="nofollow" target="_blank">订阅电子邮件</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- 右侧二维码信息 -->
+            <div class="l_ftmdri fr">
+              <!-- <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_img13.jpg" alt="">
+                            <p>搜索“锐捷互动”或扫码关注随时查看更多信息</p> -->
+              <div class="media-icons">
+                <div class="media-icon">
+                  <img
+                    src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/wechat_icon.svg?20240523"
+                    alt="官方微信"
+                    title="官方微信"
+                  />
+                  <div class="media-code">
+                    <img
+                      src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/wechat_code.svg?20240523"
+                      alt="官方微信"
+                      title="官方微信"
+                    />
+                  </div>
+                </div>
+                <div class="media-icon">
+                  <img
+                    src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/wechatvideo_icon.svg?20240523"
+                    alt="官方微信视频号"
+                    title="官方微信视频号"
+                  />
+                  <div class="media-code">
+                    <img
+                      src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/wechatvideo_code.svg?20240523"
+                      alt="官方微信视频号"
+                      title="官方微信视频号"
+                    />
+                  </div>
+                </div>
+                <a class="media-icon" href="https://www.douyin.com/user/MS4wLjABAAAAHA1OFE6FrzH-H3i65Jf71R9S9L1BvLILPlhf4O4C-h0" target="_blank" rel="nofollow">
+                  <img
+                    src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/tiktok_icon.svg"
+                    alt="官方抖音号"
+                    title="官方抖音号"
+                  />
+                </a>
+                <a class="media-icon" href="https://www.zhihu.com/org/rui-jie-wang-luo" target="_blank" rel="nofollow">
+                  <img
+                    src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/zhihu-icon.svg"
+                    alt="官方知乎号"
+                    title="官方知乎号"
+                  />
+                </a>
+              </div>
+<div style="margin-top:24px"><a class="media-icon" href="https://space.bilibili.com/520597283" target="_blank" rel="nofollow">
+                  <img
+                    src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/bibi-icon.svg"
+                    alt="官方b站号"
+                    title="官方b站号"
+                  />
+                </a>
+                <a
+                  class="media-icon"
+                  href="https://www.toutiao.com/c/user/token/MS4wLjABAAAA-5MkVRpu3PMQ2Y5ERUyNjgcAfpOOeestmMlSViuQqIw/?"
+                  target="_blank"
+                  rel="nofollow"
+                >
+                  <img
+                    src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/toutiao_icon.svg"
+                    alt="今日头条"
+                    title="今日头条"
+                  />
+                </a></div>
+            </div>
+          </div>
+          <div class="l_ftmdinfo">
+            <a href="https://www.ruijie.com.cn/LegalStatement/" rel="nofollow">法律声明</a>
+            <a href="https://www.ruijie.com.cn/privacy/" rel="nofollow">隐私保护</a>
+            <a href="https://www.ruijie.com.cn/gy/content/">联系我们</a>
+            <a href="https://www.ruijie.com.cn/sitemap/">网站地图</a>
+            <a href="https://www.ruijie.com.cn/complaints/" rel="nofollow">客户投诉</a>
+            <a href="http://www.star-net.cn/" target="_blank" rel="nofollow">集团网站</a>
+          </div>
+        </div>
+        <div class="l_ftnrbt">
+          <!-- 版权信息 -->
+          <p>
+            <span>版权所有©2000-2025 北京星网锐捷网络技术有限公司</span>
+            <a target="_blank" rel="noopenner noreferrer nofollow" href="https://beian.miit.gov.cn/">京ICP备13025710号-1</a>
+            <a target="_blank" rel="noopenner noreferrer nofollow" href="https://beian.miit.gov.cn/">京公网安备11010802020367号</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<link href="https://www-file.ruijie.com.cn/chineseResources/UIA/news/css/cta-v1.1.css?20251016" rel="stylesheet" />
+<!-- 文档AI助手入口 start -->
+<!-- <div class="chat-content-ai">
+  <span id="wd-chat-btn" class="chat-close"></span>
+  <img id="wd-chat-pc" class="wd-chat-pc" src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/chat-content-robot-pc.png" alt="" />
+  <img id="wd-chat-h5" class="wd-chat-h5" src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/chat-content-robot-h5.png" alt="" />
+</div> -->
+<!-- 文档AI助手入口 end -->
+<!-- PC侧边 -->
+<div class="l_sidenav">
+  <ul class="l_sideul">
+    <li class="l_sideli l_sideli1">
+      <a class="pre-sales-right-btn pre-sales-pop-ups-btn" style="cursor: pointer; background: #e60039">
+        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon29_1.svg" alt="" />
+        <p style="color: #ffffff">售前咨询</p>
+      </a>
+    </li>
+    <li class="l_sideli l_sideli2">
+      <a id="AfterSaleTalk" style="cursor: pointer">
+        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon30.svg" alt="" />
+        <p>售后服务</p>
+      </a>
+    </li>
+    <li class="l_sideli l_sideli3">
+      <a href="https://www.ruijie.com.cn/feedback/">
+        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon31.svg" alt="" />
+        <p>意见反馈</p>
+      </a>
+    </li>
+  </ul>
+  <div class="l_back">
+    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_icon32.svg" alt="" />
+    <p>返回顶部</p>
+  </div>
+  <div class="sideToggle"><span>收起</span></div>
+  <!-- <div style="margin-top: 10px;"> -->
+  <!-- <a href="https://mall.ruijie.com.cn" target="_blank"><img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/618icon.jpg" alt=""></a> -->
+  <!-- </div> -->
+</div>
+
+<!-- PC侧边文档反馈 -->
+<!-- <div class="artical_sidenav" id="artical_sidenav">
+  <img id="aratical-btn" class="artical-toggle" src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/wd-edit.png" alt="" />
+  <div style="width: 10px; font-size: 12px; color: white; margin-left: 7px">文档评价</div>
+</div> -->
+
+<!-- 新文档侧边 -->
+<div>
+  <div class="floatBtns">
+      <div class="chat-content-ai">
+        <div id="wd-chat-pc" class="floatBtn red" data-auto="1">
+            <picture>
+                <source media="(max-width: 768px)" srcset="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/chat-ai-btn-pc.svg">
+                <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/chat-ai-btn.svg" alt="">
+            </picture>
+            <span class="txt">文档AI助手</span>
+        </div>
+      </div>
+      <div class="artical_sidenav">
+        <div id="artical_sidenav" class="floatBtn white" data-auto="1">
+            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/feedback-btn.svg" alt="">
+            <span class="txt">文档评价</span>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="feedback-Model">
+  <div class="isSolve_model">
+    <div class="closeBtn">
+      <img style="cursor: pointer" id="closeSolve" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/ev-close.png" />
+    </div>
+    <div class="model_content">
+      <div class="isSolve">
+        <div class="articalTitle">该资料是否解决了您的问题？</div>
+        <div class="solveContent">
+          <div class="modal-btn" id="confirmBtn">是</div>
+          <div class="modal-btn" id="cancelBtn">否</div>
+          <div class="modal-btn-read" id="readBtn">仅浏览</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="isFeelGood_model">
+    <div class="closeBtn">
+      <img style="cursor: pointer" id="closeFeelGood" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/ev-close.png" />
+    </div>
+    <div class="isFeelGood">
+      <div class="articalTitle">您对当前页面的满意度如何？</div>
+      <div class="solveContent">
+        <div style="width: 100%; align-items: center">
+          <div class="goodOrBad">
+            <div style="margin-right: 7px; font-size: 14px; color: #9b9fa8">不咋滴</div>
+            <div style="margin-left: 7px; font-size: 14px; color: #9b9fa8">非常好</div>
+          </div>
+          <div class="starList">
+            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/dark-star.png" class="stars" id="star" data-value="1" />
+            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/dark-star.png" class="stars" id="star" data-value="2" />
+            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/dark-star.png" class="stars" id="star" data-value="3" />
+            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/dark-star.png" class="stars" id="star" data-value="4" />
+            <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/dark-star.png" class="stars" id="star" data-value="5" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="goodReason_model">
+    <div class="closeBtn">
+      <img style="cursor: pointer" id="closeGoodReason" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/ev-close.png" />
+    </div>
+    <div class="goodReason">
+      <div class="articalTitle">您满意的原因是（多选）？</div>
+      <div class="reasonContent">
+        <div id="checkboxContainer" class="checkbox-container"></div>
+        <!-- <textarea class="custom-textarea" id="reasonTextarea" style="width: 100%" rows="4" maxlength="200" placeholder="请填写具体原因"></textarea> -->
+        <div class="subGoodReason">
+          <button class="subGoodReasonBtn" id="submit">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="badReason_model">
+    <div class="closeBtn">
+      <img style="cursor: pointer" id="closeBadReason" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/ev-close.png" />
+    </div>
+    <div class="badReason">
+      <div class="articalTitle">您不满意的原因是（多选）？</div>
+      <div class="reasonContent">
+        <div id="checkboxBadContainer" class="checkbox-badContainer"></div>
+        <!-- <textarea class="custom-textarea" id="badReasonTextarea" style="width: 100%" rows="4" maxlength="200" placeholder="请填写具体原因"></textarea> -->
+        <div class="subBadReason">
+          <button class="subBadReasonBtn" id="submitBad">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="suggestion_model">
+    <div class="closeBtn">
+      <img style="cursor: pointer" id="closeSugBtn" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/ev-close.png" />
+    </div>
+    <div class="suggestion">
+      <div class="articalTitle">您是否还有其他问题或建议？</div>
+      <div id="suggestionContainer" style="display: block; margin-top: 20px">
+        <textarea
+          class="suggestion-textarea"
+          id="suggestionTextarea"
+          style="width: 100%"
+          rows="4"
+          maxlength="200"
+          placeholder="必填，请填写具体问题"
+        ></textarea>
+      </div>
+      <div class="suggestionTitle"><span>为了快速解决并回复您的问题，您可以留下联系方式</span></div>
+      <div class="emaliInput">
+        邮箱
+        <div>
+          <input class="suggestionEmail" type="input" id="suggestionEmail" placeholder=" 请输入邮箱" />
+        </div>
+      </div>
+      <div class="phoneInput">
+        手机号
+        <div>
+          <input class="suggestionPhone" type="input" id="suggestionPhone" placeholder=" 请输入手机号" />
+        </div>
+      </div>
+      <!-- <div style="width: 100%; text-align: left; margin-top: 10px"> -->
+      <div style="width: 100%; display: flex; text-align: left">
+        <label for="privacyCheck" style="display: flex; align-items: center; cursor: pointer">
+          <input type="checkbox" class="custom-checkbox" id="privacyCheck" style="line-height: 30px; margin-right: 0px" />
+          <span style="margin: 0px 0 0 10px; color: #6a6b6d">我已同意并阅读 <a href="/privacy/" style="color: #000" target="_blank"> 隐私政策</a></span>
+        </label>
+      </div>
+      <!-- </div> -->
+      <div class="subSuggbox">
+        <button class="subSuggestionBtn" id="submitSuggestion">提 交</button>
+        <button class="closeSuggestion" id="closeSuggestion">暂不需要</button>
+      </div>
+    </div>
+  </div>
+  <div class="subEnd_model">
+    <div class="subEnd">
+      <div style="height: 100%">
+        <img class="bgImg" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/ev-bg.jpg" style="width: 100%; height: 100%; border-radius: 8px" />
+      </div>
+      <div class="articalTitle" style="position: absolute; top: 70px">感谢您的反馈！</div>
+      <img class="completeImg" src="https://www-file.ruijie.com.cn/chineseResources/UIA/images/ev-complete.png" alt="" />
+    </div>
+  </div>
+</div>
+
+<!-- ph返回顶部 -->
+<div class="l_phback n-back">
+  <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/images/sy_top.svg" alt="" />
+</div>
+<div class="n-consult">
+  <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult.svg" alt="" />
+</div>
+<a class="getQuote" href="https://www.ruijie.com.cn/sales/apply/?id=1762767972685635585" target="_blank" style="display: none">获取报价</a>
+<!-- ph咨询区域 -->
+<div class="n-consult-mask"></div>
+<div class="n-consult-content">
+  <div class="n-consult-head">
+    <h5>请选择服务项目</h5>
+    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult-close.svg" alt="关闭咨询页" class="n-consult-close" />
+  </div>
+  <div>
+    <div class="n-consult-btn pre-sales-pop-ups-btn">
+      <div>
+        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult-shouqian.svg" alt="售前咨询" />
+        <span>售前咨询</span>
+      </div>
+      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult-arrow.svg" alt="售前咨询" />
+    </div>
+    <div class="n-consult-btn">
+      <div>
+        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult-shouhou.svg" alt="售后服务" />
+        <span>售后服务</span>
+      </div>
+      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult-arrow.svg" alt="售后服务" />
+      <a href="https://yixiu.ruijie.com.cn:8451/robot/mobile/index.html"></a>
+    </div>
+    <div class="n-consult-btn">
+      <div>
+        <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult-advice.svg" alt="意见反馈" />
+        <span>意见反馈</span>
+      </div>
+      <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/consult-arrow.svg" alt="意见反馈" />
+      <a href="https://www.ruijie.com.cn/feedback/"></a>
+    </div>
+  </div>
+  <a href="https://www.ruijie.com.cn/gy/content/" class="more-contact">更多联系方式</a>
+</div>
+
+<!-- <div id="timeSeconds" style="display:none;">
+<div class="test_triangle_border" style="position: fixed; z-index: 9999; bottom: 0px; right: 0px;width:350px;height:150px;">
+<div style="position:absolute;bottom:0;right:0;">
+<i style="width:30px;height:30px;position:absolute;right:8px;top:8px;cursor:pointer;" onclick="closePopup()"></i>
+<a href="https://www.ruijie.com.cn/gy/events/128/bm/?utm_source=fa" target="_blank" id="img-yjyw">
+<img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/yjyw-2.0.jpg" style="width:100%" />
+</a> -->
+<!-- <a href="https://ruijie.feishu.cn/share/base/form/shrcn7otAEq9yt2wQ1QY5rzvyfb" target="_blank" id="img-yhdy">
+    <img src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/imgs/yhtydy-pc-2025.webp?2025119" style="width:100%" />
+    </a>
+</div>
+</div>
+</div> -->
+
+<input type="hidden" value="1" id="hidask" />
+<input type="hidden" id="hidvision" />
+<input type="hidden" id="hidtip" />
+<input type="button" class="hidbut pre-sales-pop-ups-btn-new" data-agl-cvt="1" style="display: none" />
+
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/common.js"></script>
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/anime.min.js"></script>
+<!-- 22.6.17 add start-->
+<script src="https://www-file.ruijie.com.cn/chineseResources/UIA/news/js/foot-v2.8.js?20251210"></script>
+<!-- 22.6.17 add end-->
+
+</body>
+</html>
+
+

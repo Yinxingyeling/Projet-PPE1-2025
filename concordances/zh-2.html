@@ -1,0 +1,147 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Liste de concordances</title>
+            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
+
+        <body>
+            <section class="hero is-medium is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1">Tableau des concordances</h1>
+                        <h2 class="subtitle is-3">Corpus français 2</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand">
+                    <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="section">
+                <div class="container">
+                    <table class="table is-striped is-fullwidth concordance-table">
+                    <tr>
+                        <th>Fichier</th>
+                        <th>Contexte gauche</th>
+                        <th>Cible</th>
+                        <th>Contexte droit</th>
+                    </tr>
+    
+<tr><td>2</td><td>每一天，我都期待与</td><td>云</td><td>朵见面（散文）</td></tr>
+<tr><td>2</td><td>   　　我自小便喜爱云，对</td><td>云</td><td>有着说不出的亲近感，也许是因为它如棉花一样蓬松可爱，也许它并没有尖锐的棱角，让人觉得一碰就会受伤，也许是它多数是带着雪</td></tr>
+<tr><td>2</td><td>   的颜色，寄托着南方孩子对雪的遐想。也许都有吧！我喜欢在中午放学时，</td><td>云</td><td>团在天上跑着，我也跟着它跑，我想知道它到什么地方去？我会在田里锄草时，偶尔</td></tr>
+<tr><td>2</td><td>   眼与云朵对视，我们就像一对好朋友一样静默不语！我想象着</td><td>云</td><td>朵上面是什么样的？光着脚踩上去一定又绵又软，如果可以，我真想跑到上面，叫谁也找不到我！</td></tr>
+<tr><td>2</td><td>   我还可以躺在</td><td>云</td><td>上，安静看我喜欢的故事书，我还可以邀请我的小伙伴上来一起捉迷藏！</td></tr>
+<tr><td>2</td><td>   　　</td><td>云</td><td>还像孙悟空一般，有着七十二般变化，要看什么它都能变！清晨他们聚集在海上，等待第一缕阳光刺破天际，为它们镀上一层神圣的金光，这时他们如遭点</td></tr>
+<tr><td>2</td><td>   ，它们像得到了太阳的指令，在太阳彻底上升到水面时，所有的云都在刹那间消散远去，刚才还热闹的地方，现在徒留刺眼的太阳。但</td><td>云</td><td>也是调皮的模仿者，它有</td></tr>
+<tr><td>2</td><td>   。云是最不吝啬的，你想要什么，都能从它这里找到。我有时想，</td><td>云</td><td>是不是也向往地上的生活呢？不然为什么模仿着大地的一切。</td></tr>
+<tr><td>2</td><td>   　　不同日子的云也是不同，有时的云丝丝缕缕，缥渺，像恋人分别时眼里的雾气。遇上盛夏晴天，云可就漂亮了，一朵一朵成团，仿佛蓝天成了大地，</td><td>云</td><td>朵成了</td></tr>
+<tr><td>2</td><td>   扎根蓝天热烈绽放的花朵。夜晚中，云也是不舍人间的，它飘在高高的月亮下，月光缓缓倾泻而下，</td><td>云</td><td>浑身泛着温柔的光芒，在黑夜中像母亲温暖的怀抱。这让我</td></tr>
+<tr><td>2</td><td>   　　不要以为云总是轻快自在，它也有孤独的时候，它也不总是没心没肺，</td><td>云</td><td>里也藏着思念的泪！</td></tr>
+<tr><td>2</td><td>   　　万里无</td><td>云</td><td>的日子，它们仿佛约定好，要飞去给另一个世界。回来时，怀揣着新礼物，它们得到某种嘱托。有时候，我们能在上面发现已故亲人的身影，佝偻的</td></tr>
+<tr><td>2</td><td>   冷酷的世界中，</td><td>云</td><td>朵是连接现实世界和那看不见世界的邮差，每一次看见了熟悉的影子，那是另一个世界的来信。我所爱的，正以另一种形式与我在这天地间共呼</td></tr>
+<tr><td>2</td><td>   　　清晨的每一天，我都期待着与云朵见面。我趴在窗台望向它们，它们也静静回望着你，不必言语，仿佛心灵相通，谁能说这是虚无的世界！</td><td>云</td><td>朵是彼岸世界送</td></tr>
+<tr><td>2</td><td>   　　但云不只是充当使者，它也有着自己的使命。阴天时，</td><td>云</td><td>层得了某种诏令，变化了颜色，由雪白变成乌黑色，它们不再亲切温柔，而是庄重严肃，它们用力翻</td></tr>
+<tr><td>2</td><td>   腾着，挣扎着。有时伴随着雷声轰鸣，雨滴从</td><td>云</td><td>层飘洒而落，落入大地、溪流。于是，干涸的土地得到滋润，有点点如繁星的绿色从土地抽芽而出。到处焕发着鲜</td></tr>
+<tr><td>2</td><td>   的盛典！雨停了，</td><td>云</td><td>层消散四方，天空呈现一片水洗蓝，太阳迫不及待发出夺目的光芒，微风拂过，世界一片欣欣向荣！</td></tr>
+<tr><td>2</td><td>   　　不要以为云朵的故事就此结束，空中隐隐有丝丝的雾气在升腾，</td><td>云</td><td>朵将重新在这里聚集！对我这种喜欢憧憬的人，期待和他们的再次相聚！</td></tr>
+<tr><td>2</td><td>   　　我自小便喜爱云，对</td><td>云</td><td>有着说不出的亲近感，也许是因为它如棉花一样蓬松可爱，也许它并没有尖锐的棱角，让人觉得一碰就会受伤，也许是它多数是带着雪</td></tr>
+<tr><td>2</td><td>   的颜色，寄托着南方孩子对雪的遐想。也许都有吧！我喜欢在中午放学时，</td><td>云</td><td>团在天上跑着，我也跟着它跑，我想知道它到什么地方去？我会在田里锄草时，偶尔</td></tr>
+<tr><td>2</td><td>   眼与云朵对视，我们就像一对好朋友一样静默不语！我想象着</td><td>云</td><td>朵上面是什么样的？光着脚踩上去一定又绵又软，如果可以，我真想跑到上面，叫谁也找不到我！</td></tr>
+<tr><td>2</td><td>   我还可以躺在</td><td>云</td><td>上，安静看我喜欢的故事书，我还可以邀请我的小伙伴上来一起捉迷藏！</td></tr>
+<tr><td>2</td><td>   　　</td><td>云</td><td>还像孙悟空一般，有着七十二般变化，要看什么它都能变！清晨他们聚集在海上，等待第一缕阳光刺破天际，为它们镀上一层神圣的金光，这时他们如遭点</td></tr>
+<tr><td>2</td><td>   ，它们像得到了太阳的指令，在太阳彻底上升到水面时，所有的云都在刹那间消散远去，刚才还热闹的地方，现在徒留刺眼的太阳。但</td><td>云</td><td>也是调皮的模仿者，它有</td></tr>
+<tr><td>2</td><td>   。云是最不吝啬的，你想要什么，都能从它这里找到。我有时想，</td><td>云</td><td>是不是也向往地上的生活呢？不然为什么模仿着大地的一切。</td></tr>
+<tr><td>2</td><td>   　　不同日子的云也是不同，有时的云丝丝缕缕，缥渺，像恋人分别时眼里的雾气。遇上盛夏晴天，云可就漂亮了，一朵一朵成团，仿佛蓝天成了大地，</td><td>云</td><td>朵成了</td></tr>
+<tr><td>2</td><td>   扎根蓝天热烈绽放的花朵。夜晚中，云也是不舍人间的，它飘在高高的月亮下，月光缓缓倾泻而下，</td><td>云</td><td>浑身泛着温柔的光芒，在黑夜中像母亲温暖的怀抱。这让我</td></tr>
+<tr><td>2</td><td>   　　不要以为云总是轻快自在，它也有孤独的时候，它也不总是没心没肺，</td><td>云</td><td>里也藏着思念的泪！</td></tr>
+<tr><td>2</td><td>   　　万里无</td><td>云</td><td>的日子，它们仿佛约定好，要飞去给另一个世界。回来时，怀揣着新礼物，它们得到某种嘱托。有时候，我们能在上面发现已故亲人的身影，佝偻的</td></tr>
+<tr><td>2</td><td>   冷酷的世界中，</td><td>云</td><td>朵是连接现实世界和那看不见世界的邮差，每一次看见了熟悉的影子，那是另一个世界的来信。我所爱的，正以另一种形式与我在这天地间共呼</td></tr>
+<tr><td>2</td><td>   　　清晨的每一天，我都期待着与云朵见面。我趴在窗台望向它们，它们也静静回望着你，不必言语，仿佛心灵相通，谁能说这是虚无的世界！</td><td>云</td><td>朵是彼岸世界送</td></tr>
+<tr><td>2</td><td>   　　但云不只是充当使者，它也有着自己的使命。阴天时，</td><td>云</td><td>层得了某种诏令，变化了颜色，由雪白变成乌黑色，它们不再亲切温柔，而是庄重严肃，它们用力翻</td></tr>
+<tr><td>2</td><td>   腾着，挣扎着。有时伴随着雷声轰鸣，雨滴从</td><td>云</td><td>层飘洒而落，落入大地、溪流。于是，干涸的土地得到滋润，有点点如繁星的绿色从土地抽芽而出。到处焕发着鲜</td></tr>
+<tr><td>2</td><td>   的盛典！雨停了，</td><td>云</td><td>层消散四方，天空呈现一片水洗蓝，太阳迫不及待发出夺目的光芒，微风拂过，世界一片欣欣向荣！</td></tr>
+<tr><td>2</td><td>   　　不要以为云朵的故事就此结束，空中隐隐有丝丝的雾气在升腾，</td><td>云</td><td>朵将重新在这里聚集！对我这种喜欢憧憬的人，期待和他们的再次相聚！</td></tr>
+<tr><td>2</td><td>   每一天，我都期待与</td><td>云</td><td>朵见面（散文）</td></tr>
+</tbody></table></div></section></body></html>

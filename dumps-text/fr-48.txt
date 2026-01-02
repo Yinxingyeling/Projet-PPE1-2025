@@ -1,5 +1,5 @@
 
-   This is the Trace Id: 371e363428e358e023f77cb77a7c8afb
+   This is the Trace Id: caf7ea8491e74d96d6bad527cbfeeec7
    [1]Passer directement au contenu principal
    (BUTTON) (BUTTON) [2]Microsoft
    (BUTTON) Azure (BUTTON)
@@ -659,7 +659,7 @@ Combien coûte le cloud computing ?
      * [257]Conditions d'utilisation
      * [258]Marques
      * [259]À propos de nos annonces
-     * © Microsoft 2025
+     * © Microsoft 2026
 
 Références
 

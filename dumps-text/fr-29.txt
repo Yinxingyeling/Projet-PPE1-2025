@@ -213,15 +213,15 @@ Ce qui se cache derrière À qui appartiennent les nuages ?
    [55]Publié dans : Culture
    [56]Les 10 meilleurs films de 2025 à voir absolument
    [57]Publié dans : Actualités
-   [58]Un pathologiste ayant examiné plus de 2000 baleines aborde son
-   travail avec humilité
-   [59]Publié dans : Santé et science
-   [60]Avoir un chat est-il bon pour la santé ?
-   [61]Publié dans : Société
-   [62]Accorde-t-on trop d’attention à la souffrance ?
-   [63]Publié dans : Actualités
-   [64]Le premier bébé de l’année 2026, au Québec, serait né à
+   [58]Le premier bébé de l’année 2026, au Québec, serait né à
    Salaberry-de-Valleyfield
+   [59]Publié dans : Actualités
+   [60]Un pathologiste ayant examiné plus de 2000 baleines aborde son
+   travail avec humilité
+   [61]Publié dans : Santé et science
+   [62]Activité physique : comment déjouer notre tendance à la paresse ?
+   [63]Publié dans : Santé et science
+   [64]Avoir un chat est-il bon pour la santé ?
    Les plus populaires
    [65]Publié dans : Culture
    [66]Les 10 meilleurs films de 2025 à voir absolument
@@ -230,30 +230,30 @@ Ce qui se cache derrière À qui appartiennent les nuages ?
     Daniel Racine
 
    [67]Publié dans : Actualités
-   [68]Un pathologiste ayant examiné plus de 2000 baleines aborde son
+   [68]Le premier bébé de l’année 2026, au Québec, serait né à
+   Salaberry-de-Valleyfield
+
+
+    La Presse Canadienne
+
+   [69]Publié dans : Actualités
+   [70]Un pathologiste ayant examiné plus de 2000 baleines aborde son
    travail avec humilité
 
 
     Wolfgang Depner, La Presse Canadienne
 
-   [69]Publié dans : Santé et science
-   [70]Avoir un chat est-il bon pour la santé ?
+   [71]Publié dans : Santé et science
+   [72]Activité physique : comment déjouer notre tendance à la paresse ?
+
+
+    Boris Cheval, Florent Desplanques et Silvio Maltagliati
+
+   [73]Publié dans : Santé et science
+   [74]Avoir un chat est-il bon pour la santé ?
 
 
     Susan Hazel, Université d'Adélaïde, Australie
-
-   [71]Publié dans : Société
-   [72]Accorde-t-on trop d’attention à la souffrance ?
-
-
-    Marie-Hélène Proulx
-
-   [73]Publié dans : Actualités
-   [74]Le premier bébé de l’année 2026, au Québec, serait né à
-   Salaberry-de-Valleyfield
-
-
-    La Presse Canadienne
 
    [75]Les infolettres L’actualité
    La quotidienne
@@ -350,23 +350,23 @@ Références
   55. https://lactualite.com/temps-libre/culture/
   56. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
   57. https://lactualite.com/actualites/
-  58. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
-  59. https://lactualite.com/sante-et-science/
-  60. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
-  61. https://lactualite.com/societe/
-  62. https://lactualite.com/societe/accorde-t-on-trop-dattention-a-la-souffrance/
-  63. https://lactualite.com/actualites/
-  64. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
+  58. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
+  59. https://lactualite.com/actualites/
+  60. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
+  61. https://lactualite.com/sante-et-science/
+  62. https://lactualite.com/sante-et-science/activite-physique-comment-dejouer-notre-tendance-a-la-paresse/
+  63. https://lactualite.com/sante-et-science/
+  64. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
   65. https://lactualite.com/temps-libre/culture/
   66. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
   67. https://lactualite.com/actualites/
-  68. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
-  69. https://lactualite.com/sante-et-science/
-  70. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
-  71. https://lactualite.com/societe/
-  72. https://lactualite.com/societe/accorde-t-on-trop-dattention-a-la-souffrance/
-  73. https://lactualite.com/actualites/
-  74. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
+  68. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
+  69. https://lactualite.com/actualites/
+  70. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
+  71. https://lactualite.com/sante-et-science/
+  72. https://lactualite.com/sante-et-science/activite-physique-comment-dejouer-notre-tendance-a-la-paresse/
+  73. https://lactualite.com/sante-et-science/
+  74. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
   75. file:///infolettre/
   76. https://x.com/lactualite
   77. https://www.linkedin.com/company/lactualite/
@@ -397,9 +397,9 @@ Références
  101. https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F&title=Ce%20qui%20se%20cache%20derri%C3%A8re%20%C3%80%20qui%20appartiennent%20les%20nuages%20%3F
  102. https://www.threads.net/intent/post?text=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F
  103. https://bsky.app/intent/compose?text=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F
- 104. file://localhost/cdn-cgi/l/email-protection#be81cdcbdcd4dbddca83fddb9b8c8ecfcbd79b8c8ecddb9b8c8edddfddd6db9b8c8edadbccccd79bfd8d9bff86ccdb9b8c8e9bfd8d9b868e9b8c8ecfcbd79b8c8edfcecedfcccad7dbd0d0dbd0ca9b8c8ed2dbcd9b8c8ed0cbdfd9dbcd9b8c8e9b8df898dcd1dac783d6cacacecd9b8dff9b8cf89b8cf8d2dfddcacbdfd2d7cadb90ddd1d39b8cf8cadbd3cecd93d2d7dcccdb9b8cf8ddcbd2cacbccdb9b8cf8dddb93cfcbd793cddb93dddfddd6db93dadbccccd7dbccdb93df93cfcbd793dfcecedfcccad7dbd0d0dbd0ca93d2dbcd93d0cbdfd9dbcd9b8cf8
+ 104. file://localhost/cdn-cgi/l/email-protection#cff0bcbaada5aaacbbf28caaeafdffbebaa6eafdffbcaaeafdffacaeaca7aaeafdffabaabdbda6ea8cfcea8ef7bdaaeafdffea8cfceaf7ffeafdffbebaa6eafdffaebfbfaebdbba6aaa1a1aaa1bbeafdffa3aabceafdffa1baaea8aabceafdffeafc89e9ada0abb6f2a7bbbbbfbceafc8eeafd89eafd89a3aeacbbbaaea3a6bbaae1aca0a2eafd89bbaaa2bfbce2a3a6adbdaaeafd89acbaa3bbbabdaaeafd89acaae2bebaa6e2bcaae2acaeaca7aae2abaabdbda6aabdaae2aee2bebaa6e2aebfbfaebdbba6aaa1a1aaa1bbe2a3aabce2a1baaea8aabceafd89
  105. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
- 106. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
- 107. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
- 108. https://lactualite.com/societe/accorde-t-on-trop-dattention-a-la-souffrance/
- 109. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
+ 106. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
+ 107. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
+ 108. https://lactualite.com/sante-et-science/activite-physique-comment-dejouer-notre-tendance-a-la-paresse/
+ 109. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/

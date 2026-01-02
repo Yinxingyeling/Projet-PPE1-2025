@@ -1,0 +1,589 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Tableau</title>
+        <link rel="stylesheet" href="../../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
+    <body class="tableau">
+        <section class="hero  is-medium is-primary">
+            <div class="hero-body">
+                <div class="container">
+                <h1 class="title is-1">Tableau général</h1>
+                <h2 class="subtitle is-3">Corpus français</h2>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class=navbar-item is-size-4 style="cursor: default;">☁️</p>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../fr_script.html">Français</a>
+                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link">Tableau</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item is-selected has-background-link-light" href="../tableaux/tableau-zh.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Concordances -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                    </div>           
+                </div>
+            </div>
+        </nav>
+        <section class="section has-text-centered">
+            <div class="columns-is-centered">
+                <table class="table is-hoverable is-striped">
+                    <tr>
+                        <th>Lignes</th>
+                        <th>Liens</th>
+                        <th>Code</th>
+                        <th>Encodage</th>
+                        <th>Total</th>
+                        <th>Nuage</th>
+                        <th>Contextes</th>
+                        <th>Concordanciers</th>
+                        <th>Bigrammes</th>
+                        <th>Gestions</th>
+                    </tr>
+                  <tr>
+                            <td>1</td> <!-- numéro de ligne -->
+                            <td><a href="https://qnzj.cyol.com/html/2019-09/17/nw.D110000qnzjb_20190917_2-15.htm">https://qnzj.cyol.com/html/2019-09/17/nw.D110000qnzjb_20190917_2-15.htm</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1588</td> <!-- nombre de mot total -->
+                            <td>60</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-1.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-1.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>2</td> <!-- numéro de ligne -->
+                            <td><a href="https://qnzj.cyol.com/pc/content/202507/08/content_413284.html">https://qnzj.cyol.com/pc/content/202507/08/content_413284.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2057</td> <!-- nombre de mot total -->
+                            <td>60</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-2.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-2.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>3</td> <!-- numéro de ligne -->
+                            <td><a href="https://tnc.org.cn/content/details29_1042.html">https://tnc.org.cn/content/details29_1042.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1704</td> <!-- nombre de mot total -->
+                            <td>145</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-3.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-3.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>4</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.cma.gov.cn/kppd/kppdsytj/201608/t20160803_318466.html">https://www.cma.gov.cn/kppd/kppdsytj/201608/t20160803_318466.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>609</td> <!-- nombre de mot total -->
+                            <td>21</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-4.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-4.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>5</td> <!-- numéro de ligne -->
+                            <td><a href="https://m.163.com/dy/article/GLR9302A0541K0H8.html">https://m.163.com/dy/article/GLR9302A0541K0H8.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1878</td> <!-- nombre de mot total -->
+                            <td>41</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-5.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-5.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>6</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.thepaper.cn/newsDetail_forward_2473467">https://www.thepaper.cn/newsDetail_forward_2473467</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2076</td> <!-- nombre de mot total -->
+                            <td>57</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-6.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-6.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>7</td> <!-- numéro de ligne -->
+                            <td><a href="http://qnzj.cyol.com/pad/content/202512/16/content_420008.html">http://qnzj.cyol.com/pad/content/202512/16/content_420008.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1314</td> <!-- nombre de mot total -->
+                            <td>59</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-7.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-7.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>8</td> <!-- numéro de ligne -->
+                            <td><a href="http://www.whkx.org.cn/news_show.aspx?id=96839">http://www.whkx.org.cn/news_show.aspx?id=96839</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>486</td> <!-- nombre de mot total -->
+                            <td>19</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-8.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-8.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>9</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.changsha.cn/zt2024/html/116298/20241223/3753.html">https://news.changsha.cn/zt2024/html/116298/20241223/3753.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>3195</td> <!-- nombre de mot total -->
+                            <td>16</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-9.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-9.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>10</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.hubeidaily.net/pc/c_4187129.html">https://news.hubeidaily.net/pc/c_4187129.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>896</td> <!-- nombre de mot total -->
+                            <td>2</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-10.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-10.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>11</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.wenyiso.com/zuowen400/37427.htm">https://www.wenyiso.com/zuowen400/37427.htm</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>GBK</td> <!-- encodage de la page -->
+                            <td>394</td> <!-- nombre de mot total -->
+                            <td>15</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-11.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-11.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>12</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.lifeweek.com.cn/h5/article/detail?artId=80979">https://www.lifeweek.com.cn/h5/article/detail?artId=80979</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2208</td> <!-- nombre de mot total -->
+                            <td>121</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-12.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-12.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>13</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.kepuchina.cn/article/articleinfo?business_type=100&ar_id=335728">https://www.kepuchina.cn/article/articleinfo?business_type=100&ar_id=335728</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2305</td> <!-- nombre de mot total -->
+                            <td>102</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-13.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-13.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>14</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/201505/t20150509_281847.html">https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/201505/t20150509_281847.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2969</td> <!-- nombre de mot total -->
+                            <td>168</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-14.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-14.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>15</td> <!-- numéro de ligne -->
+                            <td><a href="https://epaper.gmw.cn/wzb/html/2023-07/08/nw.D110000wzb_20230708_4-06.htm">https://epaper.gmw.cn/wzb/html/2023-07/08/nw.D110000wzb_20230708_4-06.htm</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>478</td> <!-- nombre de mot total -->
+                            <td>16</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-15.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-15.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>16</td> <!-- numéro de ligne -->
+                            <td><a href="https://cn.aliyun.com/about/what-is-cloud-computing?from_alibabacloud=">https://cn.aliyun.com/about/what-is-cloud-computing?from_alibabacloud=</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1108</td> <!-- nombre de mot total -->
+                            <td>60</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-16.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-16.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>17</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.ruijie.com.cn/jszl/94198/">https://www.ruijie.com.cn/jszl/94198/</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1483</td> <!-- nombre de mot total -->
+                            <td>27</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-17.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-17.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>18</td> <!-- numéro de ligne -->
+                            <td><a href="https://azure.microsoft.com/zh-cn/resources/cloud-computing-dictionary/what-is-the-cloud/">https://azure.microsoft.com/zh-cn/resources/cloud-computing-dictionary/what-is-the-cloud/</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>3567</td> <!-- nombre de mot total -->
+                            <td>145</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-18.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-18.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>19</td> <!-- numéro de ligne -->
+                            <td><a href="http://www.news.cn/politics/20251219/0fa2f542bd9347dcaa26ff25f7b2f538/c.html">http://www.news.cn/politics/20251219/0fa2f542bd9347dcaa26ff25f7b2f538/c.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>292</td> <!-- nombre de mot total -->
+                            <td>11</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-19.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-19.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>20</td> <!-- numéro de ligne -->
+                            <td><a href="https://m.news.cctv.com/2021/01/15/ARTID2RAZZT04XEF2umqo1RF210115.shtml">https://m.news.cctv.com/2021/01/15/ARTID2RAZZT04XEF2umqo1RF210115.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>721</td> <!-- nombre de mot total -->
+                            <td>13</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-20.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-20.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>21</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.21jingji.com/article/20251225/herald/b006f3f8916bdc3ed87a2029f51a26ea.html">https://www.21jingji.com/article/20251225/herald/b006f3f8916bdc3ed87a2029f51a26ea.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2409</td> <!-- nombre de mot total -->
+                            <td>76</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-21.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-21.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>22</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.toutiao.com/zixun/7526413635153889334/">https://www.toutiao.com/zixun/7526413635153889334/</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>3264</td> <!-- nombre de mot total -->
+                            <td>88</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-22.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-22.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>23</td> <!-- numéro de ligne -->
+                            <td><a href="http://www.xinhuanet.com/tech/20220517/6480571ee5444cf68e3cb5b4534737c5/c.html">http://www.xinhuanet.com/tech/20220517/6480571ee5444cf68e3cb5b4534737c5/c.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1354</td> <!-- nombre de mot total -->
+                            <td>97</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-23.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-23.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>24</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.cctv.com/2022/07/13/ARTI7w9Eg0ZwxgiCIdHFpGfD220713.shtml">https://news.cctv.com/2022/07/13/ARTI7w9Eg0ZwxgiCIdHFpGfD220713.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>683</td> <!-- nombre de mot total -->
+                            <td>7</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-24.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-24.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>25</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.cctv.com/2021/01/05/ARTIreMzx7VhfiUqxAKF6Cao210105.shtml">https://news.cctv.com/2021/01/05/ARTIreMzx7VhfiUqxAKF6Cao210105.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>916</td> <!-- nombre de mot total -->
+                            <td>7</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-25.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-25.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>26</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.cctv.com/2020/04/09/ARTIjIyzWgf1N8yrOPuCPmBL200409.shtml">https://news.cctv.com/2020/04/09/ARTIjIyzWgf1N8yrOPuCPmBL200409.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1471</td> <!-- nombre de mot total -->
+                            <td>19</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-26.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-26.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>27</td> <!-- numéro de ligne -->
+                            <td><a href="http://www.xinhuanet.com/politics/2021-02/14/c_1127099404.htm">http://www.xinhuanet.com/politics/2021-02/14/c_1127099404.htm</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>949</td> <!-- nombre de mot total -->
+                            <td>28</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-27.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-27.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>28</td> <!-- numéro de ligne -->
+                            <td><a href="https://rmlt.com.cn/2020/0721/587548.shtml">https://rmlt.com.cn/2020/0721/587548.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2419</td> <!-- nombre de mot total -->
+                            <td>63</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-28.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-28.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>29</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.oracle.com/cn/cloud/cloud-economics-explained/">https://www.oracle.com/cn/cloud/cloud-economics-explained/</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>3500</td> <!-- nombre de mot total -->
+                            <td>137</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-29.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-29.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>30</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.cdstm.cn/subjects/hxysz/hxyszl/ystl/dzy/">https://www.cdstm.cn/subjects/hxysz/hxyszl/ystl/dzy/</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>664</td> <!-- nombre de mot total -->
+                            <td>7</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-30.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-30.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>31</td> <!-- numéro de ligne -->
+                            <td><a href="http://www.kepu.gov.cn/education/2023-12/06/content_1751580.html">http://www.kepu.gov.cn/education/2023-12/06/content_1751580.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>811</td> <!-- nombre de mot total -->
+                            <td>3</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-31.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-31.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>32</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.shuiwy.com/a/94166.html">https://www.shuiwy.com/a/94166.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1290</td> <!-- nombre de mot total -->
+                            <td>73</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-32.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-32.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>33</td> <!-- numéro de ligne -->
+                            <td><a href="https://m.ccdi.gov.cn/content/a7/78/2583.html">https://m.ccdi.gov.cn/content/a7/78/2583.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>353</td> <!-- nombre de mot total -->
+                            <td>8</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-33.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-33.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>34</td> <!-- numéro de ligne -->
+                            <td><a href="https://finance.ifeng.com/a/20081010/175615_0.shtml">https://finance.ifeng.com/a/20081010/175615_0.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1911</td> <!-- nombre de mot total -->
+                            <td>3</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-34.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-34.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>35</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.ynjgdj.gov.cn/html/2019/tashanzhishi_1122/4198.html">https://www.ynjgdj.gov.cn/html/2019/tashanzhishi_1122/4198.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1475</td> <!-- nombre de mot total -->
+                            <td>47</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-35.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-35.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>36</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.cma.gov.cn/2011xzt/2017zt/20170314/202111/t20211103_4151288.html">https://www.cma.gov.cn/2011xzt/2017zt/20170314/202111/t20211103_4151288.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1068</td> <!-- nombre de mot total -->
+                            <td>71</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-36.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-36.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>37</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.cctv.com/2022/10/16/ARTIb3Wm6cf3weJJ3uPwGetr221016.shtml">https://news.cctv.com/2022/10/16/ARTIb3Wm6cf3weJJ3uPwGetr221016.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2017</td> <!-- nombre de mot total -->
+                            <td>1</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-37.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-37.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>38</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.zzqklm.com/w/yl/12483.html">https://www.zzqklm.com/w/yl/12483.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2423</td> <!-- nombre de mot total -->
+                            <td>6</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-38.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-38.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>39</td> <!-- numéro de ligne -->
+                            <td><a href="https://hunan.voc.com.cn/news/202402/22370472.html">https://hunan.voc.com.cn/news/202402/22370472.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1971</td> <!-- nombre de mot total -->
+                            <td>9</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-39.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-39.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>40</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.cctv.com/2023/10/24/ARTICjKYAOwq0VITqBeliFZP231024.shtml">https://news.cctv.com/2023/10/24/ARTICjKYAOwq0VITqBeliFZP231024.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>818</td> <!-- nombre de mot total -->
+                            <td>2</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-40.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-40.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>41</td> <!-- numéro de ligne -->
+                            <td><a href="http://www.mod.gov.cn/gfbw/wzll/kj/4924658.html">http://www.mod.gov.cn/gfbw/wzll/kj/4924658.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1848</td> <!-- nombre de mot total -->
+                            <td>5</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-41.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-41.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>42</td> <!-- numéro de ligne -->
+                            <td><a href="https://women.huanqiu.com/article/41zXgqRRe9M">https://women.huanqiu.com/article/41zXgqRRe9M</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>2120</td> <!-- nombre de mot total -->
+                            <td>3</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-42.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-42.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>43</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.guwendao.net/mingju/juv_595a48a9f0f2.aspx">https://www.guwendao.net/mingju/juv_595a48a9f0f2.aspx</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1427</td> <!-- nombre de mot total -->
+                            <td>15</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-43.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-43.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>44</td> <!-- numéro de ligne -->
+                            <td><a href="https://thais.com/news-71910/">https://thais.com/news-71910/</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>839</td> <!-- nombre de mot total -->
+                            <td>8</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-44.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-44.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>45</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.thepaper.cn/newsDetail_forward_1299642">https://www.thepaper.cn/newsDetail_forward_1299642</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1543</td> <!-- nombre de mot total -->
+                            <td>4</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-45.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-45.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>46</td> <!-- numéro de ligne -->
+                            <td><a href="https://epaper.gmw.cn/gmrb/html/2021-01/29/nw.D110000gmrb_20210129_1-02.htm">https://epaper.gmw.cn/gmrb/html/2021-01/29/nw.D110000gmrb_20210129_1-02.htm</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1028</td> <!-- nombre de mot total -->
+                            <td>5</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-46.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-46.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>47</td> <!-- numéro de ligne -->
+                            <td><a href="https://www.08gf.com/news/jie-mi-2017-jiang-su-chuang-ye-da-sai-gao-shou-ru-yun-ji-qing-peng-zhuang-chuang-ye-zhe-de-sheng-yan.html">https://www.08gf.com/news/jie-mi-2017-jiang-su-chuang-ye-da-sai-gao-shou-ru-yun-ji-qing-peng-zhuang-chuang-ye-zhe-de-sheng-yan.html</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>322</td> <!-- nombre de mot total -->
+                            <td>2</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-47.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-47.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>49</td> <!-- numéro de ligne -->
+                            <td><a href="https://news.cctv.com/2021/05/02/ARTI6imRBcBnTywBDIU5BNAV210502.shtml">https://news.cctv.com/2021/05/02/ARTI6imRBcBnTywBDIU5BNAV210502.shtml</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>1361</td> <!-- nombre de mot total -->
+                            <td>1</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-49.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-49.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+                  <tr>
+                            <td>50</td> <!-- numéro de ligne -->
+                            <td><a href="https://paper.people.com.cn/rmrbhwb/html/2015-01/15/content_1521280.htm">https://paper.people.com.cn/rmrbhwb/html/2015-01/15/content_1521280.htm</a></td> <!-- lien url -->
+                            <td>200</td> <!-- code http -->
+                            <td>UTF-8</td> <!-- encodage de la page -->
+                            <td>583</td> <!-- nombre de mot total -->
+                            <td>2</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
+                            <td><a href="../contextes/zh-50.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
+                            <td><a href="../concordances/zh-50.html">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
+                        </tr>
+          </table>
+            </div>
+        </section>
+    </body>
+</html>

@@ -86,7 +86,6 @@ terme
 revient
 plus
 il
-d
 a
 attention
 le
@@ -150,9 +149,9 @@ fur
 et
 à
 mesure
-i
-n
-m
+r
+c
+rss
 d
 a
 créer

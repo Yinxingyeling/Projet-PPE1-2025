@@ -345,23 +345,21 @@ Forbes
 
    Vous serez aussi intéressé par :
 
-[130]Entretien exclusif avec Garry Kasparov : sa vision de l’IA, de l’avenir
+[130]Le futur du travail : l’IA, amie ou ennemie ?
+
+
+[131]Le bruit numérique, nouvel angle mort de la productivité
+
+
+[132]Entretien exclusif avec Garry Kasparov : sa vision de l’IA, de l’avenir
 de l’humanité et son combat contre Poutine
 
+[133]Le futur du travail : l’IA, amie ou ennemie ?
 
-[131]30 Under 30 – La suite : qu’est devenu Sylvain Bataillard (HyPrSpace) ?
+[134]Le bruit numérique, nouvel angle mort de la productivité
 
-
-[132]Pourquoi les organisations complexes doivent penser comme des
-plateformes pour rester performantes
-
-[133]Entretien exclusif avec Garry Kasparov : sa vision de l’IA, de l’avenir
+[135]Entretien exclusif avec Garry Kasparov : sa vision de l’IA, de l’avenir
 de l’humanité et son combat contre Poutine
-
-[134]30 Under 30 – La suite : qu’est devenu Sylvain Bataillard (HyPrSpace) ?
-
-[135]Pourquoi les organisations complexes doivent penser comme des
-plateformes pour rester performantes
 
    [136]PrécédentprécedentConflit entre le Hamas et Israël : L’ONU estime
    que plus de 300 000 personnes ont été déplacées dans la bande de Gaza
@@ -551,12 +549,12 @@ Références
  127. https://www.forbes.fr/technologie/exclusif-les-5-grandes-tendances-technologiques-en-2024/
  128. https://www.forbes.fr/adhesion-newsletters-forbes/
  129. https://boutique.forbes.fr/
- 130. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
- 131. https://www.forbes.fr/entrepreneurs/30-under-30-la-suite-quest-devenu-sylvain-bataillard-hyprspace/
- 132. https://www.forbes.fr/technologie/pourquoi-les-organisations-complexes-doivent-penser-comme-des-plateformes-pour-rester-performantes/
- 133. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
- 134. https://www.forbes.fr/entrepreneurs/30-under-30-la-suite-quest-devenu-sylvain-bataillard-hyprspace/
- 135. https://www.forbes.fr/technologie/pourquoi-les-organisations-complexes-doivent-penser-comme-des-plateformes-pour-rester-performantes/
+ 130. https://www.forbes.fr/technologie/le-futur-du-travail-lia-amie-ou-ennemie/
+ 131. https://www.forbes.fr/business/le-bruit-numerique-nouvel-angle-mort-de-la-productivite/
+ 132. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
+ 133. https://www.forbes.fr/technologie/le-futur-du-travail-lia-amie-ou-ennemie/
+ 134. https://www.forbes.fr/business/le-bruit-numerique-nouvel-angle-mort-de-la-productivite/
+ 135. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
  136. https://www.forbes.fr/business/conflit-entre-le-hamas-et-israel-lonu-estime-que-plus-de-300-000-personnes-ont-ete-deplacees-dans-la-bande-de-gaza/
  137. https://www.forbes.fr/science/jusquou-nous-surprendra-telle-un-nouveau-secret-de-la-joconde-de-leonard-de-vinci-vient-detre-mis-a-jour/
  138. https://www.forbes.fr/business/
@@ -606,6 +604,6 @@ Références
  181. https://twitter.com/forbes_fr
  182. https://www.linkedin.com/company/10956867?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10956867%2Cidx%3A3-1-10%2CtarId%3A1479296380313%2Ctas%3Aforbes%20france
  183. https://www.youtube.com/channel/UCcPUeCUS7RVK1p-V4bt87Nw
- 184. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/
- 185. https://www.forbes.fr/entrepreneurs/30-under-30-la-suite-quest-devenu-sylvain-bataillard-hyprspace/
- 186. https://www.forbes.fr/technologie/pourquoi-les-organisations-complexes-doivent-penser-comme-des-plateformes-pour-rester-performantes/
+ 184. https://www.forbes.fr/technologie/le-futur-du-travail-lia-amie-ou-ennemie/
+ 185. https://www.forbes.fr/business/le-bruit-numerique-nouvel-angle-mort-de-la-productivite/
+ 186. https://www.forbes.fr/technologie/entretien-exclusif-avec-garry-kasparov-sa-vision-de-lia-de-lavenir-de-lhumanite-et-son-combat-contre-poutine/

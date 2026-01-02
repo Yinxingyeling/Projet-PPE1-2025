@@ -16,9 +16,17 @@ echo -e "<html>
         href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
     </head>
     <body class=\"tableau\">
+        <section class=\"hero  is-medium is-primary\">
+            <div class=\"hero-body\">
+                <div class=\"container\">
+                <h1 class=\"title is-1\">Tableau général</h1>
+                <h2 class=\"subtitle is-3\">Corpus français</h2>
+                </div>
+            </div>
+        </section>
         <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">
             <div class=\"navbar-brand\">
-               <img class=\"navbar-item\" src=\"../assets/img/PPE.png\" alt=\"Logo PPE\">
+                <p class="navbar-item is-size-4" style=\"cursor: default;\">☁️</p>
 
                 <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
                 <span aria-hidden=\"true\"></span>
@@ -34,31 +42,50 @@ echo -e "<html>
                         Home
                     </a>
 
-                    <a class=\"navbar-item\">
-                        Script
-                    </a>
+                    <!-- Analyse -->
                     <div class=\"navbar-item has-dropdown is-hoverable\">
-                    <a class=\"navbar-link\">Tableau</a>
+                        <a class=\"navbar-link\">Analyse</a>
 
-                    <div class=\"navbar-dropdown\">
-                        <a class=\"navbar-item is-selected\" href=\"../tableaux/tableau-fr.html\">Français</a>
-                        <a class=\"navbar-item\" href=\"../tableaux/tableau-zh.html\">Chinois</a>
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../fr_analyse.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../zh_analyse.html\">Chinois</a>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Menu 2 : Concordances -->
-                <div class=\"navbar-item has-dropdown is-hoverable\">
-                    <a class=\"navbar-link\">Concordances</a>
+                    <!-- Script -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                        <a class=\"navbar-link\">Script</a>
 
-                    <div class=\"navbar-dropdown\">
-                        <a class=\"navbar-item\" href=\"../concordances/fr-final.html\">Français</a>
-                        <a class=\"navbar-item\" href=\"../concordances/zh-final.html\">Chinois</a>
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../fr_script.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../zh_script.html\">Chinois</a>
+                            <a class=\"navbar-item\" href=\"../blacklist.html\">Blacklist</a>
+                            <a class=\"navbar-item\" href=\"../make_pals_corpus.html\">PALS</a>
+                        </div>
                     </div>
+
+                    <!-- Tableau -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+
+                        <a class=\"navbar-link\">Tableau</a>
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../tableaux/tableau-fr.html\">Français</a>
+                            <a class=\"navbar-item is-selected has-background-link-light\" href=\"../tableaux/tableau-zh.html\">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Concordances -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                        <a class=\"navbar-link\">Concordances</a>
+
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../concordances/fr-final.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../concordances/zh-final.html\">Chinois</a>
+                    </div>           
                 </div>
             </div>
         </nav>
         <section class=\"section has-text-centered\">
-            <h1 class=\"title is-1\">Links table</h1>
             <div class=\"columns-is-centered\">
                 <table class=\"table is-hoverable is-striped\">
                     <tr>
@@ -66,100 +93,124 @@ echo -e "<html>
                         <th>Liens</th>
                         <th>Code</th>
                         <th>Encodage</th>
-                        <th>Nombres total</th>
-                        <th>Nombres d'occurence</th>
+                        <th>Total</th>
+                        <th>Nuage</th>
                         <th>Contextes</th>
                         <th>Concordanciers</th>
+                        <th>Bigrammes</th>
+                        <th>Gestions</th>
                     </tr>" > ${OUTFILE}
 
 # Construction du fichier de concordance final (à la totalité des concordances des liens français)
 echo -e "<html>
-    <head>
-        <meta charset=\"UTF-8\">
-        <title>Liste de concordances</title>
-        <link rel=\"stylesheet\" href=\"../../assets/css/style.css\"/>
-        <link
-        rel=\"stylesheet\"
-        href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
-         <style>
-            .concordance-table td:nth-child(2) { text-align: right; width: 45%; }
-            .concordance-table td:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
-            .concordance-table td:nth-child(4) { text-align: left; width: 45%; }
-            .concordance-table td:nth-child(1) { width: 50px; text-align: center; color: #999; }
-        </style>
-    </head>
+        <head>
+            <meta charset=\"UTF-8\">
+            <title>Liste de concordances</title>
+            <link rel=\"stylesheet\" href=\"../../assets/css/style.css\"/>
+            <link
+            rel=\"stylesheet\"
+            href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
+            <style>
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+            </style>
+        </head>
 
-    <body>
-        <section class=\"hero is-primary\">
-            <div class=\"hero-body\">
-                <div class=\"container\">
-                    <h1 class=\"title\">Tableau des concordances</h1>
+        <body>
+            <section class=\"hero is-medium is-primary\">
+                <div class=\"hero-body\">
+                    <div class=\"container\">
+                        <h1 class=\"title is-1\">Tableau des concordances</h1>
+                        <h2 class=\"subtitle is-3\">Corpus français</h2>
+                    </div>
                 </div>
-                <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">
-            <div class=\"navbar-brand\">
-                <img class=\"navbar-item\" src=\"../assets/img/PPE.png\" alt=\"Logo PPE\">
+            </section>
+            <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\"> 
+                <div class=\"navbar-brand\">
+                    <p class="navbar-item is-size-4" style=\"cursor: default;\">☁️</p>
 
-                <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
-                <span aria-hidden=\"true\"></span>
-                <span aria-hidden=\"true\"></span>
-                <span aria-hidden=\"true\"></span>
-                <span aria-hidden=\"true\"></span>
-                </a>
-            </div>
-
-            <div id=\"navbarBasicExample\" class=\"navbar-menu\">
-                <div class=\"navbar-start\">
-                    <a class=\"navbar-item\" href=\"../index.html\">
-                        Home
+                    <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
+                    <span aria-hidden=\"true\"></span>
+                    <span aria-hidden=\"true\"></span>
+                    <span aria-hidden=\"true\"></span>
+                    <span aria-hidden=\"true\"></span>
                     </a>
+                </div>
 
-                    <a class=\"navbar-item\">
-                        Script
-                    </a>
+                <div id=\"navbarBasicExample\" class=\"navbar-menu\">
+                    <div class=\"navbar-start\">
+                        <a class=\"navbar-item\" href=\"../index.html\">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
                     <div class=\"navbar-item has-dropdown is-hoverable\">
-                    <a class=\"navbar-link\">Tableau</a>
+                        <a class=\"navbar-link\">Analyse</a>
 
-                    <div class=\"navbar-dropdown\">
-                        <a class=\"navbar-item\" href=\"../tableaux/tableau-fr.html\">Français</a>
-                        <a class=\"navbar-item\" href=\"../tableaux/tableau-zh.html\">Chinois</a>
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../fr_analyse.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../zh_analyse.html\">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                        <a class=\"navbar-link\">Script</a>
+
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../fr_script.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../zh_script.html\">Chinois</a>
+                            <a class=\"navbar-item\" href=\"../blacklist.html\">Blacklist</a>
+                            <a class=\"navbar-item\" href=\"../make_pals_corpus.html\">PALS</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+
+                        <a class=\"navbar-link\">Tableau</a>
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../tableaux/tableau-fr.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../tableaux/tableau-zh.html\">Chinois</a>
+                        </div>
+                    </div>
+
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                        <a class=\"navbar-link\">Concordances</a>
+
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../concordances/fr-final.html\">Français</a>
+                            <a class=\"navbar-item has-background-link-light is-selected\" href=\"../concordances/zh-final.html\">Chinois</a>
+                        </div>           
                     </div>
                 </div>
-
-                <!-- Menu 2 : Concordances -->
-                <div class=\"navbar-item has-dropdown is-hoverable\">
-                    <a class=\"navbar-link\">Concordances</a>
-
-                    <div class=\"navbar-dropdown\">
-                        <a class=\"navbar-item is-selected\" href=\"../concordances/fr-final.html\">Français</a>
-                        <a class=\"navbar-item\" href=\"../concordances/zh-final.html\">Chinois</a>
+                <div class=\"navbar-end\">
+                    <div class=\"navbar-item\">
+                        <div class=\"buttons\">
+                            <button class=\"button is-primary\" onclick=\"history.back();\">Retour</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class=\"navbar-end\">
-                <div class=\"navbar-item\">
-                    <div class=\"buttons\">
-                        <button class=\"button is-primary\" onclick=\"history.back();\">Retour</button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-                <div class=\"centrer\">
-                    <a href=\"../../index.html\" class=\"button accueil\">Accueil</a>
-                </div>
-            </div>
-        </section>
+            </nav>
 
-        <section class=\"section\">
-            <div class=\"container\">
-                <table class=\"table is-striped is-fullwidth concordance-table\">
-
-                <tr>
-                    <th>Fichier</th>
-                    <th>Contexte gauche</th>
-                    <th>Cible</th>
-                    <th>Contexte droit</th>
-                </tr>
-" > ${CONCFINAL}
+            <section class=\"section\">
+                <div class=\"container\">
+                    <table class=\"table is-striped is-fullwidth concordance-table\">
+                        <tr>
+                            <th>Fichier</th>
+                            <th>Contexte gauche</th>
+                            <th>Cible</th>
+                            <th>Contexte droit</th>
+                        </tr>" > ${CONCFINAL}
 
 # Test du chemin
 if [ ! -n "$URL" ]
@@ -278,21 +329,96 @@ do
             rel=\"stylesheet\"
             href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
             <style>
-            .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
-            .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
-            .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
-            .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+                /* Alignement des en-têtes */
+                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+                
+                /* Alignement des élément dans tableau */
+                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
             </style>
         </head>
 
         <body>
-            <section class=\"hero is-primary\">
+            <section class=\"hero is-medium is-primary\">
                 <div class=\"hero-body\">
                     <div class=\"container\">
-                    <h1 class=\"title\">Tableau des concordances</h1>
+                        <h1 class=\"title is-1\">Tableau des concordances</h1>
+                        <h2 class=\"subtitle is-3\">Corpus français ${COUNT}</h2>
                     </div>
                 </div>
             </section>
+            <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\"> 
+                <div class=\"navbar-brand\">
+                    <p class="navbar-item is-size-4" style=\"cursor: default;\">☁️</p>
+
+                    <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
+                    <span aria-hidden=\"true\"></span>
+                    <span aria-hidden=\"true\"></span>
+                    <span aria-hidden=\"true\"></span>
+                    <span aria-hidden=\"true\"></span>
+                    </a>
+                </div>
+
+                <div id=\"navbarBasicExample\" class=\"navbar-menu\">
+                    <div class=\"navbar-start\">
+                        <a class=\"navbar-item\" href=\"../index.html\">
+                            Home
+                        </a>
+
+                        <!-- Analyse -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                        <a class=\"navbar-link\">Analyse</a>
+
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../fr_analyse.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../zh_analyse.html\">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                        <a class=\"navbar-link\">Script</a>
+
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../fr_script.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../zh_script.html\">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Tableau -->
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+
+                        <a class=\"navbar-link\">Tableau</a>
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../tableaux/tableau-fr.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../tableaux/tableau-zh.html\">Chinois</a>
+                            <a class=\"navbar-item\" href=\"../blacklist.html\">Blacklist</a>
+                            <a class=\"navbar-item\" href=\"../make_pals_corpus.html\">PALS</a>
+                        </div>
+                    </div>
+
+                    <div class=\"navbar-item has-dropdown is-hoverable\">
+                        <a class=\"navbar-link\">Concordances</a>
+
+                        <div class=\"navbar-dropdown\">
+                            <a class=\"navbar-item\" href=\"../concordances/fr-final.html\">Français</a>
+                            <a class=\"navbar-item\" href=\"../concordances/zh-final.html\">Chinois</a>
+                        </div>           
+                    </div>
+                </div>
+                <div class=\"navbar-end\">
+                    <div class=\"navbar-item\">
+                        <div class=\"buttons\">
+                            <button class=\"button is-primary\" onclick=\"history.back();\">Retour</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
             <section class=\"section\">
                 <div class=\"container\">

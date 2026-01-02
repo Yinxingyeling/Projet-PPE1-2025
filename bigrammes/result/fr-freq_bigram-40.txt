@@ -3,22 +3,24 @@
      11 l informatique
      10 l erp
       9 de l
+      7 une solution
       7 informatique en
       6 solutions erp
-      5 une solution
       5 mise en
       5 les solutions
       5 en �uvre
+      5 avec une
+      4 solution erp
       4 que les
       4 les entreprises
       4 l avenir
       4 informatique dématérialisée
-      4 avec une
       3 système erp
       3 sur site
       3 nuage qui
       3 nuage acumatica
       3 la mise
+      3 d une
       3 des produits
       3 d entreprise
       3 de la
@@ -29,7 +31,6 @@
       2 sur les
       2 spécialisée dans
       2 solution sur
-      2 solution erp
       2 société spécialisée
       2 services de
       2 que leur
@@ -50,6 +51,7 @@
       2 les clients
       2 les avantages
       2 la puissance
+      2 la croissance
       2 il est
       2 gestion d
       2 et qui
@@ -63,7 +65,6 @@
       2 entreprises qui
       2 en matière
       2 économie numérique
-      2 d une
       2 du logiciel
       2 développement et
       2 des services
@@ -94,7 +95,6 @@
       1 violation de
       1 via l
       1 veulent pas
-      1 vedette acumatica
       1 �uvre et
       1 �uvre est
       1 �uvre d
@@ -143,6 +143,7 @@
       1 sur des
       1 sur ce
       1 summit rejoignez
+      1 stimuler la
       1 soutien chaque
       1 sont proposés
       1 sont l
@@ -177,7 +178,6 @@
       1 réussir dans
       1 réussir aujourd
       1 ressources utilisées
-      1 ressources en
       1 ressources articles
       1 responsabilité de
       1 resource management
@@ -221,7 +221,7 @@
       1 quant à
       1 quand l
       1 qu amazon
-      1 prospères demander
+      1 prospères ou
       1 proposés systèmes
       1 propos d
       1 produits editions
@@ -269,7 +269,9 @@
       1 outre la
       1 ou petites
       1 ou non
+      1 ou en
       1 options erp
+      1 ont elles
       1 ont besoin
       1 on comprend
       1 offre aux
@@ -308,8 +310,8 @@
       1 nécessité de
       1 multitude d
       1 multi locataires
+      1 moyens stimuler
       1 moyens rapport
-      1 moyens pourquoi
       1 moyennes entreprises
       1 mondiaux les
       1 monde depuis
@@ -373,7 +375,6 @@
       1 la mobilité
       1 la maintenance
       1 l aide
-      1 la croissance
       1 jours sur
       1 jour automatiques
       1 jeu et
@@ -402,6 +403,7 @@
       1 fournit des
       1 fournisseurs de
       1 fournisseur d
+      1 for business
       1 forbesle travail
       1 font payer
       1 fini avec
@@ -445,12 +447,13 @@
       1 erples clients
       1 erp les
       1 erp le
+      1 erp for
       1 erp est
       1 erp devrait
       1 erp comment
       1 erp agile
+      1 erp acumatica
       1 erp abréviation
-      1 en vedette
       1 entreprise telles
       1 entreprises reconnaissent
       1 entreprises peuvent
@@ -473,11 +476,13 @@
       1 énergiques sur
       1 énergie les
       1 en employant
+      1 en difficulté
       1 en assumant
       1 employés nous
       1 employant des
       1 elles soient
       1 elles font
+      1 elles besoin
       1 editions de
       1 écrit les
       1 d utilisation
@@ -499,6 +504,7 @@
       1 dirigeants d
       1 dire à
       1 d informations
+      1 difficulté ont
       1 différents systèmes
       1 d exploitation
       1 devrait dépasser
@@ -539,7 +545,7 @@
       1 demander une
       1 demande d
       1 demande beaucoup
-      1 demain ressources
+      1 demain pourquoi
       1 de ma
       1 de logiciels
       1 de leurs
@@ -565,6 +571,7 @@
       1 d analyste
       1 cryptent toutes
       1 croissance la
+      1 croissance avec
       1 couvre le
       1 coûts d
       1 coût d
@@ -602,10 +609,12 @@
       1 celle qui
       1 capacité intégrée
       1 but lucratif
+      1 business demander
       1 bonnes raisons
       1 bien sûr
       1 besoin un
       1 besoins dans
+      1 besoin d
       1 beaucoup de
       1 basées sur
       1 aws qui

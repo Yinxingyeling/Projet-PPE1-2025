@@ -57,6 +57,8 @@
       1 tout le
       1 toute aussi
       1 tous les
+      1 temps de
+      1  temps
       1 systÃ©matiquement d
       1 synthÃ¨se produite
       1 synthÃ¨se peut
@@ -72,12 +74,10 @@
       1 sont Ã©videmment
       1 Â» sont
       1 son public
-      1 s €™inscrire
       1 simplistes voici
       1 similaires au
       1 si le
       1 si l
-      1 s €™identifier
       1 servir pour
       1 sens ils
       1 s €™en
@@ -85,7 +85,6 @@
       1 school ce
       1 s €™attache
       1 sait pas
-      1  s
       1 riche et
       1 revanche ils
       1 ressortir le
@@ -179,6 +178,7 @@
       1 monde peut
       1 mon client
       1 moment on
+      1 min le
       1 mettre en
       1 mÃ©thodes le
       1 mais quelle
@@ -203,6 +203,7 @@
       1 l €™entrepreneuriat
       1 l €™ensemble
       1 le monde
+      1 lecture min
       1 le 
       1 l €™avantage
       1 la diffÃ©rence
@@ -215,11 +216,9 @@
       1 interactive si
       1 intelligente de
       1 instantanÃ©e qu
-      1 €™inscrire s
       1 image pour
       1 ils ne
       1 il permet
-      1 €™identifier le
       1 idÃ©es cliquez
       1 idÃ©e du
       1 ici pertinents
@@ -301,6 +300,7 @@
       1 de neoma
       1 demandÃ© Ã 
       1 demandant aux
+      1 de lecture
       1 delÃ  de
       1 de faire
       1 de dialoog

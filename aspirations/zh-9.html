@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>创作·散文在线丨蔡英：乌云酝酿的雪</title>
+  <link type="text/css" rel="stylesheet" href="https://news.changsha.cn/upload/cslb/images/commom_layout.css">
+  <link type="text/css" rel="stylesheet" href="https://news.changsha.cn/upload/cslb/images/lianbo_layout.css">
+  <script type="text/javascript" src="https://appjs.changsha.cn/front_js/jquery-1.11.1.min.js"></script>
+  <script src="https://appjs.changsha.cn/front_js/bridge.js" type="text/javascript"></script>
+  <script src="https://appjs.changsha.cn/front_js/bridgeImplements.js" type="text/javascript"></script>
+  <script src="https://appjs.changsha.cn/front_js/web_bridge.js" type="text/javascript"></script>
+  <script src="https://appjs.changsha.cn/front_js/base64.min.js" type="text/javascript"></script>
+  <script src="https://u.changsha.cn/OcApi/login.php"></script>
+  <script src="https://appjs.changsha.cn/front_js/icms_zan.js"></script>
+  <script src="https://appjs.changsha.cn/front_js/icms_comment/icms_comment.js"></script>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  <script src="https://weixin.changsha.cn/wx/js/wx.js"></script>
+     <script src="https://appjs.changsha.cn/front_js/devise_check_index.js" type="text/javascript"></script>
+  <style>
+    /*评论遮罩*/
+    #commentContainer{position:relative;}
+    .commentMask{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;}
+    /*登录选择浮层*/
+    .loginContainer{width:90%;max-width:480px;height:30%;position:fixed;background:rgba(0,0,0,.7);display:none;
+      top:40%;left:0;right:0;margin:0 auto;border-radius:10px;}
+    .loginClose{width:35px;height:35px;margin:5px;
+      background:url(https://news.changsha.cn/upload/template_library_attachment/images1/img/out.png) no-repeat right center/auto 100%;float:right;}
+    .loginDesc{width:100%;font-size:16px;color:#ffffff;text-align:center;margin-top:5%;clear:both;}
+    .loginBtn{width:50px;height:50px;background-size:100% 100%;border-radius:50%;position:absolute;top:40%;}
+    .xcLogin{background-image:url(https://app.changsha.cn/images/wxlogo.jpg);left:32%;}
+    .wxLogin{background-image:url(https://news.changsha.cn/upload/template_library_attachment/images1/img/wxlogin.png);right:32%;}
+        .loginText{width:100%;text-align:center;position:absolute;bottom:-15px;font-size:10px;line-height:10px;color:#ffffff;}
+        .r_bar .scan_1{display:none;}
+  </style>
+  <script>
+      var ishot=0;
+ var NewsId =3753;
+    var zan1 = null;
+    var comment1 = null;
+    $(function(){
+         if(ishot==1)
+        {
+        $(".recommend").hide();
+        }
+          if($("#relatednews li").hasClass('news_'+NewsId))
+{
+
+  $(".news_"+NewsId).hide();
+}
+else{
+
+    $("#relatednews  li").eq(4).hide();
+}
+
+
+                $.post("/v/default.php?mod=document_news&a=async_add_and_get_hit&id=3753&site_id=38", {
+                resultbox: $(this).html()
+            }, function(result) {
+                $("#hit_count").html(result);
+                $("#hit_count").show();
+            });
+    
+    
+      zan1 = new iZan({
+        zanBtnId:'zanBtn',
+              zanNumId:'zanNum',
+        cookieKey:'iszan_' + 38 + '_' + 3753,
+        zanSiteId:38,
+        zanChannelId:116298,
+        zanDocId:3753,
+        zanType:7,
+      });
+      zan1.init();
+
+      comment1 = new iComment({
+        commentContainerId:'commentContainer',//评论框容器
+        autoCommentContainer:false,//是否需要生成评论框
+        commentTextId:'commentText',//评论输入框
+        commentBtnId:'commentBtn',//提交评论按钮
+        autoLoginContainer:true,//是否需要生成登录方式选择浮层
+        commentListContainerId:'commentList',//评论列表容器
+        autoCommentList:false,//是否需要生成评论列表
+        wxSiteId:5,
+        siteId:38,
+        channelId:116298,
+        tableId:3753,
+        tableType:7,//6-频道评论，7-稿件评论
+        commentUserList:['xc','wx'],
+      });    
+      comment1.init();
+
+      $(comment1).bind('on_cm_list',function(event,data){
+        var arr = data.resarr;
+        var commentNum = arr.length;
+        $('#comment_num').text('全部评论：' + commentNum)
+        $.each(arr, function() {
+          var id = this.CommentId;
+          var nickName = this.UserName ? this.UserName : '游客';
+          var headimg = this.Subject ? this.Subject : comment1.options.headArr[Math.floor(Math.random()*8)];
+          var commentListHtml = '<li id="comm_'+id+'">'
+              +'<div class="left head"><img src="' + headimg + '" width="100%" height="auto"/></div>'
+              +'<div class="right_part">'
+              +'<div class="name"><span class="right">' + this.CreateDate + '</span>' + nickName + '</div> '
+              +'<div class="comment">' + this.Content + '</div>'
+              +'</div>'
+              +'<div class="clean"></div>'
+              +'</li>';
+          $('#' + comment1.options.commentListContainerId).prepend(commentListHtml);
+        });
+      });
+    })
+
+    /*****重写方法，防止报错*****/
+    var loading = {
+      show:function(){},
+      hide:function(o){},
+    };
+
+    var msg = {
+      show: function (txt, callback) {
+        alert(txt);
+      },
+    }
+    /*****重写方法，防止报错*****/
+
+    /*
+     * 获取Cookies
+     */
+    function getCookie(name) {
+      var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+      if (arr = document.cookie.match(reg)) {
+        return unescape(arr[2]);
+      }else{
+        return null;
+      }
+    }
+
+    /*
+     * 设置Cookies
+     */
+    function setCookie(name, value,domain, time) {
+      time = time || 60;
+      var strsec = time;
+      var exp = new Date();
+      exp.setTime(exp.getTime() + strsec * 1000);
+      domain = "changsha.cn" || document.domain;
+      document.cookie = name + "=" + escape(value) + ";path=/;domain="+domain+";expires=" + exp.toUTCString();
+    }
+
+    window.onload = function(){
+      // 点赞按钮随着屏幕在一定区域内滚动
+      var main_nav_h = $('.main_nav').outerHeight();
+      var location_h = $('.location').outerHeight();
+      var text_h = $('.text').outerHeight();
+      var zan_off = $('.zan').offset().top;
+      $(window).scroll(function(){
+        var scrollTop = $(window).scrollTop();
+        var diff1 = scrollTop - zan_off;
+        var diff2 = scrollTop - main_nav_h - location_h - text_h;
+        if(diff1 > 0 && diff2 < 0){
+          $('.zan').css('top',(70 + diff1) + 'px');
+        }
+      });
+    }
+  
+  </script>
+
+</head>
+
+<body>
+  <div class="main_nav">
+    <!-- 顶部导航 -->
+    <script src="https://app.changsha.cn/html/112088/header.js" type="text/javascript"></script>
+  </div>
+  <div class="mian_section body_w" style="clear:both;">
+    <div class="left text_box">
+      <div class="location">您的位置：
+        <a href="http://www.changsha.cn" target="_blank">星辰在线</a>><a href="https://news.changsha.cn/zt2024/html/116294/index.shtml">《创作》杂志</a>><a href="https://news.changsha.cn/zt2024/html/116298/list.html">散文在线</a>
+      <!--
+        <a href="http://www.changsha.cn" target="_blank">星辰在线</a> > <a href="/html/116294/" target="_blank">《创作》杂志</a> > <a href="/html/116298/list.shtml" target="_blank">散文在线</a>
+      -->
+      </div>
+      <div class="text">
+        <h1>创作·散文在线丨蔡英：乌云酝酿的雪</h1>
+        <div class="time">散文在线 <span id="hit_count"></span> |  2024-12-23 21:02:56</div>
+        <div class="source">星辰在线 | <span class='author_蔡英 reviewer_span author_span'>作者:蔡英</span><span class='reviewer_span'>编辑:周森林</span><span class='reviewer_span'>值班主任:陈贝贝</span><span class='reviewer_span'>值班编委:王重浪</span><style>.author_{display:none !important} .reviewer_span{display:inline-block;margin-right:1em}</style></div>
+        <div class="zan"><div id="zanNum"></div><span id="zanBtn"><img src="https://news.changsha.cn/upload/cslb/images/zan.png" width="42" height="42" alt=""/></span></div>
+        <div id='tempNewsContentDiv'><p style="text-align: center;"><strong><img src="https://res.changsha.cn/upload/8/document_news/112155/20241219/document_news_content_6763db65e8ab3.png" class="slideImg" style="display: block; margin-left: auto; margin-right: auto;" /></strong></p>
+<p style="text-align: center;"><strong>乌云酝酿的雪</strong></p>
+<p style="text-align: center;">文|蔡英</p>
+<p style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p>　　那年除夕，父亲照例打发弟弟沽酒。酒是谷酒，邻居周大爹自家蒸的，很实惠。</p>
+<p>　　除夕那餐夜饭，我家是在天快断黑才吃的。这时，屋檐上聚满了乌云，不知它们什么时候商量好的，无声无息地侵占了这片天空。冬天的云不同于夏天的云，形状不同，颜色不同，性情也不同。夏天的云，清早的时候是细密的鱼鳞，傍晚的时候是绚丽的锦缎；天晴的时候是雪白的纱巾，落雨的时候是黑压压的披风；来的时候大大方方、大张旗鼓，走的时候也绝不拖泥带水，有一种快意江湖的豪气。冬天的云就莫名有些阴郁了，甚至带着点高深莫测的诡异，颜色灰暗，不是纯正的白，也不是纯粹的黑，更不是正宗的灰，其实这种黑不黑白不白灰不灰的颜色，显脏也讨嫌，有点上不得台面的感觉。落雨时天上是这种云，阴天时是这种云，连晴天时天上也积着几朵这样的云，撵不走吹不散。现在，这么多云聚集在天空中，莫非酝酿着一场阴谋？</p>
+<p>　　饭桌又黑又旧，缝隙里的不明物质怎么也刮不净，桌上的油迹怎么也擦不掉，难得的是这时候桌子上摆了寻常看不到的荤菜。家里过节没钱称肉，来了客人只能打两个鸡蛋做主菜，所以母亲一年到头很难有几次机会做大鱼大肉，但她手艺很好，荤菜做得色香味俱全。最显眼的是梅菜扣肉，肉是肥瘦相间的五花肉，炖得酥烂，梅菜是自家冬月晒的，有嚼劲。父亲吃着吃着，突然喊弟弟倒酒，母亲停顿了下，最后还是没作声。父亲慢慢喝了一杯酒，酒香弥漫了整个房间。屋外的天空更暗了，乌云似乎涌到了窗棂，北风鬼鬼祟祟地从林子里窜出来。父亲放下筷子，走出去，站在池塘畔老樟树下。</p>
+<p>　　这株樟树是爷爷当年植的，预备做百年后的&ldquo;老屋&rdquo;。树才栽了数年，长得郁郁葱葱时，爷爷就突发疾病过世，留下患有精神疾病的妻子与三个孩子。那年，父亲不得不挑起家庭重担。也是那年，他由一个顽皮捣蛋的无知男孩成长为一个懂事明理的顾家少年。父亲是长子，爷爷在城里机关工作，经济条件较村人稍宽裕，所以他自小深受宠爱，长得魁梧挺拔，原本能无忧无虑地成年。遭此变故后，他不得不以稚嫩的肩膀拉起几百斤重的大车，沿着湘江岸，一趟趟拖车运砂石，勉强养家糊口。</p>
+<p>　　樟树下的父亲与黑暗融为一体，模模糊糊，只留下魁梧的身影。他往树上打了一拳，突然高声叫骂起来。粗犷嘶哑的骂声像水波一样，在稠密的夜色里迅速荡漾开来；也像锐利的刀子，把凛冽的空气一块块划割开。夜色似乎受了惊，越发暗了。正在收拾厨房的我心里慌了起来，一只碗&ldquo;啪&rdquo;地掉落，碎成尖锐的瓷片。父亲骂得庞杂：骂包工头没本事，数年前的工钱还不能结清，过年东躲西藏让人找不着影子；骂老天不体恤，连续下个把月的秋雨，晚稻在田里发芽了，收成只有往年的三分之一，明年又青黄不接；骂猪肉价钱太烂，一窝猪仔养得肥头大耳，却卖不了两个油盐钱；骂物价越来越贵，化肥饲料成本高，四个孩子的学杂费又翻番。这时的父亲没有平时的怯弱，他像一个奋不顾身的战士，理直气壮地声讨生活的艰难，慷慨激昂地陈述命运的不公。我不知道酒在其中起了什么作用，让平时木讷寡言的父亲变得这么善言，口里的词汇那么丰富，几乎没哪句话是重复的，甚至字眼都不重复。那些语句像黄豆一样爆出来，流畅得骇人，简直是行云流水，让我们惊诧而慌乱。虽然是咒骂，他却似乎很高兴有这么一个机会，能敞开了胸怀发泄。长年累月在深山里打石头，他鲜少与人交流，人家问一句，他答半句，更多的时候是默不作声。我曾一度怀疑，父亲已失去正常的语言表达能力。</p>
+<p>　　母亲蹲在杂屋里剁猪菜，&ldquo;咚咚&rdquo;的刀声又细又密，像雪子打在黑瓦上，给父亲的骂声伴奏。菜刀缺了口，剁碎的野菜也参差不齐，像母亲平时为了省理发的钱，拿起剪刀给小弟剃的头发一样。冷风萧萧，黑云密布，正契合她此时的心绪。母亲将野菜倒入铁锅，让妹妹架起火煮。她擦了擦手，棕灰的毛巾上立即印上青黄的花朵，像抽象派的画，那是野菜的汁液。母亲一步步挪到树下，犹豫着喊了父亲，天冷，回家吧。她细微而犹疑的声音，马上被淹没在滔滔不绝如流水般的骂声里。她只得捏住父亲的衣角，扯了扯。父亲狠狠一甩手，她跌跌撞撞，倒退好几步才稳住脚。这时的父亲是说一不二的王，根本容不得一丝打断，根本不接受半分质疑。没有人再来劝他，上屋下屋的邻居躲在屋里烤火，平时送恭喜的孩童也不见身影，连树间的鸟也消失得无影无踪，只有北风吹着落叶回应他。父亲就在树底下对着那口塘，对着那一排高高低低的房屋，对着远处黑幽幽阴森森的群山骂。没有任何人响应他，他对他想象中的敌人开炮。骂声时而密集，堪比他头顶一层叠一层的云；时而缓慢，像他身后打着旋落下的枯叶。他忘记了时间，也忘记了现实，沉迷在自己的世界里。他骂得畅快淋漓，骂得天昏地暗。夜色越来越稠，稠得像塘里的污泥；夜色也越来越重，黑色天幕堕入泥地，伸手不见五指。</p>
+<p>　　两三个小时后，父亲终于胜利了。他拖着沉重的步子进了堂屋，坐在油漆斑驳的靠背椅上。堂屋中央用废弃的红砖围成四方形，正在燃烧的树蔸忽明忽暗，升起的黑烟时而倒向我们，时而袭向父亲。一粒火星噗地滚到父亲身上，炸出一个黑而圆的小洞。这件绿色的军大衣，不知是哪位当兵的老叔送的，父亲穿着过了六个年。大衣上钉着六粒硕大的铜扣，扣子像鼓出的眼珠，与他主人的异常神似。他拍了拍小洞，甚至用小指头抠了抠，直到它变大了，才停下来跺了跺脚。脚上穿的是洗得发白的解放鞋，鞋帮上沾着零碎的泥巴或粪土，两条鞋带像枯蛇一样无精打采地拖到地上。父亲把手臂支到分开的膝盖上，手心朝着火堆，不时来回搓动双手。暗淡的火光映在他手上，他的手掌粗厚，指甲灰白而凸出，指头到掌心开裂成一条条的细缝，缝里是暗色的血丝。我给父亲递上热茶，他转动着搪瓷缸子取暖。大约是口渴极了，一缸茶很快喝完了，他就用手指挖出老茶叶，一把塞到嘴里。他的牙齿尖而长，黄黑的牙齿，那是经年吸烟导致的。烟自然是自家种的旱烟，很多个夏晨，父亲弯着腰给烟草捉虫。父亲接过弟弟递过来的烟袋，撕下一张日历纸，伏在膝盖上卷起烟丝。他把烟塞进嘴里，一把抓起火钳，在火堆里夹起一根二三寸长的木头，点燃旱烟。我被熏得眼泪都出来了，像辣椒子进了眼里，罪魁祸首不知是柴烟还是旱烟。</p>
+<p>　　坐在火边，我们谁也不敢说一句话，柴火噼噼啪啪地燃烧。就好像烧的不是柴，而是我们脆弱如纸的自尊。屋里除了沉默，还是沉默；心里除了耻辱，还是耻辱。</p>
+<p>　　北风突然从门口冲进来，霎时间我的胸膛里灌满冷风。周围的同龄人，初中毕业后大多到东莞等地打工，有的还帮家里建起了楼房。没读什么书的母亲每每比较，时有怨言，责怪父亲好高骛远，责怪我们不懂事。可父亲不甘心，他小时候到爷爷任职的机关里住过一些时日，见识了省城的开阔，体验过城市的繁华，坚信知识改变命运。当年，我的中考成绩上了线，却没能被录进中专，父亲骑着单车到教育局咨询，得到的回复是我的视力没达标。父亲听后蹲在地上，使劲捂住脸，眼泪还是汹涌而出。多少次，我梦到那张大红的中专录取通知书，激动得在梦里一跳老高，醒来枕头却湿了大片。这些年学杂费水涨船高，每到开学季，父亲愁得整夜睡不着，半夜起来坐在门槛上抽旱烟。母亲把一窝猪仔卖了还不够，只得翻山越岭去舅舅家借钱。几个舅舅，这家拿二十，那家拿四十，东拼西凑成一百元给母亲。晚秋，母亲独自到大山里采草药，晒干后去药店换钱。寒冬，父亲用独轮车把石料运回家，坐在堂屋里打石头。挣钱的办法想尽，取了帽子翻筋斗，可这些仍不够全家开销。有人在背后说怪话，老树家穷得打鼓，女儿却看得金贵，可读那么多书，还不是嫁到别人家吗？还不如早点出去打工，也给家里盖幢楼。母亲把这些话转述给父亲时，他正坐在灶前烧火，火苗照着他瘦削得有点狰狞的脸，他与暮色同时陷入静默的海洋。</p>
+<p>　　父亲喝完茶，吐了口气，开始对我们训话。这训话是严肃的，是语重心长的，语气却是温和的。他说，农民太苦了，面朝黄土背朝天，靠天吃饭，累死累活，养活几根肠子还为难。农闲时打零工、做副工、当苦力，拼尽全力也就盘儿女读书罢了。他说读书的重要性，说&ldquo;吃得苦中苦，方为人上人&rdquo;的道理。他说他的苦命，说他的坎坷经历，说他的决心与希望，希望我们别走他的老路。随后，父亲转过头盯住我说，你是老大，要给弟弟妹妹带个好头，考个公费的大学，才能被分配正式工作，我砸锅卖铁也会送你们读书。我埋着头不敢看父亲，只能点点头。我从来不知道，脑袋有这么重，千斤似的，点那么两下，似乎耗费了平生所有的力气。</p>
+<p>　　我知道自己智商不高，数学物理一塌糊涂，怎么也敲不开理科的大门。幸而，其他科目成绩优异，尤其是文史哲。既然资质平庸，我只能更为勤奋。青春时期，男孩女孩们萌动着生机勃勃的情意，上演着一场又一场美好而朦胧的故事。我知道自己没有资格当主角，家人的希望压在我身上。我在题海里徜徉，慢慢地习惯，进而陶醉其中，成为与同学们格格不入的怪人。堂兄的旧衣裤松松垮垮地挂在身上，表姐的旧网鞋紧巴巴在箍在脚掌上，我越发沉默。我佝偻着背，缩着肩膀，坐在破桌椅上做题，日复一日。雨天，鞋子浸了水，我把报纸垫进去，每隔数小时换一次。没人的时候，我把袜子脱下来，双手抱紧脚掌，不停地搓揉取暖。雪天，同学们在操场上打雪仗，笑声把樟树上的雪花都震落了，我坐在阴冷的教室里背书，看着开裂的棉鞋想，什么时候有了新鞋子，也要出去踩踩雪。</p>
+<p>　　我想起也是这样的雪天，父亲骑着自行车来学校接我。他站在教学楼的光荣榜前看了很久，年级前五名的学生头像，其中一个是我。我穿着十五元钱淘来的红外套，笑得两颗龅牙都露出来了。父亲一言不发地递给我一条围巾，黑白相间的格子，清简雅致。他接过我手里的被子，仔细绑在自己车子的后座上。这部飞鸽牌自行车，父亲骑了十年，依然光亮如新。迎着越来越密集的雪花，我骑着车走在前面，父亲骑着车走在后面。两个小时的路程，父亲除了让我注意安全，没有再说话，可我看到他冻得通红的脸上，流露出一缕隐隐约约的笑意。那笑意比柴火更温暖，融化了眼前的飘雪。可现在，父亲的脸是铁青的，我想，如果此时的寒风有颜色，定是这样的。</p>
+<p>　　屋顶传来窸窸窣窣的响声，那是雪粒在跳舞。旷野的阴冷与屋里的温暖，是一个对比；屋外冰雪的明快与屋里气氛的沉郁，是一个对比；原野的空旷大气与土砖屋的紧张狭小，也是一个对比；邻家的鞭炮声笑闹声与我家的清寂悄然，还是一个对比。我想象得到，雪花漫天飞舞，密不透风，似乎刀林丛立。雪下得越来越急，急不可耐，乱成一锅粥。漫天都是纷纷扬扬的雪，铺天盖地，没头没脑，像要掩藏什么，也像要拥抱什么。四野静谧，唯有屋后的苦楝籽落了下来，在瓦片上咕噜咕噜地滚动着，掉到屋檐下，砸出一个个小坑。苦楝籽落地的声音，很快被北风呼啸着卷走了。雪坑里的苦楝籽是灰黄的，与母亲的脸色如出一辙。</p>
+<p>　　母亲刚进门，她拍落了一地雪花，尽量把身体靠近火塘。她告诉父亲，到堂伯等几家走了一圈，说明欠的债只能明年还了，今年打石头和养猪都太不景气。说着说着，她低声埋怨父亲：你一个大男人，借钱的事从不开口，我一个女人家只得挨家挨户讲好话。父亲半晌不吭声，最后叹了一口气，说，我对不住你。母亲眼眶红了，她默默地擦了擦眼睛，转到厨房里拿出几个红薯，慢慢煨到火堆里。这时，远处的天空忽然炸出一片火树银花，一朵朵璀璨的花朵绽开在天空，随即落入无垠的黑暗。北风从木门的空隙溜进来，从屋顶的瓦片缝隙钻进来，从窗户蒙着的硬塑料布边缘吹过来，满屋都是雪的气息和风的声音。</p>
+<p>　　雪一阵比一阵紧，风一阵比一阵冷，父亲让我们进房睡觉，母亲仍在厨房里忙碌。我睡得并不安稳，梦里有大山压过来，有陡坡爬不上去，有花果摘不到手，有火车赶不上。惊醒时，满颈窝都是汗水。堂屋有火光。我悄悄起身一看，父亲坐在树蔸边烧水，母亲翻烤着半干的衣物。他们沉默着，偶尔发出一两声叹息。这叹息落在竹枝上，竹枝发出断裂的脆响；落到原野里，草木结起薄薄的冰；落在我心口上，是一记实打实的重锤。隔壁的牛栏里，传来牛打响鼻的声音。猪栏里的猪，发出满足的梦呓。雪仍在下，风仍在呼啸。远远有狗吠，一声两声，似有似无。这个雪夜越发静寂了。我渐渐重入梦乡，似乎走进了亘古的时光隧道，没有开始，也没有结束，四野茫茫，无边无际。</p>
+<p>　　天色越来越亮，推开窗户，外面白茫茫一片。屋顶、菜地、稻田、深林都覆盖着厚厚的棉被，玉树琼枝，晶莹剔透，分明是冰雪仙境。上百只麻雀编织成一张流动的网，从这棵雪树飞向另一棵雪树，最后落到菜地里。田里的稻草人一身白，垂着头不知在想什么。桥边的江梅银装素裹，让人分不清是花是雪。雪地上落了星星点点的鞭炮，像一片片残败的花瓣。原来昨天的乌云酝酿了这场雪，雪又拼凑出一个童话世界。天地之间，美丽却虚无。梦幻之中，虚无却美丽。</p>
+<p></p>
+<p></p>
+<p style="text-align: right;"><span style="text-align: right;">&nbsp;（本文选自《创作》杂志2024年第5期）</span></p>
+<p><span style="font-family: 仿宋_GB2312;">&nbsp;<span style="font-family: 楷体; font-size: large;"><em>&nbsp;</em><strong>&nbsp; 【作者简介】</strong></span></span></p>
+<p><span style="font-family: 楷体; font-size: large;">　　蔡英：湖南省作家协会会员，长沙市望城区文联主席提名人选。出版散文集《南方草木记》《水墨村庄》，主编地域文化丛书《丁字石韵》，在《中国作家》《湖南日报》《长沙晚报》《读友报》《亮报》《湖南工人报》等报刊发表散文三百余篇。</span></p>
+<p style="text-align: center;"><em><img src="https://res.changsha.cn/upload/8/document_news/112155/20241204/document_news_content_67502050e7e7d_compress1.png" alt="" width="123" height="123" /><br data-mce-bogus="1" /></em></p>
+<p style="text-align: center;"><strong>（扫码关注更多《创作》作品）</strong></p></div>
+        <p>【来源：星辰在线】</p>
+        <div class="clean"></div>
+        <div class="text_bottom">
+          <div class="scan_1"><img src="https://news.changsha.cn/upload/cslb/images/appdowload_2.png.gif" width="189" height="226" alt=""/></div>
+          <div class="tag">标签：</div>
+          <!-- 相关新闻 -->
+          <!-- <div class="recommend">
+            <div class="title"><img src="https://news.changsha.cn/upload/cslb/images/recommend.gif" width="40" height="126" alt=""/></div>
+            <ul id="relatednews">
+            <script type="text/javascript" src="../relatednews_pc.js"></script>
+            </ul>
+            <div class="clean"></div>
+          </div> -->
+        </div>
+      </div>
+      <!-- 星辰影像 -->
+      <script type="text/javascript" src="https://www.image1.cn/news2_image1_fengjing_2018.js"></script>
+      <!-- 评论 -->
+      <div class="comments" style="display:none;">
+        <div class="add_comment" id="commentContainer">
+          <span class="right" id="commentBtn"><img src="https://news.changsha.cn/upload/cslb/images/comment_btn.gif" width="95" height="43" alt=""/></span>
+          <textarea type="text" placeholder="说点什么..." class="textarea_style" id="commentText"></textarea>
+        </div>
+        <!-- 评论列表 -->
+        <div class="comments_list">
+          <div class="all_count" id="comment_num">全部评论：0</div>
+          <ul class="circulate" id="commentList">
+          </ul>
+        </div>
+      </div>
+      <!-- 版权 -->
+      <script src="https://app.changsha.cn/html/112088/detail_copyright.js" type="text/javascript"></script>
+    </div>
+    <div class="right r_bar">
+      <!-- 右边栏 -->
+      			
+<script type="text/javascript" src="https://appjs.changsha.cn/front_js/site/site_news.js" charset="utf-8"></script>
+			<div class="rightbar_ad2">
+				<div class="site_ad_332"></div><script language="javascript" src="https://app.changsha.cn/upload/site_ad/8/site_ad_332.js" charset="utf-8"></script>
+				<div class="site_ad_347"></div><script language="javascript" src="https://app.changsha.cn/upload/site_ad/8/site_ad_347.js" charset="utf-8"></script>
+			</div>
+			<div class="right_news_with_hit">
+			
+	<script src="https://app.changsha.cn/html/112088/icms_hotNews.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function(){
+			icmsHotNewsListForOneDay('hotlist1','hottemp',9);
+			icmsHotNewsListForThreeDay('hotlist2','hottemp',9);
+			icmsHotNewsListForWeek('hotlist3','hottemp',9);
+			
+			
+			$('.switch').bind('mouseenter',function(){
+				$('.switch').removeClass('active');
+				$(this).addClass('active');
+				$('.hot_text').hide();
+				$('#' + $(this).attr('data-list')).show();
+			});
+
+			//$('.switch[data-list="hotlist1"]').mouseenter();
+		});
+		</script>
+				<div class="title"><img src="https://news.changsha.cn/upload/cslb/images/title_hotnews.jpg" alt="" width="176" height="40"></div>
+				<div class="days">
+					<a class="switch" data-list="hotlist1">一天</a>
+					<a class="switch" data-list="hotlist2">三天</a>
+					<a class="switch" data-list="hotlist3">一周</a>
+				</div>
+				<ul class="hot_text" id="hotlist1">
+				</ul>
+				<ul class="hot_text" id="hotlist2">
+				</ul>
+				<ul class="hot_text" id="hotlist3">
+				</ul>
+			</div>
+			
+	<template id="hottemp">
+			<li><a href="{f_url}" target="_blank">{f_title}</a>
+			<p>热度：{f_formatHitEn}</p>
+			</li>
+	</template>
+			<div class="rightbar_ad2">
+<div class="site_ad_333"></div><script language="javascript" src="https://app.changsha.cn/upload/site_ad/8/site_ad_333.js" charset="utf-8"></script>
+			</div>
+			<div class="scan_1">
+			<div class="site_ad_334"></div><script language="javascript" src="https://app.changsha.cn/upload/site_ad/8/site_ad_334.js" charset="utf-8"></script>
+			</div>
+
+    </div>
+    <div class="clean"></div>
+  </div>
+  <div class="foot">
+    <!-- footer -->
+    <script src="https://app.changsha.cn/html/112088/footer.js" type="text/javascript"></script>
+  </div>
+  <div class="back2top"><a href="#"><img src="https://news.changsha.cn/upload/cslb/images/back2top.png" width="55" height="55" alt=""/></a></div>
+</body>
+</html>
+<script type="text/javascript" time="1740471905">var visitConfig = encodeURIComponent("https://icms3api.changsha.cn") +"||38||116298||3||3753||"+encodeURI("");</script><script type="text/javascript" src="https://icms3api.changsha.cn/front_js/visit.js" charset="utf-8"></script>
