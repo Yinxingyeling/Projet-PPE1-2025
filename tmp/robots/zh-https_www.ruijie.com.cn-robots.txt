@@ -1,0 +1,32 @@
+User-agent: *
+Disallow:/test/
+Disallow:/ytest/
+Disallow:/*?r
+Disallow:/*?line
+Disallow:/*?rewrite
+Disallow:/*?key
+Disallow:/*?CategoryID
+Disallow:/*?jobtype
+Disallow:/*?type
+Disallow:/*?workid
+Disallow:/*?truniid
+Disallow:/*?key1
+Disallow:/*?intID
+Disallow:/*?id
+Disallow:/*?d
+Disallow:/*?vid
+Disallow:/*?s
+Disallow:/*?Recordid
+Disallow:/*?page
+Disallow:/*?searchtype
+Disallow:/*?plscode
+Disallow:/*?intid
+Disallow:/*?field=PreviewFile
+Disallow:/*/ScriptData?*
+Disallow:/*/GetRelProduct?*
+Disallow:/*/GetCompare?*
+Disallow:/Fu
+Disallow:/fw/rj
+Disallow: */cp/zhjs*
+Disallow: /application/
+Sitemap:https://www.ruijie.com.cn/sitemap.xml

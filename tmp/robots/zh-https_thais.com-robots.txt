@@ -1,0 +1,9 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://thais.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
+Sitemap: https://thais.com/sitemap.xml

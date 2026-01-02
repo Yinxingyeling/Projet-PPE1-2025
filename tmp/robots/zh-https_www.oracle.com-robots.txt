@@ -1,0 +1,61 @@
+# /robots.txt for www.oracle.com
+##############################################
+# Sitemaps                                   #
+##############################################
+Sitemap: https://www.oracle.com/sitemap.xml
+Sitemap: https://www.oracle.com/international.xml
+
+##############################################
+# Future use for AI                          #
+##############################################
+# LLMs: https://www.oracle.com/llms.yaml
+# LLMs: https://www.oracle.com/llms.txt
+
+##############################################
+# AI Crawlers.                               #
+##############################################
+User-agent: OAI-SearchBot     # Search (shows my webpages as links inside ChatGPT search). NOT used for model training
+User-agent: ChatGPT-User      # User-driven browsing from ChatGPT and Custom GPTs. Acts after a human click.
+User-agent: ChatGPT-User/2.0  # User-driven browsing from ChatGPT and Custom GPTs. Acts after a human click.
+User-agent: GPTBot            # Model-training crawler. Opt-out here if I don’t want content in GPT-4o or GPT-5.
+User-agent: anthropic-ai      # Anthropic bulk model training
+User-agent: ClaudeBot         # Anthropic chat citation fetch
+User-agent: claude-web        # Anthropic web-focused crawl
+User-agent: PerplexityBot     # Perplexity index builder
+User-agent: Perplexity-User   # Perplexity human-triggered visit
+User-agent: Google-Extended   # Google (Gemini)
+User-agent: BingBot           # Microsoft Bing Copilot
+User-agent: Applebot          # Apple
+User-agent: Applebot-Extended # Apple
+User-agent: LinkedInBot       # Linkedin
+User-agent: Amazonbot         # Amazon
+Disallow: /a/ocom/docs/gated/
+Disallow: /splash/
+Disallow: /us/
+Disallow: /_qa/
+Disallow: /a/ocom/resources/
+Disallow: /financial-services/ofss/
+Disallow: /a/ocom/docs/corporate/pricing/
+Disallow: /assets/managed-cloud-services-sd-4738082.pdf
+Disallow: /us/corporate/contracts/mcs-iaas-service-desc-3014939.pdf
+Disallow: /us/corporate/contracts/mcs-saas-service-desc-3762902.pdf
+Allow: /
+
+##############################################
+# Search Crawlers                            #
+##############################################
+User-agent: *
+# Disallow: /cis/*
+Disallow: /corporate/contracts/
+Disallow: /a/ocom/docs/gated/
+Disallow: /splash/
+Disallow: /test/
+Disallow: /us
+Disallow: /_qa/
+Disallow: /a/ocom/resources/
+Disallow: /financial-services/ofss/
+Disallow: /a/ocom/docs/corporate/pricing/
+Disallow: /assets/managed-cloud-services-sd-4738082.pdf
+Disallow: /us/corporate/contracts/mcs-iaas-service-desc-3014939.pdf
+Disallow: /us/corporate/contracts/mcs-saas-service-desc-3762902.pdf
+Allow: /

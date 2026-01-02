@@ -1,0 +1,17 @@
+User-agent: Googlebot
+Allow: /
+User-agent: baiduspider
+Allow: /
+User-agent: Sogou web spider
+Allow: /
+User-agent: Sosospider
+Allow: /
+User-agent: MSNBot
+Allow: /
+User-agent: 360spider
+Allow: /
+User-agent: bingbot
+Allow: /
+User-agent: *
+Disallow: /
+Crawl-delay: 5

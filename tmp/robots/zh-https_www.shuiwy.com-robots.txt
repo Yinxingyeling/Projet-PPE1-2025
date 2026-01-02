@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /zb_system/admin/
+Disallow: /zb_system/api.php
+Disallow: /zb_system/cmd.php
+Disallow: /zb_system/login.php
+Sitemap: https://www.shuiwy.com/sitemap.xml
+Sitemap: https://www.shuiwy.com/sitemap.txt
+Sitemap: https://www.shuiwy.com/sitemap.html

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+		<title>出错了 ～ 404了</title>
+		<link rel="stylesheet" href="https://m.voc.com.cn/css/404_style.css"/>
+		<script src="https://m.voc.com.cn/js/404_font.js"></script>
+	</head>
+	<body>
+		<div class="logo_row"><img src="https://m.voc.com.cn/images/logo-img.jpg"/></div>
+		<div class="main_center">
+			<p>抱歉，您访问的页面不存在～</p>
+		</div>
+		<div class="bottom_font">版权所有：湖南日报社 未经授权禁止复制或建立镜像</div>
+	</body>
+</html>

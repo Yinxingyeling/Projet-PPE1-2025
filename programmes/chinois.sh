@@ -20,7 +20,7 @@ echo -e "<html>
             <div class=\"hero-body\">
                 <div class=\"container\">
                 <h1 class=\"title is-1\">Tableau général</h1>
-                <h2 class=\"subtitle is-3\">Corpus français</h2>
+                <h2 class=\"subtitle is-3\">Corpus chinois</h2>
                 </div>
             </div>
         </section>
@@ -112,15 +112,15 @@ echo -e "<html>
             href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
             <style>
                 /* Alignement des en-têtes */
-                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
-                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
-                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(2) { text-align: right; width: 45%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 45%; }
                 .concordance-table th:nth-child(1) { text-align: center; color: #999; }
                 
                 /* Alignement des élément dans tableau */
-                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
-                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
-                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(2) { text-align: right; width: 45%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 45%; }
                 .concordance-table td:nth-child(1) { text-align: center; color: #999; }
             </style>
         </head>
@@ -130,7 +130,7 @@ echo -e "<html>
                 <div class=\"hero-body\">
                     <div class=\"container\">
                         <h1 class=\"title is-1\">Tableau des concordances</h1>
-                        <h2 class=\"subtitle is-3\">Corpus français</h2>
+                        <h2 class=\"subtitle is-3\">Corpus chinois</h2>
                     </div>
                 </div>
             </section>
@@ -230,23 +230,26 @@ do
     DUMP="../dumps-text/zh-${COUNT}.txt" # Texte brut de la page
     UTF8="../aspirations/zh-${COUNT}-utf8.html" #Page en utf-8
     CTXT="../contextes/zh-${COUNT}.txt" # Contexte autour du mot
-    TOKEN="../dumps-text/zh-${COUNT}-token.txt" #un mot en chinois n'est pas un caractere, et alors il faut segmenter le texte en mot avant de compter le nombre de mot
     REWORD="云"
 
     # Récupère le code HTTP
     REPHTTP=$(curl -s -o /dev/null -w "%{http_code}" $line)
 
     # Ajout test pour 429 (trop de requêtes)
-    if [ $REPHTTP -eq 429 ] || [ $REPHTTP -eq 000 ] ; then
-        sleep 3
+    if [ $REPHTTP -eq 429 ] || [ $REPHTTP -eq 000 ] || [ $REPHTTP -eq 503 ] ; then
+        echo "Test pour HTTP 429/503/000 -> pause de 5s"
+        sleep 5
         REPHTTP=$(curl -s -o /dev/null -w "%{http_code}" $line)
     fi
 
     if [ $REPHTTP -ne 200 ]; then
-        echo "<tr><td>$COUNT</td><td>$line</td><td>$REPHTTP</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>" >> ${OUTFILE}
+        echo "Test pour les erreurs HTTP qui ne sont pas 200"
+        echo "<tr><td>$COUNT</td><td>$line</td><td>$REPHTTP</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>" >> ${OUTFILE}
         continue
     fi
 
+
+    echo "Récupère la page... -> ${ASPIRATION}"
     # Si la page ne peut pas etre wget, presente la.
     if ! wget -q -O ${ASPIRATION} ${line};
     then
@@ -254,11 +257,11 @@ do
         continue
     fi
 
-    #Detection de l'encodage : l'encodage de certains liens en chinois ne presente que "text/html"
+    # Détection de l'encodage : certains sites chinois indiquent seulement "text/html"
     ENCODAGE=$(curl -s -I "$line" | grep -i "content-type" | sed -n 's/.*charset=\([-a-zA-Z0-9]*\).*/\1/p' | tr -d '\r' | tr '[:lower:]' '[:upper:]')
-    #只提取行头\r回车符（windows）在http header里会出现在行后
+    # Suppression des caractères de retour chariot (\r) provenant des en-têtes HTTP Windows
 
-    #如果Header里没有encodage
+    # Si aucun encodage n’est indiqué dans l’en-tête HTTP
     if [ -z "$ENCODAGE" ]; then
         ENCODAGE=$(file --mime-encoding ${ASPIRATION} | cut -d: -f2 | tr -d " ")
     fi
@@ -268,9 +271,11 @@ do
     #Unifier l'encodage
     iconv -f ${ENCODAGE} -t "UTF-8//IGNORE" ${ASPIRATION} -o ${UTF8} 2>/dev/null
 
-    # Extraction du texte brut (-force_html: 中文网站中需要强制使用html模式)
-    lynx -dump -nolist -force_html "${UTF8}" | sed '/^\s*$/d' \
-    | grep -v -E "^\s*\[.*\.(png|jpg|jpeg|gif|svg)\]" \
+    # Extraction du texte brut
+    # -force_html nécessaire pour certains sites chinois qui ne déclarent pas correctement l'encodage dans les en-têtes HTTP
+    # sed et grep pour essayer de supprimer des bruits du texte
+    lynx -dump -nolist -force_html "${UTF8}" | sed 's/^[[:space:]]\+//' | sed '/^\s*$/d' \
+    | grep -v -E "^\[.*\.(png|jpg|jpeg|gif|svg)\]" \
     | grep -v -E "^\[\?url=|thumbnail=|quality=|type=jpg" \
     | grep -v -E "打开.*新闻|查看精彩图片|打开APP|体验更佳" \
     | grep -v -E "下载客户端|登录|无障碍" \
@@ -281,38 +286,59 @@ do
     | grep -v -E "^当前位置|^上一篇|^下一篇" \
     | grep -v -E "打印文章|关闭页面|返回顶部" \
     | grep -v -E "设为首页|加入收藏|关注我们|扫描此二维码|网站首页|搜索$" \
-    | grep -v -E "^\s*(关于我们|我们的历史|我们的工作|科学中心|资源分享|新闻中心|工作机会|机构介绍|联系我们|领域|地域|招聘信息)$" \
+    | grep -v -E "^(关于我们|我们的历史|我们的工作|科学中心|资源分享|新闻中心|工作机会|机构介绍|联系我们|领域|地域|招聘信息)$" \
     | grep -v -E "^友情链接|\[===.*===\]" \
     | grep -v -E "微信|二维码|手机版|官方微信" \
     | grep -v -E "©|版权所有|未经授权|责任编辑|校对" \
     | grep -v -E "ICP|公网安备|备案号|互联网新闻信息服务许可证" \
     | grep -v -E "主办|承办|协办|地址：|邮编：|电话：|传真：|邮箱" \
-    | grep -v -E "^\s*(IFRAME:|\[USEMAP:)" \
-    | grep -v -E "^\s*[\*\+]\s+" \
-    > ${DUMP}
+    | grep -v -E "^(IFRAME:|\[USEMAP:)" \
+    | grep -v -E "^[\*\+]\s+" \
+    > "${DUMP}"
 
     # Si dump invalide, ignore le lien
     if [ ! -s ${DUMP} ]; then
         echo "Dump vide : ${line}"
-        echo "<tr><td>${COUNT}</td><td>${line}</td><td>${REPHTTP}</td><td>${ENCODAGE}</td><td>0</td><td>0</td><td>Non exploitable</td><td>-</td></tr>"\
+        echo "<tr><td>${COUNT}</td><td>${line}</td><td>${REPHTTP}</td><td>${ENCODAGE}</td><td>0</td><td>0</td><td>Non exploitable</td><td>-</td><td>-</td><td>-</td></tr>"\
         >> ${OUTFILE}
         continue
     fi
 
     # Tokenisation chinoise
-    if ! python ../ressources/tokenization/Chinois/tokenize_chinese.py ${DUMP} | tr " " "\n" | sed '/^$/d' > "${TOKEN}" 2>/dev/null;
+    MOT="../bigrammes/mots/zh-mot-${COUNT}.txt" #un mot en chinois n'est pas un caractere, et alors il faut segmenter le texte en mot avant de compter le nombre de mot
+    if ! python ../ressources/tokenization/Chinois/tokenize_chinese.py ${DUMP} | tr " " "\n" | sed '/^$/d' > ${MOT} 2>/dev/null;
     then
         echo "tokenisation echouee: ${line}"
         continue
     fi
 
     # Comptages
-    echo "Compte le nombre d'occurrence de 'nuage'..."
-    WORD=$(grep -v -E "^[[:punct:]]+$" ${TOKEN} | wc -l) #ignore les ponctuations
-    WORDCOUNT=$(grep -c ${REWORD} ${TOKEN})
+    echo "Compte le nombre d'occurrence de '云'..."
+    WORD=$(grep -v -E "^[[:punct:]]+$" ${MOT} | wc -l) #ignore les ponctuations
+    WORDCOUNT=$(grep -c ${REWORD} ${MOT})
 
-    # Contexte (sur les tokens)
+    # Bigrammes sur token
+    MOTSHIFT="../bigrammes/mots-shift/zh-mot_shift-${COUNT}.txt"
+    BIGRAM="../bigrammes/bigramme/zh-bigramme-${COUNT}.txt"
+    FREQ="../bigrammes/result/zh-freq_bigram-${COUNT}.txt"
+
+    echo "Génération des fréquences de bigrammes (chinois)..."
+
+    #suppression des ponctuations dans les bigrammes
+    grep -v -E "^[[:punct:]]+$" "${MOT}" | tee "${MOT}_nopunct" > /dev/null
+
+    # Génération des bigrammes avec paste
+    # MOT = TOKEN (1 mot chinois par ligne)
+    tail -n +2 "${MOT}_nopunct" > ${MOTSHIFT}
+    paste -d " " "${MOT}_nopunct" ${MOTSHIFT} > ${BIGRAM}
+
+    # Comptage des fréquences
+    sort ${BIGRAM} | uniq -c | sort -nr > ${FREQ}
+
+    # Contexte sur le texte brut
     grep -C 2 ${REWORD} ${DUMP} > ${CTXT}
+
+    rm -f "${MOT}_nopunct"
 
     if [ ! -s ${CTXT} ]; then
         continue
@@ -330,15 +356,15 @@ do
             href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
             <style>
                 /* Alignement des en-têtes */
-                .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
-                .concordance-table th:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
-                .concordance-table th:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table th:nth-child(2) { text-align: right; width: 45%; }
+                .concordance-table th:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
+                .concordance-table th:nth-child(4) { text-align: left; width: 45%; }
                 .concordance-table th:nth-child(1) { text-align: center; color: #999; }
                 
                 /* Alignement des élément dans tableau */
-                .concordance-table td:nth-child(2) { text-align: right; width: 40%; }
-                .concordance-table td:nth-child(3) { text-align: center; width: 20%; color: red; font-weight: bold; }
-                .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
+                .concordance-table td:nth-child(2) { text-align: right; width: 45%; }
+                .concordance-table td:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
+                .concordance-table td:nth-child(4) { text-align: left; width: 45%; }
                 .concordance-table td:nth-child(1) { text-align: center; color: #999; }
             </style>
         </head>
@@ -348,7 +374,7 @@ do
                 <div class=\"hero-body\">
                     <div class=\"container\">
                         <h1 class=\"title is-1\">Tableau des concordances</h1>
-                        <h2 class=\"subtitle is-3\">Corpus français ${COUNT}</h2>
+                        <h2 class=\"subtitle is-3\">Corpus chinois ${COUNT}</h2>
                     </div>
                 </div>
             </section>
@@ -430,23 +456,51 @@ do
                         <th>Contexte droit</th>
                     </tr>
     " > ${CONCORD}
+
     if [ -s ${CTXT} ]; then
-        # 注意：sed 使用双引号解析变量
+        echo "Complète le tableau de concordance..."
+        # sed : guillemets doubles nécessaires pour l’expansion des variables
         sed -nE "s/^(.*)(${REWORD})(.*)$/<tr><td>${COUNT}<\/td><td>\1<\/td><td>\2<\/td><td>\3<\/td><\/tr>/p" ${CTXT} | tee -a ${CONCORD} ${CONCFINAL} > /dev/null
     fi
     echo "</tbody></table></div></section></body></html>" >> "${CONCORD}"
 
+    echo "Complète le tableau final..."
     # Complète le tableau
-    echo "                  <tr>
-                            <td>${COUNT}</td> <!-- numéro de ligne -->
-                            <td><a href=\"${line}\">${line}</a></td> <!-- lien url -->
-                            <td>${REPHTTP}</td> <!-- code http -->
-                            <td>${ENCODAGE}</td> <!-- encodage de la page -->
-                            <td>${WORD}</td> <!-- nombre de mot total -->
-                            <td>${WORDCOUNT}</td> <!-- nombre d'occurrence de nuage(s) en chinois -->
-                            <td><a href=\"${CTXT}\">Contexte</a></td> <!-- lien vers le contexte autour de nuage en chinois(.txt) -->
-                            <td><a href=\"${CONCORD}\">Concordance</a></td> <!-- lien vers la concordance de nuage en chinois -->
-                        </tr>" >> ${OUTFILE}
+    echo "           <tr>
+                        <td>${COUNT}</td> <!-- numéro de ligne -->
+                        <td><a href=\"${line}\">${line}</a></td> <!-- lien url -->
+                        <td>${REPHTTP}</td> <!-- code http -->
+                        <td>${ENCODAGE}</td> <!-- encodage de la page -->
+                        <td>${WORD}</td> <!-- nombre de mot total -->
+                        <td>${WORDCOUNT}</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td><a href=\"${CTXT}\">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
+                        <td><a href=\"${CONCORD}\">Concordance</a></td> <!-- lien vers la concordance de nuage -->
+                        <td><a href=\"${FREQ}\">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->" >> ${OUTFILE}
+
+
+    echo "Capture et test avec le fichier robots.txt..."
+    # Gestion des fichiers robots.txt -> blacklist.sh
+    # Le fichier général : tmp/zh.txt-blacklist
+
+    BLACKLIST="../tmp/zh.txt-blacklist"
+
+    # extraction du serveur à partir de l'URL
+    server=$(echo $line | awk -F/ '{print $1"//"$3}')
+
+    # fichier robots correspondant (s'il existe)
+    ROBOT_FILE=$(ls ../tmp/robots/*$(echo "${server}" | sed 's|://|_|; s|/||g')-robots.txt 2>/dev/null || echo "")
+
+    if grep -Fxq "$line" $BLACKLIST; then
+        echo -e "\t\t\t\t\t\t\t\t<td><p>Présent<br>Accès non autorisé</p ></td>" >> "${OUTFILE}"
+    else
+        if [ -n "$ROBOT_FILE" ]; then
+            echo -e "\t\t\t\t\t\t\t\t<td><p>Présent<br>Accès autorisé</p ></td>" >> "${OUTFILE}"
+        else
+            echo -e "\t\t\t\t\t\t\t\t<td><p>Absent<br>Autorisé par défaut</p ></td>" >> "${OUTFILE}"
+        fi
+    fi
+
+    echo "</tr>" >>${OUTFILE}
 
 done < "$URL" ;
 
