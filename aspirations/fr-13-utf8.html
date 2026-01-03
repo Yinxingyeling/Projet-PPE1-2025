@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Keywords" content="科普中国,科普超市,健康科普,科学头条,前沿科技,真相揭秘,科普动漫,科普阅读,人工智能,科技场馆,军事科技,虚拟体验,科技名家,母婴,生物,数码,能源,发明,创新,创客,微视频,实用技术,科学原理,大师,流言榜,保健康复,疾病,医疗,养生,居家,科幻,秘闻,机器人,艺术,应急避险,百科">
+            <meta name="Description" content="云物理学（cloud physics）是以大气热力学和大气动力学为基础，研究大气中云的发生、发展、结构及其产生降水(如雨、雪、雹等)所遵循的物理和动力过程的学科。 具体而言就是研究云、雾和降水和形成、发展、维持和消散规律的科学。">
+        <title>
+        [科普中国]-云物理学- · 科普中国网
+    </title>
+    <link rel="icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/libs/bootstrap-3.4.1-dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/libs/font-awesome-4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/assets/fonts/iconfont.css?v=d9b439ac4a42597b90ca032c89058e44" />
+<link rel="stylesheet" href="/assets/css/common.css?v=df085f7cdcf7f690ca0c94c9165d9413" />
+<link rel="stylesheet" href="/assets/css/reset.css?v=7731662d6328c7ddae02a3aeee791416" />
+<link rel="stylesheet" href="/assets/css/header.css?v=85a4a27f497e1214024c2e50dc66688c" />
+<link rel="stylesheet" href="/assets/css/footer.css?v=3184ecc789e1d357f57448f14a575f26" />
+<!-- IE8及以下版本直接跳转到浏览器升级页面 -->
+<!--[if lte IE 8]><script>window.location.href="https://support.dmeng.net/upgrade-your-browser.html?referrer="+encodeURIComponent(location.href);</script><![endif]-->
+<!-- TODO:IE9-10版本弹窗提示浏览器升级 -->
+<!-- <script>/*@cc_on document.write('\x3Cscript id="_iealwn_js" src="https://support.dmeng.net/ie-alert-warning/latest.js">\x3C/script>'); @*/</script> -->
+<script>
+  var isMobile = /iPad|iPhone|Android|Windows Phone|Nokia/.test(
+    navigator.userAgent
+  );
+  if (isMobile) {
+    if (location.pathname === "/article/articleinfo") {
+      var id = location.search.match(/ar_id=(\w+)/)[1];
+      if (location.search.indexOf("business_type=1&") > 0 && location.search.indexOf("classify=0") > 0) {
+        // 普通资讯详情
+        location.href = "https://h5.kepuchina.cn/article/article?id=" + id;
+      } else if (location.search.indexOf("business_type=100&") > 0 && location.search.indexOf("classify=0") > 0) {
+        // 科普号资讯详情
+        location.href =
+          "https://m.kepuchina.cn/tuwendetail?id="+id
+      } else if (location.search.indexOf("business_type=1&") > 0 && location.search.indexOf("classify=2") > 0) {
+        // 普通视频详情
+        location.href = "https://h5.kepuchina.cn/article/video?id=" + id;
+      } else if (location.search.indexOf("business_type=100&") > 0 && location.search.indexOf("classify=2") > 0) {
+        // 科普号视频详情
+        location.href =
+          "https://m.kepuchina.cn/videodetail?id="+id
+        
+      } else {
+        location.href = "https://m.kepuchina.cn/";
+      }
+    } else {
+      if(location.pathname === "/special/specialinfo"){
+          location.href = "https://h5.kepuchina.cn/special/specialpro"+location.search;
+      }else if(location.pathname === "/special/specialVideoInfo"){
+          location.href = "https://h5.kepuchina.cn/special/soapopera"+location.search;
+      }else{
+          location.href = "https://m.kepuchina.cn/";
+      }
+    
+    }
+  }
+
+  // 百度统计
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?9535c3ea6eb286566c2c14dc19269572";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+
+  // 百度自动推送
+  (function () {
+    var bp = document.createElement("script");
+    var curProtocol = window.location.protocol.split(":")[0];
+    if (curProtocol === "https") {
+      bp.src = "https://zz.bdstatic.com/linksubmit/push.js";
+    } else {
+      bp.src = "http://push.zhanzhang.baidu.com/push.js";
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+  var KEPU_SSO_DATA = '';
+  var KEPU_SSO_DOMAIN = "https://nsso.kepuchina.cn";
+  document.write(unescape("%3Cscript src='" + KEPU_SSO_DOMAIN + "/sso/js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- fundebug -->
+<script src="https://js.fundebug.cn/fundebug.latest.min.js"
+  apikey="3ae5e89dfac54d124dc16c20e1dc9de36ddff214900a1b7e04a3f2dcdfef7b8e" appversion="2.0.0" setHttpBody="true"
+  crossorigin="anonymous"></script>
+<script>
+  if ("fundebug" in window) {
+    fundebug.filters = [
+      {
+        fileName: /about:blank/
+      },
+      {
+        fileName: /\.min\.js$/
+      },
+      {
+        message: /^ResizeObserver loop limit exceeded$/
+      },
+      {
+        fileName: /^https:\/\/hm\.baidu\.com\/hm\.js/
+      },
+      {
+        fileName: /^chrome-extension:/
+      },
+      {
+        fileName: /^safari-extension:/
+      },
+      {
+        fileName: /@moz-extension:/
+      },
+      {
+        message: /Script error/,
+        lineNumber: 0,
+        columnNumber: 0
+      },
+      {
+        url: /\.kepuchina\.vip/
+      },
+      {
+        url: /www-yufa\.kepuchina\.cn/
+      },
+      {
+        url: /javascript:void(0)/
+      }
+    ];
+  }
+</script>
+<!--[if (gte IE 10)|(!IE)]<!-->
+<script src="https://js.fundebug.cn/fundebug.revideo.0.7.1.min.js" crossorigin="anonymous"></script>
+<!--<![endif]-->
+
+<!-- 神策埋点 -->
+ <script charset='UTF-8' src="/libs/sa-sdk-javascript-1.27.11/dist/web/sensorsdata.js"></script>
+<script>
+  var memebrId = "";
+  var sensors = window['sensorsDataAnalytic201505'];
+  sensors.init({
+    server_url: 'https://mdgj-sjdr.cast.org.cn/sa?project='+(location.host.indexOf('www.kepuchina.cn') >= 0 ? 'production' : 'default'),
+    show_log: true,
+    is_track_single_page: true, // 单页面配置，默认开启，若页面中有锚点设计，需要将该配置删除，否则触发锚点会多触发 $pageview 事件
+    use_client_time: true,
+    send_type: 'beacon',
+    heatmap: {
+      //是否开启点击图，default 表示开启，自动采集 $WebClick 事件，可以设置 'not_collect' 表示关闭。
+      clickmap: 'default',
+      collect_tags: {
+        div: true,
+        span: true,
+        img: true,
+      },
+      //是否开启触达图，not_collect 表示关闭，不会自动采集 $WebStay 事件，可以设置 'default' 表示开启。
+      scroll_notice_map: 'not_collect',
+    },
+  });
+  sensors.registerPage({
+    member_id: function(){
+      return memebrId;
+    },
+    scene_name: '科普中国网',
+  });
+  sensors.quick('autoTrack');
+  sensors.track('KepuchinaPageView');
+</script>
+
+<script type="text/javascript" charset="UTF-8" src="/libs/classlist-polyfill.js"></script>
+<script type="text/javascript" charset="UTF-8" src="/libs/jquery-1.10.2/jquery.min.js"></script>
+<script>
+  // jquery备用
+  window.jQuery || document.write('<script src="/libs/jquery-1.10.2/jquery.min.js"><\/script>');
+</script>
+<script type="text/javascript" charset="UTF-8" src="/libs/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="/libs/template.js"></script>
+<script type="text/javascript" charset="UTF-8" src="/libs/jquery.toTop.min.js"></script>    <link rel="stylesheet" href="/assets/css/article/index.css?v=069829d19d6aa6ee06d1c6d1b4b1abfd">
+    <link rel="stylesheet" href="/libs/overtrue-share.js-71e3b0c/dist/css/share.min.css">
+    <link rel="stylesheet" href="https://img3.kepuchina.cn/js/video-js-8.21.1/video-js.min.css" />
+</head>
+
+<body>
+<div>
+    <div class="header_wrap">
+    <div class="header">
+        <div class="fixed-header">
+            <div class="topbar">
+                <div class="inner">
+                    <div class="header-logo">
+                        <a href="/">
+                            <img src="/assets/images/header/header-logo-new.png" alt="科普中国Logo" width="120">
+                        </a>
+                    </div>
+                    <div class="sponsor">
+                        <span>中国科协主办</span>
+                        <span><a data-shence_trigger="click" data-shence_name="KepuchinaExpertQueryButtonClick" href="https://zt.kepuchina.cn/20210107/index.html"><img width="152"
+                                    src="/assets/images/header/pinshu-new.png" alt="“科普中国”专家查询"></a></span>
+                    </div>
+                    <div style="display: flex; align-items: center; margin-right: 5px;">
+                        <div class="menu-register">
+                                                        <!-- 未登录 -->
+                            <a class="kph-register" href="https://www.kepuchina.cn/more/202204/t20220425_3131369.shtml"></a>
+                                                        <div class="menu-register-list_wrap">
+                                <div class="menu-register-list">
+                                                                        <div class="menu-register-list-item">
+                                        <a href="/account/register">普通用户</a>
+                                    </div>
+                                                                                                            <div class="menu-register-list-item">
+                                        <a href="javascript:void(0)" id="kepuyvan" data-toggle="modal" data-target="#myModal">科普员</a>
+                                    </div>
+                                                                                                            <div class="menu-register-list-item">
+                                                                                <!-- 未登录 -->
+                                        <a href="/account/login">科普号</a>
+                                                                            </div>
+                                                                                                            <div class="menu-register-list-item">
+                                        <a href="https://area.kepuchina.cn">管理员</a>
+                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                        <ul class="clearfix right-nav">
+                                                        <li class="login_box">
+                                <a href="/account/login" class="login_btn">登录</a>
+                            </li>
+                                                        <!-- <li>
+                                <a href="javascript:void(0)" class="code">
+                                    <i class="iconfont icon-kepu-weixin"></i>
+                                    <span><img src="https://www.kepuchina.cn/images/2018/code_wx.jpg"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="code">
+                                    <i class="iconfont icon-kepu-weibo"></i>
+                                    <span><img src="https://www.kepuchina.cn/images/2018/code_wb.jpg"></span>
+                                </a>
+                            </li> -->
+                            <!-- <li>
+                                <a href="/promotion/index" target="_blank"><i
+                                        class="iconfont icon-kepu-phone"></i>&nbsp;下载APP</a>
+                            </li> -->
+                            <li>
+                                <a data-shence_trigger="click" data-shence_name="KepuchinaBusinessCenterClick" href="https://cloud.kepuchina.cn/chuangzuopeiyu/#/?welcometips=1" target="_blank">业务中心</a>
+                            </li>
+                            <li>
+                                <a data-shence_trigger="click" data-shence_name="KepuchinaManagementCenterClick"  href="https://area.kepuchina.cn"  target="_blank">管理中心</a>
+                            </li>
+                            <li>
+                                <a data-shence_trigger="click" data-shence_name="KepuchinaResourceCenterClick"  href="https://cloud.kepuchina.cn/newSearch/resall?welcometips=1"  target="_blank">资源中心</a>
+                            </li>
+                            <li>
+                                <a data-shence_trigger="click" data-shence_name="KepuchinaHelpButtonClick"  href="/help/index"><i class="iconfont icon-kepu-quesition-fill"></i>&nbsp;帮助</a>
+                            </li>
+                            <li>
+                                <a data-shence_trigger="click" data-shence_name="KepuchinaServicerButtonClick"  href="https://www2.kepuchina.cn/public/201710/t20171031_253123.shtml" target="_blank"><i
+                                    class="iconfont icon-kepu-kefu-fill"></i>&nbsp;客服</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="clearfix" action="/search/index" method="get" target="_blank" data-shence_trigger="submit" data-shence_name="KepuchinaSearch" data-shence_data='func{"search_keyword": $("#searchA").val()}' >
+                        <input type="text" id="searchA" class="search_input" name="search" value="" placeholder="请输入您要搜索内容..." autocomplete='off'>
+                        <button type="submit" id="searchB" class="seach_btn" name="" value="">
+                            <i class="iconfont icon-kepu-search"></i>&nbsp;搜索
+                        </button>
+                    </form>
+                </div>
+               
+                <!-- <div style="display:flex; align-items: center">
+                    <input type="hidden" name="from" value="3">
+                    <input type="text" id="searchA" class="search_input" name="search" value="" placeholder="请输入您要搜索内容..." autocomplete='off'>
+                    <div id="searchB" style="margin-left: 12px; line-height: 30px; cursor: pointer;"><i class='iconfont icon-kepu-search'></i> &nbsp;搜索</div>
+                </div> -->
+            </div>
+        </div>
+        
+        <div class="header_in">
+            <div class="clearfix w_1200 nav-bar" style="    position: relative;">
+                <div class="logo">
+                    <a href="/">
+                        <img src="/assets/images/header/kepu-logo-new.png" alt="科普中国Logo">
+                    </a>
+                </div>
+                <div style="width: 1px; height: 68px; background: #DCE7F6; margin: 0 54px; "></div>
+                <div class="menu nav-list">
+                    <ul>
+                                                                                        <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "首页"}' href="/">首页</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "头条"}' href="/list/listinfo?at_id=AT201604301608271001">头条</a>
+                                                                            </li>
+                                                                                                                <li class="hover-li">
+                                    <a class="provice-deft pointer  ">
+                                       地区                                        <img src="/assets/images/hover-pro.png" >
+                                    </a>
+                                    <div class="hover-box">
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "安徽省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=340000000000&name=安徽省">
+                                                                                                    <span class="province-item">安徽省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "广西壮族自治区"}' class="w-228 jump-list" data-href="/article/provincearticle?code=450000000000&name=广西壮族自治区">
+                                                                                                    <span class="province-item">广西壮族自治区</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "河南省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=410000000000&name=河南省">
+                                                                                                    <span class="province-item">河南省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "吉林省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=220000000000&name=吉林省">
+                                                                                                    <span class="province-item">吉林省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "江西省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=360000000000&name=江西省">
+                                                                                                    <span class="province-item">江西省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "山东省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=370000000000&name=山东省">
+                                                                                                    <span class="province-item">山东省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "云南省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=530000000000&name=云南省">
+                                                                                                    <span class="province-item">云南省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "浙江省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=330000000000&name=浙江省">
+                                                                                                    <span class="province-item">浙江省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "重庆市"}' class="w-228 jump-list" data-href="/article/provincearticle?code=500000000000&name=重庆市">
+                                                                                                    <span class="province-item">重庆市</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "山西省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=140000000000&name=山西省">
+                                                                                                    <span class="province-item">山西省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "内蒙古自治区"}' class="w-228 jump-list" data-href="/article/provincearticle?code=150000000000&name=内蒙古自治区">
+                                                                                                    <span class="province-item">内蒙古自治区</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "黑龙江省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=230000000000&name=黑龙江省">
+                                                                                                    <span class="province-item">黑龙江省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "江苏省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=320000000000&name=江苏省">
+                                                                                                    <span class="province-item">江苏省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "湖北省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=420000000000&name=湖北省">
+                                                                                                    <span class="province-item">湖北省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "湖南省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=430000000000&name=湖南省">
+                                                                                                    <span class="province-item">湖南省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "广东省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=440000000000&name=广东省">
+                                                                                                    <span class="province-item">广东省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "海南省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=460000000000&name=海南省">
+                                                                                                    <span class="province-item">海南省</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "宁夏回族自治区"}' class="w-228 jump-list" data-href="/article/provincearticle?code=640000000000&name=宁夏回族自治区">
+                                                                                                    <span class="province-item">宁夏回族自治区</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "新疆维吾尔自治区"}' class="w-228 jump-list" data-href="/article/provincearticle?code=650000000000&name=新疆维吾尔自治区">
+                                                                                                    <span class="province-item">新疆维吾尔自治区</span>
+                                                                                                </div>
+                                                                                    <div data-shence_trigger="click" data-shence_name="KepuchinaMenuRegionButtonClick" data-shence_data='{"region_name": "青海省"}' class="w-228 jump-list" data-href="/article/provincearticle?code=630000000000&name=青海省">
+                                                                                                    <span class="province-item">青海省</span>
+                                                                                                </div>
+                                                                            </div>
+                                </li>
+                                                                                                                         <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "热词解读"}' href="/list/listinfo?at_id=AT202507071242199403">热词解读</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "健康"}' href="/list/listinfo?at_id=AT202111191005438501">健康</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "科学辟谣"}' href="https://piyao.kepuchina.cn" target="_blank">科学辟谣</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "前沿科技"}' href="/list/listinfo?at_id=AT201604301611101007">前沿科技</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "应急科普"}' href="/list/listinfo?at_id=AT202101291128194650">应急科普</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "科教"}' href="/list/listinfo?at_id=AT202111161108560595">科教</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "博物"}' href="/list/listinfo?at_id=AT202001151443352561">博物</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "军事"}' href="/list/listinfo?at_id=AT201604301613031016">军事</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "科幻"}' href="/list/listinfo?at_id=AT201604301615161027">科幻</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "人物"}' href="/list/listinfo?at_id=AT202001151404559938">人物</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "专区"}' href="/recommend/index">专区</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "天文地理"}' href="/list/listinfo?at_id=AT202001151420131088">天文地理</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "生活百科"}' href="/list/listinfo?at_id=AT202111161110190394">生活百科</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "智农"}' href="/list/listinfo?at_id=AT201906201149579155">智农</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "社区"}' href="/list/listinfo?at_id=AT201604301608271005">社区</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "航天航空"}' href="/list/listinfo?at_id=AT202409041037112595">航天航空</a>
+                                                                            </li>
+                                                                                                                    <li class="">
+                                                                                    <a data-shence_trigger="click" data-shence_name="KepuchinaMenuClick" data-shence_data='{"menu_name": "双碳"}' href="/list/listinfo?at_id=AT202411280955537355">双碳</a>
+                                                                            </li>
+                                                                        </ul>
+                </div>
+                <!-- <div class="seach">
+                    <form class="clearfix" action="/search/index" method="get" target="_blank">
+                        <input type="text" id="searchA" class="search_input" name="search" value="" autocomplete='off'>
+                        <button type="submit" id="searchB" class="seach_btn" name="" value="">
+                            <i class="iconfont icon-kepu-search"></i>
+                        </button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+        <input type="hidden" id="hid" value="https://nsso.kepuchina.cn/sso/logout">
+        <input type="hidden" id="login" value="2">
+    </div>
+</div>
+<script>
+
+$(function () {
+    var __header={
+        jumpShow:function(){
+            window.location.href = $(this).attr("data-href");
+        },
+    }
+    $(document).on("click", ".jump-list",__header.jumpShow);
+})
+
+
+</script></div>
+<!-- 图文区域 -->
+<div class="worp article">
+    <div class="concent">
+                    <div class="tip-info">版权归原作者所有，如有侵权，请联系我们</div>
+         
+        <h1 class="act_title">
+            [科普中国]-云物理学        </h1>
+        <div class="clearfix act_label">
+            <div class="l_date">
+                <time pubdate="2021-12-31">
+                    上传时间：2021-12-31                </time>
+            </div>
+            <div class="l_author">
+                科学百科            </div>
+                        <div class="l_label">
+                原创            </div>
+                                </div>
+        <div class="act_author">
+            <div class="act_author_msg">
+                <div class="author_portrait">
+                                        <a href="/kepuhao/plainkepuhao?id=306" >
+
+                    <!--  有值 -->
+                                                <div class="img_concent" style="background-image: url(https://pqnoss.kepuchina.cn//kepuhao/2020/03/30/20200330170238_e97378/avatar.jpg);">
+                        </div>
+                                            </a>
+                    
+                </div>
+                <div class="author_name">
+                     <a style="color: inherit;" href="/kepuhao/plainkepuhao?id=306" >
+                        科学百科                    </a>
+                </div>
+                <div class="author_text">
+                    科学百科为用户提供权威科普内容,打造知识科普阵地                </div>
+            </div>
+            <!-- <button class="author_btn" data-toggle="modal" data-target="#myModal">关注</button> -->
+            <div class="act_author_flex">
+                <div class="author_talk">
+                    <a href="#comment" class="act_author_flex">
+                        <i class="iconfont icon-kepu-comment-fill"></i>
+                        <span class="inner">0</span>
+                    </a>
+                </div>
+                                    <div class="author_collect" data-type="1" data-business="100" data-id="335728">
+                        <i class="iconfont icon-kepu-star-fill"></i>
+                        <span class="inner">收藏</span>
+                    </div>
+                            </div>
+        </div>
+        <div class="richText">
+            <article>
+                <p>&#31616;&#20171;</p><p>&#20113;&#38654;&#21644;&#38477;&#27700;&#29289;&#29702;&#23398;&#65292;&#31616;&#31216;<span class="technical_term"><u>&#20113;&#29289;&#29702;&#23398;</u></span>&#12290;&#26159;&#20197;&#22823;&#27668;&#28909;&#21147;&#23398;&#21644;&#21160;&#21147;&#23398;&#20026;&#22522;&#30784;&#65292;&#30740;&#31350;&#20113;&#12289;&#38654;&#21644;&#38477;&#27700;&#30340;&#24418;&#25104;&#36807;&#31243;&#65292;&#21457;&#23637;&#35268;&#24459;&#20197;&#21450;&#22914;&#20309;&#24433;&#21709;&#12289;&#25511;&#21046;&#23427;&#30340;&#19968;&#38376;&#23398;&#31185;&#12290;</p><p>&#20113;&#21644;&#38477;&#27700;&#19982;&#22825;&#27668;&#12289;&#27668;&#20505;&#23494;&#20999;&#30456;&#20851;&#65292; &#22823; &#37096;&#20998;<span class="technical_term"><u>&#28798;&#23475;&#24615;&#22825;&#27668;</u></span>&#65292;&#22914;&#26292;&#38632;&#12289;&#38647;&#26292;&#12289;&#20912;&#38649;&#12289;&#21488;&#39118;&#12289;&#40857;&#21367;&#39118;&#21644;&#38654;&#38556;&#31561;&#37117;&#21644;&#20113;&#38632;&#36807;&#31243;&#26377;&#20851;&#65307;&#20113;&#21644;&#38477; &#27700;&#20063;&#26159;<span class="technical_term"><u>&#22320;-&#27668;&#31995;&#32479;</u></span>&#30340;&#21160;&#37327;&#12289;&#28909;&#37327;&#12289;&#27700;&#20998;&#20256;&#36755;&#21644;&#24179;&#34913;&#30340;&#20851;&#38190;&#22240;&#32032;&#12290;</p><p>&#20998;&#31867;</p><p>&#25353;&#30740;&#31350;&#23545;&#35937;&#23610;&#24230;&#30340;&#22823;&#23567;&#65292;&#20113;&#29289;&#29702;&#23398;&#21487;&#20998;&#20026;<span class="technical_term"><u>&#23439;&#35266;&#20113;&#29289;&#29702;&#23398;</u></span>&#21644;<span class="technical_term"><u>&#24494;&#35266;&#20113;&#29289;&#29702;&#23398;</u></span>&#20108;&#37096;&#20998;&#12290;2&#21069;&#32773;&#30740;&#31350;&#27700;&#24179;&#23610;&#24230;10m~100 km&#20197;&#33267;1000km&#65292;&#22402;&#30452;&#21402;&#24230;10m~10km&#33539;&#22260;&#20869;&#20113;&#30340;&#24418;&#25104;&#12289;&#21457;&#23637;&#21644;&#28040;&#25955;&#30340;&#21160;&#21147;&#36807;&#31243;&#65307;&#21518;&#32773;&#30740;&#31350;&#20113;&#20307;&#30340;&#32452;&#25104;&#20803;&#32032;&mdash;&mdash;&#20113;&#31890;&#23376;&#65288;&#21253;&#25324;<span class="technical_term"><u>&#20113;&#28404;</u></span>&#12289;<span class="technical_term"><u>&#20912;&#26230;</u></span>&#65289;&#21644;<span class="technical_term"><u>&#38477;&#27700;&#31890;&#23376;</u></span>&#65288;&#38632;&#12289;&#38634;&#21644;&#20912;&#38649;&#31561;&#65289;&#25152;&#32463;&#21382;&#30340;<span class="technical_term"><u>&#20957;&#32467;</u></span>&#65288;&#21326;&#65289;&#12289;<span class="technical_term"><u>&#30896;&#24182;</u></span>&#21644;<span class="technical_term"><u>&#33976;&#21457;</u></span>&#31561;&#36807;&#31243;&#12290;&#20854;&#23610;&#24230;&#20165;0.1 &mu;m ~ 1cm&#12290;</p><p>&#23439;&#35266;&#20113;&#29289;&#29702;&#23398;&#20027;&#35201;&#26159;&#22823;&#27668;&#21160;&#21147;&#23398;&#38382;&#39064;&#65292;&#24494;&#35266;&#20113;&#29289;&#29702;&#23398;&#21017;&#26356;&#22810;&#30340;&#26159;&#27700;&#27773;&#30340;&#30456;&#21464;&#28909;&#21147;&#23398;&#21644;<span class="technical_term"><u>&#27668;&#28342;&#33014;&#21147;&#23398;</u></span>&#38382;&#39064;&#65292;&#25152;&#38656;&#30340;&#30693;&#35782;&#20026;&#28909;&#21147;&#23398;&#21407;&#29702;&#12289;<span class="technical_term"><u>&#25193;&#25955;&#29702;&#35770;</u></span>&#21644;<span class="technical_term"><u>&#29289;&#29702;&#21270;&#23398;</u></span>&#31561;&#12290;&#23439;&#35266;&#21644;&#24494;&#35266;&#20108;&#32773;&#26159;&#30456;&#20114;&#20381;&#23384;&#12289;&#30456;&#20114;&#20316;&#29992;&#30340;&#12290;&#36890;&#24120;&#30340;&#20113;&#29289;&#29702;&#23398;&#33879;&#20316;&#20391;&#37325;&#20110;&#20113;&#30340;&#24494;&#29289;&#29702;&#23398;&#65292;&#24182;&#19981;&#26159;&#35748;&#20026;&#20113;&#30340;&#21160;&#21147;&#36807;&#31243;&#19981;&#37325;&#35201;&#65292;&#20027;&#35201;&#21407;&#22240;&#26159;&#23545;&#20113;&#30340;&#21160;&#21147;&#23398;&#30340;&#20102;&#35299;&#36828;&#19981;&#22914;&#23545;&#20113;&#30340;&#24494;&#29289;&#29702;&#23398;&#37027;&#26679;&#28165;&#26970;&#12290;</p><p>&#30740;&#31350;&#23545;&#35937;&#24494;&#23610;&#24230;</p><p>&#24494;&#23610;&#24230;&#65306;&#20113;&#38632;&#28404;&#30340;&#24418;&#25104;&#12289;&#22686;&#22823;&#21644;&#28040;&#25955;&#35268;&#24459;&#12290;</p><table width="-232"><tr><td width="211" valign="top">&#23545;&#35937;<br>&#12288;&#12288;</td><td width="211" valign="top">&#23610;&#24230;&#33539;&#22260;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#27668;&#20307;&#36136;&#31890;&#12289;&#31163;&#23376;<br>&#12288;&#12288;</td><td width="211" valign="top">1&Aring;&mdash;1&mu;m<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#26680;&#12289;&#20113;&#38632;&#36136;&#31890;<br>&#12288;&#12288;</td><td width="211" valign="top">1&mu;m&mdash;1cm<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#38649;&#32986;&#12289;&#38649;&#22359;&#12289;&#24494;&#28065;&#12289;&#20081;&#27969;<br>&#12288;&#12288;</td><td width="211" valign="top">1cm&mdash;10cm<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#23567;&#28065;&#12289;&#22681;&#35282;&#39118;<br>&#12288;&#12288;</td><td width="211" valign="top">10cm&mdash;1m<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#28909;&#27873;&#12289;&#23576;&#21367;&#12289;&#30862;&#20113;&#12289;&#20142;&#24102;&#23485;<br>&#12288;&#12288;</td><td width="211" valign="top">1m&mdash;100m<br>&#12288;&#12288;</td></tr></table><p>&#23439;&#35266;&#23610;&#24230;</p><p>&#65288;1&#65289;&#32467;&#26500;&#23610;&#24230;&#65306;&#20113;&#38632;&#20013;&#30340;&#29305;&#24449;&#32467;&#26500;&#65307;</p><p>&#65288;2&#65289;&#20013;&#23567;&#23610;&#24230;&#65306;&#26377;&#29420;&#31435;&#24847;&#20041;&#30340;&#20013;&#23567;&#35268;&#27169;&#30340;&#20113;&#38632;&#21333;&#20803;&#21450;&#22825;&#27668;&#31995;&#32479;&#65307;</p><p>&#65288;3&#65289;&#22825;&#27668;&#23610;&#24230;&#65306;&#20113;&#38632;&#21333;&#20803;&#30340;&#38598;&#20307;&#20197;&#21450;&#33539;&#22260;&#36739;&#22823;&#30340;&#22825;&#27668;&#31995;&#32479;&#65307;</p><table data-sort="sortDisabled"><tr><td width="211" valign="top" colspan="1" rowspan="4">&#23567;&#23610;&#24230;&#65288;&#32467;&#26500;&#23610;&#24230;&#65289;<br>&#12288;&#12288;</td><td width="211" valign="top">&#23545;&#35937;<br>&#12288;&#12288;</td><td width="211" valign="top">&#23610;&#24230;&#33539;&#22260;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#21021;&#29983;&#20113;<br>&#12288;&#12288;</td><td width="211" valign="top" colspan="1" rowspan="3">100m&mdash;5km<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#24359;&#29366;&#20113;&#12289;&#40857;&#21367;&#28431;&#26007;&#12289;&#24748;&#29699;&#20113;&#12289;&#20113;&#22612;&#23485;&#12289;&#38477;&#27700;&#26075;&#31561;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#38647;&#36798;&#22238;&#27874;&#32467;&#26500;&#65288;&#24369;&#22238;&#27874;&#21306;&#12289;&#22238;&#27874;&#22681;&#12289;&#39640;&#24748;&#22238;&#27874;&#31561;&#65289;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top" colspan="1" rowspan="5"><p>&#20013;&#23567;&#23610;&#24230;</p></td><td width="211" valign="top">&#38453;&#39118;&#38155;<br>&#12288;&#12288;</td><td width="211" valign="top" colspan="1" rowspan="5">2km&mdash;25km<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#38647;&#26292;&#20113;&#21644;&#31215;&#20113;&#21333;&#20307;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#40857;&#21367;&#27668;&#26059;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#20013;&#23610;&#24230;&#39640;&#21387;&#21450;&#20302;&#21387;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top">&#38632;&#22242;<br>&#12288;&#12288;</td></tr><tr><td width="211" valign="top" colspan="1" rowspan="4"><p>&#22823;&#20013;&#23610;&#24230;&#65288;&#22825;&#27668;&#23610;&#24230;&#65289;</p></td><td width="211" valign="top">&#20113;&#38598;&#20307;&#65288;&#39121;&#32447;&#12289;&#20113;&#22242;&#12289;&#32454;&#32990;&#29366;&#20113;&#65289;<br>&#12288;&#12288;</td><td width="211" valign="top" rowspan="2">25km&mdash;500km<br>&#12288;&#12288;</td></tr><tr><td valign="top" colspan="1" rowspan="1">&#38632;&#24102;<br>&#12288;&#12288;</td></tr><tr><td valign="top" colspan="1" rowspan="1">&#21488;&#39118;&#12289;&#27668;&#26059;&#12289;&#38155;&#38754;&#21450;&#36752;&#21512;&#24102;&#20113;&#31995;<br>&#12288;&#12288;</td><td valign="top" colspan="1" rowspan="2">&gt;500km<br>&#12288;&#12288;</td></tr><tr><td valign="top" colspan="1" rowspan="1">&#30462;&#29366;&#20113;&#12289;&#34746;&#26059;&#20113;&#24102;&#12289;&#36887;&#28857;&#20113;<br>&#12288;&#12288;</td></tr></table><p>&#20027;&#35201;&#30340;&#30683;&#30462;</p><p>&#20113;&#38654;&#38477;&#27700;&#29289;&#29702;&#20013;&#26368;&#20027;&#35201;&#30340;&#30683;&#30462;&#26159;&#22823;&#27668;&#22312;&#36816;&#21160;&#20013;&#23454;&#38469;&#21487;&#33021;&#21253;&#21547;&#30340;&#27700;&#27773;&#37327;&#21644;&#22823;&#27668;&#20013;&#23454;&#38469;&#23384;&#22312;&#30340;&#27700;&#20221;&#21547;&#37327;&#20043;&#38388;&#30340;&#30683;&#30462;&#12290;</p><p>&#35813;&#30683;&#30462;&#30340;&#23384;&#22312;&#65292;&#25165;&#26377;&#20113;&#38654;&#30340;&#21457;&#29983;&#21457;&#23637;(&#22823;&#22810;&#24773;&#20917;)&#65292;&#20197;&#21450;&#38477;&#27700;&#30340;&#21457;&#29983;&#21644;&#20943;&#24369;&#12290;&#35813;&#30683;&#30462;&#36143;&#31359;&#22312;&#25972;&#20010;&#33258;&#28982;&#30028;&#27668;&#27969;&#19982;&#31354;&#20013;&#27700;&#20998;&#30456;&#21464;&#30340;&#30456;&#20114;&#21046;&#32422;&#36807;&#31243;&#20013;&#12290;</p><p>&#24403;&#28982;&#65292;&#22312;&#20113;&#38654;&#21457;&#23637;&#30340;&#26576;&#19968;&#23616;&#37096;&#38454;&#27573;&#65292;&#20854;&#23427;&#30683;&#30462;&#21487;&#33021;&#26242;&#26102;&#36716;&#21270;&#20026;&#20027;&#35201;&#30683;&#30462;&#12290;&#20294;&#24635;&#30340;&#26469;&#35828;&#65292;&#20854;&#23427;&#30683;&#30462;&#19981;&#21344;&#32463;&#24120;&#30340;&#12289;&#20027;&#35201;&#30340;&#22320;&#20301;&#12290;&#22240;&#27492;&#65292;&#21508;&#31181;&#20113;&#38654;&#29616;&#35937;&#20013;&#21482;&#26377;&#19982;&#20027;&#35201;&#30683;&#30462;&#30456;&#32852;&#31995;&#30340;&#29616;&#35937;&#25165;&#26159;&#26356;&#37325;&#35201;&#30340;&#12290;</p><p>&#26041;&#27861;&#20307;&#31995;&#35266;&#27979;&#21644;&#25506;&#27979;</p><p>&#23545;&#23458;&#35266;&#33258;&#28982;&#20113;&#38654;&#25110;&#20154;&#24037;&#24433;&#21709;&#21518;&#30340;&#20113;&#38654;&#33719;&#24471;&#24863;&#24615;&#35748;&#35782;&#30340;&#26041;&#27861;&#12290;&#20363;&#22914;&#65306;</p><p>&#65288;1&#65289;&#32452;&#32455;&#20013;&#23567;&#23610;&#24230;&#35266;&#27979;&#32593;&#65307;</p><p>&#65288;2&#65289;&#36827;&#34892;&#20113;&#20869;&#22806;&#28201;&#12289;&#28287;&#12289;&#21387;&#21450;&#27668;&#27969;&#20998;&#24067;&#25506;&#27979;&#65292;&#20113;&#20307;&#21457;&#23637;&#21450;&#25375;&#21367;&#24773;&#20917;&#25506;&#27979;&#12289;&#38647;&#36807;&#22238;&#27874;&#21450;&#21355;&#26143;&#20113;&#22270;&#65307;</p><p>&#65288;3&#65289;&#20113;&#20869;&#24494;&#29289;&#29702;&#32467;&#26500;&#21450;&#20854;&#26377;&#20851;&#21442;&#37327;&#21644;&#29305;&#24449;&#65288;&#22914;<span class="technical_term"><u>&#28404;&#35889;</u></span>&#12289;&#21547;&#27700;&#37327;&#31561;&#65289;&#35266;&#27979;&#12289;&#38477;&#27700;&#35266;&#27979;&#31561;</p><p>&#29702;&#21270;&#23454;&#39564;&#65288;&#38548;&#31163;&#22240;&#23376;&#65289;</p><p>&#20174;&#20113;&#38654;&#36807;&#31243;&#30340;&#25972;&#20307;&#20013;&#38548;&#31163;&#20986;&#19968;&#20123;&#22240;&#23376;&#65292;&#22312;&#23454;&#39564;&#23460;&#20998;&#26512;&#36739;&#20026;&#21333;&#32431;&#30340;&#19968;&#20123;&#29289;&#29702;&#20851;&#31995;&#12290;&#20363;&#22914;&#65306;</p><p>&#65288;1&#65289;&#27700;&#28404;&#21322;&#24452;&#19982;&#19979;&#33853;&#26411;&#36895;&#24230;&#30340;&#20851;&#31995;&#65307;</p><p>&#65288;2&#65289;&#20923;&#32467;&#26680;&#30340;&#26377;&#25928;&#38408;&#28201;&#65307;</p><p>&#65288;3&#65289;&#19981;&#21516;&#21322;&#24452;&#27700;&#28404;&#30340;&#37325;&#21147;&#30896;&#24182;&#25110;&#30005;&#21147;&#30896;&#24182;&#31561;&#12290;</p><p>&#29702;&#21270;&#27169;&#25311;&#65288;&#32508;&#21512;&#22240;&#23376;&#65289;</p><p>&#29992;&#23454;&#39564;&#26041;&#27861;&#65292;&#27169;&#25311;&#33258;&#28982;&#26426;&#21046;&#21450;&#36807;&#31243;&#12290;&#20351;&#35774;&#35745;&#20986;&#30340;&#29616;&#35937;&#19982;&#33258;&#28982;&#36807;&#31243;&#22312;&#30452;&#35266;&#19978;&#26377;&#19968;&#23450;&#30340;&#30456;&#20284;&#24615;&#65292;&#21487;&#29992;&#22686;&#20943;&#22240;&#23376;&#25110;&#25913;&#21464;&#21442;&#37327;&#30340;&#26377;&#25511;&#21046;&#30340;&#23454;&#39564;&#26041;&#27861;&#65292;&#30740;&#31350;&#20113;&#38654;&#29289;&#29702;&#36807;&#31243;&#30340;&#22240;&#23376;&#12289;&#26426;&#21046;&#12289;&#23376;&#36807;&#31243;&#31561;&#12290;&#20363;&#22914;&#65306;</p><p>&#65288;1&#65289;&#22312;&#26377;<span class="technical_term"><u>&#22402;&#30452;&#39118;&#27934;</u></span>&#30340;<span class="technical_term"><u>&#20919;&#20113;&#23460;</u></span>&#20013;&#65292;&#27169;&#25311;&#20912;&#38649;&#22312;&#26377;&#36807;&#20919;&#27700;&#28404;&#30340;&#20113;&#20013;&#30340;&#22686;&#38271;&#65292;&#24182;&#20998;&#26512;&#24433;&#21709;&#20854;&#22686;&#38271;&#30340;&#22240;&#23376;&#65307;</p><p>&#65288;2&#65289;&#22312;&#27700;&#31665;&#20013;&#21152;&#20837;&#30001;BaCl2&#21644;Na2SO4&#28342;&#28082;&#28151;&#21512;&#32780;&#27785;&#28096;&#20986;BaSO4 &#65292;&#29992;&#27492;&#27785;&#28096;&#29289;&#19979;&#27785;&#24773;&#20917;&#27169;&#25311;&#33258;&#28982;&#28909;&#20113;&#27873;&#19978;&#21319;&#30340;&#24773;&#20917;&#65307;</p><p>&#65288;3&#65289;&#29992;&#34180;&#23618;&#27969;&#20307;&#39030;&#37096;&#20919;&#21364;&#20302;&#37096;&#21152;&#28909;&#65292;&#27169;&#25311;&#33258;&#28982;&#20113;&#30340;<span class="technical_term"><u>&#32454;&#32990;&#23545;&#27969;</u></span>&#36807;&#31243;&#21450;<span class="technical_term"><u>&#38262;&#23884;&#20113;</u></span>&#21644;<span class="technical_term"><u>&#27874;&#29366;&#20113;</u></span>&#30340;&#24418;&#29366;&#65292;&#30740;&#31350;&#30456;&#24212;&#30340;&#33258;&#28982;&#36807;&#31243;&#21450;&#20113;&#29366;&#30340;&#24418;&#25104;&#26465;&#20214;&#31561;&#12290;</p><p><span class="technical_term"><u>&#25968;&#20540;&#27169;&#25311;</u></span></p><p>&#26681;&#25454;&#25511;&#21046;&#33258;&#28982;&#20113;&#38654;&#38477;&#27700;&#21457;&#23637;&#36807;&#31243;&#30340;&#22522;&#26412;&#35268;&#24459;&#25152;&#36981;&#24490;&#30340;&#25968;&#23398;&#29289;&#29702;&#26041;&#31243;&#32452;&#65288;&#21253;&#25324;&#23439;&#35266;&#30340;&#27969;&#20307;&#21160;&#21147;&#21450;&#28909;&#21147;&#23398;&#26041;&#31243;&#32452;&#21644;&#20113;&#38654;&#24494;&#35266;&#36807;&#31243;&#26041;&#31243;&#32452;&#65289;&#65292;&#25353;&#23454;&#27979;&#30340;&#21021;&#22987;&#21450;&#36793;&#30028;&#26465;&#20214;&#65292;&#36827;&#34892;&#25968;&#20540;&#27714;&#35299;&#12290;</p><p>&#25226;&#25152;&#24471;&#32467;&#26524;&#19982;&#33258;&#28982;&#30028;&#20113;&#38654;&#38477;&#27700;&#21457;&#23637;&#30340;&#25506;&#27979;&#25968;&#25454;&#30456;&#27604;&#36739;&#65292;&#20108;&#32773;&#30456;&#31526;&#21017;&#35748;&#20026;&#21407;&#37319;&#29992;&#30340;&#36825;&#20123;&#26041;&#31243;&#32452;&#25152;&#20195;&#34920;&#30340;&#36807;&#31243;&#19982;&#33258;&#28982;&#36807;&#31243;&#30456;&#31526;&#65292;&#21363;&#27169;&#25311;&#25104;&#21151;&#12290;</p><p>&#21487;&#25670;&#33073;&#23454;&#39564;&#23460;&#30340;&#32422;&#26463;&#21644;&#23616;&#38480;&#65292;&#21487;&#32771;&#34385;&#36739;&#22810;&#22240;&#23376;&#12290;&#21487;&#20197;&#24456;&#22797;&#26434;&#65292;&#20294;&#33258;&#28982;&#30028;&#30340;&#22797;&#26434;&#24615;&#19981;&#33021;&#23436;&#20840;&#29992;&#26041;&#31243;&#34920;&#36798;&#20986;&#26469;&#12290;</p><p>&#20154;&#24037;&#24433;&#21709;&#20113;&#38654;&#38477;&#27700;&#20316;&#19994;</p><p>&#29992;&#20154;&#20026;&#26041;&#27861;&#24178;&#25200;&#20113;&#38654;&#38477;&#27700;&#36807;&#31243;&#65292;&#35266;&#27979;&#24178;&#25200;&#21518;&#26524;&#65292;&#20197;&#20102;&#35299;&#20113;&#38654;&#38477;&#27700;&#21457;&#23637;&#35268;&#24459;&#12290;</p><p>&#20294;&#26159;&#33258;&#28982;&#20113;&#38654;&#38477;&#27700;&#36807;&#31243;&#21313;&#20998;&#22797;&#26434;&#65292;&#24433;&#21709;&#22240;&#23376;&#30340;&#20027;&#27425;&#24120;&#26377;&#21464;&#21270;&#65307;&#24403;&#24341;&#20837;&#20154;&#20026;&#24178;&#25200;&#26102;&#65292;&#24178;&#25200;&#30340;&#21407;&#29702;&#12289;&#20652;&#21270;&#21058;&#24615;&#36136;&#21644;&#21058;&#37327;&#12289;&#24178;&#25200;&#37096;&#20301;&#21450;&#34987;&#24178;&#25200;&#23545;&#35937;&#30340;&#29305;&#28857;&#31561;&#65292;&#37117;&#30452;&#25509;&#25110;&#38388;&#25509;&#24433;&#21709;&#20113;&#38654;&#38477;&#27700;&#36807;&#31243;&#30340;&#20854;&#21518;&#21457;&#23637;&#65307;&#24178;&#25200;&#21518;&#26524;&#26159;&#33258;&#28982;&#21457;&#23637;&#19982;&#20154;&#20026;&#24178;&#25200;&#30340;&#32508;&#21512;&#21472;&#21152;&#36896;&#25104;&#65292;&#21306;&#20998;&#21313;&#20998;&#22256;&#38590;&#12290;</p><p>&#21457;&#23637;&#31616;&#21490;</p><p>16&#19990;&#32426;&#65306;Galilei&#21457;&#26126;&#28201;&#24230;&#34920;&#65292;&#23450;&#37327;&#27979;&#37327;&#27668;&#35937;&#29616;&#35937;&#12290;</p><p>1802&#24180;Lamerck; 1803&#24180;Howard; 1887&#24180;Hildebrandson; Abercromby&#23545;<span class="technical_term"><u>&#20113;&#20998;&#31867;</u></span>&#12290;</p><p>1896&#24052;&#40654;&#20986;&#29256;&#31532;1&#37096;<span class="technical_term"><u>&#22269;&#38469;&#20113;&#22270;</u></span>&#65292;&#29616;&#29992;&#29790;&#22763;1956&#24180;&#29256;&#12290;</p><p>Dalton&#65288;1766-1844&#65289;&#27979;&#37327;<span class="technical_term"><u>&#39281;&#21644;&#27700;&#27773;&#21387;</u></span>&#12290;</p><p>1843&#24180;Clapeyron&#20174;&#29702;&#35770;&#19978;&#24471;&#20986;&#39281;&#21644;&#27700;&#27773;&#21387;&#38543;&#28201;&#24230;&#30340;&#21464;&#21270;&#65292;&#38543;&#21518;Clausius&#23558;&#27492;&#20851;&#31995;&#25913;&#20889;&#20026;&#36890;&#29992;&#30340;&#34920;&#36798;&#24335;&#12290;</p><p><span class="technical_term"><u>&#25104;&#26680;&#20316;&#29992;</u></span>&#30340;&#26089;&#26399;&#21457;&#29616;</p><p>1870&#24180;Kelvin&#21195;&#29237;&#22312;&#29233;&#19969;&#22561;&#30343;&#23478;&#23398;&#20250;&#30340;&#20250;&#35758;&#24405;&#19978;&#21457;&#34920;&#20102;&#20855;&#26377;&#37325;&#22823;&#24847;&#20041;&#30340;&#35770;&#25991;&#12290;&#20113;&#28404;&#34920;&#38754;&#39281;&#21644;&#27700;&#27773;&#21387;&#38543;&#28201;&#24230;&#21644;&#27700;&#28404;&#22823;&#23567;&#30340;&#21464;&#21270;&#20851;&#31995;&#12290;</p><p>1875&#24180;&#27861;&#22269;&#20154;Coulier&#21457;&#34920;&#20102;&#20182;&#30340;&#35797;&#39564;&#32467;&#26524;&#65292;&#35777;&#23454;&#20102;&#31354;&#27668;&#20013;&#30340;&#24748;&#28014;&#39063;&#31890;&#22312;&#24494;&#37327;&#36807;&#39281;&#21644;&#25110;&#26410;&#36798;&#21040;&#36807;&#39281;&#21644;&#24773;&#20917;&#19979;&#65292;&#21487;&#20805;&#24403;&#22312;&#20854;&#21608;&#22260;&#21457;&#29983;&#20957;&#32467;&#30340;&#26680;&#12290;</p><p>1880&#24180;&#21518;&#65292;&#20415;&#26377;&#33487;&#26684;&#20848;&#29289;&#29702;&#23398;&#23478;John Aitken&#22475;&#22836;&#33510;&#24178;&#20102;&#36817;35&#24180;&#30340;&#21331;&#36234;&#30340;&#30740;&#31350;&#24037;&#20316;&#12290;&#29992;&#20182;&#37027;&#20010;&#34987;&#31216;&#20043;&#20026;&#29233;&#26681;&#26680;&#35745;&#25968;&#22120;&#30340;&#36731;&#20415;&#33192;&#32960;&#23460;&#65292;&#32771;&#23519;&#20102;&#20302;&#23618;&#22823;&#27668;&#20013;&#25152;&#21547;&#30340;&#39063;&#31890;&#25968;&#12290;</p><p>1884&#24180;Raoult&#30740;&#31350;&#31232;&#28342;&#28082;&#30340;&#39281;&#21644;&#27700;&#27773;&#21387;&#23450;&#24459;&#12290;</p><p>1890&#24180;&#65292;Gibbs&#25552;&#20986;&#30456;&#21464;&#26102;&#33021;&#37327;&#36716;&#21270;&#26377;&#20851;&#30340;<span class="technical_term"><u>Gibbs&#33258;&#30001;&#33021;</u></span>&#27010;&#24565;&#12290;</p><p>1897&#24180;Wilson&#36827;&#34892;&#20102;&#32463;&#20856;&#30340;&#20113;&#23460;&#35797;&#39564;&#65292;&#30740;&#31350;&#26080;&#23576;&#31354;&#27668;&#20013;&#24102;&#30005;&#31163;&#23376;&#30340;&#20957;&#32467;&#12290;</p><p>1921&#21644;1926&#24180;&#65292;&#29790;&#20856;&#21270;&#23398;&#23478;&#20860;&#27668;&#35937;&#23398;&#23478;Hilding Kohler&#35777;&#23454;&#20102;&#28023;&#30416;&#26680;&#30340;&#37325;&#35201;&#24615;&#65292;&#24182;&#21457;&#23637;&#20102;&#21560;&#28287;&#24615;&#26680;&#20957;&#32467;&#29702;&#35770;&#12290;</p><p>&#32487;&#36825;&#39033;&#24320;&#25299;&#24615;&#30340;&#24037;&#20316;&#20197;&#21518;&#65292;&#24503;&#22269;&#27861;&#20848;&#20811;&#31119;Taunus&#35266;&#35937;&#21488;&#36827;&#34892;&#20102;&#19968;&#31995;&#21015;&#26680;&#30340;&#25968;&#30446;&#21644;&#22823;&#23567;&#30340;&#27979;&#23450;&#65292;&#30001;&#22522;&#30563;&#25945;&#24466;Junge&#25351;&#23548;&#32487;&#32493;&#36827;&#34892;&#12290;Junge&#21644;&#20182;&#20197;&#21069;&#30340;John Aitken&#19968;&#26679;&#65292;&#25104;&#20026;&#36825;&#19968;&#23398;&#31185;&#30340;&#19990;&#30028;&#26435;&#23041;&#12290;</p><p><span class="technical_term"><u>&#36807;&#20919;&#21364;</u></span>&#21644;&#20271;&#26480;&#40857;&#20551;&#35828;</p><p>1900&#24180;Berson&#36890;&#36807;&#27668;&#29699;&#35266;&#27979;&#21457;&#29616;&#36807;&#20919;&#21364;&#20113;&#28404;&#12290;</p><p>Wegener&#22312;&#20182;1911&#24180;&#20986;&#29256;&#30340;&#12298;&#22823;&#27668;&#28909;&#21147;&#23398;&#12299;&#19968;&#20070;&#20013;&#23601;&#35752;&#35770;&#20102;&#22312;-20&mdash;-30C&#30340;&#28201;&#24230;&#19979;&#35266;&#27979;&#21040;&#30340;&#28082;&#28404;&#12290;&#20070;&#20013;&#35828;&ldquo;&#27700;&#27773;&#24352;&#21147;&#23558;&#33258;&#34892;&#35843;&#33410;&#21040;&#20912;&#38754;&#21644;&#27700;&#38754;&#39281;&#21644;&#20540;&#20043;&#38388;&#30340;&#26576;&#19968;&#20010;&#20540;&#12290;&#30001;&#27492;&#20135;&#29983;&#30340;&#25928;&#26524;&#24517;&#28982;&#26159;&#65292;&#22312;&#20912;&#19978;&#23558;&#36830;&#32493;&#19981;&#26029;&#21457;&#29983;&#20957;&#32467;&#65292;&#32780;&#21516;&#26102;&#28082;&#20307;&#27700;&#21017;&#22312;&#33976;&#21457;&#65292;&#36825;&#19968;&#36807;&#31243;&#19968;&#30452;&#35201;&#36827;&#34892;&#21040;&#28082;&#30456;&#23436;&#20840;&#32791;&#23613;&#20026;&#27490;&rdquo;&#12290;</p><p>&#36807;&#20919;&#21364;&#21644;&#20271;&#26480;&#40857;&#20551;&#35828;</p><p>22&#24180;&#20197;&#21518;&#65292;Bergeron&#23558;&#35266;&#27979;&#20107;&#23454;&#21152;&#20197;&#25972;&#29702;&#65292;&#25552;&#20986;&#20102;&#20182;&#37027;&#20010;&#28082;&#30456;&#21644;&#20912;&#30456;&#28151;&#21512;&#20113;&#21457;&#29983;&#38477;&#27700;&#30340;&#33879;&#21517;&#29702;&#35770;&#12290;Bergeron&#25226;&#20182;&#30340;&#29702;&#35770;&#25552;&#21040;1933&#24180;&#22312;&#37324;&#26031;&#26412;&#21484;&#24320;&#30340;&#22269;&#38469;&#22823;&#22320;&#27979;&#37327;&#21644;&#22320;&#29699;&#29289;&#29702;&#32852;&#21512;&#20250;&#31532;&#20116;&#27425;&#20840;&#20307;&#20250;&#35758;&#19978;&#65292;&#20250;&#35758;&#35770;&#25991;&#38598;&#30452;&#21040;1935&#24180;&#25165;&#21457;&#34920;&#12290;</p><p>Findeisen&#22312;Bergeron&#24605;&#24819;&#30340;&#22522;&#30784;&#19978;&#21152;&#20197;&#25193;&#20805;&#65292;&#20110;1938&#24180;&#21457;&#34920;&#25991;&#31456;&#23545;&#36825;&#20010;&#29702;&#35770;&#20316;&#20102;&#26356;&#20026;&#26126;&#30830;&#30340;&#38416;&#36848;&#65292;&#24182;&#24341;&#36827;&#20102;&#35768;&#22810;&#26032;&#30340;&#35299;&#37322;&#12290;&#22240;&#27492;Bergeron&#29702;&#35770;&#22312;&#35768;&#22810;&#22320;&#26041;&#20415;&#20197;Bergeron-Findeisen&#29702;&#35770;&#32780;&#33879;&#31216;&#12290;</p><p>Irving Langmuir&#21338;&#22763;</p><p>Langmuir&#21338;&#22763;&#32654;&#22269;&#26368;&#26089;&#30340;&#35834;&#36125;&#23572;&#22870;&#37329;&#33719;&#24471;&#32773;&#20043;&#19968;&#65292;&#22240;&#34920;&#38754;&#21270;&#23398;&#26041;&#38754;&#30340;&#24037;&#20316;&#32780;&#33719;&#24471;1932&#24180;&#30340;&#35834;&#36125;&#23572;&#22870;&#12290;1947&#24180;&#20182;&#22312;&#32654;&#22269;&#31185;&#23398;&#38498;&#30340;&#35762;&#28436;&#20013;&#26159;&#36825;&#26679;&#21465;&#36848;Schaefer&#26089;&#26399;&#30340;&#30740;&#31350;&#24037;&#20316;&#65306;</p><p>&ldquo;Schaefer&#27604;&#25105;&#24180;&#36731;&#24471;&#22810;&#12290;&#20182;&#26469;&#23454;&#39564;&#23460;&#65292;&#23601;&#22312;&#26426;&#26800;&#36710;&#38388;&#24037;&#20316;&#65292;&#26159;&#19968;&#20301;&#24456;&#29087;&#32451;&#30340;&#25216;&#24037;&#65292;&#32473;&#25105;&#20204;&#20570;&#20102;&#35768;&#22810;&#31934;&#23494;&#20202;&#22120;&#12290;&#21518;&#26469;&#20182;&#24819;&#21442;&#21152;&#30740;&#31350;&#24037;&#20316;&#12290;&#20415;&#21644;&#25105;&#20204;&#19968;&#36215;&#30740;&#31350;&#34920;&#38754;&#21270;&#23398;&#65292;&#24037;&#20316;&#24471;&#24456;&#19981;&#38169;&#65292;&#21457;&#34920;&#36807;&#36825;&#26041;&#38754;&#30340;&#30740;&#31350;&#25104;&#26524;&#12290;&#20182;&#21916;&#27426;&#29228;&#23665;&#65292;&#25105;&#20063;&#21916;&#27426;&#65292;&#24635;&#30340;&#35828;&#25105;&#20204;&#37117;&#21916;&#27426;&#23460;&#22806;&#29983;&#27963;&#12290;&#36825;&#26159;&#24456;&#37325;&#35201;&#30340;&#65292;&#32780;&#19988;&#21644;&#25105;&#20204;&#21518;&#38754;&#23545;&#20154;&#24037;&#25511;&#21046;&#22825;&#27668;&#30340;&#20852;&#36259;&#23494;&#20999;&#30456;&#20851;&#12290;&#25105;&#20204;&#29616;&#22312;&#25152;&#20570;&#30340;&#35768;&#22810;&#20107;&#24773;&#37117;&#28304;&#20986;&#20110;&#37027;&#20010;&#20849;&#21516;&#30340;&#32972;&#26223;&#12290;&#35841;&#20063;&#19981;&#20250;&#32473;&#25105;&#20204;&#20316;&#20986;&#37027;&#31181;&#23433;&#25490;&#12290;&#35201;&#19981;&#26159;&#25105;&#20204;&#29983;&#24615;&#23601;&#21916;&#27426;&#36825;&#26679;&#20570;&#30340;&#35805;&#65292;&#35841;&#20063;&#26080;&#27861;&#35828;&#26381;&#25105;&#20204;&#20908;&#22825;&#30331;&#19978;&#21326;&#30427;&#39039;&#23665;&#36827;&#34892;&#36825;&#19968;&#39033;&#23646;&#20110;&#33258;&#28982;&#29616;&#35937;&#30340;&#30740;&#31350;&rdquo;&#12290;</p><p>Schaefer&#30340;&#20255;&#22823;&#21457;&#29616;</p><p>&#35266;&#27979;&#20912;&#31665;&#37324;&#28287;&#31354;&#27668;&#30340;&#20957;&#32467;&#26102;&#65292;&#24403;&#28201;&#24230;&#38477;&#21040;-20&#8451;&#24038;&#21491;&#26102;&#65292;&#20173;&#27809;&#26377;&#20912;&#24418;&#25104;&#12290;</p><p>&#26368;&#21518;&#65292;&#22312;&#19968;&#20010;&#24322;&#24120;&#37239;&#28909;&#30340;&#26085;&#23376;&#65288;1946&#24180;7&#26376;12&#26085;&#65289;&#12290;&#20912;&#31665;&#37324;&#30340;&#28201;&#24230;&#19981;&#22815;&#20302;&#65292;&#20182;&#24819;&#35753;&#28201;&#24230;&#20877;&#20302;&#19968;&#28857;&#65292;&#23601;&#21462;&#20102;&#19968;&#22823;&#22359;&#24178;&#20912;&#25237;&#20837;&#31665;&#20013;&#21435;&#38477;&#20302;&#28201;&#24230;&#12290;&#24573;&#28982;&#38388;&#65292;&#31354;&#27668;&#20013;&#39532;&#19978;&#20805;&#28385;&#20102;&#20912;&#26230;&#65292;&#36275;&#26377;&#20960;&#30334;&#19975;&#20010;&#12290;&#20182;&#21448;&#25226;&#24178;&#20912;&#21462;&#20986;&#26469;&#65292;&#20912;&#26230;&#32500;&#25345;&#20102;&#19968;&#20250;&#12290;&#25509;&#30528;&#20182;&#21457;&#29616;&#65292;&#21363;&#20351;&#24456;&#23567;&#19968;&#22359;&#24178;&#20912;&#20063;&#33021;&#20351;&#20113;&#37324;&#20805;&#28385;&#20912;&#26230;&#12290;&#20182;&#21462;&#19968;&#26681;&#22312;&#28082;&#24577;&#31354;&#27668;&#20013;&#28024;&#36807;&#30340;&#38024;&#65292;&#35753;&#36825;&#26681;&#38024;&#22312;&#20912;&#31665;&#37324;&#32463;&#36807;&#19968;&#27425;&#12290;&#32467;&#26524;&#21482;&#35201;&#19968;&#25509;&#35302;&#36825;&#26681;&#38024;&#65292;&#23601;&#21448;&#20135;&#29983;&#26080;&#25968;&#20010;&#20912;&#26230;&#12290;&#36825;&#20010;&#25928;&#26524;&#24456;&#24555;&#25955;&#24067;&#21040;&#25972;&#20010;&#20912;&#31665;&#12290;&#36825;&#26159;&#19968;&#20010;&#32477;&#22937;&#30340;&#23454;&#39564;&hellip;&hellip;&#12290;</p><p>Schaefer&#23454;&#39564;&#26085;&#35760;&#20013;&#36825;&#26679;&#20889;&#36947;&#65306;&ldquo;&#24403;&#25105;&#20204;&#36824;&#22312;&#20113;&#37324;&#38754;&#30475;&#35265;&#21040;&#22788;&#26159;&#32768;&#30524;&#30340;&#20912;&#26230;&#26102;&#65292;&#25105;&#36716;&#21521;Curt&#21644;&#20182;&#25569;&#25163;&#65292;&#25105;&#35828;&#65306;&lsquo;&#25105;&#20204;&#25104;&#21151;&#20102;&rsquo;&#65281;</p><p>Schaefer&#23601;&#20182;&#30340;&#23454;&#39564;&#32473;&#12298;&#31185;&#23398;&#12299;&#26434;&#24535;&#20889;&#20102;&#19968;&#31687;&#25991;&#31456;&#65292;&#21457;&#34920;&#20110;1946&#24180;11&#26376;15&#26085;&#30340;&#26399;&#21002;&#19978;&#12290;&#20182;&#22312;&#25991;&#31456;&#30340;&#32467;&#35821;&#20013;&#20889;&#36947;&#65306;&#25353;&#35745;&#21010;&#20934;&#22791;&#22312;&#19981;&#20037;&#30340;&#23558;&#26469;&#36890;&#36807;&#19968;&#26550;&#39134;&#26426;&#21521;&#20113;&#20013;&#25773;&#25746;&#23567;&#22359;&#24178;&#20912;&#65292;&#32780;&#23558;&#36807;&#20919;&#20113;&#22823;&#35268;&#27169;&#36716;&#21270;&#20026;&#20912;&#26230;&#20113;&#12290;&#25105;&#20204;&#30456;&#20449;&#65292;&#36825;&#31181;&#20316;&#19994;&#26159;&#20999;&#23454;&#21487;&#34892;&#12289;&#27604;&#36739;&#32463;&#27982;&#30340;&#65292;&#21516;&#26102;&#65292;&#22823;&#38754;&#31215;&#30340;&#20113;&#31995;&#20063;&#21487;&#29992;&#36825;&#31181;&#26041;&#27861;&#36827;&#34892;&#20154;&#24037;&#24433;&#21709;&#12290;</p><p>&#26368;&#21518;&#36825;&#19968;&#21477;&#35805;&#31455;&#33853;&#22312;&#20107;&#23454;&#21518;&#38754;&#65292;1946&#24180;11&#26376;13&#26085;&#65292;&#21363;&#36825;&#19968;&#26399;&#12298;&#31185;&#23398;&#12299;&#20986;&#29256;&#30340;&#21069;&#20004;&#22825;&#65292;Schaefer&#36827;&#34892;&#20102;&#19968;&#27425;&#26377;&#21382;&#21490;&#24847;&#20041;&#30340;&#39134;&#34892;&#65292;&#23427;&#26159;&#20154;&#31867;&#31532;&#19968;&#27425;&#23545;&#19968;&#22359;&#36807;&#20919;&#20113;&#36827;&#34892;&#31185;&#23398;&#25773;&#25746;&#12290;Schaefer&#20174;Curt&#39550;&#39542;&#30340;&#19968;&#26550;&#23567;&#22411;&#39134;&#26426;&#30340;&#24231;&#33329;&#37324;&#65292;&#22312;&#19968;&#22359;&#20113;&#30340;&#19978;&#26041;&#27839;&#30528;&#19968;&#26465;&#22823;&#32422;3&#33521;&#37324;&#38271;&#30340;&#33322;&#32447;&#65292;&#25773;&#25746;&#20102;3&#30917;&#24178;&#20912;&#12290;&#36825;&#22359;&#20113;&#26159;&#23618;&#20113;&#65292;<span class="technical_term"><u>&#20113;&#39640;</u></span>4000&#22810;&#31859;&#65292;&#20113;&#20013;&#28201;&#24230;-20C&#12290;&#22312;5&#20998;&#38047;&#20197;&#20869;&#65292;&#20284;&#20046;&#25972;&#20010;&#20113;&#37117;&#36716;&#21464;&#25104;&#38634;&#65292;&#22312;&#20113;&#19979;&#38477;&#33853;&#20102;&#32422;600&#31859;&#25165;&#33976;&#21457;&#25481;&#12290;</p><p>Vonnegut&#21338;&#22763;&#30340;<span class="technical_term"><u>&#30872;&#21270;&#38134;</u></span>&#23454;&#39564;</p><p>&#22312;&#40635;&#30465;&#29702;&#24037;&#23398;&#38498;&#26366;&#30740;&#31350;&#36807;&#19982;&#39134;&#26426;&#31215;&#20912;&#26377;&#20851;&#30340;&#25104;&#26680;&#20316;&#29992;&#38382;&#39064;&#30340;Vonnegut&#21338;&#22763;&#65292;&#20110;1946&#24180;&#31179;&#23395;&#65292;&#22312;&#36890;&#29992;&#30005;&#27668;&#23454;&#39564;&#23460;&#24537;&#20110;&#30740;&#31350;&#21508;&#31181;&#25104;&#26680;&#36807;&#31243;&#12290;</p><p>&#24403;Schaefer&#23454;&#39564;&#23460;&#30340;&#23454;&#39564;&#20570;&#36807;&#20197;&#21518;&#65292;&#20415;&#25226;&#20182;&#30340;&#27880;&#24847;&#21147;&#21448;&#36716;&#31227;&#21040;&#20912;&#30340;&#25104;&#26680;&#20316;&#29992;&#19978;&#26469;&#12290;&#24403;&#20182;&#20102;&#35299;&#21040;&#20912;&#26230;&#21487;&#20197;&#22312;&#20855;&#26377;&#36866;&#24403;&#30340;&#26230;&#20307;&#32467;&#26500;&#30340;&#29289;&#36136;&#19978;&#22686;&#38271;&#26680;&#21270;&#20043;&#21518;&#65292;&#20182;&#32763;&#38405;&#20102;x&#20809;&#26230;&#20307;&#23398;&#25163;&#20876;&#65292;&#23547;&#25214;&#26230;&#20307;&#32467;&#26500;&#21644;&#20912;&#26230;&#30456;&#36817;&#12289;&#21448;&#19981;&#28342;&#20110;&#27700;&#30340;&#29289;&#36136;&#12290;&#30872;&#21270;&#38134;&#21644;&#30872;&#21270;&#38085;&#20284;&#20046;&#26159;&#26368;&#21512;&#20046;&#36825;&#20010;&#26465;&#20214;&#30340;&#12290;</p><p>&#20113;&#30340;&#35266;&#27979;</p><p>&#20113;&#30340;&#22522;&#26412;&#35266;&#27979;&#21253;&#25324;&#20113;&#30340;&#23439;&#35266;&#29305;&#24449;&#12289;&#24494;&#35266;&#29305;&#24449;&#21644;&#22402;&#30452;&#32467;&#26500;&#26159;&#35748;&#35782;&#21644;&#30740;&#31350;&#20113;&#21457;&#23637;&#21464;&#21270;&#30340;&#22522;&#26412;&#25163;&#27573;&#65292;&#36825;&#20123;&#22522;&#26412;&#29305;&#24449;&#26159;<span class="technical_term"><u>&#20113;&#37327;</u></span>&#12289;&#20113;&#39640;&#12289;<span class="technical_term"><u>&#20113;&#21402;</u></span>&#12289;&#27969;&#22330;&#12289;&#20113;&#28082;&#24577;&#27700;&#36884;&#24452;&#12289;&#20113;&#30340;&#29983;&#21629;&#26102;&#38388;&#12289;&#20113;&#28082;&#24577;&#21547;&#27700;&#37327;&#12289;&#20113;&#31890;&#23376;&#30456;&#24577;&#12289;&#24418;&#24577;&#21644;&#23610;&#24230;&#20998;&#24067;&#12289;&#20113;&#38477;&#27700;&#30340;&#21270;&#23398;&#32452;&#25104;&#31561;&#12290;&#21457;&#23637;&#21644;&#24212;&#29992;&#19968;&#20123;&#26032;&#30340;&#25216;&#26415;&#25163;&#27573;&#23545;&#20113;&#30340;&#22522;&#26412;&#29305;&#24615;&#36827;&#34892;&#31354;&#22522;&#21644;&#22320;&#22522;&#30340;&#30452;&#25509;&#21644;&#38388;&#25509;&#35266;&#27979;&#12290;&#20316;&#20026;&#30452;&#25509;&#35266;&#27979;&#25163;&#27573;&#65292;&#39134;&#26426;&#35266;&#27979;&#26159;&#38750;&#24120;&#20851;&#38190;&#30340;&#65292;&#23427;&#21487;&#20197;&#30452;&#25509;&#27979;&#37327;&#20113;&#30340;&#29305;&#24449;&#37327;&#65292;&#20854;&#32467;&#26524;&#21487;&#29992;&#26469;&#23545;&#35832;&#22914;&#21355;&#26143;&#21644;&#38647;&#36798;&#31561;&#38388;&#25509;&#27979;&#37327;&#26041;&#27861;&#30340;&#39564;&#35777;&#12290;2</p>
+            </article>
+             
+             
+        </div>
+        <div class="share">
+            <span class="text">分享到：</span>
+            <div class="icon"></div>
+            <!-- <div class="responsible_editor">
+                责任编辑：科普中国
+            </div> -->
+        </div>
+        <!-- 无评论隐藏此区域 -->
+                <div class="clearfix act_footer">
+            请
+            <button class="btn" data-toggle="modal" data-target="#myModal">打开</button>
+            科普中国APP发表评论或查看更多评论
+        </div>
+    </div>
+</div>
+<input type="hidden" id="classify" value="0">
+<input type="hidden" id="uuid" value="6974065509599305728">
+<!-- —————— -->
+<div>
+    <section class="footer">
+  <!-- 回到顶部 -->
+  <div>
+    <section>
+    <div class="top">
+        <!-- <div class="questionnaire">
+            <div class="questionnaire_con"></div>
+            <div class="questionnaire_img">
+                <a href="http://diaocha.kepuchina.cn/s/YrIn2qH/" >
+                    <img src="/assets/images/questionnaire2.png" alt="">
+                </a>
+            </div>
+        </div> -->
+        <div class="code">
+            <div class="er_code">
+              <img src="/assets/images/erCode.png" alt="" />
+                扫码下载APP
+            </div>
+        </div>
+        <div class="to_top"></div>
+    </div>
+</section>  </div>
+  <!-- 模态框 -->
+  <div>
+    <section>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="m_logo">
+                    <img src="/assets/images/app_logo.png" alt="">
+                </div>
+                <div class="m_code">
+                    <!-- 二维码 -->
+                    <img src="/assets/images/erCode.png" alt="" />
+                </div>
+                <div class="m_text">扫码下载科普中国APP</div>
+                <div class="m_label">
+      
+                    <span><i class="i_left"></i></span>
+                    开启您的智慧生活
+                    <span><i class="i_right"></i></span>
+      
+                </div>
+                <div class="m_btn" data-dismiss="modal">关闭</div>
+            </div>
+            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+        </div>
+      </div>
+</section>  </div>
+  <div class="w">
+    <div class="footer_left">
+      <div class="footer_menu">科普中国系列品牌网站</div>
+      <ul class="footer_list">
+        <li>
+          <a href="http://www.news.cn/science/kpzg.htm" target="_blank">新华网科普中国频道</a>
+        </li>
+        <li>
+          <a href="http://kpzg.people.com.cn/" target="_blank">人民网科普中国频道</a>
+        </li>
+        <li>
+          <a href="https://www.xuexi.cn/xxqg.html?id=34d5e99ffbba403b8452c6e6d33d2e86" target="_blank">“学习强国”科普中国频道</a>
+        </li>
+        <li>
+          <a href="https://share.gmw.cn/kepu/node_144851.htm" target="_blank">科普中国直播系列</a>
+        </li>            
+      </ul>
+      <div class="footer_menu">
+        合作媒体
+      </div>
+      <ul class="footer_list">
+        <ul>
+          <li><a href="http://www.people.com.cn/" target="_blank">人民网</a></li>
+          <li><a href="http://www.news.cn/" target="_blank">新华网</a></li>
+          <li><a href="https://www.gmw.cn/" target="_blank">光明网</a></li>
+          <li><a href="https://www.cctv.com/" target="_blank">央视网</a></li>
+          <li><a href="http://cn.chinadaily.com.cn/" target="_blank">中国日报网</a></li>
+          <li><a href="https://www.youth.cn/" target="_blank">中国青年网</a></li>
+          <li><a href="https://www.cnr.cn/" target="_blank">央广网</a></li>
+          <li><a href="https://www.huanqiu.com/" target="_blank">环球网</a></li>
+          <li><a href="https://www.stdaily.com/" target="_blank">中国科技网</a></li>
+          <li><a href="http://www.kepu.gov.cn/" target="_blank">中国科普网</a></li>
+          <li><a href="http://science.china.com.cn/" target="_blank">中国网科学中国</a></li>
+          <li><a href="http://www.qxkp.net/" target="_blank">中国气象科普网</a></li>
+          <li><a href="http://www.dili360.com/" target="_blank">中国国家地理</a></li>
+          <li><a href="http://www.chinamtt.cn/" target="_blank">中国测试科技资讯平台</a></li>
+          <li><a href="https://www.gdkjb.com/" target="_blank">广东科技报</a></li>
+          <li><a href="https://www.kepusz.com/" target="_blank">中国科普资源名录网</a></li>
+          <li><a href="https://www.huanqiukexue.com/" target="_blank">环球科学</a></li>
+          <li><a href="https://www.kedo.net.cn/" target="_blank">蝌蚪五线谱</a></li>
+          <li><a href="https://tech.ifeng.com/" target="_blank">凤凰网科技</a></li>
+          <li><a href="http://www.zhishifenzi.com/" target="_blank">知识分子</a></li>
+          <li><a href="https://www.wkepu.com/" target="_blank">微科普</a></li>
+          <li><a href="https://www.bokeyuan.net/" target="_blank">博科园</a></li>
+          <li><a href="https://www.aiust.com/" target="_blank">AIUST</a></li>
+          <li><a href="https://www.emuchong.com/" target="_blank">晓木虫学术科研第一站</a></li>
+          <li><a href="/meitongshe" target="_blank">美通社</a></li>
+        </ul>
+      </ul>
+      <div class="footer_menu">
+        合作机构
+      </div>
+      <ul class="footer_list">
+        <li>
+          <a href="https://www.cdstm.cn/" target="_blank">中国数字科技馆</a>
+        </li>
+        <li>
+          <a href="http://www.centv.cn/" target="_blank">中国教育网络电视台</a>
+        </li>
+        <li>
+          <a href="https://www.bast.net.cn/" target="_blank">北京市科学技术协会</a>
+        </li>
+        <li>
+          <a href="https://www.chinaott.com/" target="_blank">CNTV-未来电视</a>
+        </li>
+        <li>
+          <a href="https://www.mtr.bj.cn/index.html" target="_blank">京港地铁</a>
+        </li>
+        <li>
+          <a href="https://www.wasu.cn/" target="_blank">华数TV</a>
+        </li>
+        <li>
+          <a href="https://www.bestv.com.cn/web" target="_blank">百事通</a>
+        </li>
+        <li>
+          <a href="https://www.mgtv.com/" target="_blank">芒果TV</a>
+        </li>
+        <li>
+          <a href="https://www.iqiyi.com/" target="_blank">爱奇艺</a>
+        </li>
+        <li>
+          <a href="https://tv.sohu.com/" target="_blank">搜狐视频</a>
+        </li>
+        <li>
+          <a href="https://www.bilibili.com/" target="_blank">B站</a>
+        </li>
+        <li>
+          <a href="https://www.pptv.com/" target="_blank">PP视频</a>
+        </li>
+        <li>
+          <a href="https://www.ku6.com/index" target="_blank">酷6网</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer_right">
+      <div class="footer_menu">联系我们</div>
+      <div class="small_menu">
+        电话/TEL
+      </div>
+      <div class="tel">4006790966</div>
+      <div class="small_menu">
+        地址/ADDRESS
+      </div>
+      <div class="address">
+        北京市西城区白纸坊东街2号经济日报社综合业务楼A座
+      </div>
+      <div class="f_ico">
+        <ul>
+          <li>
+            <a href="javascript:void(0)">
+              <em class="app"></em>
+              <p class="fi_code">
+                <img src="/assets/images/footer/code_app.jpg" />
+                科普中国APP
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <em class="wx"></em>
+              <p>
+                <img src="/assets/images/footer/code_wx.jpg" />
+                科普中国
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <em class="wb"></em>
+              <p>
+                <img src="/assets/images/footer/code_wb.jpg" />
+                科普中国
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="bottomArea">
+    <a href="https://www.kepuchina.cn/gywm/" target="_blank">关于我们</a>
+    <a href="https://www.kepuchina.cn/lxwm/" target="_blank">联系我们</a>
+    <a href="##" target="_blank">招贤纳士</a>
+    <a href="##" target="_blank">法律声明</a>
+    <a href="##" target="_blank">网站地图</a>
+  </div>
+  <div style="width: 100%; text-align: center; padding-top: 20px;">
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202008423" style="
+        display: inline-block;
+        text-decoration: none;
+        height: 20px;
+        line-height: 20px;
+      ">
+      <p style="line-height: 20px; color: #989cb8">
+        <img src="/assets/images/jing-icon.png" style="
+            vertical-align: middle;
+            width: 15px;
+            position: relative;
+            top: -2px;
+          " />
+        京公网安备11010202008423号
+      </p>
+    </a>
+    <a target="_blank" href="https://beian.miit.gov.cn" style="
+        display: inline-block;
+        text-decoration: none;
+        height: 20px;
+        line-height: 20px;
+      ">
+      <p style="line-height: 20px; color: #989cb8">
+        京ICP备16016202号
+      </p>
+    </a>
+  </div>
+  <!-- <a id="_pingansec_bottomimagelarge_shiming" class="img-smrz-a"
+    href="https://si.trustutn.org/info?sn=624161223026064016066&amp;certType=1" target="_blank"><img
+      src="https://v.trustutn.org/images/cert/bottom_large_img.png" class="img-smrz" /></a> -->
+</section>
+<script type="text/javascript" charset="UTF-8" src="/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="/assets/js/common.js?v=f465e24cbe973a41ea1ce4e464b633bf"></script>
+<script type="text/javascript" charset="UTF-8" src="/assets/js/shence.js?v=f4f9993505d69aaea239f623f0daed85"></script>
+</div>
+
+<script src="/assets/js/account/layer.js?v=450495bc3e5eb9a9617a28baa33f3bcd"></script>
+<script src="/libs/overtrue-share.js-71e3b0c/dist/js/jquery.share.min.js"></script>
+<script src="https://img3.kepuchina.cn/js/video-js-8.21.1/video.min.js"></script>
+<script src="https://img3.kepuchina.cn/js/video-js-8.21.1/lang/zh-CN.js"></script>
+<script src="/assets/js/article/index.js?v=cfaeaacba6e28b25122e95a6abeb8920"></script>
+<script>
+ $(function () {
+        let __contribution = {
+            addContributionScore(uuid,duration) {
+                $.post("/User/addContribution", { uuid: uuid, extra: btoa(duration+'-'+Math.ceil(duration*0.2)) },
+                    function (res) {
+
+                        if (res.code == 0) {
+                            console.log("已增加科普中国荣誉体系积分");
+                        }
+                    }
+                );
+            },
+            parseTimeToSecond(str) {
+                if(!str || str == ''){
+                    return 0;
+                }
+                let timeArray = str.split(":");
+                timeArray = timeArray.reverse();
+                let duration = Number(timeArray[0]);
+                if(timeArray.length >= 2){
+                    duration += Number(timeArray[1])*60;
+                }
+                if(timeArray.length >= 3){
+                    duration += Number(timeArray[2])*3600;
+                }
+                return duration;
+            },
+            initTimeout() {
+                const classify = $('#classify').val();
+                if(classify !=0 && classify !=2 && classify!=5){
+                    return ;
+                }
+                const uuid = $('#uuid').val();
+                const login = $('#login').val();
+                let time = 150;
+                if(classify == 2 || classify == 5){
+                    const durationStr = $('#duration').val();
+                    time = __contribution.parseTimeToSecond(durationStr)==0?150:__contribution.parseTimeToSecond(durationStr);
+                }
+                if (uuid && uuid != '' && Number(login) === 1) {
+                    setTimeout(() => __contribution.addContributionScore(uuid,time), Math.ceil(time*0.2)*1000);
+                }
+            }
+        }
+        __contribution.initTimeout();
+    })
+</script>
+</body>
+
+</html>

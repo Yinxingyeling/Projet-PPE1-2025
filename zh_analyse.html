@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Home</title>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+    </head>
+    <body class="is-info has-background-info-light">
+        <section class="hero is-medium is-info">
+            <div class="hero-body container has-text-centered">
+                <h1 class="title is-1">Projet PPE 1 : nuage / 云</h1>
+            </div>
+        </section>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class="navbar-item">
+                    <img src="assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
+                </p>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+
+                    <!-- Analyse -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Analyse</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item has-background-link-light is-selected" href="fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="zh_analyse.html">Chinois</a>
+                        </div>
+                    </div>
+
+                    <!-- Script -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Script</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="fr_script.html">Français</a>
+                            <a class="navbar-item" href="zh_script.html">Chinois</a>
+                            <a class="navbar-item" href="blacklist.html">Blacklist</a>
+                            <a class="navbar-item" href="make_pals_corpus.html">PALS</a>
+                        </div>
+                    </div>
+
+                    <!-- Menu déroulant de Tableau -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Tableau</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="tableaux/tableau-fr.html">Français</a>
+                            <a class="navbar-item" href="tableaux/tableau-zh.html">Chinois</a>
+                        </div>
+                    </div>
+                    <!-- Concordances -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Concordances</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="concordances/fr-final.html">Français</a>
+                            <a class="navbar-item" href="concordances/zh-final.html">Chinois</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- PALS -->
+        <section class="section">
+            <div>
+                <h1 class="title is-1 has-text-centered">PALS</h1>
+                <div class="block" style="margin: 10px auto; width: 70%; text-align: justify">
+                    <p>
+                        Nous allons faire une première analyse avec les scripts PALS récupérés dans
+                        dépôt Git de M. Dupont.
+                    </p>
+                    <p>
+                        Après consultation de la documentation, et du fichier d'exercice pals. Nous faisons un prétraitement pour que les scripts PALS puissent
+                        traiter les textes donnés.
+                    </p>
+                    <p>
+                        Nous lançons le script <code>cooccurrents.py</code>
+                        avec la commande ci-contre. Nous ciblons la recherche sur <strong>nuage</strong> et ses dérivés
+                        avec l'utilisation d'une expression régulière.
+                    </p>
+                    <p>
+                        Après avoir lancée une première fois le script, nous voyons dans le résultat des problèmes d'encodage mal nettoyé malgrès le fichier converti en UTF-8.
+                        Ansi, pour avoir un résultat plus parlant, nous avons écrit un
+                        <code style="background-color: rgb(255, 242, 226);"><span onclick="toggleBlock('script-py')" style="cursor:pointer; color: #e00000;">script python</span></code>*
+                         qui tente de corriger les erreurs d'encodage du à la reconversion.
+                    </p>
+                    <p>
+                        Le résultat se trouve dans le bouton "<strong>Dumps-cooccurents</strong>"
+                    </p>
+                    <p class="has-text-centered">* <em>(click to show the code)</em></p>
+                    <div id="script-py" style="display: none; margin: 10px auto; width: 40%; text-align: justify;">
+                        <pre id="code" style="background-color: rgb(255, 242, 226);"></pre>
+                        <script>
+                        fetch("PALS/fix_encoding.py")
+                        .then(r => r.text())
+                        .then(txt => {
+                            document.getElementById("code").textContent = txt;
+                        });
+                        </script>
+                    </div>
+                </div>
+
+                <!-- Ajout des codes .py utlisés-->
+                <pre style="background-color: rgb(240, 249, 252); color: rgb(211, 8, 8);margin: 10px auto; width: 90%; text-align: justify;"><code>
+                    # Prétraitement des problèmes d'encodages
+                    python fix_encoding.py contextes-fr.txt contextes-fr-clean.txt
+                    python fix_encoding.py dumps-text-fr.txt dumps-text-fr-clean.txt
+
+                    # Cooccurrences des fichiers dumps-text
+                    python cooccurrents.py ../dumps-text-fr-clean.txt --target "(N|n)uage(s|ux|use|uses)?" --match-mode regex > ../result/francais/dumps-cooccurents.tsv 2> /dev/null
+
+                    # Cooccurrences des fichiers contextes
+                    python cooccurrents.py ../contextes-fr-clean.txt --target "(N|n)uage(s|ux|use|uses)?" --match-mode regex > ../result/francais/contextes-cooccurents.tsv 2> /dev/null
+                </code></pre>
+
+                <!-- Afficher les résultats -->
+                <section class="section">
+                    <h1 class="subtitle is-3 has-text-centered">Tableaux TSV</h1>
+
+                    <!-- Conteneur flex pour les boutons -->
+                    <div class="buttons-row" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
+                            <button class="button has-background-link-light" onclick="toggleBlock('tsvContainerDumpCoo')">
+                                Dumps – Cooccurrences
+                            </button>
+                            <button class="button has-background-link-light" onclick="toggleBlock('tsvContainerCtxtCoo')">
+                                Contextes – Cooccurrences
+                            </button>
+                    </div>
+
+                    <!-- Conteneurs déroulants pour les tableaux -->
+                    <div id="tsvContainerDumpCoo" style="max-height: 300px; overflow-y: auto; display: none; border:1px solid #ccc; margin-bottom:10px;">
+                        <p class="has-text-centered subtitle is-5 has-background-link-light" style="position: sticky; top: 0; z-index: 1; margin:0; padding:5px; border-bottom:1px solid #ccc;">
+                            <strong>Dumps-text</strong>
+                        </p>
+                        <table id="tsvDumpCoo" class="table is-striped is-hoverable is-fullwidth"></table>
+                    </div>
+
+                    <div id="tsvContainerCtxtCoo" style="max-height: 300px; overflow-y: auto; display: none; border:1px solid #ccc; margin-bottom:10px;">
+                        <p class="has-text-centered subtitle is-5 has-background-link-light" style="position: sticky; top: 0; z-index: 1; margin:0; padding:5px; border-bottom:1px solid #ccc;">
+                            <strong>Contextes</strong>
+                        </p>
+                        <table id="tsvCtxtCoo" class="table is-striped is-hoverable is-fullwidth"></table>
+                    </div>
+
+                    <!-- Si n'affiche pas -->
+                    <div class="has-text-centered">
+                        <p style="margin-top: 20px;">
+                            <p style="margin-bottom: 5px;">Si les tableaux ne s'affiche pas, à télécharger : </p>
+                            <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
+                                <a class="button" href="PALS/result/chinois/dumps-cooccurents-clean.tsv" target="_blank">Dumps-cooccurents</a>
+                                <a class="button" href="PALS/result/chinois/contextes-cooccurrents-clean.tsv" target="_blank">Contextes-cooccurents</a>
+                            </div>
+                        </p>
+                    </div>
+
+                    <!-- Conclusion - Analyse des résultats de cooccurrences -->
+                    <div class="block">
+                        <h1 class="subtitle is-3 has-text-centered">Analyse</h1>
+                        <h2 class="subtitle is-4">Dumps</h2>
+                        <div>
+                            <p>Selon le tableau de <strong>Dumps - Cooccurrences</strong>, </p>
+                        </div>
+                    </div>
+                </section>
+
+                <script>
+                // Fonction pour afficher / masquer un conteneur
+                function toggleBlock(containerId) {
+                    const el = document.getElementById(containerId);
+                    el.style.display = el.style.display === 'none' ? 'block' : 'none';
+                }
+
+                // Fonction générique pour charger un TSV dans un tableau
+                function loadTSV(filePath, tableId) {
+                    fetch(filePath)
+                        .then(response => {
+                            if (!response.ok) throw new Error("Impossible de charger " + filePath);
+                            return response.text();
+                        })
+                        .then(text => {
+                            const table = document.getElementById(tableId);
+                            table.innerHTML = ""; // réinitialise le tableau
+
+                            const rows = text.trim().split('\n');
+                            rows.forEach((row, index) => {
+                                const tr = document.createElement('tr');
+                                const cols = row.split('\t');
+
+                                cols.forEach(col => {
+                                    const cell = document.createElement(index === 0 ? 'th' : 'td');
+                                    cell.textContent = col;
+                                    tr.appendChild(cell);
+                                });
+
+                                table.appendChild(tr);
+                            });
+                        })
+                        .catch(err => console.error(err));
+                }
+
+                // Chargement des TSV
+
+                loadTSV('PALS/result/chinois/dumps-cooccurents-clean.tsv', 'tsvDumpCoo');
+                loadTSV('PALS/result/chinois/contextes-cooccurents-clean.tsv', 'tsvCtxtCoo');
+                </script>
+            </div>
+        </section>
+        <!-- Wordcloud -->
+        <section class="section">
+            <div>
+                <h1 class="title is-1 has-text-centered">Wordcloud</h1>
+
+            </div>
+        </section>
+    </body>
+</html>

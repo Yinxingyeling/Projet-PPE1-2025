@@ -1,0 +1,342 @@
+<!DOCTYPE html>  
+<!--[if IE 9]><html class="ie ie9 lt10"><![endif]-->
+<!--[if (gt IE 9) | !(IE)]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="icon" href="/templets/theme1/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/templets/theme1/images/favicon.ico" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta name="HandheldFriendly" content="true">
+    <!--浏览器强制竖屏-->
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-orientation" content="portrait"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="browsermode" content="application"/>
+    <meta name="x5-page-mode" content="app"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+        <title>云 - 崔秀的作品集 - 中国作家网</title>
+    <meta name="keywords" content="云\家乡">
+    <meta name="description" content=" 云似海，云似絮，云似巍峨山峰，云之奇诡之态、之状，蕴藏千头万绪，暗流涌动，尽在风起云涌中千变万化。">
+    <link rel="stylesheet" href="/templets/theme1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/templets/theme1/css/bootstrapDatepickr-1.0.0.css">
+    <link rel="stylesheet" href="/templets/theme1/css/style.css">
+    <style>
+      @media only screen and (max-width: 1023px){
+        body{background-size:auto !important;}
+      }
+    </style>
+    <script type="text/javascript" src="/templets/theme1/js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="/templets/theme1/js/blocksit.min.js"></script>
+  <script type="text/javascript" src="/templets/theme1/js/bootstrapDatepickr-1.0.0.min.js"></script>
+  <script type="text/javascript" src="/templets/theme1/js/jquery.nicescroll.js"></script>
+  <script type="text/javascript" src="/templets/theme1/js/pgwmenu.min.js"></script>
+  <script type="text/javascript" src="/templets/theme1/js/js.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <p class="browserupgrade">您在使用一个 <strong>旧版本的</strong> 浏览器，请 <a href="https://support.microsoft.com/zh-cn#!/zh-cn" target="_blank">更新你的浏览器</a> 来更好的体验本网站。</p>
+    <![endif]--> 
+</head>
+
+<body>
+<header>
+<div class="inner clearfix">
+  <div class="logo"><a target="_blank" href="http://www.chinawriter.com.cn/"><img src="/templets/theme1/images/logo.jpg"></a>  </div>
+  <div class="headerR"><a href="/member/index.php" target="_blank">[登录]</a><a href="/member/index_do.php?fmdo=user&dopost=regnew" target="_blank">[注册]</a></div>
+</div>
+</header>
+  <div class="pindao_nav pindao_nav02">
+    <div class="inner clearfix">
+    <!-- 搜索 -->
+    <a href="javascript:;" class="serBtn"><span>搜索</span></a>
+ 
+    <form  name="formsearch" action="/plus/search.php">
+      <input type="hidden" name="kwtype" value="0" />
+      <div class="searchBox">
+       <input type="submit" value="搜索" class="btn_ser" id="sstj">
+           <input type="button" value="搜索中..." class="btn_ser" id="sstj1" style="padding-left:0px;background-image:none!important;display: none;">
+           <script type="application/javascript">
+var countdown=35;    
+var istruetime=35;    
+    //第一次点击submit
+    $("#sstj").click(function(){
+        settime();
+      });
+    //再次点击
+   $("#sstj1").on("click",function(){
+   alert('正在为您搜索，请稍后...');
+   });
+    
+function settime(val) { 
+    if(countdown ==istruetime)
+    {
+      $('#sstj').show();
+    $('#sstj1').hide();
+    
+    }
+    if (countdown<0){
+      $('#sstj').show();
+    $('#sstj1').hide();
+        countdown = istruetime; 
+        return false;  
+    } else {  
+    $('#sstj1').show();
+    $('#sstj').hide();
+
+        countdown--;
+    }  
+    
+    setTimeout(function() {  
+        settime(val);  
+    },1000);
+} 
+
+</script>
+        <div class="select01">
+          <select  name="searchtype"  id="search-option"> 
+            <option value="titlekeyword" selected='1'> &nbsp; 作品 &nbsp; </option>
+            <option value="chapter"> &nbsp; 章节 &nbsp; </option>
+            <option value="author"> &nbsp; 作者 &nbsp; </option>
+          </select>
+        </div>
+        <input name="q" type="text" value="" onfocus="" class="text_01">
+      </div>
+    </form>
+      <ul class="pgwMenu">
+        <li><a target="_blank" href="http://vip.chinawriter.com.cn/">原创平台</a></li>
+        <li><a target="_blank" href="/directories_3.html">用户名录</a></li>
+		    <li><a target="_blank" href="/directories_5.html">团体会员</a></li>
+        <li><a target="_blank" href="/list/14_1.html">推荐阅读</a></li>
+        <li><a target="_blank" href="/list/14_5.html">长篇连载</a></li>
+      </ul>
+    </div>
+  </div>
+<script type="text/javascript">
+$ = jQuery;
+function changeAuthCode() {
+	var num = 	new Date().getTime();
+	var rand = Math.round(Math.random() * 10000);
+	num = num + rand;
+	$('#ver_code').css('visibility','visible');
+	if ($("#vdimgck")[0]) {
+		$("#vdimgck")[0].src = "../include/vdimgck.php?tag=" + num;
+	}
+	return false;	
+} 
+</script>
+<!--pindao_nav begin-->
+  <!--pindao_nav end-->
+<div class="bigbox03" style="width:100%; height:auto; overflow:hidden; margin:0 auto;background: url(/templets/theme1/images/bg07.jpg) no-repeat center 0 #fff;background-size:100%;padding-top:65px;margin-top:-65px;">
+
+<div class="inner ziliao clearfix">
+	<dl>
+		<dt class="yuan"><a href="/member/index.php?uid=123456789c"> <img src="/uploads/userup/man.png?14357" alt="崔秀的头像" /> </a></dt>
+		<dd>
+			<p><strong>崔秀</strong> </p>
+			<p>                        <span><img src="/templets/theme1/images/img12.png">网站用户</span>
+                </p>
+		</dd>
+	</dl>
+</div>
+<div class="inner contBox clearfix">
+
+	<!--contBoxL begin-->
+		<div class="contBoxL">
+			<div class="leixing"><span><strong> 
+散文</strong></span></div>
+			<div class="leixing leixing2"><span>2025</span><strong>01/02</strong></div>
+			
+			<div class="leixing"><span>分享</span></div>
+			<div class="fenxiang">
+				<div class="bdsharebuttonbox"><a href="#" class="bds_tsina" data-cmd="" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+			<a href="#" class="bds_sqq" data-cmd="" title="分享到QQ好友"></a></div>
+ <script>
+
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"32"},"share":{},};
+	 with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+
+var url=location.href;
+	 var title= document.title;
+	
+$(".bds_tsina").attr('href',"http://service.weibo.com/share/share.php?url="+url+"&appkey=&language=zh_cn&title="+title+"&source=&sourceUrl=&ralateUid=&message=&uids=&pic=&searchPic=true&content=");
+$(".bds_sqq").attr('href',"http://connect.qq.com/widget/shareqq/index.html?url="+url+"&title="+title+"&source=&desc=&pics=");
+				
+</script>
+
+
+
+			</div>
+		</div>
+	<!--contBoxL end-->
+	<!--contBoxR begin-->
+		<div class="contBoxR">
+			<h1>云</h1> <style>.lianzaic{ display: inline-block;font-size:14px;width:40px;height:26px;line-height:26px; text-align:center;border:1px solid #f39800;color:#f39800;margin-left:10px;border-radius: 3px; vertical-align: top;}</style>
+			<p>云似海，云似絮，云似巍峨山峰，云之奇诡之态、之状，蕴藏千头万绪，暗流涌动，尽在风起云涌中千变万化。</p><p>我爱赏云，更倾向于家乡的云。我总感觉家乡的云与众不同，洁身自好，云卷云舒，尽显纯粹之美。</p><p>在乌兰察布那广袤无垠的苍穹之下，洁白的云朵恰似空灵脱俗的仙子，悠然自在地飘游着，俯瞰着我的家乡。我总是痴痴地久久凝望，思绪也随之飘向那浩渺无边的天际，心也沉醉在那如梦如幻的云影之中。</p><p> 云，是大自然最慷慨、最深情的馈赠。</p><p> 春风轻拂，云儿像是被唤醒的精灵，变得活泼而灵动。它们在天空中轻快地飘荡，有时聚成一团，宛如盛开的白莲花，高洁而典雅；有时又分散开来，如丝丝缕缕的薄纱，轻盈地缠绕在山间。春天的云，洁白中透着淡淡的粉蓝，与初绿的草原相互映衬，仿佛一幅刚刚着墨的水彩画，色彩清新，充满了生机与希望。在这生机勃勃的季节里，望着那变幻多姿的云，心中也满是对未来的憧憬和期待。云，驮着我的梦，驰骋远方。</p><p> 入夏时节，云儿像成熟的秀女，闲庭信步般从容舒缓，尽显娇柔姿态。我站在湛蓝的天空下，朵朵白云镶嵌其间，宛如一阙阙意境深远的诗行，启发我吟诗作赋的兴趣。</p><p>云，风流倜傥，运势非凡。一会儿变得如棉花般蓬松柔软，让人禁不住想要伸手轻抚；一会儿变得似薄纱般轻盈飘逸，随风舞动着如梦的旋律；一会儿变得像山峦般雄浑壮阔，彰显着大自然的磅礴气势。一会儿幻化成一群奔腾的骏马，嘶鸣声仿佛要撕裂云霄，那矫健的身姿充满了力量与激情；一会儿幻化成一片绚丽的花海，芬芳四溢，随风摇曳，仿佛能闻到那醉人的花香；一会儿幻化成一座神秘的城堡，在缥缈的烟雾中若隐若现，如梦如幻，令人心驰神往。</p><p> 一个骄阳似火的午后，炽热的光芒毫不留情地洒在辽阔的草原上。而天空中的白云，堆积出群楼仙阁的盛景。我惬意地躺在柔软的草地上，望着那仙境缓缓移动着，变化出万千景象；恍惚间，我似乎能听到它们轻盈的脚步声，听到它们轻柔的呼吸声。忽地，一朵宛如一只温柔玉手的云，轻轻拂过我的面庞，带来丝丝沁人心脾的凉意。在那一刻，我仿佛与这片天地融为一体，内心澄澈如镜，仿佛进入了超凡脱俗的禅境，世间的纷扰喧嚣都离我远去。</p><p> 在深秋的黄昏，我有幸目睹了晚霞映照下的云。那云被渲染成橙红、紫红、金黄，色彩斑斓得如同大师笔下的绚丽画卷，而其核心依然保持着洁白的本真。它们静静地陪伴着夕阳缓缓西沉，时而幻化成灵动的飞鸟，向着远方振翅高飞，仿佛在引领着我去追寻那缥缈而美好的梦想。我痴痴地望着，思绪也随着那飞鸟飘向了未知的远方。</p><p> 乌兰察布的寒冬，云有时会压低身姿，与皑皑白雪相互交融。放眼望去，天地间一片洁白纯净，让人难以分辨哪是云，哪是雪。此时的云，恰似大地温暖的衾被，为这片土地带来温馨与安宁。它们偶尔俏皮地洒下几片雪花，如同给人间送来神秘而祥瑞的礼物，给寂静的世界增添了几分灵动的诗意。</p><p> 记得小时候，我独自一人在草原上漫步，追逐着云朵的影子，沉醉于四周的美景，不知不觉走进了起伏跌宕的山峦之中。等我回过神来，才发现自己迷失了方向。内心被恐惧和无助紧紧缠绕，我拼命地呼喊，声音在空旷的山谷中回荡，却只有自己的尾音回应着我。就在我近乎绝望的时候，抬头望见那一朵朵洁白的云，在山谷间飞荡，那飘飘欲仙的身姿，变幻着游弋着，似伸展出一双纤细的妙手向我示意。我紧紧盯着云的飘动轨迹，一步一步艰难地前行。不知走了多久，终于，我看到了熟悉的小路。啊，是云，在我最迷茫的时刻，引领我找到了回家的路。那一刻，我欣喜若狂，满怀感激，对着云朵呐喊、致谢，仿佛它们是守护我的天使。</p><p> 往昔岁月，我与小伙伴们一同于草原之上、白云之下追逐嬉戏。那白云，宛如我们放飞的梦想之舟，牵引着我们尽情奔跑，欢歌笑语如铃音回荡。野花野草在微风中轻柔摇曳，似在应和着我们欢快的节奏，于这片山野间、白云中纵情舞动。</p><p> 那时的我们，常常躺在柔软的草地上，欣赏着一朵朵云，在底色湛蓝的天空中演绎着变化着图形。一幅形似千船扬帆起航，一位仙风道骨的智者傲立云头，奋力划桨的画面，令我至今记忆犹新。我们望着云朵，分享着彼此心底的秘密，憧憬着未来的模样。我们还曾在白云的见证下，许下一生坚守家乡的纯真誓言。</p><p> 时光荏苒，那些曾经相伴的小伙伴们早已各赴前程，散落于天涯海角的茫茫人海。但那一朵朵白云，依旧默默守候在这片广袤天空，守望着、抚慰着我们那一段段无比珍贵的往昔故事。每当我仰望那片熟悉的天空，心中便涌起无尽的温暖与思念，仿佛那些远去的小伙伴们从未离开，我们的情谊依然在白云深处延续，永恒不变。</p><p> 我心目中的云，多以温柔的形态温馨的画面存在。但对云的描写，也有不同的版本，如“四海翻腾云水怒，五州震荡风雷激”，电闪雷鸣、桀骜不驯；云的叛逆、作乱，也是为了孕育雨水，润泽万物，美化环境的。我总是善解云意的。</p><p>此时此刻，我仰望长空，城市的高楼大厦竭尽所能排挤着一朵朵云彩的空间，从一条条缝隙中，云依飘然自如，不放过一丝出彩的机会。</p><p>云，牵着我的思绪，走进家乡的千山万水之中……。</p><p>云，那洁白的倩影，成为我生命中最珍贵的约定，宛如那永恒的禅意，萦绕心间，永不消逝。</p>			
+		</div>
+	<!--contBoxR end-->
+</div>
+<div class="inner clearfix">
+	    
+	<!--我也说几句 begin-->
+	<div class="title01 title02"><span>我也说几句</span><strong>共<i>0</i>条评论</strong></div>
+	<div class="pinglunCont">
+					<dl class="pinglun">
+				<b>请先登录才能发表评论! <a href="/member/index.php" target="_blank" style="color:#0000ff">[登录]</a> <a href="/member/index_do.php?fmdo=user&dopost=regnew" target="_blank" style="color:#FF0000">[我要成为会员]</a></b>
+			</dl>
+				<script>
+          	// dong-》验证码刷新
+          	function say(){//自定义函数
+            	$("#vdimgck").trigger("click");  
+          	}
+          	$(function(){
+              	$("#validate").focus(function(){//ID为test的元素点击时
+               		say();
+              	});
+          	});
+      </script>
+		
+			</div>
+	</div>
+
+</div>
+<script>
+	// 时间戳转换
+	 function getMyDate(str){  
+            var oDate = new Date(str),  
+            oYear = oDate.getFullYear(),  
+            oMonth = oDate.getMonth()+1,  
+            oDay = oDate.getDate(),  
+            oHour = oDate.getHours(),  
+            oMin = oDate.getMinutes(),  
+            oSen = oDate.getSeconds(),  
+            oTime = oYear +'-'+ getzf(oMonth) +'-'+ getzf(oDay) +' '+ getzf(oHour) +':'+ getzf(oMin) +':'+getzf(oSen);//最后拼接时间  
+            return oTime;  
+        }; 
+        //补0操作
+      function getzf(num){  
+          if(parseInt(num) < 10){  
+              num = '0'+num;  
+          }  
+          return num;  
+      }
+
+	//时间戳转换
+	var num = 1;
+	var reMethod = "POST",pwdmin = 6;
+
+	//点击请求更多评论
+	$(".allPl").click(function(){
+		$.ajax({
+		  		type: "get",
+		  		url: "/member/ajax_pinlun.php?act=jiazaip&aid="+$("#aid").val()+"&page="+num,
+	          	data: "",
+	          	dataType:'json',  
+	          	success: function(data){
+	          		console.log(data);
+	          		if(data.length >=1){
+		          		//请求成功
+		          		var pinglun1 = "";
+		          		for(var i=0;i<data.length;i++){
+							var timeaa = data[i]['dtime']*1000; 
+							var datatime = getMyDate(timeaa);
+							
+							 pinglun1 += "<dl><dt><a href='index.php?uid="+data[i]['userid']+"' terget='_blank' ><img src='"+data[i]['mface']+"'></a></dt><dd><h6><a href='index.php?uid="+data[i]['userid']+"'  terget='_blank' >"+data[i]['username']+"</a></h6><p>"+data[i]['msg']+"</p><span>"+datatime+" </span></dd></dl>";  
+						}
+						$(".pinlunList").append(pinglun1);
+		        		num++;
+	          		}else{
+	          			alert("没有更多评论了！");
+	          			$(".allPl").remove();
+	          		}
+	          	
+	          	},
+	          	error:function(){
+	          		alert("失败");
+	          	}
+      	}); 
+	});
+</script>
+<!--footer begin-->
+  <footer>
+    <div class="inner footer_inner clearfix">
+   		<p>   <p>中国作家出版集团版权所有 | 京ICP备16044554号 | 京公网安备110402440007号</p> 本网站有部分内容来自互联网，如媒体、公司、企业或个人对该部分主张知识产权，请来电或致函告之，本网站将采取适当措施， 否则，与之有关的知识产权纠纷本网站不承担任何责任。</p>
+    </div>
+  </footer>
+  
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?31d783369db922eb5d6f5e5c3cc8ce3a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+<div style="display: none">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1276860773'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/stat.php%3Fid%3D1276860773' type='text/javascript'%3E%3C/script%3E"));</script></div>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="/templets/public/huiyuan/js/fenxiang.js"></script><!--footer end-->
+</body>
+<script>
+	 //dong--添加验证
+	 $('#regUser').submit(function (){
+	 	if($('#validate').val()==""){
+	 		$('#validate').focus();
+	 		alert("请填写验证码！");
+	 		return false;
+	 	}
+	 	if($('#cmtcontent').val()==""){
+	 		$('#cmtcontent').focus();
+	 		alert("请填写评论内容！");
+	 		return false;
+	 	}
+	 
+	 })
+      //end
+</script>
+<script>
+	function hideVc()
+	{
+		$('#ver_code').css('visibility','hidden');
+	}
+
+    $(document).ready(function() {  
+       $(".qiehuanTit span").each(function(index){
+        $(this).click(function(){
+          $(".qiehuanCont").addClass("contNone");
+          $(".qiehuanCont:eq("+index+")").removeClass("contNone");
+          $(".qiehuanTit span").removeClass("xzOn");
+          $(this).addClass("xzOn");
+        })
+      })
+
+     });  
+
+</script>
+<script src="/plus/count.php?view=0&aid=700677" type='text/javascript' language="javascript"></script>
+
+</html>

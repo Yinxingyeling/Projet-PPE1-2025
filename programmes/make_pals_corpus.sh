@@ -44,6 +44,7 @@ do
                 echo "Tokenisation chinoise échouée: $FICHIER"
                 continue
             fi
+
         fi
 
         # Vérifier si le fichier est en UTF-8
