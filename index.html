@@ -2,11 +2,14 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Home</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>☁️</text>
+            </svg>">
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/cloudanimation.css">
     </head>
     <body class="is-info has-background-info-light">
@@ -43,6 +46,16 @@
                         Home
                     </a>
 
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="AL-journal.html">Français</a>
+                            <a class="navbar-item" href="LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
+                    
                     <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Analyse</a>
@@ -123,8 +136,13 @@
             </div>
             <div class="has-text-justify centraliser">
                 <div class="section">
-                    <div class="block">
-                        <button class="button is-primary has-background-link-light" style="cursor: default;">Alice</button>
+                    
+                    <div class="block" style="display: flex; align-items: center; gap: 10px;">
+                        <a style="margin-left: 10px;" href="https://github.com/Yinxingyeling/Projet-PPE1-2025" target="_blank" rel="noopener noreferrer" title="Dépôt GitHub">
+                            <img src="assets/img/github.svg" width="23" />
+                        </a>
+                        <span class="button has-background-link-light" style="cursor: default;">Alice</span>
+                        <a href="AL-journal.html" class="button has-text-info-light has-background-grey">Journal</a>
                     </div>
                     <div class="box">
                         <p>
@@ -133,8 +151,12 @@
                             Je m'occupe de la partie français pour le projet."
                         </p>
                     </div>
-                    <div class="block">
-                        <button class="button is-primary has-background-link-light" style="cursor: default;">Hongrui</button>
+                    <div class="block" style="display: flex; align-items: center; gap: 10px;">
+                        <a style="margin-left: 10px;" href="https://github.com/Yinxingyeling/Projet-PPE1-2025" target="_blank" rel="noopener noreferrer" title="Dépôt GitHub">
+                            <img src="assets/img/github.svg" width="23" />
+                        </a>
+                        <span class="button has-background-link-light" style="cursor: default;">Hongrui</span>
+                        <a class="button has-text-info-light has-background-grey" href="LU_journal.html">Journal</a>
                     </div>
                     <div class="box">
                         <p>

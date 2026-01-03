@@ -2,10 +2,15 @@
         <head>
             <meta charset="UTF-8">
             <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
+            <link rel="icon" href="data:image/svg+xml, 
+                <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+                <text y='0.9em' font-size='90'>🔗</text>
+                </svg>">
+            <link rel="stylesheet" href="../assets/css/style.css"/>
             <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+            <link rel=stylesheet href=../assets/css/cloudanimation.css>
             <style>
                 /* Alignement des en-têtes */
                 .concordance-table th:nth-child(2) { text-align: right; width: 40%; }
@@ -21,13 +26,16 @@
             </style>
         </head>
 
-        <body>
-            <section class="hero is-medium is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                        <h1 class="title is-1">Tableau des concordances</h1>
-                        <h2 class="subtitle is-3">Corpus français</h2>
-                    </div>
+        <body class="tableau has-background-info-light">
+            <section class="hero is-medium is-info hero-cloud">
+                <div class=sky\>
+                    <div class="clouds_one"></div>
+                    <div class="clouds_two"></div>
+                    <div class="clouds_three"></div>
+                </div>
+                <div class="hero-body container has-text-centered hero-content">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus français</h2>
                 </div>
             </section>
             <nav class="navbar" role="navigation" aria-label="main navigation"> 
@@ -50,59 +58,69 @@
                             Home
                         </a>
 
-                        <!-- Analyse -->
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">Analyse</a>
+                        <!-- Journal -->
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">Journal</a>
 
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="../fr_analyse.html">Français</a>
-                            <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../AL-journal.html">Français</a>
+                                <a class="navbar-item" href="../LU_journal.html">Chinois</a>
+                            </div>
+                        </div>
+
+                            <!-- Analyse -->
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">Analyse</a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../fr_analyse.html">Français</a>
+                                <a class="navbar-item" href="../zh_analyse.html">Chinois</a>
+                            </div>
+                        </div>
+
+                        <!-- Script -->
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">Script</a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../fr_script.html">Français</a>
+                                <a class="navbar-item" href="../zh_script.html">Chinois</a>
+                                <a class="navbar-item" href="../blacklist.html">Blacklist</a>
+                                <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                            </div>
+                        </div>
+
+                        <!-- Tableau -->
+                        <div class="navbar-item has-dropdown is-hoverable">
+
+                            <a class="navbar-link">Tableau</a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
+                                <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
+                            </div>
+                        </div>
+
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">Concordances</a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item has-background-link-light is-selected" href="../concordances/fr-final.html">Français</a>
+                                <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
+                            </div>           
                         </div>
                     </div>
-
-                    <!-- Script -->
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">Script</a>
-
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="../fr_script.html">Français</a>
-                            <a class="navbar-item" href="../zh_script.html">Chinois</a>
-                            <a class="navbar-item" href="../blacklist.html">Blacklist</a>
-                            <a class="navbar-item" href="../make_pals_corpus.html">PALS</a>
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <button class="button has-background-link-light" onclick="history.back();">Retour</button>
+                            </div>
                         </div>
-                    </div>
-
-                    <!-- Tableau -->
-                    <div class="navbar-item has-dropdown is-hoverable">
-
-                        <a class="navbar-link">Tableau</a>
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="../tableaux/tableau-fr.html">Français</a>
-                            <a class="navbar-item" href="../tableaux/tableau-zh.html">Chinois</a>
-                        </div>
-                    </div>
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">Concordances</a>
-
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item has-background-link-light is-selected" href="../concordances/fr-final.html">Français</a>
-                            <a class="navbar-item" href="../concordances/zh-final.html">Chinois</a>
-                        </div>           
-                    </div>
-                </div>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <button class="button is-primary" onclick="history.back();">Retour</button>
-                        </div>
-                    </div>
                 </div>
             </nav>
 
             <section class="section">
                 <div class="container">
-                    <table class="table is-striped is-fullwidth concordance-table">
+                    <table class="table is-striped concordance-table is-hoverable" style="border-radius:10px;">
                         <tr>
                             <th>Fichier</th>
                             <th>Contexte gauche</th>
@@ -932,7 +950,7 @@
 					<tr><td>27</td><td><span style="text-align:right;">   composition ou la trajectoire des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> au-dessus du territoire de la</span></td></tr>
 					<tr><td>27</td><td><span style="text-align:right;">   l’ensemencement des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">. Ainsi, début 2025, les élèves du collège</span></td></tr>
 					<tr><td>27</td><td><span style="text-align:right;">   l’ensemencement des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> dans l’enceinte de l’établissement.</span></td></tr>
-					<tr><td>27</td><td><span style="text-align:right;">   La fin des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, de Mathieu Simonet, aux éditions [36]Julliard, 2023,</span></td></tr>
+					<tr><td>27</td><td><span style="text-align:right;">   La fin des </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;">, de Mathieu Simonet, aux éditions [35]Julliard, 2023,</span></td></tr>
 					<tr><td>27</td><td><span style="text-align:right;">   Météo du futur : les </span></td><td><span style="color:red;">nuages</span></td><td><span style="text-align:left;"> au cœur du changement climatique</span></td></tr>
 					<tr><td>28</td><td><span style="text-align:right;">Le motif du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> en littérature et dans les arts visuels : suspension,</span></td></tr>
 					<tr><td>28</td><td><span style="text-align:right;">     * Le motif du </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> en littérature et dans les arts visuels :</span></td></tr>
@@ -1186,6 +1204,8 @@
 					<tr><td>40</td><td><span style="text-align:right;">   d'entreprise en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> destinée aux petites et moyennes entreprises qui</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">   En tant que société ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> à la croissance la plus rapide au</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">   sur les entreprises qui adoptent l'informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> et sa</span></td></tr>
+					<tr><td>40</td><td><span style="text-align:right;">   [224]Acumatica, société spécialisée dans l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, propose des</span></td></tr>
+					<tr><td>40</td><td><span style="text-align:right;">   [225]Acumatica, société spécialisée dans l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, propose des</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">   [231]Système ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> Acumatica</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">     * [241]Qu'est-ce que l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> ?</span></td></tr>
 					<tr><td>41</td><td><span style="text-align:right;">Qu’est-ce que l’informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> ?</span></td></tr>

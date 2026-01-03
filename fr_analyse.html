@@ -1,16 +1,29 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Home</title>
+        <title>Analyse du français</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>🔍</text>
+            </svg>">
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+        <link rel="stylesheet" href="assets/css/cloudanimation.css">
     </head>
     <body class="is-info has-background-info-light">
-        <section class="hero is-medium is-info">
-            <div class="hero-body container has-text-centered">
-                <h1 class="title is-1">Projet PPE 1 : nuage / 云</h1>
+        <section class="hero is-medium is-info hero-cloud">
+
+            <div class="sky">
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
+            </div>
+            
+            <div class="hero-body container has-text-centered hero-content">
+                <h1 class="title is-1">Analyse</h1>
+                <h2 class="subtitle is-3">Corpus français</h2>
             </div>
         </section>
         <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -32,6 +45,16 @@
                         Home
                     </a>
                     
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="AL-journal.html">Français</a>
+                            <a class="navbar-item" href="LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
+
                     <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Analyse</a>
@@ -117,7 +140,7 @@
                 </div>
 
                 <!-- Ajout des codes .py utlisés-->
-                <pre style="background-color: rgb(240, 249, 252); color: rgb(211, 8, 8);margin: 10px auto; width: 90%; text-align: justify;"><code>
+                <pre class="pals_wc"><code>
                     # Prétraitement des problèmes d'encodages
                     python fix_encoding.py contextes-fr.txt contextes-fr-clean.txt
                     python fix_encoding.py dumps-text-fr.txt dumps-text-fr-clean.txt
@@ -170,11 +193,44 @@
                     </div>
 
                     <!-- Conclusion - Analyse des résultats de cooccurrences -->
-                    <div class="block">
+                    <div class="block" style="margin: 10px auto; width: 70%; text-align: justify">
                         <h1 class="subtitle is-3 has-text-centered">Analyse</h1>
-                        <h2 class="subtitle is-4">Dumps</h2>
+                        <h2 class="subtitle is-4">Dumps - Cooccurrences</h2>
                         <div>
-                            <p>Selon le tableau de <strong>Dumps - Cooccurrences</strong>, </p>
+                            <ul>
+                                <li>Les problèmes d'encodage ont quasiment disparu, il reste quelque artefacts du aux dumps des sites webs.</li>
+                                <li>Deux champs lexicaux dominent : <strong>scientifique</strong> et <strong>environnement</strong></li>
+                                <li>
+                                    Le mot <strong>nuage</strong> apparaît souvent avec <strong>mot</strong> et <strong>informatique</strong>. 
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;<!-- Espace on cassable = "\t"--> 
+                                    La paire mot/nuage peut être interprété par des métadiscours, explication du mot ou encore pour l'expression 'nuage de mot' qui faisait partie de nos centres de recherche.
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;<!-- Espace on cassable = "\t"--> 
+                                    Le terme informatique semble être LE thème principal de tous nos corpus avec une spécificité de près de 80%, ce qui est énorme.
+                                </li>
+                                <li>
+                                    Le mot que nous avons à la suite sont surtout présent pour la structure, avec une majeure partie de termes masculin
+                                    ce qui est explicable, car le mot "nuage" est au masculin.
+                                </li>
+                                <li>
+                                    Un peu plus loin dans le tableau, nous retrouvons des termes plutôt présent dans des corpus sur l'environnement, comme <strong>pesticide</strong>,
+                                     <strong>ciel</strong>, <strong>Météorologie</strong>...
+                                </li>
+                                <li>Les mots comme <strong>url</strong> sont très présents et haut dans le tableau. Ce sont des restes d'extractions dumps des liens.</li>
+                            </ul>
+                        </div>
+                        <h1 class="subtitle is-4" style="margin-top: 10px;">Contextes - Cooccurrences</h1>
+                        <div>
+                            <ul>
+                                <li>
+                                    Tous comme le tableau Dumps, les deux premiers mots trouvés sont <strong>informatique</strong> et <strong>mots</strong>,
+                                    la différence est l'ordre dans le tableau. Pour contextes, informatique passe avant mots.
+                                </li>
+                                <li>Les mots de structure sont moins présents.</li>
+                                <li>Le domaine informatique ressort davantage, les termes en lien avec l'environnement viennent surtout après les lignes 25.</li>
+                                <li>Les données de fréquence et de spécificité diffèrent grandement des cooccurrences des corpus dumps. Le plafond de spécificité pour 
+                                    le corpus contextes n'atteint que 20.83 alors que dans dumps le maximum monte à 99.71. Un différence flagrande.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </section>
@@ -221,12 +277,19 @@
                 </script>
             </div>
         </section>
+
         <!-- Wordcloud -->
         <section class="section">
             <div>
                 <h1 class="title is-1 has-text-centered">Wordcloud</h1>
-
+                <pre class="pals_wc"><code>
+                    wordcloud_cli   --text ../contextes-zh-clean.txt   --imagefile cloud_zh_contextes.png  --mask mask.png --stopwords stopwords_chinois.txt   --fontfile /usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc   --background white --scale 3 --margin 2 --max_font_size 50  --prefer_horizontal 0.98
+                </code></pre>
             </div>
-        </section>
+             <div class="wordcloud-row" style="margin-top: 25px;">
+                <img src="assets/wordcloud/cloud-fr-contextes.png" class="wc box">
+                <img src="assets/wordcloud/cloud_zh_contextes.png" class="wc box">
+            </div>
+        </section> 
     </body>
 </html>

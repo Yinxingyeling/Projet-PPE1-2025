@@ -47,3 +47,27 @@ div.blockGe {
     gap:10px;
     min-height: 320px;       /* hauteur minimum pour le centrage vertical */
 }
+
+/* Wordcloud */
+pre.pals_wc {
+    background-color: rgb(240, 249, 252); 
+    color: rgb(211, 8, 8);
+    margin: 10px auto; 
+    width: 70%; 
+    text-align: justify;
+}
+
+/* Image wordcloud */
+.wordcloud-row {
+    display: flex;
+    justify-content: center;   /* centre la ligne */
+    align-items: center;
+    gap: 20px;                 /* espace entre les images */
+    margin-top: 25px;
+}
+
+img.wc {
+    width: 40%;                /* chacune prend 40% */
+    max-width: 400px;          /* évite qu’elles deviennent énormes */
+    height: auto;
+}

@@ -1,33 +1,41 @@
 <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Liste de concordances</title>
-            <link rel="stylesheet" href="../../assets/css/style.css"/>
-            <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-            <style>
-                /* Alignement des en-têtes */
-                .concordance-table th:nth-child(2) { text-align: right; width: 45%; }
-                .concordance-table th:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
-                .concordance-table th:nth-child(4) { text-align: left; width: 45%; }
-                .concordance-table th:nth-child(1) { text-align: center; color: #999; }
-                
-                /* Alignement des élément dans tableau */
-                .concordance-table td:nth-child(2) { text-align: right; width: 45%; }
-                .concordance-table td:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
-                .concordance-table td:nth-child(4) { text-align: left; width: 45%; }
-                .concordance-table td:nth-child(1) { text-align: center; color: #999; }
-            </style>
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liste de concordances</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>🔗</text>
+            </svg>">
+        <link rel="stylesheet" href="../assets/css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+        <link rel=stylesheet href=../assets/css/cloudanimation.css>
+        <style>
+            /* Alignement des en-têtes */
+            .concordance-table th:nth-child(2) { text-align: right; width: 45%; }
+            .concordance-table th:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
+            .concordance-table th:nth-child(4) { text-align: left; width: 45%; }
+            .concordance-table th:nth-child(1) { text-align: center; color: #999; }
+            
+            /* Alignement des élément dans tableau */
+            .concordance-table td:nth-child(2) { text-align: right; width: 45%; }
+            .concordance-table td:nth-child(3) { text-align: center; width: 10%; color: red; font-weight: bold; }
+            .concordance-table td:nth-child(4) { text-align: left; width: 45%; }
+            .concordance-table td:nth-child(1) { text-align: center; color: #999; }
+        </style>
+    </head>
 
-        <body>
-            <section class="hero is-medium is-primary">
-                <div class="hero-body">
-                    <div class="container">
-                        <h1 class="title is-1">Tableau des concordances</h1>
-                        <h2 class="subtitle is-3">Corpus chinois</h2>
-                    </div>
+    <body class="tableau has-background-info-light">
+            <section class="hero is-medium is-info hero-cloud">
+                <div class=sky\>
+                    <div class="clouds_one"></div>
+                    <div class="clouds_two"></div>
+                    <div class="clouds_three"></div>
+                </div>
+                <div class="hero-body container has-text-centered hero-content">
+                    <h1 class="title is-1">Tableau des concordances</h1>
+                    <h2 class="subtitle is-3">Corpus chinois</h2>
                 </div>
             </section>
             <nav class="navbar" role="navigation" aria-label="main navigation"> 
@@ -49,6 +57,16 @@
                         <a class="navbar-item" href="../index.html">
                             Home
                         </a>
+
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../AL-journal.html">Français</a>
+                            <a class="navbar-item" href="../LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
 
                         <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
@@ -94,7 +112,7 @@
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <button class="button is-primary" onclick="history.back();">Retour</button>
+                            <button class="button has-background-link-light" onclick="history.back();">Retour</button>
                         </div>
                     </div>
                 </div>
@@ -102,7 +120,7 @@
 
             <section class="section">
                 <div class="container">
-                    <table class="table is-striped is-fullwidth concordance-table">
+                    <table class="table is-striped is-hoverable concordance-table" style="border-radius: 10px;">
                         <tr>
                             <th>Fichier</th>
                             <th>Contexte gauche</th>
@@ -277,6 +295,7 @@
 <tr><td>5</td><td>白</td><td>云</td><td>、蓝天，游轮、帆船，以及水草、水鸟，还有味道鲜美的许多鱼类。这是一种美得不能再美的境界，像个知心朋友。每个人，无论幸福与否，都能与她倾诉，</td></tr>
 <tr><td>5</td><td>苍山的</td><td>云</td><td>，洱海的月，因其巧夺天工的自然美而为人们着迷，更因有了这许多的变幻、许多的传说，越发富有吸引力，为人们津津乐道，心神往之，总是在有意无</td></tr>
 <tr><td>5</td><td></td><td>云</td><td>南是最适合执子之手、与子同游的地方。我希望终有一日，能和你一起站在鹊桥，望那苍山洱海，看那风花雪月。</td></tr>
+<tr><td>5</td><td>美盈国旅轻奢度假：洱海海景民宿+私人游艇解锁</td><td>云</td><td>南高端游新方式</td></tr>
 <tr><td>6</td><td>沈从文：云南看</td><td>云</td><td></td></tr>
 <tr><td>6</td><td>来源：《水</td><td>云</td><td>：沈从文散文》</td></tr>
 <tr><td>6</td><td>真实的人生轨迹，充满着温馨的人情之美。时值沈从文先生逝世30周年，果麦文化出版《水</td><td>云</td><td>：沈从文散文》（2018年9月），再现沈从文的生命轨迹与深</td></tr>
@@ -718,6 +737,7 @@
 <tr><td>20</td><td>有人可能是出于好奇心，但对更多人是出于关心、暖心的行动。而“</td><td>云</td><td>监工”背后的高关注度，让每一个石家庄人、每一个河北人都知道：你不是一个人在战斗。</td></tr>
 <tr><td>20</td><td>“</td><td>云</td><td>监工”，对于施工者、建设者和管理者来说，是一种接受检视的方式。施工现场24小时直播，施工过程“全透明”，有压力也有动力。工地每个小时都有那</td></tr>
 <tr><td>20</td><td>“云监工”是集体打call，也是集体的关注与托付。“</td><td>云</td><td>监工”，这里承载着信任与责任。</td></tr>
+<tr><td>20</td><td>[2026010314490772082.jfif] </td><td>云</td><td>南省德宏州委副书记、州长卫岗接受纪律审查和监察调查</td></tr>
 <tr><td>21</td><td>2026，「超级」AI</td><td>云</td><td>的新赛点</td></tr>
 <tr><td>21</td><td>大厂</td><td>云</td><td>生意，还需要破局者</td></tr>
 <tr><td>21</td><td>作为人工智能基础设施的云计算，AI与其相融同样也在深刻地改变过去十来年的</td><td>云</td><td>的发展史。</td></tr>
@@ -1190,6 +1210,7 @@
 <tr><td>43</td><td>楼阁玲珑五</td><td>云</td><td>起，其中绰约多仙子。</td></tr>
 <tr><td>43</td><td>云鬓半偏新睡觉，花冠不整下堂来。(云鬓 一作：</td><td>云</td><td>髻)</td></tr>
 <tr><td>43</td><td>鬓发如</td><td>云</td><td>面容似花，头戴着金步摇，在精美的芙蓉帐中与皇上共度春宵。</td></tr>
+<tr><td>43</td><td>愁云淡淡雨潇潇，暮暮复朝朝。 ——石孝友《眼儿媚·愁</td><td>云</td><td>淡淡雨潇潇》</td></tr>
 <tr><td>44</td><td>#今日泰国-泰国中文社 » Feed 今日泰国-泰国中文社 » 评论 Feed 今日泰国-泰国中文社 » 卧佛寺游客如</td><td>云</td><td>，祈求神明赐福迎接新年</td></tr>
 <tr><td>44</td><td>Reading: 卧佛寺游客如</td><td>云</td><td>，祈求神明赐福迎接新年</td></tr>
 <tr><td>44</td><td>卧佛寺游客如</td><td>云</td><td>，祈求神明赐福迎接新年</td></tr>

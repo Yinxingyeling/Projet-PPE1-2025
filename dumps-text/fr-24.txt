@@ -148,7 +148,7 @@ La Terre de nos batailles
    _____________________________________________
    _____________________________________________
    _____________________________________________
-   Facebook
+   X/Twitter
    ____________________
    Ce champ n’est utilisé qu’à des fins de validation et devrait rester
    inchangé.
@@ -246,34 +246,35 @@ et débloquez tous les contenus
      * [66]Pocket
 
    En continu
-   18h49 [67]Yémen : les séparatistes annoncent le début d’un processus
-   vers l’indépendance du Sud
-   17h54 [68]CAN 2025 : Ayoub El Kaabi, l’orfèvre du but
-   15h12 [69]Sexisme : militantes et responsables politiques alertent sur
-   l’usage de l’IA Grok pour déshabiller virtuellement des femmes sans
-   leur consentement
-   14h29 [70]Tribune. 2026 : où va notre école ?
+   23h43 [67]Direct. Cuba appelle l’Amérique latine à « serrer les rangs »
+   face aux États-Unis
+   23h13 [68]À New York, la guerre de Trump ne passe pas : « C’est à nous
+   de résister et de dire « Non »
+   20h58 [69]Direct. Maduro « unique président » selon Delcy Rodriguez,
+   vice-présidente du Venezuela
+   19h49 [70]Direct. Premières mobilisations à travers le monde contre
+   l'intervention américaine
    [71]Voir toute l’actu
 
    Articles les plus lus dans cette rubrique
    1
    [72]
 
-   L’A69, puissant révélateur des renoncements environnementaux de la
-   Macronie
-   [73]Éditorial
+   Prévue pour 2026, l’interdiction des gobelets jetables composés de
+   plastique reportée à 2030
+   [73]Actu
    2
    [74]
 
-   Prévue pour 2026, l’interdiction des gobelets jetables composés de
-   plastique reportée à 2030
-   [75]Actu
+   Stockage carbone : le hold-up à 500 milliards d'euros des industriels
+   les plus polluants sur le climat
+   [75]Les enquêtes de l'Humanité
    3
    [76]
 
-   Banques : 50 milliards d’épargne durable détournés pour financer la
-   course à l'armement et le génocide à Gaza
-   [77]Environnement
+   L’intrigante trajectoire d’Oliver Geden, le scientifique du Giec devenu
+   apôtre des solutions technologiques pour sauver le climat
+   [77]Les enquêtes de l'Humanité
      __________________________________________________________________
 
    à lire aussi
@@ -427,17 +428,17 @@ Références
   64. https://api.whatsapp.com/send?text=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
   65. https://www.facebook.com/dialog/send?app_id=254585183694&link=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&redirect_uri=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
   66. https://getpocket.com/save?url=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&title=Pesticides :+jusqu’à+140+tonnes+détectées+dans+les+nuages,+dont+des+substances+interdites
-  67. https://www.humanite.fr/monde/arabie-saoudite/yemen-les-separatistes-annoncent-le-debut-dun-processus-vers-lindependance-du-sud
-  68. https://www.humanite.fr/sports/coupe-dafrique-des-nations/can-2025-ayoub-el-kaabi-lorfevre-du-but
-  69. https://www.humanite.fr/feminisme/cyberharcelement/militants-et-responsables-politiques-alertent-sur-lusage-de-lia-grok-pour-deshabiller-virtuellement-des-femmes-sans-leur-consentement
-  70. https://www.humanite.fr/en-debat/ecole/2026-ou-va-notre-ecole
+  67. https://www.humanite.fr/monde/-/cuba-appelle-lamerique-latine-a-serrer-les-rangs-face-aux-etats-unis
+  68. https://www.humanite.fr/monde/donald-trump/a-new-york-la-guerre-de-trump-ne-passe-pas-cest-a-nous-de-resister-et-de-dire-non
+  69. https://www.humanite.fr/monde/-/maduro-unique-president-selon-delcy-rodriguez-vice-presidente-du-venezuela
+  70. https://www.humanite.fr/monde/-/mobilisations-a-travers-le-monde-contre-lintervention-americaine
   71. https://www.humanite.fr/en-continu
-  72. https://www.humanite.fr/environnement/autoroute-a69/la69-puissant-revelateur-des-renoncements-environnementaux-de-la-macronie
-  73. https://www.humanite.fr/surtitre/editorial
-  74. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
-  75. https://www.humanite.fr/surtitre/actu
-  76. https://www.humanite.fr/environnement/armement/genocide-a-gaza-50-milliards-depargne-durable-detournes-pour-des-drones-et-des-bombes
-  77. https://www.humanite.fr/surtitre/environnement
+  72. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
+  73. https://www.humanite.fr/surtitre/actu
+  74. https://www.humanite.fr/environnement/climat/stockage-carbone-le-hold-up-a-500-milliards-des-industriels-sur-le-climat
+  75. https://www.humanite.fr/surtitre/enquete
+  76. https://www.humanite.fr/environnement/climat/lintrigante-trajectoire-doliver-geden-le-scientifique-du-giec-devenu-apotre-des-solutions-technologiques-pour-sauver-le-climat
+  77. https://www.humanite.fr/surtitre/enquete
   78. https://kiosque.humanite.fr/detail/publication/detail-top-right/15?issue_id=230993&switch_toc=archive&connect=true
   79. https://kiosque.humanite.fr/detail/publication/detail-top-right/17?issue_id=230490&switch_toc=archive&connect=true
   80. https://kiosque.humanite.fr/detail/publication/detail-top-right/238?issue_id=227866&switch_toc=archive&connect=true
@@ -492,9 +493,9 @@ Références
  128. https://www.humanite.fr/environnement/agriculture/sante-une-etude-confirme-la-surexposition-des-riverains-des-zones-viticoles-aux-pesticides
  129. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
  130. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
- 131. https://www.humanite.fr/environnement/autoroute-a69/la69-puissant-revelateur-des-renoncements-environnementaux-de-la-macronie
- 132. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
- 133. https://www.humanite.fr/environnement/armement/genocide-a-gaza-50-milliards-depargne-durable-detournes-pour-des-drones-et-des-bombes
+ 131. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
+ 132. https://www.humanite.fr/environnement/climat/stockage-carbone-le-hold-up-a-500-milliards-des-industriels-sur-le-climat
+ 133. https://www.humanite.fr/environnement/climat/lintrigante-trajectoire-doliver-geden-le-scientifique-du-giec-devenu-apotre-des-solutions-technologiques-pour-sauver-le-climat
  134. https://www.humanite.fr/environnement/dechets-plastiques/prevue-pour-2026-linterdiction-des-gobelets-jetables-composes-de-plastique-reportee-a-2030
  135. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
  136. https://sso.qiota.com/api/v1/authorize?response_type=code&client_id=64e4a32d7e517&scope=*&redirect_uri=https://www.humanite.fr/connect-success&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&error_uri=https://connexion.humanite.fr?redirect_uri=https://www.humanite.fr/connect-success&referer=3veQL3Ef9t&uri_referer=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites

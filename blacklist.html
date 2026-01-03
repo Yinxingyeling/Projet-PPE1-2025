@@ -1,35 +1,27 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Home</title>
+        <title>Blacklist</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>⛔</text>
+            </svg>">
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-
-        <!-- Ouvrir une nouvelle fenêtre vers le fichier -->
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const frButton = document.getElementById('frButton');
-                const frLink = "tmp/fr.txt-blacklist"; 
-                const zhButton = document.getElementById('zhButton');
-                const zhLink = "tmp/zh.txt-blacklist"; 
-
-                frButton.addEventListener('click', () => {
-                    // Ouvre une nouvelle fenêtre ou onglet
-                    window.open(frLink, "_blank", "width=600,height=400,resizable=yes");
-                });
-
-                zhButton.addEventListener('click', () => {
-                    // Ouvre une nouvelle fenêtre ou onglet
-                    window.open(zhLink, "_blank", "width=600,height=400,resizable=yes");
-                });
-            });
-        </script>
+        <link rel="stylesheet" href="assets/css/cloudanimation.css">
     </head>
     <body class="is-info has-background-info-light">
-        <section class="hero is-medium is-info">
-            <div class="hero-body container has-text-centered">
+        <section class="hero is-medium is-info hero-cloud">
+
+            <div class="sky">
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
+            </div>
+            
+            <div class="hero-body container has-text-centered hero-content">
                 <h1 class="title is-1">Blacklist</h1>
                 <h2 class="subtitle is-3">Corpus français et chinois</h2>
             </div>
@@ -52,6 +44,17 @@
                     <a class="navbar-item" href="index.html">
                         Home
                     </a>
+
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="AL-journal.html">Français</a>
+                            <a class="navbar-item" href="LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
+
                     <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Analyse</a>
@@ -69,7 +72,7 @@
                         <div class="navbar-dropdown">
                             <a class="navbar-item" href="fr_script.html">Français</a>
                             <a class="navbar-item" href="zh_script.html">Chinois</a>
-                            <a class="navbar-item is-selected has-background-link-light" href="blacklist.html">Blacklist</a>
+                            <a class="navbar-item has-background-link-light is-selected" href="blacklist.html">Blacklist</a>
                             <a class="navbar-item" href="make_pals_corpus.html">PALS</a>
                         </div>
                     </div>
@@ -96,10 +99,11 @@
             </div>
         </nav>
         <section class="section">
-            <h1 class="title is-1 has-text-centered">Blacklist</h1>
+            <h1 class="subtitle is-3 has-text-centered">Blacklist</h1>
+            <p class="has-text-centered" style="margin-bottom: 5px;">Cliquer sur les boutons ci-dessous pour afficher </p>
 
             <!-- Boutons pour afficher les blocs -->
-            <div class="buttons-row" style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:60px; margin-bottom:15px;">
+            <div class="buttons-row" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
                 <button class="button has-background-link-light" onclick="toggleBlock('blacklistFR')">
                     Blacklist du corpus français
                 </button>
@@ -179,7 +183,7 @@
         <!-- Script code -->
         <section class="section">
             <h1 class="title is-1 has-text-centered">Script</h1>
-            <pre id="code"></pre>
+            <pre id="code" class="box"></pre>
             <script>
             fetch("programmes/blacklist.sh")
             .then(r => r.text())

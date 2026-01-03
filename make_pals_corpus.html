@@ -1,58 +1,27 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Home</title>
+        <title>PALS</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>🐍</text>
+            </svg>">
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-
-        <!-- Ouvrir une nouvelle fenêtre vers le fichier -->
-        <!-- <script>
-            fetch("PALS/fix_encoding.py")
-            .then(r => r.text())
-            .then(txt => {
-                document.getElementById("code").textContent = txt;
-            });
-
-            document.addEventListener('DOMContentLoaded', () => {
-                // Fichier Dump-text
-                const frDump = document.getElementById('frDump');
-                const frDumpLink = "PALS/dumps-text-fr.txt"; 
-                const zhDump = document.getElementById('zhDump');
-                const zhDumpLink = "PALS/dumps-text-zh.txt";
-
-                // Fichier Contextes
-                const frCtxt = document.getElementById('frCtxt');
-                const frCtxtLink = "PALS/contextes-fr.txt";
-                const zhCtxt = document.getElementById('zhCtxt');
-                const zhCtxtLink = "PALS/contextes-zh.txt";
-
-                frDump.addEventListener('click', () => {
-                    // Ouvre une nouvelle fenêtre ou onglet
-                    window.open(frDumpLink, "_blank", "width=600,height=400,resizable=yes");
-                });
-
-                zhDump.addEventListener('click', () => {
-                    // Ouvre une nouvelle fenêtre ou onglet
-                    window.open(zhDumpLink, "_blank", "width=600,height=400,resizable=yes");
-                });
-
-                frCtxt.addEventListener('click', () => {
-                    // Ouvre une nouvelle fenêtre ou onglet
-                    window.open(frCtxtLink, "_blank", "width=600,height=400,resizable=yes");
-                });
-
-                zhCtxt.addEventListener('click', () => {
-                    // Ouvre une nouvelle fenêtre ou onglet
-                    window.open(zhCtxtLink, "_blank", "width=600,height=400,resizable=yes");
-                });
-            });
-        </script> -->
+        <link rel="stylesheet" href="assets/css/cloudanimation.css">
     </head>
     <body class="is-info has-background-info-light">
-        <section class="hero is-medium is-info">
-            <div class="hero-body container has-text-centered">
+        <section class="hero is-medium is-info hero-cloud">
+
+            <div class="sky">
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
+            </div>
+            
+            <div class="hero-body container has-text-centered hero-content">
                 <h1 class="title is-1">PALS</h1>
                 <h2 class="subtitle is-3">Corpus français et chinois</h2>
             </div>
@@ -73,6 +42,17 @@
                     <a class="navbar-item" href="index.html">
                         Home
                     </a>
+
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="AL-journal.html">Français</a>
+                            <a class="navbar-item" href="LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
+
                     <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Analyse</a>
@@ -201,9 +181,9 @@
             // Charger tous les fichiers au démarrage (optionnel)
             document.addEventListener('DOMContentLoaded', () => {
                 loadText('PALS/dumps-text-fr-clean.txt', 'dumpFRContent');
-                loadText('PALS/dumps-text-zh.txt', 'dumpZHContent');
+                loadText('PALS/dumps-text-zh-clean.txt', 'dumpZHContent');
                 loadText('PALS/contextes-fr-clean.txt', 'ctxtFRContent');
-                loadText('PALS/contextes-zh.txt', 'ctxtZHContent');
+                loadText('PALS/contextes-zh-clean.txt', 'ctxtZHContent');
             });
         </script>
 
@@ -211,7 +191,7 @@
         <!-- Script -->
         <section class="section">
             <h1 class="title is-1 has-text-centered">Script</h1>
-            <pre id="code"></pre>
+            <pre id="code" class="box"></pre>
             <script>
                 fetch("programmes/make_pals_corpus.sh")
                 .then(r => r.text())

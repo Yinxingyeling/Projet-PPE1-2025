@@ -341,18 +341,18 @@ Billets les plus lus
 
 Nuage de tags
 
-   [69]Actualité (255) [70]Admiration (228) [71]Aphorisme (43) [72]Art et
+   [69]Actualité (255) [70]Admiration (229) [71]Aphorisme (44) [72]Art et
    Culture (482) [73]Cinéma (37) [74]Célébrations (415) [75]Derniers mots
-   (26) [76]Ecriture (450) [77]Essai (156) [78]Fragment (79) [79]Histoires
+   (26) [76]Ecriture (451) [77]Essai (156) [78]Fragment (79) [79]Histoires
    brèves (142) [80]Hésychia (171) [81]Italie (33) [82]Lexique (41)
-   [83]Listes (19) [84]Littérature (317) [85]Livres (517) [86]Melancolia
-   (842) [87]Musique (40) [88]Média (23) [89]Mémoires (38) [90]Nature (34)
+   [83]Listes (19) [84]Littérature (318) [85]Livres (518) [86]Melancolia
+   (843) [87]Musique (40) [88]Média (23) [89]Mémoires (38) [90]Nature (34)
    [91]Nihilisme (37) [92]Notes (26) [93]Paris hilights (80) [94]peinture
    (34) [95]Philosophie (140) [96]Photographie (64) [97]Pieux oublis (95)
-   [98]Politique (69) [99]Portraits (276) [100]Poésie (116) [101]Proust
+   [98]Politique (69) [99]Portraits (277) [100]Poésie (116) [101]Proust
    (22) [102]Religion (55) [103]roman (45) [104]Rosebud (596) [105]Science
    (21) [106]Traduction (79) [107]Télévision (21) [108]Vexations (684)
-   [109]Vies brèves et peu illustres (24) [110]Vies épinglées (163)
+   [109]Vies brèves et peu illustres (24) [110]Vies épinglées (164)
    [111]Voyages (89) [112]Wabi Sabi (17) [113]Web/Tech (29)
 
 Commentaires récents
@@ -379,10 +379,22 @@ Abonnez-vous au Lorgnon mélancolique par e-mail
    Adresse e-mail ____________________
 
    (BUTTON) Abonnez-vous
-   Rejoignez les 200 autres abonnés
+   Rejoignez les 199 autres abonnés
    Patrick Corneau
 
 Articles similaires
+
+   22 juin 2020
+
+De tout, un peu (42)
+
+   Nous avons tous envie de raconter notre vie. C’est même un genre de
+   politesse à rendre aux gens qui nous aiment, ou nous lisent, quand..
+
+J’aime ça :
+
+   J’aime chargement…
+   Lire la suite
 
    22 juin 2020
 
@@ -403,19 +415,6 @@ De tout, un peu (41)
    Cette chronique De tout, un peu (41), la dernière de l’année, pourrait
    passer pour une simple promenade critique. Il n’en est rien. Les quatre
    livres..
-
-J’aime ça :
-
-   J’aime chargement…
-   Lire la suite
-
-   22 juin 2020
-
-Un conte de Noël 2.0
-
-   La Crèche en Mode Avion On avait voulu moderniser Noël. Résultat : un
-   abri en bois surmonté d’un panneau solaire, Joseph en plein selfie,
-   Marie..
 
 J’aime ça :
 
@@ -521,7 +520,7 @@ Références
   61. https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/#comment-7315
   62. https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/?replytocom=7315#respond
   63. file:///2020/06/ode-aux-nuages/#respond
-  64. https://jetpack.wordpress.com/jetpack-comment/?blogid=160195553&postid=42495&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Laisser+un+commentaire&jetpack_comments_nonce=4ff9351fc7&greeting_reply=Répondre+à+%s&color_scheme=light&lang=fr_FR&jetpack_version=15.3.1&iframe_unique_id=1&show_cookie_consent=10&has_cookie_consent=0&is_current_user_subscribed=0&token_key=;normal;&sig=33f5800f22ec1c678b7d9d00343403a3115fbcac#parent=https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/
+  64. https://jetpack.wordpress.com/jetpack-comment/?blogid=160195553&postid=42495&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Laisser+un+commentaire&jetpack_comments_nonce=dbe98f8437&greeting_reply=Répondre+à+%s&color_scheme=light&lang=fr_FR&jetpack_version=15.3.1&iframe_unique_id=1&show_cookie_consent=10&has_cookie_consent=0&is_current_user_subscribed=0&token_key=;normal;&sig=8e7a278eb1e0df0a9c956d8ea825a20aec3c0fd8#parent=https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/
   65. https://www.paypal.com/donate/?hosted_button_id=BYPUH93DAGFPA
   66. https://www.patrickcorneau.fr/2020/06/le-bobovarysme-dadele-van-reeth/
   67. https://www.patrickcorneau.fr/2020/04/nous-voici-encore-seuls/
@@ -593,9 +592,9 @@ Références
  132. https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/
  133. https://www.sceaudutabellion.fr/catalogue
  134. https://www.editions-harmattan.fr/catalogue/livre/twist-tropiques/78700
- 135. https://www.patrickcorneau.fr/2025/12/75747/
- 136. https://www.patrickcorneau.fr/2025/12/de-tout-un-peu-41/
- 137. https://www.patrickcorneau.fr/2025/12/un-conte-de-noel-2-0/
+ 135. https://www.patrickcorneau.fr/2026/01/de-tout-un-peu-42/
+ 136. https://www.patrickcorneau.fr/2025/12/75747/
+ 137. https://www.patrickcorneau.fr/2025/12/de-tout-un-peu-41/
  138. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-25.html
  139. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-25.html
  140. file://localhost/home/ling/Cours/Cours_PPE1/Projet-PPE1-2025/aspirations/fr-25.html

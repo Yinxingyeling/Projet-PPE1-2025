@@ -86,7 +86,6 @@ terme
 revient
 plus
 il
-a
 attention
 le
 nuage
@@ -149,7 +148,8 @@ fur
 et
 à
 mesure
-zgideu
+j
+dnlxey
 d
 a
 créer

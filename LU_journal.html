@@ -1,21 +1,31 @@
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Home</title>
+    <meta charset="UTF-8"/>
+        <title>Journal</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>📓</text>
+            </svg>">
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
-         <style>
-        .section p {
-            margin-bottom: 1em;
-        }
-    </style>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/cloudanimation.css">
     </head>
-    <body class="is-info has-background-info-light">
-        <section class="hero is-medium is-info">
-            <div class="hero-body container has-text-centered">
-                <h1 class="title is-1">Projet PPE 1 : nuage / 云</h1>
+    <body >
+
+        <!-- Menu -->
+        <section class="hero is-medium is-info hero-cloud">
+
+            <div class="sky">
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
+            </div>
+
+            <div class="hero-body container has-text-centered hero-content">
+                <h1 class="title is-1">Journal de bord</h1>
+                <h2 class="subtitle is-3">Chinois -- By LU Hongrui</h2>
             </div>
         </section>
         <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -37,12 +47,22 @@
                         Home
                     </a>
 
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="AL-journal.html">Français</a>
+                            <a class="navbar-item is-selected has-background-link-light" href="LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
+
                     <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Analyse</a>
 
                         <div class="navbar-dropdown">
-                            <a class="navbar-item has-background-link-light is-selected" href="fr_analyse.html">Français</a>
+                            <a class="navbar-item" href="fr_analyse.html">Français</a>
                             <a class="navbar-item" href="zh_analyse.html">Chinois</a>
                         </div>
                     </div>
@@ -93,7 +113,9 @@
                 <p>Le mot <strong>云 / nuage</strong> a finalement été retenu, car il présente des sens naturel et technique clairement identifiables en chinois et en français, ce qui correspond aux exigences d’une étude sur la polysémie.</p >
                 <p>Après le choix du mot, la répartition des langues a été définie.</p >
             </div>
+        </div>
 
+        <div class="box has-background-info-light">
             <h1 class="title is-4" style="margin-top: 30px;">Phase II – Collecte des liens</h1>
             <h2 class="subtitle is-6">20/12/2025 – 27/12/2025</h2>
 
@@ -102,7 +124,9 @@
                 <p>En plus des articles de vulgarisation scientifique, des textes littéraires décrivant les nuages, tels que des essais et des poèmes classiques, ont été intégrés.</p >
                 <p>Étant donné la richesse des sens dérivés de <strong>云</strong> en chinois (haut, nombre, éloigné, mouvant, instable), des textes correspondant à ces emplois figurés ont également été sélectionnés.</p >
             </div>
+        </div>
 
+        <div class="box has-background-info-light">
             <h1 class="title is-4" style="margin-top: 30px;">Phase III – Traitement du corpus</h1>
             <h2 class="subtitle is-6">29/12/2025 – 02/01/2026</h2>
 
@@ -115,7 +139,9 @@
                 <p>Afin d’éviter les blocages du processus lors de certaines étapes (<code>wget</code>, <code>tokeniser</code>, <code>dump</code>), des conditions <code>if !</code> ont été ajoutées pour gérer les erreurs.</p >
                 <p>Les textes extraits contenaient beaucoup de bruit (boutons de partage, images, mentions diverses). L’utilisation combinée de <code>sed</code> et de <code>grep -v -E</code> a permis de réduire partiellement ce bruit.</p >
             </div>
+        </div>
 
+        <div class="box has-background-info-light">
             <h1 class="title is-4" style="margin-top: 30px;">Phase IV – Analyse avec PALS et mise en forme HTML</h1>
             <h2 class="subtitle is-6">02/01/2026 – 03/01/2026</h2>
 
@@ -126,7 +152,6 @@
                 <p>Des paramètres spécifiques (<code>--scale</code>, <code>--margin</code>, <code>--max_font_size</code>) ont été utilisés pour améliorer la lisibilité.</p >
                 <p>Enfin, de nombreux termes ont été ajoutés à la liste des <code>stopwords</code> afin d’éviter l’apparition de mots non pertinents dans les visualisations.</p >
             </div>
-
         </div>
     </section>
     </body>

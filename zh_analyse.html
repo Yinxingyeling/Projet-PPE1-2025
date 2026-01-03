@@ -1,16 +1,28 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Home</title>
+        <title>Analyse du chinois</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>🔍</text>
+            </svg>">
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+        <link rel="stylesheet" href="assets/css/cloudanimation.css">
     </head>
-    <body class="is-info has-background-info-light">
-        <section class="hero is-medium is-info">
-            <div class="hero-body container has-text-centered">
-                <h1 class="title is-1">Projet PPE 1 : nuage / 云</h1>
+    <body  class="is-info has-background-info-light">
+        <section class="hero is-medium is-info hero-cloud">
+
+            <div class="sky">
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
+            </div>
+            <div class="hero-body container has-text-centered hero-content">
+                <h1 class="title is-1">Analyse</h1>
+                <h2 class="subtitle is-3">Corpus chinois</h2>
             </div>
         </section>
         <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -32,13 +44,23 @@
                         Home
                     </a>
 
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="AL-journal.html">Français</a>
+                            <a class="navbar-item" href="LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
+
                     <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Analyse</a>
 
                         <div class="navbar-dropdown">
-                            <a class="navbar-item has-background-link-light is-selected" href="fr_analyse.html">Français</a>
-                            <a class="navbar-item" href="zh_analyse.html">Chinois</a>
+                            <a class="navbar-item" href="fr_analyse.html">Français</a>
+                            <a class="navbar-item has-background-link-light is-selected" href="zh_analyse.html">Chinois</a>
                         </div>
                     </div>
 
@@ -249,16 +271,10 @@
                     wordcloud_cli   --text ../contextes-zh-clean.txt   --imagefile cloud_zh_contextes.png  --mask mask.png --stopwords stopwords_chinois.txt   --fontfile /usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc   --background white --scale 3 --margin 2 --max_font_size 50  --prefer_horizontal 0.98
                 </code></pre>
             </div>
-             <div class="wordcloud-compare box" style="margin-top: 25px;">
-                <img src="assets/wordcloud/fr-contextes-2-grey.png" class="wc wc-grey">
-                <img src="PALS/wordcloud/cloud_zh_contextes.png" class="wc wc-color box">
+             <div class="wordcloud-row" style="margin-top: 25px;">
+                <img src="assets/wordcloud/cloud-fr-contextes.png" class="wc box">
+                <img src="assets/wordcloud/cloud_zh_contextes.png" class="wc box">
             </div>
-        </section>
-        <section class="section">
-            <div>
-                <h1 class="title is-1 has-text-centered">Wordcloud</h1>
-
-            </div>
-        </section>
+        </section> 
     </body>
 </html>

@@ -154,44 +154,44 @@ Webcams & pastilles T°C cliquables
 
    [34]Webcams locales
 
+   L'inoubliable vague de froid de janvier 1985
+   Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçanteChronique
+   météo
+   3 Janv. 2026
+
+[35]L'inoubliable vague de froid de janvier 1985
+
    Jusqu'à quand le froid va-t-il durer ?
    Froid / Fraîcheur / GelPrévisions météo
-   2 Janv. 2026
+   3 Janv. 2026
 
-[35]Jusqu'à quand le froid va-t-il durer ?
+[36]Jusqu'à quand le froid va-t-il durer ?
 
    La neige va-t-elle finir par recouvrir nos villes et nos campagnes ?
    Neige / Avalanche / Pluie verglaçantePrévisions météo
-   2 Janv. 2026
+   3 Janv. 2026
 
-[36]La neige va-t-elle finir par recouvrir nos villes et nos campagnes ?
+[37]La neige va-t-elle finir par recouvrir nos villes et nos campagnes ?
 
    Le froid va encore s'accentuer dans les prochains jours
    Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçantePrévisions
    météo
    1 Janv. 2026
 
-[37]Le froid va encore s'accentuer dans les prochains jours
+[38]Le froid va encore s'accentuer dans les prochains jours
 
    L'incroyable blizzard de début janvier 1979 dans la Beauce
    Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçanteChronique
    météo
    1 Janv. 2026
 
-[38]L'incroyable blizzard de début janvier 1979 dans la Beauce
+[39]L'incroyable blizzard de début janvier 1979 dans la Beauce
 
    Chutes de neige prévues dans le nord-est vendredi
    Neige / Avalanche / Pluie verglaçante
    1 Janv. 2026
 
-[39]Chutes de neige prévues dans le nord-est vendredi
-
-   Un 1er janvier 1997 polaire !
-   Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçanteChronique
-   météo
-   31 Déc. 2025
-
-[40]Un 1er janvier 1997 polaire !
+[40]Chutes de neige prévues dans le nord-est vendredi
 
      * (BUTTON) 0
      * (BUTTON) 1
@@ -264,12 +264,12 @@ Références
   32. file:///ile-de-france/suivi-des-pluies
   33. file:///ile-de-france/suivi-des-pluies
   34. file:///ile-de-france/webcams
-  35. file:///actualites/jusqu-a-quand-le-froid-va-t-il-durer
-  36. file:///actualites/la-neige-va-t-elle-finir-par-recouvrir-nos-villes-et-nos-campagnes
-  37. file:///actualites/le-froid-va-encore-s-accentuer-dans-les-prochains-jours
-  38. file:///actualites/l-incroyable-blizzard-de-debut-janvier-1979-dans-la-beauce
-  39. file:///actualites/chutes-de-neige-prevues-dans-le-nord-est-vendredi
-  40. file:///actualites/un-1er-janvier-1997-polaire
+  35. file:///actualites/l-inoubliable-vague-de-froid-de-janvier-1985
+  36. file:///actualites/jusqu-a-quand-le-froid-va-t-il-durer
+  37. file:///actualites/la-neige-va-t-elle-finir-par-recouvrir-nos-villes-et-nos-campagnes
+  38. file:///actualites/le-froid-va-encore-s-accentuer-dans-les-prochains-jours
+  39. file:///actualites/l-incroyable-blizzard-de-debut-janvier-1979-dans-la-beauce
+  40. file:///actualites/chutes-de-neige-prevues-dans-le-nord-est-vendredi
   41. file:///guillaume-sechet
   42. https://www.meteo-paris.com/guillaume-sechet
   43. https://www.meteo-villes.com/actualites/guillaume-sechet-chronique-d-une-passion-meteo-peu-ordinaire

@@ -1,15 +1,26 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Home</title>
+        <title>Script français</title>
+        <link rel="icon" href="data:image/svg+xml, 
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='0.9em' font-size='90'>🖥️</text>
+            </svg>">
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+        <link rel="stylesheet" href="assets/css/cloudanimation.css">
     </head>
-    <body class="is-info has-background-info-light">
-        <section class="hero is-medium is-info">
-            <div class="hero-body container has-text-centered">
+    <body>
+        <section class="hero is-medium is-info hero-cloud">
+
+            <div class="sky">
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
+            
+            <div class="hero-body container has-text-centered hero-content">
                 <h1 class="title is-1">Script</h1>
                 <h2 class="subtitle is-3">Corpus français</h2>
             </div>
@@ -32,6 +43,15 @@
                     <a class="navbar-item" href="index.html">
                         Home
                     </a>
+                    <!-- Journal -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Journal</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="AL-journal.html">Français</a>
+                            <a class="navbar-item" href="LU_journal.html">Chinois</a>
+                        </div>
+                    </div>
                     <!-- Analyse -->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Analyse</a>
@@ -47,7 +67,7 @@
                         <a class="navbar-link">Script</a>
 
                         <div class="navbar-dropdown">
-                            <a class="navbar-item is-selected has-background-link-light" href="fr_script.html">Français</a>
+                            <a class="navbar-item" href="fr_script.html">Français</a>
                             <a class="navbar-item" href="zh_script.html">Chinois</a>
                             <a class="navbar-item" href="blacklist.html">Blacklist</a>
                             <a class="navbar-item" href="make_pals_corpus.html">PALS</a>
@@ -78,7 +98,7 @@
         
         <!-- Script -->
         <section class="section">
-            <pre id="code"></pre>
+            <pre id="code" class="box is-info has-background-info-light"></pre>
             <script>
             fetch("programmes/francais.sh")
             .then(r => r.text())
@@ -87,6 +107,5 @@
             });
             </script>
         </section>
-
     </body>
 </html>

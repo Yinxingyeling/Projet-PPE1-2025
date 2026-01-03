@@ -210,50 +210,51 @@ Ce qui se cache derrière À qui appartiennent les nuages ?
    (BUTTON) Je m’inscris
    [ ] Envoyez-moi aussi les offres exclusives de L’actualité.
    Les plus populaires
-   [55]Publié dans : Actualités
-   [56]Un pathologiste ayant examiné plus de 2000 baleines aborde son
-   travail avec humilité
-   [57]Publié dans : Culture
-   [58]Les 10 meilleurs films de 2025 à voir absolument
-   [59]Publié dans : Santé et science
-   [60]Avoir un chat est-il bon pour la santé ?
-   [61]Publié dans : Art de vivre
-   [62]Le vin de la semaine : un blanc léger pour commencer l’année
+   [55]Publié dans : Art de vivre
+   [56]Le vin de la semaine : un blanc léger pour commencer l’année
+   [57]Publié dans : Actualités
+   [58]Les États-Unis mènent des frappes au Venezuela: le président
+   Nicolás Maduro enlevé
+   [59]Publié dans : Actualités
+   [60]Plusieurs pays réagissent à la capture du président vénézuélien
+   Maduro
+   [61]Publié dans : Culture
+   [62]6 sorties gratuites pour braver le froid de janvier
    [63]Publié dans : Actualités
-   [64]Des bougies incandescentes seraient à l’origine de l’incendie
-   survenu en Suisse
+   [64]Un séisme de magnitude 6,5 secoue le Mexique et fait deux morts
    Les plus populaires
-   [65]Publié dans : Actualités
-   [66]Un pathologiste ayant examiné plus de 2000 baleines aborde son
-   travail avec humilité
-
-
-    Wolfgang Depner, La Presse Canadienne
-
-   [67]Publié dans : Culture
-   [68]Les 10 meilleurs films de 2025 à voir absolument
-
-
-    Daniel Racine
-
-   [69]Publié dans : Santé et science
-   [70]Avoir un chat est-il bon pour la santé ?
-
-
-    Susan Hazel, Université d'Adélaïde, Australie
-
-   [71]Publié dans : Art de vivre
-   [72]Le vin de la semaine : un blanc léger pour commencer l’année
+   [65]Publié dans : Art de vivre
+   [66]Le vin de la semaine : un blanc léger pour commencer l’année
 
 
     Nadia Fournier
 
+   [67]Publié dans : Actualités
+   [68]Les États-Unis mènent des frappes au Venezuela: le président
+   Nicolás Maduro enlevé
+
+
+    Regina Garcia Cano, Konstantin Toropin et Eric Tucker, The Associated
+    Press
+
+   [69]Publié dans : Actualités
+   [70]Plusieurs pays réagissent à la capture du président vénézuélien
+   Maduro
+
+
+    La Presse Canadienne
+
+   [71]Publié dans : Culture
+   [72]6 sorties gratuites pour braver le froid de janvier
+
+
+    Marie-Lise Rousseau
+
    [73]Publié dans : Actualités
-   [74]Des bougies incandescentes seraient à l’origine de l’incendie
-   survenu en Suisse
+   [74]Un séisme de magnitude 6,5 secoue le Mexique et fait deux morts
 
 
-    Jamey Keaten, Stefanie Dazio et John Leicester, The Associated Press
+    The Associated Press
 
    [75]Les infolettres L’actualité
    La quotidienne
@@ -347,26 +348,26 @@ Références
   52. https://lactualite.com/dossiers/prix-litteraires-du-gouverneur-general-2021/
   53. https://lactualite.com/dossier/prix-litteraires-du-gouverneur-general-2021/
   54. file:///infolettre/
-  55. https://lactualite.com/actualites/
-  56. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
-  57. https://lactualite.com/temps-libre/culture/
-  58. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
-  59. https://lactualite.com/sante-et-science/
-  60. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
-  61. https://lactualite.com/temps-libre/art-de-vivre/
-  62. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+  55. https://lactualite.com/temps-libre/art-de-vivre/
+  56. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+  57. https://lactualite.com/actualites/
+  58. https://lactualite.com/actualites/les-etats-unis-menent-des-frappes-au-venezuela-le-president-nicolas-maduro-capture/
+  59. https://lactualite.com/actualites/
+  60. https://lactualite.com/actualites/plusieurs-pays-reagissent-a-la-capture-du-president-venezuelien-maduro/
+  61. https://lactualite.com/temps-libre/culture/
+  62. https://lactualite.com/temps-libre/culture/6-sorties-gratuites-pour-braver-le-froid-de-janvier/
   63. https://lactualite.com/actualites/
-  64. https://lactualite.com/actualites/lendemain-de-tragedie-en-suisse-apres-lincendie-meurtrier-dans-un-bar-des-alpes/
-  65. https://lactualite.com/actualites/
-  66. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
-  67. https://lactualite.com/temps-libre/culture/
-  68. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
-  69. https://lactualite.com/sante-et-science/
-  70. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
-  71. https://lactualite.com/temps-libre/art-de-vivre/
-  72. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+  64. https://lactualite.com/actualites/un-seisme-de-magnitude-65-secoue-le-mexique-et-fait-deux-morts/
+  65. https://lactualite.com/temps-libre/art-de-vivre/
+  66. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+  67. https://lactualite.com/actualites/
+  68. https://lactualite.com/actualites/les-etats-unis-menent-des-frappes-au-venezuela-le-president-nicolas-maduro-capture/
+  69. https://lactualite.com/actualites/
+  70. https://lactualite.com/actualites/plusieurs-pays-reagissent-a-la-capture-du-president-venezuelien-maduro/
+  71. https://lactualite.com/temps-libre/culture/
+  72. https://lactualite.com/temps-libre/culture/6-sorties-gratuites-pour-braver-le-froid-de-janvier/
   73. https://lactualite.com/actualites/
-  74. https://lactualite.com/actualites/lendemain-de-tragedie-en-suisse-apres-lincendie-meurtrier-dans-un-bar-des-alpes/
+  74. https://lactualite.com/actualites/un-seisme-de-magnitude-65-secoue-le-mexique-et-fait-deux-morts/
   75. file:///infolettre/
   76. https://x.com/lactualite
   77. https://www.linkedin.com/company/lactualite/
@@ -397,9 +398,9 @@ Références
  101. https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F&title=Ce%20qui%20se%20cache%20derri%C3%A8re%20%C3%80%20qui%20appartiennent%20les%20nuages%20%3F
  102. https://www.threads.net/intent/post?text=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F
  103. https://bsky.app/intent/compose?text=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F
- 104. file://localhost/cdn-cgi/l/email-protection#714e0204131b1412054c3214544341000418544341021454434112101219145443411514030318543242543049031454434154324254494154434100041854434110010110030518141f1f141f055443411d14025443411f041016140254434154423757131e15084c19050501025442305443375443371d10120504101d1805145f121e1c54433705141c01025c1d1813031454433712041d0504031454433712145c0004185c02145c12101219145c15140303181403145c105c0004185c10010110030518141f1f141f055c1d14025c1f0410161402544337
- 105. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
- 106. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
- 107. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
- 108. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
- 109. https://lactualite.com/actualites/lendemain-de-tragedie-en-suisse-apres-lincendie-meurtrier-dans-un-bar-des-alpes/
+ 104. file://localhost/cdn-cgi/l/email-protection#546b2721363e31372069173171666425213d71666427317166643735373c31716664303126263d71176771156c2631716664711767716c6471666425213d7166643524243526203d313a3a313a207166643831277166643a213533312771666471671272363b302d693c20202427716715716612716612383537202135383d20317a373b39716612203139242779383d3626317166123721382021263171661237317925213d792731793735373c3179303126263d31263179357925213d793524243526203d313a3a313a2079383127793a2135333127716612
+ 105. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+ 106. https://lactualite.com/actualites/les-etats-unis-menent-des-frappes-au-venezuela-le-president-nicolas-maduro-capture/
+ 107. https://lactualite.com/actualites/plusieurs-pays-reagissent-a-la-capture-du-president-venezuelien-maduro/
+ 108. https://lactualite.com/temps-libre/culture/6-sorties-gratuites-pour-braver-le-froid-de-janvier/
+ 109. https://lactualite.com/actualites/un-seisme-de-magnitude-65-secoue-le-mexique-et-fait-deux-morts/
