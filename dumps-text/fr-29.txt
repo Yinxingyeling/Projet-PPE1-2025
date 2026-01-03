@@ -210,50 +210,50 @@ Ce qui se cache derrière À qui appartiennent les nuages ?
    (BUTTON) Je m’inscris
    [ ] Envoyez-moi aussi les offres exclusives de L’actualité.
    Les plus populaires
-   [55]Publié dans : Culture
-   [56]Les 10 meilleurs films de 2025 à voir absolument
-   [57]Publié dans : Actualités
-   [58]Le premier bébé de l’année 2026, au Québec, serait né à
-   Salaberry-de-Valleyfield
-   [59]Publié dans : Actualités
-   [60]Un pathologiste ayant examiné plus de 2000 baleines aborde son
+   [55]Publié dans : Actualités
+   [56]Un pathologiste ayant examiné plus de 2000 baleines aborde son
    travail avec humilité
-   [61]Publié dans : Santé et science
-   [62]Activité physique : comment déjouer notre tendance à la paresse ?
-   [63]Publié dans : Santé et science
-   [64]Avoir un chat est-il bon pour la santé ?
+   [57]Publié dans : Culture
+   [58]Les 10 meilleurs films de 2025 à voir absolument
+   [59]Publié dans : Santé et science
+   [60]Avoir un chat est-il bon pour la santé ?
+   [61]Publié dans : Art de vivre
+   [62]Le vin de la semaine : un blanc léger pour commencer l’année
+   [63]Publié dans : Actualités
+   [64]Des bougies incandescentes seraient à l’origine de l’incendie
+   survenu en Suisse
    Les plus populaires
-   [65]Publié dans : Culture
-   [66]Les 10 meilleurs films de 2025 à voir absolument
-
-
-    Daniel Racine
-
-   [67]Publié dans : Actualités
-   [68]Le premier bébé de l’année 2026, au Québec, serait né à
-   Salaberry-de-Valleyfield
-
-
-    La Presse Canadienne
-
-   [69]Publié dans : Actualités
-   [70]Un pathologiste ayant examiné plus de 2000 baleines aborde son
+   [65]Publié dans : Actualités
+   [66]Un pathologiste ayant examiné plus de 2000 baleines aborde son
    travail avec humilité
 
 
     Wolfgang Depner, La Presse Canadienne
 
-   [71]Publié dans : Santé et science
-   [72]Activité physique : comment déjouer notre tendance à la paresse ?
+   [67]Publié dans : Culture
+   [68]Les 10 meilleurs films de 2025 à voir absolument
 
 
-    Boris Cheval, Florent Desplanques et Silvio Maltagliati
+    Daniel Racine
 
-   [73]Publié dans : Santé et science
-   [74]Avoir un chat est-il bon pour la santé ?
+   [69]Publié dans : Santé et science
+   [70]Avoir un chat est-il bon pour la santé ?
 
 
     Susan Hazel, Université d'Adélaïde, Australie
+
+   [71]Publié dans : Art de vivre
+   [72]Le vin de la semaine : un blanc léger pour commencer l’année
+
+
+    Nadia Fournier
+
+   [73]Publié dans : Actualités
+   [74]Des bougies incandescentes seraient à l’origine de l’incendie
+   survenu en Suisse
+
+
+    Jamey Keaten, Stefanie Dazio et John Leicester, The Associated Press
 
    [75]Les infolettres L’actualité
    La quotidienne
@@ -347,26 +347,26 @@ Références
   52. https://lactualite.com/dossiers/prix-litteraires-du-gouverneur-general-2021/
   53. https://lactualite.com/dossier/prix-litteraires-du-gouverneur-general-2021/
   54. file:///infolettre/
-  55. https://lactualite.com/temps-libre/culture/
-  56. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
-  57. https://lactualite.com/actualites/
-  58. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
-  59. https://lactualite.com/actualites/
-  60. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
-  61. https://lactualite.com/sante-et-science/
-  62. https://lactualite.com/sante-et-science/activite-physique-comment-dejouer-notre-tendance-a-la-paresse/
-  63. https://lactualite.com/sante-et-science/
-  64. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
-  65. https://lactualite.com/temps-libre/culture/
-  66. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
-  67. https://lactualite.com/actualites/
-  68. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
-  69. https://lactualite.com/actualites/
-  70. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
-  71. https://lactualite.com/sante-et-science/
-  72. https://lactualite.com/sante-et-science/activite-physique-comment-dejouer-notre-tendance-a-la-paresse/
-  73. https://lactualite.com/sante-et-science/
-  74. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
+  55. https://lactualite.com/actualites/
+  56. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
+  57. https://lactualite.com/temps-libre/culture/
+  58. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
+  59. https://lactualite.com/sante-et-science/
+  60. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
+  61. https://lactualite.com/temps-libre/art-de-vivre/
+  62. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+  63. https://lactualite.com/actualites/
+  64. https://lactualite.com/actualites/lendemain-de-tragedie-en-suisse-apres-lincendie-meurtrier-dans-un-bar-des-alpes/
+  65. https://lactualite.com/actualites/
+  66. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
+  67. https://lactualite.com/temps-libre/culture/
+  68. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
+  69. https://lactualite.com/sante-et-science/
+  70. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
+  71. https://lactualite.com/temps-libre/art-de-vivre/
+  72. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+  73. https://lactualite.com/actualites/
+  74. https://lactualite.com/actualites/lendemain-de-tragedie-en-suisse-apres-lincendie-meurtrier-dans-un-bar-des-alpes/
   75. file:///infolettre/
   76. https://x.com/lactualite
   77. https://www.linkedin.com/company/lactualite/
@@ -397,9 +397,9 @@ Références
  101. https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F&title=Ce%20qui%20se%20cache%20derri%C3%A8re%20%C3%80%20qui%20appartiennent%20les%20nuages%20%3F
  102. https://www.threads.net/intent/post?text=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F
  103. https://bsky.app/intent/compose?text=https%3A%2F%2Flactualite.com%2Ftemps-libre%2Fculture%2Fce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages%2F
- 104. file://localhost/cdn-cgi/l/email-protection#cff0bcbaada5aaacbbf28caaeafdffbebaa6eafdffbcaaeafdffacaeaca7aaeafdffabaabdbda6ea8cfcea8ef7bdaaeafdffea8cfceaf7ffeafdffbebaa6eafdffaebfbfaebdbba6aaa1a1aaa1bbeafdffa3aabceafdffa1baaea8aabceafdffeafc89e9ada0abb6f2a7bbbbbfbceafc8eeafd89eafd89a3aeacbbbaaea3a6bbaae1aca0a2eafd89bbaaa2bfbce2a3a6adbdaaeafd89acbaa3bbbabdaaeafd89acaae2bebaa6e2bcaae2acaeaca7aae2abaabdbda6aabdaae2aee2bebaa6e2aebfbfaebdbba6aaa1a1aaa1bbe2a3aabce2a1baaea8aabceafd89
- 105. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
- 106. https://lactualite.com/actualites/le-premier-bebe-de-lannee-2026-au-quebec-serait-ne-dans-la-capitale-nationale/
- 107. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
- 108. https://lactualite.com/sante-et-science/activite-physique-comment-dejouer-notre-tendance-a-la-paresse/
- 109. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
+ 104. file://localhost/cdn-cgi/l/email-protection#714e0204131b1412054c3214544341000418544341021454434112101219145443411514030318543242543049031454434154324254494154434100041854434110010110030518141f1f141f055443411d14025443411f041016140254434154423757131e15084c19050501025442305443375443371d10120504101d1805145f121e1c54433705141c01025c1d1813031454433712041d0504031454433712145c0004185c02145c12101219145c15140303181403145c105c0004185c10010110030518141f1f141f055c1d14025c1f0410161402544337
+ 105. https://lactualite.com/actualites/un-pathologiste-ayant-examine-plus-de-2000-baleines-aborde-son-travail-avec-humilite/
+ 106. https://lactualite.com/temps-libre/culture/les-10-meilleurs-films-de-2025-a-voir-absolument/
+ 107. https://lactualite.com/sante-et-science/les-chats-sont-ils-bons-pour-la-sante/
+ 108. https://lactualite.com/temps-libre/art-de-vivre/le-vin-de-la-semaine-un-blanc-leger-pour-commencer-lannee/
+ 109. https://lactualite.com/actualites/lendemain-de-tragedie-en-suisse-apres-lincendie-meurtrier-dans-un-bar-des-alpes/

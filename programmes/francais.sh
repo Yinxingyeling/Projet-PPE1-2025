@@ -26,7 +26,9 @@ echo -e "<html>
         </section>
         <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">
             <div class=\"navbar-brand\">
-                <p class="navbar-item is-size-4" style=\"cursor: default;\">☁️</p>
+                <p class="navbar-item">
+                    <img src=\"../assets/img/cloud.png\" alt=\"Cloud\" style=\"max-height: 40px;\">
+                </p>
 
                 <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
                 <span aria-hidden=\"true\"></span>
@@ -136,7 +138,9 @@ echo -e "<html>
             </section>
             <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\"> 
                 <div class=\"navbar-brand\">
-                    <p class="navbar-item is-size-4" style=\"cursor: default;\">☁️</p>
+                    <p class="navbar-item">
+                        <img src=\"../assets/img/cloud.png\" alt=\"Cloud\" style=\"max-height: 40px;\">
+                    </p>
 
                     <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
                     <span aria-hidden=\"true\"></span>
@@ -256,7 +260,7 @@ do
     REWORD="nuages?"
 
     echo "Récupère la page... -> ${ASPIRATION}"
-    if wget -O ${ASPIRATION} ${line}; # Récupère la page
+    if wget -q -O - "${line}" | sed '/<script[^>]*googleapis[^>]*>/,/<\/script>/d' > "${ASPIRATION}"; # Récupère la page
     then
 
         if [[ ${ENCODAGE,,} == "utf-8" ]]; # Si l'encodage est utf8
@@ -268,7 +272,7 @@ do
 
             # Extraction du contexte autour du mot
             echo "Extraction du contexte autour du mot... -> ${CTXT}"
-            cat ${DUMP}  | sed -E '/(https?:\/\/|file:\/\/\/|mailto:)/d' | grep -iE ${REWORD} -C2 > ${CTXT} # sed pour nettoyer les urls dans les pages
+            cat ${DUMP}  | sed -E '/(https?:\/\/|file:\/\/\/|mailto:)/d' | sed -E '/^\*? *\[[0-9]+\]$/d' | grep -iE ${REWORD} -C2 > ${CTXT} # sed pour nettoyer les urls dans les pages
             # cat ${DUMP} | grep  -i -E ${REWORD} -C2 > ${CTXT} # -i ignore-case
 
         else
@@ -331,7 +335,9 @@ do
         </section>
         <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\"> 
             <div class=\"navbar-brand\">
-                <p class="navbar-item is-size-4" style=\"cursor: default;\">☁️</p>
+                <p class="navbar-item">
+                    <img src=\"../assets/img/cloud.png\" alt=\"Cloud\" style=\"max-height: 40px;\">
+                </p>
 
                 <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
                 <span aria-hidden=\"true\"></span>

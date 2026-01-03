@@ -154,47 +154,44 @@ Webcams & pastilles T°C cliquables
 
    [34]Webcams locales
 
+   Jusqu'à quand le froid va-t-il durer ?
+   Froid / Fraîcheur / GelPrévisions météo
+   2 Janv. 2026
+
+[35]Jusqu'à quand le froid va-t-il durer ?
+
+   La neige va-t-elle finir par recouvrir nos villes et nos campagnes ?
+   Neige / Avalanche / Pluie verglaçantePrévisions météo
+   2 Janv. 2026
+
+[36]La neige va-t-elle finir par recouvrir nos villes et nos campagnes ?
+
    Le froid va encore s'accentuer dans les prochains jours
    Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçantePrévisions
    météo
    1 Janv. 2026
 
-[35]Le froid va encore s'accentuer dans les prochains jours
+[37]Le froid va encore s'accentuer dans les prochains jours
 
    L'incroyable blizzard de début janvier 1979 dans la Beauce
    Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçanteChronique
    météo
    1 Janv. 2026
 
-[36]L'incroyable blizzard de début janvier 1979 dans la Beauce
+[38]L'incroyable blizzard de début janvier 1979 dans la Beauce
 
    Chutes de neige prévues dans le nord-est vendredi
    Neige / Avalanche / Pluie verglaçante
    1 Janv. 2026
 
-[37]Chutes de neige prévues dans le nord-est vendredi
+[39]Chutes de neige prévues dans le nord-est vendredi
 
    Un 1er janvier 1997 polaire !
    Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçanteChronique
    météo
    31 Déc. 2025
 
-[38]Un 1er janvier 1997 polaire !
-
-   Offensive notable du froid pour débuter l'année 2026
-   Froid / Fraîcheur / Gel
-   31 Déc. 2025
-
-[39]Offensive notable du froid pour débuter l'année 2026
-
-   Le chaos de la tempête de neige de fin décembre 1970 sur l’axe
-   Valence-Montélimar
-   Froid / Fraîcheur / GelNeige / Avalanche / Pluie verglaçanteChronique
-   météo
-   31 Déc. 2025
-
-[40]Le chaos de la tempête de neige de fin décembre 1970 sur l’axe
-Valence-Montélimar
+[40]Un 1er janvier 1997 polaire !
 
      * (BUTTON) 0
      * (BUTTON) 1
@@ -251,7 +248,7 @@ Références
   16. file:///actualites
   17. https://x.com/meteovilles
   18. file:///chronique
-  19. file:///almanach/jour/0102
+  19. file:///almanach/jour/0103
   20. file:///ile-de-france/climat
   21. file:///ile-de-france/records
   22. file:///ile-de-france/soutien
@@ -267,12 +264,12 @@ Références
   32. file:///ile-de-france/suivi-des-pluies
   33. file:///ile-de-france/suivi-des-pluies
   34. file:///ile-de-france/webcams
-  35. file:///actualites/le-froid-va-encore-s-accentuer-dans-les-prochains-jours
-  36. file:///actualites/l-incroyable-blizzard-de-debut-janvier-1979-dans-la-beauce
-  37. file:///actualites/chutes-de-neige-prevues-dans-le-nord-est-vendredi
-  38. file:///actualites/un-1er-janvier-1997-polaire
-  39. file:///actualites/offensive-notable-du-froid-pour-debuter-l-annee-2026
-  40. file:///actualites/le-chaos-de-la-tempete-de-neige-de-fin-decembre-1970-sur-l-axe-valence-montelimar
+  35. file:///actualites/jusqu-a-quand-le-froid-va-t-il-durer
+  36. file:///actualites/la-neige-va-t-elle-finir-par-recouvrir-nos-villes-et-nos-campagnes
+  37. file:///actualites/le-froid-va-encore-s-accentuer-dans-les-prochains-jours
+  38. file:///actualites/l-incroyable-blizzard-de-debut-janvier-1979-dans-la-beauce
+  39. file:///actualites/chutes-de-neige-prevues-dans-le-nord-est-vendredi
+  40. file:///actualites/un-1er-janvier-1997-polaire
   41. file:///guillaume-sechet
   42. https://www.meteo-paris.com/guillaume-sechet
   43. https://www.meteo-villes.com/actualites/guillaume-sechet-chronique-d-une-passion-meteo-peu-ordinaire

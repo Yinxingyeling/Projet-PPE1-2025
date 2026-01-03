@@ -148,7 +148,7 @@ La Terre de nos batailles
    _____________________________________________
    _____________________________________________
    _____________________________________________
-   Instagram
+   Facebook
    ____________________
    Ce champ n’est utilisé qu’à des fins de validation et devrait rester
    inchangé.
@@ -246,14 +246,13 @@ et débloquez tous les contenus
      * [66]Pocket
 
    En continu
-   12h49 [67]Marseille : un corps retrouvé dans le coffre d’une voiture
-   incendiée, la piste de l’assassinat privilégiée
-   12h48 [68]Au Venezuela, le président Nicolás Maduro se dit prêt à
-   discuter de la lutte contre le narcotrafic
-   11h45 [69]Incendie dans un bar en Suisse : 40 morts, 115 blessés, une
-   première victime identifiée et des questions qui restent en suspens
-   11h32 [70]« Una historia americana » : le groupe Vidala ressuscite le
-   répertoire de la nueva cancion
+   18h49 [67]Yémen : les séparatistes annoncent le début d’un processus
+   vers l’indépendance du Sud
+   17h54 [68]CAN 2025 : Ayoub El Kaabi, l’orfèvre du but
+   15h12 [69]Sexisme : militantes et responsables politiques alertent sur
+   l’usage de l’IA Grok pour déshabiller virtuellement des femmes sans
+   leur consentement
+   14h29 [70]Tribune. 2026 : où va notre école ?
    [71]Voir toute l’actu
 
    Articles les plus lus dans cette rubrique
@@ -428,10 +427,10 @@ Références
   64. https://api.whatsapp.com/send?text=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
   65. https://www.facebook.com/dialog/send?app_id=254585183694&link=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&redirect_uri=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites
   66. https://getpocket.com/save?url=https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites&title=Pesticides :+jusqu’à+140+tonnes+détectées+dans+les+nuages,+dont+des+substances+interdites
-  67. https://www.humanite.fr/societe/enquete/marseille-un-corps-retrouve-dans-le-coffre-dune-voiture-incendiee-la-piste-de-lassassinat-privilegiee
-  68. https://www.humanite.fr/monde/etats-unis/au-venezuela-le-president-nicolas-maduro-se-dit-pret-a-discuter-de-la-lutte-contre-le-narcotrafic
-  69. https://www.humanite.fr/monde/incendies/incendie-dans-un-bar-en-suisse-plusieurs-dizaines-de-morts-presumes-une-centaine-de-blesses-dont-deux-francais
-  70. https://www.humanite.fr/culture-et-savoir/amerique-du-sud/una-historia-americana-le-groupe-vidala-ressuscite-le-repertoire-de-la-nueva-cancion
+  67. https://www.humanite.fr/monde/arabie-saoudite/yemen-les-separatistes-annoncent-le-debut-dun-processus-vers-lindependance-du-sud
+  68. https://www.humanite.fr/sports/coupe-dafrique-des-nations/can-2025-ayoub-el-kaabi-lorfevre-du-but
+  69. https://www.humanite.fr/feminisme/cyberharcelement/militants-et-responsables-politiques-alertent-sur-lusage-de-lia-grok-pour-deshabiller-virtuellement-des-femmes-sans-leur-consentement
+  70. https://www.humanite.fr/en-debat/ecole/2026-ou-va-notre-ecole
   71. https://www.humanite.fr/en-continu
   72. https://www.humanite.fr/environnement/autoroute-a69/la69-puissant-revelateur-des-renoncements-environnementaux-de-la-macronie
   73. https://www.humanite.fr/surtitre/editorial

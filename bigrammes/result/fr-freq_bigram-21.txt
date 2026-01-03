@@ -534,8 +534,8 @@
       1 rôle des
       1 rétroagir sur
       1 retenir qu
-      1 retenir nuages
       1 retenir les
+      1 retenir focus
       1 résultent on
       1 restent sphériques
       1 restent peu
@@ -1170,6 +1170,7 @@
       1 fonctionnement nuage
       1 fonction de
       1 fois le
+      1 focus nuages
       1 flottabilité liée
       1 figure un
       1 figure rapport

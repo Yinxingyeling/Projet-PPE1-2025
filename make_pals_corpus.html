@@ -8,7 +8,13 @@
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
 
         <!-- Ouvrir une nouvelle fenêtre vers le fichier -->
-        <script>
+        <!-- <script>
+            fetch("PALS/fix_encoding.py")
+            .then(r => r.text())
+            .then(txt => {
+                document.getElementById("code").textContent = txt;
+            });
+
             document.addEventListener('DOMContentLoaded', () => {
                 // Fichier Dump-text
                 const frDump = document.getElementById('frDump');
@@ -42,13 +48,13 @@
                     window.open(zhCtxtLink, "_blank", "width=600,height=400,resizable=yes");
                 });
             });
-        </script>
+        </script> -->
     </head>
     <body class="is-info has-background-info-light">
         <section class="hero is-medium is-info">
             <div class="hero-body container has-text-centered">
-                <h1 class="title is-1">Script</h1>
-                <h2 class="subtitle is-3">Corpus français</h2>
+                <h1 class="title is-1">PALS</h1>
+                <h2 class="subtitle is-3">Corpus français et chinois</h2>
             </div>
         </section>
         <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -110,18 +116,97 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Afficher les résultats -->
         <section class="section">
-            <h1 class="title is-1 has-text-centered">Dump text</h1>
-            <div style="margin-top: 60px;">
-                <button id="frDump" class="button subtitle is-4" style="margin-left: 20%; position: relative;">Pals des dump text français</button>
-                <button id="zhDump" class="button subtitle is-4" style="margin-left: 20%; position: relative;">Pals des dump text chinois</button>
+            <h1 class="subtitle is-3 has-text-centered">Fichiers Texte</h1>
+            <p class="has-text-centered" style="margin-bottom: 5px;">Cliquer sur les boutons ci-dessous pour afficher </p>
+
+            <!-- Boutons pour afficher les blocs -->
+            <div class="buttons-row" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
+                <button class="button has-background-link-light" onclick="toggleBlock('dumpFR')">Dumps FR</button>
+                <button class="button has-background-link-light" onclick="toggleBlock('dumpZH')">Dumps ZH</button>
+                <button class="button has-background-link-light" onclick="toggleBlock('ctxtFR')">Contextes FR</button>
+                <button class="button has-background-link-light" onclick="toggleBlock('ctxtZH')">Contextes ZH</button>
             </div>
-            <h1 class="title is-1 has-text-centered">Contextes</h1>
-            <div style="margin-top: 60px;">
-                <button id="frCtxt" class="button subtitle is-4" style="margin-left: 20%; position: relative;">Pals des contextes français</button>
-                <button id="zhCtxt" class="button subtitle is-4" style="margin-left: 20%; position: relative;">Pals des contextes chinois</button>
-            </div>
+
+            <!-- Blocs déroulants pour le texte -->
+             <div id="blocksContainer" class="blockGe">
+                <div id="dumpFR" class="text-block blockText">
+                    <p class="has-text-centered subtitle is-5 has-background-link-light blockTitre" >
+                    <strong>Dumps FR</strong>
+                    </p>
+                    <div id="dumpFRContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
+
+                <div id="dumpZH" class="text-block blockText">
+                    <p class="has-text-centered subtitle is-5 has-background-link-light blockTitre" >
+                    <strong>Dumps ZH</strong>
+                    </p>
+                    <div id="dumpZHContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
+
+                <div id="ctxtFR" class="text-block blockText">
+                    <p class="has-text-centered subtitle is-5 has-background-link-light blockTitre" >
+                    <strong>Contextes FR</strong>
+                    </p>
+                    <div id="ctxtFRContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
+
+                <div id="ctxtZH" class="text-block blockText">
+                    <p class="has-text-centered subtitle is-5 has-background-link-light blockTitre" >
+                    <strong>Contextes ZH</strong>
+                    </p>
+                    <div id="ctxtZHContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
+             </div>
         </section>
+
+        <!-- Si n'affiche pas -->
+        <div class="has-text-centered">
+            <p style="margin-top: 20px;"> 
+                <p style="margin-bottom: 5px;">Si les tableaux ne s'affichent pas, à télécharger :</p>
+                <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
+                    <a class="button" href="PALS/dumps-text-fr-clean.txt" target="_blank">Dumps FR</a>
+                    <a class="button" href="PALS/dumps-text-zh.txt" target="_blank">Dumps ZH</a>
+                    <a class="button" href="PALS/contextes-fr-clean.txt" target="_blank">Contextes FR</a>
+                    <a class="button" href="PALS/contextes-zh.txt" target="_blank">Contextes ZH</a>
+                </div>
+            </p>
+        </div>
+
+        <!-- Script JS pour fetch et toggle -->
+        <script>
+            // Toggle d'un bloc
+            function toggleBlock(id) {
+                const el = document.getElementById(id);
+                el.style.display = el.style.display === 'none' ? 'block' : 'none';
+            }
+
+            // Fonction pour fetch un fichier et mettre son contenu dans un div
+            function loadText(filePath, contentId) {
+                fetch(filePath)
+                    .then(res => {
+                        if(!res.ok) throw new Error("Impossible de charger " + filePath);
+                        return res.text();
+                    })
+                    .then(txt => {
+                        document.getElementById(contentId).textContent = txt;
+                    })
+                    .catch(err => {
+                        document.getElementById(contentId).textContent = "Erreur : " + err.message;
+                    });
+            }
+
+            // Charger tous les fichiers au démarrage (optionnel)
+            document.addEventListener('DOMContentLoaded', () => {
+                loadText('PALS/dumps-text-fr-clean.txt', 'dumpFRContent');
+                loadText('PALS/dumps-text-zh.txt', 'dumpZHContent');
+                loadText('PALS/contextes-fr-clean.txt', 'ctxtFRContent');
+                loadText('PALS/contextes-zh.txt', 'ctxtZHContent');
+            });
+        </script>
+
                 
         <!-- Script -->
         <section class="section">

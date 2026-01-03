@@ -521,7 +521,7 @@ Références
   61. https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/#comment-7315
   62. https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/?replytocom=7315#respond
   63. file:///2020/06/ode-aux-nuages/#respond
-  64. https://jetpack.wordpress.com/jetpack-comment/?blogid=160195553&postid=42495&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Laisser+un+commentaire&jetpack_comments_nonce=4ce4a93a9b&greeting_reply=Répondre+à+%s&color_scheme=light&lang=fr_FR&jetpack_version=15.3.1&iframe_unique_id=1&show_cookie_consent=10&has_cookie_consent=0&is_current_user_subscribed=0&token_key=;normal;&sig=c32665fbd9c7ee7777f9f735803aa2e38eff5d17#parent=https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/
+  64. https://jetpack.wordpress.com/jetpack-comment/?blogid=160195553&postid=42495&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Laisser+un+commentaire&jetpack_comments_nonce=4ff9351fc7&greeting_reply=Répondre+à+%s&color_scheme=light&lang=fr_FR&jetpack_version=15.3.1&iframe_unique_id=1&show_cookie_consent=10&has_cookie_consent=0&is_current_user_subscribed=0&token_key=;normal;&sig=33f5800f22ec1c678b7d9d00343403a3115fbcac#parent=https://www.patrickcorneau.fr/2020/06/ode-aux-nuages/
   65. https://www.paypal.com/donate/?hosted_button_id=BYPUH93DAGFPA
   66. https://www.patrickcorneau.fr/2020/06/le-bobovarysme-dadele-van-reeth/
   67. https://www.patrickcorneau.fr/2020/04/nous-voici-encore-seuls/
@@ -585,7 +585,7 @@ Références
  125. https://www.patrickcorneau.fr/livres-publications/
  126. https://www.patrickcorneau.fr/a-propos/
  127. https://www.milaweissweiler.com/
- 128. https://widgets.wp.com/likes/master.html?ver=20260102#ver=20260102&lang=fr
+ 128. https://widgets.wp.com/likes/master.html?ver=20260103#ver=20260103&lang=fr
 
    Liens cachés :
  130. https://www.patrickcorneau.fr/2020/06/le-bobovarysme-dadele-van-reeth/

@@ -2572,7 +2572,8 @@ du temps
 temps messages
 messages à
 à retenir
-retenir nuages
+retenir focus
+focus nuages
 nuages classification
 classification nuages
 nuages types

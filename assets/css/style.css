@@ -16,3 +16,34 @@ pre.bashHtml {
 code.scriptHtml { 
     font-family: monospace; 
 }
+
+/* make_pals_corpus.html */
+div.blockText {
+    display:none; 
+    max-height:300px; 
+    overflow-y:auto; 
+    border:1px solid #ccc; 
+    margin-bottom:10px; 
+    width:20%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    background:#f0f9fc; 
+    border-radius:6px;
+}
+
+p.blockTitre {
+    position: sticky; 
+    top:0; z-index:1; 
+    margin:0; 
+    padding:5px; 
+    border-bottom:1px solid #ccc;
+}
+
+div.blockGe {
+    display:flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;  /* aligne en haut de chaque ligne */
+    gap:10px;
+    min-height: 320px;       /* hauteur minimum pour le centrage vertical */
+}

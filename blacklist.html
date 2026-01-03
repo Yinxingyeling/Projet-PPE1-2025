@@ -30,13 +30,15 @@
     <body class="is-info has-background-info-light">
         <section class="hero is-medium is-info">
             <div class="hero-body container has-text-centered">
-                <h1 class="title is-1">Script</h1>
-                <h2 class="subtitle is-3">Corpus français</h2>
+                <h1 class="title is-1">Blacklist</h1>
+                <h2 class="subtitle is-3">Corpus français et chinois</h2>
             </div>
         </section>
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <p class="navbar-item is-size-4" style="cursor: default;">☁️</p>
+                <p class="navbar-item">
+                    <img src="assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
+                </p>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -95,13 +97,86 @@
         </nav>
         <section class="section">
             <h1 class="title is-1 has-text-centered">Blacklist</h1>
-            <div style="margin-top:60px;">
-                <button id="frButton" class="button subtitle is-4" style="margin-left: 20%; position: relative;">Blacklist du corpus français</button>
-                <button id="zhButton" class="button subtitle is-4" style="margin-left: 20%; position: relative;">Blacklist du corpus chinois</button>
+
+            <!-- Boutons pour afficher les blocs -->
+            <div class="buttons-row" style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:60px; margin-bottom:15px;">
+                <button class="button has-background-link-light" onclick="toggleBlock('blacklistFR')">
+                    Blacklist du corpus français
+                </button>
+                <button class="button has-background-link-light" onclick="toggleBlock('blacklistZH')">
+                    Blacklist du corpus chinois
+                </button>
+                <button class="button has-background-link-light" onclick="toggleBlock('serversFR')">
+                    Blacklist du corpus français
+                </button>
+                <button class="button has-background-link-light" onclick="toggleBlock('serversZH')">
+                    Blacklist du corpus chinois
+                </button>
+            </div>
+
+            <!-- Conteneur flex pour les blocs Blacklist -->
+            <div class="blockGe">
+                <!-- Bloc Blacklist FR -->
+                <div id="blacklistFR" class="blockText">
+                    <p class="blockTitre has-text-centered has-background-link-light"><strong>Blacklist FR</strong></p>
+                    <div id="blacklistFRContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
+
+                <!-- Bloc Blacklist ZH -->
+                <div id="blacklistZH" class="blockText">
+                    <p class="blockTitre has-text-centered has-background-link-light"><strong>Blacklist ZH</strong></p>
+                    <div id="blacklistZHContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
+                <!-- Bloc servers FR -->
+                <div id="serversFR" class="blockText">
+                    <p class="blockTitre has-text-centered has-background-link-light"><strong>Servers liste FR</strong></p>
+                    <div id="serversFRContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
+
+                <!-- Bloc servers ZH -->
+                <div id="serversZH" class="blockText">
+                    <p class="blockTitre has-text-centered has-background-link-light"><strong>Servers liste ZH</strong></p>
+                    <div id="serversZHContent" style="padding:10px; white-space: pre-wrap;"></div>
+                </div>
             </div>
         </section>
+
+        <!-- Si n'affiche pas -->
+        <div class="has-text-centered">
+            <p style="margin-top: 20px;"> 
+                <p style="margin-bottom: 5px;">Si les tableaux ne s'affichent pas, à télécharger :</p>
+                <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
+                    <a class="button" href="tmp/fr.txt-blacklist" target="_blank">Blacklist FR</a>
+                    <a class="button" href="tmp/zh.txt-blacklist" target="_blank">Blacklist ZH</a>
+                    <a class="button" href="tmp/fr-servers.txt" target="_blank">Servers FR</a>
+                    <a class="button" href="tmp/zh-servers.txt" target="_blank">Servers ZH</a>
+                </div>
+            </p>
+        </div>
+
+        <!-- Script JS pour fetch et toggle -->
+        <script>
+            function toggleBlock(id) {
+                const el = document.getElementById(id);
+                el.style.display = el.style.display === 'none' ? 'block' : 'none';
+            }            
+
+            function loadText(filePath, contentId) {
+                fetch(filePath)
+                    .then(res => res.ok ? res.text() : Promise.reject("Impossible de charger " + filePath))
+                    .then(txt => document.getElementById(contentId).textContent = txt)
+                    .catch(err => document.getElementById(contentId).textContent = "Erreur : " + err);
+            }
+
+            document.addEventListener('DOMContentLoaded', () => {
+                loadText('tmp/fr.txt-blacklist', 'blacklistFRContent');
+                loadText('tmp/zh.txt-blacklist', 'blacklistZHContent');
+                loadText('tmp/fr-servers.txt', 'serversFRContent')
+                loadText('tmp/zh-servers.txt', 'serversZHContent')
+            });
+        </script>
                 
-        <!-- Script -->
+        <!-- Script code -->
         <section class="section">
             <h1 class="title is-1 has-text-centered">Script</h1>
             <pre id="code"></pre>
