@@ -82,23 +82,15 @@
                 <h1 class="title is-1 has-text-centered">PALS</h1>
                 <div class="block" style="margin: 10px auto; width: 70%; text-align: justify">
                     <p>
-                        Nous allons faire une première analyse avec les scripts PALS récupérés dans
-                        dépôt Git de M. Dupont.
+                        Nous avons utilisé l’outil PALS - le script <code>cooccurrents.py</code> fourni en cours, afin de traiter les corpus dumps-text et contextes pour analyser l’environnement sémantique du mot chinois 云 et examiner la diversité de ses usages.
                     </p>
                     <p>
-                        Après consultation de la documentation, et du fichier d'exercice pals. Nous faisons un prétraitement pour que les scripts PALS puissent
-                        traiter les textes donnés.
+                        Lors d’une première exécution du script, les tableaux de cooccurrences obtenus contenaient un grand nombre de signes de ponctuation, de lettres, de chiffres ainsi que des particules grammaticales fréquemment utilisées en chinois (telles que 了, 到, 这, 哪). Les signes de ponctuation y étaient particulièrement nombreux et apparaissaient parmi les cooccurrents les plus fréquents, ce qui nuisait à l’interprétation sémantique des résultats.
                     </p>
                     <p>
-                        Nous lançons le script <code>cooccurrents.py</code>
-                        avec la commande ci-contre. Nous ciblons la recherche sur <strong>nuage</strong> et ses dérivés
-                        avec l'utilisation d'une expression régulière.
-                    </p>
-                    <p>
-                        Après avoir lancée une première fois le script, nous voyons dans le résultat des problèmes d'encodage mal nettoyé malgrès le fichier converti en UTF-8.
-                        Ansi, pour avoir un résultat plus parlant, nous avons écrit un
-                        <code style="background-color: rgb(255, 242, 226);"><span onclick="toggleBlock('script-py')" style="cursor:pointer; color: #e00000;">script python</span></code>*
-                         qui tente de corriger les erreurs d'encodage du à la reconversion.
+                        Afin de faciliter l’analyse ultérieure sans altérer les mots porteurs de sens, nous avons donc développé un
+                        <code style="background-color: rgb(255, 242, 226);"><span onclick="toggleBlock('script-py')" style="cursor:pointer; color: #e00000;">script Python</span></code>*
+                        de nettoyage simple, appliqué en amont aux tableaux de cooccurrences. Ce traitement vise à éliminer les éléments non lexicaux ou peu informatifs tout en préservant les unités lexicales pertinentes.
                     </p>
                     <p>
                         Le résultat se trouve dans le bouton "<strong>Dumps-cooccurents</strong>"
@@ -107,7 +99,7 @@
                     <div id="script-py" style="display: none; margin: 10px auto; width: 40%; text-align: justify;">
                         <pre id="code" style="background-color: rgb(255, 242, 226);"></pre>
                         <script>
-                        fetch("PALS/fix_encoding.py")
+                        fetch("PALS/clean_coocurrence_chinois.py")
                         .then(r => r.text())
                         .then(txt => {
                             document.getElementById("code").textContent = txt;
@@ -118,15 +110,15 @@
 
                 <!-- Ajout des codes .py utlisés-->
                 <pre style="background-color: rgb(240, 249, 252); color: rgb(211, 8, 8);margin: 10px auto; width: 90%; text-align: justify;"><code>
-                    # Prétraitement des problèmes d'encodages
-                    python fix_encoding.py contextes-fr.txt contextes-fr-clean.txt
-                    python fix_encoding.py dumps-text-fr.txt dumps-text-fr-clean.txt
+                    # Prétraitement des problèmes de bruits
+                    python clean_coocurrence_chinois.py dumps-text-zh.txt dumps-text-zh-clean.txt
+                    python clean_coocurrence_chinois.py contextes-zh.txt contextes-zh-clean.txt
 
                     # Cooccurrences des fichiers dumps-text
-                    python cooccurrents.py ../dumps-text-fr-clean.txt --target "(N|n)uage(s|ux|use|uses)?" --match-mode regex > ../result/francais/dumps-cooccurents.tsv 2> /dev/null
+                    python3 cooccurrents.py --target ".*云.*" ../dumps-text-zh-clean.txt --match-mode regex -s i  > ../result/chinois/dumps-cooccurrents.tsv
 
                     # Cooccurrences des fichiers contextes
-                    python cooccurrents.py ../contextes-fr-clean.txt --target "(N|n)uage(s|ux|use|uses)?" --match-mode regex > ../result/francais/contextes-cooccurents.tsv 2> /dev/null
+                    python3 cooccurrents.py --target ".*云.*" ../contextes-zh-clean.txt --match-mode regex -s i  > ../result/chinois/contextes-cooccurrents.tsv
                 </code></pre>
 
                 <!-- Afficher les résultats -->
@@ -163,8 +155,8 @@
                         <p style="margin-top: 20px;">
                             <p style="margin-bottom: 5px;">Si les tableaux ne s'affiche pas, à télécharger : </p>
                             <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
-                                <a class="button" href="PALS/result/chinois/dumps-cooccurents-clean.tsv" target="_blank">Dumps-cooccurents</a>
-                                <a class="button" href="PALS/result/chinois/contextes-cooccurrents-clean.tsv" target="_blank">Contextes-cooccurents</a>
+                                <a class="button" href="PALS/result/chinois/dumps-cooccurrents.tsv" target="_blank">Dumps-cooccurents</a>
+                                <a class="button" href="PALS/result/chinois/contextes-cooccurrents.tsv" target="_blank">Contextes-cooccurents</a>
                             </div>
                         </p>
                     </div>
@@ -174,7 +166,32 @@
                         <h1 class="subtitle is-3 has-text-centered">Analyse</h1>
                         <h2 class="subtitle is-4">Dumps</h2>
                         <div>
-                            <p>Selon le tableau de <strong>Dumps - Cooccurrences</strong>, </p>
+                            <p>
+                            Dans le tableau Dumps, les termes techniques occupent une place dominante. Du point de vue de la specificity, on observe une forte présence de vocabulaire lié aux technologies modernes, comme 计算 (calcul / computing, 22,61), 技术 (technologie, 22,23), 服务 (service, 16,04), 存储 (stockage, 7,08) et 数据 (données, 7). Des technologies plus récentes, comme 迁移 (migration, 8,75) et 游戏 (jeu vidéo, 8,68), apparaissent également parmi les cooccurrents les mieux classés.
+                            En revanche, les mots relevant du sens naturel de 云 sont moins nombreux dans les vingt premiers cooccurrents, par exemple 天空 (ciel, 9,07), 天气 (météo, 8,59) et 降水 (précipitations, 7,31).
+                            </p>
+                            <p>
+                            Dans le corpus dumps, le sens de 云 est donc fortement technicisé. Il renvoie à des contextes techniques précis, tels que les jeux vidéo, l’économie, les institutions publiques ou la gouvernance. Cela montre que 云, en tant que terme technique, est aujourd’hui largement intégré dans différents domaines de la vie sociale, et que ce sens est très dominant dans les textes liés aux technologies modernes.
+                            </p>
+                        </div>
+                        <h3 class="subtitle is-4">Contextes</h2>
+                        <div>
+                            <p>
+                            Dans le tableau Contextes, le sens naturel et le sens technique de 云 sont plus équilibrés, et la part des emplois métaphoriques est plus importante que dans dumps.Selon la specificity, les termes techniques comme 计算 (calcul), 技术 (technologie), 程序 (programme) et 服务 (service) restent bien classés, mais leur valeur de specificity diminue fortement. Par exemple, 计算 passe de 22,23 dans dumps à 9,09 dans contextes.
+                            Les mots liés au sens naturel, comme 天空 (ciel), 朵 (classificateur de nuage), 降水 (précipitations), 天上 (dans le ciel) et 积云 (cumulus), présentent également une baisse de specificity, mais leur rang dans le classement augmente.
+                            </p>
+                            <p>
+                            Dans le domaine littéraire et culturel, le mot 意象 (image symbolique) progresse nettement, passant de la 19ᵉ place dans dumps à la 8ᵉ place dans contextes. Cette évolution met en évidence le rôle du sens métaphorique de 云 en chinois. Le corpus contextes reflète ainsi une polysémie plus stable de 云, avec un meilleur équilibre entre le sens naturel et le sens technologique, ainsi qu’une présence plus marquée des usages littéraires et culturels.
+                            </p>
+                        </div>
+                        <h4 class="subtitle is-4">Conclusion</h2>
+                        <div>
+                            <p>
+                            L’analyse du nuage de mots montre clairement la coexistence du sens naturel (nuages) et du sens technique (réseau, Internet), le sens technique étant légèrement dominant. Par ailleurs, les emplois métaphoriques de 云 apparaissent également, telles que haut (高), nombreux (多), mouvant (变化) et instable ou léger (轻).En chinois, des expressions comme 高手如云 (beaucoup d’experts), 云游 (voyager sans itinéraire fixe), 云梯 (échelle très haute) ou 浮云 (chose légère ou sans importance) sont construites à partir des propriétés physiques du nuage.Dans le chinois classique, 云 peut aussi signifier “说” (dire). Cependant, ce sens n’a pas été pris en compte dans cette analyse, car sa fréquence était trop élevée dans le corpus et ne correspondait pas aux relations sémantiques étudiées. Il a donc été intégré à la liste des stopwords.
+                            </p>
+                            <p>
+                            Dans l’ensemble, la structure polysémique de 云 en chinois est stable et s’organise autour de deux sens principaux : le sens météorologique naturel (nuage) et le sens technologique (云计算, cloud computing). Cependant, ces résultats présentent certaines limites. Bien que le nombre de liens associés à chaque sens soit relativement équilibré, les résultats montrent une distribution inégale. C'est possiblement parce que les articles techniques présentent une forte densité terminologique, avec des termes spécialisés répétés et des sujets très concentrées, ce qui augmente la fréquence des cooccurrences. À l’inverse, les textes liés au sens naturel ou aux sens dérivés de 云 proviennent de sources plus variées. En dehors des textes spécialisés en météorologie, les occurrences dans les œuvres littéraires sont plus rares et plus dispersées, ce qui conduit à un nombre plus faible de cooccurrents.
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -183,9 +200,12 @@
                 // Fonction pour afficher / masquer un conteneur
                 function toggleBlock(containerId) {
                     const el = document.getElementById(containerId);
-                    el.style.display = el.style.display === 'none' ? 'block' : 'none';
-                }
+                    const isHidden = window.getComputedStyle(el).display === 'none';
+                    el.style.display = isHidden ? 'block' : 'none';
+                    }
+                </script>
 
+                <script>
                 // Fonction générique pour charger un TSV dans un tableau
                 function loadTSV(filePath, tableId) {
                     fetch(filePath)
@@ -216,12 +236,24 @@
 
                 // Chargement des TSV
 
-                loadTSV('PALS/result/chinois/dumps-cooccurents-clean.tsv', 'tsvDumpCoo');
-                loadTSV('PALS/result/chinois/contextes-cooccurents-clean.tsv', 'tsvCtxtCoo');
+                loadTSV('PALS/result/chinois/dumps-cooccurrents.tsv', 'tsvDumpCoo');
+                loadTSV('PALS/result/chinois/contextes-cooccurrents.tsv', 'tsvCtxtCoo');
                 </script>
             </div>
         </section>
         <!-- Wordcloud -->
+        <section class="section">
+            <div>
+                <h1 class="title is-1 has-text-centered">Wordcloud</h1>
+                <pre class="pals_wc"><code>
+                    wordcloud_cli   --text ../contextes-zh-clean.txt   --imagefile cloud_zh_contextes.png  --mask mask.png --stopwords stopwords_chinois.txt   --fontfile /usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc   --background white --scale 3 --margin 2 --max_font_size 50  --prefer_horizontal 0.98
+                </code></pre>
+            </div>
+             <div class="wordcloud-compare box" style="margin-top: 25px;">
+                <img src="assets/wordcloud/fr-contextes-2-grey.png" class="wc wc-grey">
+                <img src="PALS/wordcloud/cloud_zh_contextes.png" class="wc wc-color box">
+            </div>
+        </section>
         <section class="section">
             <div>
                 <h1 class="title is-1 has-text-centered">Wordcloud</h1>
