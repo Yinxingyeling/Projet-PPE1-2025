@@ -19,6 +19,29 @@ echo -e "<html>
         rel=\"stylesheet\"
         href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css\">
         <link rel="stylesheet" href="../assets/css/cloudanimation.css">
+        <script>
+                document.addEventListener('DOMContentLoaded', () => {
+
+                // Get all "navbar-burger" elements
+                const \$navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Add a click event on each of them
+                \$navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const \$target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    \$target.classList.toggle('is-active');
+
+                    });
+                });
+
+                });
+            </script>
     </head>
     <body class=\"tableau has-background-info-light\">
         <section class=\"hero is-medium is-info hero-cloud\">
@@ -38,7 +61,7 @@ echo -e "<html>
                     <img src=\"../assets/img/cloud.png\" alt=\"Cloud\" style=\"max-height: 40px;\">
                 </p>
 
-                <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
+                <a role=\"button\" class=\"navbar-burger is-active\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
                 <span aria-hidden=\"true\"></span>
                 <span aria-hidden=\"true\"></span>
                 <span aria-hidden=\"true\"></span>
@@ -46,7 +69,7 @@ echo -e "<html>
                 </a>
             </div>
 
-            <div id=\"navbarBasicExample\" class=\"navbar-menu\">
+            <div id=\"navbarBasicExample\" class=\"navbar-menu is-active\">
                 <div class=\"navbar-start\">
                     <a class=\"navbar-item\" href=\"../index.html\">
                         Home
@@ -148,6 +171,29 @@ echo -e "<html>
                 .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
                 .concordance-table td:nth-child(1) { text-align: center; color: #999; }
             </style>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+
+                // Get all "navbar-burger" elements
+                const \$navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Add a click event on each of them
+                \$navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const \$target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    \$target.classList.toggle('is-active');
+
+                    });
+                });
+
+                });
+            </script>
         </head>
 
         <body class=\"tableau has-background-info-light\">
@@ -168,7 +214,7 @@ echo -e "<html>
                         <img src=\"../assets/img/cloud.png\" alt=\"Cloud\" style=\"max-height: 40px;\">
                     </p>
 
-                    <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
+                    <a role=\"button\" class=\"navbar-burger is-active\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
                     <span aria-hidden=\"true\"></span>
                     <span aria-hidden=\"true\"></span>
                     <span aria-hidden=\"true\"></span>
@@ -176,7 +222,7 @@ echo -e "<html>
                     </a>
                 </div>
 
-                <div id=\"navbarBasicExample\" class=\"navbar-menu\">
+                <div id=\"navbarBasicExample\" class=\"navbar-menu is-active\">
                     <div class=\"navbar-start\">
                         <a class=\"navbar-item\" href=\"../index.html\">
                             Home
@@ -363,6 +409,29 @@ do
             .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
             .concordance-table td:nth-child(1) { text-align: center; color: #999; }
         </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const \$navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            \$navbarBurgers.forEach( el => {
+                el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const \$target = document.getElementById(target);
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                \$target.classList.toggle('is-active');
+
+                });
+            });
+
+            });
+        </script>
     </head>
 
     <body class=\"tableau has-background-info-light\">
@@ -383,7 +452,7 @@ do
                     <img src=\"../assets/img/cloud.png\" alt=\"Cloud\" style=\"max-height: 40px;\">
                 </p>
 
-                <a role=\"button\" class=\"navbar-burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
+                <a role=\"button\" class=\"navbar-burger is-active\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">
                 <span aria-hidden=\"true\"></span>
                 <span aria-hidden=\"true\"></span>
                 <span aria-hidden=\"true\"></span>
@@ -391,7 +460,7 @@ do
                 </a>
             </div>
 
-            <div id=\"navbarBasicExample\" class=\"navbar-menu\">
+            <div id=\"navbarBasicExample\" class=\"navbar-menu is-active\">
                 <div class=\"navbar-start\">
                     <a class=\"navbar-item\" href=\"../index.html\">
                         Home

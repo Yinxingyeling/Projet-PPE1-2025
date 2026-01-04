@@ -11,6 +11,29 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
             <link rel=stylesheet href=../assets/css/cloudanimation.css>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+
+                // Get all navbar-burger elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                    // Get the target from the data-target attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the is-active class on both the navbar-burger and the navbar-menu
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                    });
+                });
+
+                });
+            </script>
             <style>
                 /* Alignement des en-têtes */
                 .concordance-table th:nth-child(2) { text-align: right; width: 45%; }
@@ -44,7 +67,7 @@
                         <img src="../assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
                     </p>
 
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -52,7 +75,7 @@
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" class="navbar-menu">
+                <div id="navbarBasicExample" class="navbar-menu is-active">
                     <div class="navbar-start">
                         <a class="navbar-item" href="../index.html">
                             Home
@@ -152,5 +175,4 @@
 <tr><td>5</td><td>白</td><td>云</td><td>、蓝天，游轮、帆船，以及水草、水鸟，还有味道鲜美的许多鱼类。这是一种美得不能再美的境界，像个知心朋友。每个人，无论幸福与否，都能与她倾诉，</td></tr>
 <tr><td>5</td><td>苍山的</td><td>云</td><td>，洱海的月，因其巧夺天工的自然美而为人们着迷，更因有了这许多的变幻、许多的传说，越发富有吸引力，为人们津津乐道，心神往之，总是在有意无</td></tr>
 <tr><td>5</td><td></td><td>云</td><td>南是最适合执子之手、与子同游的地方。我希望终有一日，能和你一起站在鹊桥，望那苍山洱海，看那风花雪月。</td></tr>
-<tr><td>5</td><td>美盈国旅轻奢度假：洱海海景民宿+私人游艇解锁</td><td>云</td><td>南高端游新方式</td></tr>
 </tbody></table></div></section></body></html>

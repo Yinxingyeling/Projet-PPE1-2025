@@ -11,6 +11,29 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
         <link rel=stylesheet href=../assets/css/cloudanimation.css>
+        <script>
+                document.addEventListener('DOMContentLoaded', () => {
+
+                // Get all navbar-burger elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                    // Get the target from the data-target attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the is-active class on both the navbar-burger and the navbar-menu
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                    });
+                });
+
+                });
+            </script>
     </head>
     <body class="tableau has-background-info-light">
         <section class="hero is-medium is-info hero-cloud">
@@ -30,7 +53,7 @@
                     <img src="../assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
                 </p>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -38,7 +61,7 @@
                 </a>
             </div>
 
-            <div id="navbarBasicExample" class="navbar-menu">
+            <div id="navbarBasicExample" class="navbar-menu is-active">
                 <div class="navbar-start">
                     <a class="navbar-item" href="../index.html">
                         Home
@@ -227,7 +250,7 @@
                         <td><a href="https://www.oasisdesartistes.org/modules/newbbex/viewtopic.php?topic_id=62953&forum=18">https://www.oasisdesartistes.org/modules/newbbex/viewtopic.php?topic_id=62953&forum=18</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>2936</td> <!-- nombre de mot total -->
+                        <td>2933</td> <!-- nombre de mot total -->
                         <td>80</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/fr-11.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/fr-11.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -370,7 +393,7 @@
                         <td><a href="https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites">https://www.humanite.fr/environnement/pesticide/pesticides-jusqua-140-tonnes-detectees-dans-les-nuages-dont-des-substances-interdites</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>1773</td> <!-- nombre de mot total -->
+                        <td>1743</td> <!-- nombre de mot total -->
                         <td>7</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/fr-24.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/fr-24.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -392,7 +415,7 @@
                         <td><a href="https://www.poetica.fr/poeme-2912/nashmia-noormohamed-les-nuages/">https://www.poetica.fr/poeme-2912/nashmia-noormohamed-les-nuages/</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>1437</td> <!-- nombre de mot total -->
+                        <td>1436</td> <!-- nombre de mot total -->
                         <td>9</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/fr-26.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/fr-26.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -425,7 +448,7 @@
                         <td><a href="https://lactualite.com/temps-libre/culture/ce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages/">https://lactualite.com/temps-libre/culture/ce-qui-se-cache-derriere-a-qui-appartiennent-les-nuages/</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>1603</td> <!-- nombre de mot total -->
+                        <td>1614</td> <!-- nombre de mot total -->
                         <td>5</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/fr-29.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/fr-29.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -546,7 +569,7 @@
                         <td><a href="https://fr.acumatica.com/resources/articles/why-cloud-computing-is-the-future/">https://fr.acumatica.com/resources/articles/why-cloud-computing-is-the-future/</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>3421</td> <!-- nombre de mot total -->
+                        <td>3447</td> <!-- nombre de mot total -->
                         <td>29</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/fr-40.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/fr-40.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -568,7 +591,7 @@
                         <td><a href="https://www.ma-plume-webmag.com/fr/fenetre-sur/20-communication-et-medias/86-le-cloud-computing">https://www.ma-plume-webmag.com/fr/fenetre-sur/20-communication-et-medias/86-le-cloud-computing</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>utf-8</td> <!-- encodage de la page -->
-                        <td>1609</td> <!-- nombre de mot total -->
+                        <td>1611</td> <!-- nombre de mot total -->
                         <td>5</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/fr-42.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/fr-42.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->

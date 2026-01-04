@@ -2428,18 +2428,17 @@
       1 Internet 连
       1 Internet 的
       1 Internet 则
-      1 Id f092554519392701f6
+      1 Id 7
       1 Hugging Face
       1 HPC o
       1 Hat OpenShift
       1 GitHub Copilot
       1 Gaming 等
+      1 f 跳
       1 Functions o
       1 Face o
       1 Facebook 和
       1 Fabric o
-      1 f 2eeb
-      1 f092554519392701f6 c
       1 e 等
       1 Essentials o
       1 Edge o
@@ -2456,7 +2455,7 @@
       1 Cloud 受
       1 Cloud o
       1 Cloud Gaming
-      1 c 21
+      1 c 8ce
       1 Azure 集成
       1 Azure 语音
       1 Azure 计算
@@ -2505,15 +2504,17 @@
       1 AI 创新
       1 Accelerate o
       1 90 年代
+      1 8ce 2ff
+      1 7 c
+      1 67180049952003906b806 f
       1 60 年代
       1 4 什
       1 40 o
       1 3 一
       1 365 商业
-      1 347635 跳
       1 3 4
-      1 2eeb 347635
-      1 21 f
+      1 2ff 2f
+      1 2f 67180049952003906b806
       1 200 o
       1 19 疫情
       1 15 种

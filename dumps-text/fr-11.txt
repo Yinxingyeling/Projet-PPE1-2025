@@ -56,13 +56,13 @@
    [67]A SHOVNIGORATH [68]ALUTHORIENTAL [69]A VIKTHOR [70]A KERABAN [71]A
    BAGUETTE [72]A MATOGROSSO
    Qui est en ligne
-   110 utilisateur(s) en ligne (80utilisateur(s) en ligne sur Poèmes en
+   69 utilisateur(s) en ligne (52utilisateur(s) en ligne sur Poèmes en
    ligne)
    Membres: 0
-   Invités : 110
+   Invités : 69
    [73]plus...
    Choisissez
-   [74]Dans le maquis Corse.
+   [74]pabloemma
    Dictionnaires
    [75]Français [76]Conjugaison [77]Synonymes [78]Noms propres [79]Rimes
    [80]Inversé [81]Poétique [82]Prosodie [83]Citations [84]Multilingue
@@ -526,7 +526,7 @@ Références
   71. https://www.oasisdesartistes.org/modules/newbbex/viewforum.php?forum=66
   72. https://www.oasisdesartistes.org/modules/newbbex/viewforum.php?forum=67
   73. javascript:openWithSelfMain('https://oasisdesartistes.org/misc.php?action=showpopups&type=online','Online',420,350);
-  74. https://oasisdesartistes.org/modules/myalbum/photo.php?lid=2951&cid=1
+  74. https://oasisdesartistes.org/modules/myalbum/photo.php?lid=2438&cid=1
   75. https://www.lexilogos.com/francais_langue_dictionnaires.htm
   76. https://www.capeutservir.com/verbes/
   77. https://elsap1.unicaen.fr/cgi-bin/cherches.cgi

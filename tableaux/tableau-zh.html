@@ -11,6 +11,29 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
         <link rel=stylesheet href=../assets/css/cloudanimation.css>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all navbar-burger elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+                el.addEventListener('click', () => {
+
+                // Get the target from the data-target attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the is-active class on both the navbar-burger and the navbar-menu
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+                });
+            });
+
+            });
+        </script>
     </head>
     <body class="tableau has-background-info-light">
         <section class="hero is-medium is-info hero-cloud">
@@ -30,7 +53,7 @@
                     <img src="../assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
                 </p>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -38,7 +61,7 @@
                 </a>
             </div>
 
-            <div id="navbarBasicExample" class="navbar-menu">
+            <div id="navbarBasicExample" class="navbar-menu is-active">
                 <div class="navbar-start">
                     <a class="navbar-item" href="../index.html">
                         Home
@@ -165,8 +188,8 @@
                         <td><a href="https://m.163.com/dy/article/GLR9302A0541K0H8.html">https://m.163.com/dy/article/GLR9302A0541K0H8.html</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>1853</td> <!-- nombre de mot total -->
-                        <td>42</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td>1917</td> <!-- nombre de mot total -->
+                        <td>41</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/zh-5.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/zh-5.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
                         <td><a href="../bigrammes/result/zh-freq_bigram-5.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
@@ -321,7 +344,7 @@
                         <td><a href="https://azure.microsoft.com/zh-cn/resources/cloud-computing-dictionary/what-is-the-cloud/">https://azure.microsoft.com/zh-cn/resources/cloud-computing-dictionary/what-is-the-cloud/</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>3558</td> <!-- nombre de mot total -->
+                        <td>3559</td> <!-- nombre de mot total -->
                         <td>145</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/zh-18.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/zh-18.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -345,7 +368,7 @@
                         <td><a href="https://m.news.cctv.com/2021/01/15/ARTID2RAZZT04XEF2umqo1RF210115.shtml">https://m.news.cctv.com/2021/01/15/ARTID2RAZZT04XEF2umqo1RF210115.shtml</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>751</td> <!-- nombre de mot total -->
+                        <td>747</td> <!-- nombre de mot total -->
                         <td>14</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/zh-20.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/zh-20.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -489,7 +512,7 @@
                         <td><a href="https://www.shuiwy.com/a/94166.html">https://www.shuiwy.com/a/94166.html</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>1252</td> <!-- nombre de mot total -->
+                        <td>1254</td> <!-- nombre de mot total -->
                         <td>73</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/zh-32.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/zh-32.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
@@ -573,8 +596,8 @@
                         <td><a href="https://hunan.voc.com.cn/news/202402/22370472.html">https://hunan.voc.com.cn/news/202402/22370472.html</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>1965</td> <!-- nombre de mot total -->
-                        <td>9</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td>1961</td> <!-- nombre de mot total -->
+                        <td>11</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/zh-39.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/zh-39.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
                         <td><a href="../bigrammes/result/zh-freq_bigram-39.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
@@ -621,8 +644,8 @@
                         <td><a href="https://www.guwendao.net/mingju/juv_595a48a9f0f2.aspx">https://www.guwendao.net/mingju/juv_595a48a9f0f2.aspx</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>1438</td> <!-- nombre de mot total -->
-                        <td>15</td> <!-- nombre d'occurrence de nuage(s) -->
+                        <td>1441</td> <!-- nombre de mot total -->
+                        <td>14</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/zh-43.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/zh-43.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->
                         <td><a href="../bigrammes/result/zh-freq_bigram-43.txt">Bigramme</a></td> <!-- lien vers la liste de fréquences de bigrammes -->
@@ -633,7 +656,7 @@
                         <td><a href="https://thais.com/news-71910/">https://thais.com/news-71910/</a></td> <!-- lien url -->
                         <td>200</td> <!-- code http -->
                         <td>UTF-8</td> <!-- encodage de la page -->
-                        <td>793</td> <!-- nombre de mot total -->
+                        <td>807</td> <!-- nombre de mot total -->
                         <td>7</td> <!-- nombre d'occurrence de nuage(s) -->
                         <td><a href="../contextes/zh-44.txt">Contexte</a></td> <!-- lien vers le contexte autour de nuage (.txt) -->
                         <td><a href="../concordances/zh-44.html">Concordance</a></td> <!-- lien vers la concordance de nuage -->

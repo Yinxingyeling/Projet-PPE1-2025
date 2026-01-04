@@ -443,13 +443,14 @@ Réussir la mise en œuvre de l'ERP en nuage
    Pour Reed, l'expérience Acumatica du CCE est un excellent exemple de
    résultats concrets.
 
-   Christy Lin
-   "Lorsqu'une personne située dans un autre fuseau horaire a besoin d'une
-   information, il lui suffit de se connecter au système sans avoir à
-   attendre la réponse le lendemain.
-   Christy Lin, directrice des opérations d'Antenova Limited, succursale
-   de Taïwan
-   Antenova Limited
+   Amanda Datte
+   "Nous savions qu'Acumatica était une solution avec laquelle nous
+   pouvions nous développer. Nous savions qu'elle n'allait pas nous
+   limiter dans ce que nous pouvions faire. Il y a beaucoup de
+   possibilités pour Clive et pour la façon dont nous voulons continuer à
+   nous développer.
+   Amanda Datte, directeur financier
+   Clive Coffee
 
 Comment Acumatica peut aider
 
@@ -474,19 +475,17 @@ Comment Acumatica peut aider
 
 Ressources en vedette
 
-   [222]Pourquoi les entreprises d'aujourd'hui, qu'elles soient prospères
-   ou en difficulté, ont-elles besoin d'une solution ERP ?
-   Livre électronique
-   [223]Pourquoi les entreprises d'aujourd'hui, qu'elles soient prospères
-   ou en difficulté, ont-elles besoin d'une solution ERP ?
-   [224]Acumatica, société spécialisée dans l'ERP en nuage, propose des
+   [222]Acumatica, société spécialisée dans l'ERP en nuage, propose des
    produits et des services de qualité professionnelle à des prix moyens.
    Rapport d'analyste
-   [225]Acumatica, société spécialisée dans l'ERP en nuage, propose des
+   [223]Acumatica, société spécialisée dans l'ERP en nuage, propose des
    produits et des services de qualité professionnelle à des prix moyens.
-   [226]Est-il temps de remplacer votre ancien système ERP ?
+   [224]Est-il temps de remplacer votre ancien système ERP ?
    Rapport d'analyste
-   [227]Est-il temps de remplacer votre ancien système ERP ?
+   [225]Est-il temps de remplacer votre ancien système ERP ?
+   [226]Rapport Grid® : Évaluation des logiciels ERP
+   Rapport d'évaluation par les pairs
+   [227]Rapport Grid® : Évaluation des logiciels ERP
    [228]Voir toutes les ressources
 
 Voyez ce qui est possible lorsque vous disposez d'une plateforme ERP à
@@ -759,12 +758,12 @@ Références
  219. file:///cloud-erp-software/
  220. file:///what-is-cloud-erp-software/
  221. https://fr.acumatica.com/contact-acumatica/
- 222. https://fr.acumatica.com/why-todays-thriving-and-struggling-businesses-need-an-erp-solution/
- 223. https://fr.acumatica.com/why-todays-thriving-and-struggling-businesses-need-an-erp-solution/
- 224. https://fr.acumatica.com/?post_type=offers&p=57796
- 225. https://fr.acumatica.com/?post_type=offers&p=57796
- 226. https://fr.acumatica.com/analyst-reports/time-to-replace-your-legacy-erp-system/
- 227. https://fr.acumatica.com/analyst-reports/time-to-replace-your-legacy-erp-system/
+ 222. https://fr.acumatica.com/?post_type=offers&p=57796
+ 223. https://fr.acumatica.com/?post_type=offers&p=57796
+ 224. https://fr.acumatica.com/analyst-reports/time-to-replace-your-legacy-erp-system/
+ 225. https://fr.acumatica.com/analyst-reports/time-to-replace-your-legacy-erp-system/
+ 226. https://fr.acumatica.com/?post_type=offers&p=80380
+ 227. https://fr.acumatica.com/?post_type=offers&p=80380
  228. file:///resources/
  229. file:///request-a-demo/
  230. file:///request-more-information/

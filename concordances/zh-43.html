@@ -11,6 +11,29 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
             <link rel=stylesheet href=../assets/css/cloudanimation.css>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+
+                // Get all navbar-burger elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                    // Get the target from the data-target attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the is-active class on both the navbar-burger and the navbar-menu
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                    });
+                });
+
+                });
+            </script>
             <style>
                 /* Alignement des en-têtes */
                 .concordance-table th:nth-child(2) { text-align: right; width: 45%; }
@@ -44,7 +67,7 @@
                         <img src="../assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
                     </p>
 
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -52,7 +75,7 @@
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" class="navbar-menu">
+                <div id="navbarBasicExample" class="navbar-menu is-active">
                     <div class="navbar-start">
                         <a class="navbar-item" href="../index.html">
                             Home
@@ -138,5 +161,5 @@
 <tr><td>43</td><td>楼阁玲珑五</td><td>云</td><td>起，其中绰约多仙子。</td></tr>
 <tr><td>43</td><td>云鬓半偏新睡觉，花冠不整下堂来。(云鬓 一作：</td><td>云</td><td>髻)</td></tr>
 <tr><td>43</td><td>鬓发如</td><td>云</td><td>面容似花，头戴着金步摇，在精美的芙蓉帐中与皇上共度春宵。</td></tr>
-<tr><td>43</td><td>愁云淡淡雨潇潇，暮暮复朝朝。 ——石孝友《眼儿媚·愁</td><td>云</td><td>淡淡雨潇潇》</td></tr>
+<tr><td>43</td><td>暖风十里丽人天，花压鬓</td><td>云</td><td>偏。 ——俞国宝《风入松·一春长费买花钱》</td></tr>
 </tbody></table></div></section></body></html>

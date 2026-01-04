@@ -24,6 +24,29 @@
             .concordance-table td:nth-child(4) { text-align: left; width: 40%; }
             .concordance-table td:nth-child(1) { text-align: center; color: #999; }
         </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all navbar-burger elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+                el.addEventListener('click', () => {
+
+                // Get the target from the data-target attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the is-active class on both the navbar-burger and the navbar-menu
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+                });
+            });
+
+            });
+        </script>
     </head>
 
     <body class="tableau has-background-info-light">
@@ -44,7 +67,7 @@
                     <img src="../assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
                 </p>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -52,7 +75,7 @@
                 </a>
             </div>
 
-            <div id="navbarBasicExample" class="navbar-menu">
+            <div id="navbarBasicExample" class="navbar-menu is-active">
                 <div class="navbar-start">
                     <a class="navbar-item" href="../index.html">
                         Home
@@ -154,8 +177,8 @@
 					<tr><td>40</td><td><span style="text-align:right;">   d'entreprise en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> destinée aux petites et moyennes entreprises qui</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">   En tant que société ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> à la croissance la plus rapide au</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">   sur les entreprises qui adoptent l'informatique en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> et sa</span></td></tr>
-					<tr><td>40</td><td><span style="text-align:right;">   [224]Acumatica, société spécialisée dans l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, propose des</span></td></tr>
-					<tr><td>40</td><td><span style="text-align:right;">   [225]Acumatica, société spécialisée dans l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, propose des</span></td></tr>
+					<tr><td>40</td><td><span style="text-align:right;">   [222]Acumatica, société spécialisée dans l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, propose des</span></td></tr>
+					<tr><td>40</td><td><span style="text-align:right;">   [223]Acumatica, société spécialisée dans l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;">, propose des</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">   [231]Système ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> Acumatica</span></td></tr>
 					<tr><td>40</td><td><span style="text-align:right;">     * [241]Qu'est-ce que l'ERP en </span></td><td><span style="color:red;">nuage</span></td><td><span style="text-align:left;"> ?</span></td></tr>
                </table>

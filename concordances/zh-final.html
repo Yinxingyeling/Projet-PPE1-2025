@@ -24,6 +24,29 @@
             .concordance-table td:nth-child(4) { text-align: left; width: 45%; }
             .concordance-table td:nth-child(1) { text-align: center; color: #999; }
         </style>
+        <script>
+                document.addEventListener('DOMContentLoaded', () => {
+
+                // Get all navbar-burger elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                    // Get the target from the data-target attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the is-active class on both the navbar-burger and the navbar-menu
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                    });
+                });
+
+                });
+            </script>
     </head>
 
     <body class="tableau has-background-info-light">
@@ -44,7 +67,7 @@
                         <img src="../assets/img/cloud.png" alt="Cloud" style="max-height: 40px;">
                     </p>
 
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -52,7 +75,7 @@
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" class="navbar-menu">
+                <div id="navbarBasicExample" class="navbar-menu is-active">
                     <div class="navbar-start">
                         <a class="navbar-item" href="../index.html">
                             Home
@@ -295,7 +318,6 @@
 <tr><td>5</td><td>白</td><td>云</td><td>、蓝天，游轮、帆船，以及水草、水鸟，还有味道鲜美的许多鱼类。这是一种美得不能再美的境界，像个知心朋友。每个人，无论幸福与否，都能与她倾诉，</td></tr>
 <tr><td>5</td><td>苍山的</td><td>云</td><td>，洱海的月，因其巧夺天工的自然美而为人们着迷，更因有了这许多的变幻、许多的传说，越发富有吸引力，为人们津津乐道，心神往之，总是在有意无</td></tr>
 <tr><td>5</td><td></td><td>云</td><td>南是最适合执子之手、与子同游的地方。我希望终有一日，能和你一起站在鹊桥，望那苍山洱海，看那风花雪月。</td></tr>
-<tr><td>5</td><td>美盈国旅轻奢度假：洱海海景民宿+私人游艇解锁</td><td>云</td><td>南高端游新方式</td></tr>
 <tr><td>6</td><td>沈从文：云南看</td><td>云</td><td></td></tr>
 <tr><td>6</td><td>来源：《水</td><td>云</td><td>：沈从文散文》</td></tr>
 <tr><td>6</td><td>真实的人生轨迹，充满着温馨的人情之美。时值沈从文先生逝世30周年，果麦文化出版《水</td><td>云</td><td>：沈从文散文》（2018年9月），再现沈从文的生命轨迹与深</td></tr>
@@ -1190,6 +1212,8 @@
 <tr><td>39</td><td>？它们都曾见证风</td><td>云</td><td>际会，刻印往昔辉煌，并仍将更加热烈地发展向前。</td></tr>
 <tr><td>39</td><td>全部名词串连起来，妙不可言。小对也是好的。‘春江花月’，‘龙虎风</td><td>云</td><td>’，‘千年’，‘小巷’，偏正结构，‘小巷’如果用‘一巷’或‘百巷’，也许量词</td></tr>
 <tr><td>39</td><td>从过去到现在，这里的一街一巷，一草一木，都保存着乾州古城乃至湘西文化的一段段记忆。它们兼容并包，不仅记下了英雄名流的风</td><td>云</td><td>轶事，也留痕了那些真实</td></tr>
+<tr><td>39</td><td></td><td>云</td><td>海雾凇引客来</td></tr>
+<tr><td>39</td><td></td><td>云</td><td>海雾凇引客来</td></tr>
 <tr><td>40</td><td>万商</td><td>云</td><td>集、共享商机 广交会耀眼成绩见证中国国际贸易稳步发展</td></tr>
 <tr><td>40</td><td>展商客商</td><td>云</td><td>集 拓展共建“一带一路”市场</td></tr>
 <tr><td>41</td><td>壮志凌</td><td>云</td><td>正当时！西部战区空军航空兵某旅深入推进实战化军事训练</td></tr>
@@ -1210,7 +1234,7 @@
 <tr><td>43</td><td>楼阁玲珑五</td><td>云</td><td>起，其中绰约多仙子。</td></tr>
 <tr><td>43</td><td>云鬓半偏新睡觉，花冠不整下堂来。(云鬓 一作：</td><td>云</td><td>髻)</td></tr>
 <tr><td>43</td><td>鬓发如</td><td>云</td><td>面容似花，头戴着金步摇，在精美的芙蓉帐中与皇上共度春宵。</td></tr>
-<tr><td>43</td><td>愁云淡淡雨潇潇，暮暮复朝朝。 ——石孝友《眼儿媚·愁</td><td>云</td><td>淡淡雨潇潇》</td></tr>
+<tr><td>43</td><td>暖风十里丽人天，花压鬓</td><td>云</td><td>偏。 ——俞国宝《风入松·一春长费买花钱》</td></tr>
 <tr><td>44</td><td>#今日泰国-泰国中文社 » Feed 今日泰国-泰国中文社 » 评论 Feed 今日泰国-泰国中文社 » 卧佛寺游客如</td><td>云</td><td>，祈求神明赐福迎接新年</td></tr>
 <tr><td>44</td><td>Reading: 卧佛寺游客如</td><td>云</td><td>，祈求神明赐福迎接新年</td></tr>
 <tr><td>44</td><td>卧佛寺游客如</td><td>云</td><td>，祈求神明赐福迎接新年</td></tr>
