@@ -150,11 +150,6 @@ S
 14
 S
 €™identifier
-Temps
-de
-lecture
-3
-min
 Le
 nuage
 de
